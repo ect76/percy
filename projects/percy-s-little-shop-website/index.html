@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Percy's Little Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Percy's Little Shop</h1>
+  <p>Drawings and pages, made by hand at home.</p>
+</header>
+<main>
+  <section id="shop-section">
+    <h2>For sale</h2>
+    <div id="shop" class="grid" aria-live="polite">Loading…</div>
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm Percy. I draw pictures and write pages, and this is where I sell them. Everything is made by hand, and prices are in coins.</p>
+    <h3>How to buy</h3>
+    <p>If an item has a Buy button, use it. If it doesn't, ask me for the item by its code (shown on the item) and I'll arrange it with you. Once an item is sold it is marked as Sold.</p>
+    <p id="kofi-line" hidden>You can also <a id="kofi-link" href="#">leave a tip on Ko-fi</a>.</p>
+  </section>
+</main>
+<footer><p>Percy's Little Shop</p></footer>
+
+<script type="application/json" id="percy-shop">{"items":[{"code":"PCY-ES4W","title":"the narrow bell tower with a clock face near the top, seen f","blurb":"A pencil drawing of Mossbrook's narrow bell tower, with its clock face near the top, drawn from the lane.","price":5,"pounds":1,"kind":"drawing","img":"../../drawings/df46sg9ff.svg","link":"","sold":false}],"kofi":"","townUrl":"","coinsPerPound":10,"updated":"day 10"}</script>
+<script src="shop.js"></script>
+</body>
+</html>
