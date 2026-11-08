@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<pattern id="h1" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2c3138" stroke-width="1.6"/></pattern>
+<pattern id="h2" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><line x1="0" y1="0" x2="0" y2="5" stroke="#23282e" stroke-width="1.4"/></pattern>
+<pattern id="h3" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><line x1="0" y1="0" x2="0" y2="12" stroke="#4a5058" stroke-width="1"/></pattern>
+<clipPath id="bodyclip"><path d="M345 345 C330 400 325 500 330 575 L545 575 C560 520 550 440 500 390 C470 360 440 340 415 325 Z"/></clipPath>
+<linearGradient id="fog" x1="0" x2="1"><stop offset="0" stop-color="#e3e6e6" stop-opacity="0"/><stop offset="0.5" stop-color="#e3e6e6" stop-opacity="0.85"/><stop offset="1" stop-color="#e8eae9" stop-opacity="1"/></linearGradient>
+</defs>
+<rect width="800" height="800" fill="#efe6d2"/>
+<rect x="28" y="28" width="744" height="744" fill="#f1ead9" stroke="#3a3f45" stroke-width="2.5" stroke-dasharray="none"/>
+
+<!-- far clock tower -->
+<g opacity="0.45" stroke="#3a3f45" stroke-width="2" fill="#a5adb3">
+<rect x="680" y="200" width="60" height="400"/>
+<polygon points="672,200 710,140 748,200"/>
+<circle cx="710" cy="240" r="17" fill="#e8e6dc"/>
+<line x1="710" y1="240" x2="710" y2="229"/><line x1="710" y1="240" x2="718" y2="244"/>
+</g>
+
+<!-- shop -->
+<g stroke="#2c3138" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="44" y="210" width="262" height="392" fill="#b8bfc4"/>
+<polygon points="30,212 175,108 320,212" fill="#6d7783"/>
+<path d="M44 210 L44 600 M175 210 L175 600 M306 210 L306 600 M44 300 L306 300 M44 440 L306 440" fill="none" stroke="#454b52" stroke-width="6"/>
+<path d="M60 222 L160 296 M290 222 L190 296" stroke="#454b52" stroke-width="4" fill="none"/>
+<!-- sign -->
+<rect x="70" y="236" width="210" height="48" fill="#cdd1cf" stroke-width="2.5"/>
+<text x="175" y="271" font-family="Georgia, serif" font-size="26" text-anchor="middle" fill="#2c3138" stroke="none" letter-spacing="4">MAPS</text>
+<!-- window -->
+<rect x="62" y="318" width="96" height="94" fill="#9fb0bb"/>
+<path d="M110 318 L110 412 M62 365 L158 365" stroke-width="2.5"/>
+<rect x="72" y="376" width="30" height="26" fill="#d8d2bd" stroke-width="1.5"/>
+<rect x="118" y="326" width="32" height="30" fill="#d8d2bd" stroke-width="1.5"/>
+<path d="M76 382 q8 6 14 -2 M122 336 q10 8 18 0" fill="none" stroke-width="1.2"/>
+<!-- flower box -->
+<rect x="58" y="414" width="104" height="22" fill="#6f6a60"/>
+<g stroke="none"><circle cx="72" cy="408" r="7" fill="#9b8aa8"/><circle cx="92" cy="406" r="7" fill="#b39a9a"/><circle cx="114" cy="408" r="7" fill="#9b8aa8"/><circle cx="136" cy="406" r="7" fill="#b39a9a"/><circle cx="152" cy="409" r="6" fill="#9b8aa8"/></g>
+<!-- door -->
+<path d="M200 600 L200 462 Q232 432 264 462 L264 600 Z" fill="#6f7c80"/>
+<circle cx="254" cy="535" r="4" fill="#2c3138"/>
+<path d="M232 440 L232 600" stroke-width="1.5"/>
+<!-- hanging globe -->
+<circle cx="290" cy="340" r="0"/>
+</g>
+
+<!-- ground -->
+<path d="M28 598 L772 598 L772 772 L28 772 Z" fill="#a1a9ad" stroke="#2c3138" stroke-width="2.5"/>
+<g fill="none" stroke="#3b4148" stroke-width="2" stroke-linecap="round">
+<path d="M40 625 q30 -10 60 0 q30 10 60 0 M180 628 q30 -9 60 0 M260 625 q28 -9 56 1 M560 622 q30 -9 60 0 M640 626 q30 -8 60 0 M60 660 q35 -10 70 0 q35 10 70 0 M230 662 q35 -9 70 0 M330 668 q30 -9 62 0 M560 664 q35 -10 70 0 M660 668 q35 -8 70 0 M40 705 q40 -10 80 0 q40 10 80 0 M250 710 q40 -9 80 0 M540 708 q40 -10 80 0 M650 712 q40 -8 80 0 M80 748 q40 -9 80 0 M260 752 q40 -9 80 0 M440 750 q40 -9 80 0 M600 750 q40 -9 80 0"/>
+<path d="M120 600 L110 625 M200 600 L196 628 M300 600 L296 626 M600 600 L606 622 M690 600 L690 626 M100 628 L92 660 M230 628 L222 662 M590 625 L580 664 M700 628 L694 668 M160 662 L150 705 M300 665 L296 710 M610 668 L600 708 M700 668 L706 712"/>
+</g>
+
+<!-- lamp post -->
+<g stroke="#2c3138" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M644 600 L644 290" stroke-width="7" fill="none"/>
+<rect x="632" y="580" width="24" height="20" fill="#4a5058"/>
+<polygon points="622,290 666,290 658,246 630,246" fill="#c9cdc0"/>
+<polygon points="620,246 668,246 644,224" fill="#4a5058"/>
+<path d="M644 260 L644 284" stroke-width="2"/>
+</g>
+
+<!-- fog -->
+<rect x="520" y="60" width="252" height="710" fill="url(#fog)"/>
+<g fill="#e8eae9" opacity="0.8"><ellipse cx="700" cy="610" rx="90" ry="26"/><ellipse cx="740" cy="540" rx="70" ry="30"/></g>
+
+<!-- shadow -->
+<ellipse cx="440" cy="668" rx="190" ry="20" fill="#5e676e" opacity="0.55"/>
+
+<!-- plinth -->
+<g stroke="#2c3138" stroke-width="3.2" stroke-linejoin="round">
+<path d="M262 590 L582 592 L584 622 L260 620 Z" fill="#b7bcbd"/>
+<path d="M276 620 L570 622 L570 668 L274 666 Z" fill="#a4abae"/>
+</g>
+<path d="M276 622 L570 624 L570 668 L274 666 Z" fill="url(#h3)" opacity="0.8"/>
+<path d="M400 592 L398 620 M470 592 L472 622 M330 620 L329 666 M480 622 L482 667" stroke="#2c3138" stroke-width="1.6" fill="none"/>
+
+<!-- tail -->
+<path d="M540 562 C600 570 612 598 548 596 L350 596 C332 594 334 578 356 576 L520 574 Z" fill="#a9b0b8" stroke="#2c3138" stroke-width="3.4" stroke-linejoin="round"/>
+<path d="M560 570 C590 576 592 590 556 590" fill="none" stroke="#2c3138" stroke-width="1.5"/>
+
+<!-- body -->
+<path d="M345 345 C330 400 325 500 330 575 L545 575 C560 520 550 440 500 390 C470 360 440 340 415 325 Z" fill="#aeb5bd"/>
+<!-- hatching on back crescent -->
+<g clip-path="url(#bodyclip)">
+<path d="M415 325 C440 340 470 360 500 390 C550 440 562 520 546 578 L470 578 C490 520 482 450 450 405 C432 378 424 350 415 325 Z" fill="url(#h1)"/>
+<path d="M440 340 C470 360 500 385 520 420 C555 470 560 530 546 578 L505 578 C522 520 512 470 490 430 C475 400 455 370 440 340 Z" fill="url(#h2)" opacity="0.9"/>
+<path d="M335 480 L335 575 L370 575 L368 480 Z" fill="url(#h3)"/>
+</g>
+<path d="M345 345 C330 400 325 500 330 575 L545 575 C560 520 550 440 500 390 C470 360 440 340 415 325" fill="none" stroke="#2c3138" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- haunch + legs -->
+<path d="M440 440 C490 450 505 520 480 574" fill="none" stroke="#2c3138" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M376 400 C372 470 376 530 372 574" fill="none" stroke="#2c3138" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M328 575 C322 560 340 552 358 556 C380 558 384 574 380 576 Z" fill="#aeb5bd" stroke="#2c3138" stroke-width="3" stroke-linejoin="round"/>
+<path d="M346 566 L346 575 M358 564 L358 575" stroke="#2c3138" stroke-width="1.5"/>
+
+<!-- head -->
+<polygon points="305,262 312,196 358,236" fill="#aeb5bd" stroke="#2c3138" stroke-width="3.4" stroke-linejoin="round"/>
+<polygon points="372,232 416,192 424,268" fill="#aeb5bd" stroke="#2c3138" stroke-width="3.4" stroke-linejoin="round"/>
+<polygon points="318,236 316,214 340,236" fill="#7f8891"/>
+<polygon points="392,232 412,214 414,248" fill="#7f8891"/>
+<path d="M392 232 L412 214 M396 240 L414 226 M400 250 L414 238" stroke="#2c3138" stroke-width="1.3"/>
+<ellipse cx="364" cy="288" rx="72" ry="60" fill="#b3bac1" stroke="#2c3138" stroke-width="3.6"/>
+<!-- head hatching on right side -->
+<path d="M410 240 C440 270 430 320 390 340 C415 310 420 270 410 240 Z" fill="url(#h1)"/>
+<!-- face -->
+<path d="M322 280 Q338 268 352 282 Q338 290 322 280 Z" fill="#e5e3d2" stroke="#2c3138" stroke-width="2.4"/>
+<path d="M380 280 Q396 268 410 282 Q394 290 380 280 Z" fill="#e5e3d2" stroke="#2c3138" stroke-width="2.4"/>
+<ellipse cx="338" cy="280" rx="3" ry="6" fill="#2c3138"/><ellipse cx="396" cy="280" rx="3" ry="6" fill="#2c3138"/>
+<path d="M360 302 L374 302 L367 312 Z" fill="#7d6e72" stroke="#2c3138" stroke-width="2"/>
+<path d="M367 312 L367 320 M367 320 Q356 330 346 322 M367 320 Q378 330 390 322" fill="none" stroke="#2c3138" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M330 312 L284 304 M330 320 L282 324 M332 328 L290 342 M398 312 L440 304 M400 320 L444 322" stroke="#2c3138" stroke-width="1.5" stroke-linecap="round"/>
+<!-- collar crease -->
+<path d="M318 340 Q370 360 424 332" fill="none" stroke="#2c3138" stroke-width="2.2" stroke-linecap="round"/>
+
+<!-- shaky extra pencil lines near back -->
+<path d="M572 430 q-4 20 -8 36 M580 450 q-3 18 -6 30" stroke="#5a6068" stroke-width="1" fill="none"/>
+
+<!-- little note: pencil -->
+<g transform="translate(560 730) rotate(-12)" stroke="#2c3138" stroke-width="2" stroke-linejoin="round">
+<rect x="0" y="0" width="120" height="12" fill="#c9a24a"/>
+<polygon points="0,0 -22,6 0,12" fill="#e3d4b0"/>
+<polygon points="-12,3.5 -22,6 -12,8.5" fill="#2c3138"/>
+<rect x="120" y="0" width="12" height="12" fill="#9a6f6f"/>
+<path d="M104 0 L104 12" stroke-width="1.2"/>
+</g>
+
+<!-- title + signature -->
+<text x="60" y="750" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#3a3f45">cat, third try</text>
+<text x="728" y="62" font-family="Georgia, serif" font-style="italic" font-size="26" fill="#2c3138">P.</text>
+</svg>
