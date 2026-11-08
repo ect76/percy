@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<linearGradient id="topfade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f6edd8" stop-opacity="1"/>
+<stop offset="1" stop-color="#f6edd8" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="botfade" x1="0" y1="1" x2="0" y2="0">
+<stop offset="0" stop-color="#efe8f0" stop-opacity="0.95"/>
+<stop offset="1" stop-color="#efe8f0" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="fogball" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#f3eef2" stop-opacity="0.9"/>
+<stop offset="1" stop-color="#f3eef2" stop-opacity="0"/>
+</radialGradient>
+<pattern id="bricks" width="60" height="40" patternUnits="userSpaceOnUse">
+<path d="M0 0.5H60M0 20.5H60M0 40H60M30 0V20M0 20V40M60 20V40" stroke="#8c5a46" stroke-width="1.4" fill="none" opacity="0.55"/>
+</pattern>
+</defs>
+
+<rect width="800" height="800" fill="#f6edd8"/>
+
+<!-- far lamp post in fog -->
+<g opacity="0.55" stroke="#3a3948" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="M62 640 L62 350"/>
+<path d="M50 640 H74"/>
+<path d="M50 340 L74 340 L70 312 L54 312 Z" fill="#f2d98a"/>
+<path d="M48 312 L62 298 L76 312"/>
+</g>
+
+<!-- wall -->
+<rect x="110" y="70" width="580" height="490" fill="#d39a78"/>
+<rect x="110" y="70" width="580" height="490" fill="url(#bricks)"/>
+<path d="M110 545 H690 V562 H110 Z" fill="#bdb7b0" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M110 70 L108 300 L111 560" fill="none" stroke="#2b2a33" stroke-width="3"/>
+<path d="M690 70 L692 300 L689 560" fill="none" stroke="#2b2a33" stroke-width="3"/>
+
+<!-- drainpipe -->
+<rect x="660" y="70" width="14" height="480" fill="#9da3a8" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M656 200 H678 M656 380 H678 M656 520 H678" stroke="#2b2a33" stroke-width="3"/>
+
+<!-- door arch + fanlight -->
+<path d="M248 244 A97 62 0 0 1 442 244 Z" fill="#d9d0bb" stroke="#2b2a33" stroke-width="3"/>
+<path d="M260 240 A85 48 0 0 1 430 240 Z" fill="#cfe0e4" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M345 240 L345 192 M345 240 L290 204 M345 240 L400 204 M345 240 L267 222 M345 240 L423 222" stroke="#2b2a33" stroke-width="1.8"/>
+<path d="M300 240 A45 25 0 0 1 390 240" fill="none" stroke="#2b2a33" stroke-width="1.5"/>
+<!-- door -->
+<path d="M258 240 H432 V558 H258 Z" fill="#6f9b94" stroke="#2b2a33" stroke-width="3.5"/>
+<g fill="#5b8780" stroke="#2b2a33" stroke-width="2.2">
+<rect x="278" y="262" width="60" height="96"/>
+<rect x="352" y="262" width="60" height="96"/>
+<rect x="278" y="402" width="60" height="134"/>
+<rect x="352" y="402" width="60" height="134"/>
+</g>
+<!-- door panel hatching -->
+<g stroke="#2f4f4b" stroke-width="1.1" opacity="0.7">
+<path d="M284 350 L296 330 M294 352 L308 328 M304 354 L318 330 M358 350 L370 330 M368 352 L382 328 M378 354 L392 330"/>
+<path d="M284 528 L300 500 M296 530 L314 498 M308 532 L326 500 M358 528 L374 500 M370 530 L388 498 M382 532 L400 500"/>
+</g>
+<rect x="322" y="372" width="46" height="14" rx="3" fill="#c9a24c" stroke="#2b2a33" stroke-width="2"/>
+<path d="M330 379 H360" stroke="#2b2a33" stroke-width="1.5"/>
+<circle cx="345" cy="460" r="9" fill="#d6b050" stroke="#2b2a33" stroke-width="2.2"/>
+<path d="M342 457 L345 460" stroke="#fff6cf" stroke-width="2"/>
+<!-- house number plaque -->
+<rect x="330" y="300" width="30" height="0" fill="none"/>
+
+<!-- window -->
+<rect x="488" y="256" width="174" height="16" fill="#d9d0bb" stroke="#2b2a33" stroke-width="2.5"/>
+<rect x="500" y="272" width="150" height="170" fill="#e9e2cf" stroke="#2b2a33" stroke-width="3"/>
+<rect x="510" y="282" width="130" height="150" fill="#a9bcc7" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M575 282 V432 M510 357 H640" stroke="#2b2a33" stroke-width="4"/>
+<path d="M520 300 L545 292 M520 318 L560 296" stroke="#f1f5f6" stroke-width="3" opacity="0.7"/>
+<!-- jar of chewed pencils -->
+<g stroke="#2b2a33" stroke-width="1.8">
+<path d="M540 392 L528 354" stroke="#c4584a" stroke-width="4.5"/>
+<path d="M547 392 L544 348" stroke="#e0b341" stroke-width="4.5"/>
+<path d="M553 392 L558 352" stroke="#5f8f8a" stroke-width="4.5"/>
+<path d="M559 392 L568 360" stroke="#c4584a" stroke-width="4.5"/>
+<path d="M536 392 L516 366" stroke="#e0b341" stroke-width="4.5"/>
+</g>
+<path d="M526 351 l4 -3 l3 4 M541 345 l4 -3 l3 4 M555 349 l4 -3 l3 4 M566 357 l4 -3 l2 4 M513 363 l4 -3 l3 4" stroke="#2b2a33" stroke-width="1.5" fill="none"/>
+<path d="M527 392 H566 L564 434 H529 Z" fill="#d9e6e2" fill-opacity="0.75" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M533 400 V428" stroke="#fff" stroke-width="2.5" opacity="0.8"/>
+<rect x="486" y="442" width="178" height="16" fill="#d9d0bb" stroke="#2b2a33" stroke-width="2.5"/>
+<!-- window sill hatching -->
+<path d="M492 456 L498 446 M502 456 L508 446 M512 456 L518 446 M522 456 L528 446 M532 456 L538 446" stroke="#6a6878" stroke-width="1.1"/>
+
+<!-- broom -->
+<path d="M168 560 L160 320" stroke="#8b6a45" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M168 560 L160 320" stroke="#2b2a33" stroke-width="1.4" fill="none" transform="translate(3 0)"/>
+<path d="M148 500 L186 500 L196 562 L140 562 Z" fill="#d9b863" stroke="#2b2a33" stroke-width="2.5"/>
+<path d="M156 504 L152 560 M166 504 L164 560 M176 504 L178 560 M186 504 L190 560" stroke="#8b6a30" stroke-width="1.3"/>
+<path d="M148 520 H188" stroke="#2b2a33" stroke-width="3"/>
+
+<!-- pavement ground -->
+<rect x="0" y="562" width="800" height="238" fill="#cfc9d8"/>
+<path d="M0 562 H110 M690 562 H800" stroke="#2b2a33" stroke-width="2.5"/>
+<g fill="#c0b9ce" stroke="#2b2a33" stroke-width="1.8" opacity="0.9">
+<ellipse cx="60" cy="600" rx="34" ry="16"/><ellipse cx="130" cy="590" rx="30" ry="14"/>
+<ellipse cx="590" cy="600" rx="36" ry="16"/><ellipse cx="660" cy="590" rx="32" ry="14"/><ellipse cx="740" cy="602" rx="34" ry="16"/>
+<ellipse cx="40" cy="650" rx="36" ry="17"/><ellipse cx="110" cy="640" rx="30" ry="14"/>
+<ellipse cx="580" cy="650" rx="34" ry="16"/><ellipse cx="650" cy="645" rx="34" ry="15"/><ellipse cx="730" cy="652" rx="36" ry="16"/>
+<ellipse cx="50" cy="715" rx="40" ry="19"/><ellipse cx="140" cy="755" rx="44" ry="20"/><ellipse cx="240" cy="765" rx="46" ry="20"/>
+<ellipse cx="350" cy="768" rx="48" ry="20"/><ellipse cx="460" cy="765" rx="46" ry="20"/><ellipse cx="560" cy="720" rx="38" ry="18"/>
+<ellipse cx="640" cy="705" rx="40" ry="18"/><ellipse cx="720" cy="720" rx="40" ry="18"/><ellipse cx="600" cy="765" rx="44" ry="20"/><ellipse cx="700" cy="765" rx="44" ry="20"/>
+</g>
+<!-- cobble tint touches -->
+<g fill="#b9c6c0" opacity="0.5"><ellipse cx="130" cy="590" rx="26" ry="11"/><ellipse cx="650" cy="645" rx="28" ry="11"/><ellipse cx="350" cy="768" rx="40" ry="14"/></g>
+
+<!-- dandelion tuft in cobble gap -->
+<g stroke="#2b2a33" stroke-width="1.8" fill="#8db070">
+<path d="M610 690 C612 676 614 668 616 660" fill="none"/>
+<path d="M612 686 C598 682 592 672 590 668 C602 668 610 676 612 686 Z"/>
+<path d="M613 688 C626 684 634 676 636 670 C624 670 616 678 613 688 Z"/>
+<circle cx="616" cy="656" r="7" fill="#e9c94f"/>
+</g>
+
+<!-- step -->
+<path d="M200 560 H490 L540 662 H150 Z" fill="#e3dccb" stroke="#2b2a33" stroke-width="3.5"/>
+<path d="M150 662 H540 V722 H150 Z" fill="#cdc4b3" stroke="#2b2a33" stroke-width="3.5"/>
+<path d="M150 662 L148 722 M540 662 L542 722" stroke="#2b2a33" stroke-width="3.5"/>
+<!-- pencil hatching, slanted -->
+<g stroke="#55536a" stroke-width="1.3" opacity="0.75" stroke-linecap="round">
+<path d="M158 718 L170 668 M176 718 L188 668 M194 718 L206 668 M212 718 L224 668 M230 718 L242 668 M248 718 L260 668 M266 718 L278 668 M284 718 L296 668 M302 718 L314 668 M320 718 L332 668 M338 718 L350 668 M356 718 L368 668 M374 718 L386 668 M392 718 L404 668 M410 718 L422 668 M428 718 L440 668 M446 718 L458 668 M464 718 L476 668 M482 718 L494 668 M500 718 L512 668 M518 718 L530 668"/>
+</g>
+<g stroke="#55536a" stroke-width="1" opacity="0.5">
+<path d="M164 718 L174 690 M182 718 L192 690 M200 718 L210 690 M218 718 L228 690 M236 718 L246 690 M254 718 L264 690 M272 718 L282 690 M290 718 L300 690"/>
+<path d="M205 566 L212 578 M217 566 L224 578 M229 566 L236 578 M241 566 L248 578 M451 566 L458 578 M463 566 L470 578 M475 566 L482 578 M487 566 L494 578"/>
+</g>
+<!-- swept broom arcs -->
+<g fill="none" stroke="#a79f8f" stroke-width="1.3" stroke-linecap="round" opacity="0.85">
+<path d="M215 585 C250 578 280 580 300 575"/>
+<path d="M210 600 C240 592 262 596 280 590"/>
+<path d="M470 598 C490 612 505 622 520 640"/>
+<path d="M462 585 C480 595 495 602 508 618"/>
+<path d="M205 625 C225 632 240 640 250 650"/>
+<path d="M455 645 C470 650 490 652 505 652"/>
+</g>
+<!-- tiny leaf on step -->
+<path d="M184 640 C190 630 200 630 206 634 C200 642 192 644 184 640 Z" fill="#c68a4a" stroke="#2b2a33" stroke-width="1.5"/>
+<path d="M185 640 L204 634" stroke="#2b2a33" stroke-width="1"/>
+<!-- crack in step -->
+<path d="M470 662 L466 680 L474 692 L470 718" fill="none" stroke="#2b2a33" stroke-width="1.5"/>
+
+<!-- mat -->
+<path d="M262 586 H428 L458 642 H232 Z" fill="#a8764f" stroke="#2b2a33" stroke-width="3"/>
+<path d="M272 594 H418 L442 636 H248 Z" fill="none" stroke="#f1dfb0" stroke-width="2.5"/>
+<path d="M282 602 L270 632 M296 602 L286 632 M310 602 L302 632 M324 602 L318 632 M338 602 L334 632 M352 602 L350 632 M366 602 L366 632 M380 602 L382 632 M394 602 L398 632 M408 602 L414 632" stroke="#7d5237" stroke-width="1.2" opacity="0.7"/>
+<text x="345" y="624" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#f6edd8" text-anchor="middle" letter-spacing="2" transform="translate(345 624) scale(1 0.8) translate(-345 -624)">WIPE YOUR FEET</text>
+<path d="M232 642 H458 L460 648 H230 Z" fill="#7d5237" stroke="#2b2a33" stroke-width="1.5"/>
+<!-- mat shadow hatching -->
+<path d="M236 650 L246 660 M250 650 L260 660 M264 650 L274 660 M278 650 L288 660 M292 650 L302 660 M306 650 L316 660 M320 650 L330 660 M334 650 L344 660 M348 650 L358 660 M362 650 L372 660 M376 650 L386 660 M390 650 L400 660 M404 650 L414 660 M418 650 L428 660 M432 650 L442 660" stroke="#55536a" stroke-width="1" opacity="0.6"/>
+
+<!-- fog -->
+<rect x="0" y="0" width="800" height="230" fill="url(#topfade)"/>
+<rect x="0" y="690" width="800" height="110" fill="url(#botfade)"/>
+<ellipse cx="30" cy="330" rx="140" ry="260" fill="url(#fogball)"/>
+<ellipse cx="780" cy="300" rx="130" ry="280" fill="url(#fogball)"/>
+<ellipse cx="40" cy="600" rx="150" ry="90" fill="url(#fogball)"/>
+<ellipse cx="770" cy="610" rx="150" ry="90" fill="url(#fogball)"/>
+<ellipse cx="640" cy="560" rx="120" ry="40" fill="url(#fogball)" opacity="0.8"/>
+<ellipse cx="120" cy="150" rx="150" ry="70" fill="url(#fogball)"/>
+<ellipse cx="640" cy="110" rx="160" ry="70" fill="url(#fogball)"/>
+
+<!-- little extras: floating lamp glow dots -->
+<g fill="#f2d98a" opacity="0.55"><circle cx="62" cy="326" r="14"/></g>
+
+<!-- signature -->
+<text x="728" y="772" font-family="Georgia, serif" font-style="italic" font-size="26" fill="#2b2a33">P.</text>
+<path d="M726 778 C740 774 752 776 762 772" stroke="#2b2a33" stroke-width="1.4" fill="none"/>
+</svg>
