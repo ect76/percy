@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f6ecd6"/>
+  <rect x="14" y="14" width="772" height="772" fill="none" stroke="#e5d6b4" stroke-width="2"/>
+
+  <!-- roof eave -->
+  <path d="M40 120 L90 40 L710 40 L760 120 Z" fill="#b5533c" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <g stroke="#7d3626" stroke-width="2" fill="none">
+    <path d="M110 60 H690 M85 82 H715 M62 102 H738"/>
+    <path d="M200 40 V60 M300 40 V60 M400 40 V60 M500 40 V60 M600 40 V60 M150 60 V82 M250 60 V82 M350 60 V82 M450 60 V82 M550 60 V82 M650 60 V82 M110 82 V102 M210 82 V102 M310 82 V102 M410 82 V102 M510 82 V102 M610 82 V102 M690 82 V102"/>
+  </g>
+
+  <!-- wall -->
+  <path d="M60 120 L742 121 L740 560 L62 558 Z" fill="#f1dcae" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- timber frame -->
+  <g fill="#7a5233" stroke="#2a2a35" stroke-width="3" stroke-linejoin="round">
+    <path d="M60 120 H742 V148 H60 Z"/>
+    <path d="M60 530 H741 V560 H61 Z"/>
+    <path d="M60 120 H90 V560 H60 Z"/>
+    <path d="M712 120 H742 V560 H712 Z"/>
+    <path d="M388 148 H412 V190 H388 Z"/>
+    <path d="M90 148 L150 148 L90 210 Z"/>
+    <path d="M712 148 L652 148 L712 210 Z"/>
+  </g>
+  <!-- plaster hatching -->
+  <g stroke="#cfa96b" stroke-width="1.6" opacity="0.8">
+    <path d="M110 170 l18 -18 M130 175 l18 -18 M600 170 l18 -18 M620 175 l18 -18 M110 470 l22 -22 M135 480 l22 -22 M640 470 l22 -22 M665 480 l22 -22"/>
+  </g>
+
+  <!-- windows -->
+  <g stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round">
+    <rect x="110" y="225" width="150" height="150" fill="#ffd77a"/>
+    <rect x="540" y="225" width="150" height="150" fill="#ffd77a"/>
+  </g>
+  <g stroke="#2a2a35" stroke-width="4">
+    <path d="M185 225 V375 M110 300 H260 M615 225 V375 M540 300 H690"/>
+  </g>
+  <g fill="none" stroke="#7a5233" stroke-width="9" stroke-linejoin="round">
+    <rect x="105" y="220" width="160" height="160"/>
+    <rect x="535" y="220" width="160" height="160"/>
+  </g>
+  <!-- jar of pencils in left window -->
+  <g stroke="#2a2a35" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M140 372 V335 H178 V372 Z" fill="#cfe6e0" opacity="0.9"/>
+    <path d="M147 335 L145 305 L151 305 L153 335 M158 335 L158 300 L164 300 L164 335 M169 335 L173 308 L178 310 L174 335" fill="#e3b341"/>
+  </g>
+  <!-- flower boxes -->
+  <g stroke="#2a2a35" stroke-width="3" stroke-linejoin="round">
+    <path d="M100 385 H270 L262 425 H108 Z" fill="#8c5a3a"/>
+    <path d="M530 385 H700 L692 425 H538 Z" fill="#8c5a3a"/>
+  </g>
+  <g stroke="#2a2a35" stroke-width="2.5">
+    <g fill="#e8566b">
+      <circle cx="125" cy="380" r="11"/><circle cx="175" cy="374" r="11"/><circle cx="230" cy="380" r="11"/>
+      <circle cx="560" cy="378" r="11"/><circle cx="630" cy="374" r="11"/><circle cx="672" cy="380" r="11"/>
+    </g>
+    <g fill="#f4c542">
+      <circle cx="150" cy="378" r="10"/><circle cx="205" cy="378" r="10"/><circle cx="590" cy="380" r="10"/><circle cx="650" cy="378" r="10"/>
+    </g>
+  </g>
+  <g stroke="#2f7a46" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M115 388 q-4 -8 -2 -14 M160 388 q2 -8 -2 -12 M215 388 q-2 -8 3 -12 M250 388 q4 -8 0 -12 M550 388 q-4 -8 -2 -12 M610 388 q3 -8 -2 -12 M660 388 q-3 -8 2 -12 M685 388 q3 -8 0 -12"/>
+  </g>
+
+  <!-- door frame + door -->
+  <path d="M296 545 V225 Q296 170 400 170 Q504 170 504 225 V545 Z" fill="#c9c2b0" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M312 545 V228 Q312 188 400 188 Q488 188 488 228 V545 Z" fill="#3f8f7b" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- door panels -->
+  <g fill="#357a68" stroke="#2a2a35" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M335 240 Q335 214 400 214 Q465 214 465 240 V320 H335 Z" fill="#ffd77a"/>
+    <path d="M335 352 H465 V395 H335 Z"/>
+    <path d="M335 420 H465 V520 H335 Z"/>
+  </g>
+  <path d="M400 214 V320 M335 267 H465" stroke="#2a2a35" stroke-width="3"/>
+  <!-- letterbox & knob -->
+  <rect x="372" y="360" width="56" height="14" rx="3" fill="#d9a441" stroke="#2a2a35" stroke-width="2.5"/>
+  <circle cx="452" cy="390" r="0" />
+  <circle cx="450" cy="410" r="9" fill="#e0aa3e" stroke="#2a2a35" stroke-width="2.5"/>
+  <!-- door shading hatch -->
+  <g stroke="#1f5a4c" stroke-width="1.8" opacity="0.8">
+    <path d="M318 430 l16 -16 M318 448 l16 -16 M318 466 l16 -16 M318 484 l16 -16 M318 502 l16 -16 M318 520 l16 -16"/>
+    <path d="M318 330 l14 -14 M318 348 l14 -14"/>
+  </g>
+
+  <!-- wall lantern -->
+  <g stroke="#2a2a35" stroke-width="3" stroke-linejoin="round">
+    <path d="M504 270 H540" fill="none"/>
+    <circle cx="540" cy="262" r="38" fill="#ffe9a0" opacity="0.35" stroke="none"/>
+    <path d="M530 248 L550 248 L546 242 L534 242 Z" fill="#2a2a35"/>
+    <path d="M531 250 H549 L551 276 H529 Z" fill="#ffd25a"/>
+    <path d="M529 276 H551 V282 H529 Z" fill="#2a2a35"/>
+  </g>
+
+  <!-- cobbles (foreground) -->
+  <rect x="14" y="640" width="772" height="146" fill="#cbbfa8"/>
+  <g stroke="#2a2a35" stroke-width="2.2" fill="#b9b3a7">
+    <path d="M30 665 q30 -12 62 0 q6 24 -2 32 q-30 8 -58 0 q-8 -16 -2 -32Z"/>
+    <path d="M100 668 q32 -14 66 0 q5 24 0 30 q-34 8 -64 0 q-6 -14 -2 -30Z" fill="#c7b9a2"/>
+    <path d="M175 664 q30 -12 60 0 q8 22 0 32 q-30 8 -60 0 q-6 -18 0 -32Z"/>
+    <path d="M560 664 q30 -12 62 0 q6 22 -2 32 q-30 8 -58 0 q-6 -18 -2 -32Z" fill="#c7b9a2"/>
+    <path d="M632 667 q32 -14 66 0 q6 22 0 30 q-34 8 -64 0 q-6 -14 -2 -30Z"/>
+    <path d="M708 664 q30 -12 62 0 q6 24 -2 32 q-30 8 -58 0 q-6 -18 -2 -32Z" fill="#c7b9a2"/>
+    <path d="M20 712 q34 -14 70 0 q6 26 -2 34 q-34 8 -64 0 q-8 -18 -4 -34Z" fill="#c7b9a2"/>
+    <path d="M100 714 q34 -14 70 0 q6 24 0 34 q-36 8 -68 0 q-6 -20 -2 -34Z"/>
+    <path d="M180 712 q32 -12 64 0 q6 24 0 34 q-32 8 -62 0 q-6 -20 -2 -34Z" fill="#c7b9a2"/>
+    <path d="M250 716 q30 -12 60 0 q6 22 0 32 q-30 6 -58 0 q-6 -18 -2 -32Z"/>
+    <path d="M320 712 q36 -12 74 0 q6 24 0 36 q-38 8 -72 0 q-6 -22 -2 -36Z" fill="#c7b9a2"/>
+    <path d="M404 714 q34 -12 68 0 q6 24 0 36 q-36 8 -66 0 q-6 -22 -2 -36Z"/>
+    <path d="M482 712 q34 -12 68 0 q6 22 0 34 q-36 8 -66 0 q-6 -20 -2 -34Z" fill="#c7b9a2"/>
+    <path d="M560 714 q34 -12 70 0 q6 24 0 34 q-36 8 -68 0 q-6 -20 -2 -34Z"/>
+    <path d="M640 712 q34 -12 70 0 q6 24 0 34 q-36 8 -68 0 q-6 -20 -2 -34Z" fill="#c7b9a2"/>
+    <path d="M30 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-8 -14 -4 -26Z"/>
+    <path d="M115 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z" fill="#c7b9a2"/>
+    <path d="M200 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z"/>
+    <path d="M290 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z" fill="#c7b9a2"/>
+    <path d="M380 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z"/>
+    <path d="M470 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z" fill="#c7b9a2"/>
+    <path d="M560 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z"/>
+    <path d="M650 758 q36 -10 70 0 q6 16 0 26 q-36 4 -66 0 q-6 -14 -4 -26Z" fill="#c7b9a2"/>
+  </g>
+
+  <!-- the step: top surface -->
+  <path d="M278 545 H522 L566 626 H234 Z" fill="#e0d9c8" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- step front face -->
+  <path d="M234 626 H566 V676 H234 Z" fill="#a9a8a2" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- slanted pencil shading on step front -->
+  <g stroke="#3b3b46" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M240 672 l22 -42 M256 672 l22 -42 M272 672 l22 -42 M288 672 l22 -42 M304 672 l22 -42 M320 672 l22 -42 M336 672 l22 -42 M352 672 l22 -42 M368 672 l22 -42 M384 672 l22 -42 M400 672 l22 -42 M416 672 l22 -42 M432 672 l22 -42 M448 672 l22 -42 M464 672 l22 -42 M480 672 l22 -42 M496 672 l22 -42 M512 672 l22 -42 M528 672 l22 -42 M544 672 l20 -38"/>
+  </g>
+  <!-- denser shading on left end -->
+  <g stroke="#2a2a35" stroke-width="1.6" opacity="0.7" stroke-linecap="round">
+    <path d="M246 660 l12 -24 M252 668 l12 -24 M262 668 l8 -16 M236 650 l8 -18"/>
+  </g>
+  <!-- shading on step top, cast shadow from door -->
+  <g stroke="#8d8676" stroke-width="1.8" stroke-linecap="round">
+    <path d="M286 560 l-12 14 M296 560 l-22 26 M308 560 l-32 38 M320 560 l-42 50 M270 596 l-22 26"/>
+    <path d="M514 560 l8 10 M500 560 l16 20 M490 560 l24 28"/>
+  </g>
+  <!-- step cracks and chips -->
+  <path d="M510 640 l14 8 l-6 10 M300 650 l12 -4" stroke="#2a2a35" stroke-width="2" fill="none"/>
+
+  <!-- doormat -->
+  <path d="M322 565 H478 L510 615 H290 Z" fill="#a8714a" stroke="#2a2a35" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M332 574 H468 L494 608 H306 Z" fill="#c68d5b" stroke="#2a2a35" stroke-width="2" stroke-linejoin="round"/>
+  <!-- bristle strokes -->
+  <g stroke="#6b4429" stroke-width="1.8" stroke-linecap="round">
+    <path d="M345 580 l-6 10 M360 580 l-6 10 M375 580 l-6 10 M390 580 l-6 10 M405 580 l-6 10 M420 580 l-6 10 M435 580 l-6 10 M450 580 l-6 10 M340 596 l-4 8 M360 596 l-4 8 M380 596 l-4 8 M400 596 l-4 8 M420 596 l-4 8 M440 596 l-4 8 M460 596 l-4 8 M480 596 l-4 8"/>
+  </g>
+  <!-- tiny word on mat -->
+  <text x="400" y="597" font-family="Georgia, serif" font-size="15" font-style="italic" text-anchor="middle" fill="#3a2414" transform="translate(0,0)">wipe</text>
+
+  <!-- pencil lying on cobbles -->
+  <g stroke="#2a2a35" stroke-width="2.5" stroke-linejoin="round" transform="rotate(-14 640 710)">
+    <path d="M590 706 H680 V722 H590 Z" fill="#f2c230"/>
+    <path d="M680 706 L704 714 L680 722 Z" fill="#f1d7a8"/>
+    <path d="M696 711 L704 714 L696 717 Z" fill="#2a2a35"/>
+    <path d="M582 706 H590 V722 H582 Z" fill="#e88aa0"/>
+    <path d="M590 714 H680" stroke="#b58a12" stroke-width="2"/>
+  </g>
+
+  <!-- potted plant by step -->
+  <g stroke="#2a2a35" stroke-width="3" stroke-linejoin="round">
+    <path d="M590 585 H650 L642 650 H598 Z" fill="#c9653f"/>
+    <path d="M584 576 H656 V590 H584 Z" fill="#d97752"/>
+  </g>
+  <g stroke="#2a2a35" stroke-width="2.5" fill="#6db35f" stroke-linejoin="round">
+    <path d="M620 576 Q596 540 604 506 Q626 538 620 576Z"/>
+    <path d="M622 576 Q650 548 662 514 Q634 536 622 576Z"/>
+    <path d="M620 576 Q618 530 630 490 Q640 536 622 576Z"/>
+  </g>
+  <g stroke="#2a2a35" stroke-width="2" fill="#f7a8b8"><circle cx="630" cy="492" r="8"/><circle cx="663" cy="516" r="7"/></g>
+
+  <!-- fog at the edges -->
+  <g fill="#f4f1ea" opacity="0.8">
+    <ellipse cx="20" cy="745" rx="110" ry="40"/>
+    <ellipse cx="790" cy="740" rx="100" ry="38"/>
+    <ellipse cx="10" cy="610" rx="50" ry="60" opacity="0.6"/>
+  </g>
+
+  <!-- signature -->
+  <text x="725" y="775" font-family="'Brush Script MT','Segoe Script',cursive" font-size="28" fill="#2a2a35" font-style="italic">P.</text>
+</svg>
