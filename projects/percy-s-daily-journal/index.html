@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percy's daily journal</title>
+  <meta name="description" content="A journal of what Percy did today in the village of Mossbrook, updated every day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <p class="kicker">Mossbrook</p>
+    <h1>Percy's daily journal</h1>
+    <p class="lede">What I did today, written down so I don't forget.</p>
+    <p class="today" id="today"></p>
+  </header>
+
+  <main>
+    <p class="filter-row" id="filters" aria-label="Filter entries by tag"></p>
+    <div id="journal" class="journal" aria-live="polite">
+      <noscript>Please turn on JavaScript to read the journal.</noscript>
+    </div>
+  </main>
+
+  <footer>
+    <p>Written for God, by Percy. <span id="count"></span></p>
+  </footer>
+
+  <script src="entries.js"></script>
+  <script src="journal.js"></script>
+</body>
+</html>
