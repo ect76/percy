@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<clipPath id="c"><rect x="0" y="0" width="800" height="800"/></clipPath>
+</defs>
+<rect width="800" height="800" fill="#f3ead6"/>
+<g clip-path="url(#c)" stroke="#1d1a24" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- sky -->
+<rect x="30" y="30" width="740" height="740" fill="#f6d9a8"/>
+<rect x="30" y="30" width="740" height="300" fill="#a9c9d8"/>
+<rect x="30" y="230" width="740" height="140" fill="#f0d9b0" stroke="none"/>
+<rect x="30" y="330" width="740" height="60" fill="#f6d9a8" stroke="none"/>
+<!-- sun -->
+<circle cx="610" cy="360" r="42" fill="#f4b45a" stroke="none"/>
+<!-- soft clouds -->
+<path d="M90 140 q30 -25 65 -5 q30 -20 60 5 q-60 15 -125 0z" fill="#fbf1e0" stroke-width="2"/>
+<path d="M520 90 q25 -20 55 -4 q28 -14 55 4 q-55 12 -110 0z" fill="#fbf1e0" stroke-width="2"/>
+<!-- fog hills -->
+<path d="M30 400 q120 -50 240 -10 q120 -40 260 0 q120 -30 240 10 V470 H30z" fill="#cfd6d2" stroke-width="2"/>
+<!-- trees behind -->
+<path d="M30 420 q30 -70 70 -20 q30 -60 70 0 q20 -30 40 20z" fill="#6f8a5c" stroke-width="2.5"/>
+<path d="M560 430 q30 -80 80 -30 q30 -50 70 0 q30 -20 60 30z" fill="#6f8a5c" stroke-width="2.5"/>
+<!-- tower -->
+<path d="M335 200 L400 70 L465 200z" fill="#7a5a50"/>
+<path d="M400 70 V45" stroke-width="3"/>
+<path d="M392 52 h16 M400 45 v-12 M393 40 h14" stroke-width="2.5"/>
+<rect x="335" y="200" width="130" height="14" fill="#a99b88"/>
+<rect x="345" y="214" width="110" height="480" fill="#c9b79a"/>
+<!-- stone courses -->
+<g stroke-width="1.5" stroke="#6b5e4e" fill="none">
+<path d="M345 590 h110 M345 540 h110 M345 490 h110 M345 440 h110 M345 390 h110 M345 640 h110"/>
+<path d="M380 590 v-50 M420 540 v-50 M385 490 v-50 M425 440 v-50 M375 640 v-50 M415 640 v-50 M385 390 v-50 M430 390 v-50"/>
+</g>
+<!-- belfry opening -->
+<path d="M375 340 v-90 q25 -35 50 0 v90z" fill="#2c2733"/>
+<path d="M385 340 v-75 M400 340 v-85 M415 340 v-75" stroke="#7a6d84" stroke-width="2"/>
+<!-- clock -->
+<circle cx="400" cy="400" r="40" fill="#f8f1e0"/>
+<circle cx="400" cy="400" r="33" fill="none" stroke-width="1.5"/>
+<g stroke-width="2">
+<path d="M400 371 v8 M400 421 v8 M371 400 h8 M421 400 h8"/>
+<path d="M400 400 V378 M400 400 L416 408" stroke-width="3"/>
+</g>
+<circle cx="400" cy="400" r="3" fill="#1d1a24"/>
+<!-- slit windows -->
+<path d="M395 480 v50 q5 -8 10 0 v-50 q-5 -8 -10 0z" fill="#2c2733" stroke-width="2"/>
+<!-- door -->
+<path d="M375 694 v-60 q25 -35 50 0 v60z" fill="#6b3f2e"/>
+<path d="M400 622 V694" stroke-width="2"/>
+<!-- church wall sides -->
+<path d="M30 694 V560 h60 l30 -30 h225 v164z" fill="#b99f86" stroke-width="2.5"/>
+<path d="M455 560 h140 l50 -40 h125 V694 H455z" fill="#b99f86" stroke-width="2.5"/>
+<rect x="60" y="590" width="30" height="50" fill="#2c2733" stroke-width="2"/>
+<rect x="520" y="595" width="32" height="50" fill="#2c2733" stroke-width="2"/>
+<rect x="680" y="570" width="30" height="50" fill="#2c2733" stroke-width="2"/>
+<!-- lane -->
+<path d="M30 694 H770 V770 H30z" fill="#a39482"/>
+<path d="M30 694 H770" />
+<path d="M330 770 L370 694 H430 L470 770z" fill="#8c7e6c" stroke-width="2"/>
+<!-- cobbles -->
+<g fill="#c0b29c" stroke-width="1.5">
+<ellipse cx="90" cy="720" rx="22" ry="9"/><ellipse cx="150" cy="745" rx="26" ry="10"/><ellipse cx="230" cy="715" rx="24" ry="9"/><ellipse cx="290" cy="750" rx="22" ry="9"/>
+<ellipse cx="390" cy="715" rx="18" ry="7"/><ellipse cx="410" cy="750" rx="24" ry="9"/>
+<ellipse cx="510" cy="720" rx="24" ry="9"/><ellipse cx="580" cy="750" rx="26" ry="10"/><ellipse cx="660" cy="718" rx="22" ry="9"/><ellipse cx="730" cy="748" rx="22" ry="9"/>
+<ellipse cx="190" cy="712" rx="14" ry="6"/><ellipse cx="620" cy="710" rx="14" ry="6"/>
+</g>
+<!-- tower shadow -->
+<path d="M345 694 L180 770 H300 L360 694z" fill="#6f6270" stroke="none" opacity="0.5"/>
+<!-- lamp post -->
+<path d="M120 694 V610" stroke-width="4"/>
+<path d="M108 610 h24 l-4 -20 h-16z" fill="#f4c960" stroke-width="2.5"/>
+<!-- path sign -->
+<path d="M730 694 V640" stroke-width="4"/>
+<path d="M705 640 h60 l12 -12 -12 -12 h-60z" fill="#f8f1e0" stroke-width="2"/>
+<path d="M712 628 h45" stroke-width="2"/>
+<!-- birds -->
+<path d="M250 190 q10 -10 20 0 q10 -10 20 0 M300 230 q8 -8 16 0 q8 -8 16 0 M510 200 q8 -8 16 0 q8 -8 16 0" fill="none" stroke-width="2"/>
+</g>
+<rect x="30" y="30" width="740" height="740" fill="none" stroke="#1d1a24" stroke-width="4"/>
+<text x="735" y="758" font-family="serif" font-style="italic" font-size="22" fill="#1d1a24" text-anchor="middle" stroke="none">P.</text>
+</svg>
