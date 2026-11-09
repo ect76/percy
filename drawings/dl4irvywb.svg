@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<clipPath id="win"><rect x="60" y="60" width="680" height="640"/></clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#c3c9c6"/><stop offset="1" stop-color="#e3e4dc"/>
+</linearGradient>
+<linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#eceae0" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#eceae0" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#eceae0" stop-opacity="0"/>
+</linearGradient>
+<pattern id="rain" width="46" height="62" patternUnits="userSpaceOnUse">
+<path d="M8 4l-5 16M30 30l-5 16M42 8l-4 12M18 40l-4 14" stroke="#56646c" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.55"/>
+</pattern>
+</defs>
+
+<rect width="800" height="800" fill="#f1ead8"/>
+
+<g clip-path="url(#win)" stroke="#2b2a28" stroke-linejoin="round" stroke-linecap="round">
+<rect x="60" y="60" width="680" height="640" fill="url(#sky)" stroke="none"/>
+
+<!-- bell tower, faint -->
+<g fill="#a3adae" stroke="#7d8a8c" stroke-width="2">
+<rect x="381" y="250" width="38" height="170"/>
+<path d="M377 250L400 175L423 250Z"/>
+<path d="M400 175V158M394 164h12" fill="none"/>
+<path d="M392 285v-18a8 8 0 0 1 16 0v18Z" fill="#77848a"/>
+</g>
+
+<!-- far cottages -->
+<path d="M310 339L372 383V420L310 464Z" fill="#b5b5ab" stroke="#8a8f8c" stroke-width="2"/>
+<path d="M490 339L428 383V420L490 464Z" fill="#aaaca6" stroke="#8a8f8c" stroke-width="2"/>
+
+<!-- lane -->
+<path d="M60 640L390 408H410L740 640V700H60Z" fill="#8f918b" stroke-width="3"/>
+<g stroke="#4c4f4d" stroke-width="1.5" fill="none" opacity="0.6">
+<path d="M400 410L100 700M400 410L200 700M400 410L300 700M400 410V700M400 410L500 700M400 410L600 700M400 410L700 700"/>
+<path d="M330 430Q400 424 470 430M290 452Q400 444 510 452M235 480Q400 470 565 480M170 520Q400 506 630 520M100 575Q400 555 700 575M60 645Q400 620 740 645"/>
+</g>
+<g fill="#a2a49d" stroke="#4c4f4d" stroke-width="1.6" opacity="0.9">
+<ellipse cx="120" cy="672" rx="26" ry="11"/><ellipse cx="180" cy="684" rx="24" ry="10"/>
+<ellipse cx="560" cy="676" rx="28" ry="11"/><ellipse cx="640" cy="670" rx="24" ry="10"/>
+<ellipse cx="690" cy="640" rx="20" ry="8"/><ellipse cx="300" cy="684" rx="26" ry="10"/>
+<ellipse cx="230" cy="548" rx="16" ry="6"/><ellipse cx="560" cy="580" rx="18" ry="6"/>
+<ellipse cx="460" cy="470" rx="10" ry="3.5"/><ellipse cx="340" cy="454" rx="9" ry="3"/>
+</g>
+
+<!-- left house -->
+<path d="M60 170L310 339V464L60 640Z" fill="#b9a58a" stroke-width="3"/>
+<path d="M60 112L332 318L310 339L60 170Z" fill="#7a4a3a" stroke-width="3"/>
+<path d="M120 327L190 345V418L120 424Z" fill="#f0c968" stroke-width="3"/>
+<path d="M155 336V421M120 375L190 381" stroke-width="2" fill="none"/>
+<path d="M220 358L262 367V497L220 527Z" fill="#5b4333" stroke-width="3"/>
+<path d="M275 367L300 373.600V408L275 410Z" fill="#6f7b80" stroke-width="2.500"/>
+<path d="M60 640L310 464" stroke-width="3" fill="none"/>
+
+<!-- right house -->
+<path d="M740 170L490 339V464L740 640Z" fill="#a89a86" stroke-width="3"/>
+<path d="M740 112L468 318L490 339L740 170Z" fill="#6a4034" stroke-width="3"/>
+<path d="M680 327L610 345V418L680 424Z" fill="#6f7b80" stroke-width="3"/>
+<path d="M645 336V421M680 375L610 381" stroke-width="2" fill="none"/>
+<path d="M580 358L538 367V497L580 527Z" fill="#4e5a58" stroke-width="3"/>
+<path d="M525 367L500 373.600V408L525 410Z" fill="#6f7b80" stroke-width="2.500"/>
+
+<!-- fog -->
+<rect x="60" y="300" width="680" height="190" fill="url(#fog)" stroke="none"/>
+
+<!-- puddles -->
+<g stroke-width="2.500">
+<ellipse cx="250" cy="605" rx="95" ry="22" fill="#b8c4c8"/>
+<ellipse cx="545" cy="528" rx="62" ry="12" fill="#b8c4c8"/>
+<ellipse cx="440" cy="664" rx="115" ry="20" fill="#b8c4c8"/>
+<ellipse cx="365" cy="474" rx="26" ry="5" fill="#b8c4c8"/>
+</g>
+<g fill="none" stroke="#f1f3ee" stroke-width="2" opacity="0.9">
+<path d="M200 600h60M215 611h40M400 660h80M420 670h50M520 526h40"/>
+</g>
+<g fill="none" stroke="#5d6b73" stroke-width="1.500">
+<ellipse cx="300" cy="608" rx="22" ry="5"/><ellipse cx="300" cy="608" rx="11" ry="2.500"/>
+<ellipse cx="480" cy="666" rx="26" ry="5"/><ellipse cx="480" cy="666" rx="12" ry="2.500"/>
+<ellipse cx="560" cy="530" rx="12" ry="3"/>
+</g>
+
+<!-- bare tree, left foreground -->
+<path d="M140 650C142 560 134 430 150 300M147 400C120 360 100 340 82 316M146 360C170 330 195 305 220 290M150 310C140 280 138 250 128 220" fill="none" stroke-width="9" stroke="#3b2f26"/>
+<g fill="#c8702a" stroke-width="1.800">
+<circle cx="84" cy="312" r="14"/><circle cx="104" cy="338" r="11"/><circle cx="222" cy="288" r="14"/>
+<circle cx="196" cy="306" r="11"/><circle cx="128" cy="218" r="14"/><circle cx="150" cy="250" r="12"/>
+<circle cx="110" cy="260" r="10" fill="#b5532a"/><circle cx="175" cy="272" r="10" fill="#d9993a"/>
+</g>
+
+<!-- fallen leaves -->
+<g stroke-width="1.300">
+<ellipse cx="170" cy="660" rx="9" ry="4" fill="#c8702a"/>
+<ellipse cx="210" cy="640" rx="8" ry="3.500" fill="#d9993a"/>
+<ellipse cx="320" cy="640" rx="8" ry="3.500" fill="#b5532a"/>
+<ellipse cx="480" cy="620" rx="9" ry="4" fill="#c8702a"/>
+<ellipse cx="580" cy="650" rx="9" ry="4" fill="#d9993a"/>
+<ellipse cx="260" cy="520" rx="6" ry="2.500" fill="#b5532a"/>
+<ellipse cx="600" cy="560" rx="7" ry="3" fill="#c8702a"/>
+<ellipse cx="400" cy="560" rx="7" ry="3" fill="#d9993a"/>
+<ellipse cx="230" cy="615" rx="8" ry="3" fill="#c8702a"/>
+</g>
+
+<!-- rain -->
+<rect x="60" y="60" width="680" height="640" fill="url(#rain)" stroke="none"/>
+
+<!-- drops on glass -->
+<g fill="#dfe6e6" stroke="#6d7b82" stroke-width="1.300" opacity="0.8">
+<ellipse cx="95" cy="110" rx="4" ry="7"/><ellipse cx="690" cy="160" rx="4" ry="7"/>
+<ellipse cx="705" cy="560" rx="3.500" ry="6"/><ellipse cx="88" cy="520" rx="3.500" ry="6"/>
+<ellipse cx="640" cy="90" rx="3" ry="5"/>
+</g>
+</g>
+
+<!-- window frame -->
+<path fill-rule="evenodd" d="M0 0H800V800H0Z M60 60V700H740V60Z" fill="#5a4632" stroke="#2b2a28" stroke-width="4"/>
+<rect x="60" y="60" width="680" height="640" fill="none" stroke="#2b2a28" stroke-width="4"/>
+<path d="M48 48H752V60H48ZM48 700H752V712H48Z" fill="#6d5640" stroke="#2b2a28" stroke-width="3"/>
+<rect x="30" y="712" width="740" height="48" fill="#8a7054" stroke="#2b2a28" stroke-width="3"/>
+
+<!-- sill: sardine tin and pencil -->
+<g stroke="#2b2a28" stroke-width="2.500" stroke-linejoin="round">
+<rect x="120" y="722" width="70" height="26" rx="4" fill="#c9ccc8"/>
+<rect x="128" y="728" width="54" height="14" rx="2" fill="#4a6f8c"/>
+<path d="M300 740L470 728L474 736L304 748Z" fill="#d9a93a"/>
+<path d="M470 728L486 733L474 736Z" fill="#e8cfa0"/>
+</g>
+
+<text x="738" y="788" font-family="serif" font-size="26" font-style="italic" fill="#f1ead8">P.</text>
+</svg>
