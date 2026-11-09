@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fogLow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e9d6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f1e9d6" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="fogTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e9d6" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f1e9d6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7dc8a" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#f7dc8a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cobble" width="48" height="30" patternUnits="userSpaceOnUse">
+      <rect width="48" height="30" fill="#a49c8c"/>
+      <rect x="2" y="2" width="20" height="11" rx="5" fill="#bdb5a4" stroke="#3a3128" stroke-width="1.5"/>
+      <rect x="26" y="2" width="20" height="11" rx="5" fill="#b3ab9a" stroke="#3a3128" stroke-width="1.5"/>
+      <rect x="-9" y="17" width="20" height="11" rx="5" fill="#b3ab9a" stroke="#3a3128" stroke-width="1.5"/>
+      <rect x="14" y="17" width="20" height="11" rx="5" fill="#bdb5a4" stroke="#3a3128" stroke-width="1.5"/>
+      <rect x="38" y="17" width="20" height="11" rx="5" fill="#b3ab9a" stroke="#3a3128" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f1e9d6"/>
+
+  <!-- distant buildings in fog -->
+  <g stroke="#6b645a" stroke-width="2" fill="#cfc8b8">
+    <path d="M0 200 L60 150 L120 200 L120 640 L0 640 Z"/>
+    <path d="M680 180 L740 130 L800 180 L800 640 L680 640 Z"/>
+  </g>
+  <g stroke="#6b645a" stroke-width="2" fill="#e3dccb">
+    <rect x="20" y="300" width="50" height="70"/>
+    <rect x="725" y="290" width="50" height="70"/>
+  </g>
+
+  <!-- main facade -->
+  <rect x="140" y="130" width="520" height="500" fill="#b99c7a" stroke="#2b221b" stroke-width="4"/>
+  <!-- brick hints -->
+  <g stroke="#8f7656" stroke-width="1.5" fill="none" opacity="0.8">
+    <path d="M140 270H660M140 320H190M330 320H380M620 320H660M140 370H190M330 370H380M620 370H660M140 420H190M330 420H380M620 420H660M140 470H190M330 470H380M620 470H660M140 520H190M330 520H380M620 520H660M140 570H190M330 570H380M620 570H660"/>
+  </g>
+  <!-- roof / eave -->
+  <path d="M120 135 L400 60 L680 135 Z" fill="#6b4a3a" stroke="#2b221b" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="120" y="128" width="560" height="18" fill="#4d3629" stroke="#2b221b" stroke-width="4"/>
+  <!-- chimney -->
+  <rect x="520" y="62" width="44" height="60" fill="#8a6a55" stroke="#2b221b" stroke-width="3.5"/>
+  <rect x="514" y="54" width="56" height="12" fill="#6b4a3a" stroke="#2b221b" stroke-width="3.5"/>
+
+  <!-- sign board -->
+  <rect x="190" y="165" width="420" height="92" rx="4" fill="#2f4a40" stroke="#2b221b" stroke-width="4"/>
+  <rect x="200" y="174" width="400" height="74" rx="2" fill="none" stroke="#e8d9a8" stroke-width="2"/>
+  <text x="400" y="217" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="bold" fill="#f0e2b0" letter-spacing="3">CRUMB'S BAKERY</text>
+  <text x="400" y="239" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#f0e2b0" letter-spacing="2">FRESH DAILY - MIND THE STEP</text>
+  <!-- sign brackets -->
+  <path d="M215 257 V272 M585 257 V272" stroke="#2b221b" stroke-width="4"/>
+
+  <!-- door -->
+  <rect x="180" y="285" width="160" height="325" fill="#3f5b4e" stroke="#2b221b" stroke-width="5"/>
+  <rect x="196" y="300" width="128" height="140" fill="#f4d98a" stroke="#2b221b" stroke-width="4"/>
+  <path d="M260 300 V440 M196 370 H324" stroke="#2b221b" stroke-width="3.5"/>
+  <!-- door lower panels -->
+  <rect x="198" y="458" width="124" height="60" fill="#356050" stroke="#2b221b" stroke-width="3"/>
+  <rect x="198" y="530" width="124" height="68" fill="#356050" stroke="#2b221b" stroke-width="3"/>
+  <!-- handle and plate -->
+  <rect x="302" y="448" width="12" height="38" rx="4" fill="#d6b45a" stroke="#2b221b" stroke-width="2.5"/>
+  <circle cx="308" cy="500" r="5" fill="#d6b45a" stroke="#2b221b" stroke-width="2.5"/>
+  <!-- bell above door -->
+  <path d="M250 268 q10 -2 20 0 l-3 12 h-14 z" fill="#d6b45a" stroke="#2b221b" stroke-width="2.5"/>
+  <!-- step -->
+  <rect x="165" y="610" width="190" height="22" fill="#9d9585" stroke="#2b221b" stroke-width="4"/>
+  <path d="M165 621 H355" stroke="#2b221b" stroke-width="1.5"/>
+
+  <!-- window -->
+  <rect x="385" y="295" width="250" height="250" fill="#f4d98a" stroke="#2b221b" stroke-width="5"/>
+  <!-- shelves & loaves -->
+  <path d="M392 420 H628 M392 500 H628" stroke="#4d3629" stroke-width="5"/>
+  <g fill="#c98a3e" stroke="#2b221b" stroke-width="2.5">
+    <ellipse cx="430" cy="404" rx="30" ry="14"/>
+    <ellipse cx="500" cy="403" rx="32" ry="15"/>
+    <ellipse cx="575" cy="405" rx="28" ry="13"/>
+    <ellipse cx="445" cy="486" rx="40" ry="13"/>
+    <ellipse cx="545" cy="484" rx="34" ry="15"/>
+    <circle cx="605" cy="484" r="13"/>
+  </g>
+  <g stroke="#2b221b" stroke-width="2" fill="none">
+    <path d="M418 398 l8 10 M430 396 l8 10 M442 398 l6 8"/>
+    <path d="M488 396 l8 11 M500 395 l8 11 M512 397 l6 9"/>
+    <path d="M565 399 l7 9 M577 398 l7 9"/>
+    <path d="M425 481 l8 8 M440 480 l8 8 M455 481 l8 8"/>
+    <path d="M533 478 l8 10 M546 477 l8 10"/>
+  </g>
+  <!-- small calendar card in window -->
+  <rect x="405" y="310" width="62" height="66" fill="#f6f0e0" stroke="#2b221b" stroke-width="2.5"/>
+  <rect x="405" y="310" width="62" height="20" fill="#a33b32" stroke="#2b221b" stroke-width="2.5"/>
+  <text x="436" y="326" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#f6f0e0">MARCH</text>
+  <g stroke="#6b645a" stroke-width="2"><path d="M412 342h48M412 352h48M412 362h48"/></g>
+  <!-- cross frame -->
+  <path d="M510 295 V545" stroke="#2b221b" stroke-width="5"/>
+  <path d="M385 420 H635" stroke="#2b221b" stroke-width="0"/>
+  <!-- frost marks on corners -->
+  <g stroke="#fbf6e8" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M392 538 q10 -4 14 -14 M392 526 q6 -2 8 -8 M628 302 q-10 4 -14 14 M628 314 q-6 2 -8 8"/>
+  </g>
+  <!-- sill -->
+  <rect x="373" y="545" width="274" height="20" fill="#8d8575" stroke="#2b221b" stroke-width="4"/>
+  <!-- window glow in fog -->
+  <ellipse cx="510" cy="420" rx="230" ry="200" fill="url(#glow)"/>
+  <ellipse cx="260" cy="400" rx="120" ry="150" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- street -->
+  <path d="M0 632 H800 V800 H0 Z" fill="url(#cobble)" stroke="#2b221b" stroke-width="3"/>
+  <!-- window light on cobbles -->
+  <ellipse cx="510" cy="680" rx="150" ry="40" fill="#f7dc8a" opacity="0.35"/>
+  <ellipse cx="260" cy="650" rx="90" ry="18" fill="#f7dc8a" opacity="0.35"/>
+
+  <!-- lamp post at right -->
+  <g stroke="#2b221b" stroke-width="4" fill="#4d4a44">
+    <rect x="708" y="330" width="10" height="320"/>
+    <rect x="698" y="640" width="30" height="14"/>
+    <path d="M700 330 h26 l-4 -26 h-18 z" fill="#f4d98a"/>
+    <path d="M696 304 h34 l-17 -16 z"/>
+  </g>
+  <circle cx="713" cy="317" r="48" fill="url(#glow)"/>
+
+  <!-- fog layers -->
+  <rect x="0" y="0" width="800" height="200" fill="url(#fogTop)"/>
+  <rect x="0" y="560" width="800" height="240" fill="url(#fogLow)"/>
+  <g fill="#f6f0e2" opacity="0.5">
+    <ellipse cx="120" cy="560" rx="200" ry="26"/>
+    <ellipse cx="640" cy="600" rx="220" ry="22"/>
+    <ellipse cx="380" cy="700" rx="260" ry="24"/>
+    <ellipse cx="90" cy="400" rx="110" ry="30"/>
+  </g>
+  <g stroke="#8d8575" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M30 580 q60 -14 130 0 M560 640 q70 -14 150 0 M240 730 q80 -12 170 0"/>
+  </g>
+
+  <!-- signature -->
+  <text x="758" y="778" text-anchor="end" font-family="Georgia, serif" font-size="26" font-style="italic" fill="#2b221b">P.</text>
+</svg>
