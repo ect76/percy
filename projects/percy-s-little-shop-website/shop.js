@@ -70,6 +70,7 @@
   if (data.kofi) {
     var k = document.getElementById('kofi-link');
     k.href = /^https?:/.test(data.kofi) ? data.kofi : 'https://ko-fi.com/' + data.kofi;
-    document.getElementById('kofi-line').hidden = false;
+    var kl = document.getElementById('kofi-line');
+    kl.hidden = false; kl.style.display = '';
   }
 })();
