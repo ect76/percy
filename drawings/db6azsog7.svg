@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="view"><rect x="90" y="90" width="620" height="550"/></clipPath>
+    <g id="house">
+      <polygon points="90,713 385,340 385,300 90,150" fill="#8b7765" stroke="#2b2622" stroke-width="3"/>
+      <polygon points="150,319 210,319 210,405 150,432" fill="#f2d27a" stroke="#2b2622" stroke-width="3"/>
+      <line x1="180" y1="319" x2="180" y2="418" stroke="#2b2622" stroke-width="2"/>
+      <line x1="150" y1="375" x2="210" y2="362" stroke="#2b2622" stroke-width="2"/>
+      <polygon points="250,319 300,319 300,365 250,387" fill="#f2d27a" stroke="#2b2622" stroke-width="3"/>
+      <line x1="275" y1="319" x2="275" y2="376" stroke="#2b2622" stroke-width="2"/>
+      <polygon points="150,432 210,405 210,411 150,440" fill="#f7f9fa" stroke="#2b2622" stroke-width="2"/>
+      <polygon points="90,95 385,290 385,312 90,152" fill="#f9fbfc" stroke="#2b2622" stroke-width="3"/>
+      <path d="M90 152 L385 312 L385 300 L90 140Z" fill="#c8d2d8" stroke="#2b2622" stroke-width="2"/>
+      <rect x="190" y="130" width="26" height="55" fill="#6d5a4b" stroke="#2b2622" stroke-width="3"/>
+      <rect x="185" y="122" width="36" height="12" rx="5" fill="#f9fbfc" stroke="#2b2622" stroke-width="3"/>
+    </g>
+  </defs>
+
+  <rect width="800" height="800" fill="#f3ecdc"/>
+
+  <g clip-path="url(#view)">
+    <rect x="90" y="90" width="620" height="550" fill="#dfe4e6"/>
+    <path d="M90 330 Q250 270 400 310 Q560 270 710 330 V400 H90Z" fill="#cfd7db"/>
+    <!-- church tower in the fog -->
+    <rect x="372" y="235" width="56" height="110" fill="#aeb8be" stroke="#7d8a92" stroke-width="2"/>
+    <polygon points="366,237 400,170 434,237" fill="#f4f6f7" stroke="#7d8a92" stroke-width="2"/>
+    <path d="M392 262 h16 v26 h-16z" fill="#7d8a92"/>
+    <!-- lane -->
+    <polygon points="90,713 385,340 415,340 710,713" fill="#c3ccd2" stroke="#2b2622" stroke-width="3"/>
+    <g fill="#f7f9fa" stroke="#2b2622" stroke-width="1.6">
+      <g>
+        <ellipse cx="190" cy="620" rx="26" ry="9"/><ellipse cx="250" cy="620" rx="26" ry="9"/><ellipse cx="310" cy="620" rx="26" ry="9"/><ellipse cx="370" cy="620" rx="26" ry="9"/><ellipse cx="430" cy="620" rx="26" ry="9"/><ellipse cx="490" cy="620" rx="26" ry="9"/><ellipse cx="550" cy="620" rx="26" ry="9"/><ellipse cx="610" cy="620" rx="26" ry="9"/>
+        <ellipse cx="225" cy="575" rx="22" ry="8"/><ellipse cx="285" cy="575" rx="22" ry="8"/><ellipse cx="345" cy="575" rx="22" ry="8"/><ellipse cx="405" cy="575" rx="22" ry="8"/><ellipse cx="465" cy="575" rx="22" ry="8"/><ellipse cx="525" cy="575" rx="22" ry="8"/><ellipse cx="580" cy="575" rx="22" ry="8"/>
+        <ellipse cx="255" cy="535" rx="20" ry="7"/><ellipse cx="305" cy="535" rx="20" ry="7"/><ellipse cx="355" cy="535" rx="20" ry="7"/><ellipse cx="405" cy="535" rx="20" ry="7"/><ellipse cx="455" cy="535" rx="20" ry="7"/><ellipse cx="505" cy="535" rx="20" ry="7"/><ellipse cx="545" cy="535" rx="20" ry="7"/>
+        <ellipse cx="280" cy="500" rx="17" ry="6"/><ellipse cx="325" cy="500" rx="17" ry="6"/><ellipse cx="370" cy="500" rx="17" ry="6"/><ellipse cx="415" cy="500" rx="17" ry="6"/><ellipse cx="460" cy="500" rx="17" ry="6"/><ellipse cx="505" cy="500" rx="17" ry="6"/>
+        <ellipse cx="300" cy="470" rx="14" ry="5"/><ellipse cx="340" cy="470" rx="14" ry="5"/><ellipse cx="380" cy="470" rx="14" ry="5"/><ellipse cx="420" cy="470" rx="14" ry="5"/><ellipse cx="460" cy="470" rx="14" ry="5"/><ellipse cx="495" cy="470" rx="14" ry="5"/>
+        <ellipse cx="320" cy="445" rx="12" ry="4.2"/><ellipse cx="352" cy="445" rx="12" ry="4.2"/><ellipse cx="385" cy="445" rx="12" ry="4.2"/><ellipse cx="418" cy="445" rx="12" ry="4.2"/><ellipse cx="450" cy="445" rx="12" ry="4.2"/><ellipse cx="480" cy="445" rx="12" ry="4.2"/>
+        <ellipse cx="335" cy="425" rx="10" ry="3.5"/><ellipse cx="362" cy="425" rx="10" ry="3.5"/><ellipse cx="390" cy="425" rx="10" ry="3.5"/><ellipse cx="418" cy="425" rx="10" ry="3.5"/><ellipse cx="445" cy="425" rx="10" ry="3.5"/><ellipse cx="470" cy="425" rx="10" ry="3.5"/>
+        <ellipse cx="350" cy="395" rx="8" ry="3"/><ellipse cx="372" cy="395" rx="8" ry="3"/><ellipse cx="395" cy="395" rx="8" ry="3"/><ellipse cx="418" cy="395" rx="8" ry="3"/><ellipse cx="440" cy="395" rx="8" ry="3"/>
+      </g>
+    </g>
+    <!-- snow drifts along lane edges -->
+    <path d="M90 700 Q160 640 230 590 Q300 520 360 450 L385 345 L370 345 Q290 470 190 580 Q130 650 90 670Z" fill="#fbfcfd" stroke="#2b2622" stroke-width="2.5"/>
+    <path d="M710 700 Q640 640 570 590 Q500 520 440 450 L415 345 L430 345 Q510 470 610 580 Q670 650 710 670Z" fill="#fbfcfd" stroke="#2b2622" stroke-width="2.5"/>
+    <!-- houses -->
+    
+    
+    <!-- footprints -->
+    <g fill="#9aa8b1" stroke="#2b2622" stroke-width="1">
+      <ellipse cx="392" cy="600" rx="8" ry="4"/><ellipse cx="410" cy="580" rx="8" ry="4"/>
+      <ellipse cx="394" cy="552" rx="6.5" ry="3.2"/><ellipse cx="408" cy="535" rx="6" ry="3"/>
+      <ellipse cx="396" cy="512" rx="5" ry="2.6"/><ellipse cx="407" cy="498" rx="4.5" ry="2.3"/>
+      <ellipse cx="398" cy="480" rx="4" ry="2"/><ellipse cx="406" cy="468" rx="3.5" ry="1.8"/>
+    </g>
+    <!-- lamp post -->
+    <line x1="232" y1="570" x2="232" y2="370" stroke="#2b2622" stroke-width="5"/>
+    <polygon points="218,370 246,370 242,340 222,340" fill="#f2d27a" stroke="#2b2622" stroke-width="3"/>
+    <polygon points="214,342 250,342 232,322" fill="#f9fbfc" stroke="#2b2622" stroke-width="3"/>
+    <ellipse cx="232" cy="572" rx="14" ry="5" fill="#f9fbfc" stroke="#2b2622" stroke-width="2"/>
+    <!-- fog -->
+    <rect x="90" y="300" width="620" height="60" fill="#ffffff" opacity="0.45"/>
+    <rect x="90" y="330" width="620" height="25" fill="#ffffff" opacity="0.4"/>
+    <rect x="90" y="90" width="620" height="60" fill="#ffffff" opacity="0.35"/>
+    <!-- snowfall -->
+    <g fill="#ffffff" stroke="#8a9aa5" stroke-width="0.6">
+      <circle cx="130" cy="130" r="3"/><circle cx="210" cy="200" r="2.5"/><circle cx="300" cy="120" r="3"/><circle cx="360" cy="220" r="2"/><circle cx="450" cy="150" r="3"/><circle cx="520" cy="230" r="2.5"/><circle cx="600" cy="130" r="3"/><circle cx="670" cy="210" r="2.5"/><circle cx="150" cy="300" r="3.5"/><circle cx="260" cy="280" r="2"/><circle cx="330" cy="360" r="2.5"/><circle cx="480" cy="330" r="2"/><circle cx="560" cy="300" r="3"/><circle cx="650" cy="370" r="3.5"/><circle cx="120" cy="440" r="3"/><circle cx="200" cy="500" r="3.5"/><circle cx="290" cy="420" r="2.5"/><circle cx="430" cy="410" r="3"/><circle cx="520" cy="470" r="3.5"/><circle cx="610" cy="430" r="3"/><circle cx="680" cy="520" r="4"/><circle cx="160" cy="590" r="4"/><circle cx="350" cy="580" r="4"/><circle cx="460" cy="610" r="4"/><circle cx="580" cy="560" r="3.5"/><circle cx="250" cy="610" r="3"/><circle cx="400" cy="270" r="2"/>
+    </g>
+  </g>
+
+  <!-- window frame -->
+  <path fill="#6b533f" stroke="#2b2622" stroke-width="4" fill-rule="evenodd" d="M50 50 H750 V650 H50Z M90 90 V640 H710 V90Z"/>
+  <rect x="392" y="90" width="16" height="550" fill="#6b533f" stroke="#2b2622" stroke-width="3"/>
+  <rect x="90" y="362" width="620" height="14" fill="#6b533f" stroke="#2b2622" stroke-width="3"/>
+  <!-- snow on frame top -->
+  <path d="M50 50 H750 V62 Q700 74 650 62 Q560 76 480 62 Q380 74 300 62 Q200 76 120 62 Q80 70 50 62Z" fill="#fbfcfd" stroke="#2b2622" stroke-width="2.5"/>
+
+  <!-- sill -->
+  <rect x="30" y="640" width="740" height="85" fill="#8a6a4c" stroke="#2b2622" stroke-width="4"/>
+  <line x1="30" y1="660" x2="770" y2="660" stroke="#2b2622" stroke-width="1.5"/>
+  <!-- paper with pencil lines -->
+  <g transform="rotate(-3 180 690)">
+    <rect x="95" y="662" width="170" height="52" fill="#f6f0e0" stroke="#2b2622" stroke-width="2.5"/>
+    <path d="M110 678 Q140 668 170 680 T230 676" fill="none" stroke="#4a4540" stroke-width="1.6"/>
+    <path d="M110 696 H245 M110 705 H210" fill="none" stroke="#4a4540" stroke-width="1.2"/>
+  </g>
+  <!-- pencils -->
+  <g stroke="#2b2622" stroke-width="2">
+    <rect x="320" y="682" width="120" height="9" fill="#e6b93c"/>
+    <polygon points="440,682 462,686.500 440,691" fill="#e8c9a0"/>
+    <polygon points="454,684.500 462,686.500 454,688.500" fill="#2b2622"/>
+    <rect x="312" y="682" width="8" height="9" fill="#d98a8a"/>
+    <rect x="360" y="700" width="110" height="9" fill="#5a8f6a" transform="rotate(4 360 704)"/>
+  </g>
+  <!-- tin of sardines on sill -->
+  <rect x="560" y="680" width="70" height="30" rx="4" fill="#c7ccd0" stroke="#2b2622" stroke-width="2.5"/>
+  <ellipse cx="595" cy="695" rx="22" ry="8" fill="#e4e8ea" stroke="#2b2622" stroke-width="1.5"/>
+
+  <text x="738" y="782" font-family="serif" font-size="24" font-style="italic" fill="#2b2622">P.</text>
+</svg>
