@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <g id="tuft" fill="none" stroke="#1f3a2a" stroke-width="2" stroke-linecap="round">
+      <path d="M0 0 L-6 -13 M0 0 L0 -17 M0 0 L6 -13"/>
+    </g>
+    <g id="flower">
+      <path d="M0 0 L0 14" stroke="#1f3a2a" stroke-width="1.8" fill="none"/>
+      <circle cx="0" cy="0" r="4.5" fill="#fff8e0" stroke="#2a2a3a" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="1.6" fill="#e9b73a"/>
+    </g>
+    <g id="buttercup">
+      <path d="M0 0 L0 12" stroke="#1f3a2a" stroke-width="1.8" fill="none"/>
+      <circle cx="0" cy="0" r="4" fill="#f0c43c" stroke="#2a2a3a" stroke-width="1.5"/>
+    </g>
+    <g id="pad">
+      <path d="M0 0 L12 -2 A13 6 0 1 1 8 -5 Z" fill="#5f9a5a" stroke="#1f3a2a" stroke-width="1.8" stroke-linejoin="round"/>
+    </g>
+    <g id="house">
+      <rect x="0" y="0" width="70" height="46" fill="#c8cfd4" stroke="#8f9aa3" stroke-width="2"/>
+      <path d="M-8 0 L35 -30 L78 0 Z" fill="#aab4bb" stroke="#8f9aa3" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="10" y="14" width="12" height="14" fill="#e6e9ea" stroke="#8f9aa3" stroke-width="1.5"/>
+      <rect x="46" y="22" width="14" height="24" fill="#e6e9ea" stroke="#8f9aa3" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3ecda"/>
+
+  <!-- sky / fog -->
+  <rect x="0" y="0" width="800" height="330" fill="#e4e7e3"/>
+  <circle cx="400" cy="120" r="46" fill="#f6f1de" opacity="0.9"/>
+
+  <!-- distant village in fog -->
+  
+  
+  <g stroke="#8f9aa3" stroke-width="2" fill="#b4bdc3">
+    <path d="M250 300 L250 240 M250 260 L232 246 M250 272 L270 256" fill="none"/>
+    <ellipse cx="250" cy="228" rx="28" ry="26"/>
+    <path d="M540 300 L540 245" fill="none"/>
+    <ellipse cx="540" cy="232" rx="24" ry="24"/>
+  </g>
+  <!-- church spire -->
+  <g fill="#b4bdc3" stroke="#8f9aa3" stroke-width="2" stroke-linejoin="round">
+    <rect x="360" y="240" width="34" height="62"/>
+    <path d="M356 240 L377 188 L398 240 Z"/>
+  </g>
+  <rect x="0" y="180" width="800" height="70" fill="#f0efe8" opacity="0.55"/>
+  <rect x="0" y="250" width="800" height="70" fill="#f0efe8" opacity="0.5"/>
+
+  <!-- grass field -->
+  <path d="M0 322 Q200 308 400 318 T800 316 L800 800 L0 800 Z" fill="#8cc06a" stroke="#1f3a2a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- lighter far grass fading into fog -->
+  <path d="M0 322 Q200 308 400 318 T800 316 L800 360 Q400 380 0 358 Z" fill="#b6d6a0" opacity="0.8"/>
+  <rect x="0" y="300" width="800" height="40" fill="#f0efe8" opacity="0.45"/>
+
+  <!-- pond -->
+  <ellipse cx="385" cy="535" rx="215" ry="82" fill="#c3bba6" stroke="#2a2a3a" stroke-width="3.5"/>
+  <ellipse cx="385" cy="528" rx="190" ry="68" fill="#86b5c6" stroke="#2a2a3a" stroke-width="3"/>
+  <!-- rim stones -->
+  <g fill="none" stroke="#2a2a3a" stroke-width="1.8">
+    <path d="M200 555 L215 575 M250 590 L262 612 M320 608 L326 628 M400 614 L402 635 M475 606 L482 625 M545 586 L558 604 M590 552 L608 566 M205 505 L188 497 M590 505 L608 497 M260 465 L252 450 M520 463 L530 450"/>
+  </g>
+  <!-- water ripples -->
+  <g fill="none" stroke="#f4f8f6" stroke-width="2.5" stroke-linecap="round">
+    <path d="M270 520 Q300 512 330 520"/>
+    <path d="M430 560 Q470 550 510 560"/>
+    <path d="M320 575 Q350 570 380 576"/>
+    <path d="M480 505 Q505 500 530 506"/>
+  </g>
+  <!-- lily pads -->
+  
+  
+  
+  
+  <circle cx="365" cy="506" r="4" fill="#fff" stroke="#2a2a3a" stroke-width="1.5"/>
+  <!-- reeds -->
+  <g stroke="#1f3a2a" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M205 520 L198 462 M213 522 L214 456 M222 524 L232 466"/>
+    <path d="M200 462 L196 450 M214 456 L214 444 M232 466 L236 454" stroke="#6b4a2a" stroke-width="5"/>
+  </g>
+
+  <!-- sign -->
+  <g stroke="#2a2a3a" stroke-width="3" stroke-linejoin="round">
+    <rect x="585" y="395" width="12" height="100" fill="#8a5d36"/>
+    <rect x="685" y="395" width="12" height="100" fill="#8a5d36"/>
+    <rect x="560" y="370" width="162" height="62" rx="5" fill="#d9a85f"/>
+  </g>
+  <rect x="568" y="378" width="146" height="46" rx="3" fill="none" stroke="#2a2a3a" stroke-width="1.5"/>
+  <text x="641" y="397" font-family="Georgia, serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#2a2a3a" textLength="116" lengthAdjust="spacingAndGlyphs">Welcome to</text>
+  <text x="641" y="416" font-family="Georgia, serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2a2a3a" textLength="116" lengthAdjust="spacingAndGlyphs">Mossbrook</text>
+  <path d="M575 495 l-8 -8 M575 495 l0 -12 M720 495 l8 -8 M720 495 l2 -12" stroke="#1f3a2a" stroke-width="2" fill="none"/>
+
+  <!-- tufts -->
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- flowers -->
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- path in foreground -->
+  <path d="M0 708 Q200 672 420 700 T800 684 L800 800 L0 800 Z" fill="#cdc3ad" stroke="#2a2a3a" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="#e2d9c3" stroke="#2a2a3a" stroke-width="2">
+    <ellipse cx="40" cy="735" rx="26" ry="13"/><ellipse cx="100" cy="722" rx="24" ry="12"/>
+    <ellipse cx="165" cy="718" rx="26" ry="12"/><ellipse cx="235" cy="722" rx="25" ry="12"/>
+    <ellipse cx="305" cy="728" rx="27" ry="12"/><ellipse cx="378" cy="732" rx="26" ry="12"/>
+    <ellipse cx="450" cy="727" rx="26" ry="12"/><ellipse cx="520" cy="721" rx="25" ry="12"/>
+    <ellipse cx="592" cy="716" rx="26" ry="12"/><ellipse cx="665" cy="712" rx="26" ry="12"/>
+    <ellipse cx="740" cy="708" rx="28" ry="12"/>
+    <ellipse cx="70" cy="772" rx="34" ry="15"/><ellipse cx="150" cy="760" rx="32" ry="14"/>
+    <ellipse cx="235" cy="758" rx="34" ry="15"/><ellipse cx="325" cy="766" rx="35" ry="15"/>
+    <ellipse cx="420" cy="768" rx="34" ry="15"/><ellipse cx="510" cy="762" rx="35" ry="15"/>
+    <ellipse cx="600" cy="754" rx="34" ry="15"/><ellipse cx="695" cy="750" rx="36" ry="15"/>
+    <ellipse cx="775" cy="770" rx="30" ry="15"/>
+  </g>
+
+  <!-- signature -->
+  <text x="22" y="782" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#2a2a3a" stroke="#f3ecda" stroke-width="0.5">P.</text>
+</svg>
