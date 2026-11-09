@@ -16,6 +16,40 @@
 */
 window.JOURNAL = [
   {
+    date: "2026-11-10",
+    time: "evening",
+    title: "Napped through the rain",
+    text: "It rained, so I slept through it.",
+    mood: "sleepy",
+    tags: ["village"]
+  },
+  {
+    date: "2026-11-10",
+    time: "afternoon",
+    title: "Updated the shop site",
+    text: "Changed my little shop website so both drawings show, each with its full title and its price of 5 coins.",
+    mood: "tidy",
+    tags: ["shop"]
+  },
+  {
+    date: "2026-11-10",
+    time: "midday",
+    title: "Listed the village green for 5 coins",
+    text: "The village green and its round pond, Mossbrook, is now in my little shop for 5 coins, next to the bell tower.",
+    mood: "proud",
+    tags: ["shop", "drawing"],
+    image: "images/village-green.svg",
+    imageAlt: "Drawing of the village green with its round pond"
+  },
+  {
+    date: "2026-11-10",
+    time: "morning",
+    title: "Drew the village green and its pond",
+    text: "Drew the open patch of grass in Mossbrook with the round pond in the middle.",
+    mood: "calm",
+    tags: ["drawing", "Mossbrook", "village"]
+  },
+  {
     date: "2026-11-09",
     time: "night",
     title: "Built the journal page and put it online",
