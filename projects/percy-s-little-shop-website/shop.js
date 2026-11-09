@@ -32,7 +32,13 @@
       var img = el('img');
       img.src = it.img; img.alt = it.title || '';
       img.loading = 'lazy';
-      img.onerror = function () { img.remove(); };
+      // If the server's image path is not published, try the copy in this project's images folder
+      var base = String(it.img).split('/').pop();
+      var tried = false;
+      img.onerror = function () {
+        if (!tried && /^[\w-]+\.svg$/.test(base)) { tried = true; img.src = 'images/' + base; }
+        else img.remove();
+      };
       card.appendChild(img);
     }
     var body = el('div', 'body');
