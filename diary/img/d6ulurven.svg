@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3dbdc"/>
+      <stop offset="1" stop-color="#eef0e8"/>
+    </linearGradient>
+    <pattern id="cob" width="44" height="26" patternUnits="userSpaceOnUse">
+      <rect width="44" height="26" fill="#8f877a"/>
+      <ellipse cx="11" cy="8" rx="10" ry="7" fill="#a39b8d" stroke="#5f574e" stroke-width="1.5"/>
+      <ellipse cx="33" cy="8" rx="9" ry="6" fill="#968e80" stroke="#5f574e" stroke-width="1.5"/>
+      <ellipse cx="0" cy="21" rx="9" ry="6" fill="#9c9486" stroke="#5f574e" stroke-width="1.5"/>
+      <ellipse cx="22" cy="21" rx="10" ry="7" fill="#a69e90" stroke="#5f574e" stroke-width="1.5"/>
+      <ellipse cx="44" cy="21" rx="9" ry="6" fill="#9c9486" stroke="#5f574e" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#ece6d6"/>
+  <rect x="0" y="0" width="800" height="650" fill="url(#sky)"/>
+
+  <!-- distant fog banks -->
+  <ellipse cx="120" cy="300" rx="150" ry="30" fill="#f4f1ea" opacity="0.6"/>
+  <ellipse cx="700" cy="250" rx="130" ry="26" fill="#f4f1ea" opacity="0.6"/>
+  <ellipse cx="400" cy="430" rx="520" ry="40" fill="#f4f1ea" opacity="0.7"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="650" width="800" height="150" fill="url(#cob)"/>
+  <rect x="0" y="650" width="800" height="150" fill="none" stroke="#2b2622" stroke-width="2" opacity="0"/>
+
+  <!-- foreground fog -->
+  <ellipse cx="400" cy="690" rx="470" ry="42" fill="#f2efe6" opacity="0.75"/>
+
+  <!-- chimney stack (behind roof edge) -->
+  <rect x="500" y="200" width="30" height="92" fill="#9a5b44" stroke="#2b2622" stroke-width="3"/>
+  <path d="M505 220 L525 218 M503 245 L527 242 M505 270 L527 268" stroke="#6d3d2d" stroke-width="2" fill="none"/>
+
+  <!-- smoke wisp -->
+  <path d="M515 178 C500 150 530 130 510 100 C495 80 520 60 505 40" fill="none" stroke="#9aa1a3" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- walls -->
+  <rect x="200" y="365" width="400" height="285" fill="#e9dcc0" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- timber framing -->
+  <g stroke="#3a2e26" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="200" y1="440" x2="600" y2="440"/>
+    <line x1="260" y1="365" x2="260" y2="650"/>
+    <line x1="540" y1="365" x2="540" y2="650"/>
+    <line x1="200" y1="365" x2="260" y2="440"/>
+    <line x1="600" y1="365" x2="540" y2="440"/>
+  </g>
+
+  <!-- windows -->
+  <g stroke="#2b2622" stroke-width="3">
+    <rect x="285" y="380" width="70" height="50" fill="#b9c9cc"/>
+    <line x1="320" y1="380" x2="320" y2="430" stroke-width="3"/>
+    <line x1="285" y1="405" x2="355" y2="405" stroke-width="3"/>
+    <rect x="445" y="380" width="70" height="50" fill="#b9c9cc"/>
+    <line x1="480" y1="380" x2="480" y2="430" stroke-width="3"/>
+    <line x1="445" y1="405" x2="515" y2="405" stroke-width="3"/>
+  </g>
+
+  <!-- door -->
+  <rect x="370" y="530" width="60" height="120" fill="#6e4a36" stroke="#2b2622" stroke-width="3"/>
+  <circle cx="420" cy="592" r="3" fill="#c9a24a"/>
+
+  <!-- painted-over brass letterbox -->
+  <rect x="388" y="558" width="24" height="9" fill="#6f7a5c" stroke="#2b2622" stroke-width="2"/>
+  <line x1="390" y1="562" x2="410" y2="562" stroke="#c9a24a" stroke-width="1.5"/>
+
+  <!-- crooked tin house-number plate: 4 -->
+  <g transform="translate(262 470) rotate(-7)">
+    <rect x="0" y="0" width="46" height="30" fill="#b7c2c4" stroke="#2b2622" stroke-width="2.5"/>
+    <circle cx="6" cy="6" r="1.5" fill="#2b2622"/>
+    <circle cx="40" cy="24" r="1.5" fill="#2b2622"/>
+    <path d="M30 6 L14 20 L36 20 M30 6 L30 25" fill="none" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- roof -->
+  <polygon points="180,365 400,190 620,365" fill="#7a5a4a" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#5a4236" stroke-width="2" opacity="0.7">
+    <line x1="260" y1="300" x2="330" y2="250"/>
+    <line x1="300" y1="330" x2="380" y2="270"/>
+    <line x1="470" y1="270" x2="550" y2="330"/>
+  </g>
+
+  <!-- chimney pot (cracked) -->
+  <rect x="496" y="178" width="38" height="28" fill="#5d4636" stroke="#2b2622" stroke-width="3"/>
+  <path d="M510 180 L516 192 L511 200 L518 205" fill="none" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- sagging gutter at east corner -->
+  <g fill="none" stroke="#2b2622" stroke-linecap="round">
+    <path d="M440 236 L540 312 Q600 352 624 376" stroke-width="9"/>
+    <path d="M440 236 L540 312 Q600 352 624 376" stroke="#8a8f90" stroke-width="4"/>
+    <line x1="470" y1="250" x2="466" y2="262" stroke-width="3"/>
+    <line x1="530" y1="296" x2="526" y2="308" stroke-width="3"/>
+    <line x1="600" y1="342" x2="598" y2="354" stroke-width="3"/>
+  </g>
+
+  <!-- wall and roof outline pass -->
+  <polygon points="180,365 400,190 620,365" fill="none" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- signature "P." -->
+  <g fill="none" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round">
+    <path d="M742 790 L742 764 L752 764 Q760 764 760 772 Q760 780 752 780 L742 780"/>
+  </g>
+  <circle cx="768" cy="790" r="2.2" fill="#2b2622"/>
+</svg>
