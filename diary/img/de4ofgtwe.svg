@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+  <!-- sky, fog-washed -->
+  <rect x="0" y="0" width="800" height="420" fill="#dfe3e0"/>
+  <rect x="0" y="60" width="800" height="70" fill="#f4f2ec" opacity="0.8"/>
+  <rect x="0" y="210" width="800" height="50" fill="#f4f2ec" opacity="0.7"/>
+
+  <!-- distant rooftops in fog -->
+  <g fill="#b7bcb8" stroke="#2b2824" stroke-width="1.5">
+    <path d="M40 470 L40 410 L90 380 L140 410 L140 470 Z"/>
+    <path d="M620 470 L620 405 L680 370 L740 405 L740 470 Z"/>
+  </g>
+
+  <!-- tower body -->
+  <rect x="320" y="120" width="160" height="520" fill="#b9ae98" stroke="#2b2824" stroke-width="4"/>
+  <!-- shaded side -->
+  <rect x="440" y="120" width="40" height="520" fill="#9a8f79" opacity="0.8"/>
+  <path d="M440 120 L440 640" stroke="#2b2824" stroke-width="2" fill="none"/>
+
+  <!-- stone courses -->
+  <g stroke="#6d6557" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M320 160 H480 M320 200 H480 M320 250 H480 M320 300 H480 M320 340 H480 M320 460 H480 M320 500 H480 M320 540 H480 M320 590 H480"/>
+  </g>
+
+  <!-- patched mortar band -->
+  <rect x="320" y="372" width="160" height="44" fill="#ddd5c0" stroke="#2b2824" stroke-width="2.5"/>
+  <g stroke="#8c8270" stroke-width="1.2" fill="none">
+    <path d="M332 382 L352 378 M360 402 L380 398 M396 384 L418 388 M428 404 L452 400 M342 408 L364 410"/>
+  </g>
+  <path d="M320 372 L336 380 L352 370 L370 382 L390 372 L408 384 L430 372 L452 382 L480 372" fill="none" stroke="#2b2824" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- belfry opening -->
+  <path d="M358 230 L358 176 Q400 140 442 176 L442 230 Z" fill="#3a3630" stroke="#2b2824" stroke-width="3"/>
+  <path d="M378 218 Q378 190 400 182 Q422 190 422 218 Z" fill="#6f6658"/>
+  <path d="M396 224 L404 224 L404 212 L396 212 Z" fill="#c9a24a"/>
+
+  <!-- clock face -->
+  <circle cx="400" cy="300" r="62" fill="#f4efe0" stroke="#2b2824" stroke-width="6"/>
+  <circle cx="400" cy="300" r="52" fill="none" stroke="#8c8270" stroke-width="1.5"/>
+  <g stroke="#2b2824" stroke-width="2.5">
+    <path d="M400 252 L400 262 M448 300 L438 300 M400 348 L400 338 M352 300 L362 300"/>
+  </g>
+  <!-- hairline crack across glass -->
+  <path d="M342 268 L362 276 L374 272 L389 284 L402 280 L418 296 L432 292 L446 304 L458 302"
+        fill="none" stroke="#2b2824" stroke-width="1.4"/>
+  <path d="M374 272 L370 262" fill="none" stroke="#2b2824" stroke-width="1"/>
+
+  <!-- hour hand -->
+  <path d="M400 300 L384 318" stroke="#1d1b18" stroke-width="6" stroke-linecap="round"/>
+  <!-- bent minute hand -->
+  <path d="M400 300 L400 262 L424 244" fill="none" stroke="#1d1b18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="300" r="5" fill="#1d1b18"/>
+
+  <!-- rope on north side -->
+  <path d="M338 230 Q336 300 340 380 Q342 430 338 470" fill="none" stroke="#5a4a36" stroke-width="5"/>
+  <path d="M338 230 Q336 300 340 380 Q342 430 338 470" fill="none" stroke="#8c6e4c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <circle cx="338" cy="474" r="7" fill="#5a4a36"/>
+
+  <!-- rusted hook above door -->
+  <path d="M400 488 L400 500 Q400 512 412 508 Q418 504 412 498" fill="none" stroke="#2b2824" stroke-width="3"/>
+  <path d="M396 486 L404 486 L404 494 L396 494 Z" fill="#8a4b2a" stroke="#2b2824" stroke-width="1.5"/>
+  <path d="M398 500 L402 508" stroke="#8a4b2a" stroke-width="3"/>
+
+  <!-- door -->
+  <path d="M374 640 L374 552 Q374 524 400 524 Q426 524 426 552 L426 640 Z" fill="#5b4a38" stroke="#2b2824" stroke-width="4"/>
+  <path d="M400 530 L400 640" stroke="#2b2824" stroke-width="2"/>
+  <circle cx="416" cy="596" r="3" fill="#c9a24a"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="640" width="800" height="160" fill="#8a8680"/>
+  <path d="M0 640 L800 640" stroke="#2b2824" stroke-width="3"/>
+  <g fill="#6e6a62" stroke="#2b2824" stroke-width="1.2" opacity="0.9">
+    <ellipse cx="120" cy="672" rx="26" ry="10"/>
+    <ellipse cx="200" cy="668" rx="22" ry="8"/>
+    <ellipse cx="285" cy="676" rx="28" ry="10"/>
+    <ellipse cx="520" cy="670" rx="24" ry="9"/>
+    <ellipse cx="610" cy="676" rx="28" ry="10"/>
+    <ellipse cx="700" cy="668" rx="22" ry="8"/>
+    <ellipse cx="90" cy="722" rx="36" ry="13"/>
+    <ellipse cx="230" cy="735" rx="40" ry="14"/>
+    <ellipse cx="380" cy="748" rx="44" ry="15"/>
+    <ellipse cx="560" cy="735" rx="40" ry="14"/>
+    <ellipse cx="700" cy="722" rx="36" ry="13"/>
+    <ellipse cx="150" cy="775" rx="52" ry="18"/>
+    <ellipse cx="420" cy="785" rx="58" ry="18"/>
+    <ellipse cx="650" cy="772" rx="52" ry="17"/>
+  </g>
+  <!-- ground fog -->
+  <rect x="0" y="600" width="800" height="70" fill="#f4f2ec" opacity="0.55"/>
+
+  <!-- signature -->
+  <text x="752" y="778" font-size="22" fill="#2b2824" font-family="serif">P.</text>
+</svg>
