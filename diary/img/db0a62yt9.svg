@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <path id="star" d="M0,-14 L3.5,-4.9 L13.3,-4.3 L5.7,1.9 L8.2,11.3 L0,6 L-8.2,11.3 L-5.7,1.9 L-13.3,-4.3 L-3.5,-4.9Z"/>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+
+  <!-- fog bands -->
+  <ellipse cx="140" cy="150" rx="260" ry="60" fill="#e4e2da" opacity="0.7"/>
+  <ellipse cx="660" cy="120" rx="220" ry="50" fill="#e4e2da" opacity="0.6"/>
+  <ellipse cx="400" cy="700" rx="420" ry="60" fill="#e4e2da" opacity="0.5"/>
+
+  <!-- counter -->
+  <rect x="0" y="615" width="800" height="185" fill="#8a6a4a"/>
+  <rect x="0" y="615" width="800" height="8" fill="#5e4630" stroke="#2a211a" stroke-width="3"/>
+  <path d="M60 680 H300 M420 730 H760 M120 760 H300" stroke="#6e5238" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- shadow -->
+  <ellipse cx="420" cy="612" rx="200" ry="12" fill="#5e4630" opacity="0.45"/>
+
+  <!-- lid (open, tilted back) -->
+  <polygon points="215,412 585,412 565,205 195,205" fill="#9c6b3f" stroke="#2a211a" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="235,398 565,398 548,225 212,225" fill="#c9a77a" stroke="#2a211a" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- faded blue stars on lid -->
+  <g fill="#7f9cc4" opacity="0.8">
+    
+    
+    
+    
+    
+  </g>
+
+  <!-- box body -->
+  <rect x="220" y="410" width="360" height="190" fill="#8b5a2b" stroke="#2a211a" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="236" y="430" width="328" height="160" fill="#a06b36" stroke="#2a211a" stroke-width="2"/>
+  <path d="M250 470 H560 M250 520 H560 M250 565 H560" stroke="#7a4b22" stroke-width="2" fill="none"/>
+
+  <!-- open top interior -->
+  <rect x="232" y="410" width="336" height="16" fill="#2a1f16" stroke="#2a211a" stroke-width="2"/>
+
+  <!-- brass corners -->
+  <g fill="#c9a23a" stroke="#2a211a" stroke-width="3" stroke-linejoin="round">
+    <rect x="220" y="410" width="22" height="22"/>
+    <rect x="558" y="410" width="22" height="22"/>
+    <rect x="220" y="578" width="22" height="22"/>
+    <rect x="558" y="578" width="22" height="22"/>
+  </g>
+
+  <!-- comb of pins above drum -->
+  <g fill="#d8dde3" stroke="#2a211a" stroke-width="1.5">
+    <rect x="312" y="356" width="3" height="32"/>
+    <rect x="330" y="350" width="3" height="38"/>
+    <rect x="348" y="356" width="3" height="32"/>
+    <rect x="366" y="346" width="3" height="42"/>
+    <rect x="384" y="354" width="3" height="34"/>
+    <rect x="402" y="346" width="3" height="42"/>
+    <rect x="420" y="354" width="3" height="34"/>
+    <rect x="438" y="346" width="3" height="42"/>
+    <rect x="456" y="356" width="3" height="32"/>
+    <rect x="474" y="350" width="3" height="38"/>
+    <rect x="492" y="356" width="3" height="32"/>
+  </g>
+
+  <!-- metal drum -->
+  <rect x="300" y="392" width="200" height="26" fill="#b9bfc7" stroke="#2a211a" stroke-width="3"/>
+  <ellipse cx="300" cy="405" rx="8" ry="13" fill="#9aa1aa" stroke="#2a211a" stroke-width="3"/>
+  <ellipse cx="500" cy="405" rx="8" ry="13" fill="#9aa1aa" stroke="#2a211a" stroke-width="3"/>
+  <path d="M320 396 V414 M345 396 V414 M370 396 V414 M395 396 V414 M420 396 V414 M445 396 V414 M470 396 V414 M495 396 V414" stroke="#7d848d" stroke-width="2"/>
+
+  <!-- round key on side -->
+  <rect x="576" y="497" width="24" height="10" fill="#b58d2e" stroke="#2a211a" stroke-width="3"/>
+  <circle cx="602" cy="502" r="20" fill="#c9a23a" stroke="#2a211a" stroke-width="3"/>
+  <circle cx="602" cy="502" r="6" fill="#8a6418" stroke="#2a211a" stroke-width="2"/>
+  <line x1="602" y1="502" x2="622" y2="486" stroke="#2a211a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- signature -->
+  <text x="752" y="775" font-family="serif" font-size="26" fill="#2a211a">P.</text>
+</svg>
