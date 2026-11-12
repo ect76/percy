@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3efe4"/>
+  <!-- fog bands -->
+  <rect x="0" y="90" width="800" height="60" fill="#e4e1d8" opacity="0.7"/>
+  <rect x="0" y="210" width="800" height="40" fill="#e9e6dd" opacity="0.6"/>
+  <rect x="0" y="560" width="800" height="50" fill="#e4e1d8" opacity="0.5"/>
+  <!-- cobbled ground -->
+  <rect x="0" y="700" width="800" height="100" fill="#d9d4c6"/>
+  <g fill="#c9c3b2" stroke="#4a4740" stroke-width="2">
+    <ellipse cx="60" cy="735" rx="34" ry="14"/>
+    <ellipse cx="150" cy="760" rx="38" ry="15"/>
+    <ellipse cx="250" cy="732" rx="30" ry="12"/>
+    <ellipse cx="340" cy="768" rx="40" ry="14"/>
+    <ellipse cx="460" cy="738" rx="34" ry="13"/>
+    <ellipse cx="560" cy="772" rx="38" ry="15"/>
+    <ellipse cx="660" cy="735" rx="32" ry="13"/>
+    <ellipse cx="745" cy="762" rx="36" ry="14"/>
+  </g>
+  <!-- shadow -->
+  <ellipse cx="400" cy="716" rx="130" ry="12" fill="#b8b19f" opacity="0.8"/>
+  <!-- painted white board -->
+  <rect x="290" y="130" width="200" height="560" rx="4" fill="#fbfaf6" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="290" y="130" width="200" height="14" fill="#e6e2d6" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- mounting screws -->
+  <g fill="#8c8478" stroke="#2a2a2a" stroke-width="1.5">
+    <circle cx="308" cy="160" r="5"/>
+    <circle cx="472" cy="160" r="5"/>
+    <circle cx="308" cy="670" r="5"/>
+    <circle cx="472" cy="670" r="5"/>
+  </g>
+  <!-- glass tube -->
+  <rect x="372" y="150" width="16" height="520" rx="8" fill="#e9f1f2" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- bulb -->
+  <circle cx="380" cy="688" r="24" fill="#e9f1f2" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- red column -->
+  <rect x="377" y="391" width="6" height="297" fill="#c8302a"/>
+  <circle cx="380" cy="688" r="17" fill="#c8302a"/>
+  <!-- glass highlight -->
+  <path d="M378 170 L378 380" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  <!-- scale ticks and labels -->
+  <g stroke="#2a2a2a" stroke-width="2">
+    <line x1="388" y1="640" x2="410" y2="640"/>
+    <line x1="388" y1="563" x2="404" y2="563"/>
+    <line x1="388" y1="486" x2="410" y2="486"/>
+    <line x1="388" y1="410" x2="404" y2="410"/>
+    <line x1="388" y1="333" x2="410" y2="333"/>
+    <line x1="388" y1="256" x2="404" y2="256"/>
+    <line x1="388" y1="180" x2="410" y2="180"/>
+  </g>
+  <g font-family="sans-serif" font-size="17" fill="#2a2a2a">
+    <text x="416" y="646">-20</text>
+    <text x="416" y="569">0</text>
+    <text x="416" y="492">20</text>
+    <text x="416" y="416">40</text>
+    <text x="416" y="339">60</text>
+    <text x="416" y="262">80</text>
+    <text x="416" y="186">100</text>
+  </g>
+  <text x="340" y="118" font-family="sans-serif" font-size="20" fill="#2a2a2a">F</text>
+  <!-- ink outline of tube over fill -->
+  <path d="M372 150 L372 640 M388 150 L388 640" stroke="#2a2a2a" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- label -->
+  <text x="700" y="770" font-family="serif" font-size="22" fill="#2a2a2a">P.</text>
+</svg>
