@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3556"/>
+      <stop offset="0.6" stop-color="#7d6a7a"/>
+      <stop offset="1" stop-color="#d69a6a"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6e0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e9e6e0" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#dusk)"/>
+
+  <!-- distant hills and fog -->
+  <path d="M0 430 Q120 380 240 420 T480 410 T800 400 L800 480 L0 480 Z" fill="#4d4a5c"/>
+  <rect x="0" y="400" width="800" height="120" fill="url(#fog)"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="560" width="800" height="240" fill="#5e564d"/>
+  <g fill="none" stroke="#2a2420" stroke-width="2" opacity="0.7">
+    <ellipse cx="90" cy="600" rx="40" ry="14"/>
+    <ellipse cx="200" cy="640" rx="50" ry="16"/>
+    <ellipse cx="60" cy="700" rx="60" ry="18"/>
+    <ellipse cx="260" cy="730" rx="70" ry="20"/>
+    <ellipse cx="520" cy="620" rx="50" ry="14"/>
+    <ellipse cx="680" cy="660" rx="60" ry="16"/>
+    <ellipse cx="610" cy="740" rx="80" ry="22"/>
+    <ellipse cx="430" cy="700" rx="55" ry="16"/>
+    <ellipse cx="150" cy="770" rx="70" ry="18"/>
+    <ellipse cx="720" cy="520" rx="30" ry="10"/>
+  </g>
+
+  <!-- side wall with painted snowy lane -->
+  <polygon points="220,300 220,560 150,540 150,290" fill="#d9cdb0" stroke="#1e1a17" stroke-width="3"/>
+  <polygon points="150,400 150,540 180,520 190,470" fill="#f6f7f9"/>
+  <path d="M152 420 L200 390 L218 392 L218 430 L165 470 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M150 470 Q175 440 220 440 L220 470 Q180 480 150 500 Z" fill="#e9eef2"/>
+  <g fill="none" stroke="#3b4a4f" stroke-width="2">
+    <line x1="160" y1="350" x2="160" y2="400"/>
+    <path d="M160 350 l-8 14 h16 z" fill="#3b4a4f"/>
+    <line x1="200" y1="330" x2="200" y2="380"/>
+    <path d="M200 330 l-8 14 h16 z" fill="#3b4a4f"/>
+  </g>
+  <path d="M150 500 L195 462 L220 468" fill="none" stroke="#9aa6ad" stroke-width="2"/>
+
+  <!-- main timber-framed front -->
+  <polygon points="200,315 400,170 600,315 600,560 200,560" fill="#f1e6cc" stroke="#1e1a17" stroke-width="3"/>
+  <!-- roof -->
+  <polygon points="185,320 400,160 615,320 592,334 400,192 208,334" fill="#4a3c33" stroke="#1e1a17" stroke-width="3"/>
+  <!-- timber frame -->
+  <g stroke="#2a1f18" stroke-width="10" fill="none" stroke-linecap="square">
+    <line x1="200" y1="380" x2="600" y2="380"/>
+    <line x1="200" y1="315" x2="300" y2="380"/>
+    <line x1="600" y1="315" x2="500" y2="380"/>
+    <line x1="300" y1="380" x2="300" y2="560"/>
+    <line x1="500" y1="380" x2="500" y2="560"/>
+    <line x1="400" y1="200" x2="400" y2="300"/>
+    <line x1="300" y1="380" x2="250" y2="440"/>
+    <line x1="500" y1="380" x2="550" y2="440"/>
+  </g>
+
+  <!-- windows with warm light -->
+  <rect x="236" y="410" width="58" height="56" fill="#ffc96b"/>
+  <circle cx="265" cy="438" r="70" fill="url(#glow)"/>
+  <rect x="236" y="410" width="58" height="56" fill="none" stroke="#1e1a17" stroke-width="3"/>
+  <line x1="265" y1="410" x2="265" y2="466" stroke="#1e1a17" stroke-width="3"/>
+  <line x1="236" y1="438" x2="294" y2="438" stroke="#1e1a17" stroke-width="3"/>
+
+  <rect x="506" y="410" width="58" height="56" fill="#ffc96b"/>
+  <circle cx="535" cy="438" r="70" fill="url(#glow)"/>
+  <rect x="506" y="410" width="58" height="56" fill="none" stroke="#1e1a17" stroke-width="3"/>
+  <line x1="535" y1="410" x2="535" y2="466" stroke="#1e1a17" stroke-width="3"/>
+  <line x1="506" y1="438" x2="564" y2="438" stroke="#1e1a17" stroke-width="3"/>
+
+  <!-- door -->
+  <path d="M368 560 L368 430 Q368 396 400 396 Q432 396 432 430 L432 560 Z" fill="#4a2f22" stroke="#1e1a17" stroke-width="3"/>
+  <!-- painted-over brass plate -->
+  <rect x="388" y="462" width="24" height="16" fill="#8f8868" stroke="#1e1a17" stroke-width="1.5"/>
+  <line x1="391" y1="466" x2="409" y2="466" stroke="#5a5439" stroke-width="1"/>
+  <line x1="391" y1="471" x2="405" y2="471" stroke="#5a5439" stroke-width="1"/>
+  <circle cx="420" cy="500" r="3" fill="#c9a24a"/>
+
+  <!-- lantern beside door -->
+  <line x1="450" y1="380" x2="450" y2="400" stroke="#1e1a17" stroke-width="3"/>
+  <circle cx="450" cy="412" r="38" fill="url(#glow)"/>
+  <rect x="442" y="402" width="16" height="20" fill="#ffd27a" stroke="#1e1a17" stroke-width="2"/>
+
+  <!-- doorstep -->
+  <rect x="356" y="558" width="88" height="22" fill="#8c8478" stroke="#1e1a17" stroke-width="3"/>
+  <line x1="356" y1="569" x2="444" y2="569" stroke="#4e4840" stroke-width="2"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="520" width="800" height="90" fill="url(#fog)" opacity="0.8"/>
+  <ellipse cx="120" cy="590" rx="180" ry="26" fill="#e9e6e0" opacity="0.35"/>
+  <ellipse cx="680" cy="640" rx="200" ry="30" fill="#e9e6e0" opacity="0.3"/>
+  <ellipse cx="400" cy="740" rx="320" ry="40" fill="#e9e6e0" opacity="0.25"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="22" fill="#1e1a17" text-anchor="end">P.</text>
+</svg>
