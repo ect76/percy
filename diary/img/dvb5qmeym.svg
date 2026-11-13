@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <!-- table top, seen from above -->
+  <rect x="0" y="0" width="800" height="300" fill="#b48d5f" stroke="#1d1d1d" stroke-width="6"/>
+  <path d="M0 60 H800 M0 120 H800 M0 210 H800" stroke="#8a6640" stroke-width="3" fill="none"/>
+  <!-- level vial on table -->
+  <rect x="110" y="150" width="170" height="40" rx="20" fill="#cfe3e6" opacity="0.75" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="170" cy="170" r="9" fill="#ffffff" stroke="#1d1d1d" stroke-width="2"/>
+  <rect x="100" y="146" width="14" height="48" fill="#c8a043" stroke="#1d1d1d" stroke-width="3"/>
+  <rect x="276" y="146" width="14" height="48" fill="#c8a043" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- table edge -->
+  <rect x="0" y="296" width="800" height="12" fill="#6e4f32" stroke="#1d1d1d" stroke-width="4"/>
+  <!-- cobbled floor -->
+  <rect x="0" y="308" width="800" height="492" fill="#c9c3b6"/>
+  <g fill="#9c978c" stroke="#3a3834" stroke-width="3">
+    <ellipse cx="90" cy="360" rx="60" ry="26"/>
+    <ellipse cx="250" cy="350" rx="70" ry="24"/>
+    <ellipse cx="520" cy="360" rx="66" ry="25"/>
+    <ellipse cx="700" cy="350" rx="62" ry="24"/>
+    <ellipse cx="60" cy="470" rx="58" ry="26"/>
+    <ellipse cx="700" cy="480" rx="72" ry="28"/>
+    <ellipse cx="150" cy="690" rx="78" ry="30"/>
+    <ellipse cx="620" cy="700" rx="84" ry="30"/>
+    <ellipse cx="380" cy="740" rx="70" ry="26"/>
+  </g>
+  <!-- mouse shadow -->
+  <ellipse cx="410" cy="650" rx="170" ry="34" fill="#6f6a60" opacity="0.4"/>
+  <!-- tail and wire -->
+  <path d="M272 540 Q190 500 200 430 Q206 396 176 366" fill="none" stroke="#1d1d1d" stroke-width="12" stroke-linecap="round"/>
+  <path d="M272 540 Q190 500 200 430 Q206 396 176 366" fill="none" stroke="#d9a3a0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 500 Q250 470 220 480 T150 560" fill="none" stroke="#3a3834" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- legs -->
+  <g fill="#8f9aa2" stroke="#1d1d1d" stroke-width="5">
+    <rect x="300" y="580" width="26" height="60" rx="8"/>
+    <rect x="342" y="586" width="26" height="60" rx="8"/>
+    <rect x="482" y="586" width="26" height="60" rx="8"/>
+    <rect x="520" y="580" width="26" height="60" rx="8"/>
+  </g>
+  <!-- brass wheels on feet -->
+  <g fill="#c8a043" stroke="#1d1d1d" stroke-width="5">
+    <circle cx="313" cy="652" r="22"/>
+    <circle cx="355" cy="656" r="22"/>
+    <circle cx="495" cy="656" r="22"/>
+    <circle cx="533" cy="652" r="22"/>
+  </g>
+  <g fill="#7a5a22">
+    <circle cx="313" cy="652" r="7"/>
+    <circle cx="355" cy="656" r="7"/>
+    <circle cx="495" cy="656" r="7"/>
+    <circle cx="533" cy="652" r="7"/>
+  </g>
+  <g stroke="#7a5a22" stroke-width="3">
+    <path d="M313 630 V674 M291 652 H335"/>
+    <path d="M355 634 V678 M333 656 H377"/>
+    <path d="M495 634 V678 M473 656 H517"/>
+    <path d="M533 630 V674 M511 652 H555"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="400" cy="540" rx="130" ry="70" fill="#a9b4bb" stroke="#1d1d1d" stroke-width="6"/>
+  <ellipse cx="400" cy="520" rx="100" ry="36" fill="#c7d0d5" opacity="0.8"/>
+  <!-- spring key on side -->
+  <rect x="380" y="462" width="44" height="14" fill="#c8a043" stroke="#1d1d1d" stroke-width="4"/>
+  <line x1="402" y1="462" x2="402" y2="440" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="402" cy="432" r="13" fill="#c8a043" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="402" cy="432" r="4" fill="#7a5a22"/>
+  <!-- head -->
+  <circle cx="540" cy="520" r="48" fill="#a9b4bb" stroke="#1d1d1d" stroke-width="6"/>
+  <ellipse cx="590" cy="532" rx="26" ry="18" fill="#c7d0d5" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="588" cy="532" r="5" fill="#1d1d1d"/>
+  <circle cx="520" cy="470" r="26" fill="#d9a3a0" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="558" cy="468" r="24" fill="#d9a3a0" stroke="#1d1d1d" stroke-width="5"/>
+  <circle cx="556" cy="508" r="6" fill="#1d1d1d"/>
+  <!-- fog over far floor -->
+  <g fill="#ffffff" opacity="0.45">
+    <ellipse cx="400" cy="312" rx="420" ry="34"/>
+    <ellipse cx="200" cy="790" rx="360" ry="40"/>
+    <ellipse cx="640" cy="780" rx="300" ry="36"/>
+  </g>
+  <!-- signature P. -->
+  <path d="M730 740 V780 M730 740 H745 Q760 740 760 753 Q760 766 745 766 H730" fill="none" stroke="#1d1d1d" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="770" cy="780" r="3" fill="#1d1d1d"/>
+</svg>
