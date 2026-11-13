@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+
+  <!-- distant fog bands -->
+  <rect x="0" y="150" width="800" height="90" fill="#d8d5cb" opacity="0.8"/>
+  <rect x="0" y="250" width="800" height="60" fill="#e4e0d5" opacity="0.7"/>
+
+  <!-- bakery roofs beyond -->
+  <g stroke="#2b2622" stroke-width="3" stroke-linejoin="round">
+    <polygon points="430,350 490,300 550,350 550,420 430,420" fill="#a8674d"/>
+    <polygon points="555,335 615,285 675,335 675,420 555,420" fill="#8c5240"/>
+    <polygon points="680,345 730,305 780,345 780,420 680,420" fill="#b87a5c"/>
+    <rect x="600" y="296" width="14" height="30" fill="#6b4a3a"/>
+    <rect x="512" y="310" width="12" height="26" fill="#6b4a3a"/>
+  </g>
+  <g fill="#e4d6b8" opacity="0.8">
+    <rect x="450" y="370" width="22" height="24"/>
+    <rect x="495" y="370" width="22" height="24"/>
+    <rect x="580" y="365" width="22" height="26"/>
+    <rect x="640" y="365" width="22" height="26"/>
+    <rect x="700" y="368" width="22" height="26"/>
+  </g>
+
+  <!-- village green -->
+  <path d="M0 420 Q200 390 420 410 T800 400 L800 800 L0 800 Z" fill="#9db78b" stroke="#2b2622" stroke-width="3"/>
+  <path d="M0 470 Q300 440 560 470 T800 520" fill="none" stroke="#7d9a6f" stroke-width="2"/>
+
+  <!-- bare tree at right of green -->
+  <g stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="690" y1="600" x2="690" y2="480"/>
+    <line x1="690" y1="520" x2="660" y2="480"/>
+    <line x1="690" y1="530" x2="724" y2="495"/>
+    <line x1="690" y1="500" x2="676" y2="462"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="380" cy="560" rx="220" ry="80" fill="#6f939f" stroke="#2b2622" stroke-width="3"/>
+  <g stroke="#e9f0ee" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round">
+    <path d="M280 548 Q300 544 320 548"/>
+    <path d="M430 575 Q455 571 480 575"/>
+    <path d="M330 590 Q350 586 370 590"/>
+    <path d="M200 560 Q215 556 230 560"/>
+  </g>
+
+  <!-- welcome sign -->
+  <g>
+    <!-- post -->
+    <rect x="200" y="480" width="14" height="150" fill="#6b4a33" stroke="#2b2622" stroke-width="3"/>
+    <!-- mossy base -->
+    <ellipse cx="196" cy="630" rx="18" ry="7" fill="#5d7f48"/>
+    <ellipse cx="220" cy="626" rx="10" ry="5" fill="#6d9150"/>
+    <ellipse cx="208" cy="636" rx="8" ry="4" fill="#4e6f3d"/>
+    <!-- chains -->
+    <g stroke="#b8924a" stroke-width="3" fill="none">
+      <line x1="162" y1="500" x2="162" y2="520"/>
+      <line x1="258" y1="500" x2="258" y2="520"/>
+    </g>
+    <g stroke="#8a6a2e" stroke-width="2" fill="none">
+      <ellipse cx="162" cy="524" rx="4" ry="6"/>
+      <ellipse cx="162" cy="536" rx="4" ry="6"/>
+      <ellipse cx="258" cy="524" rx="4" ry="6"/>
+      <ellipse cx="258" cy="536" rx="4" ry="6"/>
+    </g>
+    <!-- board -->
+    <rect x="150" y="430" width="120" height="70" rx="10" fill="#f4efe0" stroke="#4f7a4a" stroke-width="8"/>
+    <rect x="150" y="430" width="120" height="70" rx="10" fill="none" stroke="#2b2622" stroke-width="2"/>
+    <text x="210" y="472" font-family="serif" font-size="13" text-anchor="middle" fill="#2b2622" textLength="102" lengthAdjust="spacingAndGlyphs">Welcome to Mossville</text>
+    <!-- roof cap -->
+    <polygon points="140,430 210,396 280,430" fill="#5a4030" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#8c8a84" stroke-width="1">
+    <circle cx="90" cy="110" r="3"/>
+    <circle cx="170" cy="60" r="2.5"/>
+    <circle cx="260" cy="130" r="3.5"/>
+    <circle cx="340" cy="90" r="2"/>
+    <circle cx="420" cy="50" r="3"/>
+    <circle cx="510" cy="120" r="2.5"/>
+    <circle cx="600" cy="70" r="3"/>
+    <circle cx="700" cy="140" r="2"/>
+    <circle cx="740" cy="60" r="3"/>
+    <circle cx="60" cy="230" r="2.5"/>
+    <circle cx="130" cy="300" r="3"/>
+    <circle cx="300" cy="250" r="2"/>
+    <circle cx="390" cy="300" r="3.5"/>
+    <circle cx="470" cy="230" r="2.5"/>
+    <circle cx="760" cy="230" r="3"/>
+    <circle cx="40" cy="380" r="3"/>
+    <circle cx="110" cy="420" r="2"/>
+    <circle cx="320" cy="400" r="3"/>
+    <circle cx="610" cy="440" r="2.5"/>
+    <circle cx="740" cy="420" r="3"/>
+    <circle cx="60" cy="520" r="3"/>
+    <circle cx="90" cy="650" r="2.5"/>
+    <circle cx="150" cy="720" r="3"/>
+    <circle cx="260" cy="760" r="2"/>
+    <circle cx="350" cy="700" r="3"/>
+    <circle cx="470" cy="740" r="2.5"/>
+    <circle cx="560" cy="680" r="3"/>
+    <circle cx="650" cy="750" r="2"/>
+    <circle cx="740" cy="690" r="3"/>
+    <circle cx="20" cy="780" r="2"/>
+  </g>
+
+  <!-- fog veil over foreground -->
+  <rect x="0" y="330" width="800" height="50" fill="#efe9dc" opacity="0.45"/>
+
+  <!-- signature -->
+  <text x="762" y="780" font-family="serif" font-size="18" fill="#2b2622" text-anchor="end">P.</text>
+</svg>
