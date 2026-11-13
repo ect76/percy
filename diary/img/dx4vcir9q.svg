@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="fogEdge" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#f4ecd8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#e9e2cf" stop-opacity="0.95"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f4ecd8"/>
+
+  <!-- distant hills in fog -->
+  <path d="M0 330 Q120 270 240 320 T500 310 T800 300 L800 420 L0 420 Z" fill="#d9d6c6" stroke="#2b2b2b" stroke-width="2" opacity="0.7"/>
+
+  <!-- village green -->
+  <path d="M0 420 Q200 400 400 415 T800 410 L800 800 L0 800 Z" fill="#a9bd84" stroke="#2b2b2b" stroke-width="3"/>
+  <!-- grass hatching -->
+  <g stroke="#2b2b2b" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M40 470 l6 -14 M52 480 l5 -12 M30 500 l6 -14 M700 460 l6 -14 M716 472 l5 -12 M690 540 l6 -14 M740 560 l5 -12"/>
+    <path d="M300 760 l6 -14 M320 772 l5 -12 M600 760 l6 -14 M620 774 l5 -12 M120 740 l6 -14"/>
+  </g>
+
+  <!-- cobbled path from sign toward the pond -->
+  <path d="M120 800 L200 560 L300 560 L250 800 Z" fill="#c4bcaa" stroke="#2b2b2b" stroke-width="3"/>
+  <g fill="#ece6d6" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="170" cy="600" rx="14" ry="8"/>
+    <ellipse cx="215" cy="595" rx="12" ry="7"/>
+    <ellipse cx="195" cy="650" rx="15" ry="9"/>
+    <ellipse cx="235" cy="680" rx="13" ry="8"/>
+    <ellipse cx="180" cy="710" rx="14" ry="8"/>
+    <ellipse cx="225" cy="750" rx="15" ry="9"/>
+    <ellipse cx="160" cy="770" rx="12" ry="7"/>
+  </g>
+
+  <!-- Humming Stone beyond the pond -->
+  <path d="M590 430 L585 330 Q592 290 610 288 Q630 292 632 332 L630 430 Z" fill="#8d9096" stroke="#2b2b2b" stroke-width="4"/>
+  <path d="M600 330 L606 390 M616 310 L618 380" stroke="#5d6066" stroke-width="2" fill="none"/>
+  <!-- hum arcs -->
+  <g fill="none" stroke="#4f6b7d" stroke-width="2.5" stroke-linecap="round">
+    <path d="M648 340 Q664 360 648 380"/>
+    <path d="M664 326 Q688 360 664 394"/>
+    <path d="M680 312 Q712 360 680 408"/>
+  </g>
+
+  <!-- sign -->
+  <rect x="155" y="360" width="10" height="170" fill="#7a5a3a" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="70" y="300" width="200" height="60" rx="4" fill="#c9a46b" stroke="#2b2b2b" stroke-width="4"/>
+  <text x="170" y="337" text-anchor="middle" font-family="serif" font-size="17" fill="#2b2b2b">Welcome to Mossbrook</text>
+
+  <!-- pond -->
+  <ellipse cx="430" cy="600" rx="230" ry="90" fill="#5f8fa6" stroke="#2b2b2b" stroke-width="4"/>
+  <ellipse cx="430" cy="600" rx="190" ry="68" fill="#7aa7bb" opacity="0.7"/>
+
+  <!-- ripples after the dive -->
+  <g fill="none" stroke="#eef6f8" stroke-width="3" stroke-linecap="round">
+    <ellipse cx="430" cy="600" rx="60" ry="18"/>
+    <ellipse cx="430" cy="600" rx="120" ry="36" opacity="0.9"/>
+    <ellipse cx="430" cy="600" rx="186" ry="58" opacity="0.7"/>
+  </g>
+  <g fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.6">
+    <ellipse cx="430" cy="600" rx="150" ry="46" stroke-dasharray="6 8"/>
+  </g>
+
+  <!-- splash -->
+  <g fill="#e6f2f6" stroke="#2b2b2b" stroke-width="2">
+    <circle cx="400" cy="572" r="6"/>
+    <circle cx="455" cy="558" r="5"/>
+    <circle cx="472" cy="584" r="7"/>
+    <circle cx="410" cy="540" r="4"/>
+    <circle cx="442" cy="530" r="5"/>
+    <circle cx="385" cy="596" r="4"/>
+  </g>
+
+  <!-- pond edge stones -->
+  <g fill="#c4bcaa" stroke="#2b2b2b" stroke-width="2">
+    <circle cx="210" cy="600" r="6"/>
+    <circle cx="650" cy="612" r="7"/>
+    <circle cx="560" cy="690" r="6"/>
+    <circle cx="300" cy="688" r="6"/>
+  </g>
+
+  <!-- fog veil at top and edges -->
+  <g fill="#f4ecd8" opacity="0.75">
+    <ellipse cx="200" cy="90" rx="320" ry="60"/>
+    <ellipse cx="620" cy="60" rx="300" ry="50"/>
+    <ellipse cx="400" cy="200" rx="260" ry="40" opacity="0.6"/>
+  </g>
+  <rect width="800" height="800" fill="url(#fogEdge)"/>
+
+  <!-- signature -->
+  <text x="762" y="782" text-anchor="end" font-family="serif" font-size="24" fill="#2b2b2b">P.</text>
+</svg>
