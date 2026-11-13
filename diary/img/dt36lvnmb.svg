@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9dcd6"/>
+      <stop offset="1" stop-color="#b9bfb8"/>
+    </linearGradient>
+  </defs>
+  <!-- paper and fog -->
+  <rect x="0" y="0" width="800" height="800" fill="#ece8dc"/>
+  <rect x="40" y="40" width="720" height="720" fill="url(#fog)"/>
+  <ellipse cx="200" cy="200" rx="260" ry="70" fill="#f2f2ee" opacity="0.6"/>
+  <ellipse cx="640" cy="330" rx="220" ry="60" fill="#f2f2ee" opacity="0.5"/>
+  <ellipse cx="300" cy="700" rx="320" ry="60" fill="#f2f2ee" opacity="0.55"/>
+
+  <!-- wall boards -->
+  <g stroke="#2a2a2a" stroke-width="2.5" fill="none">
+    <line x1="40" y1="250" x2="760" y2="250" opacity="0.5"/>
+    <line x1="40" y1="330" x2="760" y2="330" opacity="0.4"/>
+  </g>
+
+  <!-- shelf -->
+  <rect x="80" y="560" width="640" height="18" fill="#8a6a4a" stroke="#2a2a2a" stroke-width="2.5"/>
+  <rect x="80" y="578" width="640" height="10" fill="#6b4f35" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M110 588 L110 650 M690 588 L690 650" stroke="#2a2a2a" stroke-width="2.5" fill="none"/>
+
+  <!-- upside-down enamel mug -->
+  <g stroke="#2a2a2a" stroke-width="2.5">
+    <!-- handle (side) -->
+    <path d="M352 430 Q398 436 396 490 Q394 530 360 528" fill="none" stroke-width="9"/>
+    <path d="M352 430 Q398 436 396 490 Q394 530 360 528" fill="none" stroke="#3d5a6c" stroke-width="5"/>
+    <!-- body -->
+    <path d="M240 560 L250 400 L350 400 L360 560 Z" fill="#3d5a6c"/>
+    <!-- dent -->
+    <path d="M280 470 Q292 462 304 472 Q298 488 284 484 Z" fill="#2c4150"/>
+    <!-- chips of white paint -->
+    <path d="M254 430 L262 428 L260 436 L252 438 Z" fill="#f5f3ea"/>
+    <path d="M338 500 L346 496 L344 506 L336 508 Z" fill="#f5f3ea"/>
+    <path d="M328 440 L334 438 L332 445 Z" fill="#f5f3ea"/>
+    <!-- faded text, rotated so it reads upside down -->
+    <text x="300" y="485" transform="rotate(180 300 485)" text-anchor="middle" font-size="10" fill="#e9e6da" opacity="0.8" font-family="serif" stroke="none">MOSSBROOK VILLAGE HALL</text>
+    <text x="300" y="500" transform="rotate(180 300 500)" text-anchor="middle" font-size="10" fill="#e9e6da" opacity="0.6" font-family="serif" stroke="none">1978 (faded)</text>
+    <!-- base underside -->
+    <ellipse cx="300" cy="400" rx="50" ry="9" fill="#2c4150"/>
+    <ellipse cx="300" cy="400" rx="38" ry="5" fill="#44606f"/>
+    <!-- rim -->
+    <ellipse cx="300" cy="560" rx="60" ry="10" fill="#e8e5da"/>
+    <ellipse cx="300" cy="560" rx="52" ry="7" fill="#c9c5b8"/>
+  </g>
+
+  <!-- kettle -->
+  <g stroke="#2a2a2a" stroke-width="2.5">
+    <path d="M500 560 Q494 480 548 472 Q612 468 618 560 Z" fill="#7a2e2a"/>
+    <path d="M500 498 Q470 486 462 466 L474 462 Q482 480 506 490 Z" fill="#7a2e2a"/>
+    <path d="M530 470 Q560 420 592 470" fill="none" stroke-width="6"/>
+    <path d="M530 470 Q560 420 592 470" fill="none" stroke="#7a2e2a" stroke-width="3"/>
+    <rect x="538" y="456" width="46" height="10" fill="#2a2a2a"/>
+    <ellipse cx="560" cy="560" rx="60" ry="8" fill="#5a2320"/>
+    <path d="M590 500 L606 500 L606 520 L590 520 Z" fill="#c9a44a" stroke-width="1.5"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="780" text-anchor="end" font-size="20" fill="#2a2a2a" font-family="serif">P.</text>
+</svg>
