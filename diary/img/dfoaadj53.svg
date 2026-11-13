@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper ground -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe7d6"/>
+  <!-- distant village roofs in fog -->
+  <path d="M0 250 L60 200 L120 245 L120 300 L0 300 Z" fill="#cfc6b4" opacity="0.6"/>
+  <path d="M640 210 L720 160 L800 215 L800 300 L640 300 Z" fill="#cfc6b4" opacity="0.6"/>
+  <!-- fog bands -->
+  <ellipse cx="260" cy="300" rx="380" ry="40" fill="#fbf8f0" opacity="0.7"/>
+  <ellipse cx="560" cy="470" rx="420" ry="34" fill="#fbf8f0" opacity="0.6"/>
+  <ellipse cx="200" cy="560" rx="360" ry="28" fill="#fbf8f0" opacity="0.55"/>
+  <!-- cobbled street -->
+  <rect x="0" y="620" width="800" height="180" fill="#a39a8c"/>
+  <g fill="none" stroke="#6f675c" stroke-width="2" opacity="0.8">
+    <ellipse cx="60" cy="660" rx="34" ry="14"/>
+    <ellipse cx="150" cy="700" rx="40" ry="16"/>
+    <ellipse cx="260" cy="650" rx="30" ry="12"/>
+    <ellipse cx="330" cy="730" rx="42" ry="15"/>
+    <ellipse cx="450" cy="680" rx="36" ry="14"/>
+    <ellipse cx="560" cy="745" rx="40" ry="15"/>
+    <ellipse cx="680" cy="660" rx="34" ry="13"/>
+    <ellipse cx="730" cy="730" rx="38" ry="14"/>
+    <ellipse cx="90" cy="770" rx="36" ry="12"/>
+    <ellipse cx="420" cy="785" rx="40" ry="11"/>
+  </g>
+  <!-- table edge -->
+  <rect x="0" y="600" width="800" height="26" fill="#6b5744" stroke="#2a2320" stroke-width="3"/>
+
+  <!-- shoebox (back right) -->
+  <g stroke="#2a2320" stroke-width="3" stroke-linejoin="round">
+    <rect x="480" y="370" width="250" height="190" fill="#b8452f"/>
+    <rect x="466" y="340" width="278" height="40" fill="#c2503a"/>
+    <!-- flaking paint -->
+    <path d="M500 420 L530 412 L548 440 L520 462 L496 450 Z" fill="#d9c3a0" stroke="none"/>
+    <path d="M610 480 L650 470 L664 500 L636 520 L606 506 Z" fill="#d9c3a0" stroke="none"/>
+    <path d="M690 390 L712 388 L716 406 L698 412 Z" fill="#d9c3a0" stroke="none"/>
+    <path d="M560 530 L584 524 L592 546 L570 552 Z" fill="#d9c3a0" stroke="none"/>
+    <path d="M520 480 L536 478 L540 492 L524 496 Z" fill="#d9c3a0" stroke="none"/>
+  </g>
+  <!-- shoebox end-label slot -->
+  <rect x="600" y="400" width="60" height="18" fill="#efe7d6" stroke="#2a2320" stroke-width="2"/>
+
+  <!-- ink pad, open tray, no lid -->
+  <g stroke="#2a2320" stroke-width="3" stroke-linejoin="round">
+    <path d="M90 470 L320 470 L330 500 L80 500 Z" fill="#8f8577"/>
+    <rect x="96" y="446" width="220" height="30" fill="#3b3a52"/>
+    <rect x="96" y="446" width="220" height="30" fill="none"/>
+  </g>
+  <ellipse cx="206" cy="461" rx="112" ry="14" fill="#2e2d44" stroke="#2a2320" stroke-width="3"/>
+  <ellipse cx="180" cy="458" rx="36" ry="5" fill="#5a5878" opacity="0.8"/>
+
+  <!-- date stamp, standing beside the pad -->
+  <g stroke="#2a2320" stroke-width="3" stroke-linejoin="round">
+    <!-- wooden handle -->
+    <path d="M170 250 Q196 232 222 250 L230 340 L162 340 Z" fill="#6a4e36"/>
+    <!-- metal neck -->
+    <rect x="166" y="340" width="60" height="18" fill="#8c8c86"/>
+    <!-- grey-brown rubber head -->
+    <rect x="150" y="358" width="92" height="36" rx="4" fill="#877868"/>
+  </g>
+  <!-- ink on stamp face -->
+  <rect x="158" y="388" width="76" height="6" fill="#3b3a52"/>
+  <path d="M164 254 L176 254" stroke="#8a7050" stroke-width="3"/>
+
+  <!-- book pocket with date slip -->
+  <g transform="rotate(-4 420 520)" stroke="#2a2320" stroke-width="3" stroke-linejoin="round">
+    <!-- date slip standing up -->
+    <rect x="370" y="380" width="100" height="90" fill="#fffdf5"/>
+    <g fill="#3b3a52" opacity="0.85">
+      <rect x="384" y="398" width="70" height="8" rx="2" stroke="none"/>
+      <rect x="384" y="416" width="52" height="6" rx="2" stroke="none"/>
+      <rect x="384" y="432" width="60" height="6" rx="2" stroke="none"/>
+    </g>
+    <!-- pocket -->
+    <path d="M330 470 L510 470 L510 600 L330 600 Z" fill="#f6f0df"/>
+    <path d="M330 470 L420 520 L510 470" fill="none"/>
+    <path d="M330 480 L420 530 L510 480 L510 490 L420 540 L330 490 Z" fill="#e4dac4"/>
+  </g>
+
+  <!-- small signature P. -->
+  <g fill="none" stroke="#2a2320" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M744 748 V778"/>
+    <path d="M744 748 H758 A9 9 0 0 1 758 766 H744"/>
+  </g>
+</svg>
