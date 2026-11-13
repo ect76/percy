@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4ecdb"/>
+  <!-- back wall -->
+  <rect x="0" y="0" width="800" height="552" fill="#e4d8bf"/>
+  <!-- faint wall panel -->
+  <rect x="60" y="90" width="150" height="200" fill="#d6c7a8" stroke="#2a2320" stroke-width="2" opacity="0.6"/>
+  <!-- floor -->
+  <rect x="0" y="552" width="800" height="248" fill="#8a6a4a"/>
+  <line x1="0" y1="552" x2="800" y2="552" stroke="#2a2320" stroke-width="3"/>
+  <g stroke="#5a4330" stroke-width="2" opacity="0.7">
+    <line x1="0" y1="610" x2="800" y2="610"/>
+    <line x1="0" y1="672" x2="800" y2="672"/>
+    <line x1="0" y1="735" x2="800" y2="735"/>
+    <line x1="180" y1="552" x2="160" y2="610"/>
+    <line x1="520" y1="610" x2="545" y2="672"/>
+    <line x1="300" y1="672" x2="280" y2="735"/>
+  </g>
+  <!-- fog -->
+  <g fill="#fbf8f0" opacity="0.55">
+    <ellipse cx="150" cy="420" rx="260" ry="50"/>
+    <ellipse cx="680" cy="380" rx="240" ry="60"/>
+    <ellipse cx="400" cy="250" rx="380" ry="40"/>
+    <ellipse cx="620" cy="600" rx="260" ry="34"/>
+    <ellipse cx="120" cy="650" rx="220" ry="30"/>
+  </g>
+  <!-- shadow -->
+  <ellipse cx="400" cy="558" rx="160" ry="14" fill="#3a2f25" opacity="0.3"/>
+
+  <!-- tail -->
+  <path d="M272 446 C220 436 196 388 228 352" fill="none" stroke="#2a2320" stroke-width="12" stroke-linecap="round"/>
+  <path d="M272 446 C220 436 196 388 228 352" fill="none" stroke="#c98a6a" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- rear and standing legs -->
+  <path d="M330 494 L300 540 L284 534" fill="none" stroke="#2a2320" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M330 494 L300 540 L284 534" fill="none" stroke="#b5523b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M370 500 L372 546" fill="none" stroke="#2a2320" stroke-width="13" stroke-linecap="round"/>
+  <path d="M370 500 L372 546" fill="none" stroke="#b5523b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M420 500 L430 548" fill="none" stroke="#2a2320" stroke-width="13" stroke-linecap="round"/>
+  <path d="M420 500 L430 548" fill="none" stroke="#b5523b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- raised front leg, mid-kick -->
+  <path d="M480 492 L516 528 L504 548" fill="none" stroke="#2a2320" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 492 L516 528 L504 548" fill="none" stroke="#b5523b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- body -->
+  <g transform="rotate(-8 400 440)">
+    <ellipse cx="400" cy="440" rx="132" ry="62" fill="#b5523b" stroke="#2a2320" stroke-width="3"/>
+    <!-- painted back stripes -->
+    <path d="M300 410 Q400 392 500 412" fill="none" stroke="#f1e3b8" stroke-width="7"/>
+    <path d="M298 438 Q400 420 498 440" fill="none" stroke="#2f4f6b" stroke-width="7"/>
+    <path d="M304 466 Q400 450 490 466" fill="none" stroke="#f1e3b8" stroke-width="7"/>
+    <!-- painted dots -->
+    <g fill="#f1e3b8">
+      <circle cx="340" cy="428" r="5"/>
+      <circle cx="372" cy="436" r="5"/>
+      <circle cx="404" cy="444" r="5"/>
+      <circle cx="436" cy="434" r="5"/>
+      <circle cx="466" cy="426" r="5"/>
+    </g>
+    <!-- wound spring housing on back -->
+    <rect x="352" y="382" width="66" height="22" rx="4" fill="#c9c3b5" stroke="#2a2320" stroke-width="2.5"/>
+    <g fill="none" stroke="#2a2320" stroke-width="2">
+      <path d="M360 393 q5 -8 10 0 q5 8 10 0 q5 -8 10 0 q5 8 10 0 q5 -8 10 0 q5 8 10 0"/>
+    </g>
+  </g>
+
+  <!-- key on side -->
+  <rect x="262" y="420" width="24" height="8" fill="#9a958a" stroke="#2a2320" stroke-width="2"/>
+  <circle cx="254" cy="424" r="14" fill="#c9c3b5" stroke="#2a2320" stroke-width="3"/>
+  <circle cx="254" cy="424" r="5" fill="#f4ecdb" stroke="#2a2320" stroke-width="2"/>
+
+  <!-- linkage wire from spring to leg -->
+  <path d="M390 404 L440 448 L482 492" fill="none" stroke="#2a2320" stroke-width="5" stroke-linecap="round"/>
+  <path d="M390 404 L440 448 L482 492" fill="none" stroke="#c9c3b5" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- head -->
+  <circle cx="528" cy="418" r="42" fill="#b5523b" stroke="#2a2320" stroke-width="3"/>
+  <!-- ears -->
+  <circle cx="508" cy="382" r="18" fill="#d9c9a3" stroke="#2a2320" stroke-width="3"/>
+  <circle cx="545" cy="378" r="16" fill="#d9c9a3" stroke="#2a2320" stroke-width="3"/>
+  <circle cx="508" cy="382" r="8" fill="#c98a6a"/>
+  <circle cx="545" cy="378" r="7" fill="#c98a6a"/>
+  <!-- snout -->
+  <ellipse cx="570" cy="432" rx="24" ry="15" fill="#d9c9a3" stroke="#2a2320" stroke-width="3"/>
+  <circle cx="590" cy="428" r="5" fill="#2a2320"/>
+  <!-- eye -->
+  <circle cx="534" cy="408" r="6" fill="#2a2320"/>
+  <circle cx="536" cy="406" r="2" fill="#f4ecdb"/>
+  <!-- whiskers -->
+  <g stroke="#2a2320" stroke-width="1.8" fill="none">
+    <line x1="580" y1="436" x2="620" y2="428"/>
+    <line x1="580" y1="442" x2="618" y2="446"/>
+  </g>
+
+  <!-- signature -->
+  <text x="760" y="776" font-family="serif" font-size="22" fill="#2a2320" text-anchor="end">P.</text>
+</svg>
