@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="560" fill="#e9e0cc"/>
+  <!-- floor -->
+  <polygon points="0,560 800,560 800,800 0,800" fill="#b98a5a"/>
+  <g stroke="#3a2a1e" stroke-width="3" fill="none">
+    <line x1="0" y1="620" x2="800" y2="620"/>
+    <line x1="0" y1="688" x2="800" y2="688"/>
+    <line x1="0" y1="752" x2="800" y2="752"/>
+    <line x1="200" y1="560" x2="170" y2="620"/>
+    <line x1="560" y1="560" x2="600" y2="620"/>
+  </g>
+  <!-- window -->
+  <rect x="520" y="90" width="220" height="240" fill="#cfe3ea" stroke="#2a211b" stroke-width="6"/>
+  <g fill="#dfeef2">
+    <rect x="530" y="100" width="200" height="220" opacity="0.8"/>
+  </g>
+  <g stroke="#2a211b" stroke-width="5" fill="none">
+    <line x1="630" y1="90" x2="630" y2="330"/>
+    <line x1="520" y1="210" x2="740" y2="210"/>
+    <path d="M540 290 Q580 270 620 292 T700 288"/>
+    <path d="M550 250 Q600 236 650 252"/>
+  </g>
+  <!-- wind-blown light beams -->
+  <polygon points="520,330 740,330 600,700 250,700" fill="#fff6d6" opacity="0.85"/>
+  <polygon points="560,330 650,330 470,700 380,700" fill="#fffbe9" opacity="0.6"/>
+  <!-- light patch on floor -->
+  <ellipse cx="450" cy="700" rx="200" ry="40" fill="#fff3c4" opacity="0.9"/>
+  <!-- shadow -->
+  <ellipse cx="390" cy="708" rx="140" ry="14" fill="#5a3f28" opacity="0.35"/>
+  <!-- tail -->
+  <path d="M275 612 C215 630 180 585 150 602" fill="none" stroke="#2a211b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M275 612 C215 630 180 585 150 602" fill="none" stroke="#e8b4b8" stroke-width="4" stroke-linecap="round"/>
+  <!-- legs -->
+  <g stroke="#2a211b" stroke-width="4" fill="#7d93a6" stroke-linejoin="round">
+    <rect x="325" y="630" width="22" height="58" rx="8"/>
+    <rect x="360" y="636" width="22" height="54" rx="8"/>
+    <rect x="410" y="636" width="22" height="54" rx="8"/>
+    <rect x="445" y="630" width="22" height="58" rx="8"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="380" cy="600" rx="120" ry="58" fill="#8fa6b8" stroke="#2a211b" stroke-width="4"/>
+  <!-- belly panel -->
+  <path d="M305 620 Q380 650 455 620" fill="none" stroke="#5f7688" stroke-width="3"/>
+  <!-- key on back -->
+  <g stroke="#2a211b" stroke-width="3">
+    <line x1="360" y1="545" x2="360" y2="560" stroke-width="5"/>
+    <circle cx="360" cy="530" r="14" fill="#c9a227"/>
+    <circle cx="360" cy="530" r="5" fill="#e9e0cc"/>
+    <rect x="345" y="555" width="30" height="8" fill="#c9a227"/>
+  </g>
+  <!-- ears -->
+  <circle cx="470" cy="542" r="22" fill="#8fa6b8" stroke="#2a211b" stroke-width="4"/>
+  <circle cx="470" cy="542" r="11" fill="#e8b4b8"/>
+  <circle cx="505" cy="538" r="22" fill="#8fa6b8" stroke="#2a211b" stroke-width="4"/>
+  <circle cx="505" cy="538" r="11" fill="#e8b4b8"/>
+  <!-- head -->
+  <ellipse cx="487" cy="576" rx="46" ry="36" fill="#8fa6b8" stroke="#2a211b" stroke-width="4"/>
+  <!-- snout -->
+  <ellipse cx="528" cy="590" rx="20" ry="13" fill="#a9bccb" stroke="#2a211b" stroke-width="3"/>
+  <!-- eye and nose -->
+  <circle cx="502" cy="570" r="6" fill="#2a211b"/>
+  <circle cx="545" cy="585" r="5" fill="#2a211b"/>
+  <!-- whiskers -->
+  <g stroke="#2a211b" stroke-width="2" fill="none">
+    <line x1="540" y1="592" x2="572" y2="584"/>
+    <line x1="540" y1="598" x2="572" y2="602"/>
+  </g>
+  <!-- highlight on body -->
+  <path d="M320 575 Q350 556 395 560" fill="none" stroke="#fffbe9" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- signature P. -->
+  <g stroke="#2a211b" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M752 790 V758 H764 Q774 758 774 768 Q774 778 764 778 H752"/>
+  </g>
+  <circle cx="781" cy="790" r="2.5" fill="#2a211b"/>
+</svg>
