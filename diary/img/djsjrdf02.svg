@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3eee2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f3eee2" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f3eee2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+  <rect x="0" y="0" width="800" height="480" fill="#dfe7ea"/>
+
+  <!-- distant hills in fog -->
+  <path d="M0 430 Q120 380 240 420 T480 410 T800 400 V520 H0Z" fill="#c9d4da" stroke="#1d2226" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- bell tower -->
+  <g stroke="#1d2226" stroke-width="3" stroke-linejoin="round">
+    <rect x="345" y="200" width="110" height="235" fill="#8a9196"/>
+    <rect x="345" y="170" width="110" height="32" fill="#7d858a"/>
+    <!-- battlement gaps -->
+    <rect x="355" y="170" width="10" height="12" fill="#dfe7ea" stroke="none"/>
+    <rect x="375" y="170" width="10" height="12" fill="#dfe7ea" stroke="none"/>
+    <rect x="395" y="170" width="10" height="12" fill="#dfe7ea" stroke="none"/>
+    <rect x="415" y="170" width="10" height="12" fill="#dfe7ea" stroke="none"/>
+    <rect x="435" y="170" width="10" height="12" fill="#dfe7ea" stroke="none"/>
+    <!-- side shading -->
+    <rect x="432" y="202" width="23" height="231" fill="#5f666b" stroke="none" opacity="0.55"/>
+    <!-- clock face -->
+    <circle cx="400" cy="250" r="38" fill="#f7f5ee"/>
+    <line x1="400" y1="216" x2="400" y2="224"/>
+    <line x1="434" y1="250" x2="426" y2="250"/>
+    <line x1="400" y1="284" x2="400" y2="276"/>
+    <line x1="366" y1="250" x2="374" y2="250"/>
+    <line x1="400" y1="250" x2="400" y2="226" stroke-width="5" stroke-linecap="round"/>
+    <line x1="400" y1="250" x2="425" y2="242" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="400" cy="250" r="3" fill="#1d2226"/>
+    <!-- bell openings -->
+    <path d="M368 360 V320 Q368 302 400 302 Q432 302 432 320 V360 Z" fill="#3b4349"/>
+    <line x1="400" y1="302" x2="400" y2="360" stroke-width="2"/>
+    <!-- lower window -->
+    <rect x="384" y="394" width="32" height="26" fill="#3b4349"/>
+    <line x1="400" y1="394" x2="400" y2="420" stroke-width="2"/>
+  </g>
+
+  <!-- snowy lane -->
+  <path d="M372 440 L428 440 L650 800 L150 800 Z" fill="#f8fcfe" stroke="#1d2226" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- lane edge snowbanks -->
+  <path d="M372 440 Q340 520 300 600 T210 800" fill="none" stroke="#1d2226" stroke-width="2"/>
+  <path d="M428 440 Q470 520 520 610 T650 800" fill="none" stroke="#1d2226" stroke-width="2"/>
+  <!-- cobbles -->
+  <g fill="#b9c2c8" stroke="#1d2226" stroke-width="1">
+    <ellipse cx="400" cy="480" rx="8" ry="4"/>
+    <ellipse cx="385" cy="505" rx="9" ry="4"/>
+    <ellipse cx="418" cy="508" rx="8" ry="4"/>
+    <ellipse cx="370" cy="550" rx="11" ry="5"/>
+    <ellipse cx="420" cy="560" rx="10" ry="5"/>
+    <ellipse cx="350" cy="620" rx="13" ry="6"/>
+    <ellipse cx="455" cy="630" rx="12" ry="6"/>
+    <ellipse cx="300" cy="720" rx="16" ry="7"/>
+    <ellipse cx="520" cy="730" rx="15" ry="7"/>
+    <ellipse cx="410" cy="700" rx="14" ry="6"/>
+  </g>
+
+  <!-- bare trees on the right -->
+  <g fill="none" stroke="#1d2226" stroke-width="2.5" stroke-linecap="round">
+    <line x1="705" y1="800" x2="705" y2="520" stroke-width="7"/>
+    <line x1="705" y1="600" x2="660" y2="540"/>
+    <line x1="705" y1="570" x2="745" y2="520"/>
+    <line x1="705" y1="530" x2="680" y2="480"/>
+    <line x1="560" y1="470" x2="560" y2="380" stroke-width="5"/>
+    <line x1="560" y1="420" x2="535" y2="385"/>
+    <line x1="560" y1="400" x2="585" y2="370"/>
+  </g>
+
+  <!-- fog bands over the far end -->
+  <rect x="0" y="330" width="800" height="110" fill="url(#fog)"/>
+  <rect x="0" y="420" width="800" height="90" fill="url(#fog)" opacity="0.7"/>
+
+  <!-- cottage at left, viewer's doorstep -->
+  <rect x="0" y="380" width="220" height="420" fill="#d9cbb3" stroke="#1d2226" stroke-width="3"/>
+  <path d="M-10 380 L110 300 L230 380 Z" fill="#5b4a44" stroke="#1d2226" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M-6 376 L110 304 L226 376 L220 368 L110 310 L-0 368 Z" fill="#ffffff" stroke="#1d2226" stroke-width="1.5"/>
+  <rect x="40" y="540" width="90" height="200" fill="#5a3e2b" stroke="#1d2226" stroke-width="3"/>
+  <circle cx="118" cy="650" r="3" fill="#e0c07a"/>
+  <rect x="150" y="430" width="44" height="40" fill="#f2e6b8" stroke="#1d2226" stroke-width="2.5"/>
+  <line x1="172" y1="430" x2="172" y2="470" stroke="#1d2226" stroke-width="2"/>
+  <line x1="150" y1="450" x2="194" y2="450" stroke="#1d2226" stroke-width="2"/>
+  <rect x="30" y="740" width="110" height="22" fill="#9da3a8" stroke="#1d2226" stroke-width="2.5"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#1d2226" stroke-width="0.8" opacity="0.9">
+    <circle cx="260" cy="150" r="3"/>
+    <circle cx="610" cy="120" r="2.5"/>
+    <circle cx="530" cy="230" r="3"/>
+    <circle cx="700" cy="300" r="2"/>
+    <circle cx="300" cy="300" r="2.5"/>
+    <circle cx="230" cy="250" r="2"/>
+    <circle cx="640" cy="200" r="3"/>
+    <circle cx="470" cy="90" r="2"/>
+    <circle cx="180" cy="560" r="2.5"/>
+    <circle cx="760" cy="650" r="2.5"/>
+    <circle cx="580" cy="560" r="2"/>
+  </g>
+
+  <!-- signature -->
+  <g fill="none" stroke="#1d2226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(738 742)">
+    <path d="M0 22 V0 H8 A6 6 0 0 1 8 12 H0"/>
+    <circle cx="16" cy="20" r="1.8" fill="#1d2226"/>
+  </g>
+</svg>
