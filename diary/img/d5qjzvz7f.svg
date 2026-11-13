@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f3ecdc"/>
+  <!-- fog bands -->
+  <ellipse cx="260" cy="250" rx="320" ry="40" fill="#d6dde0" opacity="0.7"/>
+  <ellipse cx="600" cy="300" rx="300" ry="36" fill="#d6dde0" opacity="0.6"/>
+  <ellipse cx="380" cy="390" rx="380" ry="34" fill="#dfe5e7" opacity="0.6"/>
+  <ellipse cx="150" cy="450" rx="260" ry="26" fill="#dfe5e7" opacity="0.5"/>
+  <!-- cobbles -->
+  <g fill="#c4b8a4" stroke="#1d1d1d" stroke-width="2">
+    <rect x="40" y="640" width="120" height="50" rx="22"/>
+    <rect x="180" y="650" width="110" height="46" rx="20"/>
+    <rect x="310" y="636" width="130" height="52" rx="24"/>
+    <rect x="460" y="648" width="120" height="46" rx="20"/>
+    <rect x="600" y="640" width="150" height="50" rx="22"/>
+    <rect x="-10" y="705" width="140" height="56" rx="24"/>
+    <rect x="150" y="712" width="130" height="50" rx="22"/>
+    <rect x="300" y="708" width="150" height="54" rx="24"/>
+    <rect x="470" y="714" width="130" height="50" rx="22"/>
+    <rect x="620" y="706" width="170" height="56" rx="24"/>
+  </g>
+  <!-- shadow -->
+  <ellipse cx="400" cy="584" rx="135" ry="14" fill="#3a3a3a" opacity="0.25"/>
+  <!-- tail -->
+  <path d="M292 512 C250 512 232 480 226 440" fill="none" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M292 512 C250 512 232 480 226 440" fill="none" stroke="#c98f86" stroke-width="5" stroke-linecap="round"/>
+  <!-- back legs -->
+  <rect x="330" y="536" width="22" height="42" rx="6" fill="#7f8a90" stroke="#1d1d1d" stroke-width="3"/>
+  <rect x="418" y="536" width="22" height="42" rx="6" fill="#7f8a90" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- body -->
+  <ellipse cx="380" cy="500" rx="110" ry="62" fill="#9aa3a8" stroke="#1d1d1d" stroke-width="4"/>
+  <!-- belly band -->
+  <path d="M290 528 C340 556 420 556 468 520" fill="none" stroke="#6d777d" stroke-width="5"/>
+  <!-- front legs -->
+  <rect x="360" y="540" width="22" height="40" rx="6" fill="#7f8a90" stroke="#1d1d1d" stroke-width="3"/>
+  <rect x="446" y="536" width="22" height="42" rx="6" fill="#7f8a90" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- head -->
+  <ellipse cx="480" cy="470" rx="52" ry="42" fill="#9aa3a8" stroke="#1d1d1d" stroke-width="4"/>
+  <path d="M520 472 L552 482 L522 492 Z" fill="#c98f86" stroke="#1d1d1d" stroke-width="3" stroke-linejoin="round"/>
+  <!-- ears -->
+  <circle cx="455" cy="422" r="22" fill="#d9a09a" stroke="#1d1d1d" stroke-width="4"/>
+  <circle cx="497" cy="420" r="20" fill="#d9a09a" stroke="#1d1d1d" stroke-width="4"/>
+  <!-- eye and nose -->
+  <circle cx="494" cy="462" r="6" fill="#1d1d1d"/>
+  <circle cx="550" cy="480" r="4" fill="#1d1d1d"/>
+  <!-- brass key on back -->
+  <rect x="290" y="436" width="20" height="14" fill="#c9a24a" stroke="#1d1d1d" stroke-width="2"/>
+  <line x1="300" y1="436" x2="300" y2="402" stroke="#1d1d1d" stroke-width="7"/>
+  <line x1="300" y1="436" x2="300" y2="402" stroke="#c9a24a" stroke-width="3"/>
+  <circle cx="300" cy="382" r="20" fill="none" stroke="#1d1d1d" stroke-width="9"/>
+  <circle cx="300" cy="382" r="20" fill="none" stroke="#c9a24a" stroke-width="4"/>
+  <rect x="300" y="398" width="20" height="8" fill="#c9a24a" stroke="#1d1d1d" stroke-width="2"/>
+  <rect x="312" y="406" width="8" height="10" fill="#c9a24a" stroke="#1d1d1d" stroke-width="2"/>
+  <!-- loose spring on cobbles -->
+  <path d="M590 668 q10 -20 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#1d1d1d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M590 668 q10 -20 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#c9a24a" stroke-width="4" stroke-linecap="round"/>
+  <!-- signature P. in corner -->
+  <path d="M700 730 V768 M700 730 H716 Q728 730 728 742 Q728 754 716 754 H700" fill="none" stroke="#1d1d1d" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="738" cy="766" r="3.5" fill="#1d1d1d"/>
+</svg>
