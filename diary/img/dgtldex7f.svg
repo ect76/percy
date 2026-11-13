@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#ebe7dc"/>
+  <!-- fog bands -->
+  <ellipse cx="160" cy="250" rx="260" ry="60" fill="#d9d6cc" opacity="0.6"/>
+  <ellipse cx="660" cy="180" rx="240" ry="50" fill="#d9d6cc" opacity="0.6"/>
+  <ellipse cx="400" cy="120" rx="300" ry="40" fill="#f7f4ec" opacity="0.7"/>
+  <ellipse cx="620" cy="420" rx="220" ry="40" fill="#f7f4ec" opacity="0.7"/>
+  <!-- table -->
+  <rect x="0" y="560" width="800" height="240" fill="#6e5238"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#2b1d12" stroke-width="4"/>
+  <line x1="0" y1="600" x2="800" y2="596" stroke="#55392a" stroke-width="2"/>
+  <!-- lid raised behind -->
+  <polygon points="262,380 618,380 640,240 284,240" fill="#b07a45" stroke="#2b1d12" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="284,240 640,240 640,250 284,250" fill="#8a5c30" stroke="#2b1d12" stroke-width="2"/>
+  <!-- box interior -->
+  <polygon points="220,440 580,440 618,380 262,380" fill="#5a3b22" stroke="#2b1d12" stroke-width="4" stroke-linejoin="round"/>
+  <!-- folded map inside -->
+  <polygon points="300,418 548,418 566,398 318,398" fill="#f4ecd2" stroke="#2b1d12" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="340" y1="398" x2="358" y2="418" stroke="#2b1d12" stroke-width="1.5"/>
+  <line x1="420" y1="398" x2="438" y2="418" stroke="#2b1d12" stroke-width="1.5"/>
+  <line x1="500" y1="398" x2="518" y2="418" stroke="#2b1d12" stroke-width="1.5"/>
+  <path d="M328 410 Q350 405 372 410 T420 408 T470 410 T530 407" fill="none" stroke="#8a6a3a" stroke-width="1.5"/>
+  <circle cx="390" cy="408" r="3" fill="#b5483a"/>
+  <circle cx="470" cy="408" r="3" fill="#b5483a"/>
+  <!-- box front -->
+  <rect x="220" y="440" width="360" height="130" fill="#8a5a34" stroke="#2b1d12" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="236" y="458" width="328" height="8" fill="#6b4226"/>
+  <rect x="236" y="540" width="328" height="8" fill="#6b4226"/>
+  <!-- brass knob on table -->
+  <rect x="236" y="600" width="22" height="30" fill="#b8893d" stroke="#2b1d12" stroke-width="3"/>
+  <circle cx="247" cy="640" r="30" fill="#d4a64a" stroke="#2b1d12" stroke-width="3"/>
+  <circle cx="237" cy="630" r="8" fill="#f3dc9a"/>
+  <!-- sliding panels in a row -->
+  <rect x="312" y="612" width="70" height="90" rx="6" fill="#9c7440" stroke="#2b1d12" stroke-width="3"/>
+  <rect x="402" y="612" width="70" height="90" rx="6" fill="#9c7440" stroke="#2b1d12" stroke-width="3"/>
+  <rect x="492" y="612" width="70" height="90" rx="6" fill="#9c7440" stroke="#2b1d12" stroke-width="3"/>
+  <line x1="330" y1="650" x2="366" y2="650" stroke="#2b1d12" stroke-width="2"/>
+  <line x1="420" y1="650" x2="456" y2="650" stroke="#2b1d12" stroke-width="2"/>
+  <line x1="510" y1="650" x2="546" y2="650" stroke="#2b1d12" stroke-width="2"/>
+  <!-- pegs row -->
+  <g fill="#d4a64a" stroke="#2b1d12" stroke-width="2.5">
+    <circle cx="330" cy="740" r="12"/>
+    <circle cx="380" cy="740" r="12"/>
+    <circle cx="430" cy="740" r="12"/>
+    <circle cx="480" cy="740" r="12"/>
+    <circle cx="530" cy="740" r="12"/>
+    <circle cx="580" cy="740" r="12"/>
+  </g>
+  <!-- small P. signature -->
+  <path d="M742 752 V784 M742 752 H752 Q760 752 760 760 Q760 768 752 768 H742" fill="none" stroke="#2b1d12" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="770" cy="784" r="2.5" fill="#2b1d12"/>
+</svg>
