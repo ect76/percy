@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4eee0"/>
+  <rect x="24" y="24" width="752" height="752" fill="none" stroke="#8a7a62" stroke-width="1.5"/>
+
+  <!-- fog bands at base -->
+  <g fill="none" stroke="#b9b1a0" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M90 700 Q200 690 300 700 T520 700 T720 700"/>
+    <path d="M140 728 Q250 718 360 728 T600 728"/>
+  </g>
+
+  <!-- hanging ring -->
+  <circle cx="400" cy="178" r="20" fill="none" stroke="#2b2118" stroke-width="5"/>
+  <circle cx="400" cy="178" r="20" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+  <rect x="388" y="192" width="24" height="18" fill="#c9a227" stroke="#2b2118" stroke-width="2.5"/>
+
+  <!-- dark wooden case -->
+  <circle cx="400" cy="400" r="200" fill="#4a2f1d" stroke="#1d130b" stroke-width="5"/>
+  <!-- wood grain ink lines -->
+  <g fill="none" stroke="#2e1c10" stroke-width="2" opacity="0.7">
+    <path d="M230 300 Q300 285 380 296"/>
+    <path d="M240 520 Q320 540 420 528"/>
+    <path d="M520 240 Q560 280 572 350"/>
+    <path d="M250 380 Q236 420 252 462"/>
+    <path d="M540 460 Q560 500 548 540"/>
+    <path d="M330 220 Q380 212 440 224"/>
+  </g>
+  <!-- case highlight -->
+  <path d="M250 290 Q290 230 360 212" fill="none" stroke="#8a5f3c" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- brass bezel -->
+  <circle cx="400" cy="400" r="170" fill="#c9a227" stroke="#2b2118" stroke-width="3"/>
+  <circle cx="400" cy="400" r="164" fill="none" stroke="#7a5c17" stroke-width="2"/>
+
+  <!-- cream dial -->
+  <circle cx="400" cy="400" r="160" fill="#f3e9cf" stroke="#2b2118" stroke-width="2.5"/>
+  <circle cx="400" cy="400" r="150" fill="none" stroke="#6b5a40" stroke-width="2" stroke-dasharray="2 14"/>
+
+  <!-- scale labels -->
+  <g font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#2b2118" text-anchor="middle">
+    <text x="300" y="489">STORMY</text>
+    <text x="270" y="416">RAIN</text>
+    <text x="287" y="340">CHANGE</text>
+    <text x="345" y="288">FAIR</text>
+    <text x="446" y="284">VERY DRY</text>
+  </g>
+
+  <!-- glass highlight -->
+  <path d="M300 300 Q340 250 410 236" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+  <path d="M480 520 Q520 490 540 450" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- brass needle, just past the middle -->
+  <line x1="417.7" y1="417.7" x2="304.5" y2="304.5" stroke="#2b2118" stroke-width="7" stroke-linecap="round"/>
+  <line x1="417.7" y1="417.7" x2="304.5" y2="304.5" stroke="#d9b441" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="304.5,304.5 316,309 309,316" fill="#d9b441" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- centre pivot -->
+  <circle cx="400" cy="400" r="9" fill="#c9a227" stroke="#2b2118" stroke-width="2.5"/>
+  <circle cx="400" cy="400" r="3" fill="#2b2118"/>
+
+  <!-- signature -->
+  <text x="752" y="772" font-family="Georgia, serif" font-size="20" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
