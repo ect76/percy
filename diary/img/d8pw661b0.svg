@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+
+  <!-- distant bell tower in fog -->
+  <rect x="600" y="110" width="70" height="230" fill="#9a9a94" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="593,110 635,40 677,110" fill="#7d7d78" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="618" y="150" width="34" height="34" fill="#dcd8ce" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="635" y1="40" x2="635" y2="22" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- left cottage -->
+  <rect x="30" y="300" width="130" height="150" fill="#b9a58a" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="20,300 95,230 170,300" fill="#6b5b4b" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="70" y="350" width="26" height="36" fill="#5f7b86" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="110" y="370" width="32" height="80" fill="#7a5c3e" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- right cottage -->
+  <rect x="650" y="330" width="120" height="120" fill="#c7b59b" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="640,330 710,270 780,330" fill="#5d4f40" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="680" y="370" width="28" height="30" fill="#5f7b86" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="200" width="800" height="40" fill="#d8d5cc" opacity="0.8"/>
+  <rect x="0" y="300" width="800" height="30" fill="#e3dfd5" opacity="0.8"/>
+  <rect x="0" y="420" width="800" height="26" fill="#e6e2d8" opacity="0.7"/>
+
+  <!-- green -->
+  <path d="M0 380 Q200 350 400 370 Q620 390 800 360 L800 560 Q600 580 400 560 Q200 540 0 570 Z" fill="#8fae7a" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- cobbles -->
+  <path d="M0 570 Q200 550 400 565 Q600 580 800 555 L800 800 L0 800 Z" fill="#cfc6b4"/>
+  <g fill="none" stroke="#6f675a" stroke-width="1.5">
+    <ellipse cx="40" cy="600" rx="18" ry="8"/>
+    <ellipse cx="100" cy="630" rx="20" ry="9"/>
+    <ellipse cx="170" cy="598" rx="16" ry="7"/>
+    <ellipse cx="230" cy="650" rx="22" ry="9"/>
+    <ellipse cx="300" cy="690" rx="18" ry="8"/>
+    <ellipse cx="60" cy="700" rx="20" ry="9"/>
+    <ellipse cx="150" cy="745" rx="24" ry="10"/>
+    <ellipse cx="360" cy="640" rx="16" ry="7"/>
+    <ellipse cx="600" cy="620" rx="20" ry="8"/>
+    <ellipse cx="700" cy="660" rx="22" ry="9"/>
+    <ellipse cx="640" cy="720" rx="18" ry="8"/>
+    <ellipse cx="740" cy="740" rx="22" ry="10"/>
+    <ellipse cx="480" cy="735" rx="20" ry="9"/>
+    <ellipse cx="380" cy="770" rx="24" ry="10"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="400" cy="560" rx="170" ry="58" fill="#6f8f98" stroke="#2b2b2b" stroke-width="2.5"/>
+  <ellipse cx="400" cy="560" rx="150" ry="46" fill="none" stroke="#a9c0c4" stroke-width="2"/>
+  <g fill="none" stroke="#dbe6e6" stroke-width="2">
+    <path d="M300 550 Q315 545 330 550"/>
+    <path d="M440 572 Q458 566 476 572"/>
+    <path d="M360 585 Q372 581 384 585"/>
+  </g>
+
+  <!-- fish -->
+  <g fill="#c98a5b" stroke="#2b2b2b" stroke-width="1.5">
+    <path d="M330 560 Q345 548 370 552 Q380 556 370 562 Q345 570 330 560 Z"/>
+    <path d="M368 556 L380 546 L378 558 Z"/>
+    <path d="M343 556 Q350 551 357 555" fill="none"/>
+  </g>
+  <circle cx="335" cy="558" r="1.5" fill="#2b2b2b"/>
+
+  <!-- welcome sign -->
+  <rect x="118" y="440" width="10" height="110" fill="#7a5c3e" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="66" y="392" width="190" height="60" fill="#e6d2a8" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="74" y="400" width="174" height="44" fill="none" stroke="#7a5c3e" stroke-width="1.5"/>
+  <text x="161" y="428" font-size="16" text-anchor="middle" fill="#2b2b2b">Welcome to Mossbrook</text>
+
+  <!-- stone with note -->
+  <ellipse cx="560" cy="640" rx="40" ry="16" fill="#8d8a84" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="520" y="650" width="80" height="34" fill="#f6f2e6" stroke="#2b2b2b" stroke-width="1.5" transform="rotate(-4 560 667)"/>
+  <g stroke="#6f675a" stroke-width="1">
+    <line x1="528" y1="661" x2="592" y2="659"/>
+    <line x1="528" y1="669" x2="588" y2="667"/>
+    <line x1="528" y1="677" x2="580" y2="675"/>
+  </g>
+
+  <!-- post office handle stamp -->
+  <rect x="40" y="718" width="110" height="14" rx="5" fill="#9b7650" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="150" y="712" width="34" height="26" rx="3" fill="#2b2b2b"/>
+  <rect x="150" y="712" width="34" height="26" rx="3" fill="none" stroke="#5a5a5a" stroke-width="1"/>
+  <text x="40" y="752" font-size="9" fill="#2b2b2b">MOSSBROOK POST OFFICE</text>
+
+  <!-- signature -->
+  <text x="772" y="785" font-size="18" text-anchor="end" fill="#2b2b2b">P.</text>
+</svg>
