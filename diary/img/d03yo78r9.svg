@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe8d6"/>
+
+  <!-- distant fog banks -->
+  <ellipse cx="160" cy="120" rx="220" ry="40" fill="#d6dadc" opacity="0.8"/>
+  <ellipse cx="650" cy="90" rx="200" ry="34" fill="#d6dadc" opacity="0.8"/>
+  <ellipse cx="400" cy="60" rx="260" ry="28" fill="#e2e5e6" opacity="0.9"/>
+
+  <!-- building roof and facade -->
+  <polygon points="100,170 400,95 700,170" fill="#6e625a" stroke="#2b2620" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="120" y="170" width="560" height="560" fill="#b9a68e" stroke="#2b2620" stroke-width="4"/>
+  <!-- faint brick courses -->
+  <g stroke="#9c8c76" stroke-width="1.5" fill="none">
+    <line x1="120" y1="210" x2="680" y2="210"/>
+    <line x1="120" y1="260" x2="680" y2="260"/>
+    <line x1="120" y1="640" x2="250" y2="640"/>
+    <line x1="550" y1="640" x2="680" y2="640"/>
+    <line x1="120" y1="690" x2="250" y2="690"/>
+    <line x1="550" y1="690" x2="680" y2="690"/>
+  </g>
+
+  <!-- sign board -->
+  <rect x="270" y="222" width="260" height="60" fill="#3b332c" stroke="#2b2620" stroke-width="3"/>
+  <text x="400" y="260" font-size="26" text-anchor="middle" fill="#e9dfc6" letter-spacing="4">CLOCKMAKER</text>
+
+  <!-- doorway frame -->
+  <rect x="240" y="320" width="320" height="410" fill="#4a4038" stroke="#2b2620" stroke-width="4"/>
+
+  <!-- interior back wall -->
+  <rect x="262" y="332" width="276" height="398" fill="#2e2822"/>
+
+  <!-- tall case clock (left inside) -->
+  <rect x="280" y="430" width="72" height="270" fill="#4a2e1f" stroke="#1c1612" stroke-width="3"/>
+  <path d="M282,372 Q316,340 350,372 L350,432 L282,432 Z" fill="#4a2e1f" stroke="#1c1612" stroke-width="3"/>
+  <circle cx="316" cy="402" r="20" fill="#f6f2e8" stroke="#1c1612" stroke-width="2"/>
+  <g font-size="6" fill="#1c1612" text-anchor="middle">
+    <text x="316" y="387">XII</text>
+    <text x="332" y="405">III</text>
+    <text x="316" y="420">VI</text>
+    <text x="300" y="405">IX</text>
+  </g>
+  <line x1="316" y1="402" x2="316" y2="390" stroke="#1c1612" stroke-width="1.5"/>
+  <line x1="316" y1="402" x2="326" y2="404" stroke="#1c1612" stroke-width="1.5"/>
+  <rect x="297" y="458" width="38" height="58" fill="#15110e" stroke="#c9a227" stroke-width="2"/>
+  <line x1="316" y1="458" x2="316" y2="490" stroke="#c9a227" stroke-width="2"/>
+  <circle cx="316" cy="498" r="9" fill="#c9a227" stroke="#7a5d14" stroke-width="1.5"/>
+
+  <!-- shelf with tin -->
+  <rect x="362" y="430" width="150" height="10" fill="#5b4a3a" stroke="#1c1612" stroke-width="2"/>
+  <rect x="372" y="394" width="60" height="36" fill="#7d9a6e" stroke="#1c1612" stroke-width="2"/>
+  <rect x="372" y="394" width="60" height="8" fill="#55694a" stroke="#1c1612" stroke-width="1.5"/>
+  <ellipse cx="410" cy="402" rx="8" ry="3" fill="#55694a"/>
+  <g font-size="7" fill="#2b2620" text-anchor="middle">
+    <text x="402" y="417">Earl Grey,</text>
+    <text x="402" y="426">Loose Leaf</text>
+  </g>
+
+  <!-- pinned price sheet -->
+  <path d="M392,456 L512,456 L512,562 L392,562 Z" fill="#f7f1e1" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M512,540 Q508,560 512,562 L494,562 Q508,556 512,540 Z" fill="#e4dac2" stroke="#2b2620" stroke-width="1"/>
+  <circle cx="398" cy="461" r="2" fill="#7a2a22"/>
+  <circle cx="506" cy="461" r="2" fill="#7a2a22"/>
+  <g font-size="6.5" fill="#2b2620">
+    <text x="400" y="478">Cleaning, per clock: 4s</text>
+    <text x="400" y="496">Mainspring replacement: 12s</text>
+    <text x="400" y="514">New glass: 2s 6d</text>
+    <text x="400" y="532">Winding service, monthly: 1s</text>
+  </g>
+
+  <!-- workbench -->
+  <rect x="340" y="578" width="180" height="12" fill="#4a3c2e" stroke="#1c1612" stroke-width="2"/>
+  <rect x="350" y="590" width="10" height="90" fill="#3a2f25"/>
+  <rect x="500" y="590" width="10" height="90" fill="#3a2f25"/>
+  <!-- bench clutter, shapes only -->
+  <rect x="368" y="566" width="26" height="12" fill="#2b2620"/>
+  <circle cx="440" cy="570" r="8" fill="#2b2620"/>
+  <rect x="470" y="562" width="30" height="16" fill="#3b332c"/>
+  <line x1="455" y1="578" x2="462" y2="556" stroke="#2b2620" stroke-width="3"/>
+
+  <!-- stool shape -->
+  <ellipse cx="440" cy="650" rx="22" ry="5" fill="#15110e"/>
+  <rect x="436" y="620" width="8" height="30" fill="#15110e"/>
+
+  <!-- floor -->
+  <rect x="262" y="682" width="276" height="48" fill="#1e1b18"/>
+
+  <!-- wet doorstep and street -->
+  <rect x="240" y="728" width="320" height="10" fill="#6f665e" stroke="#2b2620" stroke-width="2"/>
+  <rect x="0" y="738" width="800" height="62" fill="#8a8178"/>
+  <g fill="none" stroke="#5d554e" stroke-width="1.5">
+    <ellipse cx="60" cy="760" rx="18" ry="7"/>
+    <ellipse cx="120" cy="782" rx="20" ry="7"/>
+    <ellipse cx="190" cy="758" rx="16" ry="6"/>
+    <ellipse cx="260" cy="786" rx="18" ry="7"/>
+    <ellipse cx="520" cy="760" rx="18" ry="7"/>
+    <ellipse cx="600" cy="784" rx="20" ry="7"/>
+    <ellipse cx="670" cy="758" rx="16" ry="6"/>
+    <ellipse cx="740" cy="782" rx="18" ry="7"/>
+    <ellipse cx="400" cy="790" rx="18" ry="6"/>
+  </g>
+
+  <!-- fog veil over street -->
+  <rect x="0" y="700" width="800" height="50" fill="#d6dadc" opacity="0.45"/>
+
+  <!-- rain blowing in from the left -->
+  <g stroke="#4f6878" stroke-width="1.6" stroke-linecap="round" opacity="0.8">
+    <line x1="40" y1="120" x2="70" y2="170"/>
+    <line x1="90" y1="260" x2="120" y2="310"/>
+    <line x1="60" y1="380" x2="92" y2="430"/>
+    <line x1="30" y1="520" x2="62" y2="570"/>
+    <line x1="80" y1="640" x2="110" y2="690"/>
+    <line x1="150" y1="60" x2="182" y2="110"/>
+    <line x1="200" y1="420" x2="232" y2="470"/>
+    <line x1="210" y1="560" x2="240" y2="610"/>
+    <line x1="230" y1="250" x2="262" y2="300"/>
+    <line x1="260" y1="150" x2="290" y2="200"/>
+    <line x1="300" y1="300" x2="326" y2="340"/>
+    <line x1="330" y1="520" x2="352" y2="555"/>
+    <line x1="440" y1="250" x2="462" y2="290"/>
+    <line x1="500" y1="350" x2="520" y2="385"/>
+    <line x1="560" y1="180" x2="580" y2="220"/>
+    <line x1="620" y1="300" x2="640" y2="340"/>
+    <line x1="700" y1="400" x2="722" y2="440"/>
+    <line x1="660" y1="560" x2="682" y2="600"/>
+    <line x1="720" y1="250" x2="742" y2="290"/>
+    <line x1="520" y1="660" x2="542" y2="700"/>
+    <line x1="150" y1="740" x2="172" y2="775"/>
+    <line x1="430" y1="110" x2="452" y2="150"/>
+    <line x1="360" y1="620" x2="382" y2="655"/>
+  </g>
+
+  <!-- signature -->
+  <text x="772" y="784" font-size="16" text-anchor="end" fill="#2b2620">P.</text>
+</svg>
