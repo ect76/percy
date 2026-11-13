@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee0"/>
+
+  <!-- distant fog bands -->
+  <rect x="0" y="90" width="800" height="90" fill="#d9dfe0" opacity="0.6"/>
+  <rect x="0" y="330" width="800" height="70" fill="#e6e9e5" opacity="0.7"/>
+  <rect x="0" y="520" width="800" height="60" fill="#e9ece6" opacity="0.8"/>
+
+  <!-- faint trees in fog -->
+  <g fill="#9aa89c" opacity="0.5">
+    <ellipse cx="120" cy="470" rx="45" ry="60"/>
+    <ellipse cx="195" cy="490" rx="38" ry="50"/>
+    <ellipse cx="640" cy="480" rx="50" ry="64"/>
+    <ellipse cx="710" cy="500" rx="36" ry="46"/>
+  </g>
+  <g fill="#7f8e80" opacity="0.6">
+    <rect x="118" y="520" width="6" height="60"/>
+    <rect x="193" y="530" width="6" height="50"/>
+    <rect x="638" y="540" width="6" height="60"/>
+    <rect x="708" y="540" width="6" height="50"/>
+  </g>
+
+  <!-- tower body -->
+  <rect x="325" y="130" width="150" height="430" fill="#b9b1a0" stroke="#2b2722" stroke-width="4"/>
+  <!-- embattled top -->
+  <g fill="#b9b1a0" stroke="#2b2722" stroke-width="4">
+    <rect x="325" y="100" width="22" height="34"/>
+    <rect x="357" y="100" width="22" height="34"/>
+    <rect x="389" y="100" width="22" height="34"/>
+    <rect x="421" y="100" width="22" height="34"/>
+    <rect x="453" y="100" width="22" height="34"/>
+  </g>
+  <!-- stone courses -->
+  <g stroke="#6f675a" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M325 190 H475 M325 250 H475 M325 310 H475 M325 370 H475 M325 430 H475 M325 490 H475"/>
+    <path d="M365 130 V190 M405 190 V250 M365 250 V310 M405 310 V370 M365 370 V430 M405 430 V490"/>
+  </g>
+
+  <!-- clock case -->
+  <circle cx="400" cy="260" r="98" fill="#2b2722"/>
+  <circle cx="400" cy="260" r="86" fill="#f6f1e2"/>
+
+  <!-- hour ticks -->
+  <g stroke="#2b2722" stroke-width="4" stroke-linecap="round">
+    <line x1="400" y1="186" x2="400" y2="198"/>
+    <line x1="474" y1="260" x2="462" y2="260"/>
+    <line x1="400" y1="334" x2="400" y2="322"/>
+    <line x1="326" y1="260" x2="338" y2="260"/>
+    <line x1="455" y1="215" x2="447" y2="223"/>
+    <line x1="345" y1="215" x2="353" y2="223"/>
+    <line x1="455" y1="305" x2="447" y2="297"/>
+    <line x1="345" y1="305" x2="353" y2="297"/>
+  </g>
+
+  <!-- hairline crack -->
+  <path d="M372 205 L380 218 L374 228 L386 242 L381 256 L392 270 L388 284 L396 296"
+        fill="none" stroke="#2b2722" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- hour hand -->
+  <path d="M400 260 L346 282" stroke="#2b2722" stroke-width="7" stroke-linecap="round"/>
+  <!-- bent minute hand -->
+  <path d="M400 260 L400 200 L428 186" fill="none" stroke="#2b2722" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="260" r="7" fill="#2b2722"/>
+
+  <!-- belfry opening below clock -->
+  <path d="M372 400 V440 Q372 452 400 452 Q428 452 428 440 V400 Z" fill="#4d473e" stroke="#2b2722" stroke-width="3"/>
+  <g stroke="#b9b1a0" stroke-width="3">
+    <line x1="372" y1="412" x2="428" y2="412"/>
+    <line x1="372" y1="426" x2="428" y2="426"/>
+  </g>
+
+  <!-- green in foreground -->
+  <path d="M0 600 Q200 570 400 592 T800 585 V800 H0 Z" fill="#7d9a6a" stroke="#2b2722" stroke-width="3"/>
+  <path d="M0 660 Q260 630 520 655 T800 650 V800 H0 Z" fill="#617f52"/>
+
+  <!-- grass strokes -->
+  <g stroke="#3f5a3a" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M90 700 l-6 -18 M96 700 l0 -22 M102 700 l6 -16"/>
+    <path d="M590 720 l-6 -18 M596 720 l0 -22 M602 720 l6 -16"/>
+    <path d="M300 748 l-5 -16 M306 748 l0 -20 M312 748 l5 -15"/>
+  </g>
+
+  <!-- cobbled path -->
+  <g fill="#c9c2b0" stroke="#4a443b" stroke-width="2">
+    <ellipse cx="380" cy="770" rx="26" ry="9"/>
+    <ellipse cx="420" cy="782" rx="24" ry="8"/>
+    <ellipse cx="350" cy="786" rx="20" ry="7"/>
+    <ellipse cx="400" cy="752" rx="18" ry="6"/>
+  </g>
+
+  <!-- fog over foreground -->
+  <rect x="0" y="560" width="800" height="50" fill="#eef0ea" opacity="0.55"/>
+
+  <!-- signature P. in corner -->
+  <g fill="none" stroke="#2b2722" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M744 732 V772 M744 732 H760 Q772 732 772 743 Q772 754 760 754 H744"/>
+    <circle cx="782" cy="772" r="2.5" fill="#2b2722" stroke="none"/>
+  </g>
+</svg>
