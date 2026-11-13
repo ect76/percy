@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fogG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6dd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e9e6dd" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a955"/>
+      <stop offset="1" stop-color="#9a6d2c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+
+  <!-- distant fog banks -->
+  <ellipse cx="120" cy="260" rx="150" ry="40" fill="#d9d6cc" opacity="0.6"/>
+  <ellipse cx="700" cy="300" rx="170" ry="50" fill="#d9d6cc" opacity="0.6"/>
+
+  <!-- street cobbles -->
+  <rect x="0" y="700" width="800" height="100" fill="#cfc6b2"/>
+  <g fill="none" stroke="#2b2118" stroke-width="2" opacity="0.7">
+    <ellipse cx="60" cy="730" rx="34" ry="14"/>
+    <ellipse cx="180" cy="752" rx="40" ry="15"/>
+    <ellipse cx="310" cy="735" rx="34" ry="13"/>
+    <ellipse cx="450" cy="760" rx="42" ry="15"/>
+    <ellipse cx="590" cy="738" rx="36" ry="13"/>
+    <ellipse cx="720" cy="762" rx="44" ry="15"/>
+    <ellipse cx="110" cy="785" rx="30" ry="10"/>
+    <ellipse cx="380" cy="790" rx="34" ry="9"/>
+    <ellipse cx="650" cy="789" rx="32" ry="10"/>
+  </g>
+
+  <!-- shop interior wall -->
+  <rect x="160" y="120" width="480" height="580" fill="#e4d8bc" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- back wall window with grime -->
+  <rect x="320" y="150" width="160" height="150" fill="#c9d3cc" stroke="#2b2118" stroke-width="3"/>
+  <line x1="400" y1="150" x2="400" y2="300" stroke="#2b2118" stroke-width="3"/>
+  <line x1="320" y1="225" x2="480" y2="225" stroke="#2b2118" stroke-width="3"/>
+  <g fill="#6b6a55" opacity="0.35">
+    <ellipse cx="350" cy="180" rx="26" ry="14"/>
+    <ellipse cx="455" cy="200" rx="22" ry="18"/>
+    <ellipse cx="375" cy="270" rx="30" ry="12"/>
+    <ellipse cx="470" cy="275" rx="18" ry="22"/>
+    <ellipse cx="420" cy="165" rx="14" ry="9"/>
+  </g>
+  <g stroke="#5a5a48" stroke-width="3" opacity="0.5" fill="none">
+    <path d="M340 230 q4 20 -2 40"/>
+    <path d="M362 232 q3 14 0 26"/>
+    <path d="M440 232 q5 26 0 44"/>
+    <path d="M465 226 q2 12 -1 22"/>
+  </g>
+
+  <!-- shelf with loaves -->
+  <rect x="200" y="350" width="400" height="12" fill="#8a5e35" stroke="#2b2118" stroke-width="3"/>
+  <g stroke="#2b2118" stroke-width="3" fill="#c98a4b">
+    <ellipse cx="250" cy="332" rx="30" ry="18"/>
+    <ellipse cx="300" cy="334" rx="26" ry="16"/>
+    <ellipse cx="530" cy="332" rx="30" ry="18"/>
+    <ellipse cx="578" cy="334" rx="24" ry="16"/>
+  </g>
+  <g stroke="#2b2118" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M240 322 l8 -6 M258 320 l6 -5 M292 326 l7 -6 M520 322 l8 -6 M570 326 l6 -6"/>
+  </g>
+
+  <!-- counter top and front -->
+  <rect x="170" y="560" width="460" height="18" fill="#8a5e35" stroke="#2b2118" stroke-width="3"/>
+  <rect x="170" y="578" width="460" height="142" fill="#6e4726" stroke="#2b2118" stroke-width="3"/>
+  <g stroke="#2b2118" stroke-width="2" opacity="0.6" fill="none">
+    <line x1="230" y1="578" x2="230" y2="720"/>
+    <line x1="400" y1="578" x2="400" y2="720"/>
+    <line x1="570" y1="578" x2="570" y2="720"/>
+  </g>
+
+  <!-- cash register: base -->
+  <rect x="300" y="460" width="200" height="72" fill="url(#brass)" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- cash register: sloped keyboard panel -->
+  <polygon points="300,460 500,460 472,402 328,402" fill="#c58f3e" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- keys: three rows on the slope -->
+  <g fill="#2a2118">
+    <rect x="338" y="410" width="16" height="11" rx="2"/>
+    <rect x="360" y="410" width="16" height="11" rx="2"/>
+    <rect x="382" y="410" width="16" height="11" rx="2"/>
+    <rect x="404" y="410" width="16" height="11" rx="2"/>
+    <rect x="426" y="410" width="16" height="11" rx="2"/>
+    <rect x="448" y="410" width="12" height="11" rx="2"/>
+
+    <rect x="330" y="427" width="18" height="11" rx="2"/>
+    <rect x="354" y="427" width="18" height="11" rx="2"/>
+    <rect x="378" y="427" width="18" height="11" rx="2"/>
+    <rect x="402" y="427" width="18" height="11" rx="2"/>
+    <rect x="426" y="427" width="18" height="11" rx="2"/>
+    <rect x="450" y="427" width="16" height="11" rx="2"/>
+
+    <rect x="318" y="444" width="20" height="11" rx="2"/>
+    <rect x="344" y="444" width="20" height="11" rx="2"/>
+    <rect x="370" y="444" width="20" height="11" rx="2"/>
+    <rect x="396" y="444" width="20" height="11" rx="2"/>
+    <rect x="422" y="444" width="20" height="11" rx="2"/>
+    <rect x="448" y="444" width="20" height="11" rx="2"/>
+  </g>
+  <!-- worn key highlights -->
+  <g fill="#5a4a3a" opacity="0.7">
+    <rect x="341" y="412" width="5" height="2"/>
+    <rect x="407" y="429" width="5" height="2"/>
+    <rect x="348" y="446" width="5" height="2"/>
+  </g>
+
+  <!-- small display window on top -->
+  <rect x="352" y="372" width="96" height="26" fill="#c9d3cc" stroke="#2b2118" stroke-width="3"/>
+  <rect x="352" y="372" width="96" height="26" fill="#5a4a3a" opacity="0.15"/>
+  <line x1="372" y1="372" x2="368" y2="398" stroke="#2b2118" stroke-width="2" opacity="0.5"/>
+
+  <!-- drawer, slightly open, hanging below base -->
+  <rect x="312" y="532" width="176" height="26" fill="#a87534" stroke="#2b2118" stroke-width="3"/>
+  <rect x="312" y="552" width="176" height="6" fill="#2b2118"/>
+  <rect x="402" y="538" width="20" height="5" rx="2" fill="#f0c86a" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- highlight on brass body -->
+  <path d="M312 470 L322 470 L322 524 L312 524 Z" fill="#f5dc9a" opacity="0.5"/>
+
+  <!-- fog veil over the scene -->
+  <rect x="160" y="480" width="480" height="240" fill="url(#fogG)"/>
+
+  <!-- doorway frame -->
+  <rect x="110" y="80" width="50" height="720" fill="#5b3b22" stroke="#2b2118" stroke-width="3"/>
+  <rect x="640" y="80" width="50" height="720" fill="#5b3b22" stroke="#2b2118" stroke-width="3"/>
+  <rect x="110" y="60" width="580" height="30" fill="#5b3b22" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- foreground fog wisps -->
+  <g fill="#f7f4ec" opacity="0.55">
+    <ellipse cx="260" cy="700" rx="200" ry="22"/>
+    <ellipse cx="600" cy="740" rx="180" ry="18"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="26" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
