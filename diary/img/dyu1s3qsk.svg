@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="60" width="800" height="90" fill="#e4e1d8" opacity="0.8"/>
+  <rect x="0" y="260" width="800" height="60" fill="#e9e6dd" opacity="0.7"/>
+  <rect x="0" y="560" width="800" height="50" fill="#e4e1d8" opacity="0.8"/>
+
+  <!-- ground / cobbles -->
+  <rect x="0" y="640" width="800" height="160" fill="#d8d2c2"/>
+  <g fill="#c7c0ad" stroke="#4a4438" stroke-width="2">
+    <ellipse cx="120" cy="690" rx="46" ry="16"/>
+    <ellipse cx="230" cy="735" rx="52" ry="18"/>
+    <ellipse cx="400" cy="705" rx="48" ry="15"/>
+    <ellipse cx="560" cy="752" rx="58" ry="19"/>
+    <ellipse cx="690" cy="694" rx="50" ry="16"/>
+    <ellipse cx="320" cy="772" rx="40" ry="13"/>
+    <ellipse cx="640" cy="780" rx="44" ry="14"/>
+  </g>
+
+  <!-- shadow under stone -->
+  <ellipse cx="385" cy="660" rx="150" ry="18" fill="#8c8576" opacity="0.5"/>
+
+  <!-- standing stone body -->
+  <path d="M250,650 L238,520 L252,400 L244,300 L268,190 L300,140 L360,126 L430,138 L482,180 L505,260 L498,360 L512,470 L500,560 L516,650 Z"
+        fill="#9a9c98" stroke="#2a2a28" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- stone surface texture -->
+  <g fill="none" stroke="#6e706b" stroke-width="2" stroke-linecap="round">
+    <path d="M280,220 L292,232 L286,246"/>
+    <path d="M330,300 L342,296 L352,306"/>
+    <path d="M292,420 L306,428 L300,444"/>
+    <path d="M360,520 L374,514 L380,528"/>
+    <path d="M300,580 L314,590"/>
+    <path d="M420,240 L434,246 L428,258"/>
+    <path d="M380,380 L392,388"/>
+  </g>
+  <g fill="#7b7d78">
+    <circle cx="310" cy="250" r="3"/>
+    <circle cx="395" cy="200" r="2.5"/>
+    <circle cx="270" cy="470" r="3"/>
+    <circle cx="420" cy="430" r="2.5"/>
+    <circle cx="350" cy="600" r="3"/>
+  </g>
+
+  <!-- lichen patches -->
+  <g fill="#b9c27a" stroke="#4f5e2a" stroke-width="2" opacity="0.95">
+    <ellipse cx="300" cy="190" rx="22" ry="12" transform="rotate(-15 300 190)"/>
+    <ellipse cx="345" cy="260" rx="16" ry="10"/>
+    <ellipse cx="275" cy="340" rx="18" ry="11" transform="rotate(10 275 340)"/>
+    <ellipse cx="410" cy="330" rx="20" ry="13"/>
+    <ellipse cx="300" cy="480" rx="24" ry="14" transform="rotate(-8 300 480)"/>
+    <ellipse cx="420" cy="520" rx="15" ry="9"/>
+  </g>
+  <g fill="#e0d9a0" stroke="#6b6e3a" stroke-width="1.5">
+    <circle cx="292" cy="186" r="4"/>
+    <circle cx="352" cy="256" r="3"/>
+    <circle cx="266" cy="336" r="3.5"/>
+    <circle cx="418" cy="326" r="4"/>
+    <circle cx="292" cy="476" r="4.5"/>
+    <circle cx="326" cy="492" r="3"/>
+  </g>
+  <g fill="#5f6f33">
+    <circle cx="312" cy="200" r="1.5"/>
+    <circle cx="332" cy="250" r="1.5"/>
+    <circle cx="286" cy="352" r="1.5"/>
+    <circle cx="400" cy="340" r="1.5"/>
+    <circle cx="318" cy="470" r="1.5"/>
+  </g>
+
+  <!-- packed mortar crack down one side -->
+  <path d="M452,160 L460,240 L448,320 L464,400 L452,480 L468,560 L458,650 L470,650 L482,560 L466,480 L478,400 L462,320 L474,240 L466,160 Z"
+        fill="#d6cfbb" stroke="#2a2a28" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#8d866f" stroke-width="1.5">
+    <path d="M456,200 L466,206"/>
+    <path d="M454,268 L466,274"/>
+    <path d="M458,350 L470,344"/>
+    <path d="M456,430 L468,436"/>
+    <path d="M456,520 L468,512"/>
+    <path d="M460,600 L470,606"/>
+  </g>
+  <path d="M462,160 L468,250 L456,330 L472,410 L460,490 L474,570 L466,650" fill="none" stroke="#3a3a36" stroke-width="1" stroke-dasharray="10 6" opacity="0.6"/>
+
+  <!-- brass bolt at base -->
+  <circle cx="330" cy="628" r="12" fill="#c9a24a" stroke="#4a3a14" stroke-width="2.5"/>
+  <circle cx="330" cy="628" r="4.5" fill="#8a6a22" stroke="#4a3a14" stroke-width="1.5"/>
+  <path d="M322,628 L338,628" stroke="#4a3a14" stroke-width="1.5"/>
+
+  <!-- faded scratched 7 -->
+  <g fill="none" stroke="#6b5b40" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 2" opacity="0.75">
+    <path d="M356,606 L372,606 L362,626"/>
+  </g>
+
+  <!-- signature -->
+  <text x="746" y="772" font-family="serif" font-size="22" fill="#3a3630">P.</text>
+</svg>
