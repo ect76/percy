@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe8d8"/>
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="560" fill="#e4dac6"/>
+  <!-- window onto lane -->
+  <rect x="520" y="70" width="200" height="220" fill="#cfd5d6" stroke="#2a2520" stroke-width="5"/>
+  <rect x="520" y="70" width="200" height="220" fill="#b8c2c2" opacity="0.5"/>
+  <line x1="620" y1="70" x2="620" y2="290" stroke="#2a2520" stroke-width="5"/>
+  <line x1="520" y1="180" x2="720" y2="180" stroke="#2a2520" stroke-width="5"/>
+  <ellipse cx="600" cy="230" rx="120" ry="30" fill="#e8ece9" opacity="0.8"/>
+  <ellipse cx="640" cy="260" rx="110" ry="22" fill="#e8ece9" opacity="0.7"/>
+  <!-- fog bands -->
+  <ellipse cx="200" cy="160" rx="260" ry="40" fill="#d9d4c7" opacity="0.6"/>
+  <ellipse cx="420" cy="330" rx="330" ry="34" fill="#f5f1e6" opacity="0.6"/>
+  <ellipse cx="150" cy="500" rx="300" ry="30" fill="#f5f1e6" opacity="0.5"/>
+  <!-- floor -->
+  <polygon points="0,560 800,560 800,800 0,800" fill="#b9a88a"/>
+  <g stroke="#6e604a" stroke-width="2" opacity="0.7">
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="0" y1="650" x2="800" y2="650"/>
+    <line x1="0" y1="710" x2="800" y2="710"/>
+    <line x1="0" y1="770" x2="800" y2="770"/>
+  </g>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#2a2520" stroke-width="4"/>
+  <!-- shadow -->
+  <ellipse cx="370" cy="586" rx="170" ry="18" fill="#6e604a" opacity="0.35"/>
+  <!-- tail -->
+  <path d="M490 470 C560 470 580 420 600 400 C620 380 640 360 620 340" fill="none" stroke="#2a2520" stroke-width="12" stroke-linecap="round"/>
+  <path d="M490 470 C560 470 580 420 600 400 C620 380 640 360 620 340" fill="none" stroke="#9aa3ad" stroke-width="6" stroke-linecap="round"/>
+  <!-- legs -->
+  <g stroke="#2a2520" stroke-width="4" fill="#9aa3ad">
+    <rect x="296" y="520" width="26" height="60" rx="6"/>
+    <rect x="372" y="524" width="26" height="58" rx="6"/>
+    <rect x="420" y="520" width="26" height="60" rx="6"/>
+  </g>
+  <g stroke="#2a2520" stroke-width="4" fill="#7d8792">
+    <ellipse cx="309" cy="584" rx="22" ry="9"/>
+    <ellipse cx="385" cy="586" rx="22" ry="9"/>
+    <ellipse cx="433" cy="584" rx="22" ry="9"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="370" cy="470" rx="130" ry="80" fill="#9aa3ad" stroke="#2a2520" stroke-width="4"/>
+  <!-- belly cutaway with spring -->
+  <rect x="326" y="482" width="124" height="44" rx="8" fill="#3b3a38" stroke="#2a2520" stroke-width="4"/>
+  <g fill="none" stroke="#b5893a" stroke-width="4">
+    <ellipse cx="346" cy="504" rx="8" ry="14"/>
+    <ellipse cx="366" cy="504" rx="8" ry="14"/>
+    <ellipse cx="386" cy="504" rx="8" ry="14"/>
+    <ellipse cx="406" cy="504" rx="8" ry="14"/>
+    <ellipse cx="426" cy="504" rx="8" ry="14"/>
+  </g>
+  <!-- winding collar -->
+  <circle cx="470" cy="455" r="14" fill="#d9a441" stroke="#2a2520" stroke-width="3"/>
+  <rect x="466" y="449" width="8" height="12" fill="#2a2118"/>
+  <!-- head -->
+  <circle cx="240" cy="440" r="58" fill="#9aa3ad" stroke="#2a2520" stroke-width="4"/>
+  <!-- ears -->
+  <circle cx="225" cy="386" r="26" fill="#c9a99a" stroke="#2a2520" stroke-width="4"/>
+  <circle cx="268" cy="390" r="26" fill="#c9a99a" stroke="#2a2520" stroke-width="4"/>
+  <!-- eye and nose -->
+  <circle cx="222" cy="430" r="7" fill="#1e1b18"/>
+  <circle cx="224" cy="428" r="2" fill="#efe8d8"/>
+  <ellipse cx="184" cy="450" rx="10" ry="8" fill="#2a2520"/>
+  <!-- whiskers -->
+  <g stroke="#2a2520" stroke-width="2" fill="none">
+    <line x1="182" y1="452" x2="130" y2="440"/>
+    <line x1="182" y1="458" x2="130" y2="462"/>
+  </g>
+  <!-- brass key on floor -->
+  <rect x="496" y="614" width="122" height="12" fill="#d9a441" stroke="#2a2118" stroke-width="3"/>
+  <rect x="478" y="626" width="14" height="18" fill="#d9a441" stroke="#2a2118" stroke-width="3"/>
+  <rect x="500" y="626" width="12" height="12" fill="#d9a441" stroke="#2a2118" stroke-width="3"/>
+  <circle cx="640" cy="620" r="26" fill="#d9a441" stroke="#2a2118" stroke-width="3"/>
+  <circle cx="640" cy="620" r="10" fill="#efe8d8" stroke="#2a2118" stroke-width="3"/>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2520" stroke-width="3" stroke-linecap="round">
+    <path d="M744 752 V778 M744 752 H756 A7 7 0 0 1 756 766 H744"/>
+    <line x1="762" y1="778" x2="762" y2="778"/>
+  </g>
+</svg>
