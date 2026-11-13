@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="330" fill="#d9e0e2"/>
+  <!-- low winter sun behind fog -->
+  <circle cx="140" cy="230" r="44" fill="#f6e7b4" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- bell tower -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="368" y="150" width="54" height="170" fill="#b9b1a2"/>
+    <polygon points="362,150 395,88 428,150" fill="#6e6a66"/>
+    <rect x="382" y="190" width="26" height="30" fill="#4b4a48"/>
+    <line x1="395" y1="88" x2="395" y2="66" />
+    <circle cx="395" cy="62" r="4" fill="#c9a24a"/>
+  </g>
+  <!-- distant cottages -->
+  <g stroke="#2b2b2b" stroke-width="2" stroke-linejoin="round">
+    <rect x="250" y="262" width="70" height="60" fill="#c7bfb0"/>
+    <polygon points="244,262 285,226 326,262" fill="#7b7f86"/>
+    <rect x="482" y="270" width="64" height="52" fill="#c7bfb0"/>
+    <polygon points="476,270 514,236 552,270" fill="#7b7f86"/>
+  </g>
+  <!-- bare trees -->
+  <g stroke="#3a3530" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M90 360 L92 250 M92 290 L70 262 M92 280 L116 254 M92 320 L110 300"/>
+    <path d="M712 350 L708 230 M708 280 L684 252 M708 262 L732 236 M708 310 L726 292"/>
+    <path d="M205 340 L204 290 M204 310 L188 294"/>
+  </g>
+  <!-- fog bands over the back -->
+  <g fill="#eef1f0" opacity="0.8">
+    <ellipse cx="400" cy="250" rx="420" ry="34"/>
+    <ellipse cx="200" cy="300" rx="260" ry="26"/>
+    <ellipse cx="620" cy="318" rx="260" ry="22"/>
+  </g>
+  <!-- green -->
+  <path d="M0 330 Q400 300 800 330 L800 800 L0 800 Z" fill="#9aa77a" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- frost speckles -->
+  <g fill="#e9efe6" opacity="0.7">
+    <circle cx="150" cy="420" r="3"/><circle cx="180" cy="470" r="2.5"/><circle cx="640" cy="440" r="3"/>
+    <circle cx="700" cy="520" r="2.5"/><circle cx="110" cy="560" r="3"/><circle cx="560" cy="650" r="2.5"/>
+    <circle cx="250" cy="690" r="3"/><circle cx="690" cy="720" r="2.5"/>
+  </g>
+  <!-- cobbled path converging on the pond from the lower right -->
+  <path d="M620 800 L560 640 L500 560 L470 540 L490 530 L600 620 L690 800 Z" fill="#b6ad9b" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M600 800 L580 740 M640 760 L620 700 M570 700 L548 640 M520 600 L508 565"/>
+  </g>
+  <!-- long winter shadows -->
+  <g fill="#3a4a4a" opacity="0.18">
+    <polygon points="60,500 260,500 300,560 90,560"/>
+    <polygon points="540,500 740,500 760,540 560,540"/>
+  </g>
+  <!-- Crumb's Bakery (left) -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="50" y="390" width="210" height="112" fill="#d8b98f"/>
+    <polygon points="40,392 155,320 270,392" fill="#8c3b2e"/>
+    <rect x="130" y="440" width="52" height="62" fill="#7a5238"/>
+    <rect x="72" y="418" width="46" height="40" fill="#f2cf6e"/>
+    <rect x="200" y="418" width="46" height="40" fill="#f2cf6e"/>
+    <rect x="96" y="352" width="120" height="22" fill="#f3eee2"/>
+  </g>
+  <text x="156" y="368" font-family="serif" font-size="17" text-anchor="middle" fill="#2b2b2b">Crumb's Bakery</text>
+  <!-- Post office (right) -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="530" y="386" width="220" height="116" fill="#e6dcc6"/>
+    <polygon points="520,388 640,312 760,388" fill="#5c6670"/>
+    <rect x="612" y="440" width="50" height="62" fill="#6b4a33"/>
+    <rect x="556" y="418" width="40" height="36" fill="#f2cf6e"/>
+    <rect x="688" y="418" width="40" height="36" fill="#f2cf6e"/>
+    <rect x="582" y="360" width="120" height="20" fill="#a33a2c"/>
+    <rect x="700" y="438" width="14" height="22" fill="#a33a2c"/>
+  </g>
+  <text x="642" y="375" font-family="serif" font-size="15" text-anchor="middle" fill="#f3eee2">Post Office</text>
+  <!-- pond -->
+  <ellipse cx="400" cy="560" rx="165" ry="62" fill="#7fa0a4" stroke="#2b2b2b" stroke-width="2.5"/>
+  <ellipse cx="400" cy="562" rx="130" ry="44" fill="none" stroke="#c9dadb" stroke-width="2" opacity="0.8"/>
+  <path d="M330 548 Q350 540 372 548 M430 575 Q452 568 470 576" stroke="#e8f1f0" stroke-width="2" fill="none"/>
+  <!-- stone edge around pond -->
+  <g fill="#c9c0ad" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="250" cy="560" rx="10" ry="6"/><ellipse cx="555" cy="565" rx="10" ry="6"/>
+    <ellipse cx="400" cy="622" rx="11" ry="6"/><ellipse cx="312" cy="604" rx="8" ry="5"/>
+  </g>
+  <!-- Welcome sign by the pond -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="390" y="430" width="6" height="66" fill="#6b4a33"/>
+    <rect x="302" y="420" width="196" height="40" rx="3" fill="#f3eee2"/>
+    <rect x="310" y="428" width="180" height="24" fill="none" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="447" font-family="serif" font-size="17" text-anchor="middle" fill="#2b2b2b">Welcome to Mossbrook</text>
+  <!-- foreground bench and reeds -->
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M250 705 L300 700 M320 706 L320 740 M292 700 L292 740"/>
+    <path d="M90 700 Q96 660 90 632 M100 700 Q106 668 112 644"/>
+  </g>
+  <!-- signature -->
+  <text x="772" y="784" font-family="serif" font-size="18" text-anchor="end" fill="#2b2b2b">P.</text>
+</svg>
