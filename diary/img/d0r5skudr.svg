@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#efe6d2"/>
+  <!-- wall -->
+  <rect x="40" y="40" width="720" height="520" fill="#e4d6b8" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- floor -->
+  <rect x="40" y="560" width="720" height="200" fill="#b98b5e" stroke="#2a2a2a" stroke-width="3"/>
+  <g stroke="#7d5a3a" stroke-width="2" fill="none">
+    <line x1="40" y1="600" x2="760" y2="600"/>
+    <line x1="40" y1="650" x2="760" y2="650"/>
+    <line x1="40" y1="700" x2="760" y2="700"/>
+    <line x1="40" y1="750" x2="760" y2="750"/>
+  </g>
+
+  <!-- window and lane -->
+  <rect x="430" y="110" width="230" height="230" fill="#dfe6e8" stroke="#2a2a2a" stroke-width="4"/>
+  <rect x="430" y="110" width="230" height="230" fill="#f2f5f5" opacity="0.6"/>
+  <!-- distant cottages in fog -->
+  <rect x="440" y="170" width="40" height="60" fill="#b7bfc2" opacity="0.8"/>
+  <rect x="600" y="165" width="50" height="65" fill="#b7bfc2" opacity="0.8"/>
+  <!-- lane -->
+  <polygon points="450,340 640,340 572,220 508,220" fill="#9d9a8f" stroke="#2a2a2a" stroke-width="2"/>
+  <g fill="#7b786e">
+    <circle cx="480" cy="310" r="4"/><circle cx="520" cy="300" r="3"/>
+    <circle cx="560" cy="310" r="4"/><circle cx="600" cy="322" r="5"/>
+    <circle cx="530" cy="260" r="3"/><circle cx="555" cy="252" r="3"/>
+    <circle cx="540" cy="237" r="2"/><circle cx="500" cy="282" r="3"/>
+  </g>
+  <!-- lamp post -->
+  <line x1="612" y1="215" x2="612" y2="330" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="612" cy="208" r="7" fill="#f7e7a1" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- fog bands -->
+  <rect x="430" y="180" width="230" height="16" fill="#ffffff" opacity="0.55"/>
+  <rect x="430" y="250" width="230" height="20" fill="#ffffff" opacity="0.45"/>
+  <rect x="430" y="300" width="230" height="22" fill="#ffffff" opacity="0.5"/>
+  <line x1="545" y1="110" x2="545" y2="340" stroke="#2a2a2a" stroke-width="4"/>
+  <line x1="430" y1="225" x2="660" y2="225" stroke="#2a2a2a" stroke-width="4"/>
+
+  <!-- cupboard -->
+  <rect x="90" y="170" width="240" height="250" fill="#8a6444" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="110" y="190" width="200" height="210" fill="#5a3d28" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="110" y1="262" x2="310" y2="262" stroke="#2a2a2a" stroke-width="3"/>
+  <line x1="110" y1="330" x2="310" y2="330" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- four loaves -->
+  <g fill="#d9953f" stroke="#2a2a2a" stroke-width="2">
+    <ellipse cx="140" cy="242" rx="20" ry="13"/>
+    <ellipse cx="190" cy="242" rx="20" ry="13"/>
+    <ellipse cx="240" cy="242" rx="20" ry="13"/>
+    <ellipse cx="287" cy="242" rx="20" ry="13"/>
+  </g>
+  <g stroke="#9c6526" stroke-width="2" fill="none">
+    <path d="M128 240 Q140 232 152 240"/>
+    <path d="M178 240 Q190 232 202 240"/>
+    <path d="M228 240 Q240 232 252 240"/>
+    <path d="M275 240 Q287 232 299 240"/>
+  </g>
+  <!-- tins on lower shelves -->
+  <g stroke="#2a2a2a" stroke-width="2">
+    <rect x="124" y="285" width="34" height="45" fill="#c5cfd6"/>
+    <rect x="166" y="285" width="34" height="45" fill="#c5cfd6"/>
+    <rect x="208" y="285" width="34" height="45" fill="#c5cfd6"/>
+    <rect x="250" y="285" width="34" height="45" fill="#c5cfd6"/>
+    <rect x="130" y="350" width="30" height="40" fill="#c5cfd6"/>
+    <rect x="172" y="350" width="30" height="40" fill="#c5cfd6"/>
+    <rect x="214" y="350" width="30" height="40" fill="#c5cfd6"/>
+  </g>
+  <g fill="#b5473a">
+    <rect x="124" y="298" width="34" height="12"/>
+    <rect x="166" y="298" width="34" height="12"/>
+    <rect x="208" y="298" width="34" height="12"/>
+    <rect x="250" y="298" width="34" height="12"/>
+  </g>
+  <!-- cupboard door handle -->
+  <circle cx="318" cy="300" r="5" fill="#d8c27a" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- desk -->
+  <rect x="470" y="430" width="270" height="40" fill="#7a5536" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="480" y="470" width="14" height="90" fill="#6a4628" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="716" y="470" width="14" height="90" fill="#6a4628" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- paper sheets -->
+  <polygon points="490,438 600,438 606,462 496,462" fill="#fffdf6" stroke="#2a2a2a" stroke-width="2"/>
+  <polygon points="500,432 612,430 616,455 504,457" fill="#fffdf6" stroke="#2a2a2a" stroke-width="2" opacity="0.9"/>
+  <g stroke="#8a8a8a" stroke-width="1.5">
+    <line x1="508" y1="444" x2="590" y2="444"/>
+    <line x1="510" y1="450" x2="585" y2="450"/>
+  </g>
+
+  <!-- pencils -->
+  <g stroke="#2a2a2a" stroke-width="2">
+    <line x1="630" y1="440" x2="700" y2="424" stroke-width="7" stroke="#e8b730"/>
+    <line x1="634" y1="447" x2="704" y2="432" stroke-width="7" stroke="#d9534f"/>
+  </g>
+  <polygon points="700,424 710,421 706,430" fill="#f2d7b0" stroke="#2a2a2a" stroke-width="1.5"/>
+  <polygon points="704,432 714,429 710,438" fill="#f2d7b0" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- old computer -->
+  <rect x="650" y="350" width="10" height="20" fill="#6d6d6d" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="600" y="370" width="110" height="80" rx="6" fill="#6d6d6d" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="612" y="382" width="86" height="56" fill="#9fb8a5" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="620" y1="396" x2="690" y2="396" stroke="#5f7a66" stroke-width="2"/>
+  <line x1="620" y1="410" x2="680" y2="410" stroke="#5f7a66" stroke-width="2"/>
+  <rect x="630" y="452" width="50" height="8" fill="#555" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- tin mouse -->
+  <g stroke="#2a2a2a" stroke-width="2">
+    <path d="M478 418 Q450 400 440 390" fill="none" stroke-width="3"/>
+    <rect x="484" y="427" width="6" height="5" fill="#9aa6ae"/>
+    <rect x="512" y="427" width="6" height="5" fill="#9aa6ae"/>
+    <ellipse cx="500" cy="414" rx="26" ry="16" fill="#b8c2c9"/>
+    <circle cx="526" cy="406" r="12" fill="#b8c2c9"/>
+    <circle cx="522" cy="394" r="7" fill="#e8a3a0"/>
+    <circle cx="536" cy="402" r="2.5" fill="#2a2a2a"/>
+    <rect x="496" y="408" width="10" height="6" fill="#8e9aa3"/>
+  </g>
+  <circle cx="540" cy="410" r="2" fill="#2a2a2a"/>
+
+  <!-- signature -->
+  <path d="M728 728 V768 M728 728 H744 Q758 728 758 742 Q758 756 744 756 H728" fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="768" cy="768" r="3" fill="#2a2a2a"/>
+</svg>
