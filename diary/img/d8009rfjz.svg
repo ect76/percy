@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3ede0"/>
+
+  <!-- sky inside doorway -->
+  <rect x="70" y="60" width="660" height="350" fill="#cfd7db"/>
+  <rect x="70" y="60" width="660" height="120" fill="#bfc9cf"/>
+
+  <!-- distant bell tower -->
+  <g>
+    <rect x="370" y="170" width="60" height="230" fill="#b9b2a6" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="360" y="138" width="80" height="40" fill="#aaa397" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="380" y="148" width="40" height="24" fill="#5a5550"/>
+    <polygon points="360,138 400,62 440,138" fill="#8f8a82" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="400" y1="62" x2="400" y2="40" stroke="#2b2622" stroke-width="2"/>
+    <rect x="388" y="200" width="24" height="30" fill="#6e6962"/>
+    <rect x="388" y="260" width="24" height="30" fill="#6e6962"/>
+  </g>
+
+  <!-- far fog band over tower base -->
+  <rect x="70" y="250" width="660" height="90" fill="#eef1f2" opacity="0.75"/>
+
+  <!-- far right and left buildings -->
+  <g stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="70,200 230,262 230,800 70,800" fill="#d8c3a0"/>
+    <polygon points="62,190 150,220 240,262 60,262" fill="#6f5a4c"/>
+    <path d="M70 330 H230 M70 420 H230 M70 510 H230 M70 600 H230" fill="none" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- snowy lane converging to vanishing point -->
+  <polygon points="150,800 650,800 420,410 380,410" fill="#ffffff" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#8c877e" stroke-width="1.5" stroke-linecap="round">
+    <path d="M200 760 q20 -8 40 0"/>
+    <path d="M330 720 q18 -7 36 0"/>
+    <path d="M480 735 q20 -8 40 0"/>
+    <path d="M270 650 q14 -6 28 0"/>
+    <path d="M520 640 q14 -6 28 0"/>
+    <path d="M360 600 q10 -4 20 0"/>
+    <path d="M440 580 q10 -4 20 0"/>
+    <path d="M385 500 q7 -3 14 0"/>
+    <path d="M405 470 q5 -2 10 0"/>
+  </g>
+
+  <!-- bakery on the right -->
+  <g stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="540" y="330" width="190" height="470" fill="#e8d6b5"/>
+    <polygon points="528,334 635,252 742,334" fill="#7d5a4a"/>
+    <polyline points="545,326 635,262 725,326" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <rect x="575" y="362" width="120" height="38" fill="#5b3d2b"/>
+    <rect x="590" y="374" width="90" height="12" fill="#e9dcc0" stroke="none"/>
+    <rect x="570" y="500" width="130" height="140" fill="#f5d68a"/>
+    <line x1="635" y1="500" x2="635" y2="640"/>
+    <line x1="570" y1="570" x2="700" y2="570"/>
+    <ellipse cx="596" cy="540" rx="16" ry="9" fill="#b57a3c"/>
+    <ellipse cx="640" cy="540" rx="16" ry="9" fill="#b57a3c"/>
+    <ellipse cx="680" cy="540" rx="14" ry="8" fill="#b57a3c"/>
+    <ellipse cx="610" cy="606" rx="16" ry="9" fill="#a5672f"/>
+    <ellipse cx="662" cy="606" rx="18" ry="9" fill="#a5672f"/>
+    <rect x="600" y="660" width="36" height="140" fill="#7d5a4a"/>
+  </g>
+
+  <!-- lamp post -->
+  <g stroke="#2b2622" stroke-width="3" fill="none">
+    <line x1="300" y1="800" x2="300" y2="430"/>
+    <path d="M300 430 q-12 -16 -4 -22"/>
+  </g>
+  <rect x="290" y="414" width="18" height="22" fill="#f7e2a0" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- fog wisps over the lane -->
+  <rect x="70" y="330" width="660" height="110" fill="#f2f4f4" opacity="0.55"/>
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.6">
+    <path d="M90 410 H300"/>
+    <path d="M480 430 H720"/>
+    <path d="M120 290 H360"/>
+    <path d="M440 300 H700"/>
+  </g>
+
+  <!-- stone doorway frame -->
+  <path d="M0 0 H800 V800 H0 Z M70 800 V230 Q70 60 240 60 H560 Q730 60 730 230 V800 Z"
+        fill="#8a6a4a" fill-rule="evenodd" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#5e4630" stroke-width="1.5" opacity="0.8">
+    <path d="M10 120 H60 M20 190 H55 M15 300 H60 M10 420 H55 M20 540 H60 M12 660 H58 M18 760 H52"/>
+    <path d="M745 120 H790 M750 200 H785 M742 320 H790 M752 450 H788 M745 580 H790 M752 700 H786"/>
+    <path d="M30 60 V110 M48 170 V230 M30 300 V360 M48 420 V480 M30 540 V600"/>
+    <path d="M760 70 V120 M778 180 V240 M760 320 V380 M778 440 V500 M760 580 V640"/>
+  </g>
+  <rect x="50" y="744" width="700" height="12" fill="#a08060" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#f3ede0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M744 790 V760 H754 Q762 760 762 768 Q762 776 754 776 H744"/>
+  </g>
+  <circle cx="768" cy="789" r="2.2" fill="#f3ede0"/>
+</svg>
