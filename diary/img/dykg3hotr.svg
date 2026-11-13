@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe2"/>
+  <!-- cottage wall -->
+  <rect x="0" y="0" width="800" height="420" fill="#d9cdb3"/>
+  <g stroke="#2b2622" stroke-width="2" opacity="0.25" fill="none">
+    <path d="M0 60 H800 M0 120 H800 M0 180 H800 M0 240 H800 M0 300 H800 M0 360 H800"/>
+  </g>
+  <!-- window onto the lane -->
+  <rect x="560" y="80" width="140" height="160" fill="#e6e9e4" stroke="#2b2622" stroke-width="5"/>
+  <path d="M560 80 L700 80" stroke="#2b2622" stroke-width="5"/>
+  <path d="M630 80 V240 M560 160 H700" stroke="#2b2622" stroke-width="4"/>
+  <rect x="566" y="170" width="128" height="70" fill="#c8d0c8" opacity="0.7"/>
+  <rect x="566" y="200" width="128" height="40" fill="#b3bdb3" opacity="0.6"/>
+  <!-- floor -->
+  <rect x="0" y="420" width="800" height="380" fill="#b7aa93"/>
+  <g fill="#9c8f7a" stroke="#2b2622" stroke-width="3">
+    <ellipse cx="60" cy="470" rx="46" ry="20"/>
+    <ellipse cx="170" cy="462" rx="40" ry="18"/>
+    <ellipse cx="260" cy="480" rx="44" ry="19"/>
+    <ellipse cx="720" cy="470" rx="50" ry="20"/>
+    <ellipse cx="640" cy="478" rx="38" ry="17"/>
+    <ellipse cx="90" cy="560" rx="52" ry="22"/>
+    <ellipse cx="200" cy="600" rx="48" ry="21"/>
+    <ellipse cx="320" cy="650" rx="50" ry="22"/>
+    <ellipse cx="90" cy="690" rx="46" ry="20"/>
+    <ellipse cx="230" cy="740" rx="56" ry="24"/>
+    <ellipse cx="700" cy="700" rx="60" ry="24"/>
+    <ellipse cx="740" cy="590" rx="46" ry="20"/>
+    <ellipse cx="600" cy="760" rx="50" ry="20"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="430" width="800" height="30" fill="#f4efe2" opacity="0.35"/>
+  <rect x="0" y="600" width="800" height="40" fill="#f4efe2" opacity="0.25"/>
+
+  <!-- bread peel, laid on the floor -->
+  <g transform="rotate(-25 520 600)">
+    <rect x="585" y="590" width="175" height="20" rx="8" fill="#8a5f34" stroke="#2b2622" stroke-width="4"/>
+    <path d="M440 600 Q460 540 540 540 L600 560 Q600 625 540 640 Q470 650 440 600 Z" fill="#d6aa72" stroke="#2b2622" stroke-width="4"/>
+    <path d="M470 600 Q490 575 540 575" fill="none" stroke="#8a5f34" stroke-width="3" opacity="0.6"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="345" cy="548" rx="105" ry="12" fill="#2b2622" opacity="0.25"/>
+
+  <!-- tail -->
+  <path d="M415 455 Q460 430 478 400" fill="none" stroke="#2b2622" stroke-width="10" stroke-linecap="round"/>
+  <path d="M415 455 Q460 430 478 400" fill="none" stroke="#c9b48a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- legs, mid-stride -->
+  <g stroke="#2b2622" stroke-width="16" stroke-linecap="round">
+    <path d="M300 492 L268 530"/>
+    <path d="M290 500 L322 532"/>
+    <path d="M380 492 L412 524"/>
+    <path d="M360 496 L336 530"/>
+  </g>
+  <g stroke="#8f7f58" stroke-width="8" stroke-linecap="round">
+    <path d="M300 492 L268 530"/>
+    <path d="M290 500 L322 532"/>
+    <path d="M380 492 L412 524"/>
+    <path d="M360 496 L336 530"/>
+  </g>
+  <g fill="#6b5d44" stroke="#2b2622" stroke-width="3">
+    <ellipse cx="262" cy="534" rx="12" ry="6"/>
+    <ellipse cx="327" cy="536" rx="12" ry="6"/>
+    <ellipse cx="418" cy="528" rx="12" ry="6"/>
+    <ellipse cx="331" cy="534" rx="12" ry="6"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="340" cy="460" rx="82" ry="46" fill="#b9a77a" stroke="#2b2622" stroke-width="4"/>
+  <path d="M290 430 Q340 412 390 430" fill="none" stroke="#2b2622" stroke-width="3"/>
+  <path d="M300 470 Q340 486 380 470" fill="none" stroke="#7d6c4a" stroke-width="3"/>
+
+  <!-- wind key on the back -->
+  <circle cx="352" cy="412" r="11" fill="#8f8f8a" stroke="#2b2622" stroke-width="3"/>
+  <path d="M352 412 V398 M352 412 L364 418" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- head -->
+  <circle cx="262" cy="432" r="34" fill="#b9a77a" stroke="#2b2622" stroke-width="4"/>
+  <path d="M236 446 L200 440 Q196 436 202 432 L236 426 Z" fill="#b9a77a" stroke="#2b2622" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="200" cy="438" r="4" fill="#2b2622"/>
+  <circle cx="252" cy="538" r="0" fill="none"/>
+  <circle cx="250" cy="396" r="16" fill="#d9a0a0" stroke="#2b2622" stroke-width="4"/>
+  <circle cx="280" cy="394" r="16" fill="#d9a0a0" stroke="#2b2622" stroke-width="4"/>
+  <circle cx="254" cy="424" r="4" fill="#2b2622"/>
+
+  <!-- whiskers -->
+  <path d="M220 440 L184 432 M220 446 L186 452" stroke="#2b2622" stroke-width="2" fill="none"/>
+
+  <!-- signature "P." in bottom-left corner -->
+  <g fill="none" stroke="#2b2622" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 760 V706 H50 Q64 706 64 720 Q64 734 50 734 H30"/>
+  </g>
+  <circle cx="78" cy="760" r="4" fill="#2b2622"/>
+</svg>
