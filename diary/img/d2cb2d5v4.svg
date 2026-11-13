@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and wall -->
+  <rect x="0" y="0" width="800" height="800" fill="#ece0c8"/>
+  <rect x="0" y="90" width="800" height="520" fill="#d9c7a6"/>
+  <!-- floor -->
+  <rect x="0" y="610" width="800" height="190" fill="#8c6748"/>
+  <g stroke="#4a3322" stroke-width="2" fill="none">
+    <line x1="0" y1="650" x2="380" y2="650"/>
+    <line x1="0" y1="700" x2="380" y2="700"/>
+    <line x1="0" y1="750" x2="380" y2="750"/>
+    <line x1="120" y1="610" x2="90" y2="800"/>
+    <line x1="260" y1="610" x2="240" y2="800"/>
+  </g>
+
+  <!-- timber beams -->
+  <rect x="0" y="0" width="800" height="90" fill="#6b4a32"/>
+  <rect x="0" y="40" width="800" height="38" fill="#7d5739" stroke="#2a1d14" stroke-width="4"/>
+  <rect x="0" y="0" width="800" height="26" fill="#5a3e2b" stroke="#2a1d14" stroke-width="4"/>
+  <g stroke="#2a1d14" stroke-width="4" fill="none">
+    <line x1="120" y1="78" x2="160" y2="40"/>
+    <line x1="640" y1="78" x2="600" y2="40"/>
+    <line x1="30" y1="78" x2="30" y2="150" />
+  </g>
+  <g fill="#5a3e2b" stroke="#2a1d14" stroke-width="4">
+    <rect x="22" y="78" width="16" height="520"/>
+    <rect x="762" y="78" width="16" height="520"/>
+  </g>
+
+  <!-- window -->
+  <rect x="80" y="160" width="230" height="270" fill="#2e3b5e" stroke="#2a1d14" stroke-width="4"/>
+  <rect x="80" y="160" width="230" height="120" fill="#4a5a80"/>
+  <rect x="80" y="300" width="230" height="130" fill="#1f2740"/>
+  <!-- lane, roofs, tree silhouette -->
+  <path d="M80 380 Q160 360 230 378 T310 372 V430 H80 Z" fill="#141a2b"/>
+  <path d="M120 330 L150 300 L180 330 V360 H120 Z" fill="#141a2b"/>
+  <path d="M200 340 L225 318 L250 340 V360 H200 Z" fill="#141a2b"/>
+  <circle cx="275" cy="310" r="26" fill="#141a2b"/>
+  <rect x="270" y="330" width="10" height="30" fill="#141a2b"/>
+  <!-- window frame and mullions -->
+  <g stroke="#2a1d14" stroke-width="10" fill="none">
+    <line x1="195" y1="160" x2="195" y2="430"/>
+    <line x1="80" y1="295" x2="310" y2="295"/>
+  </g>
+  <rect x="72" y="152" width="246" height="286" fill="none" stroke="#3d2a1b" stroke-width="12"/>
+  <rect x="72" y="430" width="246" height="14" fill="#6b4a32" stroke="#2a1d14" stroke-width="3"/>
+
+  <!-- shelf on right wall -->
+  <rect x="470" y="262" width="290" height="14" fill="#6b4a32" stroke="#2a1d14" stroke-width="3"/>
+  <rect x="470" y="276" width="290" height="8" fill="#4d3423"/>
+  <!-- ledger -->
+  <rect x="495" y="196" width="92" height="66" fill="#4f6b4a" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="495" y="196" width="14" height="66" fill="#33472f" stroke="#1d1a17" stroke-width="2"/>
+  <line x1="520" y1="208" x2="575" y2="208" stroke="#e9e1cc" stroke-width="3"/>
+  <rect x="520" y="222" width="45" height="26" fill="#f4eedc" stroke="#1d1a17" stroke-width="1.5"/>
+  <!-- pocket watch -->
+  <circle cx="650" cy="236" r="26" fill="#c9a227" stroke="#1d1a17" stroke-width="3"/>
+  <circle cx="650" cy="236" r="19" fill="#f4eedc" stroke="#7a5d14" stroke-width="2"/>
+  <line x1="650" y1="236" x2="650" y2="222" stroke="#1d1a17" stroke-width="2.5"/>
+  <line x1="650" y1="236" x2="661" y2="241" stroke="#1d1a17" stroke-width="2"/>
+  <rect x="646" y="202" width="8" height="10" fill="#c9a227" stroke="#1d1a17" stroke-width="2"/>
+  <path d="M676 240 Q700 262 690 262" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <!-- small brass level dome -->
+  <path d="M705 262 A18 18 0 0 1 741 262 Z" fill="#b08d2a" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="716" y="246" width="14" height="5" fill="#6b4a32" stroke="#1d1a17" stroke-width="2"/>
+
+  <!-- desk -->
+  <rect x="380" y="520" width="420" height="22" fill="#9a7050" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="380" y="542" width="420" height="34" fill="#6b4a32" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="400" y="576" width="22" height="224" fill="#5a3e2b" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="760" y="576" width="22" height="224" fill="#5a3e2b" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="402" y="542" width="60" height="34" fill="#5a3e2b" stroke="#1d1a17" stroke-width="2"/>
+
+  <!-- paper on desk -->
+  <polygon points="600,520 740,520 735,500 606,498" fill="#f7f2e4" stroke="#1d1a17" stroke-width="2.5"/>
+  <line x1="620" y1="512" x2="715" y2="510" stroke="#9aa0a6" stroke-width="2"/>
+  <!-- pencil -->
+  <line x1="610" y1="530" x2="700" y2="526" stroke="#d9a33a" stroke-width="7"/>
+  <line x1="610" y1="530" x2="700" y2="526" stroke="#1d1a17" stroke-width="1.5"/>
+
+  <!-- tin mouse with spring key -->
+  <g stroke="#1d1a17" stroke-width="3">
+    <path d="M462 486 Q440 470 455 452 Q462 444 470 456" fill="none"/>
+    <rect x="482" y="504" width="10" height="16" fill="#8f99a3"/>
+    <rect x="530" y="504" width="10" height="16" fill="#8f99a3"/>
+    <rect x="500" y="504" width="10" height="16" fill="#8f99a3"/>
+    <ellipse cx="520" cy="484" rx="56" ry="28" fill="#a9b3bc"/>
+    <ellipse cx="572" cy="470" rx="24" ry="19" fill="#a9b3bc"/>
+    <circle cx="558" cy="452" r="11" fill="#c7cdd3"/>
+    <circle cx="580" cy="450" r="10" fill="#c7cdd3"/>
+    <circle cx="592" cy="468" r="3.5" fill="#1d1a17"/>
+    <path d="M466 478 Q446 452 462 440" fill="none" stroke="#8f99a3" stroke-width="5"/>
+    <line x1="508" y1="458" x2="508" y2="430" stroke="#7d5739" stroke-width="5"/>
+    <ellipse cx="508" cy="420" rx="14" ry="6" fill="#c9a227"/>
+    <circle cx="508" cy="420" r="14" fill="none" stroke="#7a5d14" stroke-width="2"/>
+    <rect x="530" y="470" width="30" height="10" fill="#6f7a84" stroke="none"/>
+  </g>
+  <!-- mouse highlight -->
+  <path d="M490 470 Q520 458 548 466" fill="none" stroke="#e4e9ed" stroke-width="3"/>
+
+  <!-- dusk shading on wall over desk -->
+  <rect x="0" y="90" width="800" height="430" fill="#1f2740" opacity="0.18"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#1d1a17" stroke-width="3" stroke-linecap="round">
+    <path d="M30 740 V770 M30 740 H42 Q52 740 52 750 Q52 760 42 760 H30"/>
+  </g>
+  <circle cx="62" cy="770" r="3" fill="#1d1a17"/>
+</svg>
