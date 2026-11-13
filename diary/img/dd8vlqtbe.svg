@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead3"/>
+  <!-- fog wash -->
+  <ellipse cx="400" cy="90" rx="420" ry="90" fill="#d9d6cc" opacity="0.6"/>
+  <ellipse cx="400" cy="730" rx="460" ry="80" fill="#d9d6cc" opacity="0.6"/>
+  <ellipse cx="60" cy="400" rx="60" ry="300" fill="#e4dfd0" opacity="0.7"/>
+  <ellipse cx="750" cy="420" rx="60" ry="300" fill="#e4dfd0" opacity="0.7"/>
+
+  <!-- cobble hints at bottom -->
+  <g fill="none" stroke="#8a8175" stroke-width="2" opacity="0.5">
+    <ellipse cx="200" cy="690" rx="30" ry="14"/>
+    <ellipse cx="260" cy="705" rx="26" ry="12"/>
+    <ellipse cx="560" cy="700" rx="34" ry="13"/>
+    <ellipse cx="620" cy="688" rx="26" ry="12"/>
+  </g>
+
+  <!-- legs (ink) -->
+  <g stroke="#1e1b18" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M200 270 L165 275"/>
+    <path d="M600 270 L635 275"/>
+    <path d="M200 500 L165 520"/>
+    <path d="M600 500 L635 520"/>
+  </g>
+
+  <!-- feet (flat colour) -->
+  <g stroke="#1e1b18" stroke-width="4" fill="#8a5a33">
+    <rect x="118" y="240" width="62" height="46" rx="14"/>
+    <rect x="620" y="240" width="62" height="46" rx="14"/>
+    <rect x="118" y="500" width="62" height="46" rx="14"/>
+    <rect x="620" y="500" width="62" height="46" rx="14"/>
+  </g>
+  <g fill="#b07a48" opacity="0.8">
+    <rect x="128" y="250" width="40" height="8" rx="4"/>
+    <rect x="630" y="250" width="40" height="8" rx="4"/>
+    <rect x="128" y="510" width="40" height="8" rx="4"/>
+    <rect x="630" y="510" width="40" height="8" rx="4"/>
+  </g>
+
+  <!-- base plate -->
+  <rect x="200" y="220" width="400" height="300" rx="40" fill="#9aa7a9" stroke="#1e1b18" stroke-width="5"/>
+  <rect x="225" y="245" width="350" height="250" rx="28" fill="none" stroke="#1e1b18" stroke-width="2" stroke-dasharray="3 9"/>
+
+  <!-- rivets -->
+  <g fill="#4d5658" stroke="#1e1b18" stroke-width="2">
+    <circle cx="232" cy="236" r="5"/><circle cx="400" cy="234" r="5"/><circle cx="568" cy="236" r="5"/>
+    <circle cx="232" cy="530" r="5"/><circle cx="400" cy="532" r="5"/><circle cx="568" cy="530" r="5"/>
+    <circle cx="212" cy="300" r="5"/><circle cx="212" cy="450" r="5"/>
+    <circle cx="588" cy="300" r="5"/><circle cx="588" cy="450" r="5"/>
+  </g>
+
+  <!-- winding hole -->
+  <circle cx="300" cy="330" r="24" fill="#4f453d" stroke="#1e1b18" stroke-width="3"/>
+  <circle cx="300" cy="330" r="12" fill="#2a241f"/>
+
+  <!-- axle across the plate -->
+  <line x1="300" y1="390" x2="500" y2="390" stroke="#1e1b18" stroke-width="4"/>
+
+  <!-- ratchet wheel -->
+  <circle cx="500" cy="380" r="50" fill="#c9a25a" stroke="#1e1b18" stroke-width="3"/>
+  <circle cx="500" cy="380" r="58" fill="none" stroke="#1e1b18" stroke-width="12" stroke-dasharray="8 8"/>
+  <circle cx="500" cy="380" r="12" fill="#6b4f2a" stroke="#1e1b18" stroke-width="2"/>
+
+  <!-- cam -->
+  <ellipse cx="462" cy="430" rx="22" ry="14" fill="#b8b2a4" stroke="#1e1b18" stroke-width="3"/>
+
+  <!-- drive wire (ink) -->
+  <path d="M500 438 Q480 470 420 470 Q360 470 340 430" fill="none" stroke="#1e1b18" stroke-width="3"/>
+  <path d="M340 430 L300 420" fill="none" stroke="#1e1b18" stroke-width="3"/>
+
+  <!-- trip lever, guessed in pencil -->
+  <g fill="none" stroke="#5c5c5c" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M440 500 L560 300"/>
+    <path d="M446 496 L566 296" stroke-width="1" opacity="0.6"/>
+    <path d="M552 300 L574 282" stroke-width="2"/>
+    <path d="M400 530 L470 450" stroke-dasharray="6 5" stroke-width="2"/>
+  </g>
+  <!-- pencil hatching on lever -->
+  <g stroke="#6a6a6a" stroke-width="1" opacity="0.6">
+    <line x1="470" y1="460" x2="478" y2="452"/>
+    <line x1="490" y1="434" x2="498" y2="426"/>
+    <line x1="510" y1="408" x2="518" y2="400"/>
+    <line x1="530" y1="382" x2="538" y2="374"/>
+  </g>
+  <!-- pencil pivot -->
+  <circle cx="440" cy="500" r="7" fill="none" stroke="#5c5c5c" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- small pencil note marks -->
+  <path d="M600 380 L640 380" stroke="#5c5c5c" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+  <path d="M600 380 L615 372 M600 380 L615 388" stroke="#5c5c5c" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- P. signature in corner -->
+  <g fill="none" stroke="#1e1b18" stroke-width="3" stroke-linecap="round">
+    <path d="M730 720 V765 M730 720 H746 Q760 720 760 733 Q760 746 746 746 H730"/>
+  </g>
+  <circle cx="774" cy="765" r="3.5" fill="#1e1b18"/>
+</svg>
