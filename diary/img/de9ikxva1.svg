@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262f4a"/>
+      <stop offset="0.6" stop-color="#5b5f7c"/>
+      <stop offset="1" stop-color="#9a9aae"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#sky)"/>
+
+  <!-- distant hills in fog -->
+  <path d="M0 500 Q120 440 240 490 T480 480 T800 470 L800 560 L0 560 Z" fill="#7d8299" stroke="#1d1a17" stroke-width="2"/>
+
+  <!-- bell tower -->
+  <rect x="540" y="300" width="60" height="262" fill="#5a5566" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="532" y="220" width="76" height="82" fill="#4a4658" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M532 220 L570 130 L608 220 Z" fill="#3a3648" stroke="#1d1a17" stroke-width="3"/>
+  <line x1="544" y1="240" x2="544" y2="290" stroke="#1d1a17" stroke-width="2"/>
+  <line x1="596" y1="240" x2="596" y2="290" stroke="#1d1a17" stroke-width="2"/>
+  <line x1="540" y1="330" x2="540" y2="520" stroke="#1d1a17" stroke-width="1.5" opacity="0.6"/>
+  <line x1="600" y1="330" x2="600" y2="520" stroke="#1d1a17" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- clock face -->
+  <circle cx="570" cy="262" r="28" fill="#e8e4d6" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M558 248 L566 259 L560 266 L571 277" fill="none" stroke="#1d1a17" stroke-width="1.5"/>
+  <line x1="570" y1="262" x2="556" y2="268" stroke="#1d1a17" stroke-width="4" stroke-linecap="round"/>
+  <path d="M570 262 L584 249 Q588 245 584 241" fill="none" stroke="#1d1a17" stroke-width="3" stroke-linecap="round"/>
+  <!-- snow veiling the clock -->
+  <circle cx="576" cy="270" r="26" fill="#f4f6fb" opacity="0.45"/>
+
+  <!-- cottage glow -->
+  <circle cx="140" cy="485" r="110" fill="url(#glow)"/>
+
+  <!-- cottage -->
+  <rect x="70" y="420" width="220" height="180" fill="#8a6a55" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M56 420 L180 330 L304 420 Z" fill="#3d3a48" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M74 412 L180 336 L286 412 L270 408 L180 344 L90 408 Z" fill="#f4f6fb" stroke="#1d1a17" stroke-width="1.5"/>
+  <rect x="110" y="460" width="60" height="50" fill="#f2c46d" stroke="#1d1a17" stroke-width="3"/>
+  <line x1="140" y1="460" x2="140" y2="510" stroke="#1d1a17" stroke-width="2"/>
+  <line x1="110" y1="485" x2="170" y2="485" stroke="#1d1a17" stroke-width="2"/>
+  <rect x="210" y="500" width="40" height="100" fill="#3b2a22" stroke="#1d1a17" stroke-width="3"/>
+  <circle cx="244" cy="552" r="2.5" fill="#f2c46d"/>
+
+  <!-- ground and lane -->
+  <rect x="0" y="560" width="800" height="240" fill="#aab2c4"/>
+  <path d="M0 800 L800 800 L450 570 L350 570 Z" fill="#dfe4ee" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M0 800 L350 570 M800 800 L450 570" fill="none" stroke="#1d1a17" stroke-width="2" opacity="0.5"/>
+  <!-- cobbles -->
+  <g fill="none" stroke="#1d1a17" stroke-width="1.5" opacity="0.6">
+    <ellipse cx="380" cy="600" rx="10" ry="4"/>
+    <ellipse cx="402" cy="612" rx="12" ry="5"/>
+    <ellipse cx="360" cy="630" rx="14" ry="6"/>
+    <ellipse cx="410" cy="648" rx="16" ry="6"/>
+    <ellipse cx="350" cy="676" rx="18" ry="7"/>
+    <ellipse cx="430" cy="700" rx="20" ry="8"/>
+    <ellipse cx="310" cy="735" rx="24" ry="9"/>
+    <ellipse cx="500" cy="752" rx="26" ry="9"/>
+    <ellipse cx="160" cy="770" rx="30" ry="10"/>
+    <ellipse cx="640" cy="780" rx="32" ry="10"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="500" width="800" height="70" fill="#e9ecf4" opacity="0.35"/>
+  <rect x="0" y="545" width="800" height="40" fill="#e9ecf4" opacity="0.28"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="120" r="3" opacity="0.9"/>
+    <circle cx="180" cy="200" r="2.5" opacity="0.8"/>
+    <circle cx="260" cy="90" r="2" opacity="0.7"/>
+    <circle cx="330" cy="230" r="3.5" opacity="0.9"/>
+    <circle cx="410" cy="150" r="2" opacity="0.7"/>
+    <circle cx="470" cy="60" r="2.5" opacity="0.8"/>
+    <circle cx="700" cy="110" r="3" opacity="0.9"/>
+    <circle cx="750" cy="260" r="2" opacity="0.6"/>
+    <circle cx="640" cy="200" r="2.5" opacity="0.7"/>
+    <circle cx="520" cy="110" r="2" opacity="0.6"/>
+    <circle cx="610" cy="330" r="3" opacity="0.8"/>
+    <circle cx="500" cy="360" r="2" opacity="0.7"/>
+    <circle cx="455" cy="290" r="3" opacity="0.85"/>
+    <circle cx="380" cy="380" r="2.5" opacity="0.75"/>
+    <circle cx="300" cy="320" r="2" opacity="0.7"/>
+    <circle cx="220" cy="360" r="3" opacity="0.85"/>
+    <circle cx="40" cy="330" r="2.5" opacity="0.7"/>
+    <circle cx="120" cy="260" r="2" opacity="0.6"/>
+    <circle cx="700" cy="400" r="3" opacity="0.8"/>
+    <circle cx="760" cy="500" r="2.5" opacity="0.7"/>
+    <circle cx="60" cy="520" r="3" opacity="0.8"/>
+    <circle cx="330" cy="480" r="2" opacity="0.7"/>
+    <circle cx="470" cy="470" r="2.5" opacity="0.75"/>
+    <circle cx="560" cy="520" r="3" opacity="0.8"/>
+    <circle cx="640" cy="610" r="2.5" opacity="0.8"/>
+    <circle cx="120" cy="640" r="3" opacity="0.85"/>
+    <circle cx="250" cy="690" r="2" opacity="0.7"/>
+    <circle cx="560" cy="700" r="3" opacity="0.85"/>
+    <circle cx="700" cy="740" r="2.5" opacity="0.8"/>
+    <circle cx="90" cy="760" r="2" opacity="0.7"/>
+    <circle cx="420" cy="420" r="2" opacity="0.6"/>
+    <circle cx="180" cy="580" r="2" opacity="0.6"/>
+    <circle cx="735" cy="620" r="2" opacity="0.6"/>
+  </g>
+
+  <!-- signature "P." -->
+  <g fill="none" stroke="#f4f1ea" stroke-width="2.5" stroke-linecap="round">
+    <path d="M740 752 V772 M740 752 H748 Q755 752 755 759 Q755 766 748 766 H740"/>
+  </g>
+  <circle cx="762" cy="772" r="2.2" fill="#f4f1ea"/>
+</svg>
