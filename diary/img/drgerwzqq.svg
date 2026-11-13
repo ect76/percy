@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#e4e0d4"/>
+  <!-- sky wash -->
+  <rect x="0" y="0" width="800" height="330" fill="#c7ccd0"/>
+  <!-- distant fog banks -->
+  <ellipse cx="150" cy="210" rx="260" ry="36" fill="#f4f2ec" opacity="0.7"/>
+  <ellipse cx="640" cy="250" rx="240" ry="30" fill="#f4f2ec" opacity="0.6"/>
+  <!-- weathervane pole -->
+  <line x1="560" y1="120" x2="560" y2="420" stroke="#2a2d31" stroke-width="6" stroke-linecap="round"/>
+  <!-- vane bar -->
+  <line x1="500" y1="118" x2="630" y2="118" stroke="#2a2d31" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="560" cy="118" r="6" fill="#b89447" stroke="#2a2d31" stroke-width="2"/>
+  <!-- gull silhouette -->
+  <path d="M488 92 Q526 56 560 86 Q594 56 634 94 Q596 84 562 102 Q528 84 488 92 Z" fill="#33383d" stroke="#1d2024" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M560 86 L566 104 L556 104 Z" fill="#33383d" stroke="#1d2024" stroke-width="1.5"/>
+  <!-- weathervane foot -->
+  <rect x="546" y="410" width="28" height="14" fill="#6f6a60" stroke="#2a2d31" stroke-width="2"/>
+  <!-- fog across the vane -->
+  <ellipse cx="580" cy="150" rx="150" ry="22" fill="#f4f2ec" opacity="0.55"/>
+  <!-- stone wall -->
+  <rect x="190" y="350" width="300" height="290" fill="#8d877b" stroke="#2a2d31" stroke-width="3"/>
+  <rect x="180" y="338" width="320" height="18" fill="#aba496" stroke="#2a2d31" stroke-width="3"/>
+  <!-- stone joints -->
+  <g stroke="#5f5a50" stroke-width="2" fill="none">
+    <path d="M190 400 H490"/>
+    <path d="M190 460 H490"/>
+    <path d="M190 520 H490"/>
+    <path d="M190 580 H490"/>
+    <path d="M240 350 V400 M330 400 V460 M260 460 V520 M380 520 V580 M440 400 V460 M300 580 V640"/>
+  </g>
+  <!-- brass plaque -->
+  <rect x="250" y="425" width="180" height="120" rx="6" fill="#c9a24e" stroke="#3d2f12" stroke-width="3"/>
+  <rect x="262" y="437" width="156" height="96" rx="3" fill="none" stroke="#7a5d22" stroke-width="2"/>
+  <g fill="#8a6a2a">
+    <circle cx="262" cy="437" r="3.5"/>
+    <circle cx="418" cy="437" r="3.5"/>
+    <circle cx="262" cy="521" r="3.5"/>
+    <circle cx="418" cy="521" r="3.5"/>
+  </g>
+  <!-- engraved lines suggesting lettering -->
+  <g stroke="#5a4418" stroke-width="3" stroke-linecap="round">
+    <line x1="290" y1="458" x2="390" y2="458"/>
+    <line x1="284" y1="476" x2="396" y2="476"/>
+    <line x1="296" y1="494" x2="384" y2="494"/>
+    <line x1="290" y1="512" x2="390" y2="512"/>
+  </g>
+  <!-- small gull emblem on plaque -->
+  <path d="M312 530 Q322 522 330 530 Q338 522 348 530 Q338 527 330 534 Q322 527 312 530 Z" fill="#5a4418"/>
+  <!-- folded note under the plaque -->
+  <path d="M400 640 L430 636 L436 656 L406 660 Z" fill="#f7f4ea" stroke="#2a2d31" stroke-width="1.5"/>
+  <!-- fog over wall -->
+  <ellipse cx="340" cy="500" rx="260" ry="28" fill="#f4f2ec" opacity="0.5"/>
+  <!-- cobbles -->
+  <g fill="#9b968a" stroke="#2a2d31" stroke-width="2">
+    <ellipse cx="120" cy="700" rx="46" ry="20"/>
+    <ellipse cx="230" cy="690" rx="50" ry="22"/>
+    <ellipse cx="350" cy="708" rx="54" ry="20"/>
+    <ellipse cx="480" cy="696" rx="48" ry="21"/>
+    <ellipse cx="610" cy="710" rx="52" ry="20"/>
+    <ellipse cx="710" cy="688" rx="44" ry="18"/>
+    <ellipse cx="60" cy="760" rx="50" ry="20"/>
+    <ellipse cx="190" cy="770" rx="56" ry="22"/>
+    <ellipse cx="330" cy="758" rx="48" ry="19"/>
+    <ellipse cx="470" cy="775" rx="58" ry="22"/>
+    <ellipse cx="610" cy="758" rx="50" ry="20"/>
+    <ellipse cx="740" cy="772" rx="46" ry="19"/>
+  </g>
+  <!-- foreground fog -->
+  <ellipse cx="400" cy="650" rx="460" ry="30" fill="#f4f2ec" opacity="0.6"/>
+  <!-- signature "P." in corner -->
+  <g fill="none" stroke="#2a2d31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M734 764 V728 H746 Q756 728 756 738 Q756 748 746 748 H734"/>
+  </g>
+  <circle cx="764" cy="764" r="2.5" fill="#2a2d31"/>
+</svg>
