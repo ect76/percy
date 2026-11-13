@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Wall of the cottage -->
+  <rect x="0" y="0" width="800" height="800" fill="#e2d8c6"/>
+  <g stroke="#b9ab94" stroke-width="2" fill="none">
+    <path d="M0 90 H800 M0 210 H800 M0 330 H800 M0 450 H800 M0 570 H800 M0 690 H800"/>
+    <path d="M80 90 V210 M240 210 V330 M120 330 V450 M600 90 V210 M680 330 V450 M520 570 V690"/>
+  </g>
+
+  <!-- Outside view through the glass -->
+  <rect x="225" y="155" width="350" height="440" fill="#c9d7da"/>
+  <!-- Pale sunrise behind the fog -->
+  <circle cx="470" cy="290" r="48" fill="#f6dc94" opacity="0.7"/>
+  <!-- Distant cottage roofs -->
+  <path d="M225 290 L275 250 L320 290 Z M330 300 L380 262 L430 300 Z M560 285 L600 255 L600 300 Z" fill="#9fb1b6" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- Fog bands -->
+  <rect x="225" y="300" width="350" height="36" fill="#ffffff" opacity="0.45"/>
+  <rect x="225" y="410" width="350" height="28" fill="#ffffff" opacity="0.4"/>
+
+  <!-- The lane, converging to a vanishing point -->
+  <polygon points="225,595 575,595 432,335 368,335" fill="#8d857a" stroke="#2a2a2a" stroke-width="2"/>
+  <g fill="#6d665d">
+    <ellipse cx="300" cy="570" rx="10" ry="5"/>
+    <ellipse cx="380" cy="575" rx="10" ry="5"/>
+    <ellipse cx="480" cy="572" rx="10" ry="5"/>
+    <ellipse cx="545" cy="580" rx="10" ry="5"/>
+    <ellipse cx="340" cy="520" rx="7" ry="4"/>
+    <ellipse cx="415" cy="515" rx="7" ry="4"/>
+    <ellipse cx="470" cy="520" rx="7" ry="4"/>
+    <ellipse cx="385" cy="450" rx="5" ry="3"/>
+    <ellipse cx="438" cy="452" rx="5" ry="3"/>
+    <ellipse cx="402" cy="380" rx="3" ry="2"/>
+  </g>
+  <!-- Lane edges -->
+  <path d="M225 595 L368 335 M575 595 L432 335" stroke="#4a463f" stroke-width="2" fill="none"/>
+
+  <!-- Bent tree on the left, pushed by the wind -->
+  <path d="M285 600 C300 480 292 390 330 300" stroke="#4b3f36" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M300 430 C330 410 350 400 380 402 M305 380 C330 360 345 345 368 330 M318 330 C340 318 360 310 380 312" stroke="#4b3f36" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M340 395 C350 380 362 372 378 368 M335 350 C342 340 352 334 364 328" stroke="#6f7b5a" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Lamp post -->
+  <line x1="505" y1="600" x2="505" y2="300" stroke="#2a2a2a" stroke-width="5"/>
+  <path d="M495 300 H515 L510 286 H500 Z" fill="#f2d98a" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="505" cy="292" r="16" fill="#f7e7a8" opacity="0.5"/>
+
+  <!-- Wind streaks pushing across the glass -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M240 220 L330 205"/>
+    <path d="M260 262 L372 240"/>
+    <path d="M440 200 L560 178"/>
+    <path d="M470 440 L560 422"/>
+    <path d="M250 470 L340 455"/>
+    <path d="M430 520 L560 498"/>
+  </g>
+  <!-- Leaves blown on the gust -->
+  <g fill="#8a6d3b" stroke="#2a2a2a" stroke-width="1.5">
+    <path d="M360 240 q8 -6 16 0 q-8 6 -16 0 z"/>
+    <path d="M450 360 q8 -6 16 0 q-8 6 -16 0 z"/>
+    <path d="M540 470 q8 -6 16 0 q-8 6 -16 0 z"/>
+  </g>
+
+  <!-- Window frame and mullions -->
+  <rect x="396" y="155" width="8" height="440" fill="#7a5a3c" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="225" y="350" width="350" height="8" fill="#7a5a3c" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="200" y="130" width="400" height="490" fill="none" stroke="#2a2a2a" stroke-width="10"/>
+  <rect x="200" y="130" width="400" height="490" fill="none" stroke="#7a5a3c" stroke-width="6"/>
+
+  <!-- Curtain inside, billowing toward the glass -->
+  <path d="M232 160 C300 220 262 300 320 380 C290 440 330 520 292 596 L232 596 Z" fill="#eadfc8" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M262 200 C280 260 270 320 290 380 M276 420 C300 470 292 530 300 580" stroke="#c7b99c" stroke-width="3" fill="none"/>
+
+  <!-- Window sill with a tin of sardines and a pencil pot -->
+  <rect x="188" y="600" width="424" height="22" fill="#b89a74" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="240" y="556" width="30" height="44" fill="#5b7f5a" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="248" y1="556" x2="242" y2="530" stroke="#c9a14a" stroke-width="4"/>
+  <line x1="256" y1="556" x2="262" y2="528" stroke="#3c4a6b" stroke-width="4"/>
+  <rect x="556" y="572" width="44" height="28" fill="#3d6a8f" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="556" y="582" width="44" height="8" fill="#e8dcc2"/>
+
+  <!-- Small "P." signature in the bottom-right corner -->
+  <path d="M742 752 V728 H750 A7 7 0 0 1 750 742 H742" fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="758" cy="752" r="2.5" fill="#2a2a2a"/>
+</svg>
