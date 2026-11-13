@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- dusk sky bands -->
+  <rect x="40" y="40" width="720" height="420" fill="#56667f"/>
+  <rect x="40" y="250" width="720" height="130" fill="#7f8ea5"/>
+  <rect x="40" y="350" width="720" height="110" fill="#b7bccb"/>
+  <rect x="40" y="410" width="720" height="50" fill="#d8cdbb"/>
+
+  <!-- distant hills in fog -->
+  <path d="M40 430 Q140 395 240 425 T440 425 T640 415 T760 430 V460 H40 Z" fill="#a9b1bf" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- bell tower spire and body -->
+  <path d="M362 250 L400 150 L438 250 Z" fill="#3e4a5c" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M362 250 L400 150 L400 250 Z" fill="#dfe5ec" opacity="0.5"/>
+  <rect x="368" y="250" width="64" height="200" fill="#6b7689" stroke="#2a2a2a" stroke-width="2.5"/>
+  <rect x="368" y="250" width="64" height="16" fill="#e8edf2" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- clock face -->
+  <circle cx="400" cy="296" r="30" fill="#f7f3e8" stroke="#2a2a2a" stroke-width="2.5"/>
+  <circle cx="400" cy="296" r="24" fill="none" stroke="#8a8478" stroke-width="1"/>
+  <line x1="400" y1="296" x2="400" y2="280" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+  <!-- crooked minute hand -->
+  <polyline points="400,296 414,289 424,300" fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M388 282 L396 292 L390 300" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- belfry opening -->
+  <path d="M386 350 Q400 332 414 350 V372 H386 Z" fill="#2c3443" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M382 378 H418 M382 398 H418" stroke="#2a2a2a" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- fog bands over the far lane -->
+  <rect x="40" y="425" width="720" height="26" fill="#e9e4da" opacity="0.7"/>
+  <rect x="40" y="455" width="720" height="18" fill="#f4efe4" opacity="0.55"/>
+
+  <!-- snowy lane converging to tower -->
+  <path d="M372 440 H428 L690 800 H110 Z" fill="#eef2f5" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M110 800 L372 440 M690 800 L428 440" fill="none" stroke="#9aa6b5" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- footprints dent along the lane -->
+  <g fill="#c4ced9" stroke="#6f7c8c" stroke-width="1.5">
+    <ellipse cx="520" cy="735" rx="16" ry="9" transform="rotate(-18 520 735)"/>
+    <ellipse cx="486" cy="700" rx="14" ry="8" transform="rotate(-20 486 700)"/>
+    <ellipse cx="458" cy="670" rx="12" ry="7" transform="rotate(-22 458 670)"/>
+    <ellipse cx="438" cy="643" rx="10" ry="6" transform="rotate(-24 438 643)"/>
+    <ellipse cx="422" cy="620" rx="8" ry="5" transform="rotate(-24 422 620)"/>
+    <ellipse cx="410" cy="602" rx="6" ry="4" transform="rotate(-24 410 602)"/>
+    <ellipse cx="402" cy="588" rx="5" ry="3" transform="rotate(-24 402 588)"/>
+  </g>
+
+  <!-- cottage on the left -->
+  <rect x="70" y="520" width="190" height="130" fill="#b9826a" stroke="#2a2a2a" stroke-width="2.5"/>
+  <path d="M56 525 L165 440 L274 525 Z" fill="#4e5a6c" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M96 503 L165 450 L234 503 L220 506 L165 462 L110 506 Z" fill="#eef2f5" stroke="#2a2a2a" stroke-width="1.5"/>
+  <rect x="100" y="555" width="46" height="50" fill="#f2c96b" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M123 555 V605 M100 580 H146" stroke="#2a2a2a" stroke-width="1.5"/>
+  <rect x="190" y="560" width="30" height="40" fill="#5a4a48" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="236" y="590" width="20" height="60" fill="#8a6a5a" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- bare tree on the right -->
+  <path d="M660 470 V620" stroke="#2a2a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M660 540 L625 500 M660 510 L700 475 M660 560 L700 530 M648 490 L630 455" stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="660" cy="626" rx="40" ry="8" fill="#dfe6ec" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- low lantern glow near the cottage -->
+  <circle cx="300" cy="590" r="26" fill="#f2c96b" opacity="0.25"/>
+  <circle cx="300" cy="590" r="8" fill="#f7dc8a" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- foreground fog wisps -->
+  <path d="M0 700 Q200 680 400 700 T800 690 V800 H0 Z" fill="#f4efe4" opacity="0.35"/>
+
+  <!-- signature "P." in bottom-right corner, drawn as strokes -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M744 748 V770 M744 748 H750 Q756 748 756 754 Q756 760 750 760 H744"/>
+  </g>
+  <circle cx="764" cy="770" r="2.2" fill="#2a2a2a"/>
+</svg>
