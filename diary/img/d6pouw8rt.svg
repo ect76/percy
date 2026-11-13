@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee0"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="0" width="800" height="150" fill="#e4e4de" opacity="0.7"/>
+  <ellipse cx="180" cy="120" rx="260" ry="60" fill="#f3f2ee" opacity="0.8"/>
+  <ellipse cx="620" cy="90" rx="240" ry="50" fill="#f3f2ee" opacity="0.8"/>
+  <rect x="0" y="600" width="800" height="200" fill="#e4e4de" opacity="0.5"/>
+  <ellipse cx="400" cy="640" rx="420" ry="40" fill="#f3f2ee" opacity="0.7"/>
+
+  <!-- cobbles -->
+  <g fill="#d8d2c2" stroke="#6d665a" stroke-width="2">
+    <ellipse cx="90" cy="700" rx="40" ry="16"/>
+    <ellipse cx="170" cy="692" rx="36" ry="14"/>
+    <ellipse cx="250" cy="705" rx="42" ry="15"/>
+    <ellipse cx="340" cy="696" rx="38" ry="14"/>
+    <ellipse cx="430" cy="708" rx="44" ry="16"/>
+    <ellipse cx="520" cy="694" rx="38" ry="14"/>
+    <ellipse cx="610" cy="706" rx="42" ry="15"/>
+    <ellipse cx="700" cy="696" rx="40" ry="14"/>
+    <ellipse cx="130" cy="750" rx="44" ry="17"/>
+    <ellipse cx="230" cy="762" rx="40" ry="16"/>
+    <ellipse cx="330" cy="748" rx="42" ry="15"/>
+    <ellipse cx="440" cy="766" rx="46" ry="17"/>
+    <ellipse cx="550" cy="752" rx="40" ry="15"/>
+    <ellipse cx="660" cy="764" rx="44" ry="16"/>
+  </g>
+
+  <!-- cabinet -->
+  <g transform="translate(470,130)">
+    <rect x="0" y="0" width="260" height="280" fill="#9a6a44" stroke="#2b1e15" stroke-width="4"/>
+    <line x1="0" y1="70" x2="260" y2="70" stroke="#2b1e15" stroke-width="3"/>
+    <line x1="0" y1="140" x2="260" y2="140" stroke="#2b1e15" stroke-width="3"/>
+    <rect x="0" y="210" width="260" height="60" fill="#3b2517"/>
+    <circle cx="130" cy="35" r="6" fill="#2b1e15"/>
+    <circle cx="130" cy="105" r="6" fill="#2b1e15"/>
+    <!-- open drawer hanging out -->
+    <g transform="translate(-44,218)">
+      <rect x="0" y="0" width="230" height="52" fill="#7a4f30" stroke="#2b1e15" stroke-width="3"/>
+      <rect x="6" y="6" width="150" height="40" fill="#5a3820"/>
+      <rect x="170" y="10" width="40" height="30" fill="#8a5a3b" stroke="#2b1e15" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- tin box -->
+  <g transform="translate(110,420)">
+    <rect x="0" y="0" width="180" height="110" fill="#aeb6bd" stroke="#33393e" stroke-width="4"/>
+    <rect x="-4" y="-14" width="188" height="18" fill="#c9d0d6" stroke="#33393e" stroke-width="3"/>
+    <line x1="20" y1="40" x2="160" y2="40" stroke="#7c858c" stroke-width="2"/>
+    <line x1="20" y1="60" x2="160" y2="60" stroke="#7c858c" stroke-width="2"/>
+    <line x1="20" y1="80" x2="160" y2="80" stroke="#7c858c" stroke-width="2"/>
+  </g>
+
+  <!-- ink pad, lid missing -->
+  <g transform="translate(330,470)">
+    <rect x="0" y="0" width="120" height="60" fill="#cfc3a8" stroke="#3a2e24" stroke-width="3"/>
+    <rect x="8" y="8" width="104" height="44" fill="#5b2a6b"/>
+    <ellipse cx="60" cy="30" rx="30" ry="12" fill="#7d4a8f" opacity="0.6"/>
+  </g>
+
+  <!-- date stamp: black wooden handle, grey-brown rubber head -->
+  <g transform="translate(260,260) rotate(-18)">
+    <rect x="0" y="-12" width="120" height="24" rx="4" fill="#1d1a17"/>
+    <rect x="120" y="-18" width="50" height="36" rx="3" fill="#8f8374" stroke="#4a4138" stroke-width="3"/>
+    <rect x="128" y="-10" width="34" height="20" fill="#6e6459"/>
+  </g>
+
+  <!-- slip -->
+  <g>
+    <rect x="180" y="120" width="110" height="60" fill="#fbfaf4" stroke="#4a4138" stroke-width="2"/>
+    <line x1="194" y1="140" x2="276" y2="140" stroke="#8a8175" stroke-width="2"/>
+    <line x1="194" y1="158" x2="260" y2="158" stroke="#8a8175" stroke-width="2"/>
+  </g>
+
+  <!-- tangle of arrows -->
+  <g fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#a)">
+    <path d="M300,300 C330,380 360,420 370,465"/>
+    <path d="M328,500 Q310,470 292,480"/>
+    <path d="M290,440 C380,360 430,300 470,260"/>
+    <path d="M430,380 C400,350 380,330 370,260"/>
+    <path d="M380,200 C340,170 310,160 292,150"/>
+    <path d="M600,480 C560,520 520,500 480,540"/>
+    <path d="M140,600 C220,560 300,600 360,570"/>
+    <path d="M560,600 q40,-30 80,0"/>
+    <path d="M250,380 C240,400 230,410 210,418"/>
+  </g>
+
+  <!-- signature P. in corner -->
+  <g fill="none" stroke="#333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M744,736 V770"/>
+    <path d="M744,736 H756 Q766,736 766,745 Q766,754 756,754 H744"/>
+    <path d="M772,770 V770"/>
+    <circle cx="774" cy="769" r="1.5" fill="#333"/>
+  </g>
+</svg>
