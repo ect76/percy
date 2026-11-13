@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- back wall -->
+  <rect x="70" y="40" width="660" height="600" fill="#ecdfc8"/>
+
+  <!-- fog window in back wall -->
+  <rect x="630" y="90" width="80" height="110" fill="#c9d3d6" stroke="#2b2118" stroke-width="3"/>
+  <rect x="630" y="112" width="80" height="6" fill="#2b2118"/>
+  <rect x="630" y="150" width="80" height="50" fill="#e4eaec" opacity="0.9"/>
+  <path d="M632 128 H708 M632 168 H708 M632 186 H708" stroke="#9fb0b6" stroke-width="4" opacity="0.8"/>
+
+  <!-- chalkboard -->
+  <rect x="230" y="190" width="170" height="200" fill="#6b4a2e" stroke="#2b2118" stroke-width="3"/>
+  <rect x="244" y="204" width="142" height="172" fill="#2f3b37"/>
+  <g stroke="#e8e8e0" stroke-width="3" fill="none" opacity="0.8" stroke-linecap="round">
+    <path d="M262 240 H350"/>
+    <path d="M262 266 H330"/>
+    <path d="M262 292 Q300 280 340 294"/>
+    <path d="M262 318 H356"/>
+    <path d="M262 344 H310"/>
+  </g>
+
+  <!-- crooked clock, hung from a nail -->
+  <circle cx="540" cy="236" r="4" fill="#2b2118"/>
+  <g transform="rotate(-7 540 300)">
+    <!-- case -->
+    <circle cx="540" cy="300" r="78" fill="#8a5a33" stroke="#2b2118" stroke-width="4"/>
+    <circle cx="540" cy="300" r="66" fill="#f7f3e8" stroke="#2b2118" stroke-width="2"/>
+    <!-- ticks -->
+    <g stroke="#2b2118" stroke-width="3" stroke-linecap="round">
+      <line x1="540" y1="246" x2="540" y2="256"/>
+      <line x1="594" y1="300" x2="584" y2="300"/>
+      <line x1="540" y1="354" x2="540" y2="344"/>
+      <line x1="486" y1="300" x2="496" y2="300"/>
+      <line x1="572" y1="268" x2="566" y2="274"/>
+      <line x1="508" y1="268" x2="514" y2="274"/>
+      <line x1="572" y1="332" x2="566" y2="326"/>
+      <line x1="508" y1="332" x2="514" y2="326"/>
+    </g>
+    <!-- hands -->
+    <line x1="540" y1="300" x2="540" y2="262" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+    <line x1="540" y1="300" x2="574" y2="286" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="540" cy="300" r="5" fill="#1a1a1a"/>
+    <!-- pendulum -->
+    <line x1="540" y1="378" x2="540" y2="432" stroke="#2b2118" stroke-width="3"/>
+    <circle cx="540" cy="442" r="16" fill="#b08a4f" stroke="#2b2118" stroke-width="3"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="170" y="500" width="460" height="22" fill="#b0764a" stroke="#2b2118" stroke-width="3"/>
+  <rect x="170" y="522" width="460" height="118" fill="#7a4d2c" stroke="#2b2118" stroke-width="3"/>
+  <g stroke="#5a3520" stroke-width="2" opacity="0.6">
+    <line x1="200" y1="560" x2="600" y2="560"/>
+    <line x1="200" y1="600" x2="600" y2="600"/>
+  </g>
+
+  <!-- sugar bowl -->
+  <rect x="378" y="498" width="44" height="8" fill="#e4d6b8" stroke="#2b2118" stroke-width="2"/>
+  <path d="M352 440 Q350 500 400 504 Q450 500 448 440 Z" fill="#f2e7cf" stroke="#2b2118" stroke-width="3"/>
+  <ellipse cx="400" cy="440" rx="48" ry="11" fill="#f2e7cf" stroke="#2b2118" stroke-width="3"/>
+  <ellipse cx="400" cy="440" rx="40" ry="7" fill="#8b5e34"/>
+  <path d="M390 432 L384 440 L392 438 Z" fill="#8b5e34" opacity="0.7"/>
+  <!-- chipped rim -->
+  <path d="M440 436 L452 430 L448 440 Z" fill="#ecdfc8" stroke="#2b2118" stroke-width="2"/>
+  <path d="M352 462 Q356 472 368 476" fill="none" stroke="#c9b48c" stroke-width="2" opacity="0.7"/>
+
+  <!-- doorway jambs and lintel -->
+  <rect x="0" y="0" width="800" height="40" fill="#5a3b25" stroke="#2b2118" stroke-width="3"/>
+  <rect x="0" y="40" width="70" height="760" fill="#5a3b25" stroke="#2b2118" stroke-width="3"/>
+  <rect x="730" y="40" width="70" height="760" fill="#5a3b25" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- floor and cobbles -->
+  <rect x="70" y="640" width="660" height="160" fill="#6e6a64"/>
+  <g fill="none" stroke="#2b2118" stroke-width="2" opacity="0.5">
+    <ellipse cx="150" cy="680" rx="30" ry="14"/>
+    <ellipse cx="230" cy="700" rx="34" ry="15"/>
+    <ellipse cx="330" cy="676" rx="28" ry="12"/>
+    <ellipse cx="420" cy="712" rx="36" ry="16"/>
+    <ellipse cx="520" cy="684" rx="30" ry="13"/>
+    <ellipse cx="620" cy="716" rx="34" ry="15"/>
+    <ellipse cx="180" cy="750" rx="40" ry="16"/>
+    <ellipse cx="380" cy="768" rx="44" ry="18"/>
+    <ellipse cx="600" cy="762" rx="38" ry="16"/>
+  </g>
+
+  <!-- fog at threshold -->
+  <rect x="70" y="650" width="660" height="40" fill="#e4eaec" opacity="0.45"/>
+  <rect x="70" y="700" width="660" height="50" fill="#e4eaec" opacity="0.3"/>
+
+  <!-- signature -->
+  <text x="772" y="784" font-family="serif" font-size="20" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
