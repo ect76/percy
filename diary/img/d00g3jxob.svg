@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdb"/>
+
+  <!-- back wall -->
+  <rect x="40" y="40" width="720" height="520" fill="#e6dac1" stroke="#2a2622" stroke-width="3"/>
+
+  <!-- window and fog -->
+  <rect x="520" y="110" width="170" height="190" fill="#d6dedc" stroke="#2a2622" stroke-width="3"/>
+  <rect x="520" y="150" width="170" height="30" fill="#c5cfcd"/>
+  <ellipse cx="560" cy="170" rx="50" ry="14" fill="#eef2f1"/>
+  <ellipse cx="650" cy="142" rx="40" ry="11" fill="#eef2f1"/>
+  <rect x="520" y="230" width="170" height="70" fill="#b9bcb4"/>
+  <polygon points="540,300 670,300 690,250 520,250" fill="#9a9488"/>
+  <g fill="#7d766b">
+    <circle cx="560" cy="280" r="5"/>
+    <circle cx="590" cy="268" r="5"/>
+    <circle cx="625" cy="283" r="5"/>
+    <circle cx="655" cy="270" r="5"/>
+    <circle cx="575" cy="292" r="4"/>
+    <circle cx="640" cy="294" r="4"/>
+  </g>
+  <line x1="605" y1="110" x2="605" y2="300" stroke="#2a2622" stroke-width="3"/>
+  <line x1="520" y1="205" x2="690" y2="205" stroke="#2a2622" stroke-width="3"/>
+
+  <!-- cupboard -->
+  <rect x="70" y="160" width="170" height="200" fill="#a67c52" stroke="#2a2622" stroke-width="3"/>
+  <rect x="90" y="185" width="130" height="155" fill="#5b4632" stroke="#2a2622" stroke-width="2"/>
+  <line x1="90" y1="252" x2="220" y2="252" stroke="#2a2622" stroke-width="3"/>
+  <line x1="90" y1="322" x2="220" y2="322" stroke="#2a2622" stroke-width="3"/>
+  <!-- four sardine tins -->
+  <g stroke="#2a2622" stroke-width="2">
+    <rect x="102" y="220" width="28" height="30" fill="#c9473d"/>
+    <rect x="136" y="220" width="28" height="30" fill="#c9473d"/>
+    <rect x="102" y="290" width="28" height="30" fill="#c9473d"/>
+    <rect x="136" y="290" width="28" height="30" fill="#c9473d"/>
+  </g>
+  <g fill="#e8e0cc">
+    <rect x="106" y="228" width="20" height="10"/>
+    <rect x="140" y="228" width="20" height="10"/>
+    <rect x="106" y="298" width="20" height="10"/>
+    <rect x="140" y="298" width="20" height="10"/>
+  </g>
+  <!-- cupboard knob -->
+  <circle cx="226" cy="262" r="4" fill="#2a2622"/>
+
+  <!-- bed edge at left-hand corner -->
+  <rect x="40" y="420" width="90" height="140" fill="#8c9bb0" stroke="#2a2622" stroke-width="3"/>
+  <rect x="40" y="420" width="30" height="140" fill="#e9e3d3" stroke="#2a2622" stroke-width="3"/>
+
+  <!-- floor -->
+  <rect x="0" y="560" width="800" height="240" fill="#bfa888" stroke="#2a2622" stroke-width="3"/>
+  <g stroke="#2a2622" stroke-width="2" opacity="0.6">
+    <line x1="0" y1="620" x2="800" y2="620"/>
+    <line x1="0" y1="690" x2="800" y2="690"/>
+    <line x1="0" y1="750" x2="800" y2="750"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="280" y="400" width="180" height="40" fill="#fbf8ee" stroke="#2a2622" stroke-width="2"/>
+  <line x1="290" y1="412" x2="450" y2="412" stroke="#9a9488" stroke-width="2"/>
+  <line x1="290" y1="425" x2="440" y2="425" stroke="#9a9488" stroke-width="2"/>
+  <rect x="250" y="440" width="430" height="26" fill="#8b6544" stroke="#2a2622" stroke-width="3"/>
+  <rect x="270" y="466" width="14" height="224" fill="#6e4f35" stroke="#2a2622" stroke-width="3"/>
+  <rect x="656" y="466" width="14" height="224" fill="#6e4f35" stroke="#2a2622" stroke-width="3"/>
+
+  <!-- old computer -->
+  <rect x="560" y="300" width="110" height="95" rx="6" fill="#6e6a63" stroke="#2a2622" stroke-width="3"/>
+  <rect x="572" y="312" width="86" height="70" fill="#b7c9b0" stroke="#2a2622" stroke-width="2"/>
+  <rect x="603" y="395" width="26" height="42" fill="#55514b" stroke="#2a2622" stroke-width="2"/>
+  <rect x="583" y="434" width="66" height="8" fill="#55514b" stroke="#2a2622" stroke-width="2"/>
+
+  <!-- pencils -->
+  <g stroke="#2a2622" stroke-width="2">
+    <g transform="translate(470 452) rotate(-8)">
+      <rect x="0" y="0" width="80" height="8" fill="#e8b64a"/>
+      <polygon points="80,0 90,4 80,8" fill="#e9d7b5"/>
+    </g>
+    <g transform="translate(478 462) rotate(4)">
+      <rect x="0" y="0" width="76" height="8" fill="#d9a23a"/>
+      <polygon points="76,0 86,4 76,8" fill="#e9d7b5"/>
+    </g>
+  </g>
+
+  <!-- fish laid out on the paper -->
+  <polygon points="450,420 492,398 492,442" fill="#8fb3c4" stroke="#2a2622" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="368" cy="420" rx="86" ry="27" fill="#8fb3c4" stroke="#2a2622" stroke-width="3"/>
+  <path d="M330 398 Q360 380 395 398" fill="#c9dde6" stroke="#2a2622" stroke-width="2"/>
+  <path d="M330 442 Q362 460 396 442" fill="#c9dde6" stroke="#2a2622" stroke-width="2"/>
+  <path d="M322 402 Q328 420 322 438" fill="none" stroke="#2a2622" stroke-width="2.5"/>
+  <path d="M400 398 L420 420 L400 442" fill="none" stroke="#2a2622" stroke-width="2"/>
+  <path d="M440 404 L444 436" fill="none" stroke="#2a2622" stroke-width="2"/>
+  <path d="M352 380 L364 396" fill="none" stroke="#2a2622" stroke-width="2"/>
+  <path d="M400 385 L410 400" fill="none" stroke="#2a2622" stroke-width="2"/>
+  <circle cx="306" cy="414" r="5" fill="#2a2622"/>
+  <circle cx="305" cy="413" r="1.5" fill="#f3ecdb"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2622" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M700 752 V774"/>
+    <path d="M700 752 H708 Q716 752 716 759 Q716 766 708 766 H700"/>
+    <path d="M724 774 V770"/>
+  </g>
+</svg>
