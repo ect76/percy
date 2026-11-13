@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+
+  <!-- Fog sky -->
+  <rect x="0" y="0" width="800" height="340" fill="#dfe5e7"/>
+  <ellipse cx="180" cy="120" rx="230" ry="26" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="620" cy="90" rx="260" ry="30" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="400" cy="260" rx="360" ry="22" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Distant cottages in fog -->
+  <rect x="262" y="262" width="60" height="70" fill="#b9bfc4" opacity="0.7"/>
+  <polygon points="256,262 292,236 328,262" fill="#9ea6ad" opacity="0.7"/>
+  <rect x="478" y="268" width="56" height="64" fill="#b9bfc4" opacity="0.7"/>
+  <polygon points="472,268 506,242 540,268" fill="#9ea6ad" opacity="0.7"/>
+
+  <!-- Bell tower at end of lane -->
+  <rect x="380" y="170" width="40" height="170" fill="#8a7d70" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="372" y="140" width="56" height="34" fill="#6d6259" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="386" y="146" width="28" height="18" fill="#2b2f36"/>
+  <polygon points="370,140 400,92 430,140" fill="#4f4740" stroke="#2b2f36" stroke-width="2"/>
+  <circle cx="400" cy="200" r="17" fill="#ffffff" stroke="#2b2f36" stroke-width="2"/>
+  <line x1="400" y1="200" x2="404" y2="185" stroke="#2b2f36" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="400" y1="200" x2="389" y2="202" stroke="#2b2f36" stroke-width="3" stroke-linecap="round"/>
+  <path d="M392 189 L396 196 L393 204" fill="none" stroke="#2b2f36" stroke-width="1"/>
+  <rect x="392" y="262" width="16" height="30" fill="#3a3430"/>
+
+  <!-- Snowy lane -->
+  <polygon points="372,340 428,340 760,520 40,520" fill="#fbfcfd" stroke="#2b2f36" stroke-width="2"/>
+  <g stroke="#9aa3ab" stroke-width="1.5" fill="none">
+    <path d="M330 380 L300 400 L260 430"/>
+    <path d="M470 380 L500 400 L540 430"/>
+    <path d="M360 420 L330 450 L290 490"/>
+    <path d="M440 420 L470 450 L510 490"/>
+    <path d="M400 360 L400 380"/>
+  </g>
+  <g fill="#c7ced3">
+    <ellipse cx="300" cy="470" rx="14" ry="5"/>
+    <ellipse cx="520" cy="455" rx="12" ry="4"/>
+    <ellipse cx="400" cy="500" rx="18" ry="6"/>
+  </g>
+
+  <!-- Left cottage -->
+  <rect x="60" y="300" width="150" height="220" fill="#c9b8a0" stroke="#2b2f36" stroke-width="2"/>
+  <polygon points="50,300 135,230 220,300" fill="#6d5a4c" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="82" y="340" width="34" height="40" fill="#f2c46d" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="150" y="340" width="34" height="40" fill="#f2c46d" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="112" y="430" width="36" height="90" fill="#7a5a44" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="180" y="250" width="14" height="30" fill="#8a7d70" stroke="#2b2f36" stroke-width="1.5"/>
+
+  <!-- Right cottage -->
+  <rect x="590" y="300" width="150" height="220" fill="#b9a890" stroke="#2b2f36" stroke-width="2"/>
+  <polygon points="580,300 665,230 750,300" fill="#5a4a40" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="612" y="340" width="34" height="40" fill="#f2c46d" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="680" y="340" width="34" height="40" fill="#f2c46d" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="642" y="430" width="36" height="90" fill="#7a5a44" stroke="#2b2f36" stroke-width="2"/>
+
+  <!-- Bare branches in fog -->
+  <g stroke="#2b2f36" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M250 300 L240 250 L225 220"/>
+    <path d="M240 250 L256 232"/>
+    <path d="M555 300 L565 258 L580 232"/>
+    <path d="M565 258 L548 240"/>
+  </g>
+
+  <!-- Snowflakes -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="110" cy="200" r="3"/>
+    <circle cx="180" cy="160" r="2.5"/>
+    <circle cx="300" cy="120" r="3"/>
+    <circle cx="500" cy="150" r="2.5"/>
+    <circle cx="660" cy="180" r="3"/>
+    <circle cx="720" cy="110" r="2.5"/>
+    <circle cx="450" cy="90" r="2"/>
+    <circle cx="90" cy="110" r="2"/>
+  </g>
+
+  <!-- Lantern Café inset -->
+  <rect x="120" y="560" width="560" height="200" fill="#efe5d2" stroke="#2b2f36" stroke-width="3"/>
+  <rect x="120" y="560" width="560" height="200" fill="none" stroke="#6d5a4c" stroke-width="1" opacity="0.5" transform="translate(8 8)"/>
+
+  <!-- Nail and crooked clock -->
+  <circle cx="400" cy="590" r="3" fill="#2b2f36"/>
+  <g transform="translate(400 630) rotate(-6)">
+    <line x1="0" y1="-40" x2="0" y2="-34" stroke="#2b2f36" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="34" fill="#7a5230" stroke="#2b2f36" stroke-width="2"/>
+    <circle cx="0" cy="0" r="27" fill="#ffffff" stroke="#2b2f36" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#2b2f36" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="4" stroke="#2b2f36" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="2.5" fill="#2b2f36"/>
+  </g>
+
+  <!-- Bare counter -->
+  <rect x="140" y="668" width="520" height="14" fill="#b98a62" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="150" y="682" width="500" height="36" fill="#9c7150" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="160" y="718" width="22" height="42" fill="#7a5a44" stroke="#2b2f36" stroke-width="2"/>
+  <rect x="618" y="718" width="22" height="42" fill="#7a5a44" stroke="#2b2f36" stroke-width="2"/>
+  <g stroke="#6d5a4c" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M190 696 L610 696"/>
+    <path d="M220 706 L580 706"/>
+  </g>
+
+  <!-- Signature P. -->
+  <path d="M742 752 V780 M742 752 H754 A7 7 0 0 1 754 766 H742" fill="none" stroke="#2b2f36" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="762" cy="780" r="2" fill="#2b2f36"/>
+</svg>
