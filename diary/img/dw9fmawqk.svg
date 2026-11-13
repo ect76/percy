@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="cobbles" x="0" y="0" width="56" height="34" patternUnits="userSpaceOnUse">
+      <rect width="56" height="34" fill="#8d8478"/>
+      <ellipse cx="14" cy="9" rx="11" ry="6" fill="#a39a8c" stroke="#3b3630" stroke-width="1.5"/>
+      <ellipse cx="42" cy="9" rx="11" ry="6" fill="#968d80" stroke="#3b3630" stroke-width="1.5"/>
+      <ellipse cx="0" cy="26" rx="11" ry="6" fill="#968d80" stroke="#3b3630" stroke-width="1.5"/>
+      <ellipse cx="28" cy="26" rx="11" ry="6" fill="#a39a8c" stroke="#3b3630" stroke-width="1.5"/>
+      <ellipse cx="56" cy="26" rx="11" ry="6" fill="#a39a8c" stroke="#3b3630" stroke-width="1.5"/>
+    </pattern>
+    <clipPath id="lane">
+      <polygon points="0,640 800,640 800,800 0,800"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect width="800" height="800" fill="#e9e4d6"/>
+  <rect x="0" y="0" width="800" height="250" fill="#d6dbdc"/>
+
+  <!-- distant fog hills -->
+  <path d="M0 360 Q120 320 240 350 T480 340 T800 355 L800 420 L0 420 Z" fill="#bfc6c6"/>
+  <path d="M0 395 Q160 365 320 392 T640 385 T800 395 L800 430 L0 430 Z" fill="#aab3b4"/>
+
+  <!-- cottage shadow and body -->
+  <rect x="190" y="440" width="320" height="200" fill="#f1ead8" stroke="#2e2a24" stroke-width="3"/>
+  <!-- roof -->
+  <polygon points="160,446 350,290 540,446 520,452 350,312 180,452" fill="#5d6366" stroke="#2e2a24" stroke-width="3"/>
+  <polygon points="350,290 540,446 520,452 350,312" fill="#4a5154"/>
+  <!-- eaves and chimney -->
+  <rect x="420" y="312" width="30" height="66" fill="#8a6f5c" stroke="#2e2a24" stroke-width="2.5"/>
+
+  <!-- timber frame -->
+  <g stroke="#3a2a1e" stroke-width="10" fill="none" stroke-linecap="square">
+    <line x1="190" y1="440" x2="190" y2="640"/>
+    <line x1="510" y1="440" x2="510" y2="640"/>
+    <line x1="190" y1="440" x2="510" y2="440"/>
+    <line x1="190" y1="540" x2="510" y2="540"/>
+    <line x1="350" y1="312" x2="350" y2="440"/>
+    <line x1="190" y1="440" x2="260" y2="540"/>
+    <line x1="510" y1="440" x2="440" y2="540"/>
+  </g>
+  <g stroke="#3a2a1e" stroke-width="6" fill="none">
+    <line x1="190" y1="440" x2="350" y2="312"/>
+    <line x1="510" y1="440" x2="350" y2="312"/>
+  </g>
+
+  <!-- windows -->
+  <rect x="220" y="462" width="72" height="56" fill="#f4d98a" stroke="#2e2a24" stroke-width="3"/>
+  <rect x="408" y="462" width="72" height="56" fill="#f4d98a" stroke="#2e2a24" stroke-width="3"/>
+  <g stroke="#3a2a1e" stroke-width="4">
+    <line x1="256" y1="462" x2="256" y2="518"/>
+    <line x1="220" y1="490" x2="292" y2="490"/>
+    <line x1="444" y1="462" x2="444" y2="518"/>
+    <line x1="408" y1="490" x2="480" y2="490"/>
+  </g>
+  <!-- window sills -->
+  <rect x="212" y="518" width="88" height="6" fill="#3a2a1e"/>
+  <rect x="400" y="518" width="88" height="6" fill="#3a2a1e"/>
+
+  <!-- door -->
+  <rect x="320" y="545" width="60" height="95" fill="#2f4a3a" stroke="#2e2a24" stroke-width="3"/>
+  <!-- painted-over brass plate -->
+  <rect x="334" y="580" width="32" height="20" rx="3" fill="#b09a5c" stroke="#2e2a24" stroke-width="1.5"/>
+  <rect x="335" y="581" width="30" height="18" rx="2" fill="#8f9088" opacity="0.85"/>
+  <path d="M340 586 L358 586 M340 592 L352 592" stroke="#5f6058" stroke-width="1" opacity="0.6"/>
+  <circle cx="370" cy="622" r="2.5" fill="#c9b78a"/>
+
+  <!-- step -->
+  <rect x="312" y="640" width="76" height="8" fill="#9c958a" stroke="#2e2a24" stroke-width="2"/>
+
+  <!-- lane -->
+  <g clip-path="url(#lane)">
+    <rect x="0" y="640" width="800" height="160" fill="url(#cobbles)"/>
+  </g>
+  <polygon points="0,640 800,640 800,800 0,800" fill="none"/>
+  <line x1="0" y1="648" x2="800" y2="648" stroke="#2e2a24" stroke-width="3"/>
+
+  <!-- lane edge kerb converging toward cottage -->
+  <path d="M0 640 L300 640 L120 800 L0 800 Z" fill="none"/>
+
+  <!-- low wall on left of lane -->
+  <rect x="0" y="600" width="120" height="42" fill="#c9c1ae" stroke="#2e2a24" stroke-width="2.5"/>
+  <g stroke="#7d7566" stroke-width="1.5">
+    <line x1="0" y1="615" x2="120" y2="615"/>
+    <line x1="30" y1="600" x2="30" y2="615"/>
+    <line x1="75" y1="615" x2="75" y2="642"/>
+  </g>
+
+  <!-- fog layers over the lane and cottage -->
+  <rect x="0" y="600" width="800" height="36" fill="#e9e4d6" opacity="0.35"/>
+  <rect x="0" y="690" width="800" height="50" fill="#e9e4d6" opacity="0.4"/>
+  <rect x="0" y="252" width="800" height="48" fill="#e9e4d6" opacity="0.5"/>
+  <rect x="0" y="340" width="800" height="26" fill="#e9e4d6" opacity="0.45"/>
+
+  <!-- signature P. in corner -->
+  <g fill="none" stroke="#2e2a24" stroke-width="3" stroke-linecap="round">
+    <path d="M748 752 L748 782 M748 752 L762 752 Q772 752 772 762 Q772 772 762 772 L748 772"/>
+    <path d="M780 782 L780 782" />
+  </g>
+  <circle cx="782" cy="782" r="2" fill="#2e2a24"/>
+</svg>
