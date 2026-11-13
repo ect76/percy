@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" width="800" height="800">
+  <!-- paper ground -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="520" fill="#e4dccb"/>
+  <!-- wall stains -->
+  <ellipse cx="640" cy="120" rx="90" ry="60" fill="#d8ceb8" opacity="0.6"/>
+  <ellipse cx="90" cy="330" rx="60" ry="40" fill="#d8ceb8" opacity="0.5"/>
+  <!-- floor -->
+  <rect x="0" y="600" width="800" height="200" fill="#cbbfa6"/>
+  <g fill="none" stroke="#7d705c" stroke-width="1.5" opacity="0.6">
+    <path d="M0 640 Q120 630 240 650 T480 648 T800 645"/>
+    <path d="M0 700 Q140 690 280 712 T560 708 T800 705"/>
+    <path d="M0 760 Q160 752 320 770 T640 766 T800 762"/>
+  </g>
+
+  <!-- ticket roll bracket and roll -->
+  <rect x="120" y="128" width="130" height="8" fill="#5b3a22" stroke="#2b2118" stroke-width="2"/>
+  <circle cx="190" cy="170" r="38" fill="#a9cbe6" stroke="#2b2118" stroke-width="2.5"/>
+  <g fill="none" stroke="#6d93b5" stroke-width="1.2">
+    <circle cx="190" cy="170" r="30"/>
+    <circle cx="190" cy="170" r="22"/>
+    <circle cx="190" cy="170" r="14"/>
+  </g>
+  <circle cx="190" cy="170" r="6" fill="#5b3a22" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- hanging tickets -->
+  <rect x="140" y="200" width="100" height="140" fill="#b9d7ee" stroke="#2b2118" stroke-width="2"/>
+  <rect x="140" y="300" width="100" height="140" fill="#a9cbe6" stroke="#2b2118" stroke-width="2"/>
+  <!-- perforations on left edge -->
+  <g fill="#efe9dc">
+    <circle cx="140" cy="210" r="2.5"/><circle cx="140" cy="222" r="2.5"/><circle cx="140" cy="234" r="2.5"/>
+    <circle cx="140" cy="246" r="2.5"/><circle cx="140" cy="258" r="2.5"/><circle cx="140" cy="270" r="2.5"/>
+    <circle cx="140" cy="282" r="2.5"/><circle cx="140" cy="294" r="2.5"/><circle cx="140" cy="306" r="2.5"/>
+    <circle cx="140" cy="318" r="2.5"/><circle cx="140" cy="330" r="2.5"/><circle cx="140" cy="342" r="2.5"/>
+    <circle cx="140" cy="354" r="2.5"/><circle cx="140" cy="366" r="2.5"/><circle cx="140" cy="378" r="2.5"/>
+    <circle cx="140" cy="390" r="2.5"/><circle cx="140" cy="402" r="2.5"/><circle cx="140" cy="414" r="2.5"/>
+    <circle cx="140" cy="426" r="2.5"/>
+  </g>
+  <!-- perforations on right edge -->
+  <g fill="#efe9dc">
+    <circle cx="240" cy="210" r="2.5"/><circle cx="240" cy="222" r="2.5"/><circle cx="240" cy="234" r="2.5"/>
+    <circle cx="240" cy="246" r="2.5"/><circle cx="240" cy="258" r="2.5"/><circle cx="240" cy="270" r="2.5"/>
+    <circle cx="240" cy="282" r="2.5"/><circle cx="240" cy="294" r="2.5"/><circle cx="240" cy="306" r="2.5"/>
+    <circle cx="240" cy="318" r="2.5"/><circle cx="240" cy="330" r="2.5"/><circle cx="240" cy="342" r="2.5"/>
+    <circle cx="240" cy="354" r="2.5"/><circle cx="240" cy="366" r="2.5"/><circle cx="240" cy="378" r="2.5"/>
+    <circle cx="240" cy="390" r="2.5"/><circle cx="240" cy="402" r="2.5"/><circle cx="240" cy="414" r="2.5"/>
+    <circle cx="240" cy="426" r="2.5"/>
+  </g>
+  <!-- ticket text -->
+  <g font-family="serif" fill="#2b2118" text-anchor="middle">
+    <text x="190" y="226" font-size="11" font-weight="bold">RAFFLE 50p.</text>
+    <text x="190" y="246" font-size="8">Numbered 001 to 200.</text>
+    <text x="190" y="260" font-size="8">Draw at Summer Fete.</text>
+    <text x="190" y="318" font-size="26" font-weight="bold">001</text>
+    <text x="190" y="416" font-size="8" opacity="0.7">RAFFLE 50p.</text>
+  </g>
+  <line x1="150" y1="380" x2="230" y2="380" stroke="#6d93b5" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- fog bands -->
+  <g fill="#ffffff" opacity="0.45">
+    <ellipse cx="400" cy="360" rx="330" ry="26"/>
+    <ellipse cx="300" cy="520" rx="380" ry="22"/>
+    <ellipse cx="520" cy="600" rx="340" ry="20"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="150" y="500" width="500" height="150" fill="#8a5a32" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="140" y="466" width="520" height="36" fill="#a06d3e" stroke="#2b2118" stroke-width="2.5"/>
+  <!-- worn pale patch where hands rest -->
+  <ellipse cx="330" cy="486" rx="110" ry="14" fill="#c9a57a" opacity="0.8"/>
+  <ellipse cx="330" cy="486" rx="60" ry="8" fill="#d9bb92" opacity="0.8"/>
+
+  <!-- drawer beneath -->
+  <rect x="250" y="525" width="300" height="60" fill="#7a4e2b" stroke="#2b2118" stroke-width="2"/>
+  <line x1="250" y1="555" x2="550" y2="555" stroke="#2b2118" stroke-width="1" opacity="0.5"/>
+  <rect x="380" y="538" width="40" height="7" rx="3" fill="#c9a227" stroke="#5a4310" stroke-width="1.2"/>
+
+  <!-- guestbook -->
+  <rect x="290" y="468" width="222" height="12" fill="#5b3a22" stroke="#2b2118" stroke-width="1.5"/>
+  <path d="M300 445 L398 437 L398 478 L300 478 Z" fill="#fbf7ec" stroke="#2b2118" stroke-width="1.8"/>
+  <path d="M402 437 L500 445 L500 478 L402 478 Z" fill="#fbf7ec" stroke="#2b2118" stroke-width="1.8"/>
+  <line x1="400" y1="437" x2="400" y2="478" stroke="#2b2118" stroke-width="1.5"/>
+  <!-- entry text on left page -->
+  <g font-family="serif" fill="#2b2118" font-size="7.5">
+    <text x="309" y="451">Please sign in and</text>
+    <text x="309" y="461">tell us where you</text>
+    <text x="309" y="471">have travelled from.</text>
+  </g>
+  <!-- blank signing lines on right page -->
+  <g stroke="#6d6252" stroke-width="0.8">
+    <line x1="412" y1="452" x2="490" y2="454"/>
+    <line x1="412" y1="461" x2="490" y2="463"/>
+    <line x1="412" y1="470" x2="490" y2="472"/>
+  </g>
+  <!-- a signature scribble -->
+  <path d="M414 450 Q430 444 436 452 T452 448 T470 450" fill="none" stroke="#3a3a6a" stroke-width="1"/>
+
+  <!-- brass bell -->
+  <path d="M540 468 Q540 436 560 434 Q580 436 580 468 Z" fill="#c9a227" stroke="#5a4310" stroke-width="2"/>
+  <rect x="535" y="466" width="50" height="7" fill="#b08d1f" stroke="#5a4310" stroke-width="1.5"/>
+  <circle cx="560" cy="430" r="4" fill="#c9a227" stroke="#5a4310" stroke-width="1.5"/>
+  <path d="M548 446 Q552 440 558 439" fill="none" stroke="#f5e7a8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- signature mark -->
+  <text x="770" y="782" font-family="serif" font-size="16" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
