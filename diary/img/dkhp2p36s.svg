@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4f1e8"/>
+
+  <!-- distant fog and village silhouettes -->
+  <g fill="#c9d3d8" stroke="#2a2a2a" stroke-width="2" stroke-linejoin="round">
+    <path d="M60 330 L60 280 L100 250 L140 280 L140 330 Z"/>
+    <path d="M150 335 L150 290 L185 262 L220 290 L220 335 Z"/>
+    <path d="M600 320 L600 270 L640 240 L680 270 L680 320 Z"/>
+    <path d="M690 325 L690 292 L725 268 L760 292 L760 325 Z"/>
+  </g>
+  <rect x="0" y="200" width="800" height="60" fill="#e4e9ea" opacity="0.8"/>
+  <rect x="0" y="340" width="800" height="50" fill="#e4e9ea" opacity="0.7"/>
+
+  <!-- snowy green -->
+  <path d="M0 430 Q200 410 400 425 T800 420 L800 800 L0 800 Z" fill="#f7f9f9" stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#7f9a72" stroke="#2a2a2a" stroke-width="1.5">
+    <path d="M40 470 l8 -14 l8 14 Z"/>
+    <path d="M720 470 l7 -12 l7 12 Z"/>
+    <path d="M90 520 l6 -10 l6 10 Z"/>
+    <path d="M700 540 l8 -14 l8 14 Z"/>
+  </g>
+
+  <!-- cobbled path, left foreground -->
+  <g fill="#d9d4c7" stroke="#2a2a2a" stroke-width="2">
+    <ellipse cx="120" cy="720" rx="22" ry="9"/>
+    <ellipse cx="160" cy="735" rx="24" ry="10"/>
+    <ellipse cx="205" cy="722" rx="20" ry="8"/>
+    <ellipse cx="95" cy="752" rx="20" ry="8"/>
+    <ellipse cx="150" cy="770" rx="26" ry="10"/>
+    <ellipse cx="220" cy="760" rx="22" ry="9"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="560" cy="615" rx="170" ry="70" fill="#2a2a2a"/>
+  <ellipse cx="560" cy="612" rx="162" ry="64" fill="#8fb3bf" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="520" cy="600" rx="70" ry="18" fill="#dfeef2" opacity="0.9"/>
+  <ellipse cx="620" cy="630" rx="45" ry="10" fill="#dfeef2" opacity="0.8"/>
+  <path d="M430 612 q20 -8 40 0 M660 598 q18 -6 36 0" fill="none" stroke="#4f7483" stroke-width="2"/>
+  <!-- snow rim on pond -->
+  <path d="M410 600 Q420 556 480 548 Q560 536 640 548 Q705 560 718 600" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- bare tree behind sign -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="4" stroke-linecap="round">
+    <path d="M90 470 L92 330"/>
+    <path d="M92 380 L60 340 M92 360 L122 322 M92 340 L80 300"/>
+  </g>
+
+  <!-- sign posts -->
+  <rect x="236" y="400" width="18" height="250" fill="#6b4a2e" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="356" y="400" width="18" height="250" fill="#6b4a2e" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M232 402 L258 396 L258 412 L232 416 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M352 402 L378 396 L378 412 L352 416 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- sign board -->
+  <rect x="196" y="328" width="206" height="90" rx="8" fill="#3f5e4a" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="212" y="344" width="174" height="58" rx="4" fill="#efe7cf" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- brook wave motif -->
+  <path d="M224 376 q12 -12 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0" fill="none" stroke="#4f7483" stroke-width="4" stroke-linecap="round"/>
+  <path d="M224 390 q12 -10 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0" fill="none" stroke="#7f9a72" stroke-width="3" stroke-linecap="round"/>
+  <!-- moss dots -->
+  <g fill="#7f9a72" stroke="#2a2a2a" stroke-width="1">
+    <circle cx="228" cy="358" r="4"/>
+    <circle cx="246" cy="354" r="3"/>
+    <circle cx="368" cy="356" r="4"/>
+    <circle cx="380" cy="360" r="3"/>
+  </g>
+  <!-- snow on sign top -->
+  <path d="M196 330 Q230 314 262 326 Q300 312 340 326 Q372 316 402 330 L402 336 L196 336 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#8a9aa0" stroke-width="1">
+    <circle cx="140" cy="150" r="3"/>
+    <circle cx="300" cy="120" r="2.5"/>
+    <circle cx="470" cy="170" r="3"/>
+    <circle cx="650" cy="110" r="2.5"/>
+    <circle cx="720" cy="200" r="3"/>
+    <circle cx="520" cy="250" r="2"/>
+    <circle cx="200" cy="260" r="2.5"/>
+    <circle cx="410" cy="300" r="2"/>
+    <circle cx="770" cy="360" r="2.5"/>
+    <circle cx="40" cy="400" r="2"/>
+  </g>
+
+  <!-- signature: small P. -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M740 740 V768 M740 740 H750 Q758 740 758 748 Q758 756 750 756 H740"/>
+  </g>
+  <circle cx="767" cy="768" r="2.5" fill="#2a2a2a"/>
+</svg>
