@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceae4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#eceae4" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#eceae4" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="cob" width="28" height="16" patternUnits="userSpaceOnUse">
+      <rect width="28" height="16" fill="#8a7f72"/>
+      <path d="M0 8H28M14 0V8M7 8V16M21 8V16" stroke="#5e554c" stroke-width="1.5" fill="none"/>
+    </pattern>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect width="800" height="800" fill="#f4f1ea"/>
+  <rect x="0" y="0" width="800" height="420" fill="#dfe4e5"/>
+
+  <!-- bell tower at the end of the lane -->
+  <g stroke="#2a2622" stroke-width="2" stroke-linejoin="round">
+    <rect x="368" y="150" width="64" height="192" fill="#bdb6a6"/>
+    <rect x="368" y="128" width="10" height="24" fill="#bdb6a6"/>
+    <rect x="381" y="128" width="10" height="24" fill="#bdb6a6"/>
+    <rect x="394" y="128" width="10" height="24" fill="#bdb6a6"/>
+    <rect x="407" y="128" width="10" height="24" fill="#bdb6a6"/>
+    <rect x="420" y="128" width="10" height="24" fill="#bdb6a6"/>
+    <circle cx="400" cy="218" r="22" fill="#f3eee2"/>
+    <path d="M400 218V202M400 218L412 224" fill="none" stroke-linecap="round"/>
+    <path d="M390 188V172A10 10 0 0 1 410 172V188Z" fill="#3a332e"/>
+  </g>
+  <rect x="366" y="124" width="68" height="5" fill="#ffffff"/>
+
+  <!-- bare trees -->
+  <g stroke="#2a2622" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M160 470Q166 360 176 260"/>
+    <path d="M172 340L140 300M170 300L200 258M176 260L186 210"/>
+    <path d="M640 470Q634 360 624 260"/>
+    <path d="M628 340L660 300M630 300L600 258M624 260L614 210"/>
+  </g>
+
+  <!-- far cottages -->
+  <g stroke="#2a2622" stroke-width="2" stroke-linejoin="round">
+    <polygon points="230,392 330,372 330,458 230,548" fill="#c4bbab"/>
+    <polygon points="230,384 330,364 330,376 230,400" fill="#4f4540"/>
+    <polygon points="260,440 290,430 290,452 260,462" fill="#5a4e46"/>
+    <polygon points="570,392 470,372 470,458 570,548" fill="#c4bbab"/>
+    <polygon points="570,384 470,364 470,376 570,400" fill="#4f4540"/>
+    <polygon points="540,440 510,430 510,452 540,462" fill="#5a4e46"/>
+  </g>
+
+  <!-- mid cottages -->
+  <g stroke="#2a2622" stroke-width="2" stroke-linejoin="round">
+    <polygon points="120,360 230,392 230,548 120,640" fill="#cfc6b5"/>
+    <polygon points="120,352 230,384 230,400 120,368" fill="#5f534c"/>
+    <polygon points="150,440 185,452 185,478 150,468" fill="#5a4e46"/>
+    <polygon points="680,360 570,392 570,548 680,640" fill="#cfc6b5"/>
+    <polygon points="680,352 570,384 570,400 680,368" fill="#5f534c"/>
+    <polygon points="650,440 615,452 615,478 650,468" fill="#5a4e46"/>
+  </g>
+  <g fill="#ffffff">
+    <polygon points="120,352 230,384 230,390 120,358"/>
+    <polygon points="680,352 570,384 570,390 680,358"/>
+  </g>
+
+  <!-- the lane -->
+  <polygon points="0,800 800,800 430,340 370,340" fill="url(#cob)" stroke="#2a2622" stroke-width="2"/>
+  <path d="M0 800 L370 340 M800 800 L430 340" fill="none" stroke="#2a2622" stroke-width="2"/>
+  <polygon points="0,800 800,800 470,392 330,392" fill="#ffffff" fill-opacity="0.6"/>
+
+  <!-- near cottages -->
+  <g stroke="#2a2622" stroke-width="2" stroke-linejoin="round">
+    <polygon points="0,300 120,360 120,640 0,760" fill="#d8cfc0"/>
+    <polygon points="0,250 124,326 124,352 0,276" fill="#6d5f58"/>
+    <polygon points="30,420 70,436 70,472 30,456" fill="#5a4e46"/>
+    <polygon points="60,540 100,556 100,640 60,622" fill="#4a3f38"/>
+    <polygon points="800,300 680,360 680,640 800,760" fill="#d2c9b8"/>
+    <polygon points="800,250 676,326 676,352 800,276" fill="#6d5f58"/>
+    <polygon points="770,420 730,436 730,472 770,456" fill="#5a4e46"/>
+    <polygon points="740,540 700,556 700,640 740,622" fill="#4a3f38"/>
+  </g>
+  <g fill="#ffffff">
+    <polygon points="0,250 124,326 124,334 0,258"/>
+    <polygon points="800,250 676,326 676,334 800,258"/>
+  </g>
+
+  <!-- drifting fog softens the far end -->
+  <rect x="0" y="200" width="800" height="300" fill="url(#fog)"/>
+  <rect x="0" y="330" width="800" height="60" fill="#eceae4" fill-opacity="0.55"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#9aa3a8" stroke-width="0.8">
+    <circle cx="90" cy="150" r="2.5"/>
+    <circle cx="210" cy="620" r="3"/>
+    <circle cx="300" cy="180" r="2"/>
+    <circle cx="520" cy="130" r="2.5"/>
+    <circle cx="610" cy="560" r="3"/>
+    <circle cx="700" cy="220" r="2"/>
+    <circle cx="420" cy="700" r="3"/>
+    <circle cx="150" cy="720" r="2.5"/>
+  </g>
+
+  <!-- signature -->
+  <path d="M758 764V740H768A6 6 0 0 1 768 752H758" fill="none" stroke="#2a2622" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="776" cy="764" r="1.5" fill="#2a2622"/>
+</svg>
