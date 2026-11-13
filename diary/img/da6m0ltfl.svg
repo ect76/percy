@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2433"/>
+      <stop offset="0.6" stop-color="#3a4256"/>
+      <stop offset="1" stop-color="#6b6a6c"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e6e0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e8e6e0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e8e6e0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#sky)"/>
+
+  <!-- distant bell tower at the end of the lane -->
+  <polygon points="358,240 400,118 442,240" fill="#4b4f5c" stroke="#15171c" stroke-width="2.5"/>
+  <rect x="362" y="236" width="76" height="168" fill="#6d6f74" stroke="#15171c" stroke-width="2.5"/>
+  <rect x="370" y="190" width="60" height="50" fill="#55575e" stroke="#15171c" stroke-width="2.5"/>
+  <path d="M380,240 L380,212 Q380,200 392,200 Q404,200 404,212 L404,240 Z" fill="#1b1d24"/>
+  <path d="M414,240 L414,212 Q414,200 420,200 Q426,200 426,212 L426,240 Z" fill="#1b1d24"/>
+  <circle cx="400" cy="272" r="22" fill="#f1ecd9" stroke="#15171c" stroke-width="2.5"/>
+  <line x1="400" y1="272" x2="400" y2="256" stroke="#15171c" stroke-width="2.5"/>
+  <line x1="400" y1="272" x2="413" y2="276" stroke="#15171c" stroke-width="2"/>
+  <rect x="388" y="320" width="24" height="48" fill="#262a33" stroke="#15171c" stroke-width="2"/>
+  <line x1="362" y1="300" x2="438" y2="300" stroke="#15171c" stroke-width="1.5" opacity="0.5"/>
+  <line x1="362" y1="350" x2="438" y2="350" stroke="#15171c" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- left cottage -->
+  <polygon points="-10,190 230,252 230,612 -10,650" fill="#8a6e56" stroke="#15171c" stroke-width="2.5"/>
+  <polygon points="-10,176 230,236 230,256 -10,194" fill="#3c3432" stroke="#15171c" stroke-width="2.5"/>
+  <rect x="30" y="310" width="62" height="74" fill="#ffd27a" stroke="#15171c" stroke-width="2"/>
+  <line x1="61" y1="310" x2="61" y2="384" stroke="#15171c" stroke-width="2"/>
+  <line x1="30" y1="347" x2="92" y2="347" stroke="#15171c" stroke-width="2"/>
+  <rect x="118" y="330" width="56" height="66" fill="#ffd27a" stroke="#15171c" stroke-width="2"/>
+  <line x1="146" y1="330" x2="146" y2="396" stroke="#15171c" stroke-width="2"/>
+  <rect x="50" y="470" width="44" height="90" fill="#3a2c24" stroke="#15171c" stroke-width="2"/>
+  <circle cx="72" cy="515" r="60" fill="url(#glow)"/>
+  <circle cx="58" cy="350" r="70" fill="url(#glow)" opacity="0.5"/>
+
+  <!-- right cottage -->
+  <polygon points="810,200 570,260 570,600 810,640" fill="#6e5d52" stroke="#15171c" stroke-width="2.5"/>
+  <polygon points="810,186 570,246 570,266 810,206" fill="#2f2a2b" stroke="#15171c" stroke-width="2.5"/>
+  <rect x="610" y="330" width="52" height="66" fill="#ffd27a" stroke="#15171c" stroke-width="2"/>
+  <line x1="636" y1="330" x2="636" y2="396" stroke="#15171c" stroke-width="2"/>
+  <rect x="690" y="350" width="46" height="60" fill="#ffd27a" stroke="#15171c" stroke-width="2"/>
+  <line x1="713" y1="350" x2="713" y2="410" stroke="#15171c" stroke-width="2"/>
+  <circle cx="650" cy="365" r="90" fill="url(#glow)" opacity="0.45"/>
+
+  <!-- lane -->
+  <polygon points="120,800 370,400 430,400 680,800" fill="#4a4540" stroke="#15171c" stroke-width="2.5"/>
+  <polygon points="120,800 370,400 372,400 130,800" fill="#2e2a27" opacity="0.5"/>
+
+  <!-- cobbles, receding -->
+  <g fill="#6a625a" stroke="#15171c" stroke-width="1.2">
+    <ellipse cx="340" cy="480" rx="6" ry="3"/>
+    <ellipse cx="372" cy="480" rx="6" ry="3"/>
+    <ellipse cx="408" cy="480" rx="6" ry="3"/>
+    <ellipse cx="444" cy="480" rx="6" ry="3"/>
+    <ellipse cx="300" cy="540" rx="9" ry="4"/>
+    <ellipse cx="340" cy="540" rx="9" ry="4"/>
+    <ellipse cx="380" cy="540" rx="9" ry="4"/>
+    <ellipse cx="420" cy="540" rx="9" ry="4"/>
+    <ellipse cx="460" cy="540" rx="9" ry="4"/>
+    <ellipse cx="500" cy="540" rx="9" ry="4"/>
+    <ellipse cx="260" cy="610" rx="12" ry="5"/>
+    <ellipse cx="310" cy="610" rx="12" ry="5"/>
+    <ellipse cx="360" cy="610" rx="12" ry="5"/>
+    <ellipse cx="410" cy="610" rx="12" ry="5"/>
+    <ellipse cx="460" cy="610" rx="12" ry="5"/>
+    <ellipse cx="510" cy="610" rx="12" ry="5"/>
+    <ellipse cx="215" cy="690" rx="16" ry="6"/>
+    <ellipse cx="275" cy="690" rx="16" ry="6"/>
+    <ellipse cx="335" cy="690" rx="16" ry="6"/>
+    <ellipse cx="395" cy="690" rx="16" ry="6"/>
+    <ellipse cx="455" cy="690" rx="16" ry="6"/>
+    <ellipse cx="515" cy="690" rx="16" ry="6"/>
+    <ellipse cx="575" cy="690" rx="16" ry="6"/>
+    <ellipse cx="165" cy="770" rx="22" ry="8"/>
+    <ellipse cx="240" cy="770" rx="22" ry="8"/>
+    <ellipse cx="320" cy="770" rx="22" ry="8"/>
+    <ellipse cx="400" cy="770" rx="22" ry="8"/>
+    <ellipse cx="480" cy="770" rx="22" ry="8"/>
+    <ellipse cx="560" cy="770" rx="22" ry="8"/>
+    <ellipse cx="635" cy="770" rx="22" ry="8"/>
+  </g>
+
+  <!-- lamp reflection on lane -->
+  <ellipse cx="620" cy="600" rx="50" ry="14" fill="#ffd27a" opacity="0.18"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="330" width="800" height="120" fill="url(#fog)"/>
+  <rect x="0" y="420" width="800" height="90" fill="url(#fog)" opacity="0.8"/>
+  <ellipse cx="400" cy="470" rx="420" ry="30" fill="#e8e6e0" opacity="0.12"/>
+  <ellipse cx="200" cy="600" rx="260" ry="22" fill="#e8e6e0" opacity="0.10"/>
+  <ellipse cx="620" cy="700" rx="300" ry="26" fill="#e8e6e0" opacity="0.10"/>
+
+  <!-- signature -->
+  <text x="752" y="780" font-size="22" fill="#e8e6e0" text-anchor="end">P.</text>
+</svg>
