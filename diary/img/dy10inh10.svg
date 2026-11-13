@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e9e6" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#f4f3ef" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f4f3ef" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee1"/>
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#cfc4ad" stroke-width="2" opacity="0.6"/>
+
+  <!-- distant sky and hills in fog -->
+  <rect x="0" y="0" width="800" height="430" fill="#d9dde0"/>
+  <path d="M0 330 Q120 290 240 320 T480 310 T800 325 L800 430 L0 430 Z" fill="#b9c2c6" filter="url(#rough)"/>
+
+  <!-- bell tower at end of lane -->
+  <g filter="url(#rough)">
+    <polygon points="362,205 400,120 438,205" fill="#5c5650" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="366" y="200" width="68" height="236" fill="#9a9187" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="366" y="196" width="68" height="14" fill="#6e665e" stroke="#2b2622" stroke-width="2"/>
+    <rect x="378" y="222" width="44" height="40" fill="#3a3530"/>
+    <path d="M378 262 L378 240 Q400 226 422 240 L422 262 Z" fill="#3a3530"/>
+    <line x1="400" y1="206" x2="400" y2="222" stroke="#2b2622" stroke-width="2"/>
+    <rect x="382" y="250" width="36" height="8" fill="#756d64" opacity="0.7"/>
+    <circle cx="400" cy="300" r="22" fill="#fbf7ec" stroke="#2b2622" stroke-width="2.5"/>
+    <line x1="400" y1="300" x2="400" y2="284" stroke="#2b2622" stroke-width="3"/>
+    <line x1="400" y1="300" x2="413" y2="308" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="374" y="340" width="52" height="96" fill="#7e756c" stroke="#2b2622" stroke-width="2"/>
+    <path d="M388 436 L388 384 Q400 366 412 384 L412 436 Z" fill="#2f2a26"/>
+  </g>
+
+  <!-- ground and lane converging to tower -->
+  <polygon points="0,800 800,800 800,520 0,520" fill="#b8ae9c"/>
+  <polygon points="150,800 650,800 428,438 372,438" fill="#8f8677" stroke="#2b2622" stroke-width="2.5"/>
+  <polyline points="150,800 372,438" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <polyline points="650,800 428,438" fill="none" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- cobbles -->
+  <g fill="#cbc1ae" stroke="#4a4239" stroke-width="1.5">
+    <ellipse cx="300" cy="620" rx="22" ry="9"/>
+    <ellipse cx="470" cy="600" rx="26" ry="10"/>
+    <ellipse cx="260" cy="720" rx="30" ry="12"/>
+    <ellipse cx="540" cy="710" rx="34" ry="13"/>
+    <ellipse cx="360" cy="520" rx="10" ry="4"/>
+    <ellipse cx="420" cy="500" rx="9" ry="4"/>
+    <ellipse cx="390" cy="560" rx="14" ry="6"/>
+    <ellipse cx="430" cy="545" rx="12" ry="5"/>
+    <ellipse cx="190" cy="560" rx="18" ry="7"/>
+    <ellipse cx="610" cy="560" rx="16" ry="7"/>
+    <ellipse cx="335" cy="470" rx="7" ry="3"/>
+    <ellipse cx="455" cy="470" rx="8" ry="3"/>
+  </g>
+
+  <!-- stone wall on right, receding -->
+  <polygon points="800,380 560,470 560,500 800,410" fill="#b5ab97" stroke="#2b2622" stroke-width="2"/>
+  <polygon points="560,470 800,380 800,372 560,462" fill="#8d8474" stroke="#2b2622" stroke-width="1.5"/>
+
+  <!-- cottage on left -->
+  <g filter="url(#rough)">
+    <rect x="30" y="360" width="200" height="200" fill="#d2bf9f" stroke="#2b2622" stroke-width="3"/>
+    <polygon points="20,362 130,268 240,362" fill="#5a4640" stroke="#2b2622" stroke-width="3"/>
+    <rect x="62" y="400" width="48" height="42" fill="#43525b" stroke="#2b2622" stroke-width="2.5"/>
+    <line x1="86" y1="400" x2="86" y2="442" stroke="#2b2622" stroke-width="2"/>
+    <line x1="62" y1="421" x2="110" y2="421" stroke="#2b2622" stroke-width="2"/>
+    <rect x="150" y="440" width="46" height="120" fill="#6b4c3c" stroke="#2b2622" stroke-width="2.5"/>
+    <circle cx="188" cy="500" r="3" fill="#e0c77a"/>
+    <rect x="128" y="322" width="18" height="36" fill="#7b6a60" stroke="#2b2622" stroke-width="2"/>
+    <path d="M30 560 L230 560" stroke="#2b2622" stroke-width="1.5" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- fog band -->
+  <rect x="0" y="300" width="800" height="200" fill="url(#fog)"/>
+
+  <!-- snow blowing across path -->
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+    <line x1="120" y1="560" x2="250" y2="590"/>
+    <line x1="200" y1="650" x2="360" y2="690"/>
+    <line x1="60" y1="700" x2="210" y2="735"/>
+    <line x1="280" y1="520" x2="380" y2="540"/>
+    <line x1="500" y1="580" x2="640" y2="610"/>
+    <line x1="560" y1="700" x2="720" y2="740"/>
+    <line x1="430" y1="660" x2="560" y2="690"/>
+    <line x1="330" y1="760" x2="470" y2="790"/>
+    <line x1="640" y1="520" x2="740" y2="545"/>
+    <line x1="150" y1="480" x2="250" y2="500"/>
+  </g>
+  <g stroke="#f7f5ee" stroke-width="1.5" stroke-linecap="round" opacity="0.75">
+    <line x1="260" y1="430" x2="330" y2="445"/>
+    <line x1="470" y1="450" x2="520" y2="460"/>
+    <line x1="90" y1="610" x2="160" y2="628"/>
+    <line x1="600" y1="640" x2="690" y2="662"/>
+    <line x1="380" y1="700" x2="450" y2="720"/>
+    <line x1="700" y1="600" x2="770" y2="620"/>
+    <line x1="20" y1="520" x2="90" y2="536"/>
+  </g>
+  <!-- drift on lane edge -->
+  <path d="M150 800 Q210 770 260 790 Q300 760 340 780 L372 438 L300 470 Z" fill="#f8f7f2" opacity="0.5"/>
+
+  <!-- signature -->
+  <text x="752" y="776" font-family="serif" font-size="18" fill="#4a4239">P.</text>
+</svg>
