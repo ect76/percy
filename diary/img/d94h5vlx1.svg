@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="330" fill="#d7dce0"/>
+  <!-- distant fog bands -->
+  <ellipse cx="400" cy="300" rx="420" ry="40" fill="#f6f5f0" opacity="0.7"/>
+  <ellipse cx="200" cy="420" rx="260" ry="34" fill="#f6f5f0" opacity="0.55"/>
+  <ellipse cx="620" cy="450" rx="240" ry="30" fill="#f6f5f0" opacity="0.5"/>
+  <!-- ground -->
+  <rect x="0" y="440" width="800" height="360" fill="#e4e8ea"/>
+  <!-- lane in snow -->
+  <polygon points="90,800 710,800 438,468 362,468" fill="#fbfbf8" stroke="#1d1f22" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M250 800 Q330 640 392 472" fill="none" stroke="#b9c2c8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M560 800 Q480 640 408 472" fill="none" stroke="#b9c2c8" stroke-width="5" stroke-linecap="round"/>
+  <!-- distant cottages -->
+  <rect x="230" y="430" width="90" height="110" fill="#a8927c" stroke="#1d1f22" stroke-width="5"/>
+  <polygon points="222,430 275,382 328,430" fill="#3a3d42" stroke="#1d1f22" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="480" y="430" width="90" height="110" fill="#a8927c" stroke="#1d1f22" stroke-width="5"/>
+  <polygon points="472,430 525,382 578,430" fill="#3a3d42" stroke="#1d1f22" stroke-width="5" stroke-linejoin="round"/>
+  <!-- bell tower, bold wall-like strokes -->
+  <rect x="375" y="250" width="50" height="222" fill="#33373d" stroke="#14161a" stroke-width="10"/>
+  <rect x="367" y="204" width="66" height="50" fill="#2a2e34" stroke="#14161a" stroke-width="10"/>
+  <polygon points="367,204 400,126 433,204" fill="#2a2e34" stroke="#14161a" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="386" y="216" width="28" height="28" fill="#0e0f11"/>
+  <circle cx="400" cy="300" r="14" fill="#e9e3d1" stroke="#14161a" stroke-width="4"/>
+  <path d="M400 300 L400 292 M400 300 L406 304" stroke="#14161a" stroke-width="3" fill="none"/>
+  <path d="M386 472 L386 418 Q400 402 414 418 L414 472 Z" fill="#0e0f11"/>
+  <!-- hatching on tower shadow side -->
+  <g stroke="#14161a" stroke-width="3" opacity="0.6">
+    <line x1="382" y1="262" x2="382" y2="400"/>
+    <line x1="388" y1="262" x2="388" y2="400"/>
+    <line x1="394" y1="262" x2="394" y2="400"/>
+    <line x1="400" y1="262" x2="400" y2="400"/>
+  </g>
+  <!-- left near cottage -->
+  <rect x="60" y="380" width="180" height="200" fill="#8c705b" stroke="#14161a" stroke-width="10"/>
+  <polygon points="48,382 150,298 252,382" fill="#33373d" stroke="#14161a" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M70 352 Q150 318 232 352 L226 362 Q150 332 76 362 Z" fill="#fbfbf8"/>
+  <rect x="96" y="420" width="38" height="46" fill="#f0d78a" stroke="#14161a" stroke-width="6"/>
+  <rect x="170" y="420" width="38" height="46" fill="#f0d78a" stroke="#14161a" stroke-width="6"/>
+  <rect x="134" y="500" width="34" height="80" fill="#4a3a30" stroke="#14161a" stroke-width="6"/>
+  <!-- right near cottage -->
+  <rect x="560" y="380" width="180" height="200" fill="#8c705b" stroke="#14161a" stroke-width="10"/>
+  <polygon points="548,382 650,298 752,382" fill="#33373d" stroke="#14161a" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M570 352 Q650 318 732 352 L726 362 Q650 332 576 362 Z" fill="#fbfbf8"/>
+  <rect x="596" y="420" width="38" height="46" fill="#f0d78a" stroke="#14161a" stroke-width="6"/>
+  <rect x="670" y="420" width="38" height="46" fill="#f0d78a" stroke="#14161a" stroke-width="6"/>
+  <rect x="634" y="500" width="34" height="80" fill="#4a3a30" stroke="#14161a" stroke-width="6"/>
+  <!-- fog over foreground edges -->
+  <ellipse cx="150" cy="640" rx="220" ry="50" fill="#f6f5f0" opacity="0.35"/>
+  <ellipse cx="660" cy="700" rx="200" ry="44" fill="#f6f5f0" opacity="0.35"/>
+  <!-- signature -->
+  <text x="752" y="778" font-size="26" fill="#1d1f22">P.</text>
+</svg>
