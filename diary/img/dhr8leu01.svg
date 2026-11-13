@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe2"/>
+
+  <!-- distant fog hills -->
+  <path d="M0 470 Q120 430 240 462 T480 452 T800 468 L800 520 L0 520 Z" fill="#c9d3c4" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="36" fill="#ffffff" opacity="0.6"/>
+  <rect x="0" y="380" width="800" height="28" fill="#ffffff" opacity="0.55"/>
+  <rect x="0" y="500" width="800" height="22" fill="#ffffff" opacity="0.5"/>
+
+  <!-- green ground -->
+  <rect x="0" y="520" width="800" height="280" fill="#a9bc94"/>
+  <path d="M0 520 L800 520" stroke="#2b2b2b" stroke-width="3"/>
+
+  <!-- cobbles -->
+  <g fill="#d6cdb6" stroke="#5a5246" stroke-width="2">
+    <rect x="60" y="560" width="46" height="22" rx="8"/>
+    <rect x="118" y="560" width="40" height="22" rx="8"/>
+    <rect x="30" y="598" width="52" height="24" rx="9"/>
+    <rect x="92" y="598" width="44" height="24" rx="9"/>
+    <rect x="146" y="598" width="48" height="24" rx="9"/>
+    <rect x="50" y="640" width="58" height="26" rx="9"/>
+    <rect x="118" y="642" width="42" height="24" rx="9"/>
+    <rect x="30" y="700" width="62" height="28" rx="10"/>
+    <rect x="102" y="704" width="50" height="26" rx="10"/>
+    <rect x="160" y="700" width="56" height="28" rx="10"/>
+    <rect x="236" y="720" width="64" height="30" rx="10"/>
+    <rect x="310" y="740" width="70" height="30" rx="10"/>
+    <rect x="390" y="700" width="58" height="26" rx="9"/>
+    <rect x="420" y="620" width="40" height="22" rx="8"/>
+    <rect x="30" y="750" width="58" height="26" rx="9"/>
+    <rect x="560" y="740" width="66" height="30" rx="10"/>
+    <rect x="650" y="700" width="60" height="28" rx="10"/>
+    <rect x="700" y="640" width="56" height="26" rx="9"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="600" cy="640" rx="130" ry="52" fill="#8fb3bf" stroke="#2b2b2b" stroke-width="3"/>
+  <ellipse cx="600" cy="640" rx="100" ry="34" fill="none" stroke="#5f8593" stroke-width="2"/>
+  <ellipse cx="560" cy="652" rx="46" ry="12" fill="none" stroke="#5f8593" stroke-width="2"/>
+  <ellipse cx="640" cy="626" rx="30" ry="8" fill="none" stroke="#5f8593" stroke-width="2"/>
+  <!-- pond reeds -->
+  <path d="M478 650 L472 610 M484 650 L486 606 M492 652 L500 618" stroke="#4a6b3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Welcome to Mossbrook sign: post -->
+  <rect x="252" y="200" width="16" height="440" fill="#8a6540" stroke="#2b2b2b" stroke-width="3"/>
+  <path d="M258 220 L258 600" stroke="#6b4c2c" stroke-width="2"/>
+
+  <!-- roof cap -->
+  <polygon points="160,258 260,190 360,258" fill="#4a6b3a" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="260" y1="190" x2="260" y2="176" stroke="#2b2b2b" stroke-width="3"/>
+
+  <!-- board: green rim with cream face -->
+  <rect x="164" y="249" width="192" height="122" rx="18" fill="#4a6b3a" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="178" y="263" width="164" height="94" rx="10" fill="#f3e6c4" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- lettering suggestion -->
+  <g stroke="#2b3a2b" stroke-width="6" stroke-linecap="round">
+    <line x1="200" y1="300" x2="320" y2="300"/>
+    <line x1="200" y1="322" x2="290" y2="322"/>
+  </g>
+
+  <!-- brass chains -->
+  <g stroke="#b08d3a" stroke-width="4" fill="none" stroke-dasharray="6 4">
+    <line x1="204" y1="371" x2="204" y2="424"/>
+    <line x1="316" y1="371" x2="316" y2="424"/>
+  </g>
+  <circle cx="204" cy="428" r="6" fill="#c9a048" stroke="#2b2b2b" stroke-width="2"/>
+  <circle cx="316" cy="428" r="6" fill="#c9a048" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- moss at base -->
+  <g fill="#5f8a45" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="236" cy="628" rx="16" ry="9"/>
+    <ellipse cx="262" cy="614" rx="12" ry="7"/>
+    <ellipse cx="282" cy="636" rx="15" ry="8"/>
+    <ellipse cx="250" cy="650" rx="14" ry="7"/>
+  </g>
+
+  <!-- Mossville signpost -->
+  <rect x="548" y="330" width="14" height="310" fill="#8a6540" stroke="#2b2b2b" stroke-width="3"/>
+  <polygon points="520,352 555,326 590,352" fill="#4a6b3a" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="500" y="352" width="130" height="62" rx="8" fill="#4a6b3a" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="510" y="361" width="110" height="44" rx="5" fill="#f3e6c4" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b3a2b" stroke-width="5" stroke-linecap="round">
+    <line x1="524" y1="383" x2="606" y2="383"/>
+  </g>
+  <g fill="#5f8a45" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="536" cy="636" rx="13" ry="7"/>
+    <ellipse cx="568" cy="646" rx="11" ry="6"/>
+  </g>
+
+  <!-- foreground ink accent: small grass tufts -->
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M120 690 l-6 -14 M124 690 l0 -18 M128 690 l6 -14"/>
+    <path d="M700 720 l-6 -14 M704 720 l0 -18 M708 720 l6 -14"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="778" font-size="18" fill="#2b2b2b">P.</text>
+</svg>
