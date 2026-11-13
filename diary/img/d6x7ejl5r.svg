@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="cobbles" width="70" height="44" patternUnits="userSpaceOnUse">
+      <rect width="70" height="44" fill="#b9ab96"/>
+      <ellipse cx="18" cy="12" rx="16" ry="9" fill="#a39479" stroke="#3a322b" stroke-width="2"/>
+      <ellipse cx="52" cy="10" rx="13" ry="8" fill="#c3b6a1" stroke="#3a322b" stroke-width="2"/>
+      <ellipse cx="34" cy="34" rx="17" ry="8" fill="#a99b84" stroke="#3a322b" stroke-width="2"/>
+      <ellipse cx="2" cy="38" rx="9" ry="6" fill="#c3b6a1" stroke="#3a322b" stroke-width="2"/>
+      <ellipse cx="68" cy="36" rx="8" ry="6" fill="#a39479" stroke="#3a322b" stroke-width="2"/>
+    </pattern>
+    <radialGradient id="brass" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#f1d9a0"/>
+      <stop offset="1" stop-color="#b08238"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#efe8da"/>
+
+  <!-- distant village silhouette in fog -->
+  <rect x="0" y="330" width="800" height="90" fill="#d7d2c8" opacity="0.6"/>
+  <path d="M60 420 L60 360 L100 330 L140 360 L140 420 Z M620 420 L620 350 L660 318 L700 350 L700 420 Z" fill="#c4bdb0" stroke="#3a322b" stroke-width="2" opacity="0.7"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="580" width="800" height="220" fill="url(#cobbles)"/>
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#3a322b" stroke-width="3"/>
+
+  <!-- floor shadow -->
+  <ellipse cx="400" cy="585" rx="260" ry="20" fill="#5b5148" opacity="0.35"/>
+
+  <!-- back legs (behind body) -->
+  <g stroke="#2a2420" stroke-width="3" fill="#8c959b" stroke-linejoin="round">
+    <path d="M470 440 L462 520 L448 556 L470 562 L486 524 L500 446 Z"/>
+    <path d="M530 430 L560 500 L584 530 L604 522 L572 486 L556 424 Z"/>
+    <ellipse cx="458" cy="562" rx="20" ry="8"/>
+    <ellipse cx="602" cy="524" rx="20" ry="8"/>
+  </g>
+
+  <!-- tail -->
+  <path d="M566 380 C660 400 720 350 712 262" fill="none" stroke="#2a2420" stroke-width="12" stroke-linecap="round"/>
+  <path d="M566 380 C660 400 720 350 712 262" fill="none" stroke="#9aa3a8" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="400" cy="360" rx="170" ry="100" fill="#9aa3a8" stroke="#2a2420" stroke-width="4"/>
+  <!-- body highlight -->
+  <path d="M290 318 C320 282 380 262 440 266" fill="none" stroke="#dfe4e6" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+  <!-- tin seam and rivets -->
+  <path d="M250 360 Q400 390 550 360" fill="none" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="310" cy="350" r="4" fill="#2a2420"/>
+  <circle cx="400" cy="372" r="4" fill="#2a2420"/>
+  <circle cx="490" cy="352" r="4" fill="#2a2420"/>
+
+  <!-- underside cutaway with gears -->
+  <ellipse cx="400" cy="432" rx="128" ry="38" fill="#5a4d3f" stroke="#2a2420" stroke-width="4"/>
+  <ellipse cx="400" cy="432" rx="118" ry="30" fill="#c9a46b" stroke="#2a2420" stroke-width="2.5"/>
+  <!-- gears -->
+  <g stroke="#2a2420" stroke-width="2.5" fill="#e4c48a">
+    <circle cx="340" cy="430" r="26"/>
+    <circle cx="340" cy="430" r="7" fill="#9aa3a8"/>
+    <circle cx="410" cy="436" r="18"/>
+    <circle cx="410" cy="436" r="5" fill="#9aa3a8"/>
+    <circle cx="462" cy="426" r="22"/>
+    <circle cx="462" cy="426" r="6" fill="#9aa3a8"/>
+  </g>
+  <g stroke="#2a2420" stroke-width="4" stroke-dasharray="4 6">
+    <circle cx="340" cy="430" r="31" fill="none"/>
+    <circle cx="462" cy="426" r="27" fill="none"/>
+  </g>
+  <!-- mainspring coil -->
+  <path d="M300 440 C292 420 318 414 322 432 C326 448 304 452 300 440" fill="none" stroke="#7a4f22" stroke-width="3"/>
+
+  <!-- spring key on right side -->
+  <rect x="560" y="352" width="46" height="10" fill="#7d8589" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="598" y="340" width="8" height="34" fill="#7d8589" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="620" cy="357" r="20" fill="url(#brass)" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="620" cy="357" r="7" fill="#5a4d3f"/>
+  <line x1="612" y1="357" x2="628" y2="357" stroke="#f6e6bd" stroke-width="2"/>
+
+  <!-- front legs -->
+  <g stroke="#2a2420" stroke-width="3" fill="#8c959b" stroke-linejoin="round">
+    <path d="M330 440 L340 510 L356 548 L378 544 L364 504 L358 436 Z"/>
+    <path d="M378 442 L384 508 L390 544 L412 540 L406 502 L410 440 Z"/>
+    <path d="M320 448 L286 490 L258 508 L252 530 L278 530 L304 506 L342 462 Z"/>
+    <ellipse cx="367" cy="548" rx="20" ry="8"/>
+    <ellipse cx="402" cy="543" rx="20" ry="8"/>
+    <ellipse cx="256" cy="528" rx="18" ry="8"/>
+  </g>
+
+  <!-- head -->
+  <circle cx="236" cy="312" r="56" fill="#9aa3a8" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="206" cy="262" r="22" fill="#b9c1c5" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="206" cy="262" r="10" fill="#d9a09a" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="262" cy="258" r="20" fill="#b9c1c5" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="262" cy="258" r="9" fill="#d9a09a" stroke="#2a2420" stroke-width="2"/>
+  <path d="M180 326 Q168 340 176 356 Q196 366 214 350 Z" fill="#c4a0a0" stroke="#2a2420" stroke-width="3"/>
+  <path d="M176 330 L140 312 M174 340 L138 340 M176 350 L142 364" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="214" cy="300" r="6" fill="#2a2420"/>
+  <circle cx="216" cy="298" r="2" fill="#f5f0e6"/>
+  <!-- head tin seam -->
+  <path d="M190 286 Q230 262 276 290" fill="none" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- fog bands over the ground and lower scene -->
+  <ellipse cx="180" cy="560" rx="230" ry="34" fill="#efe8da" opacity="0.7"/>
+  <ellipse cx="600" cy="600" rx="260" ry="40" fill="#efe8da" opacity="0.6"/>
+  <ellipse cx="400" cy="650" rx="320" ry="30" fill="#efe8da" opacity="0.5"/>
+  <ellipse cx="120" cy="420" rx="160" ry="26" fill="#efe8da" opacity="0.55"/>
+  <ellipse cx="700" cy="470" rx="140" ry="24" fill="#efe8da" opacity="0.6"/>
+
+  <!-- signature -->
+  <text x="760" y="770" font-family="serif" font-size="30" fill="#2a2420" text-anchor="end">P.</text>
+</svg>
