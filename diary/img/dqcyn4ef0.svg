@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="340" fill="#d9e0df"/>
+  <!-- distant fog banks -->
+  <rect x="0" y="300" width="800" height="70" fill="#ece8dc" opacity="0.85"/>
+  <rect x="0" y="340" width="800" height="40" fill="#e6e1d3" opacity="0.7"/>
+  <!-- ground beyond lane -->
+  <rect x="0" y="560" width="800" height="240" fill="#c7bb9c"/>
+  <path d="M0 470 C 120 455 230 470 330 440 L 330 380 L 0 380 Z" fill="#bfc5b0" opacity="0.6"/>
+
+  <!-- tower -->
+  <rect x="385" y="170" width="40" height="170" fill="#cfc5b2" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="390" y="130" width="30" height="42" fill="#bcb29c" stroke="#2a2420" stroke-width="2.5"/>
+  <path d="M385 130 L405 60 L425 130 Z" fill="#6e5a4c" stroke="#2a2420" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="396" y="140" width="8" height="18" fill="#3b3029"/>
+  <rect x="410" y="140" width="8" height="18" fill="#3b3029"/>
+  <line x1="405" y1="60" x2="405" y2="44" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="405" cy="210" r="19" fill="#f7f1df" stroke="#2a2420" stroke-width="2.5"/>
+  <line x1="405" y1="210" x2="405" y2="197" stroke="#2a2420" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="405" y1="210" x2="416" y2="214" stroke="#2a2420" stroke-width="2" stroke-linecap="round"/>
+  <rect x="395" y="280" width="20" height="30" fill="#4a3d35" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- lane -->
+  <path d="M200 800 C 260 690 330 640 420 560 C 470 515 445 430 405 360 L 430 350 C 470 420 500 500 560 560 C 610 620 650 700 640 800 Z" fill="#b5a384" stroke="#2a2420" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- cobbles -->
+  <g fill="none" stroke="#2a2420" stroke-width="1.6" opacity="0.8">
+    <ellipse cx="290" cy="760" rx="12" ry="7"/>
+    <ellipse cx="350" cy="735" rx="10" ry="6"/>
+    <ellipse cx="470" cy="740" rx="12" ry="7"/>
+    <ellipse cx="530" cy="700" rx="10" ry="6"/>
+    <ellipse cx="410" cy="690" rx="9" ry="5"/>
+    <ellipse cx="300" cy="660" rx="9" ry="5"/>
+    <ellipse cx="440" cy="640" rx="8" ry="5"/>
+    <ellipse cx="380" cy="600" rx="8" ry="4"/>
+    <ellipse cx="500" cy="600" rx="8" ry="4"/>
+    <ellipse cx="410" cy="500" rx="7" ry="4"/>
+    <ellipse cx="450" cy="470" rx="6" ry="3"/>
+    <ellipse cx="395" cy="420" rx="6" ry="3"/>
+    <ellipse cx="600" cy="740" rx="10" ry="6"/>
+    <ellipse cx="240" cy="720" rx="10" ry="6"/>
+  </g>
+
+  <!-- cottage -->
+  <rect x="60" y="430" width="190" height="200" fill="#d9b48f" stroke="#2a2420" stroke-width="2.5"/>
+  <path d="M40 432 L155 350 L270 432 Z" fill="#6b4a3a" stroke="#2a2420" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="80" y="470" width="34" height="38" fill="#f2d47a" stroke="#2a2420" stroke-width="2"/>
+  <line x1="97" y1="470" x2="97" y2="508" stroke="#2a2420" stroke-width="1.5"/>
+  <rect x="180" y="470" width="34" height="38" fill="#e9c96f" stroke="#2a2420" stroke-width="2"/>
+  <rect x="130" y="540" width="46" height="90" fill="#4a3328" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="118" y="626" width="70" height="12" fill="#8c8072" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- autumn trees on right -->
+  <line x1="700" y1="560" x2="700" y2="470" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="690" cy="420" r="62" fill="#c46a2e" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="735" cy="390" r="40" fill="#d99a3d" stroke="#2a2420" stroke-width="2"/>
+  <line x1="600" y1="520" x2="612" y2="420" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="610" cy="380" r="46" fill="#a9552a" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="650" cy="350" r="28" fill="#d8a64a" stroke="#2a2420" stroke-width="1.8"/>
+
+  <!-- wind lines -->
+  <g fill="none" stroke="#2a2420" stroke-width="1.6" stroke-linecap="round" opacity="0.7">
+    <path d="M90 300 C 150 285 190 310 250 292"/>
+    <path d="M520 240 C 570 226 610 250 660 236"/>
+    <path d="M60 690 C 120 675 150 700 210 684"/>
+    <path d="M520 150 C 560 140 590 160 630 150"/>
+  </g>
+  <!-- falling leaves -->
+  <g fill="#c46a2e" stroke="#2a2420" stroke-width="1.2">
+    <ellipse cx="260" cy="610" rx="7" ry="4" transform="rotate(-30 260 610)"/>
+    <ellipse cx="330" cy="520" rx="6" ry="3.5" transform="rotate(20 330 520)"/>
+    <ellipse cx="560" cy="650" rx="7" ry="4" transform="rotate(40 560 650)"/>
+    <ellipse cx="490" cy="300" rx="6" ry="3.5" transform="rotate(-15 490 300)" fill="#d99a3d"/>
+    <ellipse cx="230" cy="380" rx="6" ry="3.5" transform="rotate(25 230 380)" fill="#d99a3d"/>
+    <ellipse cx="600" cy="480" rx="5" ry="3" transform="rotate(-35 600 480)" fill="#a9552a"/>
+    <ellipse cx="170" cy="250" rx="5" ry="3" transform="rotate(10 170 250)" fill="#a9552a"/>
+  </g>
+
+  <!-- foreground fog wash -->
+  <rect x="0" y="700" width="800" height="100" fill="#f3ead6" opacity="0.35"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2420" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M735 740 V782"/>
+    <path d="M735 740 H746 C756 740 756 756 746 756 H735"/>
+  </g>
+  <circle cx="752" cy="782" r="2.5" fill="#2a2420"/>
+</svg>
