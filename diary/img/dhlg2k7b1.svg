@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <!-- sky wash in fog -->
+  <rect x="0" y="0" width="800" height="430" fill="#dfe3e2" opacity="0.7"/>
+  <!-- distant bell tower, lost in grey -->
+  <g stroke="#2a2623" stroke-width="3" stroke-linejoin="round" fill="#9a9c98">
+    <rect x="372" y="250" width="56" height="190"/>
+    <path d="M364,250 L400,190 L436,250 Z"/>
+    <rect x="388" y="282" width="24" height="26" fill="#5e6160"/>
+    <line x1="400" y1="190" x2="400" y2="164"/>
+    <circle cx="400" cy="162" r="4" fill="#2a2623"/>
+  </g>
+  <!-- fog bands over tower -->
+  <rect x="330" y="300" width="140" height="40" fill="#f4efe3" opacity="0.75"/>
+  <rect x="300" y="360" width="200" height="50" fill="#f4efe3" opacity="0.6"/>
+  <rect x="0" y="230" width="800" height="36" fill="#f4efe3" opacity="0.55"/>
+  <!-- lane in perspective -->
+  <path d="M0,800 L800,800 L462,440 L338,440 Z" fill="#b9b2a4" stroke="#2a2623" stroke-width="3" stroke-linejoin="round"/>
+  <!-- snow on lane -->
+  <path d="M120,800 L330,520 L370,520 L220,800 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M520,800 L440,560 L470,560 L600,800 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- cobble marks -->
+  <g fill="none" stroke="#5e5950" stroke-width="2" opacity="0.7">
+    <ellipse cx="260" cy="650" rx="16" ry="6"/>
+    <ellipse cx="300" cy="700" rx="20" ry="7"/>
+    <ellipse cx="180" cy="740" rx="24" ry="8"/>
+    <ellipse cx="400" cy="600" rx="10" ry="4"/>
+    <ellipse cx="380" cy="500" rx="8" ry="3"/>
+    <ellipse cx="410" cy="520" rx="9" ry="3"/>
+    <ellipse cx="360" cy="760" rx="26" ry="9"/>
+  </g>
+  <!-- fog across lane -->
+  <rect x="0" y="470" width="800" height="50" fill="#f4efe3" opacity="0.5"/>
+  <!-- left cottage with painted wall on Pond Lane -->
+  <g stroke="#2a2623" stroke-width="3" stroke-linejoin="round">
+    <rect x="30" y="300" width="250" height="260" fill="#c9a27a"/>
+    <path d="M20,300 L155,230 L290,300 Z" fill="#8c6a4f"/>
+    <path d="M30,300 L290,300" fill="none"/>
+    <!-- snow on roof -->
+    <path d="M60,286 L155,236 L250,286 L240,290 L155,246 L70,290 Z" fill="#ffffff"/>
+  </g>
+  <!-- painted wall mural -->
+  <rect x="70" y="350" width="180" height="150" fill="#7fa7b8" stroke="#2a2623" stroke-width="3"/>
+  <circle cx="200" cy="385" r="26" fill="#e9b33c" stroke="#2a2623" stroke-width="2"/>
+  <path d="M70,460 Q105,438 140,460 T210,460 T250,460 L250,500 L70,500 Z" fill="#3f6f86"/>
+  <path d="M70,420 Q120,400 170,420" fill="none" stroke="#f4efe3" stroke-width="4"/>
+  <rect x="110" y="380" width="30" height="40" fill="#b8473a" stroke="#2a2623" stroke-width="2"/>
+  <!-- cottage window -->
+  <rect x="200" y="470" width="40" height="50" fill="#f4efe3" stroke="#2a2623" stroke-width="3"/>
+  <line x1="220" y1="470" x2="220" y2="520" stroke="#2a2623" stroke-width="2"/>
+  <!-- right wall -->
+  <g stroke="#2a2623" stroke-width="3" stroke-linejoin="round" fill="#d8cbb4">
+    <rect x="620" y="420" width="180" height="90"/>
+  </g>
+  <!-- golden pedestal -->
+  <g stroke="#2a2623" stroke-width="3" stroke-linejoin="round" fill="#d4a537">
+    <path d="M560,700 L720,700 L706,660 L574,660 Z"/>
+    <rect x="590" y="640" width="100" height="20"/>
+  </g>
+  <!-- halo ring -->
+  <ellipse cx="640" cy="470" rx="92" ry="102" fill="none" stroke="#e8c46a" stroke-width="8" opacity="0.8"/>
+  <ellipse cx="640" cy="470" rx="92" ry="102" fill="none" stroke="#2a2623" stroke-width="1.5" opacity="0.6"/>
+  <!-- saffron body draped over lap -->
+  <g stroke="#2a2623" stroke-width="3" stroke-linejoin="round">
+    <path d="M530,640 C530,560 580,528 640,528 C700,528 750,560 750,640 L730,650 L550,650 Z" fill="#e8891e"/>
+    <path d="M575,600 Q640,580 705,600" fill="none" stroke="#b5600f" stroke-width="2.5"/>
+    <path d="M560,630 Q640,612 720,630" fill="none" stroke="#b5600f" stroke-width="2.5"/>
+    <path d="M610,530 Q600,600 612,650" fill="none" stroke="#b5600f" stroke-width="2"/>
+  </g>
+  <!-- head with bump -->
+  <g stroke="#2a2623" stroke-width="3">
+    <circle cx="640" cy="472" r="46" fill="#e0b458"/>
+    <circle cx="640" cy="424" r="10" fill="#e0b458"/>
+  </g>
+  <!-- half-closed eyes and calm smile -->
+  <g fill="none" stroke="#2a2623" stroke-width="2.5" stroke-linecap="round">
+    <path d="M618,472 Q626,478 634,472"/>
+    <path d="M646,472 Q654,478 662,472"/>
+    <path d="M628,498 Q640,504 652,498"/>
+  </g>
+  <!-- small penguin for scale -->
+  <g stroke="#2a2623" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="510" cy="668" rx="20" ry="30" fill="#2f3438"/>
+    <ellipse cx="510" cy="672" rx="11" ry="20" fill="#f4efe3" stroke="none"/>
+    <path d="M490,664 L482,676 L492,680 Z" fill="#e8891e"/>
+    <path d="M530,664 L538,676 L528,680 Z" fill="#e8891e"/>
+  </g>
+  <!-- snow foreground drifts -->
+  <path d="M0,760 Q120,740 240,770 T480,765 T800,750 L800,800 L0,800 Z" fill="#ffffff" opacity="0.9" stroke="#2a2623" stroke-width="2"/>
+  <!-- P. signature in corner -->
+  <g fill="none" stroke="#2a2623" stroke-width="3" stroke-linecap="round">
+    <path d="M735,752 L735,784 M735,752 L750,752 Q760,752 760,762 Q760,772 750,772 L735,772"/>
+    <circle cx="768" cy="784" r="2.5" fill="#2a2623"/>
+  </g>
+</svg>
