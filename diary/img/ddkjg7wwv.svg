@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+
+  <!-- fog bands -->
+  <ellipse cx="180" cy="120" rx="320" ry="60" fill="#dcd8cc" opacity="0.7"/>
+  <ellipse cx="640" cy="90" rx="280" ry="55" fill="#dcd8cc" opacity="0.6"/>
+  <ellipse cx="400" cy="210" rx="420" ry="40" fill="#e7e3d8" opacity="0.8"/>
+  <ellipse cx="120" cy="330" rx="200" ry="30" fill="#dcd8cc" opacity="0.5"/>
+  <ellipse cx="700" cy="380" rx="200" ry="34" fill="#dcd8cc" opacity="0.5"/>
+
+  <!-- counter -->
+  <rect x="0" y="600" width="800" height="200" fill="#9a6b43"/>
+  <rect x="0" y="600" width="800" height="14" fill="#7a5233"/>
+  <path d="M0 600 L800 600" stroke="#2b2620" stroke-width="3" fill="none"/>
+  <g stroke="#5e3f27" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M0 650 H800"/>
+    <path d="M0 705 H800"/>
+    <path d="M0 760 H800"/>
+    <path d="M150 600 V650 M430 650 V705 M260 705 V760 M600 600 V650 M700 705 V760"/>
+  </g>
+
+  <!-- card shadow -->
+  <g transform="rotate(-2 400 380)">
+    <path d="M186 252 L618 244 L626 528 L178 536 Z" fill="#6e5a44" opacity="0.25" transform="translate(6 8)"/>
+
+    <!-- card body -->
+    <path d="M170 240 L600 232 L630 262 L624 520 L186 528 L174 300 Z" fill="#fbf6e6" stroke="#2b2620" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- curled top-right corner (back side) -->
+    <path d="M600 232 Q628 236 630 262 Q606 262 598 250 Z" fill="#e6dcc4" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- curled bottom-left corner -->
+    <path d="M186 528 Q178 504 174 490 Q196 500 210 520 Z" fill="#e6dcc4" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- tea ring -->
+    <circle cx="578" cy="462" r="34" fill="none" stroke="#8a5a2e" stroke-width="7" opacity="0.6"/>
+    <circle cx="578" cy="462" r="30" fill="none" stroke="#b07a46" stroke-width="2" opacity="0.5"/>
+
+    <!-- recipe text -->
+    <g font-family="serif" fill="#2b2620">
+      <text x="205" y="276" font-size="26" font-weight="bold">Dot's scone recipe</text>
+      <text x="205" y="315" font-size="18">225g self-raising flour, pinch of salt</text>
+      <text x="205" y="345" font-size="18">50g butter, rubbed in</text>
+      <text x="205" y="375" font-size="18">1 tbsp sugar, 150ml milk</text>
+      <text x="205" y="405" font-size="18">Bake 220C, 12 minutes.</text>
+      <text x="205" y="445" font-size="22" font-style="italic">Eat the same day.</text>
+    </g>
+
+    <!-- pencil underline -->
+    <path d="M205 457 Q300 463 392 455" fill="none" stroke="#5c5c5c" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M207 460 Q300 466 390 458" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="18" fill="#2b2620">P.</text>
+</svg>
