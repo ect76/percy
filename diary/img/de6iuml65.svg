@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ebda"/>
+
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="480" fill="#e2d5bb"/>
+  <path d="M0 40 H800 M0 120 H800" stroke="#d6c7a8" stroke-width="2" fill="none"/>
+
+  <!-- window with fog beyond -->
+  <rect x="96" y="76" width="250" height="230" fill="#c9d3d6" stroke="#2a2420" stroke-width="4"/>
+  <rect x="104" y="84" width="234" height="214" fill="#e7ecee"/>
+  <ellipse cx="200" cy="140" rx="120" ry="22" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="230" cy="200" rx="140" ry="26" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="170" cy="262" rx="110" ry="18" fill="#ffffff" opacity="0.7"/>
+  <path d="M104 84 L338 298 M338 84 L104 298" stroke="#c9d3d6" stroke-width="0" fill="none"/>
+  <path d="M221 84 V298 M104 191 H338" stroke="#2a2420" stroke-width="5" fill="none"/>
+  <path d="M90 306 H356" stroke="#2a2420" stroke-width="7"/>
+
+  <!-- hanging lamp cord and shelf -->
+  <path d="M560 0 V120" stroke="#2a2420" stroke-width="3" fill="none"/>
+  <path d="M530 150 Q560 120 590 150 L580 168 H540 Z" fill="#b5835a" stroke="#2a2420" stroke-width="3"/>
+  <ellipse cx="560" cy="172" rx="60" ry="14" fill="#f2d890" opacity="0.5"/>
+
+  <!-- floor -->
+  <polygon points="0,480 800,480 800,800 0,800" fill="#b98b5e"/>
+  <g stroke="#7d5a3a" stroke-width="2" fill="none">
+    <path d="M0 520 H800"/>
+    <path d="M0 580 H800"/>
+    <path d="M0 655 H800"/>
+    <path d="M0 740 H800"/>
+    <path d="M120 480 L60 800 M300 480 L270 800 M520 480 L540 800 M690 480 L740 800"/>
+  </g>
+  <rect x="0" y="470" width="800" height="12" fill="#8c6a48" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- rug edge -->
+  <path d="M590 610 Q700 600 800 620 V700 Q700 690 600 705 Z" fill="#9c4a3c" stroke="#2a2420" stroke-width="3"/>
+  <path d="M600 620 Q700 612 790 628" stroke="#e0c58a" stroke-width="3" fill="none"/>
+
+  <!-- mouse shadow -->
+  <ellipse cx="440" cy="580" rx="120" ry="16" fill="#6e5a44" opacity="0.45"/>
+
+  <!-- tail -->
+  <path d="M352 468 Q300 470 292 420 Q288 396 304 392" stroke="#2a2420" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M352 468 Q300 470 292 420 Q288 396 304 392" stroke="#9aaab3" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- legs: mid-stride, front pair forward, back pair back -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M395 500 L370 560 L352 572" stroke="#2a2420" stroke-width="20"/>
+    <path d="M395 500 L370 560 L352 572" stroke="#8fa0aa" stroke-width="13"/>
+    <path d="M470 500 L500 556 L526 566" stroke="#2a2420" stroke-width="20"/>
+    <path d="M470 500 L500 556 L526 566" stroke="#8fa0aa" stroke-width="13"/>
+    <path d="M378 516 L340 534 L318 528" stroke="#2a2420" stroke-width="20"/>
+    <path d="M378 516 L340 534 L318 528" stroke="#8fa0aa" stroke-width="13"/>
+    <path d="M440 520 L458 572 L444 586" stroke="#2a2420" stroke-width="20"/>
+    <path d="M440 520 L458 572 L444 586" stroke="#8fa0aa" stroke-width="13"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="430" cy="468" rx="92" ry="52" transform="rotate(-4 430 468)" fill="#8fa0aa" stroke="#2a2420" stroke-width="4"/>
+  <path d="M380 430 Q430 412 478 428" stroke="#c5d0d6" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M372 470 Q420 500 480 486" stroke="#5f6f79" stroke-width="3" fill="none"/>
+
+  <!-- key on the back -->
+  <circle cx="412" cy="416" r="11" fill="#c9a24a" stroke="#2a2420" stroke-width="3"/>
+  <path d="M412 427 V440 M412 436 H420 M412 442 H418" stroke="#2a2420" stroke-width="3" fill="none"/>
+
+  <!-- ears -->
+  <circle cx="512" cy="410" r="20" fill="#8fa0aa" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="512" cy="410" r="10" fill="#e3a7a0"/>
+  <circle cx="540" cy="406" r="17" fill="#8fa0aa" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="540" cy="406" r="9" fill="#e3a7a0"/>
+
+  <!-- head -->
+  <circle cx="528" cy="444" r="36" fill="#8fa0aa" stroke="#2a2420" stroke-width="4"/>
+  <path d="M556 452 Q578 456 586 466 Q578 470 556 466 Z" fill="#8fa0aa" stroke="#2a2420" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="584" cy="462" r="4" fill="#2a2420"/>
+  <circle cx="540" cy="436" r="5" fill="#2a2420"/>
+  <circle cx="541" cy="434" r="1.5" fill="#f3ebda"/>
+  <path d="M506 456 Q520 462 532 456" stroke="#5f6f79" stroke-width="2.5" fill="none"/>
+
+  <!-- tin seams and rivets -->
+  <g stroke="#5f6f79" stroke-width="2" fill="none">
+    <path d="M400 452 V486"/>
+    <path d="M440 446 V494"/>
+  </g>
+  <g fill="#c9a24a" stroke="#2a2420" stroke-width="1.5">
+    <circle cx="400" cy="436" r="3"/>
+    <circle cx="440" cy="432" r="3"/>
+    <circle cx="400" cy="500" r="3"/>
+  </g>
+
+  <!-- signature mark "P." -->
+  <g stroke="#2a2420" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M750 752 V774 M750 752 H762 Q770 752 770 760 Q770 768 762 768 H750"/>
+  </g>
+  <circle cx="778" cy="772" r="2.5" fill="#2a2420"/>
+</svg>
