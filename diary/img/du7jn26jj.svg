@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#efe9dc"/>
+
+  <!-- distant village -->
+  <rect x="80" y="330" width="120" height="100" fill="#a9a79c" stroke="#2b2118" stroke-width="2"/>
+  <polygon points="70,332 140,280 210,332" fill="#8d8b82" stroke="#2b2118" stroke-width="2"/>
+  <rect x="230" y="300" width="100" height="130" fill="#b4b1a6" stroke="#2b2118" stroke-width="2"/>
+  <polygon points="220,302 280,250 340,302" fill="#8d8b82" stroke="#2b2118" stroke-width="2"/>
+  <rect x="380" y="340" width="90" height="90" fill="#a9a79c" stroke="#2b2118" stroke-width="2"/>
+  <polygon points="372,342 425,298 478,342" fill="#8d8b82" stroke="#2b2118" stroke-width="2"/>
+  <rect x="600" y="180" width="50" height="250" fill="#b0ada2" stroke="#2b2118" stroke-width="2"/>
+  <polygon points="594,180 625,108 656,180" fill="#8d8b82" stroke="#2b2118" stroke-width="2"/>
+  <rect x="612" y="210" width="26" height="30" fill="#efe9dc" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="240" width="800" height="50" fill="#f6f4ee" opacity="0.7"/>
+  <rect x="0" y="290" width="800" height="60" fill="#f6f4ee" opacity="0.55"/>
+  <rect x="0" y="345" width="800" height="45" fill="#f6f4ee" opacity="0.4"/>
+
+  <!-- table -->
+  <rect x="60" y="655" width="22" height="110" fill="#5a4129" stroke="#2b2118" stroke-width="2"/>
+  <rect x="718" y="655" width="22" height="110" fill="#5a4129" stroke="#2b2118" stroke-width="2"/>
+  <rect x="40" y="615" width="720" height="40" fill="#6b4f35" stroke="#2b2118" stroke-width="3"/>
+  <polygon points="80,430 720,430 760,620 40,620" fill="#8a6a4a" stroke="#2b2118" stroke-width="3"/>
+  <path d="M120 470 H300 M340 500 H520 M180 560 H380" stroke="#765a3e" stroke-width="2" fill="none"/>
+
+  <!-- written page -->
+  <polygon points="150,450 420,430 445,600 165,615" fill="#fffdf6" stroke="#2b2118" stroke-width="2.5"/>
+  <g stroke="#3a3a50" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M172 476 Q200 468 232 478 T300 474 T372 478"/>
+    <path d="M170 498 Q198 490 226 500 T296 496 T396 498"/>
+    <path d="M168 520 Q196 512 228 522 T304 518 T384 520"/>
+    <path d="M167 542 Q196 534 224 544 T298 540 T362 542"/>
+    <path d="M166 564 Q194 556 222 566 T292 562 T346 564"/>
+    <path d="M165 586 Q190 578 218 588 T280 584"/>
+  </g>
+
+  <!-- stamp book -->
+  <g transform="rotate(-4 600 460)">
+    <rect x="488" y="382" width="220" height="150" rx="4" fill="#9cbf94" stroke="#2b2118" stroke-width="3"/>
+    <rect x="500" y="394" width="92" height="128" fill="#fbf7ea" stroke="#2b2118" stroke-width="1.5"/>
+    <rect x="604" y="394" width="88" height="124" fill="#fbf7ea" stroke="#2b2118" stroke-width="1.5"/>
+    <rect x="592" y="382" width="16" height="150" fill="#efe2bf" stroke="#2b2118" stroke-width="1.5"/>
+    <g fill="#6f8fb8">
+      <rect x="508" y="402" width="16" height="14"/>
+      <rect x="548" y="402" width="16" height="14"/>
+      <rect x="508" y="442" width="16" height="14"/>
+      <rect x="568" y="442" width="16" height="14"/>
+      <rect x="508" y="482" width="16" height="14"/>
+      <rect x="548" y="482" width="16" height="14"/>
+      <rect x="612" y="402" width="16" height="14"/>
+      <rect x="652" y="402" width="16" height="14"/>
+      <rect x="612" y="442" width="16" height="14"/>
+      <rect x="672" y="442" width="16" height="14"/>
+      <rect x="632" y="482" width="16" height="14"/>
+    </g>
+    <g fill="#d98c5f">
+      <rect x="528" y="422" width="16" height="14"/>
+      <rect x="568" y="482" width="16" height="14"/>
+      <rect x="632" y="422" width="16" height="14"/>
+      <rect x="652" y="462" width="16" height="14"/>
+    </g>
+    <!-- torn-out gaps at the gutter -->
+    <g fill="#fbf7ea" stroke="#2b2118" stroke-width="1.5">
+      <polygon points="592,420 602,424 596,432 604,440 594,448 600,456 592,462"/>
+      <polygon points="608,500 600,506 606,512 598,518 606,522 600,500"/>
+    </g>
+  </g>
+
+  <!-- date stamp and ink pad -->
+  <circle cx="85" cy="478" r="12" fill="#5a4129" stroke="#2b2118" stroke-width="2"/>
+  <rect x="79" y="488" width="12" height="22" fill="#5a4129" stroke="#2b2118" stroke-width="2"/>
+  <rect x="64" y="508" width="42" height="12" fill="#333" stroke="#2b2118" stroke-width="2"/>
+  <rect x="40" y="530" width="90" height="36" rx="4" fill="#b33a3a" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="50" y="539" width="70" height="18" rx="2" fill="#d46a6a"/>
+
+  <!-- brass spirit level -->
+  <rect x="470" y="560" width="180" height="32" rx="3" fill="#c9a24a" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="510" y="565" width="100" height="14" rx="7" fill="#d8efe9" stroke="#2b2118" stroke-width="2"/>
+  <circle cx="560" cy="572" r="4" fill="#ffffff" stroke="#2b2118" stroke-width="1.2"/>
+  <path d="M548 564 V580 M572 564 V580" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- signature mark P. -->
+  <path d="M742 740 V775 M742 740 H752 Q762 740 762 750 Q762 760 752 760 H742" stroke="#2b2118" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="770" cy="775" r="2.5" fill="#2b2118"/>
+</svg>
