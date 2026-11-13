@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#ece8df"/>
+  <!-- distant fog banks -->
+  <g fill="#f7f5f0" opacity="0.7">
+    <ellipse cx="150" cy="260" rx="260" ry="34"/>
+    <ellipse cx="660" cy="200" rx="230" ry="30"/>
+    <ellipse cx="620" cy="520" rx="260" ry="40"/>
+    <ellipse cx="130" cy="560" rx="230" ry="36"/>
+  </g>
+  <!-- ground: cobbled street -->
+  <path d="M0 700 Q400 680 800 700 L800 800 L0 800 Z" fill="#9b968f" stroke="#222" stroke-width="3"/>
+  <g fill="#b9b4ab" stroke="#222" stroke-width="2">
+    <ellipse cx="250" cy="730" rx="30" ry="12"/>
+    <ellipse cx="330" cy="760" rx="26" ry="10"/>
+    <ellipse cx="470" cy="740" rx="34" ry="12"/>
+    <ellipse cx="560" cy="775" rx="30" ry="11"/>
+    <ellipse cx="150" cy="775" rx="28" ry="10"/>
+    <ellipse cx="680" cy="735" rx="26" ry="10"/>
+    <ellipse cx="400" cy="785" rx="32" ry="10"/>
+    <ellipse cx="90" cy="740" rx="22" ry="8"/>
+  </g>
+  <!-- fog over ground -->
+  <ellipse cx="400" cy="705" rx="420" ry="22" fill="#f7f5f0" opacity="0.55"/>
+  <!-- roof cap -->
+  <path d="M330 232 L400 150 L470 232 Z" fill="#5a3d26" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+  <!-- board -->
+  <rect x="250" y="232" width="300" height="104" rx="16" ry="16" fill="#f3ead2" stroke="#4f7a4a" stroke-width="12"/>
+  <rect x="250" y="232" width="300" height="104" rx="16" ry="16" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="400" y="296" font-family="serif" font-size="25" text-anchor="middle" fill="#222">Welcome to Mossville</text>
+  <!-- post -->
+  <rect x="385" y="336" width="30" height="370" fill="#7a5533" stroke="#222" stroke-width="3"/>
+  <g stroke="#222" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M395 380 L395 440"/>
+    <path d="M402 480 L402 540"/>
+    <path d="M395 580 L395 640"/>
+  </g>
+  <!-- moss tufts at base -->
+  <g fill="#5c8a3c" stroke="#222" stroke-width="2">
+    <path d="M360 705 Q368 682 378 700 Q384 676 392 698 Q398 684 404 700 L404 712 L360 712 Z"/>
+    <path d="M408 708 Q416 686 426 704 Q432 680 440 702 Q446 690 450 712 L408 712 Z"/>
+    <path d="M372 716 Q380 700 388 716 Z"/>
+  </g>
+  <!-- foreground fog wisp -->
+  <ellipse cx="400" cy="640" rx="330" ry="18" fill="#f7f5f0" opacity="0.35"/>
+  <!-- signature -->
+  <text x="772" y="784" font-family="serif" font-size="22" text-anchor="end" fill="#222">P.</text>
+</svg>
