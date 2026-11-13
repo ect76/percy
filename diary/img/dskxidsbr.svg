@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4ecd8"/>
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="600" fill="#e6dcc6"/>
+  <!-- window -->
+  <rect x="560" y="80" width="190" height="260" fill="#d5dde2" stroke="#2a2420" stroke-width="5"/>
+  <path d="M560 300 Q600 280 640 296 T750 290 L750 340 L560 340 Z" fill="#9aa3a8"/>
+  <g fill="#7e878d">
+    <ellipse cx="600" cy="318" rx="12" ry="7"/>
+    <ellipse cx="640" cy="322" rx="12" ry="7"/>
+    <ellipse cx="680" cy="316" rx="12" ry="7"/>
+    <ellipse cx="718" cy="322" rx="12" ry="7"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.7">
+    <path d="M580 160 H730"/>
+    <path d="M580 210 H730"/>
+    <path d="M580 255 H730"/>
+  </g>
+  <path d="M655 80 V340 M560 210 H750" stroke="#2a2420" stroke-width="6" fill="none"/>
+  <!-- floor -->
+  <rect x="0" y="600" width="800" height="200" fill="#b98a5a"/>
+  <g stroke="#7a5536" stroke-width="3" fill="none">
+    <path d="M0 640 H800"/>
+    <path d="M0 690 H800"/>
+    <path d="M0 745 H800"/>
+    <path d="M120 600 V640 M330 640 V690 M560 600 V640 M250 690 V745 M600 690 V745"/>
+  </g>
+  <!-- table -->
+  <rect x="110" y="452" width="18" height="250" fill="#6e4628" stroke="#2a2420" stroke-width="4"/>
+  <rect x="380" y="452" width="18" height="250" fill="#6e4628" stroke="#2a2420" stroke-width="4"/>
+  <rect x="80" y="420" width="330" height="32" fill="#8a5a36" stroke="#2a2420" stroke-width="5"/>
+  <rect x="80" y="452" width="330" height="8" fill="#6e4628"/>
+  <!-- mouse shadow -->
+  <ellipse cx="380" cy="662" rx="160" ry="18" fill="#6e4b2c" opacity="0.4"/>
+  <!-- tail -->
+  <path d="M265 585 Q190 575 180 520 Q172 470 140 470" fill="none" stroke="#2a2420" stroke-width="12" stroke-linecap="round"/>
+  <path d="M265 585 Q190 575 180 520 Q172 470 140 470" fill="none" stroke="#c7a0a0" stroke-width="5" stroke-linecap="round"/>
+  <!-- legs -->
+  <g fill="#8e9aa3" stroke="#2a2420" stroke-width="4">
+    <rect x="318" y="598" width="26" height="54" rx="8"/>
+    <rect x="356" y="604" width="26" height="50" rx="8"/>
+    <rect x="404" y="604" width="26" height="50" rx="8"/>
+    <rect x="442" y="598" width="26" height="54" rx="8"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="380" cy="580" rx="120" ry="62" fill="#aeb9c2" stroke="#2a2420" stroke-width="5"/>
+  <path d="M300 540 Q380 520 450 545" fill="none" stroke="#5e6a72" stroke-width="3"/>
+  <path d="M300 612 Q380 636 450 606" fill="none" stroke="#5e6a72" stroke-width="3"/>
+  <g fill="#5e6a72">
+    <circle cx="300" cy="580" r="4"/>
+    <circle cx="340" cy="600" r="4"/>
+    <circle cx="420" cy="596" r="4"/>
+    <circle cx="350" cy="560" r="4"/>
+  </g>
+  <!-- key on back -->
+  <path d="M330 528 V500" stroke="#2a2420" stroke-width="6"/>
+  <circle cx="330" cy="488" r="12" fill="none" stroke="#2a2420" stroke-width="5"/>
+  <path d="M318 488 H342" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="330" cy="528" r="16" fill="#c9a24a" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="330" cy="528" r="5" fill="#8a6a2a"/>
+  <path d="M330 528 L352 516" stroke="#2a2420" stroke-width="4"/>
+  <!-- head -->
+  <circle cx="490" cy="555" r="46" fill="#aeb9c2" stroke="#2a2420" stroke-width="5"/>
+  <circle cx="462" cy="512" r="22" fill="#d9a3a0" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="470" cy="508" r="11" fill="#b87c79"/>
+  <circle cx="512" cy="506" r="20" fill="#d9a3a0" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="518" cy="503" r="10" fill="#b87c79"/>
+  <ellipse cx="535" cy="566" rx="22" ry="14" fill="#c4ccd3" stroke="#2a2420" stroke-width="4"/>
+  <circle cx="505" cy="548" r="6" fill="#2a2420"/>
+  <circle cx="507" cy="546" r="2" fill="#ffffff"/>
+  <circle cx="550" cy="562" r="5" fill="#7a3b3b"/>
+  <path d="M528 576 Q536 580 544 576" fill="none" stroke="#2a2420" stroke-width="2"/>
+  <!-- signature P. -->
+  <path d="M752 790 V752 H764 Q778 752 778 765 Q778 778 764 778 H752" fill="none" stroke="#2a2420" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="788" cy="790" r="3" fill="#2a2420"/>
+</svg>
