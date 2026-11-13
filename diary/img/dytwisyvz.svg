@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe3"/>
+  <!-- distant fog banks -->
+  <g fill="#d8d5cd" opacity="0.7">
+    <ellipse cx="150" cy="120" rx="220" ry="40"/>
+    <ellipse cx="640" cy="90" rx="200" ry="34"/>
+    <ellipse cx="400" cy="640" rx="420" ry="36" opacity="0.6"/>
+  </g>
+  <!-- building -->
+  <rect x="120" y="150" width="560" height="500" fill="#b9785a" stroke="#2b2622" stroke-width="4"/>
+  <g stroke="#8a5239" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M120 190 H680 M120 230 H680 M120 270 H680 M120 310 H680 M120 350 H680 M120 390 H680 M120 430 H680 M120 470 H680 M120 510 H680 M120 550 H680 M120 590 H680"/>
+  </g>
+  <!-- sign board -->
+  <rect x="250" y="170" width="300" height="36" fill="#f4efe3" stroke="#2b2622" stroke-width="3"/>
+  <path d="M270 188 H530" stroke="#2b2622" stroke-width="4" stroke-linecap="round"/>
+  <!-- window -->
+  <rect x="260" y="230" width="280" height="260" fill="#cfe3e6" stroke="#2b2622" stroke-width="6"/>
+  <path d="M400 230 V490 M260 360 H540" stroke="#2b2622" stroke-width="6"/>
+  <path d="M276 246 L300 246 L276 270 Z" fill="#ffffff" opacity="0.6"/>
+  <!-- sill -->
+  <rect x="240" y="490" width="320" height="18" fill="#e8e1d0" stroke="#2b2622" stroke-width="4"/>
+  <!-- spray can -->
+  <ellipse cx="400" cy="452" rx="36" ry="6" fill="#2b2622" opacity="0.25"/>
+  <rect x="366" y="448" width="68" height="10" fill="#8f9aa0" stroke="#2b2622" stroke-width="3"/>
+  <rect x="368" y="300" width="64" height="150" rx="10" fill="#3e7c6b" stroke="#2b2622" stroke-width="4"/>
+  <path d="M376 310 V440" stroke="#ffffff" stroke-width="5" opacity="0.45" stroke-linecap="round"/>
+  <rect x="368" y="340" width="64" height="52" fill="#e0a33a" stroke="#2b2622" stroke-width="3"/>
+  <path d="M380 366 H420" stroke="#2b2622" stroke-width="4" stroke-linecap="round"/>
+  <path d="M368 310 Q368 288 380 286 H420 Q432 288 432 310" fill="#8f9aa0" stroke="#2b2622" stroke-width="4"/>
+  <rect x="380" y="270" width="40" height="18" rx="4" fill="#2b2622"/>
+  <rect x="396" y="256" width="12" height="16" fill="#2b2622"/>
+  <!-- spray drops -->
+  <g fill="#3e7c6b" stroke="#2b2622" stroke-width="2">
+    <circle cx="430" cy="258" r="4"/>
+    <circle cx="446" cy="250" r="3"/>
+    <circle cx="452" cy="268" r="5"/>
+    <circle cx="466" cy="256" r="3"/>
+  </g>
+  <!-- sketched mural idea on side wall -->
+  <rect x="130" y="520" width="110" height="110" fill="none" stroke="#2b2622" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M140 620 Q165 570 190 600 T230 580" fill="none" stroke="#3e7c6b" stroke-width="5"/>
+  <circle cx="200" cy="545" r="12" fill="#e0a33a" stroke="#2b2622" stroke-width="2"/>
+  <!-- cobbles -->
+  <rect x="0" y="660" width="800" height="140" fill="#cbc6bb"/>
+  <g fill="#b4afa3" stroke="#2b2622" stroke-width="2" opacity="0.8">
+    <ellipse cx="80" cy="700" rx="40" ry="16"/>
+    <ellipse cx="200" cy="735" rx="48" ry="18"/>
+    <ellipse cx="340" cy="705" rx="42" ry="15"/>
+    <ellipse cx="470" cy="750" rx="50" ry="17"/>
+    <ellipse cx="620" cy="715" rx="46" ry="16"/>
+    <ellipse cx="730" cy="770" rx="44" ry="16"/>
+    <ellipse cx="120" cy="780" rx="40" ry="14"/>
+  </g>
+  <!-- fog over street -->
+  <rect x="0" y="690" width="800" height="50" fill="#f4efe3" opacity="0.35"/>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2b2622" stroke-width="4" stroke-linecap="round">
+    <path d="M730 730 V762 M730 730 H742 A9 9 0 0 1 742 748 H730"/>
+    <path d="M752 762 V762"/>
+  </g>
+</svg>
