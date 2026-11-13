@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9ccc6"/>
+      <stop offset="0.55" stop-color="#e4e2da"/>
+      <stop offset="1" stop-color="#f4efe3"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4efe3" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#b9bfa5" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#8d9a7a" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4efe3" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f4efe3" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f4efe3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- misty sky -->
+  <rect x="0" y="0" width="800" height="460" fill="url(#sky)"/>
+
+  <!-- distant bell tower, veiled by fog -->
+  <g opacity="0.4" stroke="#4a4540" stroke-width="2" fill="#a8aaa2">
+    <rect x="600" y="190" width="46" height="190"/>
+    <polygon points="594,190 642,190 618,128"/>
+    <rect x="612" y="230" width="22" height="26" fill="#e4e2da"/>
+    <line x1="618" y1="128" x2="618" y2="106"/>
+  </g>
+
+  <!-- bare trees, fading with distance -->
+  <g stroke="#3a3530" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M120 430 L124 300 M124 340 L96 300 M124 330 L150 290 M124 300 L112 262"/>
+    <path d="M250 430 L246 330 M246 370 L222 332 M246 350 L272 318 M246 330 L240 296"/>
+    <path d="M700 430 L704 340 M704 380 L684 350 M704 360 L726 336"/>
+  </g>
+
+  <!-- far fog band over the tree line -->
+  <rect x="0" y="250" width="800" height="150" fill="url(#fog)" opacity="0.7"/>
+
+  <!-- village green: bare grass fading into mist -->
+  <rect x="0" y="420" width="800" height="380" fill="url(#grass)"/>
+
+  <!-- bare grass tufts -->
+  <g stroke="#5b6450" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M60 690 l-6 -14 M66 690 l0 -18 M72 690 l6 -14"/>
+    <path d="M150 740 l-5 -12 M156 740 l1 -16 M162 740 l6 -12"/>
+    <path d="M610 700 l-6 -14 M616 700 l0 -18 M622 700 l6 -14"/>
+    <path d="M700 620 l-5 -12 M706 620 l1 -16"/>
+    <path d="M90 560 l-5 -10 M96 560 l0 -14"/>
+  </g>
+
+  <!-- cobbled path edge -->
+  <g fill="#e4e2da" stroke="#2b2622" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="330" cy="470" rx="14" ry="6"/>
+    <ellipse cx="352" cy="478" rx="12" ry="5"/>
+    <ellipse cx="312" cy="484" rx="13" ry="5"/>
+    <ellipse cx="470" cy="470" rx="14" ry="6"/>
+    <ellipse cx="492" cy="476" rx="12" ry="5"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="420" cy="612" rx="190" ry="66" fill="#6f8a94" stroke="#2b2622" stroke-width="3"/>
+  <ellipse cx="420" cy="612" rx="160" ry="50" fill="#89a3ab"/>
+  <g fill="none" stroke="#2b2622" stroke-width="1.5" opacity="0.6">
+    <ellipse cx="400" cy="606" rx="70" ry="14"/>
+    <ellipse cx="460" cy="630" rx="44" ry="9"/>
+  </g>
+  <!-- reeds at pond edge -->
+  <g stroke="#3a3530" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M250 634 Q246 600 252 572"/>
+    <path d="M260 638 Q262 606 256 580"/>
+    <path d="M598 610 Q602 584 596 560"/>
+  </g>
+
+  <!-- Welcome sign on posts -->
+  <g stroke="#2b2622" stroke-width="3" fill="none">
+    <line x1="226" y1="520" x2="226" y2="610"/>
+    <line x1="332" y1="520" x2="332" y2="600"/>
+  </g>
+  <rect x="190" y="470" width="180" height="62" fill="#e8dcc0" stroke="#2b2622" stroke-width="3"/>
+  <rect x="198" y="478" width="164" height="46" fill="none" stroke="#2b2622" stroke-width="1.2"/>
+  <text x="280" y="497" text-anchor="middle" font-family="serif" font-size="16" fill="#2b2622">Welcome to</text>
+  <text x="280" y="518" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#2b2622">Mossbrook</text>
+
+  <!-- foreground fog veil -->
+  <rect x="0" y="500" width="800" height="110" fill="url(#fog)" opacity="0.6"/>
+
+  <!-- foreground ink strokes for the ground -->
+  <g stroke="#2b2622" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M40 730 Q120 722 200 732"/>
+    <path d="M520 748 Q620 738 740 752"/>
+  </g>
+
+  <!-- signature corner -->
+  <text x="772" y="778" text-anchor="end" font-family="serif" font-size="18" fill="#2b2622">P.</text>
+</svg>
