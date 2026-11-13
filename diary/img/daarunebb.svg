@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper ground -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe2"/>
+
+  <!-- cottage window onto the fogged lane -->
+  <rect x="40" y="40" width="200" height="220" fill="#dfe6e8" stroke="#222" stroke-width="4"/>
+  <rect x="40" y="40" width="200" height="220" fill="none" stroke="#222" stroke-width="4"/>
+  <line x1="140" y1="40" x2="140" y2="260" stroke="#222" stroke-width="4"/>
+  <line x1="40" y1="150" x2="240" y2="150" stroke="#222" stroke-width="4"/>
+  <path d="M60 240 L110 175 L170 175 L222 240 Z" fill="#b9b2a4" stroke="#222" stroke-width="2"/>
+  <g fill="#9c9486" stroke="#222" stroke-width="1">
+    <ellipse cx="90" cy="222" rx="8" ry="5"/>
+    <ellipse cx="115" cy="230" rx="8" ry="5"/>
+    <ellipse cx="160" cy="224" rx="8" ry="5"/>
+    <ellipse cx="190" cy="232" rx="8" ry="5"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="50" fill="#ffffff" opacity="0.55"/>
+  <rect x="0" y="430" width="800" height="40" fill="#ffffff" opacity="0.45"/>
+  <rect x="0" y="520" width="800" height="30" fill="#ffffff" opacity="0.35"/>
+
+  <!-- desk -->
+  <rect x="0" y="600" width="800" height="200" fill="#8a6a4a" stroke="#222" stroke-width="4"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#222" stroke-width="6"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#6e5238" stroke-width="3"/>
+
+  <!-- paper stack and pencils -->
+  <rect x="80" y="555" width="180" height="45" fill="#fffdf6" stroke="#222" stroke-width="3"/>
+  <rect x="88" y="545" width="170" height="12" fill="#fffdf6" stroke="#222" stroke-width="3"/>
+  <line x1="100" y1="575" x2="240" y2="575" stroke="#b8b0a0" stroke-width="2"/>
+  <g transform="translate(300,590) rotate(-12)">
+    <rect x="0" y="-8" width="110" height="16" fill="#e8c24a" stroke="#222" stroke-width="3"/>
+    <rect x="-14" y="-8" width="14" height="16" fill="#f1d9b5" stroke="#222" stroke-width="3"/>
+  </g>
+  <g transform="translate(240,600) rotate(6)">
+    <rect x="0" y="-6" width="90" height="12" fill="#c85a4a" stroke="#222" stroke-width="3"/>
+  </g>
+
+  <!-- motion arcs behind the reversing mouse -->
+  <g fill="none" stroke="#222" stroke-width="3" stroke-linecap="round">
+    <path d="M610 500 Q625 512 610 524"/>
+    <path d="M628 486 Q650 505 628 528"/>
+  </g>
+
+  <!-- tin mouse, caught mid-reverse -->
+  <g transform="translate(380,470) rotate(-6)">
+    <!-- tail -->
+    <path d="M-115 -5 C-170 -10 -185 -60 -150 -72" fill="none" stroke="#222" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-115 -5 C-170 -10 -185 -60 -150 -72" fill="none" stroke="#c99aa0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- legs, one kicked back, one lifted -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M-55 50 L-85 112" stroke="#222" stroke-width="20"/>
+      <path d="M-55 50 L-85 112" stroke="#8d99a6" stroke-width="12"/>
+      <path d="M45 50 L20 115" stroke="#222" stroke-width="20"/>
+      <path d="M45 50 L20 115" stroke="#8d99a6" stroke-width="12"/>
+      <path d="M85 40 L120 92" stroke="#222" stroke-width="18"/>
+      <path d="M85 40 L120 92" stroke="#8d99a6" stroke-width="10"/>
+    </g>
+    <ellipse cx="-88" cy="114" rx="14" ry="8" fill="#8d99a6" stroke="#222" stroke-width="3"/>
+    <ellipse cx="18" cy="118" rx="14" ry="8" fill="#8d99a6" stroke="#222" stroke-width="3"/>
+    <ellipse cx="124" cy="94" rx="12" ry="8" fill="#8d99a6" stroke="#222" stroke-width="3"/>
+
+    <!-- body -->
+    <ellipse cx="0" cy="0" rx="120" ry="66" fill="#9aa6b2" stroke="#222" stroke-width="5"/>
+    <path d="M-100 15 Q0 60 100 15" fill="none" stroke="#222" stroke-width="3"/>
+    <path d="M-70 -40 Q-40 -55 -10 -48" fill="none" stroke="#e6edf2" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- winding escutcheon on the flank -->
+    <circle cx="-10" cy="-8" r="15" fill="#d4a94f" stroke="#222" stroke-width="3"/>
+    <circle cx="-10" cy="-8" r="5" fill="#5a4a2a"/>
+    <line x1="-10" y1="-8" x2="-10" y2="-18" stroke="#5a4a2a" stroke-width="3"/>
+
+    <!-- ears -->
+    <circle cx="118" cy="-66" r="22" fill="#d9a0a0" stroke="#222" stroke-width="4"/>
+    <circle cx="150" cy="-62" r="22" fill="#d9a0a0" stroke="#222" stroke-width="4"/>
+
+    <!-- head -->
+    <circle cx="135" cy="-22" r="42" fill="#9aa6b2" stroke="#222" stroke-width="5"/>
+    <ellipse cx="176" cy="-14" rx="18" ry="13" fill="#b9c2cb" stroke="#222" stroke-width="4"/>
+    <circle cx="186" cy="-18" r="5" fill="#222"/>
+    <circle cx="150" cy="-36" r="7" fill="#222"/>
+    <circle cx="152" cy="-38" r="2" fill="#ffffff"/>
+  </g>
+
+  <!-- brass key beside the mouse -->
+  <g transform="translate(610,560) rotate(18)">
+    <rect x="-6" y="25" width="12" height="150" fill="#d4a94f" stroke="#222" stroke-width="4"/>
+    <rect x="6" y="118" width="40" height="14" fill="#d4a94f" stroke="#222" stroke-width="3"/>
+    <rect x="6" y="150" width="30" height="12" fill="#d4a94f" stroke="#222" stroke-width="3"/>
+    <circle cx="0" cy="0" r="28" fill="#d4a94f" stroke="#222" stroke-width="6"/>
+    <circle cx="0" cy="0" r="10" fill="#f4efe2" stroke="#222" stroke-width="3"/>
+    <path d="M-14 -16 Q-6 -24 2 -18" fill="none" stroke="#fff6d0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="784" font-size="28" text-anchor="end" fill="#222">P.</text>
+</svg>
