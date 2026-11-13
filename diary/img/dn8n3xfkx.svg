@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#efe9dc"/>
+
+  <!-- distant fog-hidden shapes -->
+  <g opacity="0.35" fill="#8f9a98">
+    <rect x="560" y="300" width="50" height="130"/>
+    <polygon points="555,300 585,250 615,300"/>
+    <rect x="580" y="230" width="10" height="22"/>
+    <ellipse cx="170" cy="360" rx="60" ry="70"/>
+    <ellipse cx="680" cy="380" rx="70" ry="60"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="240" width="800" height="70" fill="#f6f4ee" opacity="0.7"/>
+  <rect x="0" y="420" width="800" height="45" fill="#f6f4ee" opacity="0.6"/>
+  <rect x="0" y="500" width="800" height="28" fill="#f6f4ee" opacity="0.5"/>
+
+  <!-- green -->
+  <path d="M0 470 Q200 455 400 470 T800 468 L800 800 L0 800 Z" fill="#7fa06a" stroke="#2b2b2b" stroke-width="2.5"/>
+  <path d="M0 600 Q400 580 800 600 L800 800 L0 800 Z" fill="#6b8f5a"/>
+
+  <!-- grass tufts -->
+  <g fill="none" stroke="#2f4a2a" stroke-width="2" stroke-linecap="round">
+    <path d="M60 520 l-6 -16 M60 520 l0 -20 M60 520 l6 -15"/>
+    <path d="M120 580 l-6 -16 M120 580 l0 -20 M120 580 l6 -15"/>
+    <path d="M300 660 l-6 -16 M300 660 l0 -20 M300 660 l6 -15"/>
+    <path d="M520 640 l-6 -16 M520 640 l0 -20 M520 640 l6 -15"/>
+    <path d="M700 530 l-6 -16 M700 530 l0 -20 M700 530 l6 -15"/>
+    <path d="M640 700 l-6 -16 M640 700 l0 -20 M640 700 l6 -15"/>
+    <path d="M90 720 l-6 -16 M90 720 l0 -20 M90 720 l6 -15"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="430" cy="545" rx="200" ry="58" fill="#c9d8d4" stroke="#2b2b2b" stroke-width="3"/>
+  <ellipse cx="430" cy="545" rx="185" ry="48" fill="none" stroke="#9fb5b0" stroke-width="1.5"/>
+  <g fill="none" stroke="#8aa3a0" stroke-width="1.5" stroke-linecap="round">
+    <path d="M330 540 q15 -5 30 0"/>
+    <path d="M480 555 q18 -5 36 0"/>
+    <path d="M400 565 q12 -4 24 0"/>
+    <path d="M300 556 q10 -3 20 0"/>
+  </g>
+  <!-- reflected sign hint -->
+  <g fill="#e8dcc0" opacity="0.5">
+    <rect x="520" y="520" width="60" height="6"/>
+  </g>
+
+  <!-- signpost -->
+  <rect x="110" y="390" width="14" height="170" fill="#8a7b68" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="218" y="390" width="14" height="170" fill="#8a7b68" stroke="#2b2b2b" stroke-width="3"/>
+
+  <!-- sign board -->
+  <rect x="78" y="300" width="244" height="96" rx="6" fill="#e8dcc0" stroke="#2b2b2b" stroke-width="4"/>
+  <rect x="90" y="312" width="220" height="72" rx="3" fill="none" stroke="#7a6c58" stroke-width="1.5"/>
+  <text x="200" y="344" text-anchor="middle" font-size="22" fill="#2b2b2b">Welcome to</text>
+  <text x="200" y="378" text-anchor="middle" font-size="28" fill="#2b2b2b">Mossbrook</text>
+
+  <!-- cobbled lane foreground -->
+  <g fill="#b9b2a4" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="90" cy="760" rx="34" ry="12"/>
+    <ellipse cx="160" cy="772" rx="36" ry="12"/>
+    <ellipse cx="240" cy="758" rx="30" ry="11"/>
+    <ellipse cx="320" cy="776" rx="34" ry="12"/>
+    <ellipse cx="410" cy="762" rx="32" ry="11"/>
+    <ellipse cx="500" cy="778" rx="36" ry="12"/>
+    <ellipse cx="590" cy="760" rx="32" ry="11"/>
+    <ellipse cx="680" cy="774" rx="34" ry="12"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="784" text-anchor="end" font-size="22" fill="#2b2b2b">P.</text>
+</svg>
