@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#2a2a2a" stroke-width="2" opacity="0.5"/>
+
+  <!-- cobbled floor -->
+  <g fill="#e2d5ba" stroke="#2a2a2a" stroke-width="2.5">
+    <ellipse cx="120" cy="620" rx="60" ry="26"/>
+    <ellipse cx="230" cy="660" rx="72" ry="28"/>
+    <ellipse cx="370" cy="640" rx="66" ry="26"/>
+    <ellipse cx="500" cy="680" rx="78" ry="30"/>
+    <ellipse cx="640" cy="630" rx="68" ry="26"/>
+    <ellipse cx="740" cy="690" rx="56" ry="24"/>
+    <ellipse cx="170" cy="730" rx="70" ry="24"/>
+    <ellipse cx="400" cy="740" rx="84" ry="26"/>
+    <ellipse cx="610" cy="750" rx="66" ry="24"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="410" cy="520" rx="260" ry="26" fill="#b9aa8c" opacity="0.6"/>
+
+  <!-- base plate -->
+  <rect x="250" y="470" width="300" height="40" rx="8" fill="#9aa6ad" stroke="#2a2a2a" stroke-width="4"/>
+  <rect x="262" y="478" width="276" height="10" rx="4" fill="#c4ccd1"/>
+  <g fill="#f3ead6" stroke="#2a2a2a" stroke-width="2">
+    <circle cx="270" cy="490" r="4"/>
+    <circle cx="530" cy="490" r="4"/>
+  </g>
+  <!-- cam disc and gear -->
+  <circle cx="380" cy="490" r="14" fill="#7d8990" stroke="#2a2a2a" stroke-width="3"/>
+  <circle cx="380" cy="490" r="4" fill="#2a2a2a"/>
+  <circle cx="440" cy="490" r="10" fill="none" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M440 478 v4 M440 498 v4 M428 490 h4 M448 490 h4" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- legs -->
+  <g fill="#b7c3c9" stroke="#2a2a2a" stroke-width="3">
+    <rect x="330" y="436" width="16" height="36" rx="5"/>
+    <rect x="368" y="438" width="16" height="36" rx="5"/>
+    <rect x="420" y="438" width="16" height="36" rx="5"/>
+    <rect x="456" y="436" width="16" height="36" rx="5"/>
+  </g>
+
+  <!-- tail -->
+  <path d="M276 402 q-64 -30 -44 -92 q10 -22 30 -6" fill="none" stroke="#2a2a2a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M276 402 q-64 -30 -44 -92 q10 -22 30 -6" fill="none" stroke="#b7c3c9" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="400" cy="400" rx="130" ry="60" fill="#c9d3d8" stroke="#2a2a2a" stroke-width="4"/>
+  <!-- body shading -->
+  <path d="M320 425 q80 40 170 0" fill="none" stroke="#7d8990" stroke-width="3" opacity="0.7"/>
+  <path d="M340 440 q60 22 120 0" fill="none" stroke="#7d8990" stroke-width="2" opacity="0.5"/>
+  <!-- body panel rivets -->
+  <g fill="#2a2a2a">
+    <circle cx="350" cy="390" r="3"/>
+    <circle cx="400" cy="380" r="3"/>
+    <circle cx="450" cy="390" r="3"/>
+  </g>
+
+  <!-- head -->
+  <circle cx="530" cy="370" r="48" fill="#c9d3d8" stroke="#2a2a2a" stroke-width="4"/>
+  <!-- ears -->
+  <circle cx="505" cy="326" r="22" fill="#c9d3d8" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="505" cy="326" r="11" fill="#e8b4b8"/>
+  <circle cx="548" cy="322" r="22" fill="#c9d3d8" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="548" cy="322" r="11" fill="#e8b4b8"/>
+  <!-- snout -->
+  <ellipse cx="578" cy="385" rx="26" ry="16" fill="#c9d3d8" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="594" cy="382" r="5" fill="#e8b4b8" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- eye -->
+  <circle cx="548" cy="362" r="6" fill="#2a2a2a"/>
+  <circle cx="550" cy="360" r="2" fill="#f3ead6"/>
+  <!-- whiskers -->
+  <path d="M586 392 l34 -6 M586 398 l34 4" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- winding key on side of plate -->
+  <path d="M552 490 h70" stroke="#2a2a2a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M552 490 h70" stroke="#d9b56b" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="636" cy="490" r="20" fill="#d9b56b" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="636" cy="490" r="8" fill="#f3ead6" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="4" stroke-linecap="round">
+    <path d="M736 736 v36"/>
+    <path d="M736 736 h14 a9 9 0 0 1 0 18 h-14"/>
+  </g>
+  <circle cx="758" cy="766" r="3" fill="#2a2a2a"/>
+</svg>
