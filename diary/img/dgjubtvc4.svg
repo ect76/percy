@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f3ecdc"/>
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="600" fill="#e7dcc4"/>
+  <!-- fog bands -->
+  <rect x="0" y="0" width="800" height="150" fill="#dfe3e2" opacity="0.7"/>
+  <path d="M0 120 Q120 100 240 125 T480 118 T800 122 L800 170 L0 170 Z" fill="#f5f2ea" opacity="0.6"/>
+  <path d="M0 260 Q160 240 300 265 T620 255 T800 262 L800 290 L0 290 Z" fill="#f5f2ea" opacity="0.4"/>
+  <!-- floor -->
+  <rect x="0" y="710" width="800" height="90" fill="#cfc6b2"/>
+  <g fill="none" stroke="#6d6557" stroke-width="1.5" opacity="0.6">
+    <ellipse cx="90" cy="740" rx="30" ry="12"/>
+    <ellipse cx="230" cy="772" rx="34" ry="11"/>
+    <ellipse cx="410" cy="748" rx="28" ry="10"/>
+    <ellipse cx="580" cy="778" rx="36" ry="12"/>
+    <ellipse cx="710" cy="736" rx="30" ry="11"/>
+  </g>
+  <!-- counter -->
+  <rect x="170" y="600" width="460" height="110" fill="#9a6b43" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="160" y="592" width="480" height="16" fill="#b5835a" stroke="#2b2b2b" stroke-width="3"/>
+  <g stroke="#6e4a2c" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M220 625 L220 700"/>
+    <path d="M370 625 L370 700"/>
+    <path d="M520 625 L520 700"/>
+  </g>
+  <!-- chalkboard frame -->
+  <rect x="500" y="170" width="260" height="320" fill="#8b5e3c" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="512" y="182" width="236" height="296" fill="#2f3d37"/>
+  <!-- smudge -->
+  <ellipse cx="744" cy="300" rx="16" ry="50" fill="#9aa59f" opacity="0.25"/>
+  <!-- menu text -->
+  <g fill="#f0efe6" font-family="serif">
+    <text x="630" y="222" font-size="18" text-anchor="middle" letter-spacing="1">DOT'S TEAROOM</text>
+    <line x1="524" y1="232" x2="736" y2="232" stroke="#f0efe6" stroke-width="1" opacity="0.6"/>
+    <text x="524" y="260" font-size="13">Pot of tea (large)</text>
+    <text x="736" y="260" font-size="13" text-anchor="end">2.40</text>
+    <text x="524" y="296" font-size="13">Pot of tea (small)</text>
+    <text x="736" y="296" font-size="13" text-anchor="end">1.60</text>
+    <text x="524" y="332" font-size="13">Scone with jam &amp; cream</text>
+    <text x="736" y="332" font-size="13" text-anchor="end">3.20</text>
+    <text x="524" y="368" font-size="13">Victoria sponge slice</text>
+    <text x="736" y="368" font-size="13" text-anchor="end">2.80</text>
+    <text x="524" y="404" font-size="13">Toasted teacake</text>
+    <text x="736" y="404" font-size="13" text-anchor="end">2.10</text>
+    <text x="524" y="440" font-size="13">Mossbrook honey,</text>
+    <text x="524" y="458" font-size="13">jar to take away</text>
+    <text x="736" y="458" font-size="13" text-anchor="end">4.50</text>
+  </g>
+  <!-- cake stand: flared base -->
+  <ellipse cx="300" cy="600" rx="62" ry="10" fill="#8fbfa6" stroke="#2b2b2b" stroke-width="2.5"/>
+  <path d="M242 598 Q262 572 290 540 L310 540 Q338 572 358 598 Z" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <path d="M262 585 Q290 570 300 556" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <!-- stem 1 -->
+  <rect x="293" y="468" width="14" height="74" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- bottom plate -->
+  <ellipse cx="300" cy="476" rx="120" ry="24" fill="#8fbfa6" stroke="#2b2b2b" stroke-width="2.5"/>
+  <ellipse cx="300" cy="468" rx="120" ry="24" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <path d="M200 462 Q230 448 262 446" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <!-- scones on bottom plate -->
+  <g fill="#d9a35e" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="255" cy="458" rx="14" ry="8"/>
+    <ellipse cx="300" cy="454" rx="14" ry="8"/>
+    <ellipse cx="345" cy="458" rx="14" ry="8"/>
+  </g>
+  <!-- stem 2 -->
+  <rect x="296" y="380" width="10" height="92" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- middle plate -->
+  <ellipse cx="300" cy="392" rx="86" ry="17" fill="#8fbfa6" stroke="#2b2b2b" stroke-width="2.5"/>
+  <ellipse cx="300" cy="384" rx="86" ry="17" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- sponge slices on middle plate -->
+  <g fill="#f4e7c5" stroke="#2b2b2b" stroke-width="2">
+    <rect x="262" y="372" width="22" height="14" rx="2"/>
+    <rect x="300" y="368" width="22" height="14" rx="2"/>
+  </g>
+  <!-- stem 3 -->
+  <rect x="298" y="318" width="6" height="68" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- top plate, askew -->
+  <g transform="translate(6,-4) rotate(-8 300 318)">
+    <ellipse cx="300" cy="326" rx="56" ry="12" fill="#8fbfa6" stroke="#2b2b2b" stroke-width="2.5"/>
+    <ellipse cx="300" cy="318" rx="56" ry="12" fill="#bfe3cf" stroke="#2b2b2b" stroke-width="2.5"/>
+    <ellipse cx="290" cy="312" rx="20" ry="6" fill="#f4e7c5" stroke="#2b2b2b" stroke-width="2"/>
+  </g>
+  <path d="M262 314 Q272 306 284 304" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <!-- signature -->
+  <text x="40" y="772" font-size="22" font-family="serif" fill="#2b2b2b">P.</text>
+</svg>
