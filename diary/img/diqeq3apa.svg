@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="430" fill="#c9d3d6"/>
+  <!-- distant hills in fog -->
+  <path d="M0 360 Q120 300 240 350 T480 340 T800 320 L800 430 L0 430 Z" fill="#b3bfc2" stroke="#2b2b2b" stroke-width="1.5"/>
+  <!-- bell tower -->
+  <rect x="372" y="200" width="56" height="230" fill="#d9cdb2" stroke="#2b2b2b" stroke-width="2.5"/>
+  <polygon points="362,200 400,110 438,200" fill="#8c6a5a" stroke="#2b2b2b" stroke-width="2.5"/>
+  <circle cx="400" cy="250" r="19" fill="#f8f3e6" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="400" y1="250" x2="400" y2="237" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="400" y1="250" x2="410" y2="256" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M384 330 Q384 306 400 306 Q416 306 416 330 Z" fill="#3a3a3a"/>
+  <rect x="380" y="340" width="40" height="55" fill="#3a3a3a"/>
+  <!-- lane -->
+  <polygon points="150,800 650,800 436,420 364,420" fill="#b9ab92" stroke="#2b2b2b" stroke-width="2.5"/>
+  <g fill="none" stroke="#6f6353" stroke-width="1.5">
+    <ellipse cx="300" cy="760" rx="14" ry="6"/>
+    <ellipse cx="480" cy="735" rx="12" ry="5"/>
+    <ellipse cx="380" cy="690" rx="10" ry="4"/>
+    <ellipse cx="260" cy="650" rx="8" ry="3.5"/>
+    <ellipse cx="520" cy="640" rx="8" ry="3.5"/>
+    <ellipse cx="400" cy="560" rx="6" ry="3"/>
+    <ellipse cx="350" cy="500" rx="5" ry="2.5"/>
+    <ellipse cx="450" cy="470" rx="4" ry="2"/>
+    <ellipse cx="620" cy="770" rx="16" ry="6"/>
+    <ellipse cx="200" cy="720" rx="12" ry="5"/>
+  </g>
+  <!-- cottage on left -->
+  <polygon points="0,250 230,300 230,640 0,640" fill="#e7d9bd" stroke="#2b2b2b" stroke-width="2.5"/>
+  <polygon points="-10,250 120,200 240,300 0,300" fill="#7a5a4a" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="50" y="430" width="80" height="210" fill="#4a3a32" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="160" y="380" width="40" height="36" fill="#f8f3e6" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="180" y1="380" x2="180" y2="416" stroke="#2b2b2b" stroke-width="1.5"/>
+  <!-- doorstep -->
+  <rect x="30" y="640" width="140" height="26" fill="#a39682" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- foreground ground -->
+  <path d="M0 666 L0 800 L800 800 L800 690 Q500 650 150 800 Z" fill="none"/>
+  <!-- bakery on right -->
+  <rect x="580" y="300" width="220" height="260" fill="#e3c9a8" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="620" y="470" width="70" height="90" fill="#6b4b3a" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="710" y="350" width="60" height="50" fill="#f8f3e6" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- striped awning -->
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="570" y="390" width="40" height="40" fill="#b5493b"/>
+    <rect x="610" y="390" width="40" height="40" fill="#f5efe0"/>
+    <rect x="650" y="390" width="40" height="40" fill="#b5493b"/>
+    <rect x="690" y="390" width="40" height="40" fill="#f5efe0"/>
+    <rect x="730" y="390" width="40" height="40" fill="#b5493b"/>
+  </g>
+  <path d="M570 430 Q585 452 610 430 Q625 452 650 430 Q665 452 690 430 Q705 452 730 430 Q745 452 770 430 L770 430 L570 430 Z" fill="#b5493b" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M570 390 L770 390" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- wind streaks -->
+  <g fill="none" stroke="#5d6b70" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M250 560 Q300 545 360 565 T470 555"/>
+    <path d="M200 600 Q260 585 320 605"/>
+    <path d="M500 610 Q560 595 620 615 T720 605"/>
+    <path d="M330 470 Q370 460 410 472"/>
+    <path d="M470 520 Q510 508 548 524"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="380" width="800" height="50" fill="#f5f0e4" opacity="0.55"/>
+  <rect x="0" y="440" width="800" height="40" fill="#f5f0e4" opacity="0.4"/>
+  <rect x="0" y="500" width="800" height="60" fill="#f5f0e4" opacity="0.3"/>
+  <!-- small P. signature -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round">
+    <path d="M752 752 L752 774 M752 752 L762 752 Q768 752 768 758 Q768 764 762 764 L752 764"/>
+  </g>
+  <circle cx="774" cy="774" r="2.5" fill="#2b2b2b"/>
+</svg>
