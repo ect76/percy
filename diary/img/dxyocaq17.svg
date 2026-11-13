@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and fog -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+  <rect x="0" y="0" width="800" height="120" fill="#e4dfd2"/>
+  <ellipse cx="180" cy="70" rx="260" ry="60" fill="#f7f4ec" opacity="0.7"/>
+  <ellipse cx="640" cy="210" rx="220" ry="46" fill="#f7f4ec" opacity="0.6"/>
+  <ellipse cx="400" cy="740" rx="420" ry="50" fill="#f7f4ec" opacity="0.6"/>
+
+  <!-- back wall of the office -->
+  <rect x="78" y="120" width="644" height="458" fill="#d8ccb2" stroke="#2b2118" stroke-width="2.5"/>
+
+  <!-- floor of cobbles -->
+  <rect x="40" y="578" width="720" height="182" fill="#c9bfa8"/>
+  <g fill="none" stroke="#8d8270" stroke-width="1.5" opacity="0.7">
+    <ellipse cx="120" cy="620" rx="34" ry="12"/>
+    <ellipse cx="200" cy="650" rx="30" ry="11"/>
+    <ellipse cx="290" cy="615" rx="36" ry="12"/>
+    <ellipse cx="520" cy="630" rx="34" ry="12"/>
+    <ellipse cx="640" cy="665" rx="38" ry="13"/>
+    <ellipse cx="380" cy="690" rx="36" ry="12"/>
+    <ellipse cx="170" cy="725" rx="34" ry="12"/>
+    <ellipse cx="560" cy="740" rx="36" ry="12"/>
+  </g>
+
+  <!-- shelves and posts -->
+  <rect x="60" y="120" width="18" height="470" fill="#7a5c3e" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="722" y="120" width="18" height="470" fill="#7a5c3e" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="60" y="330" width="680" height="18" fill="#8a6a4a" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="60" y="560" width="680" height="18" fill="#8a6a4a" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="60" y="578" width="680" height="10" fill="#5e4630" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- cream card on string, hanging from the upper shelf -->
+  <line x1="200" y1="348" x2="200" y2="382" stroke="#7b6a52" stroke-width="2.5"/>
+  <path d="M182 380 L268 380 L268 452 L182 452 Z" fill="#fbf6e6" stroke="#2b2118" stroke-width="2.5"/>
+  <path d="M258 380 L268 380 L268 392 Q262 386 258 380 Z" fill="#e6dcc0" stroke="#2b2118" stroke-width="1.5"/>
+  <text x="191" y="406" font-family="serif" font-size="10" fill="#2b2118">Unclaimed - 30 days.</text>
+  <text x="191" y="422" font-family="serif" font-size="10" fill="#2b2118">Ask at counter.</text>
+  <path d="M186 438 L256 438" stroke="#9c8f78" stroke-width="1"/>
+
+  <!-- tarnished umbrella cylinder on lower shelf -->
+  <rect x="340" y="430" width="110" height="128" fill="#9b9378" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="352" y="430" width="10" height="128" fill="#b9b297" opacity="0.8"/>
+  <path d="M340 530 Q395 550 450 530" fill="none" stroke="#2b2118" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="395" cy="430" rx="58" ry="12" fill="#b5ad8a" stroke="#2b2118" stroke-width="2.5"/>
+  <ellipse cx="395" cy="430" rx="46" ry="7" fill="#6f6a52"/>
+
+  <!-- three umbrellas with wooden handles -->
+  <g stroke="#5a4128" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M370 300 L370 436"/>
+    <path d="M395 290 L395 436"/>
+    <path d="M420 300 L420 436"/>
+  </g>
+  <g stroke="#b07f4c" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M362 300 a8 8 0 0 1 16 0"/>
+    <path d="M387 290 a8 8 0 0 1 16 0"/>
+    <path d="M412 300 a8 8 0 0 1 16 0"/>
+  </g>
+  <path d="M362 300 L362 304 M387 290 L387 294 M412 300 L412 304" stroke="#5a4128" stroke-width="2"/>
+
+  <!-- green cloth book on lower shelf -->
+  <rect x="540" y="420" width="120" height="138" fill="#2f5a3e" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="540" y="420" width="10" height="10" fill="#b9c7a8" opacity="0.9"/>
+  <rect x="650" y="420" width="10" height="10" fill="#b9c7a8" opacity="0.9"/>
+  <rect x="540" y="548" width="10" height="10" fill="#b9c7a8" opacity="0.9"/>
+  <rect x="650" y="548" width="10" height="10" fill="#b9c7a8" opacity="0.9"/>
+  <line x1="552" y1="420" x2="552" y2="558" stroke="#1d3a27" stroke-width="2"/>
+  <path d="M598 420 L598 478 L604 472 L610 478 L610 420 Z" fill="#b5654a" stroke="#2b2118" stroke-width="1.2" opacity="0.85"/>
+  <rect x="548" y="462" width="104" height="66" fill="#fbf6e6" stroke="#2b2118" stroke-width="2"/>
+  <text x="554" y="476" font-family="serif" font-size="7.5" font-weight="bold" fill="#2b2118">LOST PROPERTY - MOSSBROOK.</text>
+  <text x="554" y="489" font-family="serif" font-size="7.5" fill="#2b2118">Please enter date,</text>
+  <text x="554" y="501" font-family="serif" font-size="7.5" fill="#2b2118">item, and finder's</text>
+  <text x="554" y="513" font-family="serif" font-size="7.5" fill="#2b2118">name.</text>
+
+  <!-- signature -->
+  <text x="758" y="782" font-family="serif" font-size="16" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
