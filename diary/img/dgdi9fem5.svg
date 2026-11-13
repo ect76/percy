@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+  <!-- sky wash -->
+  <rect x="0" y="0" width="800" height="330" fill="#dfe5e3"/>
+  <!-- distant tree line -->
+  <g fill="#a9b8ad" stroke="#2b2b2b" stroke-width="2">
+    <circle cx="150" cy="330" r="70"/>
+    <circle cx="240" cy="310" r="80"/>
+    <circle cx="470" cy="325" r="60"/>
+    <circle cx="530" cy="300" r="70"/>
+  </g>
+  <!-- bell tower -->
+  <g stroke="#2b2b2b" stroke-width="3" fill="#e9e1cf">
+    <rect x="565" y="200" width="90" height="300"/>
+    <polygon points="560,200 610,120 660,200" fill="#8e9c96"/>
+    <line x1="610" y1="120" x2="610" y2="92"/>
+    <circle cx="610" cy="262" r="28" fill="#fbf8ef"/>
+    <line x1="610" y1="262" x2="610" y2="243"/>
+    <line x1="610" y1="262" x2="624" y2="268"/>
+    <rect x="590" y="330" width="40" height="50" fill="#5d6e68"/>
+    <line x1="565" y1="425" x2="655" y2="425" stroke-width="5"/>
+  </g>
+  <!-- trees in front of tower -->
+  <g stroke="#2b2b2b" stroke-width="2.5">
+    <circle cx="520" cy="410" r="55" fill="#7f9a7a"/>
+    <rect x="512" y="440" width="16" height="70" fill="#6b5545"/>
+    <circle cx="100" cy="400" r="62" fill="#7f9a7a"/>
+    <rect x="93" y="440" width="16" height="80" fill="#6b5545"/>
+  </g>
+  <!-- green -->
+  <path d="M0 440 Q200 425 400 440 T800 440 L800 800 L0 800 Z" fill="#b4c4a4"/>
+  <path d="M0 440 Q200 425 400 440 T800 440" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- fog bands -->
+  <g fill="#f7f5ee" opacity="0.7">
+    <ellipse cx="260" cy="380" rx="320" ry="26"/>
+    <ellipse cx="600" cy="470" rx="260" ry="20"/>
+    <ellipse cx="180" cy="520" rx="240" ry="18"/>
+  </g>
+  <!-- pond -->
+  <ellipse cx="380" cy="612" rx="250" ry="92" fill="#7f9fab" stroke="#2b2b2b" stroke-width="3"/>
+  <ellipse cx="380" cy="612" rx="210" ry="72" fill="#93b1ba" opacity="0.6"/>
+  <!-- ripples where he went under -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="330" cy="612" rx="26" ry="9"/>
+    <ellipse cx="330" cy="612" rx="54" ry="18" opacity="0.85"/>
+    <ellipse cx="330" cy="612" rx="88" ry="30" opacity="0.7"/>
+    <ellipse cx="330" cy="612" rx="124" ry="42" opacity="0.5"/>
+  </g>
+  <!-- reeds at pond edge -->
+  <g stroke="#2b2b2b" stroke-width="2.5" fill="none">
+    <path d="M140 600 Q136 560 146 528"/>
+    <path d="M152 604 Q154 566 168 540"/>
+    <path d="M610 640 Q606 600 614 572"/>
+    <path d="M624 642 Q630 606 622 580"/>
+  </g>
+  <!-- cobbled path -->
+  <g fill="#cfc6b0" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="90" cy="740" rx="36" ry="14"/>
+    <ellipse cx="160" cy="760" rx="34" ry="13"/>
+    <ellipse cx="240" cy="738" rx="38" ry="14"/>
+    <ellipse cx="320" cy="765" rx="36" ry="13"/>
+    <ellipse cx="400" cy="742" rx="38" ry="14"/>
+    <ellipse cx="480" cy="768" rx="36" ry="13"/>
+    <ellipse cx="560" cy="744" rx="38" ry="14"/>
+    <ellipse cx="650" cy="770" rx="36" ry="13"/>
+    <ellipse cx="720" cy="745" rx="36" ry="14"/>
+    <ellipse cx="60" cy="700" rx="26" ry="10"/>
+  </g>
+  <!-- signature -->
+  <text x="752" y="772" font-size="28" fill="#2b2b2b">P.</text>
+</svg>
