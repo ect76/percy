@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- sky wash -->
+  <rect x="0" y="0" width="800" height="330" fill="#dfe5e3" opacity="0.6"/>
+
+  <!-- distant cottages, left and right -->
+  <g stroke="#1d1b19" stroke-width="3" stroke-linejoin="round">
+    <rect x="40" y="470" width="200" height="170" fill="#b5aa98"/>
+    <polygon points="30,470 140,410 250,470" fill="#6e5f55"/>
+    <rect x="72" y="520" width="28" height="36" fill="#2b2a28"/>
+    <rect x="164" y="520" width="28" height="36" fill="#2b2a28"/>
+    <rect x="560" y="480" width="200" height="160" fill="#c2b7a2"/>
+    <polygon points="550,480 660,420 770,480" fill="#5b4d44"/>
+    <rect x="598" y="530" width="28" height="36" fill="#2b2a28"/>
+    <rect x="690" y="530" width="28" height="36" fill="#2b2a28"/>
+  </g>
+
+  <!-- ground and cobbles -->
+  <rect x="0" y="640" width="800" height="160" fill="#9aa29a"/>
+  <g fill="#b9bfb6" stroke="#1d1b19" stroke-width="1.5">
+    <ellipse cx="90" cy="700" rx="22" ry="8"/>
+    <ellipse cx="150" cy="688" rx="18" ry="7"/>
+    <ellipse cx="220" cy="730" rx="26" ry="9"/>
+    <ellipse cx="300" cy="712" rx="20" ry="8"/>
+    <ellipse cx="60" cy="760" rx="28" ry="10"/>
+    <ellipse cx="170" cy="772" rx="24" ry="9"/>
+    <ellipse cx="520" cy="692" rx="18" ry="7"/>
+    <ellipse cx="590" cy="676" rx="16" ry="6"/>
+    <ellipse cx="720" cy="705" rx="22" ry="8"/>
+    <ellipse cx="690" cy="770" rx="26" ry="9"/>
+    <ellipse cx="480" cy="760" rx="24" ry="9"/>
+    <ellipse cx="380" cy="740" rx="20" ry="8"/>
+    <ellipse cx="260" cy="790" rx="24" ry="8"/>
+    <ellipse cx="560" cy="740" rx="22" ry="8"/>
+  </g>
+
+  <!-- Pond Lane leading to the tower -->
+  <polygon points="330,800 470,800 412,640 388,640" fill="#c9c2b2" stroke="#1d1b19" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- village pond -->
+  <ellipse cx="640" cy="735" rx="90" ry="22" fill="#7f9aa0" stroke="#1d1b19" stroke-width="3"/>
+
+  <!-- tower spire -->
+  <polygon points="362,205 400,90 438,205" fill="#4e5a5c" stroke="#1d1b19" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="400" cy="88" r="5" fill="#1d1b19"/>
+
+  <!-- tower body -->
+  <rect x="370" y="200" width="60" height="440" fill="#8a8178" stroke="#1d1b19" stroke-width="4"/>
+  <!-- stone courses -->
+  <g stroke="#1d1b19" stroke-width="1.5" opacity="0.6">
+    <line x1="370" y1="260" x2="430" y2="260"/>
+    <line x1="370" y1="420" x2="430" y2="420"/>
+    <line x1="370" y1="500" x2="430" y2="500"/>
+    <line x1="370" y1="580" x2="430" y2="580"/>
+  </g>
+
+  <!-- belfry opening -->
+  <rect x="382" y="215" width="36" height="40" fill="#2b2a28" stroke="#1d1b19" stroke-width="3"/>
+  <g stroke="#8a8178" stroke-width="2">
+    <line x1="382" y1="226" x2="418" y2="226"/>
+    <line x1="382" y1="238" x2="418" y2="238"/>
+  </g>
+
+  <!-- clock -->
+  <circle cx="400" cy="300" r="46" fill="none" stroke="#3a3530" stroke-width="6"/>
+  <circle cx="400" cy="300" r="40" fill="#f5f2ea" stroke="#1d1b19" stroke-width="4"/>
+  <g stroke="#1d1b19" stroke-width="2.5" stroke-linecap="round">
+    <line x1="400" y1="266" x2="400" y2="272"/>
+    <line x1="434" y1="300" x2="428" y2="300"/>
+    <line x1="400" y1="334" x2="400" y2="328"/>
+    <line x1="366" y1="300" x2="372" y2="300"/>
+  </g>
+  <!-- hour hand -->
+  <line x1="400" y1="300" x2="418" y2="292" stroke="#1d1b19" stroke-width="5" stroke-linecap="round"/>
+  <!-- crooked minute hand -->
+  <path d="M400 300 L400 270 L408 262" fill="none" stroke="#1d1b19" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="300" r="3.5" fill="#1d1b19"/>
+  <!-- cracks in the glass -->
+  <path d="M368 280 L381 291 L377 306 L389 318" fill="none" stroke="#1d1b19" stroke-width="1.5"/>
+  <path d="M410 318 L424 326 L421 341" fill="none" stroke="#1d1b19" stroke-width="1.5"/>
+  <path d="M396 262 L392 252 L398 246" fill="none" stroke="#1d1b19" stroke-width="1.5"/>
+
+  <!-- lower windows -->
+  <path d="M388 384 V356 Q400 342 412 356 V384 Z" fill="#e8d9a0" stroke="#1d1b19" stroke-width="3"/>
+  <path d="M388 470 V446 Q400 434 412 446 V470 Z" fill="#2b2a28" stroke="#1d1b19" stroke-width="3"/>
+
+  <!-- door -->
+  <path d="M385 640 V590 Q400 572 415 590 V640 Z" fill="#3d2f25" stroke="#1d1b19" stroke-width="4"/>
+
+  <!-- fog bands -->
+  <g fill="#f4efe3">
+    <rect x="0" y="150" width="800" height="50" opacity="0.45"/>
+    <rect x="0" y="380" width="800" height="60" opacity="0.5"/>
+    <rect x="0" y="540" width="800" height="50" opacity="0.55"/>
+    <rect x="0" y="610" width="800" height="45" opacity="0.4"/>
+  </g>
+
+  <!-- signature "P." -->
+  <g fill="none" stroke="#1d1b19" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M752 782 V756 H764 Q772 756 772 764 Q772 772 764 772 H752"/>
+  </g>
+  <circle cx="780" cy="782" r="2.5" fill="#1d1b19"/>
+</svg>
