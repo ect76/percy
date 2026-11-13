@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6dc"/>
+      <stop offset="1" stop-color="#d6d2c4"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d77a"/>
+      <stop offset="1" stop-color="#b8892c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper and wall with fog -->
+  <rect width="800" height="800" fill="#f6f2e6"/>
+  <rect x="0" y="0" width="800" height="560" fill="url(#fog)"/>
+  <ellipse cx="180" cy="180" rx="220" ry="40" fill="#f1eee4" opacity="0.8"/>
+  <ellipse cx="640" cy="260" rx="200" ry="34" fill="#f1eee4" opacity="0.8"/>
+
+  <!-- office floor boards -->
+  <rect x="0" y="640" width="800" height="160" fill="#c9a673"/>
+  <g stroke="#7a5a34" stroke-width="2" fill="none">
+    <line x1="0" y1="664" x2="800" y2="664"/>
+    <line x1="0" y1="690" x2="800" y2="690"/>
+    <line x1="0" y1="718" x2="800" y2="718"/>
+    <line x1="0" y1="748" x2="800" y2="748"/>
+    <line x1="0" y1="780" x2="800" y2="780"/>
+    <line x1="160" y1="640" x2="150" y2="664"/>
+    <line x1="520" y1="664" x2="540" y2="690"/>
+    <line x1="300" y1="690" x2="290" y2="718"/>
+  </g>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#3a2a18" stroke-width="3"/>
+
+  <!-- tail -->
+  <path d="M300 395 L255 350 L262 412 L300 420 Z" fill="#3f8f4a" stroke="#1d2a1f" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- back legs (behind body) -->
+  <g stroke="#1d2a1f" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <g stroke="#e3b72e" stroke-width="12" stroke-linecap="round" fill="none">
+    <polyline points="430,500 462,572 500,628"/>
+  </g>
+  <g stroke="#1d2a1f" stroke-width="2" fill="none">
+    <polyline points="430,500 462,572 500,628"/>
+  </g>
+  <ellipse cx="510" cy="634" rx="26" ry="8" fill="#e3b72e" stroke="#1d2a1f" stroke-width="3"/>
+
+  <!-- body -->
+  <ellipse cx="400" cy="420" rx="130" ry="90" fill="#3f8f4a" stroke="#1d2a1f" stroke-width="4"/>
+  <path d="M300 430 Q400 520 500 440 Q470 500 400 505 Q330 505 300 430 Z" fill="#e3b72e" stroke="#1d2a1f" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M330 380 Q390 360 450 384" fill="none" stroke="#1d2a1f" stroke-width="2"/>
+  <path d="M320 408 Q380 396 440 418" fill="none" stroke="#1d2a1f" stroke-width="2" opacity="0.6"/>
+
+  <!-- brass key on back -->
+  <line x1="400" y1="332" x2="400" y2="300" stroke="#6b4e1a" stroke-width="5"/>
+  <circle cx="400" cy="288" r="14" fill="none" stroke="url(#brass)" stroke-width="7"/>
+  <circle cx="400" cy="288" r="14" fill="none" stroke="#6b4e1a" stroke-width="1.5"/>
+  <rect x="400" y="318" width="22" height="8" fill="url(#brass)" stroke="#6b4e1a" stroke-width="1.5"/>
+  <rect x="412" y="326" width="8" height="8" fill="url(#brass)" stroke="#6b4e1a" stroke-width="1.5"/>
+
+  <!-- arms and linking rod -->
+  <polyline points="352,410 318,448 300,470" fill="none" stroke="#1d2a1f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="448,410 486,392 512,374" fill="none" stroke="#1d2a1f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="330" y1="380" x2="470" y2="380" stroke="#6b4e1a" stroke-width="3" stroke-dasharray="6 4"/>
+
+  <!-- front legs (swinging, jointed) -->
+  <polyline points="372,500 330,566 298,630" fill="none" stroke="#1d2a1f" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="372,500 330,566 298,630" fill="none" stroke="#e3b72e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="330" cy="566" r="8" fill="#b8892c" stroke="#1d2a1f" stroke-width="2.5"/>
+  <ellipse cx="292" cy="636" rx="30" ry="9" fill="#e3b72e" stroke="#1d2a1f" stroke-width="3"/>
+
+  <!-- head -->
+  <circle cx="500" cy="340" r="55" fill="#3f8f4a" stroke="#1d2a1f" stroke-width="4"/>
+  <path d="M470 330 Q500 316 528 330" fill="none" stroke="#1d2a1f" stroke-width="2" opacity="0.6"/>
+  <polygon points="548,334 602,350 548,366" fill="#f2a93b" stroke="#1d2a1f" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="512" cy="326" r="10" fill="#fbf7ea" stroke="#1d2a1f" stroke-width="2.5"/>
+  <circle cx="515" cy="327" r="4" fill="#1d2a1f"/>
+
+  <!-- signature -->
+  <text x="752" y="772" font-size="28" fill="#3a2a18" text-anchor="end">P.</text>
+</svg>
