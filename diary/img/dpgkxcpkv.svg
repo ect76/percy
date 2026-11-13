@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+  <!-- distant sky wash -->
+  <rect x="0" y="0" width="800" height="260" fill="#d9dde0" opacity="0.5"/>
+  <!-- bell tower, lost in grey -->
+  <g>
+    <rect x="478" y="130" width="84" height="300" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="478" y="112" width="12" height="20" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="497" y="112" width="12" height="20" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="516" y="112" width="12" height="20" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="535" y="112" width="12" height="20" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="550" y="112" width="12" height="20" fill="#a9afb5" stroke="#2b2b2b" stroke-width="2"/>
+    <circle cx="520" cy="240" r="20" fill="#e8e4d8" stroke="#2b2b2b" stroke-width="2"/>
+    <path d="M520 240 V226 M520 240 L530 246" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+    <rect x="508" y="310" width="24" height="36" fill="#7d858c" stroke="#2b2b2b" stroke-width="2"/>
+  </g>
+  <!-- tree silhouette, far left, faded -->
+  <g opacity="0.55">
+    <rect x="236" y="300" width="6" height="90" fill="#6f7470"/>
+    <circle cx="239" cy="285" r="34" fill="#8e958f"/>
+    <circle cx="222" cy="300" r="22" fill="#8e958f"/>
+  </g>
+  <!-- cottage side wall (left) -->
+  <polygon points="0,200 330,300 330,460 0,560" fill="#e6dccb" stroke="#2b2b2b" stroke-width="2.5"/>
+  <polygon points="0,200 330,300 330,282 0,180" fill="#7f7467" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="60,300 150,327 150,398 60,372" fill="#f8f5ec" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="105" y1="313" x2="105" y2="385" stroke="#2b2b2b" stroke-width="1.5"/>
+  <polygon points="200,350 262,368 262,440 200,424" fill="#6b5c4e" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- cottage side wall (right, far) -->
+  <polygon points="800,300 470,360 470,440 800,520" fill="#d6cbb6" stroke="#2b2b2b" stroke-width="2.5"/>
+  <polygon points="800,300 470,360 470,344 800,282" fill="#7f7467" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="640,370 720,392 720,458 640,436" fill="#f8f5ec" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- lane -->
+  <polygon points="0,620 330,460 470,460 800,640 800,800 0,800" fill="#c9bfa9" stroke="#2b2b2b" stroke-width="2.5"/>
+  <!-- cobbles -->
+  <g fill="#9d9483" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="90" cy="760" rx="30" ry="12"/>
+    <ellipse cx="260" cy="735" rx="26" ry="10"/>
+    <ellipse cx="520" cy="740" rx="28" ry="10"/>
+    <ellipse cx="700" cy="770" rx="34" ry="13"/>
+    <ellipse cx="410" cy="700" rx="22" ry="8"/>
+    <ellipse cx="170" cy="690" rx="22" ry="8"/>
+    <ellipse cx="620" cy="690" rx="20" ry="8"/>
+    <ellipse cx="330" cy="650" rx="16" ry="6"/>
+    <ellipse cx="470" cy="652" rx="16" ry="6"/>
+    <ellipse cx="260" cy="622" rx="12" ry="5"/>
+    <ellipse cx="400" cy="624" rx="12" ry="5"/>
+    <ellipse cx="545" cy="620" rx="11" ry="4"/>
+    <ellipse cx="350" cy="596" rx="8" ry="3"/>
+    <ellipse cx="440" cy="594" rx="8" ry="3"/>
+    <ellipse cx="390" cy="578" rx="6" ry="2.5"/>
+  </g>
+  <!-- cottage doorstep and kerb -->
+  <path d="M0 560 L330 460" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+  <!-- fog bands drifting across the lane and tower base -->
+  <rect x="0" y="330" width="800" height="70" fill="#f3eee2" opacity="0.55"/>
+  <rect x="0" y="420" width="800" height="60" fill="#f3eee2" opacity="0.7"/>
+  <rect x="0" y="470" width="800" height="50" fill="#f3eee2" opacity="0.35"/>
+  <rect x="470" y="180" width="330" height="120" fill="#f3eee2" opacity="0.45"/>
+  <rect x="0" y="150" width="800" height="40" fill="#f3eee2" opacity="0.3"/>
+  <!-- ink signature P. in corner -->
+  <path d="M742 782 V758 H754 a6 6 0 0 1 0 12 H742" fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="762" cy="782" r="2.2" fill="#2b2b2b"/>
+</svg>
