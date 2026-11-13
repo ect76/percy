@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f4ecd8"/>
+  <rect x="24" y="24" width="752" height="752" fill="none" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- distant fog and sky wash -->
+  <rect x="26" y="26" width="748" height="300" fill="#e3dccb"/>
+  <rect x="26" y="90" width="748" height="60" fill="#f4ecd8" opacity="0.7"/>
+
+  <!-- bell tower -->
+  <g stroke="#2b2620" stroke-width="3" stroke-linejoin="round">
+    <polygon points="600,120 640,190 560,190" fill="#4c5560"/>
+    <rect x="565" y="190" width="70" height="60" fill="#8a9099"/>
+    <rect x="560" y="250" width="80" height="290" fill="#9aa0a8"/>
+    <rect x="582" y="210" width="36" height="36" fill="#2b2620"/>
+    <path d="M590 218 Q600 206 610 218 L612 236 L588 236 Z" fill="#c9a24a" stroke-width="2"/>
+    <rect x="585" y="300" width="30" height="40" fill="#2b2620"/>
+    <rect x="585" y="390" width="30" height="40" fill="#2b2620"/>
+    <rect x="550" y="535" width="100" height="14" fill="#6e6a62"/>
+  </g>
+
+  <!-- lane -->
+  <polygon points="250,800 560,800 600,540 480,540 330,800" fill="#b8a98a" stroke="#2b2620" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="none" stroke="#6f6250" stroke-width="2" stroke-linecap="round">
+    <path d="M340 740 h12 M420 710 h10 M300 770 h14 M470 690 h10 M390 650 h8 M505 620 h8 M440 600 h6 M530 580 h6"/>
+    <path d="M360 780 l8 -4 M450 750 l8 -4 M520 705 l6 -3 M410 680 l6 -3"/>
+  </g>
+
+  <!-- cottage roof -->
+  <g stroke="#2b2620" stroke-width="3" stroke-linejoin="round">
+    <polygon points="90,350 470,350 440,260 120,260" fill="#9c8a5a"/>
+    <g fill="none" stroke="#6f6250" stroke-width="2">
+      <path d="M120 280 H440 M110 305 H455 M100 330 H462"/>
+    </g>
+  </g>
+
+  <!-- cottage front wall -->
+  <g stroke="#2b2620" stroke-width="3" stroke-linejoin="round">
+    <rect x="100" y="350" width="360" height="250" fill="#efe6cf"/>
+    <!-- timber frame -->
+    <g fill="none" stroke="#5a3e2b" stroke-width="10" stroke-linecap="square">
+      <path d="M100 350 H460 M100 600 H460 M100 350 V600 M460 350 V600"/>
+      <path d="M100 420 H460 M100 490 H460"/>
+      <path d="M220 350 L260 420 M340 350 L300 420"/>
+      <path d="M160 420 L100 490 M400 420 L460 490"/>
+    </g>
+    <!-- windows -->
+    <rect x="130" y="440" width="70" height="60" fill="#c8d6d0"/>
+    <path d="M165 440 V500 M130 470 H200" stroke="#5a3e2b" stroke-width="6" fill="none"/>
+    <rect x="330" y="440" width="70" height="60" fill="#c8d6d0"/>
+    <path d="M365 440 V500 M330 470 H400" stroke="#5a3e2b" stroke-width="6" fill="none"/>
+    <!-- door -->
+    <rect x="235" y="450" width="60" height="150" fill="#3f5a45"/>
+    <circle cx="284" cy="530" r="3" fill="#c9a24a"/>
+    <!-- step -->
+    <rect x="225" y="600" width="80" height="10" fill="#8b847a"/>
+  </g>
+
+  <!-- hanging sign and bracket -->
+  <g stroke="#2b2620" stroke-width="3" stroke-linejoin="round">
+    <path d="M100 380 H60 L60 395" fill="none" stroke-width="4"/>
+    <line x1="60" y1="395" x2="50" y2="410" stroke-width="2"/>
+    <line x1="60" y1="395" x2="70" y2="410" stroke-width="2"/>
+    <rect x="34" y="410" width="110" height="64" fill="#2f4a5c" rx="4"/>
+    <rect x="44" y="420" width="90" height="44" fill="none" stroke="#c9a24a" stroke-width="2" rx="2"/>
+    <!-- kite emblem on sign -->
+    <polygon points="89,426 101,440 89,466 77,440" fill="#c9a24a" stroke-width="2"/>
+    <line x1="89" y1="426" x2="89" y2="466" stroke="#2b2620" stroke-width="1.5"/>
+    <line x1="77" y1="440" x2="101" y2="440" stroke="#2b2620" stroke-width="1.5"/>
+    <path d="M89 466 q-6 8 0 14 q6 6 0 12" fill="none" stroke="#c9a24a" stroke-width="1.5"/>
+  </g>
+
+  <!-- fog over distance and lower frame -->
+  <rect x="26" y="500" width="748" height="50" fill="#f4ecd8" opacity="0.55"/>
+  <rect x="26" y="590" width="748" height="40" fill="#f4ecd8" opacity="0.35"/>
+  <rect x="26" y="150" width="748" height="60" fill="#f4ecd8" opacity="0.4"/>
+
+  <!-- signature -->
+  <path d="M728 728 V752 M728 728 H738 Q746 728 746 736 Q746 744 738 744 H728" fill="none" stroke="#2b2620" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="752" cy="752" r="2.2" fill="#2b2620"/>
+</svg>
