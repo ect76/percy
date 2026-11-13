@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="awningClip">
+      <polygon points="185,365 415,365 425,402 175,402"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe8d8"/>
+
+  <!-- distant bell tower -->
+  <g stroke="#2b2620" stroke-width="2" stroke-linejoin="round">
+    <rect x="600" y="200" width="60" height="230" fill="#8a8478"/>
+    <polygon points="593,200 630,130 667,200" fill="#6b655b"/>
+    <rect x="617" y="222" width="26" height="30" fill="#4a4540"/>
+    <line x1="630" y1="130" x2="630" y2="104"/>
+  </g>
+
+  <!-- left trees -->
+  <g stroke="#2b2620" stroke-width="2">
+    <rect x="58" y="500" width="10" height="70" fill="#6b4e35"/>
+    <circle cx="64" cy="470" r="55" fill="#5f7f5a"/>
+    <rect x="128" y="520" width="8" height="50" fill="#6b4e35"/>
+    <circle cx="132" cy="500" r="40" fill="#6d8c64"/>
+  </g>
+
+  <!-- bakery building -->
+  <g stroke="#2b2620" stroke-width="2" stroke-linejoin="round">
+    <rect x="200" y="360" width="200" height="170" fill="#c9a980"/>
+    <polygon points="190,360 300,300 410,360" fill="#5b5560"/>
+    <rect x="225" y="410" width="60" height="50" fill="#e8d9a0"/>
+    <line x1="255" y1="410" x2="255" y2="460"/>
+    <rect x="320" y="430" width="45" height="100" fill="#7a4f32"/>
+    <circle cx="358" cy="482" r="2.5" fill="#2b2620"/>
+  </g>
+
+  <!-- striped awning -->
+  <g clip-path="url(#awningClip)" stroke="#2b2620" stroke-width="1.5">
+    <rect x="185" y="365" width="27.5" height="40" fill="#b5483a"/>
+    <rect x="212.5" y="365" width="27.5" height="40" fill="#f3ead6"/>
+    <rect x="240" y="365" width="27.5" height="40" fill="#b5483a"/>
+    <rect x="267.5" y="365" width="27.5" height="40" fill="#f3ead6"/>
+    <rect x="295" y="365" width="27.5" height="40" fill="#b5483a"/>
+    <rect x="322.5" y="365" width="27.5" height="40" fill="#f3ead6"/>
+    <rect x="350" y="365" width="27.5" height="40" fill="#b5483a"/>
+    <rect x="377.5" y="365" width="27.5" height="40" fill="#f3ead6"/>
+  </g>
+  <polygon points="185,365 415,365 425,402 175,402" fill="none" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- village green -->
+  <rect x="0" y="530" width="800" height="270" fill="#7d9a6a"/>
+  <path d="M0 530 Q400 515 800 530" fill="none" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- cobbled path from bakery to pond -->
+  <g stroke="#2b2620" stroke-width="1.5">
+    <polygon points="330,530 380,530 440,800 270,800" fill="#bdb3a0"/>
+    <ellipse cx="345" cy="560" rx="8" ry="5" fill="none"/>
+    <ellipse cx="368" cy="585" rx="8" ry="5" fill="none"/>
+    <ellipse cx="335" cy="610" rx="8" ry="5" fill="none"/>
+    <ellipse cx="372" cy="640" rx="8" ry="5" fill="none"/>
+    <ellipse cx="330" cy="675" rx="8" ry="5" fill="none"/>
+    <ellipse cx="365" cy="710" rx="8" ry="5" fill="none"/>
+    <ellipse cx="310" cy="750" rx="8" ry="5" fill="none"/>
+    <ellipse cx="395" cy="760" rx="8" ry="5" fill="none"/>
+  </g>
+
+  <!-- pond -->
+  <g stroke="#2b2620" stroke-width="2">
+    <ellipse cx="540" cy="650" rx="170" ry="62" fill="#6f8d94"/>
+    <ellipse cx="540" cy="650" rx="120" ry="40" fill="none" stroke="#9db8bb" stroke-width="1.5"/>
+    <ellipse cx="520" cy="645" rx="60" ry="16" fill="none" stroke="#9db8bb" stroke-width="1.5"/>
+    <ellipse cx="590" cy="668" rx="30" ry="8" fill="none" stroke="#9db8bb" stroke-width="1.5"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="250" fill="#f4f1ea" opacity="0.55"/>
+  <rect x="0" y="470" width="800" height="150" fill="#f4f1ea" opacity="0.42"/>
+  <ellipse cx="260" cy="560" rx="380" ry="50" fill="#f7f4ee" opacity="0.45"/>
+  <ellipse cx="620" cy="720" rx="330" ry="60" fill="#f7f4ee" opacity="0.4"/>
+  <rect x="0" y="600" width="800" height="200" fill="#f4f1ea" opacity="0.2"/>
+
+  <!-- signature P. -->
+  <g stroke="#2b2620" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M752 758 V784 M752 758 H760 Q768 758 768 765 Q768 772 760 772 H752"/>
+  </g>
+  <circle cx="774" cy="784" r="2" fill="#2b2620"/>
+</svg>
