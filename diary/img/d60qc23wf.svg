@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- distant fog banks -->
+  <rect x="0" y="0" width="800" height="800" fill="#e6e4dc" opacity="0.5"/>
+  <ellipse cx="420" cy="200" rx="260" ry="60" fill="#f7f5ef" opacity="0.8"/>
+  <ellipse cx="420" cy="420" rx="330" ry="50" fill="#f7f5ef" opacity="0.7"/>
+
+  <!-- distant bare trees, dimmed by fog -->
+  <g fill="#9a9a94" opacity="0.6">
+    <ellipse cx="300" cy="360" rx="26" ry="60"/>
+    <ellipse cx="520" cy="350" rx="22" ry="52"/>
+    <ellipse cx="620" cy="380" rx="30" ry="66"/>
+  </g>
+  <rect x="296" y="400" width="8" height="45" fill="#8a8680" opacity="0.6"/>
+  <rect x="517" y="395" width="7" height="40" fill="#8a8680" opacity="0.6"/>
+
+  <!-- ground / verges -->
+  <polygon points="0,440 380,440 0,800" fill="#dfe3e4"/>
+  <polygon points="460,440 800,440 800,800 700,800" fill="#dfe3e4"/>
+
+  <!-- snowy lane -->
+  <polygon points="120,800 700,800 460,440 380,440" fill="#fbfcfd" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- lane tracks and shadows -->
+  <path d="M250 800 L400 470 M560 800 L440 470" stroke="#b9c2c8" stroke-width="4" fill="none"/>
+  <path d="M170 740 L300 740 M330 620 L390 620 M480 700 L620 700" stroke="#c9d1d6" stroke-width="3" fill="none"/>
+  <!-- cobble hints under snow -->
+  <g fill="none" stroke="#a7b0b6" stroke-width="1.5">
+    <path d="M140 770 q12 -6 24 0 q12 6 24 0"/>
+    <path d="M200 740 q10 -5 20 0 q10 5 20 0"/>
+    <path d="M520 760 q12 -6 24 0 q12 6 24 0"/>
+    <path d="M440 600 q8 -4 16 0 q8 4 16 0"/>
+  </g>
+
+  <!-- cottage on the left -->
+  <rect x="20" y="430" width="180" height="170" fill="#e9dcc4" stroke="#2b2620" stroke-width="2.5"/>
+  <polygon points="10,432 110,340 210,432" fill="#7d6a57" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M40 412 L110 352 L180 412" fill="none" stroke="#fbfcfd" stroke-width="9" stroke-linecap="round"/>
+  <rect x="58" y="470" width="44" height="38" fill="#bfd3d8" stroke="#2b2620" stroke-width="2.5"/>
+  <path d="M80 470 V508 M58 489 H102" stroke="#2b2620" stroke-width="2"/>
+  <rect x="130" y="530" width="38" height="70" fill="#6b4e37" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="160" cy="568" r="2.5" fill="#2b2620"/>
+  <!-- snow on cottage sill -->
+  <rect x="54" y="506" width="52" height="5" fill="#fbfcfd" stroke="#2b2620" stroke-width="1.5"/>
+
+  <!-- bell tower at the far end -->
+  <rect x="384" y="170" width="72" height="272" fill="#d8cfbf" stroke="#2b2620" stroke-width="2.5"/>
+  <polygon points="378,170 420,108 462,170" fill="#6e6259" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M396 170 L420 130 L444 170" fill="none" stroke="#fbfcfd" stroke-width="6" stroke-linecap="round"/>
+  <!-- clock face -->
+  <circle cx="420" cy="262" r="28" fill="#fffdf7" stroke="#2b2620" stroke-width="2.5"/>
+  <path d="M400 248 L414 256 M408 240 L416 250" stroke="#2b2620" stroke-width="1.2" fill="none"/>
+  <!-- hands: hour straight, minute crooked -->
+  <line x1="420" y1="262" x2="420" y2="246" stroke="#2b2620" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="420,262 420,247 434,240" fill="none" stroke="#2b2620" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- crack in the face -->
+  <path d="M436 240 L440 246 L435 252 L441 258 L437 266" fill="none" stroke="#2b2620" stroke-width="1.2"/>
+  <!-- louvred belfry window -->
+  <rect x="404" y="310" width="32" height="28" fill="#4e4740" stroke="#2b2620" stroke-width="2"/>
+  <path d="M404 318 H436 M404 326 H436" stroke="#8a8074" stroke-width="1.5"/>
+  <!-- door at base -->
+  <path d="M408 440 V412 Q420 402 432 412 V440 Z" fill="#6b4e37" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- pond sign: brown post and board on the verge -->
+  <rect x="596" y="470" width="8" height="170" fill="#6b4a2e" stroke="#2b2620" stroke-width="2"/>
+  <rect x="556" y="480" width="88" height="34" fill="#7a5530" stroke="#2b2620" stroke-width="2.5"/>
+  <ellipse cx="600" cy="497" rx="20" ry="8" fill="#9fb8bd" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M570 500 H586 M614 500 H630" stroke="#f4efe3" stroke-width="2"/>
+  <rect x="556" y="484" width="88" height="0.1" fill="none"/>
+  <!-- snow on sign -->
+  <path d="M556 480 Q600 470 644 480" fill="none" stroke="#fbfcfd" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- falling snow flecks -->
+  <g fill="#fbfcfd" stroke="#8d969c" stroke-width="0.8">
+    <circle cx="300" cy="300" r="3"/>
+    <circle cx="520" cy="250" r="2.5"/>
+    <circle cx="230" cy="220" r="2"/>
+    <circle cx="660" cy="330" r="3"/>
+    <circle cx="350" cy="520" r="2.5"/>
+    <circle cx="700" cy="620" r="3"/>
+    <circle cx="90" cy="300" r="2.5"/>
+  </g>
+
+  <!-- foreground fog wash -->
+  <rect x="0" y="600" width="800" height="200" fill="#f4f2ec" opacity="0.35"/>
+  <ellipse cx="400" cy="700" rx="420" ry="60" fill="#f7f5ef" opacity="0.45"/>
+
+  <!-- signature P. -->
+  <path d="M736 742 V772 M736 742 H748 Q758 742 758 751 Q758 760 748 760 H736" fill="none" stroke="#2b2620" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="764" cy="772" r="1.8" fill="#2b2620"/>
+</svg>
