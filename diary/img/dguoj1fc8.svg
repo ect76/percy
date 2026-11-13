@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="cobbles" width="28" height="22" patternUnits="userSpaceOnUse">
+      <rect width="28" height="22" fill="#cbbfa6"/>
+      <ellipse cx="7" cy="6" rx="8" ry="5" fill="#d9cfb8" stroke="#4a4035" stroke-width="1"/>
+      <ellipse cx="22" cy="16" rx="8" ry="5" fill="#d9cfb8" stroke="#4a4035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+
+  <!-- distant bell tower -->
+  <rect x="130" y="180" width="60" height="170" fill="#c9c2b0" stroke="#222" stroke-width="2.5"/>
+  <polygon points="122,180 160,118 198,180" fill="#6b5a4c" stroke="#222" stroke-width="2.5"/>
+  <rect x="150" y="210" width="20" height="26" fill="#5d5349"/>
+
+  <!-- fog band over the far distance -->
+  <rect x="0" y="240" width="800" height="90" fill="#ebe7dc" opacity="0.8"/>
+
+  <!-- village green -->
+  <path d="M0 430 L800 430 L800 800 L0 800 Z" fill="#a7bb82" stroke="#222" stroke-width="2.5"/>
+  <g fill="none" stroke="#4d6038" stroke-width="2">
+    <path d="M60 470 l-4 -10 M64 470 l0 -12 M68 470 l5 -10"/>
+    <path d="M90 520 l-4 -10 M94 520 l0 -12 M98 520 l5 -10"/>
+    <path d="M40 620 l-4 -10 M44 620 l0 -12 M48 620 l5 -10"/>
+    <path d="M700 480 l-4 -10 M704 480 l0 -12 M708 480 l5 -10"/>
+    <path d="M660 700 l-4 -10 M664 700 l0 -12 M668 700 l5 -10"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="250" cy="575" rx="170" ry="62" fill="#7f9fa6" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="250" cy="575" rx="130" ry="32" fill="none" stroke="#3e5a62" stroke-width="2"/>
+  <ellipse cx="250" cy="575" rx="90" ry="22" fill="none" stroke="#3e5a62" stroke-width="2"/>
+  <ellipse cx="250" cy="575" rx="40" ry="10" fill="none" stroke="#3e5a62" stroke-width="2"/>
+  <ellipse cx="180" cy="600" rx="22" ry="5" fill="none" stroke="#e8f0ee" stroke-width="2"/>
+  <ellipse cx="330" cy="553" rx="14" ry="3.5" fill="none" stroke="#e8f0ee" stroke-width="2"/>
+
+  <!-- lane -->
+  <polygon points="250,800 640,800 500,520 430,520" fill="url(#cobbles)" stroke="#222" stroke-width="2.5"/>
+
+  <!-- bakery roof -->
+  <polygon points="476,335 610,262 744,335" fill="#5b4636" stroke="#222" stroke-width="2.5"/>
+
+  <!-- bakery facade -->
+  <rect x="480" y="335" width="260" height="185" fill="#e2c79c" stroke="#222" stroke-width="2.5"/>
+
+  <!-- striped awning -->
+  <g stroke="#222" stroke-width="1.5">
+    <rect x="470" y="352" width="35" height="44" fill="#b5452f"/>
+    <rect x="505" y="352" width="35" height="44" fill="#f6f0e0"/>
+    <rect x="540" y="352" width="35" height="44" fill="#b5452f"/>
+    <rect x="575" y="352" width="35" height="44" fill="#f6f0e0"/>
+    <rect x="610" y="352" width="35" height="44" fill="#b5452f"/>
+    <rect x="645" y="352" width="35" height="44" fill="#f6f0e0"/>
+    <rect x="680" y="352" width="35" height="44" fill="#b5452f"/>
+    <rect x="715" y="352" width="35" height="44" fill="#f6f0e0"/>
+  </g>
+  <path d="M470 396 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 a17.5 17.5 0 0 0 35 0 Z" fill="none" stroke="#222" stroke-width="2.5"/>
+  <line x1="470" y1="352" x2="750" y2="352" stroke="#222" stroke-width="2.5"/>
+
+  <!-- windows with loaves -->
+  <rect x="500" y="428" width="80" height="62" fill="#f1d98a" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="540" cy="462" rx="24" ry="13" fill="#b87a3c" stroke="#222" stroke-width="2"/>
+  <rect x="650" y="428" width="80" height="62" fill="#f1d98a" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="690" cy="462" rx="24" ry="13" fill="#b87a3c" stroke="#222" stroke-width="2"/>
+
+  <!-- door -->
+  <rect x="592" y="440" width="46" height="80" fill="#7a4e30" stroke="#222" stroke-width="2.5"/>
+
+  <!-- rain -->
+  <g stroke="#3a4a52" stroke-width="1.4" stroke-linecap="round" opacity="0.7">
+    <line x1="60" y1="40" x2="48" y2="80"/>
+    <line x1="120" y1="20" x2="108" y2="60"/>
+    <line x1="190" y1="70" x2="178" y2="110"/>
+    <line x1="260" y1="30" x2="248" y2="70"/>
+    <line x1="330" y1="95" x2="318" y2="135"/>
+    <line x1="400" y1="15" x2="388" y2="55"/>
+    <line x1="460" y1="60" x2="448" y2="100"/>
+    <line x1="530" y1="25" x2="518" y2="65"/>
+    <line x1="600" y1="110" x2="588" y2="150"/>
+    <line x1="680" y1="40" x2="668" y2="80"/>
+    <line x1="750" y1="95" x2="738" y2="135"/>
+    <line x1="30" y1="150" x2="18" y2="190"/>
+    <line x1="90" y1="200" x2="78" y2="240"/>
+    <line x1="300" y1="200" x2="288" y2="240"/>
+    <line x1="420" y1="190" x2="408" y2="230"/>
+    <line x1="640" y1="200" x2="628" y2="240"/>
+    <line x1="720" y1="190" x2="708" y2="230"/>
+    <line x1="40" y1="300" x2="28" y2="340"/>
+    <line x1="150" y1="360" x2="138" y2="400"/>
+    <line x1="380" y1="320" x2="368" y2="360"/>
+    <line x1="560" y1="300" x2="548" y2="340"/>
+    <line x1="60" y1="450" x2="48" y2="490"/>
+    <line x1="120" y1="500" x2="108" y2="540"/>
+    <line x1="370" y1="470" x2="358" y2="510"/>
+    <line x1="720" y1="500" x2="708" y2="540"/>
+    <line x1="50" y1="640" x2="38" y2="680"/>
+    <line x1="150" y1="700" x2="138" y2="740"/>
+    <line x1="350" y1="660" x2="338" y2="700"/>
+    <line x1="560" y1="620" x2="548" y2="660"/>
+    <line x1="740" y1="650" x2="728" y2="690"/>
+    <line x1="470" y1="740" x2="458" y2="780"/>
+    <line x1="700" y1="760" x2="688" y2="790"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="784" font-family="serif" font-size="22" fill="#222" text-anchor="end">P.</text>
+</svg>
