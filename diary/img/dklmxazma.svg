@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#2a211b" stroke-width="2"/>
+
+  <!-- cabinet shadow -->
+  <rect x="100" y="122" width="340" height="436" fill="#c9bfae" opacity="0.6"/>
+
+  <!-- cabinet top cap -->
+  <rect x="80" y="96" width="360" height="22" fill="#2e221b" stroke="#17110d" stroke-width="3"/>
+  <!-- cabinet body -->
+  <rect x="90" y="118" width="340" height="442" fill="#3a2a21" stroke="#17110d" stroke-width="3"/>
+
+  <!-- drawers: 4 columns x 6 rows -->
+  <g stroke="#15100c" stroke-width="2">
+    <rect x="110" y="132" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="132" width="70" height="62" fill="#4b362a"/>
+    <rect x="260" y="132" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="132" width="70" height="62" fill="#4b362a"/>
+
+    <rect x="110" y="200" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="200" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="200" width="70" height="62" fill="#4b362a"/>
+
+    <rect x="110" y="268" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="268" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="268" width="70" height="62" fill="#4b362a"/>
+
+    <rect x="110" y="336" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="336" width="70" height="62" fill="#4b362a"/>
+    <rect x="260" y="336" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="336" width="70" height="62" fill="#4b362a"/>
+
+    <rect x="110" y="404" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="404" width="70" height="62" fill="#4b362a"/>
+    <rect x="260" y="404" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="404" width="70" height="62" fill="#4b362a"/>
+
+    <rect x="110" y="472" width="70" height="62" fill="#4b362a"/>
+    <rect x="185" y="472" width="70" height="62" fill="#4b362a"/>
+    <rect x="260" y="472" width="70" height="62" fill="#4b362a"/>
+    <rect x="335" y="472" width="70" height="62" fill="#4b362a"/>
+  </g>
+
+  <!-- open drawer slot (dark cavity) -->
+  <rect x="260" y="268" width="70" height="62" fill="#120c09" stroke="#15100c" stroke-width="2"/>
+  <!-- open drawer, pulled forward -->
+  <polygon points="330,262 396,262 396,326 330,326" fill="#5a4031" stroke="#15100c" stroke-width="2"/>
+  <polygon points="330,326 396,326 414,336 348,336" fill="#3a2a21" stroke="#15100c" stroke-width="2"/>
+  <polygon points="396,262 414,272 414,336 396,326" fill="#2e221b" stroke="#15100c" stroke-width="2"/>
+  <!-- open drawer brass pull -->
+  <rect x="352" y="282" width="22" height="6" rx="3" fill="#c9a24a" stroke="#4a3815" stroke-width="1.5"/>
+
+  <!-- brass pulls on closed drawers -->
+  <g fill="#c9a24a" stroke="#4a3815" stroke-width="1.5">
+    <rect x="137" y="158" width="16" height="6" rx="3"/>
+    <rect x="212" y="158" width="16" height="6" rx="3"/>
+    <rect x="137" y="226" width="16" height="6" rx="3"/>
+    <rect x="212" y="226" width="16" height="6" rx="3"/>
+    <rect x="362" y="158" width="16" height="6" rx="3"/>
+    <rect x="362" y="226" width="16" height="6" rx="3"/>
+    <rect x="362" y="294" width="16" height="6" rx="3"/>
+    <rect x="137" y="362" width="16" height="6" rx="3"/>
+    <rect x="212" y="362" width="16" height="6" rx="3"/>
+    <rect x="287" y="362" width="16" height="6" rx="3"/>
+    <rect x="362" y="362" width="16" height="6" rx="3"/>
+    <rect x="137" y="430" width="16" height="6" rx="3"/>
+    <rect x="212" y="430" width="16" height="6" rx="3"/>
+    <rect x="287" y="430" width="16" height="6" rx="3"/>
+    <rect x="362" y="430" width="16" height="6" rx="3"/>
+    <rect x="137" y="498" width="16" height="6" rx="3"/>
+    <rect x="212" y="498" width="16" height="6" rx="3"/>
+    <rect x="287" y="498" width="16" height="6" rx="3"/>
+    <rect x="362" y="498" width="16" height="6" rx="3"/>
+  </g>
+
+  <!-- cabinet base -->
+  <rect x="80" y="560" width="360" height="18" fill="#2e221b" stroke="#17110d" stroke-width="3"/>
+
+  <!-- date stamp: handle -->
+  <rect x="580" y="150" width="60" height="72" rx="12" fill="#2a2622" stroke="#0f0c0a" stroke-width="3"/>
+  <!-- collar -->
+  <rect x="565" y="218" width="90" height="18" fill="#6b6259" stroke="#0f0c0a" stroke-width="3"/>
+  <!-- rubber head -->
+  <rect x="560" y="236" width="100" height="50" fill="#8c8174" stroke="#0f0c0a" stroke-width="3"/>
+  <!-- date type marks on head -->
+  <g fill="#4a4139">
+    <rect x="578" y="252" width="14" height="18"/>
+    <rect x="600" y="252" width="14" height="18"/>
+    <rect x="622" y="252" width="14" height="18"/>
+  </g>
+  <!-- ink pad -->
+  <rect x="540" y="340" width="140" height="26" fill="#7a4e3a" stroke="#0f0c0a" stroke-width="3"/>
+  <rect x="548" y="346" width="124" height="6" fill="#5c3a2a"/>
+  <!-- stamped impression on slip -->
+  <rect x="566" y="384" width="88" height="30" fill="#fffdf6" stroke="#2a211b" stroke-width="2"/>
+  <g fill="#6b5a4c">
+    <rect x="576" y="394" width="14" height="10"/>
+    <rect x="598" y="394" width="14" height="10"/>
+    <rect x="620" y="394" width="14" height="10"/>
+  </g>
+
+  <!-- dented red box -->
+  <polygon points="500,440 690,440 710,460 520,460" fill="#d4544a" stroke="#2a0d0a" stroke-width="3"/>
+  <rect x="500" y="440" width="190" height="120" fill="#b3322b" stroke="#2a0d0a" stroke-width="3"/>
+  <polygon points="690,440 710,460 710,580 690,560" fill="#8a2420" stroke="#2a0d0a" stroke-width="3"/>
+  <!-- dents -->
+  <path d="M540 490 Q560 472 580 490 Q560 500 540 490 Z" fill="#8a2420"/>
+  <path d="M615 520 Q640 500 660 522 Q640 534 615 520 Z" fill="#8a2420"/>
+  <path d="M560 540 Q575 528 592 542 Q575 552 560 540 Z" fill="#7a1f1b"/>
+  <!-- label -->
+  <rect x="530" y="500" width="70" height="20" fill="#f3eee2" stroke="#2a0d0a" stroke-width="2"/>
+  <line x1="538" y1="510" x2="592" y2="510" stroke="#2a0d0a" stroke-width="2"/>
+
+  <!-- fog bands -->
+  <rect x="30" y="600" width="740" height="50" fill="#ffffff" opacity="0.55"/>
+  <rect x="30" y="650" width="740" height="60" fill="#ffffff" opacity="0.7"/>
+  <rect x="30" y="700" width="740" height="70" fill="#ffffff" opacity="0.45"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a211b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M736 742 V766"/>
+    <path d="M736 742 H746 Q754 742 754 750 Q754 758 746 758 H736"/>
+  </g>
+  <circle cx="761" cy="765" r="2.5" fill="#2a211b"/>
+</svg>
