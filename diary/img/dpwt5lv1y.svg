@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <g id="fish" stroke="#1d1a17" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M96 0 L134 -20 Q128 0 134 20 Z" fill="#6f98ab"/>
+      <path d="M52 -18 Q64 -38 80 -18 Z" fill="#6f98ab"/>
+      <path d="M52 18 Q62 30 72 18 Z" fill="#6f98ab"/>
+      <ellipse cx="50" cy="0" rx="50" ry="21" fill="#a9c8d6"/>
+      <path d="M28 -14 Q38 0 28 14" fill="none"/>
+      <path d="M44 -10 Q60 0 44 10" fill="none" stroke-width="2"/>
+      <path d="M62 -12 L62 12" fill="none" stroke-width="1.5"/>
+      <path d="M78 -9 L78 9" fill="none" stroke-width="1.5"/>
+      <circle cx="20" cy="-5" r="4" fill="#1d1a17" stroke="none"/>
+    </g>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- back wall -->
+  <rect x="0" y="0" width="800" height="470" fill="#e8dcc4"/>
+
+  <!-- lane seen through the open door -->
+  <rect x="482" y="132" width="176" height="338" fill="#d6dde0"/>
+  <polygon points="482,470 658,470 602,330 538,330" fill="#b8b2a6" stroke="#5a554e" stroke-width="2"/>
+  <g stroke="#8c867c" stroke-width="1.5" fill="none">
+    <path d="M482 470 L570 280"/>
+    <path d="M520 470 L572 280"/>
+    <path d="M560 470 L574 280"/>
+    <path d="M600 470 L576 280"/>
+    <path d="M640 470 L580 280"/>
+    <path d="M500 420 L660 420"/>
+    <path d="M530 380 L620 380"/>
+  </g>
+  <rect x="482" y="200" width="176" height="30" fill="#ffffff" opacity="0.45"/>
+  <rect x="482" y="260" width="176" height="24" fill="#ffffff" opacity="0.35"/>
+  <rect x="482" y="150" width="176" height="20" fill="#ffffff" opacity="0.3"/>
+
+  <!-- door frame -->
+  <path d="M466 120 H672 V470 H466 Z" fill="#7a5a3c" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M482 132 H658 V470 H482 Z" fill="none" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M482 132 L466 120 M658 132 L672 120" stroke="#1d1a17" stroke-width="3" fill="none"/>
+
+  <!-- cupboard -->
+  <rect x="50" y="140" width="320" height="330" fill="#d2bf9c" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="60" y="200" width="300" height="12" fill="#8a6a4a" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="60" y="330" width="300" height="12" fill="#8a6a4a" stroke="#1d1a17" stroke-width="3"/>
+  <line x1="210" y1="140" x2="210" y2="470" stroke="#1d1a17" stroke-width="3"/>
+
+  <!-- tins of sardines on top shelf -->
+  <g stroke="#1d1a17" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="84" y="164" width="36" height="36" rx="3" fill="#c9d3d6"/>
+    <rect x="84" y="176" width="36" height="8" fill="#3b6e8f"/>
+    <rect x="128" y="164" width="36" height="36" rx="3" fill="#c9d3d6"/>
+    <rect x="128" y="176" width="36" height="8" fill="#c0392b"/>
+    <rect x="172" y="164" width="36" height="36" rx="3" fill="#c9d3d6"/>
+    <rect x="172" y="176" width="36" height="8" fill="#3b6e8f"/>
+  </g>
+  <!-- tins on lower shelf -->
+  <g stroke="#1d1a17" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="236" y="294" width="36" height="36" rx="3" fill="#c9d3d6"/>
+    <rect x="236" y="306" width="36" height="8" fill="#c0392b"/>
+    <rect x="280" y="294" width="36" height="36" rx="3" fill="#c9d3d6"/>
+    <rect x="280" y="306" width="36" height="8" fill="#3b6e8f"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="30" y="480" width="740" height="230" fill="#7a5a3c" stroke="#1d1a17" stroke-width="3"/>
+  <rect x="20" y="455" width="760" height="26" fill="#a6835c" stroke="#1d1a17" stroke-width="3"/>
+  <line x1="200" y1="500" x2="200" y2="700" stroke="#5c4330" stroke-width="2"/>
+  <line x1="400" y1="500" x2="400" y2="700" stroke="#5c4330" stroke-width="2"/>
+  <line x1="600" y1="500" x2="600" y2="700" stroke="#5c4330" stroke-width="2"/>
+
+  <!-- fish laid out on the counter -->
+  
+  
+  
+  
+
+  <!-- signature P. in corner -->
+  <g fill="none" stroke="#1d1a17" stroke-width="3" stroke-linecap="round">
+    <path d="M730 742 V780 M730 742 H746 Q758 742 758 753 Q758 764 746 764 H730"/>
+  </g>
+  <circle cx="768" cy="780" r="3" fill="#1d1a17"/>
+</svg>
