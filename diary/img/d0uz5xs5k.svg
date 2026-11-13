@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd977" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffe9a8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9d4dc"/>
+      <stop offset="1" stop-color="#e9edf0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f4f1ea"/>
+  <rect x="0" y="0" width="800" height="360" fill="url(#sky)"/>
+
+  <!-- distant fog hills -->
+  <path d="M0 330 Q120 290 240 320 T480 310 T800 300 L800 400 L0 400 Z" fill="#dfe5ea" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M0 360 Q160 330 320 352 T640 342 T800 350 L800 430 L0 430 Z" fill="#eef1f3" opacity="0.9"/>
+
+  <!-- bare tree behind cottage -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round">
+    <path d="M70 330 L72 220"/>
+    <path d="M72 280 L40 240"/>
+    <path d="M72 265 L104 232"/>
+    <path d="M71 245 L56 215"/>
+  </g>
+
+  <!-- tower -->
+  <g stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round">
+    <!-- spire -->
+    <path d="M478 200 L520 92 L562 200 Z" fill="#5f6b73"/>
+    <!-- belfry -->
+    <rect x="482" y="200" width="76" height="62" fill="#8a7f72"/>
+    <path d="M492 214 H548 V248 H492 Z" fill="#2b2b2b"/>
+    <path d="M500 214 V248 M512 214 V248 M524 214 V248 M536 214 V248" stroke="#8a7f72" stroke-width="2"/>
+    <path d="M482 200 H558" fill="none"/>
+    <!-- bronze bell hint -->
+    <path d="M512 232 Q520 224 528 232 L532 244 H508 Z" fill="#b8864a" stroke="none"/>
+    <!-- clock -->
+    <rect x="470" y="262" width="100" height="262" fill="#8a7f72"/>
+    <circle cx="520" cy="300" r="26" fill="#fbfaf6"/>
+    <path d="M520 300 V282 M520 300 L533 308" fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+    <!-- stone courses -->
+    <path d="M470 350 H570 M470 400 H570 M470 450 H570 M470 500 H570" fill="none" stroke-width="1.5" opacity="0.6"/>
+    <!-- snow on tower roof edge -->
+    <path d="M478 200 Q490 190 500 198 Q512 186 524 196 Q536 186 548 196 Q556 190 562 200" fill="#ffffff"/>
+    <!-- base -->
+    <rect x="458" y="520" width="124" height="20" fill="#6e655b"/>
+  </g>
+
+  <!-- snow on ground around tower base -->
+  <path d="M430 540 Q520 520 610 540 L610 560 L430 560 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- lamp glow spilling onto snow -->
+  <circle cx="230" cy="470" r="230" fill="url(#glow)"/>
+
+  <!-- snowy lane (perspective) -->
+  <path d="M90 800 L700 800 L566 560 L476 560 Z" fill="#fbfcfd" stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- lane wheel ruts -->
+  <path d="M240 800 L500 580 M560 800 L530 580" fill="none" stroke="#b9c5ce" stroke-width="3" stroke-linecap="round"/>
+  <!-- lane edge shadow -->
+  <path d="M90 800 L150 800 L508 575 L476 560 Z" fill="#dfe6ec" opacity="0.8"/>
+
+  <!-- cottage -->
+  <g stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round">
+    <rect x="0" y="380" width="250" height="300" fill="#d9c3a0"/>
+    <path d="M-10 384 L120 296 L260 384 Z" fill="#5b6670"/>
+    <path d="M30 360 Q120 322 210 360 L214 372 Q120 336 26 372 Z" fill="#ffffff"/>
+    <!-- stone quoins -->
+    <path d="M0 420 H30 M0 470 H30 M0 520 H30 M0 570 H30 M0 620 H30 M0 650 H30" fill="none" stroke-width="1.5" opacity="0.6"/>
+    <!-- window -->
+    <rect x="40" y="430" width="70" height="60" fill="#ffe7a0"/>
+    <path d="M75 430 V490 M40 460 H110" stroke="#2a2a2a" stroke-width="2.5"/>
+    <!-- door -->
+    <rect x="150" y="440" width="80" height="240" fill="#6b4a33"/>
+    <path d="M150 440 Q190 420 230 440" fill="#ffffff"/>
+    <circle cx="218" cy="570" r="4" fill="#d8b04a" stroke="none"/>
+    <!-- lamp bracket and lamp -->
+    <path d="M150 400 H172" fill="none" stroke-width="3"/>
+    <path d="M168 396 L178 392 L178 410 L168 414 Z" fill="#f7d36a"/>
+  </g>
+
+  <!-- snow on cottage step and ground -->
+  <path d="M130 680 Q190 664 250 680 L260 700 L120 700 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M0 680 Q60 664 120 684 L120 800 L0 800 Z" fill="#ffffff" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#8a97a2" stroke-width="1">
+    <circle cx="350" cy="150" r="3"/>
+    <circle cx="420" cy="240" r="2.5"/>
+    <circle cx="300" cy="290" r="3"/>
+    <circle cx="640" cy="180" r="2.5"/>
+    <circle cx="700" cy="300" r="3"/>
+    <circle cx="380" cy="380" r="2"/>
+    <circle cx="610" cy="420" r="3"/>
+    <circle cx="330" cy="610" r="2.5"/>
+    <circle cx="700" cy="620" r="3"/>
+    <circle cx="60" cy="150" r="2.5"/>
+    <circle cx="180" cy="250" r="2"/>
+  </g>
+
+  <!-- signature "P." drawn as paths -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(728 738)">
+    <path d="M0 22 V0 H8 A6 6 0 0 1 8 12 H0"/>
+    <path d="M16 22 L16 24" stroke-width="4"/>
+  </g>
+</svg>
