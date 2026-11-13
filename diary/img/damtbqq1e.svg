@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead7"/>
+  <!-- window light falling from upper left -->
+  <polygon points="0,0 300,0 190,520 0,400" fill="#ffe9a8" opacity="0.4"/>
+  <!-- dusk wash -->
+  <rect x="0" y="0" width="800" height="800" fill="#2b2a4a" opacity="0.14"/>
+  <!-- desk -->
+  <rect x="0" y="520" width="800" height="280" fill="#8a6440"/>
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#1d1a17" stroke-width="3"/>
+  <g fill="none" stroke="#6b4a2c" stroke-width="2" opacity="0.6">
+    <path d="M0 580 Q200 570 400 585 T800 575"/>
+    <path d="M0 640 Q250 630 450 648 T800 640"/>
+    <path d="M0 710 Q300 700 520 716 T800 705"/>
+  </g>
+  <!-- shadows -->
+  <ellipse cx="330" cy="540" rx="190" ry="20" fill="#3a2614" opacity="0.3"/>
+  <ellipse cx="630" cy="535" rx="90" ry="12" fill="#3a2614" opacity="0.3"/>
+
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- tail -->
+    <path d="M430 430 Q490 390 470 340" fill="none" stroke-width="10"/>
+    <!-- body -->
+    <ellipse cx="320" cy="430" rx="120" ry="75" fill="#b9c2c8"/>
+    <!-- head and snout -->
+    <circle cx="205" cy="440" r="45" fill="#b9c2c8"/>
+    <path d="M170 425 L140 448 L172 458 Z" fill="#b9c2c8"/>
+    <circle cx="206" cy="398" r="18" fill="#8d979e"/>
+    <circle cx="150" cy="447" r="4" fill="#1d1a17"/>
+    <!-- underside plate -->
+    <ellipse cx="320" cy="440" rx="85" ry="45" fill="#8d979e"/>
+    <g fill="#5d666c" stroke-width="2">
+      <circle cx="260" cy="420" r="4"/>
+      <circle cx="380" cy="420" r="4"/>
+      <circle cx="260" cy="460" r="4"/>
+      <circle cx="380" cy="460" r="4"/>
+    </g>
+    <!-- central gear -->
+    <circle cx="320" cy="440" r="26" fill="#d8c08a"/>
+    <circle cx="320" cy="440" r="30" fill="none" stroke="#4a4a4a" stroke-width="7" stroke-dasharray="5 5"/>
+    <circle cx="320" cy="440" r="7" fill="#1d1a17"/>
+    <!-- wheels -->
+    <ellipse cx="230" cy="505" rx="13" ry="12" fill="#2d2a27"/>
+    <ellipse cx="405" cy="505" rx="13" ry="12" fill="#2d2a27"/>
+    <!-- exposed spring window -->
+    <rect x="262" y="478" width="70" height="22" rx="6" fill="#e9e3d6"/>
+    <polyline points="266,489 276,481 286,497 296,481 306,497 316,481 326,497 330,489" fill="none" stroke="#7d8790" stroke-width="3"/>
+    <!-- winding key -->
+    <line x1="402" y1="438" x2="452" y2="438" stroke-width="7"/>
+    <rect x="446" y="420" width="12" height="36" rx="3" fill="#c9a04a"/>
+    <rect x="394" y="430" width="12" height="18" fill="#8d979e"/>
+  </g>
+
+  <!-- brass whistle-spinner -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <rect x="575" y="410" width="80" height="50" rx="10" fill="#c9a04a"/>
+    <ellipse cx="655" cy="435" rx="10" ry="25" fill="#e0b860"/>
+    <ellipse cx="575" cy="435" rx="8" ry="30" fill="#b08a3a"/>
+    <rect x="600" y="382" width="18" height="30" rx="4" fill="#c9a04a"/>
+    <path d="M600 392 L618 392 M600 402 L618 402" stroke-width="2"/>
+    <g stroke-width="4" stroke-linecap="round">
+      <line x1="588" y1="415" x2="592" y2="455"/>
+      <line x1="586" y1="425" x2="598" y2="445"/>
+    </g>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="22" fill="#1d1a17">P.</text>
+</svg>
