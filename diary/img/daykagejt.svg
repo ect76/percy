@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+
+  <!-- distant fog bands -->
+  <rect x="0" y="90" width="800" height="60" fill="#cfd6d6" opacity="0.45"/>
+  <rect x="0" y="200" width="800" height="50" fill="#d8dedc" opacity="0.5"/>
+  <rect x="0" y="560" width="800" height="70" fill="#dfe3df" opacity="0.6"/>
+
+  <!-- wall the plaque is fixed to -->
+  <rect x="170" y="250" width="460" height="400" fill="#dcd2bf" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M170 300 H630 M170 360 H630 M170 420 H250 M300 420 H630 M170 480 H630 M170 540 H630" stroke="#2a2a2a" stroke-width="1" opacity="0.35" fill="none"/>
+
+  <!-- weathervane spindle and post -->
+  <line x1="400" y1="140" x2="400" y2="262" stroke="#2a2a2a" stroke-width="5"/>
+  <line x1="340" y1="190" x2="460" y2="190" stroke="#2a2a2a" stroke-width="3"/>
+  <circle cx="400" cy="262" r="10" fill="#8a7a5a" stroke="#2a2a2a" stroke-width="3"/>
+
+  <!-- gull weathervane, head pointing south (down the page) -->
+  <g transform="translate(400 120) rotate(-90)">
+    <path d="M-5 -8 L14 -42 L26 -40 L30 -6 Z" fill="#8f9aa3" stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="0" rx="40" ry="14" fill="#e8e6e0" stroke="#2a2a2a" stroke-width="3"/>
+    <path d="M36 -4 L60 -8 L56 2 Z" fill="#8f9aa3" stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="-40" cy="-8" r="10" fill="#e8e6e0" stroke="#2a2a2a" stroke-width="3"/>
+    <path d="M-48 -11 L-66 -6 L-48 -3 Z" fill="#c9a24a" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-42" cy="-10" r="2" fill="#2a2a2a"/>
+  </g>
+
+  <!-- brass plaque -->
+  <rect x="290" y="380" width="220" height="130" rx="6" fill="#c9a24a" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="304" y="394" width="192" height="102" rx="3" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+  <g fill="#7a5c20" stroke="#2a2a2a" stroke-width="1">
+    <circle cx="298" cy="388" r="3"/>
+    <circle cx="502" cy="388" r="3"/>
+    <circle cx="298" cy="502" r="3"/>
+    <circle cx="502" cy="502" r="3"/>
+  </g>
+  <!-- engraved lines standing in for lettering -->
+  <path d="M330 420 H470 M340 438 H460 M350 456 H450 M360 474 H440" stroke="#5a4214" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- compass mark S -->
+  <path d="M392 412 Q384 410 386 416 Q388 420 394 422 Q400 424 398 430 Q396 434 388 432" fill="none" stroke="#5a4214" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- cobbles -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="2" opacity="0.6">
+    <ellipse cx="200" cy="700" rx="40" ry="16"/>
+    <ellipse cx="290" cy="730" rx="46" ry="18"/>
+    <ellipse cx="410" cy="712" rx="38" ry="15"/>
+    <ellipse cx="520" cy="740" rx="44" ry="17"/>
+    <ellipse cx="610" cy="700" rx="36" ry="14"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="772" font-size="22" fill="#2a2a2a">P.</text>
+</svg>
