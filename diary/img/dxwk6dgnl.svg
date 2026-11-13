@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#ece3cf"/>
+  <!-- distant village silhouettes in fog -->
+  <g fill="#c9c2b0" stroke="#2a2622" stroke-width="2">
+    <path d="M0 330 L60 280 L110 330 Z"/>
+    <path d="M640 320 L700 270 L780 330 Z"/>
+    <rect x="40" y="320" width="70" height="60"/>
+    <rect x="690" y="315" width="80" height="70"/>
+  </g>
+  <!-- shop building -->
+  <rect x="140" y="170" width="520" height="470" fill="#dcbb8c" stroke="#2a2622" stroke-width="4"/>
+  <!-- awning roof -->
+  <path d="M120 170 L680 170 L650 120 L150 120 Z" fill="#8a4b3a" stroke="#2a2622" stroke-width="4"/>
+  <path d="M150 120 L650 120 L640 98 L160 98 Z" fill="#6e3a2d" stroke="#2a2622" stroke-width="3"/>
+  <!-- sign board, unlettered -->
+  <rect x="300" y="132" width="200" height="30" fill="#f4ead6" stroke="#2a2622" stroke-width="3"/>
+  <!-- bare shelves, five empty slots -->
+  <g stroke="#2a2622" stroke-width="4" fill="none">
+    <line x1="200" y1="300" x2="330" y2="300"/>
+    <line x1="350" y1="300" x2="450" y2="300"/>
+    <line x1="470" y1="300" x2="600" y2="300"/>
+    <line x1="200" y1="380" x2="600" y2="380"/>
+  </g>
+  <g fill="#c7a77a" stroke="#2a2622" stroke-width="2">
+    <rect x="200" y="300" width="130" height="8"/>
+    <rect x="350" y="300" width="100" height="8"/>
+    <rect x="470" y="300" width="130" height="8"/>
+    <rect x="200" y="380" width="400" height="8"/>
+  </g>
+  <!-- oven arch -->
+  <path d="M560 470 L560 330 Q560 290 600 290 Q640 290 640 330 L640 470 Z" fill="#4a3026" stroke="#2a2622" stroke-width="4"/>
+  <path d="M578 470 L578 350 Q578 332 600 332 Q622 332 622 350 L622 470 Z" fill="#e0892f"/>
+  <path d="M592 470 L592 380 Q592 370 600 370 Q608 370 608 380 L608 470 Z" fill="#f5c061"/>
+  <!-- counter -->
+  <rect x="180" y="480" width="440" height="50" fill="#a0764a" stroke="#2a2622" stroke-width="4"/>
+  <rect x="180" y="530" width="440" height="110" fill="#7d5a38" stroke="#2a2622" stroke-width="4"/>
+  <g stroke="#2a2622" stroke-width="2" opacity="0.6">
+    <line x1="240" y1="530" x2="240" y2="640"/>
+    <line x1="340" y1="530" x2="340" y2="640"/>
+    <line x1="460" y1="530" x2="460" y2="640"/>
+    <line x1="560" y1="530" x2="560" y2="640"/>
+  </g>
+  <!-- the loaf -->
+  <ellipse cx="400" cy="462" rx="90" ry="38" fill="#c98a3e" stroke="#2a2622" stroke-width="4"/>
+  <path d="M345 452 Q370 430 395 448 M410 446 Q435 428 458 450" fill="none" stroke="#f1c98a" stroke-width="6" stroke-linecap="round"/>
+  <!-- two coins, unused -->
+  <circle cx="250" cy="468" r="14" fill="#d9a441" stroke="#2a2622" stroke-width="3"/>
+  <circle cx="276" cy="470" r="14" fill="#d9a441" stroke="#2a2622" stroke-width="3"/>
+  <!-- peel leaning by the oven -->
+  <line x1="630" y1="470" x2="700" y2="240" stroke="#8a5a32" stroke-width="14" stroke-linecap="round"/>
+  <path d="M690 230 L735 214 L742 255 L700 272 Z" fill="#d8b27a" stroke="#2a2622" stroke-width="3"/>
+  <circle cx="676" cy="318" r="5" fill="#d9a441" stroke="#2a2622" stroke-width="2"/>
+  <!-- cobbles -->
+  <rect x="0" y="640" width="800" height="160" fill="#b8b0a0"/>
+  <g fill="#9c9484" stroke="#2a2622" stroke-width="2">
+    <ellipse cx="60" cy="670" rx="40" ry="14"/>
+    <ellipse cx="170" cy="700" rx="46" ry="15"/>
+    <ellipse cx="300" cy="668" rx="42" ry="13"/>
+    <ellipse cx="420" cy="712" rx="50" ry="15"/>
+    <ellipse cx="560" cy="672" rx="44" ry="14"/>
+    <ellipse cx="690" cy="705" rx="48" ry="15"/>
+    <ellipse cx="110" cy="750" rx="54" ry="16"/>
+    <ellipse cx="330" cy="760" rx="60" ry="17"/>
+    <ellipse cx="620" cy="762" rx="58" ry="16"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="560" width="800" height="60" fill="#f7f3ea" opacity="0.55"/>
+  <rect x="0" y="260" width="800" height="50" fill="#f7f3ea" opacity="0.45"/>
+  <rect x="0" y="640" width="800" height="40" fill="#f7f3ea" opacity="0.4"/>
+  <rect x="0" y="0" width="800" height="90" fill="#f7f3ea" opacity="0.5"/>
+  <!-- signature -->
+  <text x="30" y="772" font-size="28" fill="#2a2622">P.</text>
+</svg>
