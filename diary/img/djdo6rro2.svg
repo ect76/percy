@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f1ea" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f4f1ea" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd9e4"/>
+      <stop offset="1" stop-color="#e9efe6"/>
+    </linearGradient>
+    <pattern id="cob" width="26" height="18" patternUnits="userSpaceOnUse">
+      <rect width="26" height="18" fill="#b3a082"/>
+      <ellipse cx="7" cy="6" rx="6" ry="4" fill="#c4b395" stroke="#5a4b3a" stroke-width="1"/>
+      <ellipse cx="21" cy="15" rx="6" ry="4" fill="#c4b395" stroke="#5a4b3a" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#sky)"/>
+
+  <!-- distant hills, faint -->
+  <path d="M0 330 Q120 270 240 315 T480 300 T800 290 L800 420 L0 420 Z" fill="#a9c3b8" opacity="0.6"/>
+  <path d="M0 360 Q160 320 300 355 T620 345 T800 350 L800 430 L0 430 Z" fill="#8fb0a2" opacity="0.7"/>
+
+  <!-- kite in the sky (kite maker nod) -->
+  <path d="M640 110 L664 140 L640 176 L616 140 Z" fill="#d1493f" stroke="#2b2620" stroke-width="2"/>
+  <path d="M640 176 Q628 200 636 230 Q648 255 632 280" fill="none" stroke="#2b2620" stroke-width="1.5"/>
+
+  <!-- tower -->
+  <rect x="375" y="250" width="50" height="182" fill="#cfc3ae" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="368,252 400,150 432,252" fill="#4e5d62" stroke="#2b2620" stroke-width="3"/>
+  <line x1="400" y1="150" x2="400" y2="120" stroke="#2b2620" stroke-width="3"/>
+  <circle cx="400" cy="280" r="15" fill="#f5efe0" stroke="#2b2620" stroke-width="2"/>
+  <line x1="400" y1="280" x2="400" y2="270" stroke="#2b2620" stroke-width="2"/>
+  <line x1="400" y1="280" x2="408" y2="284" stroke="#2b2620" stroke-width="2"/>
+  <path d="M388 318 Q400 300 412 318 L412 340 L388 340 Z" fill="#5b4c3e" stroke="#2b2620" stroke-width="2"/>
+  <rect x="380" y="380" width="40" height="52" fill="#8d7e6a" stroke="#2b2620" stroke-width="2"/>
+  <path d="M396 432 Q400 410 404 432 L404 432 L396 432 Z" fill="#3b3228"/>
+
+  <!-- distant trees -->
+  <circle cx="300" cy="335" r="42" fill="#b5542e" stroke="#2b2620" stroke-width="1.5"/>
+  <circle cx="515" cy="338" r="38" fill="#d28a2f" stroke="#2b2620" stroke-width="1.5"/>
+  <rect x="297" y="370" width="6" height="60" fill="#5b4a3a"/>
+  <rect x="512" y="368" width="6" height="60" fill="#5b4a3a"/>
+
+  <!-- far cottages -->
+  <polygon points="130,340 230,372 230,560 130,600" fill="#d9c29c" stroke="#2b2620" stroke-width="2"/>
+  <polygon points="120,335 180,308 240,368 230,372 130,340" fill="#7a4131" stroke="#2b2620" stroke-width="2"/>
+  <polygon points="670,340 570,372 570,560 670,600" fill="#dcc39e" stroke="#2b2620" stroke-width="2"/>
+  <polygon points="680,335 620,308 560,368 570,372 670,340" fill="#6d3b2c" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- lane -->
+  <polygon points="150,800 650,800 425,430 375,430" fill="url(#cob)" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- near cottages -->
+  <polygon points="0,280 130,340 130,800 0,800" fill="#e8d3b0" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="-10,280 65,226 140,335 130,340 0,280" fill="#8a4b36" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="22,420 80,440 80,500 22,486" fill="#8fb3bd" stroke="#2b2620" stroke-width="2"/>
+  <line x1="51" y1="430" x2="51" y2="495" stroke="#2b2620" stroke-width="2"/>
+  <rect x="20" y="560" width="46" height="70" fill="#5b4a3a" stroke="#2b2620" stroke-width="2"/>
+
+  <polygon points="800,280 670,340 670,800 800,800" fill="#ead9b8" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="810,280 735,226 660,335 670,340 800,280" fill="#6d3b2c" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="778,420 720,440 720,500 778,486" fill="#8fb3bd" stroke="#2b2620" stroke-width="2"/>
+  <line x1="749" y1="430" x2="749" y2="495" stroke="#2b2620" stroke-width="2"/>
+  <rect x="734" y="560" width="46" height="70" fill="#5b4a3a" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- near autumn trees -->
+  <rect x="50" y="330" width="14" height="150" fill="#4e3b2c"/>
+  <circle cx="60" cy="290" r="92" fill="#c9762b" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="30" cy="250" r="34" fill="#e0a040" opacity="0.9"/>
+  <rect x="740" y="340" width="14" height="140" fill="#4e3b2c"/>
+  <circle cx="750" cy="300" r="80" fill="#d9a13b" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="775" cy="262" r="28" fill="#b5542e" opacity="0.9"/>
+
+  <!-- fallen leaves on lane -->
+  <g fill="#c9762b" opacity="0.9">
+    <ellipse cx="260" cy="700" rx="6" ry="3" transform="rotate(20 260 700)"/>
+    <ellipse cx="520" cy="650" rx="5" ry="3" transform="rotate(-30 520 650)"/>
+    <ellipse cx="350" cy="560" rx="4" ry="2" transform="rotate(10 350 560)"/>
+    <ellipse cx="470" cy="510" rx="4" ry="2" transform="rotate(-15 470 510)"/>
+  </g>
+
+  <!-- fog bands, thickest toward the tower -->
+  <rect x="0" y="380" width="800" height="90" fill="url(#fog)" opacity="0.8"/>
+  <rect x="0" y="440" width="800" height="60" fill="#f4f1ea" opacity="0.55"/>
+  <rect x="0" y="130" width="800" height="110" fill="url(#fog)" opacity="0.6"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="30" fill="#2b2620">P.</text>
+</svg>
