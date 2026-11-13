@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper ground -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecd9"/>
+
+  <!-- distant fog banks -->
+  <rect x="0" y="90" width="800" height="70" fill="#d9dfe0" opacity="0.7"/>
+  <rect x="0" y="150" width="800" height="50" fill="#e6e9e6" opacity="0.8"/>
+  <rect x="0" y="640" width="800" height="40" fill="#e8ebe6" opacity="0.8"/>
+
+  <!-- shop facade -->
+  <rect x="60" y="120" width="680" height="530" fill="#e4d6b8" stroke="#2a2622" stroke-width="4"/>
+  <rect x="60" y="120" width="680" height="22" fill="#c9b48e" stroke="#2a2622" stroke-width="3"/>
+  <!-- roof edge hatching -->
+  <g stroke="#2a2622" stroke-width="1.5" opacity="0.5">
+    <line x1="80" y1="150" x2="120" y2="120"/>
+    <line x1="120" y1="150" x2="160" y2="120"/>
+    <line x1="160" y1="150" x2="200" y2="120"/>
+    <line x1="200" y1="150" x2="240" y2="120"/>
+  </g>
+
+  <!-- window frame and glass -->
+  <rect x="240" y="270" width="320" height="260" fill="#bfd0d3" stroke="#2a2622" stroke-width="5"/>
+  <rect x="252" y="282" width="296" height="236" fill="#d6e2e3"/>
+  <line x1="400" y1="282" x2="400" y2="518" stroke="#2a2622" stroke-width="5"/>
+  <!-- shelf -->
+  <rect x="252" y="440" width="296" height="12" fill="#8a6a46" stroke="#2a2622" stroke-width="2.5"/>
+
+  <!-- rolled kite skin tube, blue, yellow, white -->
+  <g stroke="#2a2622" stroke-width="2.5">
+    <!-- fanned sheets peeking from the tube -->
+    <polygon points="268,440 262,372 300,378 304,440" fill="#2f5d9e"/>
+    <polygon points="300,440 304,378 332,372 334,440" fill="#e8c23a"/>
+    <polygon points="334,440 332,372 366,370 364,440" fill="#fbfaf5"/>
+    <!-- tube body -->
+    <rect x="262" y="392" width="112" height="48" fill="#f7f2e4"/>
+    <ellipse cx="374" cy="416" rx="10" ry="24" fill="#fbfaf5"/>
+    <ellipse cx="374" cy="416" rx="4" ry="10" fill="#c9b48e"/>
+  </g>
+  <!-- bands on the tube -->
+  <g stroke="#2a2622" stroke-width="1.5" opacity="0.6" fill="none">
+    <path d="M290 392 Q296 416 290 440"/>
+    <path d="M320 392 Q326 416 320 440"/>
+  </g>
+
+  <!-- bundle of cane kite spars -->
+  <g stroke="#7a5532" stroke-width="5" stroke-linecap="round">
+    <line x1="420" y1="432" x2="478" y2="352"/>
+    <line x1="432" y1="432" x2="490" y2="356"/>
+    <line x1="444" y1="432" x2="500" y2="360"/>
+  </g>
+  <g stroke="#2a2622" stroke-width="1.5" fill="none">
+    <path d="M440 400 L470 392 L498 402" stroke-dasharray="0"/>
+  </g>
+  <ellipse cx="470" cy="418" rx="8" ry="4" fill="#c9a06a" stroke="#2a2622" stroke-width="1.5" transform="rotate(-30 470 418)"/>
+
+  <!-- whistle-spinner disc -->
+  <circle cx="556" cy="396" r="30" fill="#e8c23a" stroke="#2a2622" stroke-width="3"/>
+  <circle cx="556" cy="396" r="8" fill="#f3ecd9" stroke="#2a2622" stroke-width="2"/>
+  <path d="M530 396 A26 26 0 0 1 582 396" fill="none" stroke="#2f5d9e" stroke-width="5"/>
+  <line x1="556" y1="366" x2="556" y2="362" stroke="#2a2622" stroke-width="3"/>
+  <rect x="552" y="356" width="8" height="8" fill="#2a2622"/>
+
+  <!-- paste pot -->
+  <rect x="470" y="410" width="24" height="30" fill="#f3ecd9" stroke="#2a2622" stroke-width="2.5"/>
+  <rect x="466" y="402" width="32" height="8" fill="#8a6a46" stroke="#2a2622" stroke-width="2"/>
+
+  <!-- price card on the shelf with four coins -->
+  <rect x="266" y="458" width="96" height="0.1" fill="none"/>
+  <g stroke="#2a2622" stroke-width="2">
+    <circle cx="300" cy="462" r="9" fill="#d9a441"/>
+    <circle cx="318" cy="462" r="9" fill="#d9a441"/>
+    <circle cx="336" cy="462" r="9" fill="#d9a441"/>
+    <circle cx="354" cy="462" r="9" fill="#d9a441"/>
+  </g>
+
+  <!-- door -->
+  <rect x="610" y="420" width="90" height="220" fill="#7a5532" stroke="#2a2622" stroke-width="4"/>
+  <circle cx="690" cy="540" r="4" fill="#d9a441" stroke="#2a2622" stroke-width="1.5"/>
+
+  <!-- price card pinned to the wall, curled corners -->
+  <path d="M96 300 L210 300 L210 440 L96 440 Z" fill="#fbf8ee" stroke="#2a2622" stroke-width="2.5"/>
+  <path d="M210 440 Q200 432 210 422 Z" fill="#e4dcc6" stroke="#2a2622" stroke-width="1.5"/>
+  <path d="M96 300 Q106 306 100 314" fill="none" stroke="#2a2622" stroke-width="1.5"/>
+  <g font-family="serif" fill="#2a2622">
+    <text x="110" y="322" font-size="14" font-weight="bold">KITES</text>
+    <text x="110" y="342" font-size="11">Small diamond 2.50</text>
+    <text x="110" y="358" font-size="11">Box kite 6.00</text>
+    <text x="110" y="374" font-size="11">Fighter kite 4.25</text>
+    <text x="110" y="390" font-size="11">Repairs 1.00</text>
+    <text x="110" y="412" font-size="10">Please ask for</text>
+    <text x="110" y="426" font-size="10">paper colours</text>
+  </g>
+
+  <!-- cobbled street -->
+  <rect x="0" y="680" width="800" height="120" fill="#d8cdb2"/>
+  <g fill="#e9e1cc" stroke="#2a2622" stroke-width="1.5" opacity="0.95">
+    <ellipse cx="60" cy="700" rx="40" ry="14"/>
+    <ellipse cx="150" cy="712" rx="44" ry="15"/>
+    <ellipse cx="250" cy="698" rx="38" ry="13"/>
+    <ellipse cx="350" cy="716" rx="42" ry="14"/>
+    <ellipse cx="455" cy="700" rx="40" ry="14"/>
+    <ellipse cx="555" cy="714" rx="44" ry="15"/>
+    <ellipse cx="660" cy="698" rx="38" ry="13"/>
+    <ellipse cx="750" cy="716" rx="40" ry="14"/>
+    <ellipse cx="100" cy="752" rx="42" ry="14"/>
+    <ellipse cx="205" cy="766" rx="40" ry="13"/>
+    <ellipse cx="310" cy="750" rx="44" ry="15"/>
+    <ellipse cx="415" cy="768" rx="40" ry="13"/>
+    <ellipse cx="520" cy="752" rx="42" ry="14"/>
+    <ellipse cx="625" cy="766" rx="40" ry="13"/>
+    <ellipse cx="730" cy="752" rx="42" ry="14"/>
+  </g>
+
+  <!-- fog over the street -->
+  <rect x="0" y="600" width="800" height="50" fill="#f3ecd9" opacity="0.55"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="16" fill="#2a2622">P.</text>
+</svg>
