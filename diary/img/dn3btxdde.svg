@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- wall -->
+  <rect x="40" y="40" width="720" height="500" fill="#e6dccb" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- wall wash marks -->
+  <path d="M60 90 Q120 80 180 92" stroke="#d6cab3" stroke-width="2" fill="none"/>
+  <path d="M520 470 Q600 462 690 472" stroke="#d6cab3" stroke-width="2" fill="none"/>
+
+  <!-- nail -->
+  <circle cx="400" cy="126" r="5" fill="#2a2a2a"/>
+
+  <!-- chalk board in pine frame -->
+  <g>
+    <rect x="70" y="170" width="270" height="300" fill="#d9b77e" stroke="#2a2a2a" stroke-width="4"/>
+    <rect x="86" y="186" width="238" height="268" fill="#262826" stroke="#2a2a2a" stroke-width="2"/>
+    <!-- smudged corners -->
+    <ellipse cx="96" cy="196" rx="14" ry="9" fill="#6b6b6b" opacity="0.35"/>
+    <ellipse cx="314" cy="444" rx="16" ry="10" fill="#6b6b6b" opacity="0.35"/>
+    <path d="M300 200 Q318 230 306 262" stroke="#6b6b6b" stroke-width="6" fill="none" opacity="0.25"/>
+    <!-- chalk writing -->
+    <g fill="#f2f2ea" font-family="serif">
+      <text x="100" y="216" font-size="12" font-weight="bold">THE LANTERN CAFÉ — MOSSBROOK</text>
+      <text x="100" y="250" font-size="13">Flat White</text>
+      <text x="310" y="250" font-size="13" text-anchor="end">2.80</text>
+      <text x="100" y="280" font-size="13">Espresso</text>
+      <text x="310" y="280" font-size="13" text-anchor="end">2.20</text>
+      <text x="100" y="310" font-size="13">Apple &amp; Cinnamon Cake</text>
+      <text x="310" y="310" font-size="13" text-anchor="end">3.50</text>
+      <text x="100" y="340" font-size="13">Toast &amp; Butter</text>
+      <text x="310" y="340" font-size="13" text-anchor="end">1.90</text>
+      <text x="100" y="390" font-size="13" font-style="italic">Today: Leek Soup</text>
+    </g>
+  </g>
+
+  <!-- wall clock, hung crooked -->
+  <g transform="translate(400,250) rotate(-7)">
+    <circle cx="0" cy="0" r="112" fill="#7a5230" stroke="#2a2a2a" stroke-width="4"/>
+    <circle cx="0" cy="0" r="96" fill="#fbfaf4" stroke="#2a2a2a" stroke-width="3"/>
+    <!-- hour marks -->
+    <g stroke="#2a2a2a" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-84" x2="0" y2="-72"/>
+      <line x1="84" y1="0" x2="72" y2="0"/>
+      <line x1="0" y1="84" x2="0" y2="72"/>
+      <line x1="-84" y1="0" x2="-72" y2="0"/>
+    </g>
+    <!-- hands -->
+    <line x1="0" y1="0" x2="-6" y2="-52" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="38" y2="-26" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="6" fill="#1a1a1a"/>
+    <!-- wood grain -->
+    <path d="M-100 -40 Q-60 -48 -30 -40" stroke="#5c3a1e" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M60 60 Q80 66 100 56" stroke="#5c3a1e" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="40" y="540" width="720" height="220" fill="#8a6240" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="40" y="530" width="720" height="22" fill="#a77b52" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M90 600 L300 600 M360 650 L620 650 M120 700 L280 700" stroke="#6e4c2c" stroke-width="2" fill="none"/>
+
+  <!-- cream bowl with sugar crust -->
+  <path d="M556 500 Q556 548 600 548 Q644 548 644 500 Z" fill="#f3e6c8" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="600" cy="500" rx="44" ry="12" fill="#f7eed8" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="600" cy="501" rx="36" ry="8" fill="#9a6632"/>
+  <g fill="#6b3f1c">
+    <circle cx="584" cy="500" r="2"/>
+    <circle cx="603" cy="497" r="2.5"/>
+    <circle cx="616" cy="503" r="2"/>
+  </g>
+  <!-- chip on rim -->
+  <path d="M636 496 L642 494 L640 500 Z" fill="#f4efe3" stroke="#2a2a2a" stroke-width="1.5"/>
+  <path d="M570 540 Q600 552 630 540" stroke="#c9b58f" stroke-width="2" fill="none"/>
+
+  <!-- fog -->
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="120" cy="620" rx="180" ry="30"/>
+    <ellipse cx="640" cy="130" rx="170" ry="26"/>
+    <ellipse cx="420" cy="760" rx="260" ry="28"/>
+  </g>
+
+  <!-- signature -->
+  <text x="768" y="782" font-family="serif" font-size="18" text-anchor="end" fill="#2a2a2a">P.</text>
+</svg>
