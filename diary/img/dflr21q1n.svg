@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="bodyClip">
+      <ellipse cx="390" cy="440" rx="142" ry="122"/>
+    </clipPath>
+    <filter id="rough" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+
+  <!-- distant cobbled street, lost in fog -->
+  <g fill="none" stroke="#8a8478" stroke-width="1.4" opacity="0.5">
+    <path d="M60 300 Q120 292 150 304"/>
+    <path d="M180 250 Q230 244 260 256"/>
+    <path d="M600 260 Q650 252 690 266"/>
+    <path d="M700 330 Q740 324 760 336"/>
+    <path d="M40 220 Q80 214 100 226"/>
+  </g>
+
+  <!-- fog bands -->
+  <g fill="#d6d3cb" opacity="0.55">
+    <ellipse cx="200" cy="200" rx="260" ry="36"/>
+    <ellipse cx="620" cy="160" rx="230" ry="30"/>
+    <ellipse cx="420" cy="640" rx="380" ry="34"/>
+    <ellipse cx="120" cy="520" rx="170" ry="26"/>
+  </g>
+  <g fill="#e6e3dc" opacity="0.8">
+    <ellipse cx="500" cy="230" rx="240" ry="22"/>
+    <ellipse cx="260" cy="700" rx="220" ry="20"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="0" y="575" width="800" height="225" fill="#8c6a4a"/>
+  <rect x="0" y="565" width="800" height="16" fill="#b08c63" stroke="#2b2118" stroke-width="3"/>
+  <g fill="none" stroke="#6b4f35" stroke-width="2" opacity="0.7">
+    <path d="M0 630 Q200 620 400 634 T800 628"/>
+    <path d="M0 690 Q240 680 480 694 T800 686"/>
+    <path d="M0 750 Q260 742 520 754 T800 748"/>
+  </g>
+
+  <!-- shadow on counter -->
+  <ellipse cx="410" cy="566" rx="190" ry="20" fill="#5a4330" opacity="0.45"/>
+
+  <g filter="url(#rough)" stroke="#1f1a14" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- handle -->
+    <path d="M254 392 Q196 420 200 470 Q206 512 262 500" fill="none"/>
+    <path d="M254 392 Q212 420 216 470 Q220 500 258 490" fill="none" stroke-width="0"/>
+
+    <!-- spout with chipped tip -->
+    <path d="M520 402 Q580 380 610 330 L632 316 L628 336 L640 344 L616 356 Q580 412 528 430 Z" fill="#fdfcf8"/>
+    <path d="M632 316 L628 336 L640 344" fill="none"/>
+
+    <!-- body -->
+    <ellipse cx="390" cy="440" rx="142" ry="122" fill="#fdfcf8"/>
+
+    <!-- blue band -->
+    <g clip-path="url(#bodyClip)">
+      <rect x="230" y="420" width="330" height="40" fill="#2f5fa6"/>
+      <path d="M230 420 H560" stroke="#1f1a14" stroke-width="2" fill="none"/>
+      <path d="M230 460 H560" stroke="#1f1a14" stroke-width="2" fill="none"/>
+    </g>
+    <ellipse cx="390" cy="440" rx="142" ry="122" fill="none"/>
+
+    <!-- highlight -->
+    <path d="M300 370 Q318 336 352 326" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.8"/>
+
+    <!-- lid, sitting askew -->
+    <g transform="rotate(-9 385 300)">
+      <path d="M322 300 Q326 262 386 258 Q446 262 450 300 Z" fill="#fdfcf8"/>
+      <path d="M322 300 Q386 316 450 300" fill="#e9e5da"/>
+      <path d="M336 286 Q386 298 438 286" fill="none" stroke="#2f5fa6" stroke-width="6"/>
+      <ellipse cx="386" cy="300" rx="70" ry="10" fill="#fdfcf8"/>
+      <path d="M368 258 Q370 238 386 236 Q402 238 404 258" fill="#fdfcf8"/>
+      <ellipse cx="386" cy="236" rx="12" ry="7" fill="#2f5fa6"/>
+    </g>
+
+    <!-- rim line where lid meets body -->
+    <path d="M262 366 Q390 392 520 366" fill="none" stroke-width="3" opacity="0.6"/>
+  </g>
+
+  <!-- ink hatching on shaded side -->
+  <g stroke="#1f1a14" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M440 350 Q470 400 462 470"/>
+    <path d="M452 340 Q484 396 476 480"/>
+    <path d="M466 360 Q496 410 490 480"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="22" text-anchor="end" fill="#1f1a14">P.</text>
+</svg>
