@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+
+  <!-- grey cloudy sky -->
+  <rect x="0" y="0" width="800" height="390" fill="#b8c0c5"/>
+  <g fill="#9ba4aa" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="120" cy="70" rx="150" ry="34"/>
+    <ellipse cx="330" cy="40" rx="130" ry="28"/>
+    <ellipse cx="600" cy="90" rx="170" ry="38"/>
+    <ellipse cx="740" cy="30" rx="110" ry="26"/>
+    <ellipse cx="260" cy="150" rx="180" ry="30"/>
+    <ellipse cx="640" cy="190" rx="160" ry="30"/>
+  </g>
+  <g fill="#cdd4d8" opacity="0.8">
+    <ellipse cx="200" cy="105" rx="120" ry="18"/>
+    <ellipse cx="520" cy="130" rx="140" ry="20"/>
+    <ellipse cx="90" cy="200" rx="110" ry="16"/>
+  </g>
+
+  <!-- distant ground and fog -->
+  <rect x="0" y="380" width="800" height="40" fill="#dfe5e8"/>
+
+  <!-- side snowbanks -->
+  <polygon points="0,380 375,385 120,800 0,800" fill="#d3dadd" stroke="#2b2b2b" stroke-width="1.5"/>
+  <polygon points="800,380 455,385 680,800 800,800" fill="#d3dadd" stroke="#2b2b2b" stroke-width="1.5"/>
+
+  <!-- the lane -->
+  <polygon points="120,800 680,800 455,385 375,385" fill="#f2f5f6" stroke="#2b2b2b" stroke-width="2"/>
+  <g fill="none" stroke="#9aa5ab" stroke-width="1.2">
+    <path d="M200 760 q10 -6 22 -2"/>
+    <path d="M330 650 q8 -4 16 0"/>
+    <path d="M430 520 q5 -3 10 0"/>
+    <path d="M300 720 q12 -5 26 -1"/>
+    <path d="M410 430 q4 -2 8 0"/>
+  </g>
+
+  <!-- bell tower at the end of the lane -->
+  <g stroke="#2b2b2b" stroke-width="1.5">
+    <rect x="398" y="290" width="36" height="95" fill="#8f8a84"/>
+    <rect x="396" y="262" width="40" height="30" fill="#6f6b66"/>
+    <polygon points="392,262 416,214 440,262" fill="#4c4c52"/>
+    <circle cx="416" cy="308" r="10" fill="#e6e1d2"/>
+    <line x1="416" y1="308" x2="416" y2="301"/>
+    <line x1="416" y1="308" x2="421" y2="310"/>
+  </g>
+  <rect x="404" y="270" width="8" height="14" fill="#2b2b2b"/>
+  <rect x="420" y="270" width="8" height="14" fill="#2b2b2b"/>
+  <path d="M392 262 L416 214 L440 262 L434 258 L416 222 L398 258 Z" fill="#f7f9fa"/>
+  <rect x="402" y="330" width="28" height="6" fill="#4c4c52"/>
+  <rect x="398" y="372" width="36" height="13" fill="#5f5a55"/>
+
+  <!-- low stone wall on the right of the lane -->
+  <polygon points="465,385 800,470 800,520 470,392" fill="#8d8176" stroke="#2b2b2b" stroke-width="1.5"/>
+  <polygon points="465,385 800,470 800,478 465,393" fill="#f7f9fa" stroke="#2b2b2b" stroke-width="1"/>
+
+  <!-- Pond Lane cottage on the left -->
+  <g stroke="#2b2b2b" stroke-width="1.8">
+    <rect x="40" y="430" width="230" height="190" fill="#c9b79c"/>
+    <polygon points="20,440 155,350 290,440" fill="#5b5d63"/>
+    <polygon points="20,440 155,350 155,362 36,440" fill="#f7f9fa"/>
+    <polygon points="155,350 290,440 280,444 155,362" fill="#f7f9fa"/>
+    <rect x="70" y="470" width="50" height="50" fill="#5a4a3a"/>
+    <rect x="200" y="470" width="50" height="50" fill="#e8d9a0"/>
+    <rect x="200" y="540" width="45" height="80" fill="#6b4f3a"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.2" fill="none">
+    <line x1="95" y1="470" x2="95" y2="520"/>
+    <line x1="70" y1="495" x2="120" y2="495"/>
+    <line x1="225" y1="470" x2="225" y2="520"/>
+    <line x1="200" y1="495" x2="250" y2="495"/>
+  </g>
+  <circle cx="234" cy="580" r="3" fill="#2b2b2b"/>
+  <!-- snow on cottage ground -->
+  <ellipse cx="150" cy="622" rx="150" ry="14" fill="#f7f9fa" stroke="#2b2b2b" stroke-width="1"/>
+
+  <!-- fog band near horizon -->
+  <rect x="0" y="352" width="800" height="36" fill="#e4e9eb" opacity="0.7"/>
+  <rect x="0" y="372" width="800" height="18" fill="#efe9dc" opacity="0.35"/>
+
+  <!-- wind-blown snow streaks -->
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <path d="M80 300 Q200 270 330 300"/>
+    <path d="M300 420 Q380 400 470 430"/>
+    <path d="M520 360 Q620 330 760 355"/>
+    <path d="M330 520 Q420 490 560 520"/>
+    <path d="M140 640 Q280 600 420 640"/>
+    <path d="M470 600 Q580 570 720 610"/>
+    <path d="M40 740 Q200 700 360 740"/>
+    <path d="M500 720 Q640 690 790 720"/>
+    <path d="M250 200 Q330 185 400 200"/>
+  </g>
+
+  <!-- drift piles along the lane edges -->
+  <g fill="#ffffff" stroke="#2b2b2b" stroke-width="1">
+    <ellipse cx="150" cy="790" rx="90" ry="14"/>
+    <ellipse cx="660" cy="780" rx="110" ry="16"/>
+    <ellipse cx="400" cy="420" rx="28" ry="6"/>
+  </g>
+
+  <!-- falling and drifting flakes -->
+  <g fill="#ffffff" stroke="#8a9399" stroke-width="0.6">
+    <circle cx="180" cy="180" r="3"/>
+    <circle cx="260" cy="250" r="2.5"/>
+    <circle cx="560" cy="250" r="3"/>
+    <circle cx="610" cy="300" r="2"/>
+    <circle cx="350" cy="330" r="2.5"/>
+    <circle cx="480" cy="340" r="2"/>
+    <circle cx="120" cy="380" r="3"/>
+    <circle cx="700" cy="420" r="3"/>
+    <circle cx="520" cy="480" r="3.5"/>
+    <circle cx="300" cy="560" r="3"/>
+    <circle cx="620" cy="600" r="4"/>
+    <circle cx="90" cy="700" r="4"/>
+    <circle cx="740" cy="720" r="3"/>
+    <circle cx="410" cy="650" r="3"/>
+    <circle cx="230" cy="740" r="3.5"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="784" font-family="serif" font-size="26" fill="#2b2b2b">P.</text>
+</svg>
