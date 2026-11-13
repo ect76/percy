@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfd6d9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#eef1f1" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9a293"/>
+      <stop offset="1" stop-color="#7f796c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f4efe4"/>
+
+  <!-- sky and distant roofs -->
+  <rect x="0" y="0" width="800" height="330" fill="#c9d2d6"/>
+  <polygon points="230,300 300,250 360,300 360,330 230,330" fill="#8e9598" stroke="#2b2622" stroke-width="2"/>
+  <polygon points="520,310 600,262 690,310 690,330 520,330" fill="#8e9598" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- cobbled lane -->
+  <polygon points="120,800 680,800 470,450 330,450" fill="url(#lane)" stroke="#2b2622" stroke-width="2"/>
+  <g fill="none" stroke="#5e5850" stroke-width="1.5" opacity="0.7">
+    <ellipse cx="200" cy="740" rx="18" ry="8"/>
+    <ellipse cx="340" cy="720" rx="16" ry="7"/>
+    <ellipse cx="520" cy="735" rx="18" ry="8"/>
+    <ellipse cx="610" cy="770" rx="22" ry="9"/>
+    <ellipse cx="260" cy="790" rx="20" ry="8"/>
+    <ellipse cx="420" cy="620" rx="12" ry="5"/>
+    <ellipse cx="370" cy="560" rx="10" ry="4"/>
+    <ellipse cx="440" cy="590" rx="11" ry="4"/>
+    <ellipse cx="395" cy="505" rx="7" ry="3"/>
+  </g>
+
+  <!-- puddles -->
+  <g fill="#c3ced4" stroke="#2b2622" stroke-width="1" opacity="0.85">
+    <ellipse cx="300" cy="700" rx="60" ry="10"/>
+    <ellipse cx="560" cy="650" rx="40" ry="7"/>
+    <ellipse cx="410" cy="480" rx="22" ry="4"/>
+  </g>
+
+  <!-- cottage on the left -->
+  <rect x="-20" y="300" width="130" height="500" fill="#b48a66" stroke="#2b2622" stroke-width="3"/>
+  <polygon points="-30,300 45,220 120,300" fill="#6d4e3a" stroke="#2b2622" stroke-width="3"/>
+  <rect x="30" y="420" width="60" height="70" fill="#e2d28f" stroke="#2b2622" stroke-width="3"/>
+  <line x1="60" y1="420" x2="60" y2="490" stroke="#2b2622" stroke-width="2"/>
+  <line x1="30" y1="455" x2="90" y2="455" stroke="#2b2622" stroke-width="2"/>
+  <rect x="20" y="640" width="50" height="160" fill="#4d3a2a" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- low wall on the right -->
+  <polygon points="680,800 470,450 470,385 800,300 800,800" fill="#7d7467" stroke="#2b2622" stroke-width="3"/>
+  <g stroke="#2b2622" stroke-width="1.5" opacity="0.6" fill="none">
+    <line x1="640" y1="740" x2="800" y2="700"/>
+    <line x1="600" y1="620" x2="800" y2="580"/>
+    <line x1="540" y1="520" x2="800" y2="470"/>
+  </g>
+
+  <!-- narrow bell tower at the end of the lane -->
+  <polygon points="372,240 400,170 428,240" fill="#5f5a55" stroke="#2b2622" stroke-width="3"/>
+  <rect x="370" y="240" width="60" height="210" fill="#918676" stroke="#2b2622" stroke-width="3"/>
+  <rect x="388" y="200" width="24" height="26" fill="#2b2622"/>
+  <circle cx="400" cy="290" r="24" fill="#ffffff" stroke="#2b2622" stroke-width="3"/>
+  <line x1="400" y1="290" x2="400" y2="274" stroke="#1d1a17" stroke-width="3" stroke-linecap="round"/>
+  <line x1="400" y1="290" x2="412" y2="296" stroke="#1d1a17" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="400" cy="290" r="2.5" fill="#1d1a17"/>
+
+  <!-- case door with brass pendulum -->
+  <rect x="386" y="370" width="28" height="50" fill="#5a3b22" stroke="#2b2622" stroke-width="2"/>
+  <line x1="400" y1="372" x2="400" y2="402" stroke="#c9a13b" stroke-width="1.5"/>
+  <circle cx="400" cy="406" r="5" fill="#c9a13b" stroke="#2b2622" stroke-width="1"/>
+
+  <!-- plaque -->
+  <rect x="362" y="428" width="76" height="16" fill="#3b2a1d" stroke="#2b2622" stroke-width="1"/>
+  <text x="400" y="439" font-size="6.5" fill="#f4efe4" text-anchor="middle">HATTERSLEY CLOCKS - MOSSBROOK</text>
+
+  <!-- fog band around the tower -->
+  <rect x="200" y="300" width="400" height="180" fill="url(#fog)"/>
+
+  <!-- rain -->
+  <g stroke="#4a5560" stroke-width="1.2" stroke-linecap="round" opacity="0.55">
+    <line x1="90" y1="60" x2="70" y2="110"/>
+    <line x1="170" y1="30" x2="150" y2="80"/>
+    <line x1="260" y1="90" x2="240" y2="140"/>
+    <line x1="340" y1="40" x2="320" y2="90"/>
+    <line x1="450" y1="20" x2="430" y2="70"/>
+    <line x1="530" y1="110" x2="510" y2="160"/>
+    <line x1="620" y1="50" x2="600" y2="100"/>
+    <line x1="720" y1="130" x2="700" y2="180"/>
+    <line x1="60" y1="200" x2="40" y2="250"/>
+    <line x1="210" y1="230" x2="190" y2="280"/>
+    <line x1="300" y1="170" x2="280" y2="220"/>
+    <line x1="560" y1="210" x2="540" y2="260"/>
+    <line x1="660" y1="250" x2="640" y2="300"/>
+    <line x1="150" y1="360" x2="130" y2="410"/>
+    <line x1="740" y1="380" x2="720" y2="430"/>
+    <line x1="700" y1="520" x2="680" y2="570"/>
+    <line x1="30" y1="560" x2="10" y2="610"/>
+    <line x1="760" y1="640" x2="740" y2="690"/>
+    <line x1="580" y1="420" x2="560" y2="470"/>
+    <line x1="250" y1="520" x2="230" y2="570"/>
+    <line x1="80" y1="700" x2="60" y2="750"/>
+    <line x1="500" y1="740" x2="480" y2="790"/>
+  </g>
+
+  <!-- signature -->
+  <text x="772" y="784" font-size="16" fill="#2b2622" text-anchor="end">P.</text>
+</svg>
