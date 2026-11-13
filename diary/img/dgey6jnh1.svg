@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4ecdc"/>
+  <!-- fog bands -->
+  <ellipse cx="160" cy="250" rx="220" ry="40" fill="#d9dfdc" opacity="0.6"/>
+  <ellipse cx="660" cy="330" rx="200" ry="34" fill="#d9dfdc" opacity="0.5"/>
+  <ellipse cx="400" cy="700" rx="420" ry="60" fill="#d9dfdc" opacity="0.7"/>
+  <!-- cobbled floor -->
+  <g fill="#c9bfae" stroke="#2a2420" stroke-width="3">
+    <ellipse cx="200" cy="735" rx="40" ry="14"/>
+    <ellipse cx="290" cy="750" rx="44" ry="15"/>
+    <ellipse cx="390" cy="732" rx="36" ry="13"/>
+    <ellipse cx="500" cy="752" rx="46" ry="15"/>
+    <ellipse cx="600" cy="735" rx="40" ry="14"/>
+  </g>
+  <!-- cupboard -->
+  <rect x="180" y="130" width="440" height="300" fill="#b98a5e" stroke="#2a2420" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="200" y="150" width="180" height="260" fill="#a77a4f" stroke="#2a2420" stroke-width="4"/>
+  <rect x="420" y="150" width="180" height="260" fill="#a77a4f" stroke="#2a2420" stroke-width="4"/>
+  <g stroke="#2a2420" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="200" y1="230" x2="380" y2="230"/>
+    <line x1="200" y1="310" x2="380" y2="310"/>
+    <line x1="420" y1="230" x2="600" y2="230"/>
+    <line x1="420" y1="310" x2="600" y2="310"/>
+  </g>
+  <circle cx="370" cy="290" r="6" fill="#2a2420"/>
+  <circle cx="430" cy="290" r="6" fill="#2a2420"/>
+  <!-- table -->
+  <rect x="120" y="440" width="560" height="40" fill="#8a5a36" stroke="#2a2420" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="120" y="480" width="560" height="22" fill="#6d4628" stroke="#2a2420" stroke-width="5"/>
+  <rect x="150" y="502" width="26" height="170" fill="#6d4628" stroke="#2a2420" stroke-width="5"/>
+  <rect x="624" y="502" width="26" height="170" fill="#6d4628" stroke="#2a2420" stroke-width="5"/>
+  <!-- steam -->
+  <g fill="none" stroke="#8c9696" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <path d="M330 300 C315 275 345 260 330 230"/>
+    <path d="M400 290 C385 260 415 245 400 210"/>
+    <path d="M470 300 C455 275 485 260 470 230"/>
+  </g>
+  <!-- loaf -->
+  <path d="M250 440 C240 370 300 326 400 326 C500 326 560 370 550 440 Z" fill="#d89a4a" stroke="#2a2420" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M300 352 C330 340 350 340 360 352" fill="none" stroke="#9c5f2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M390 340 C420 332 445 336 460 346" fill="none" stroke="#9c5f2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M480 360 C505 362 520 372 528 386" fill="none" stroke="#9c5f2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M290 410 C300 395 310 388 325 384" fill="none" stroke="#f0cf8e" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+  <!-- bread peel -->
+  <line x1="600" y1="452" x2="740" y2="120" stroke="#2a2420" stroke-width="22" stroke-linecap="round"/>
+  <line x1="600" y1="452" x2="740" y2="120" stroke="#b98a5e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M560 440 L690 410 L722 452 L598 478 Z" fill="#c9a06a" stroke="#2a2420" stroke-width="6" stroke-linejoin="round"/>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2420" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M730 730 V762 M730 730 H742 Q754 730 754 741 Q754 752 742 752 H730"/>
+  </g>
+  <circle cx="764" cy="762" r="3.5" fill="#2a2420"/>
+</svg>
