@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe9dc"/>
+  <!-- cottage wall, fog-bound -->
+  <rect x="0" y="0" width="800" height="540" fill="#d9d2c3"/>
+  <rect x="60" y="170" width="130" height="250" fill="#8a7560" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="600" y="200" width="110" height="90" fill="#b8c2c4" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="655" y1="200" x2="655" y2="290" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="0" y="260" width="800" height="50" fill="#ffffff" opacity="0.45"/>
+  <rect x="0" y="380" width="800" height="40" fill="#ffffff" opacity="0.3"/>
+  <!-- floor -->
+  <rect x="0" y="540" width="800" height="260" fill="#c9c1b0"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#2b2b2b" stroke-width="3"/>
+  <!-- cobbles, receding toward viewer -->
+  <g fill="#bfb6a3" stroke="#6e665a" stroke-width="2">
+    <ellipse cx="120" cy="590" rx="40" ry="10"/>
+    <ellipse cx="300" cy="592" rx="46" ry="11"/>
+    <ellipse cx="520" cy="588" rx="42" ry="10"/>
+    <ellipse cx="690" cy="594" rx="50" ry="12"/>
+    <ellipse cx="60" cy="660" rx="58" ry="15"/>
+    <ellipse cx="240" cy="668" rx="62" ry="16"/>
+    <ellipse cx="450" cy="664" rx="60" ry="15"/>
+    <ellipse cx="660" cy="672" rx="64" ry="16"/>
+    <ellipse cx="130" cy="745" rx="80" ry="22"/>
+    <ellipse cx="380" cy="752" rx="86" ry="24"/>
+    <ellipse cx="640" cy="748" rx="82" ry="22"/>
+  </g>
+  <!-- shadow -->
+  <ellipse cx="400" cy="565" rx="200" ry="14" fill="#4a4a4a" opacity="0.3"/>
+  <!-- tail -->
+  <path d="M570,430 C640,420 660,360 700,330" fill="none" stroke="#2b2b2b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M570,430 C640,420 660,360 700,330" fill="none" stroke="#a7b0ba" stroke-width="6" stroke-linecap="round"/>
+  <!-- legs -->
+  <rect x="300" y="480" width="26" height="66" fill="#8f98a2" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="420" y="480" width="26" height="66" fill="#8f98a2" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="290" y="542" width="44" height="10" fill="#5d6670" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="412" y="542" width="44" height="10" fill="#5d6670" stroke="#2b2b2b" stroke-width="3"/>
+  <!-- body -->
+  <ellipse cx="400" cy="440" rx="165" ry="68" fill="#a7b0ba" stroke="#2b2b2b" stroke-width="4"/>
+  <!-- underside plate, seen from low -->
+  <ellipse cx="400" cy="500" rx="150" ry="22" fill="#5d6670" stroke="#2b2b2b" stroke-width="3"/>
+  <!-- cam disc -->
+  <ellipse cx="370" cy="500" rx="46" ry="12" fill="#cfc38f" stroke="#2b2b2b" stroke-width="3"/>
+  <ellipse cx="370" cy="500" rx="14" ry="4" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M400,492 Q408,486 414,494" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+  <!-- wire follower resting lightly on the low part of the cam -->
+  <path d="M300,478 C310,500 316,503 326,503" fill="none" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round"/>
+  <!-- spring key -->
+  <circle cx="585" cy="452" r="16" fill="#c8a14a" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="580" y="400" width="10" height="36" fill="#c8a14a" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="570" y="394" width="30" height="8" fill="#c8a14a" stroke="#2b2b2b" stroke-width="2"/>
+  <!-- head -->
+  <path d="M210,420 L165,430 L210,444 Z" fill="#a7b0ba" stroke="#2b2b2b" stroke-width="3"/>
+  <circle cx="250" cy="415" r="48" fill="#a7b0ba" stroke="#2b2b2b" stroke-width="4"/>
+  <circle cx="230" cy="372" r="20" fill="#d6a7a0" stroke="#2b2b2b" stroke-width="3"/>
+  <circle cx="264" cy="368" r="18" fill="#d6a7a0" stroke="#2b2b2b" stroke-width="3"/>
+  <circle cx="234" cy="408" r="5" fill="#2b2b2b"/>
+  <circle cx="167" cy="430" r="5" fill="#2b2b2b"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <line x1="170" y1="436" x2="120" y2="428"/>
+    <line x1="170" y1="442" x2="122" y2="446"/>
+  </g>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="4" stroke-linecap="round">
+    <path d="M720,740 V775 M720,740 H735 Q748,740 748,752 Q748,765 735,765 H720"/>
+  </g>
+  <circle cx="758" cy="774" r="3" fill="#2b2b2b"/>
+</svg>
