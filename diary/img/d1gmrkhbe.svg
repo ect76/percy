@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#ece6d6"/>
+  <rect x="30" y="30" width="740" height="740" fill="#f6f1e4" stroke="#2b2622" stroke-width="3"/>
+  <!-- fog bands -->
+  <rect x="40" y="620" width="720" height="60" fill="#dcd6c6" opacity="0.6"/>
+  <rect x="40" y="150" width="720" height="10" fill="#dcd6c6" opacity="0.5"/>
+
+  <!-- Left sketch: Welcome to Mossville post -->
+  <g stroke="#2b2622" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ground line -->
+    <path d="M90 690 Q200 700 320 688" fill="none" stroke-width="2"/>
+    <!-- post -->
+    <rect x="193" y="380" width="14" height="310" fill="#8a6442"/>
+    <path d="M200 400 L200 680" fill="none" stroke="#5a3e28" stroke-width="1.5"/>
+    <!-- moss at base -->
+    <ellipse cx="190" cy="676" rx="22" ry="9" fill="#5f8f4a"/>
+    <ellipse cx="214" cy="682" rx="16" ry="7" fill="#7aa35c"/>
+    <ellipse cx="203" cy="670" rx="8" ry="5" fill="#4b7a3a"/>
+    <!-- roof cap -->
+    <polygon points="120,310 200,250 280,310" fill="#6b4a30"/>
+    <!-- board -->
+    <rect x="128" y="300" width="144" height="92" rx="14" fill="#f3e9cf" stroke-width="3"/>
+    <rect x="136" y="308" width="128" height="76" rx="9" fill="none" stroke="#3d6b3a" stroke-width="8"/>
+    <!-- chains -->
+    <path d="M160 392 L156 430" fill="none" stroke="#b5893a" stroke-width="4" stroke-dasharray="6 3"/>
+    <path d="M240 392 L244 430" fill="none" stroke="#b5893a" stroke-width="4" stroke-dasharray="6 3"/>
+    <circle cx="156" cy="434" r="4" fill="#b5893a"/>
+    <circle cx="244" cy="434" r="4" fill="#b5893a"/>
+  </g>
+  <text x="200" y="352" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#2b2622">Welcome to</text>
+  <text x="200" y="376" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#2b2622">Mossville</text>
+
+  <!-- Right sketch: bare bakery counter -->
+  <g stroke="#2b2622" stroke-width="3" stroke-linejoin="round">
+    <!-- small sign -->
+    <rect x="500" y="300" width="140" height="40" rx="6" fill="#f3e9cf"/>
+    <line x1="520" y1="340" x2="520" y2="360" stroke-width="2"/>
+    <line x1="600" y1="340" x2="600" y2="360" stroke-width="2"/>
+    <!-- counter top -->
+    <rect x="430" y="460" width="280" height="22" fill="#c59a64"/>
+    <!-- counter front -->
+    <rect x="440" y="482" width="260" height="170" fill="#9a6d43"/>
+    <!-- panels -->
+    <rect x="462" y="510" width="96" height="120" fill="none" stroke-width="2"/>
+    <rect x="582" y="510" width="96" height="120" fill="none" stroke-width="2"/>
+    <!-- wood grain -->
+    <path d="M450 540 Q520 532 600 540" fill="none" stroke="#6e4a2b" stroke-width="1.5"/>
+    <path d="M450 600 Q520 592 600 600" fill="none" stroke="#6e4a2b" stroke-width="1.5"/>
+    <path d="M620 560 Q660 556 690 562" fill="none" stroke="#6e4a2b" stroke-width="1.5"/>
+    <!-- floor shadow -->
+    <ellipse cx="570" cy="660" rx="150" ry="10" fill="#b9b2a0" opacity="0.7"/>
+  </g>
+  <text x="570" y="326" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#2b2622">Crumb's Bakery</text>
+
+  <!-- Signature -->
+  <text x="54" y="750" font-family="serif" font-size="22" fill="#2b2622">P.</text>
+</svg>
