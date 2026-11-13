@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4eee1"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#2a2420" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- distant fog banks -->
+  <rect x="40" y="250" width="720" height="70" fill="#ffffff" opacity="0.55"/>
+  <rect x="60" y="330" width="680" height="40" fill="#ffffff" opacity="0.45"/>
+  <rect x="40" y="520" width="720" height="26" fill="#ffffff" opacity="0.4"/>
+
+  <!-- cobbled road -->
+  <rect x="40" y="640" width="720" height="120" fill="#c9bfa8"/>
+  <g fill="#b3a88f" stroke="#2a2420" stroke-width="1.5">
+    <ellipse cx="90" cy="665" rx="26" ry="11"/>
+    <ellipse cx="160" cy="690" rx="30" ry="12"/>
+    <ellipse cx="240" cy="672" rx="24" ry="10"/>
+    <ellipse cx="320" cy="705" rx="28" ry="11"/>
+    <ellipse cx="410" cy="678" rx="25" ry="10"/>
+    <ellipse cx="495" cy="700" rx="30" ry="12"/>
+    <ellipse cx="580" cy="668" rx="26" ry="10"/>
+    <ellipse cx="660" cy="695" rx="28" ry="11"/>
+    <ellipse cx="730" cy="672" rx="22" ry="9"/>
+    <ellipse cx="120" cy="736" rx="32" ry="12"/>
+    <ellipse cx="260" cy="750" rx="28" ry="11"/>
+    <ellipse cx="400" cy="738" rx="30" ry="12"/>
+    <ellipse cx="540" cy="752" rx="26" ry="10"/>
+    <ellipse cx="680" cy="735" rx="32" ry="12"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="320" cy="646" rx="200" ry="10" fill="#2a2420" opacity="0.25"/>
+
+  <!-- chassis -->
+  <rect x="180" y="590" width="250" height="24" fill="#1d1a18" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- cowcatcher -->
+  <polygon points="398,600 470,628 470,640 398,640" fill="#1d1a18" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#2a2420" stroke-width="2">
+    <line x1="410" y1="612" x2="410" y2="640"/>
+    <line x1="425" y1="617" x2="425" y2="640"/>
+    <line x1="440" y1="622" x2="440" y2="640"/>
+    <line x1="455" y1="627" x2="455" y2="640"/>
+  </g>
+
+  <!-- cab -->
+  <rect x="160" y="450" width="112" height="144" fill="#c8302a" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="150,458 170,412 275,412 275,458" fill="#c8302a" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="180" y="470" width="70" height="44" fill="#f2c230" stroke="#2a2420" stroke-width="3"/>
+  <line x1="215" y1="470" x2="215" y2="514" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="236" y="520" width="22" height="74" fill="#f2c230" stroke="#2a2420" stroke-width="2.5"/>
+
+  <!-- boiler -->
+  <path d="M270,590 L270,485 Q270,430 325,430 Q380,430 380,485 L380,590 Z" fill="#c8302a" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <!-- boiler bands -->
+  <line x1="270" y1="500" x2="380" y2="500" stroke="#2a2420" stroke-width="2.5"/>
+  <line x1="270" y1="545" x2="380" y2="545" stroke="#2a2420" stroke-width="2.5"/>
+  <!-- yellow trim -->
+  <rect x="150" y="574" width="250" height="12" fill="#f2c230" stroke="#2a2420" stroke-width="2.5"/>
+
+  <!-- funnel -->
+  <rect x="326" y="436" width="46" height="8" fill="#2a2420"/>
+  <polygon points="330,440 368,440 378,384 340,384" fill="#1d1a18" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="336" y="378" width="36" height="8" fill="#2a2420"/>
+
+  <!-- front lamp -->
+  <circle cx="380" cy="512" r="10" fill="#f2c230" stroke="#2a2420" stroke-width="2.5"/>
+
+  <!-- wheels -->
+  <g stroke="#2a2420" stroke-width="3">
+    <circle cx="215" cy="614" r="26" fill="#1d1a18"/>
+    <circle cx="300" cy="614" r="26" fill="#1d1a18"/>
+    <circle cx="380" cy="614" r="26" fill="#1d1a18"/>
+  </g>
+  <g fill="#8a8170" stroke="#2a2420" stroke-width="1.5">
+    <circle cx="215" cy="614" r="9"/>
+    <circle cx="300" cy="614" r="9"/>
+    <circle cx="380" cy="614" r="9"/>
+  </g>
+  <!-- connecting rod -->
+  <line x1="241" y1="614" x2="274" y2="614" stroke="#f2c230" stroke-width="5"/>
+  <line x1="326" y1="614" x2="354" y2="614" stroke="#f2c230" stroke-width="5"/>
+
+  <!-- signature -->
+  <text x="762" y="782" text-anchor="end" font-family="serif" font-size="22" fill="#2a2420">P.</text>
+</svg>
