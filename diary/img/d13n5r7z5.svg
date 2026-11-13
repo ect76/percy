@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9d2d8"/>
+      <stop offset="1" stop-color="#e9ebe6"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3dce0"/>
+      <stop offset="1" stop-color="#7b858c"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f2ea" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f4f2ea" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f4f2ea" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="cob" width="36" height="22" patternUnits="userSpaceOnUse">
+      <ellipse cx="18" cy="11" rx="14" ry="7" fill="none" stroke="#5d666d" stroke-width="1.2"/>
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="none" stroke="#5d666d" stroke-width="1.2"/>
+      <ellipse cx="36" cy="0" rx="6" ry="4" fill="none" stroke="#5d666d" stroke-width="1.2"/>
+      <ellipse cx="0" cy="22" rx="6" ry="4" fill="none" stroke="#5d666d" stroke-width="1.2"/>
+      <ellipse cx="36" cy="22" rx="6" ry="4" fill="none" stroke="#5d666d" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+  <rect x="0" y="0" width="800" height="420" fill="url(#sky)"/>
+
+  <!-- far cottages -->
+  <path d="M170,240 L330,290 L330,345 L170,300 Z" fill="#4f5a64" stroke="#222" stroke-width="2"/>
+  <path d="M170,300 L330,345 L330,448 L170,560 Z" fill="#cdb898" stroke="#222" stroke-width="2"/>
+  <path d="M630,240 L470,290 L470,345 L630,300 Z" fill="#4f5a64" stroke="#222" stroke-width="2"/>
+  <path d="M630,300 L470,345 L470,448 L630,560 Z" fill="#cdb898" stroke="#222" stroke-width="2"/>
+
+  <!-- lane -->
+  <path d="M0,690 L370,420 L430,420 L800,690 L800,800 L0,800 Z" fill="url(#lane)" stroke="#222" stroke-width="2.5"/>
+  <path d="M0,690 L370,420 L430,420 L800,690 L800,800 L0,800 Z" fill="url(#cob)" opacity="0.8"/>
+
+  <!-- wet shine on cobbles -->
+  <path d="M300,600 L380,584 L340,626 Z" fill="#ffffff" opacity="0.7"/>
+  <path d="M520,520 L560,512 L538,540 Z" fill="#ffffff" opacity="0.6"/>
+  <path d="M180,740 L300,712 L250,760 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M600,700 L700,676 L650,720 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M380,470 L420,470 L404,500 Z" fill="#ffffff" opacity="0.4"/>
+
+  <!-- tower reflection -->
+  <rect x="393" y="430" width="14" height="110" fill="#5b646b" opacity="0.35"/>
+  <rect x="396" y="440" width="8" height="60" fill="#ffffff" opacity="0.35"/>
+
+  <!-- near cottage left -->
+  <path d="M0,150 L170,240 L170,300 L0,220 Z" fill="#4f5a64" stroke="#222" stroke-width="2.5"/>
+  <path d="M0,220 L170,300 L170,560 L0,690 Z" fill="#e4d2b2" stroke="#222" stroke-width="2.5"/>
+  <path d="M30,300 L80,320 L80,380 L30,365 Z" fill="#6c7d86" stroke="#222" stroke-width="2"/>
+  <path d="M110,380 L150,398 L150,500 L110,480 Z" fill="#7a4e3a" stroke="#222" stroke-width="2"/>
+  <circle cx="162" cy="412" r="22" fill="#f2c14e" opacity="0.25"/>
+  <circle cx="162" cy="412" r="6" fill="#f2c14e" stroke="#222" stroke-width="1.5"/>
+
+  <!-- near cottage right -->
+  <path d="M800,150 L630,240 L630,300 L800,220 Z" fill="#4f5a64" stroke="#222" stroke-width="2.5"/>
+  <path d="M800,220 L630,300 L630,560 L800,690 Z" fill="#e4d2b2" stroke="#222" stroke-width="2.5"/>
+  <path d="M770,300 L720,320 L720,380 L770,365 Z" fill="#6c7d86" stroke="#222" stroke-width="2"/>
+  <path d="M690,380 L650,398 L650,500 L690,480 Z" fill="#7a4e3a" stroke="#222" stroke-width="2"/>
+
+  <!-- bell tower -->
+  <rect x="386" y="240" width="28" height="180" fill="#b7b2a6" stroke="#222" stroke-width="2.5"/>
+  <rect x="383" y="195" width="34" height="46" fill="#9d978b" stroke="#222" stroke-width="2.5"/>
+  <rect x="392" y="205" width="16" height="22" fill="#2d3436"/>
+  <path d="M383,195 L400,110 L417,195 Z" fill="#5b6470" stroke="#222" stroke-width="2.5"/>
+  <line x1="400" y1="110" x2="400" y2="84" stroke="#222" stroke-width="2"/>
+  <rect x="394" y="262" width="12" height="18" fill="#2d3436"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="330" width="800" height="120" fill="url(#fog)"/>
+  <rect x="0" y="440" width="800" height="90" fill="url(#fog)" opacity="0.6"/>
+
+  <!-- rain -->
+  <g stroke="#56616b" stroke-width="1" opacity="0.5">
+    <line x1="60" y1="60" x2="54" y2="92"/>
+    <line x1="150" y1="110" x2="144" y2="142"/>
+    <line x1="240" y1="40" x2="234" y2="72"/>
+    <line x1="330" y1="150" x2="324" y2="182"/>
+    <line x1="470" y1="70" x2="464" y2="102"/>
+    <line x1="560" y1="30" x2="554" y2="62"/>
+    <line x1="690" y1="120" x2="684" y2="152"/>
+    <line x1="750" y1="50" x2="744" y2="82"/>
+    <line x1="90" y1="330" x2="84" y2="362"/>
+    <line x1="260" y1="500" x2="254" y2="532"/>
+    <line x1="120" y1="600" x2="114" y2="632"/>
+    <line x1="300" y1="700" x2="294" y2="732"/>
+    <line x1="520" y1="640" x2="514" y2="672"/>
+    <line x1="700" y1="560" x2="694" y2="592"/>
+    <line x1="640" y1="740" x2="634" y2="772"/>
+    <line x1="410" y1="520" x2="404" y2="552"/>
+    <line x1="30" y1="450" x2="24" y2="482"/>
+    <line x1="780" y1="400" x2="774" y2="432"/>
+    <line x1="200" y1="250" x2="194" y2="282"/>
+    <line x1="600" y1="380" x2="594" y2="412"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="24" fill="#222">P.</text>
+</svg>
