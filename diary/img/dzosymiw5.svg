@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- distant bell tower -->
+  <rect x="612" y="250" width="50" height="150" fill="#bdb8ad" stroke="#222" stroke-width="2.5"/>
+  <polygon points="606,252 637,200 668,252" fill="#8f8a80" stroke="#222" stroke-width="2.5"/>
+  <rect x="624" y="272" width="26" height="22" fill="#4a4640"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="50" fill="#e6e3dc" opacity="0.8"/>
+  <rect x="0" y="372" width="800" height="36" fill="#eeebe4" opacity="0.8"/>
+  <rect x="0" y="235" width="800" height="30" fill="#ebe8e1" opacity="0.7"/>
+
+  <!-- far hedge line -->
+  <path d="M330 430 Q480 404 640 430 L640 446 Q480 420 330 446 Z" fill="#c4cdb4" stroke="#222" stroke-width="2"/>
+
+  <!-- village green -->
+  <path d="M300 430 L800 420 L800 640 L300 600 Z" fill="#a9bb93" stroke="#222" stroke-width="2.5"/>
+
+  <!-- pond -->
+  <ellipse cx="520" cy="562" rx="170" ry="58" fill="#7f9eaa" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="470" cy="555" rx="40" ry="6" fill="none" stroke="#e9f0f2" stroke-width="2"/>
+  <ellipse cx="590" cy="580" rx="50" ry="5" fill="none" stroke="#e9f0f2" stroke-width="2"/>
+  <ellipse cx="560" cy="540" rx="22" ry="3" fill="none" stroke="#e9f0f2" stroke-width="1.5"/>
+
+  <!-- Welcome to Mossbrook sign by the water -->
+  <rect x="446" y="470" width="8" height="58" fill="#6b4a33" stroke="#222" stroke-width="2"/>
+  <rect x="392" y="436" width="120" height="48" rx="8" fill="#efe6cc" stroke="#4f7a4a" stroke-width="6"/>
+  <polygon points="392,436 452,408 512,436" fill="#6b5a4a" stroke="#222" stroke-width="2.5"/>
+  <line x1="412" y1="446" x2="412" y2="472" stroke="#b9a25a" stroke-width="2"/>
+  <line x1="492" y1="446" x2="492" y2="472" stroke="#b9a25a" stroke-width="2"/>
+  <text x="452" y="466" font-family="serif" font-size="13" text-anchor="middle" fill="#2a2a2a">Welcome to Mossbrook</text>
+  <ellipse cx="440" cy="528" rx="26" ry="8" fill="#6f8f5c" stroke="#222" stroke-width="1.5"/>
+  <ellipse cx="470" cy="526" rx="16" ry="6" fill="#6f8f5c" stroke="#222" stroke-width="1.5"/>
+  <ellipse cx="500" cy="530" rx="14" ry="5" fill="#7d9c68" stroke="#222" stroke-width="1.5"/>
+
+  <!-- cottage wall -->
+  <rect x="0" y="330" width="320" height="250" fill="#dcc9a6" stroke="#222" stroke-width="2.5"/>
+  <polygon points="-10,342 160,262 330,342" fill="#5a4a44" stroke="#222" stroke-width="2.5"/>
+  <line x1="40" y1="330" x2="40" y2="580" stroke="#b8a382" stroke-width="2"/>
+  <line x1="290" y1="330" x2="290" y2="580" stroke="#b8a382" stroke-width="2"/>
+
+  <!-- window -->
+  <rect x="196" y="410" width="72" height="58" fill="#f3e9c8" stroke="#222" stroke-width="2.5"/>
+  <line x1="232" y1="410" x2="232" y2="468" stroke="#222" stroke-width="2"/>
+  <line x1="196" y1="439" x2="268" y2="439" stroke="#222" stroke-width="2"/>
+
+  <!-- door -->
+  <rect x="70" y="400" width="92" height="170" fill="#6b4a33" stroke="#222" stroke-width="2.5"/>
+  <circle cx="148" cy="495" r="4" fill="#d9b35a" stroke="#222" stroke-width="1.5"/>
+
+  <!-- cottage step -->
+  <rect x="50" y="570" width="212" height="28" fill="#8c8478" stroke="#222" stroke-width="2.5"/>
+
+  <!-- cobbled foreground -->
+  <rect x="0" y="598" width="800" height="202" fill="#c3baa8"/>
+  <g fill="#aaa191" stroke="#222" stroke-width="1.5">
+    <ellipse cx="40" cy="620" rx="34" ry="14"/>
+    <ellipse cx="120" cy="612" rx="40" ry="13"/>
+    <ellipse cx="220" cy="622" rx="36" ry="14"/>
+    <ellipse cx="310" cy="610" rx="34" ry="13"/>
+    <ellipse cx="410" cy="624" rx="40" ry="14"/>
+    <ellipse cx="520" cy="612" rx="36" ry="13"/>
+    <ellipse cx="620" cy="626" rx="40" ry="14"/>
+    <ellipse cx="730" cy="614" rx="38" ry="13"/>
+    <ellipse cx="80" cy="672" rx="44" ry="16"/>
+    <ellipse cx="200" cy="688" rx="40" ry="15"/>
+    <ellipse cx="330" cy="668" rx="44" ry="16"/>
+    <ellipse cx="460" cy="690" rx="42" ry="15"/>
+    <ellipse cx="590" cy="670" rx="44" ry="16"/>
+    <ellipse cx="720" cy="694" rx="44" ry="15"/>
+    <ellipse cx="40" cy="744" rx="40" ry="16"/>
+    <ellipse cx="170" cy="760" rx="46" ry="16"/>
+    <ellipse cx="310" cy="742" rx="42" ry="15"/>
+    <ellipse cx="450" cy="766" rx="46" ry="16"/>
+    <ellipse cx="600" cy="746" rx="42" ry="15"/>
+    <ellipse cx="740" cy="770" rx="46" ry="16"/>
+  </g>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#8d8a84" stroke-width="0.8">
+    <circle cx="60" cy="90" r="3"/>
+    <circle cx="140" cy="60" r="2.5"/>
+    <circle cx="230" cy="120" r="3.5"/>
+    <circle cx="330" cy="70" r="2.5"/>
+    <circle cx="420" cy="140" r="3"/>
+    <circle cx="520" cy="80" r="2.5"/>
+    <circle cx="610" cy="130" r="3"/>
+    <circle cx="710" cy="60" r="3.5"/>
+    <circle cx="760" cy="180" r="2.5"/>
+    <circle cx="90" cy="210" r="2.5"/>
+    <circle cx="190" cy="250" r="3"/>
+    <circle cx="280" cy="200" r="2"/>
+    <circle cx="370" cy="270" r="3"/>
+    <circle cx="470" cy="210" r="2.5"/>
+    <circle cx="560" cy="300" r="3"/>
+    <circle cx="700" cy="310" r="2.5"/>
+    <circle cx="30" cy="300" r="2.5"/>
+    <circle cx="350" cy="350" r="2"/>
+    <circle cx="440" cy="390" r="3"/>
+    <circle cx="540" cy="380" r="2.5"/>
+    <circle cx="660" cy="400" r="3"/>
+    <circle cx="750" cy="450" r="2.5"/>
+    <circle cx="390" cy="490" r="2.5"/>
+    <circle cx="620" cy="500" r="3"/>
+    <circle cx="700" cy="540" r="2"/>
+    <circle cx="150" cy="520" r="2.5"/>
+    <circle cx="380" cy="600" r="2"/>
+    <circle cx="250" cy="150" r="2"/>
+    <circle cx="480" cy="330" r="2"/>
+    <circle cx="130" cy="440" r="2"/>
+    <circle cx="20" cy="470" r="2"/>
+  </g>
+
+  <!-- signature corner -->
+  <text x="752" y="782" font-family="serif" font-size="22" text-anchor="end" fill="#2a2a2a">P.</text>
+</svg>
