@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f3ebd6"/>
+  <!-- fog wash at the lower edge -->
+  <rect x="0" y="640" width="800" height="160" fill="#dcd6c6" opacity="0.6"/>
+  <ellipse cx="200" cy="700" rx="260" ry="40" fill="#e9e4d4" opacity="0.8"/>
+  <ellipse cx="620" cy="690" rx="240" ry="36" fill="#e9e4d4" opacity="0.8"/>
+  <!-- desk edge -->
+  <rect x="0" y="560" width="800" height="22" fill="#9b7a55" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="0" y="582" width="800" height="218" fill="#c4a57c" opacity="0.35"/>
+
+  <!-- tail -->
+  <path d="M590 430 C650 420 680 360 650 318 C636 300 612 304 618 324" fill="none" stroke="#2a2a2a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M590 430 C650 420 680 360 650 318 C636 300 612 304 618 324" fill="none" stroke="#8fa3b0" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- back legs -->
+  <rect x="460" y="480" width="26" height="62" rx="6" fill="#6f8593" stroke="#222" stroke-width="3"/>
+  <rect x="520" y="478" width="26" height="64" rx="6" fill="#6f8593" stroke="#222" stroke-width="3"/>
+
+  <!-- base plate with mechanism -->
+  <rect x="300" y="520" width="250" height="36" rx="4" fill="#5a6b76" stroke="#222" stroke-width="3"/>
+  <rect x="318" y="530" width="60" height="16" fill="#3e4c55"/>
+  <circle cx="350" cy="538" r="10" fill="#c9b27a" stroke="#222" stroke-width="2"/>
+  <circle cx="450" cy="538" r="7" fill="#c9b27a" stroke="#222" stroke-width="2"/>
+
+  <!-- body -->
+  <ellipse cx="410" cy="420" rx="185" ry="98" fill="#8fa3b0" stroke="#222" stroke-width="4"/>
+  <path d="M250 400 C300 350 500 340 580 380" fill="none" stroke="#c3d0d8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- front legs -->
+  <rect x="300" y="480" width="26" height="62" rx="6" fill="#6f8593" stroke="#222" stroke-width="3"/>
+  <rect x="356" y="478" width="26" height="64" rx="6" fill="#6f8593" stroke="#222" stroke-width="3"/>
+
+  <!-- linkage wire from base to front leg -->
+  <path d="M352 520 L312 500 L313 486" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- spring key on the flank -->
+  <circle cx="470" cy="400" r="30" fill="#c9b27a" stroke="#222" stroke-width="4"/>
+  <circle cx="470" cy="400" r="10" fill="#8a7444" stroke="#222" stroke-width="2"/>
+  <rect x="496" y="394" width="58" height="12" fill="#b8a06a" stroke="#222" stroke-width="3"/>
+  <rect x="548" y="382" width="14" height="36" rx="4" fill="#c9b27a" stroke="#222" stroke-width="3"/>
+
+  <!-- head -->
+  <circle cx="232" cy="398" r="72" fill="#8fa3b0" stroke="#222" stroke-width="4"/>
+  <ellipse cx="178" cy="418" rx="34" ry="24" fill="#a9bac5" stroke="#222" stroke-width="4"/>
+  <circle cx="172" cy="416" r="6" fill="#222"/>
+  <circle cx="208" cy="372" r="6" fill="#222"/>
+  <ellipse cx="236" cy="338" rx="22" ry="26" fill="#6f8593" stroke="#222" stroke-width="4"/>
+  <ellipse cx="282" cy="330" rx="20" ry="24" fill="#6f8593" stroke="#222" stroke-width="4"/>
+  <ellipse cx="236" cy="338" rx="10" ry="13" fill="#d9a7a0"/>
+  <ellipse cx="282" cy="330" rx="8" ry="11" fill="#d9a7a0"/>
+  <path d="M164 428 L150 436 M164 436 L148 446" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- signature -->
+  <text x="746" y="772" font-size="24" fill="#2a2a2a" text-anchor="end">P.</text>
+</svg>
