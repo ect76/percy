@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and winter sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#e4eaec"/>
+  <circle cx="150" cy="130" r="110" fill="#f6f3e6" opacity="0.7"/>
+  <rect x="0" y="0" width="800" height="300" fill="#d3dde2" opacity="0.5"/>
+
+  <!-- distant bell tower in the fog -->
+  <g opacity="0.55">
+    <rect x="392" y="236" width="36" height="110" fill="#b8c4ca" stroke="#5b6870" stroke-width="2"/>
+    <polygon points="384,236 410,196 436,236" fill="#a6b3ba" stroke="#5b6870" stroke-width="2"/>
+    <rect x="402" y="262" width="16" height="22" fill="#8c9aa2"/>
+  </g>
+
+  <!-- bare trees, left and right -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round">
+    <line x1="90" y1="520" x2="90" y2="330"/>
+    <line x1="90" y1="380" x2="60" y2="340"/>
+    <line x1="90" y1="360" x2="122" y2="318"/>
+    <line x1="90" y1="340" x2="72" y2="300"/>
+    <line x1="718" y1="500" x2="718" y2="350"/>
+    <line x1="718" y1="390" x2="745" y2="345"/>
+    <line x1="718" y1="370" x2="690" y2="330"/>
+    <line x1="718" y1="350" x2="735" y2="310"/>
+  </g>
+  <g opacity="0.45">
+    <rect x="0" y="395" width="800" height="30" fill="#c9d4d9"/>
+    <rect x="0" y="330" width="800" height="26" fill="#dbe3e7"/>
+  </g>
+
+  <!-- village green -->
+  <path d="M0 430 Q200 410 400 425 T800 420 L800 800 L0 800 Z" fill="#a9b99a" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- snow patches -->
+  <g fill="#f4f6f3" opacity="0.9">
+    <ellipse cx="120" cy="470" rx="60" ry="10"/>
+    <ellipse cx="650" cy="500" rx="80" ry="12"/>
+    <ellipse cx="240" cy="720" rx="90" ry="14"/>
+    <ellipse cx="640" cy="735" rx="110" ry="16"/>
+  </g>
+
+  <!-- cobbled road running up to the bakery -->
+  <path d="M250 800 L380 800 L520 440 L470 436 Z" fill="#c4c2b6" stroke="#2a2a2a" stroke-width="2.5"/>
+  <g fill="none" stroke="#7e7b70" stroke-width="1.6">
+    <ellipse cx="330" cy="760" rx="14" ry="7"/>
+    <ellipse cx="390" cy="740" rx="11" ry="5"/>
+    <ellipse cx="360" cy="700" rx="9" ry="4"/>
+    <ellipse cx="410" cy="670" rx="8" ry="4"/>
+    <ellipse cx="440" cy="620" rx="7" ry="3.5"/>
+    <ellipse cx="470" cy="580" rx="6" ry="3"/>
+    <ellipse cx="495" cy="530" rx="5" ry="2.5"/>
+    <ellipse cx="300" cy="790" rx="12" ry="6"/>
+    <ellipse cx="455" cy="480" rx="4" ry="2"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="380" cy="580" rx="175" ry="62" fill="#6e8a93" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="380" cy="580" rx="150" ry="48" fill="#8fa8b0" opacity="0.8"/>
+  <ellipse cx="350" cy="572" rx="70" ry="14" fill="#c9dadf" opacity="0.8"/>
+  <path d="M300 600 Q330 610 360 600" fill="none" stroke="#e8f0f2" stroke-width="2"/>
+  <path d="M430 555 Q450 550 470 556" fill="none" stroke="#e8f0f2" stroke-width="2"/>
+  <!-- reeds -->
+  <g fill="none" stroke="#5b6e4a" stroke-width="2.5" stroke-linecap="round">
+    <path d="M222 600 Q218 580 224 560"/>
+    <path d="M232 602 Q236 585 230 566"/>
+    <path d="M555 610 Q560 590 552 572"/>
+  </g>
+
+  <!-- Welcome to Mossbrook sign by the pond -->
+  <rect x="244" y="400" width="12" height="160" fill="#6b4a2e" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="214" y1="392" x2="208" y2="424" stroke="#c9a24a" stroke-width="3"/>
+  <line x1="222" y1="392" x2="218" y2="424" stroke="#c9a24a" stroke-width="3"/>
+  <line x1="290" y1="392" x2="296" y2="424" stroke="#c9a24a" stroke-width="3"/>
+  <line x1="298" y1="392" x2="302" y2="424" stroke="#c9a24a" stroke-width="3"/>
+  <polygon points="194,338 250,302 306,338" fill="#5a3d25" stroke="#2a2a2a" stroke-width="2.5"/>
+  <rect x="198" y="336" width="104" height="62" rx="10" fill="#f4efe1" stroke="#3f6b3f" stroke-width="6"/>
+  <text x="250" y="362" font-family="serif" font-size="14" fill="#2d4a2d" text-anchor="middle">Welcome to</text>
+  <text x="250" y="382" font-family="serif" font-size="16" font-weight="bold" fill="#2d4a2d" text-anchor="middle">Mossbrook</text>
+  <ellipse cx="236" cy="536" rx="26" ry="9" fill="#5f7f4a" stroke="#2a2a2a" stroke-width="1.5"/>
+  <ellipse cx="262" cy="544" rx="18" ry="7" fill="#6d8f55" stroke="#2a2a2a" stroke-width="1.5"/>
+  <ellipse cx="252" cy="520" rx="10" ry="5" fill="#4f6d3d"/>
+
+  <!-- Crumb's Bakery up the road -->
+  <rect x="566" y="328" width="96" height="100" fill="#d9b48f" stroke="#2a2a2a" stroke-width="2.5"/>
+  <polygon points="558,330 614,290 670,330" fill="#8a5a3a" stroke="#2a2a2a" stroke-width="2.5"/>
+  <rect x="580" y="352" width="30" height="26" fill="#f6f1df" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="624" y="352" width="26" height="26" fill="#f6f1df" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="606" y="390" width="18" height="38" fill="#7a4e2e" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- striped awning -->
+  <g stroke="#2a2a2a" stroke-width="1.5">
+    <rect x="556" y="380" width="20" height="22" fill="#b5443a"/>
+    <rect x="576" y="380" width="20" height="22" fill="#f6f1df"/>
+    <rect x="596" y="380" width="20" height="22" fill="#b5443a"/>
+    <rect x="616" y="380" width="20" height="22" fill="#f6f1df"/>
+    <rect x="636" y="380" width="20" height="22" fill="#b5443a"/>
+    <rect x="656" y="380" width="20" height="22" fill="#f6f1df"/>
+  </g>
+  <path d="M556 402 Q566 412 576 402 Q586 412 596 402 Q606 412 616 402 Q626 412 636 402 Q646 412 656 402 Q666 412 676 402" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+  <text x="614" y="324" font-family="serif" font-size="11" fill="#3b2a1a" text-anchor="middle">Crumb's Bakery</text>
+
+  <!-- winter fog drifting over the green -->
+  <rect x="0" y="520" width="800" height="40" fill="#e4eaec" opacity="0.35"/>
+  <rect x="0" y="650" width="800" height="50" fill="#e4eaec" opacity="0.25"/>
+
+  <!-- signature -->
+  <text x="772" y="784" font-family="serif" font-size="18" fill="#2a2a2a" text-anchor="end">P.</text>
+</svg>
