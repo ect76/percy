@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#f4eee1"/>
+      <stop offset="100%" stop-color="#ddd4c0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9d0d4" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#c9d0d4" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper ground -->
+  <rect width="800" height="800" fill="url(#paper)"/>
+
+  <!-- table edge and wood grain hints -->
+  <rect x="0" y="600" width="800" height="200" fill="#b9a88c"/>
+  <path d="M0 640 H800 M0 690 H800 M0 740 H800" stroke="#9c8b70" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M120 630 Q300 620 520 634 T780 628" stroke="#8c7b61" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- date stamp, lying diagonally -->
+  <g transform="rotate(-18 400 320)">
+    <!-- shadow -->
+    <rect x="236" y="318" width="290" height="40" rx="16" fill="#6e6250" opacity="0.35"/>
+    <!-- black wooden handle -->
+    <rect x="230" y="302" width="200" height="34" rx="16" fill="#1c1a19" stroke="#0d0c0c" stroke-width="3"/>
+    <path d="M260 312 H400" stroke="#3d3a37" stroke-width="2" fill="none"/>
+    <path d="M280 324 H380" stroke="#3d3a37" stroke-width="2" fill="none"/>
+    <!-- collar -->
+    <rect x="420" y="296" width="32" height="46" fill="#3a3634" stroke="#111" stroke-width="3"/>
+    <!-- grey-brown hardened rubber head -->
+    <rect x="450" y="284" width="92" height="68" rx="6" fill="#8a7d6f" stroke="#222" stroke-width="3"/>
+    <rect x="462" y="296" width="68" height="44" fill="#a0917f" stroke="#5e5346" stroke-width="2"/>
+    <path d="M472 310 H520 M472 322 H512 M472 334 H524" stroke="#6e6153" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- ink pad, open tray with no lid -->
+  <g>
+    <rect x="440" y="478" width="236" height="96" rx="6" fill="#6b5a48" stroke="#222" stroke-width="3"/>
+    <rect x="454" y="490" width="208" height="66" rx="3" fill="#2d2b3d" stroke="#16151f" stroke-width="2"/>
+    <!-- dried ink sheen -->
+    <path d="M478 506 Q540 498 610 508" stroke="#55557a" stroke-width="3" fill="none" opacity="0.7"/>
+    <circle cx="500" cy="530" r="5" fill="#3b3a55"/>
+    <circle cx="580" cy="540" r="7" fill="#3b3a55"/>
+    <circle cx="630" cy="520" r="4" fill="#3b3a55"/>
+    <!-- tray lip highlight -->
+    <path d="M446 480 H668" stroke="#8c7b64" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="0" width="800" height="180" fill="url(#fog)" transform="rotate(180 400 90)"/>
+  <rect x="0" y="560" width="800" height="240" fill="url(#fog)" opacity="0.55"/>
+
+  <!-- small "P." in corner -->
+  <g stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 40 V74 M40 40 H54 Q64 40 64 50 Q64 60 54 60 H40"/>
+  </g>
+  <circle cx="74" cy="72" r="3.5" fill="#2a2a2a"/>
+</svg>
