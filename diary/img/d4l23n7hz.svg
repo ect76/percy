@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9dde0"/>
+      <stop offset="1" stop-color="#eceeec"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5c35"/>
+      <stop offset="1" stop-color="#6b4325"/>
+    </linearGradient>
+    <linearGradient id="curl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9dfc7"/>
+      <stop offset="1" stop-color="#cdbf9e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper and fog -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#fog)"/>
+  <ellipse cx="180" cy="180" rx="260" ry="50" fill="#ffffff" opacity="0.45"/>
+  <ellipse cx="620" cy="120" rx="240" ry="40" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="400" cy="430" rx="340" ry="30" fill="#ffffff" opacity="0.3"/>
+
+  <!-- counter -->
+  <rect x="0" y="560" width="800" height="240" fill="url(#wood)"/>
+  <rect x="0" y="555" width="800" height="12" fill="#5a3a20" stroke="#2e1f12" stroke-width="2"/>
+  <g stroke="#4f3219" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M0 610 Q200 600 400 612 T800 606"/>
+    <path d="M0 660 Q220 652 430 664 T800 658"/>
+    <path d="M0 720 Q180 712 380 724 T800 716"/>
+    <path d="M0 770 Q240 762 460 774 T800 768"/>
+  </g>
+
+  <!-- recipe card, slightly rotated -->
+  <g transform="rotate(-4 400 400)">
+    <!-- soft shadow -->
+    <rect x="216" y="282" width="380" height="250" rx="6" fill="#2e1f12" opacity="0.25"/>
+    <!-- card body -->
+    <path d="M212 272 Q400 262 588 270 Q596 400 586 524 Q400 534 212 528 Q206 400 212 272 Z"
+          fill="#f7f0de" stroke="#3a3128" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- curled bottom-right corner -->
+    <path d="M586 524 Q580 490 560 486 Q574 502 566 524 Z" fill="url(#curl)" stroke="#3a3128" stroke-width="1.8"/>
+    <path d="M586 524 Q592 500 586 470" fill="none" stroke="#3a3128" stroke-width="1.5" opacity="0.6"/>
+    <!-- curled top-left corner -->
+    <path d="M212 272 Q226 262 246 268 Q232 280 228 296 Z" fill="url(#curl)" stroke="#3a3128" stroke-width="1.5"/>
+    <!-- faint tea ring in top-right corner -->
+    <circle cx="552" cy="312" r="34" fill="none" stroke="#9a6a3a" stroke-width="6" opacity="0.35"/>
+    <circle cx="552" cy="312" r="30" fill="none" stroke="#8a5a2c" stroke-width="1.5" opacity="0.3"/>
+    <!-- handwriting -->
+    <g font-family="Georgia, serif" fill="#2b2620">
+      <text x="242" y="312" font-size="26" font-weight="bold" font-style="italic">Dot's scone recipe</text>
+      <line x1="242" y1="324" x2="500" y2="324" stroke="#3a3128" stroke-width="1" opacity="0.6"/>
+      <text x="242" y="356" font-size="19" font-style="italic">225g self-raising flour, pinch of salt</text>
+      <text x="242" y="386" font-size="19" font-style="italic">50g butter, rubbed in</text>
+      <text x="242" y="416" font-size="19" font-style="italic">1 tbsp sugar</text>
+      <text x="242" y="446" font-size="19" font-style="italic">150ml milk</text>
+      <text x="242" y="486" font-size="19" font-style="italic">Bake 220C, 12 minutes.</text>
+      <text x="242" y="516" font-size="19" font-style="italic">Eat the same day.</text>
+    </g>
+  </g>
+
+  <!-- signature -->
+  <text x="40" y="770" font-family="Georgia, serif" font-size="22" fill="#f3ead8" opacity="0.8">P.</text>
+</svg>
