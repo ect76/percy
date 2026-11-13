@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4f0e6"/>
+  <!-- window with fog-light -->
+  <rect x="40" y="60" width="300" height="250" fill="#e6eef1" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="190" cy="170" r="150" fill="#ffffff" opacity="0.45"/>
+  <circle cx="210" cy="150" r="90" fill="#ffffff" opacity="0.4"/>
+  <path d="M190 60 V310 M40 185 H340" stroke="#2a2420" stroke-width="3" fill="none"/>
+  <!-- fog bands drifting across -->
+  <ellipse cx="400" cy="120" rx="380" ry="34" fill="#ffffff" opacity="0.35"/>
+  <ellipse cx="420" cy="300" rx="400" ry="26" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="600" cy="200" rx="260" ry="40" fill="#dfe7ea" opacity="0.6"/>
+  <!-- tabletop and front edge -->
+  <path d="M0 470 L800 455 L800 800 L0 800 Z" fill="#b98b5e"/>
+  <path d="M0 640 L800 625 L800 665 L0 680 Z" fill="#8a5f3a" stroke="#2a2420" stroke-width="3"/>
+  <path d="M0 470 L800 455" stroke="#2a2420" stroke-width="3" fill="none"/>
+  <!-- puddle of dripping water -->
+  <ellipse cx="520" cy="575" rx="72" ry="13" fill="#9fc4d2" opacity="0.7" stroke="#2a2420" stroke-width="1.5"/>
+  <!-- fish tail, fins -->
+  <path d="M590 390 L615 360 L610 430 L615 500 L590 470 Z" fill="#5f8593" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M330 372 C360 330 420 335 440 362 Z" fill="#5f8593" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M400 490 C420 520 455 520 470 488 Z" fill="#5f8593" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M200 430 C240 370 360 355 460 385 C510 400 540 415 590 390 L615 360 L610 430 L615 500 L590 470 C540 445 510 460 460 475 C360 505 240 492 200 430 Z" fill="#8fb3bf" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <!-- pale belly -->
+  <path d="M202 432 C250 462 360 488 460 474 C510 462 540 455 588 470 L588 452 C540 438 510 446 460 452 C360 466 260 452 202 432 Z" fill="#dce9ed"/>
+  <!-- scales -->
+  <g fill="none" stroke="#2a2420" stroke-width="1.5">
+    <path d="M300 405a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0"/>
+    <path d="M311 425a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0"/>
+    <path d="M300 445a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0h2a10 8 0 0 1 20 0"/>
+  </g>
+  <!-- gill and eye -->
+  <path d="M280 395 C292 420 292 445 280 465" fill="none" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="248" cy="420" r="12" fill="#ffffff" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="250" cy="420" r="6" fill="#2a2420"/>
+  <!-- dripping water drops -->
+  <g fill="#9fc4d2" stroke="#2a2420" stroke-width="1.5">
+    <path d="M560 508 Q569 522 560 530 Q551 522 560 508 Z"/>
+    <path d="M590 540 Q600 556 590 566 Q580 556 590 540 Z"/>
+    <path d="M540 548 Q547 560 540 566 Q533 560 540 548 Z"/>
+    <path d="M470 560 Q477 572 470 578 Q463 572 470 560 Z"/>
+  </g>
+  <!-- brass bubble vial -->
+  <rect x="640" y="500" width="110" height="26" rx="13" fill="#d4aa4a" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="660" y="505" width="62" height="16" rx="8" fill="#f4f0e6" opacity="0.5"/>
+  <circle cx="684" cy="513" r="6" fill="#ffffff" stroke="#2a2420" stroke-width="1.5"/>
+  <path d="M700 500 V526 M720 500 V526" stroke="#2a2420" stroke-width="1.5"/>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2420" stroke-width="3" stroke-linecap="round">
+    <path d="M744 758 V790 M744 758 H756 A8 8 0 0 1 756 774 H744"/>
+  </g>
+  <circle cx="766" cy="790" r="2.5" fill="#2a2420"/>
+</svg>
