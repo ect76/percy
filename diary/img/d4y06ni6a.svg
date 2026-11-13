@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#d9e0e5"/>
+  <rect x="0" y="0" width="800" height="330" fill="#e8edf0"/>
+
+  <!-- distant tower silhouette in fog -->
+  <rect x="368" y="190" width="64" height="150" fill="#b9c1c7" opacity="0.6"/>
+
+  <!-- bell tower at end of lane -->
+  <polygon points="372,122 428,122 400,40" fill="#6e6a6a" stroke="#222" stroke-width="2"/>
+  <polygon points="372,122 428,122 400,40 396,44 376,118" fill="#f7f9fa" opacity="0.9"/>
+  <rect x="374" y="120" width="52" height="82" fill="#8f8579" stroke="#222" stroke-width="2"/>
+  <path d="M382 150 Q382 136 390 136 Q398 136 398 150 V168 H382 Z" fill="#3b3733"/>
+  <path d="M402 150 Q402 136 410 136 Q418 136 418 150 V168 H402 Z" fill="#3b3733"/>
+  <circle cx="400" cy="160" r="16" fill="#fbfbf7" stroke="#222" stroke-width="2"/>
+  <line x1="400" y1="160" x2="400" y2="149" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="400" y1="160" x2="409" y2="164" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <rect x="365" y="202" width="70" height="144" fill="#9b9187" stroke="#222" stroke-width="2"/>
+  <path d="M385 240 Q385 226 400 226 Q415 226 415 240 V270 H385 Z" fill="#3b3733"/>
+  <path d="M365 202 L400 196 L435 202" fill="none" stroke="#f7f9fa" stroke-width="5"/>
+
+  <!-- left cottages -->
+  <polygon points="0,200 300,298 370,334 370,340 110,800 0,800" fill="#cdbfa8" stroke="#222" stroke-width="2"/>
+  <polygon points="0,186 300,284 300,300 0,202" fill="#f5f7f8" stroke="#222" stroke-width="2"/>
+  <rect x="40" y="250" width="50" height="50" fill="#5b4b3a" stroke="#222" stroke-width="1.5"/>
+  <rect x="150" y="292" width="40" height="44" fill="#f2c26b" stroke="#222" stroke-width="1.5"/>
+  <rect x="220" y="316" width="30" height="36" fill="#5b4b3a" stroke="#222" stroke-width="1.5"/>
+
+  <!-- right cottages -->
+  <polygon points="800,200 500,298 430,334 430,340 690,800 800,800" fill="#bfb09a" stroke="#222" stroke-width="2"/>
+  <polygon points="800,186 500,284 500,300 800,202" fill="#f5f7f8" stroke="#222" stroke-width="2"/>
+  <rect x="700" y="250" width="50" height="50" fill="#5b4b3a" stroke="#222" stroke-width="1.5"/>
+  <rect x="600" y="296" width="40" height="40" fill="#5b4b3a" stroke="#222" stroke-width="1.5"/>
+  <rect x="500" y="320" width="22" height="30" fill="#f2c26b" stroke="#222" stroke-width="1.5"/>
+
+  <!-- doorway and doorstep (viewer's own) -->
+  <rect x="700" y="430" width="100" height="370" fill="#4a3728" stroke="#222" stroke-width="2"/>
+  <rect x="694" y="424" width="106" height="8" fill="#e9e4da" stroke="#222" stroke-width="1.5"/>
+  <rect x="690" y="780" width="110" height="20" fill="#9d9488" stroke="#222" stroke-width="1.5"/>
+
+  <!-- lane and cobbles -->
+  <polygon points="110,800 370,340 430,340 690,800" fill="#b9c2c8" stroke="#222" stroke-width="2"/>
+  <polygon points="110,800 370,340 430,340 690,800" fill="#ffffff" opacity="0.45"/>
+  <g fill="none" stroke="#5d6670" stroke-width="1.2" opacity="0.7">
+    <ellipse cx="150" cy="760" rx="14" ry="6"/>
+    <ellipse cx="210" cy="740" rx="11" ry="5"/>
+    <ellipse cx="620" cy="752" rx="13" ry="6"/>
+    <ellipse cx="575" cy="718" rx="10" ry="5"/>
+    <ellipse cx="196" cy="650" rx="10" ry="4.5"/>
+    <ellipse cx="606" cy="654" rx="10" ry="4.5"/>
+    <ellipse cx="250" cy="600" rx="9" ry="4"/>
+    <ellipse cx="552" cy="604" rx="9" ry="4"/>
+    <ellipse cx="300" cy="545" rx="8" ry="3.5"/>
+    <ellipse cx="500" cy="548" rx="8" ry="3.5"/>
+    <ellipse cx="330" cy="492" rx="7" ry="3"/>
+    <ellipse cx="470" cy="494" rx="7" ry="3"/>
+    <ellipse cx="350" cy="432" rx="6" ry="2.5"/>
+    <ellipse cx="450" cy="434" rx="6" ry="2.5"/>
+    <ellipse cx="385" cy="380" rx="4" ry="1.8"/>
+    <ellipse cx="415" cy="382" rx="4" ry="1.8"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="276" width="800" height="30" fill="#f4f7f8" opacity="0.35"/>
+  <rect x="0" y="326" width="800" height="36" fill="#f4f7f8" opacity="0.55"/>
+  <rect x="0" y="376" width="800" height="30" fill="#f4f7f8" opacity="0.4"/>
+  <rect x="0" y="690" width="800" height="110" fill="#f4f7f8" opacity="0.22"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="90" r="2.5"/>
+    <circle cx="130" cy="40" r="2"/>
+    <circle cx="210" cy="120" r="3"/>
+    <circle cx="280" cy="60" r="2"/>
+    <circle cx="340" cy="180" r="2.5"/>
+    <circle cx="470" cy="70" r="2"/>
+    <circle cx="530" cy="130" r="3"/>
+    <circle cx="610" cy="50" r="2.5"/>
+    <circle cx="690" cy="110" r="2"/>
+    <circle cx="745" cy="180" r="3"/>
+    <circle cx="30" cy="210" r="2"/>
+    <circle cx="90" cy="260" r="3"/>
+    <circle cx="250" cy="250" r="2"/>
+    <circle cx="560" cy="250" r="2.5"/>
+    <circle cx="720" cy="300" r="2"/>
+    <circle cx="320" cy="300" r="1.8"/>
+    <circle cx="480" cy="290" r="1.8"/>
+    <circle cx="170" cy="380" r="3"/>
+    <circle cx="640" cy="370" r="2.5"/>
+    <circle cx="40" cy="420" r="3.5"/>
+    <circle cx="760" cy="440" r="3"/>
+    <circle cx="260" cy="470" r="2.5"/>
+    <circle cx="545" cy="480" r="2.5"/>
+    <circle cx="110" cy="560" r="3.5"/>
+    <circle cx="690" cy="580" r="3"/>
+    <circle cx="60" cy="680" r="3"/>
+    <circle cx="745" cy="700" r="3.5"/>
+    <circle cx="300" cy="640" r="2.5"/>
+    <circle cx="500" cy="660" r="2.5"/>
+    <circle cx="380" cy="230" r="1.6"/>
+    <circle cx="420" cy="100" r="1.8"/>
+    <circle cx="150" cy="170" r="2"/>
+    <circle cx="650" cy="200" r="2"/>
+    <circle cx="410" cy="560" r="2"/>
+    <circle cx="200" cy="520" r="2.5"/>
+    <circle cx="600" cy="520" r="2.5"/>
+  </g>
+
+  <!-- signature: small "P." -->
+  <g fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" transform="translate(24,752)">
+    <path d="M0 16 V0 H6 Q11 0 11 5 Q11 10 6 10 H0"/>
+    <circle cx="16" cy="16" r="1.6" fill="#222" stroke="none"/>
+  </g>
+</svg>
