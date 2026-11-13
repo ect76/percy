@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#ece8df"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- pale winter sun behind fog -->
+  <circle cx="200" cy="200" r="120" fill="#f6f3ea" opacity="0.8"/>
+
+  <!-- distant fog bands -->
+  <rect x="30" y="300" width="740" height="60" fill="#dcdcd6" opacity="0.6"/>
+  <rect x="30" y="420" width="740" height="40" fill="#e6e4dc" opacity="0.7"/>
+
+  <!-- cobbled ground -->
+  <rect x="30" y="640" width="740" height="130" fill="#c9c5ba"/>
+  <g fill="#b3afa3" stroke="#3a3a3a" stroke-width="1.2">
+    <rect x="60" y="652" width="70" height="22" rx="6"/>
+    <rect x="140" y="652" width="58" height="22" rx="6"/>
+    <rect x="210" y="652" width="80" height="22" rx="6"/>
+    <rect x="300" y="652" width="66" height="22" rx="6"/>
+    <rect x="380" y="652" width="72" height="22" rx="6"/>
+    <rect x="466" y="652" width="60" height="22" rx="6"/>
+    <rect x="540" y="652" width="78" height="22" rx="6"/>
+    <rect x="630" y="652" width="90" height="22" rx="6"/>
+    <rect x="90" y="684" width="84" height="22" rx="6"/>
+    <rect x="186" y="684" width="64" height="22" rx="6"/>
+    <rect x="262" y="684" width="88" height="22" rx="6"/>
+    <rect x="362" y="684" width="60" height="22" rx="6"/>
+    <rect x="434" y="684" width="82" height="22" rx="6"/>
+    <rect x="530" y="684" width="70" height="22" rx="6"/>
+    <rect x="612" y="684" width="78" height="22" rx="6"/>
+    <rect x="50" y="716" width="72" height="22" rx="6"/>
+    <rect x="134" y="716" width="90" height="22" rx="6"/>
+    <rect x="236" y="716" width="66" height="22" rx="6"/>
+    <rect x="314" y="716" width="84" height="22" rx="6"/>
+    <rect x="412" y="716" width="74" height="22" rx="6"/>
+    <rect x="500" y="716" width="88" height="22" rx="6"/>
+    <rect x="602" y="716" width="72" height="22" rx="6"/>
+    <rect x="200" y="748" width="78" height="20" rx="6"/>
+    <rect x="292" y="748" width="70" height="20" rx="6"/>
+    <rect x="378" y="748" width="92" height="20" rx="6"/>
+    <rect x="484" y="748" width="76" height="20" rx="6"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="410" cy="648" rx="150" ry="14" fill="#8f8b80" opacity="0.5"/>
+
+  <!-- the Humming Stone: base body -->
+  <path d="M296 262 C320 238 380 232 430 240 C474 246 508 258 516 300 C522 360 512 420 520 480 C526 540 516 600 512 646 C462 656 380 660 320 648 C304 600 300 540 292 480 C286 420 282 360 286 312 C288 288 290 274 296 262 Z"
+        fill="#a7a59c" stroke="#2a2a2a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- shaded side -->
+  <path d="M462 252 C500 268 512 320 510 380 C508 450 516 560 512 644 C492 647 474 648 458 648 C470 560 468 470 466 390 C464 330 456 290 462 252 Z"
+        fill="#7d7b73" opacity="0.7"/>
+  <!-- stone surface texture strokes -->
+  <g fill="none" stroke="#4a4944" stroke-width="1.6" stroke-linecap="round" opacity="0.7">
+    <path d="M320 300 q10 -6 18 2"/>
+    <path d="M340 420 q8 -5 14 1"/>
+    <path d="M420 330 q12 -4 20 3"/>
+    <path d="M330 520 q9 -4 16 2"/>
+    <path d="M470 470 q8 -6 16 0"/>
+    <path d="M308 590 q10 -4 18 2"/>
+  </g>
+
+  <!-- lichen patches -->
+  <g stroke="#4f5a3c" stroke-width="1.2">
+    <ellipse cx="322" cy="356" rx="22" ry="14" fill="#9aa77f" opacity="0.85"/>
+    <ellipse cx="338" cy="366" rx="10" ry="7" fill="#c9c08a" opacity="0.9"/>
+    <ellipse cx="482" cy="304" rx="18" ry="12" fill="#a4b08a" opacity="0.85"/>
+    <circle cx="492" cy="318" r="6" fill="#c9c08a" opacity="0.9"/>
+    <ellipse cx="308" cy="520" rx="16" ry="11" fill="#8f9c74" opacity="0.85"/>
+    <circle cx="316" cy="530" r="5" fill="#c9c08a" opacity="0.8"/>
+    <ellipse cx="496" cy="500" rx="14" ry="10" fill="#9aa77f" opacity="0.85"/>
+    <ellipse cx="450" cy="262" rx="12" ry="7" fill="#b8bb8f" opacity="0.8"/>
+  </g>
+
+  <!-- crack packed with mortar -->
+  <path d="M398 276 L406 318 L394 352 L410 392 L398 430 L414 470 L402 508 L410 546 L402 586 L408 620"
+        fill="none" stroke="#2a2a2a" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M398 276 L406 318 L394 352 L410 392 L398 430 L414 470 L402 508 L410 546 L402 586 L408 620"
+        fill="none" stroke="#cfcac0" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="none" stroke="#6d6a62" stroke-width="1" opacity="0.8">
+    <path d="M404 340 l6 3"/>
+    <path d="M406 420 l5 -2"/>
+    <path d="M410 500 l5 3"/>
+    <path d="M404 580 l4 -2"/>
+  </g>
+
+  <!-- worn brass bolt near base -->
+  <circle cx="446" cy="586" r="14" fill="#b08d3a" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="446" cy="586" r="9" fill="#c9a94f" stroke="#5a4619" stroke-width="1"/>
+  <circle cx="446" cy="586" r="2.5" fill="#6b5420"/>
+  <!-- faded 7 engraved on the bolt plate -->
+  <path d="M440 580 H452 L444 594" fill="none" stroke="#7a5f24" stroke-width="2.2" stroke-linejoin="round" opacity="0.55"/>
+
+  <!-- fog drifting over the stone base -->
+  <rect x="250" y="600" width="320" height="50" fill="#ece8df" opacity="0.35"/>
+  <ellipse cx="300" cy="470" rx="60" ry="180" fill="#ece8df" opacity="0.12"/>
+
+  <!-- ink contour over the whole stone -->
+  <path d="M296 262 C320 238 380 232 430 240 C474 246 508 258 516 300 C522 360 512 420 520 480 C526 540 516 600 512 646 C462 656 380 660 320 648 C304 600 300 540 292 480 C286 420 282 360 286 312 C288 288 290 274 296 262 Z"
+        fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- signature -->
+  <g fill="none" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round">
+    <path d="M700 728 V752 M700 728 H708 Q716 728 716 736 Q716 744 708 744 H700"/>
+  </g>
+  <circle cx="722" cy="752" r="2" fill="#3a3a3a"/>
+</svg>
