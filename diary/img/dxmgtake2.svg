@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- distant village in fog -->
+  <g fill="#b9c3c4" opacity="0.55">
+    <rect x="90" y="250" width="70" height="90"/>
+    <polygon points="85,250 125,205 165,250"/>
+    <rect x="200" y="265" width="55" height="75"/>
+    <polygon points="195,265 228,230 262,265"/>
+    <rect x="560" y="258" width="80" height="82"/>
+    <polygon points="555,258 600,215 645,258"/>
+    <rect x="665" y="280" width="50" height="60"/>
+  </g>
+  <g fill="#9aa8a9" opacity="0.6">
+    <ellipse cx="140" cy="230" rx="22" ry="34"/>
+    <ellipse cx="640" cy="236" rx="18" ry="30"/>
+  </g>
+
+  <!-- fog band across the village -->
+  <rect x="0" y="300" width="800" height="70" fill="#eef0ec" opacity="0.8"/>
+  <rect x="0" y="355" width="800" height="40" fill="#e6eae7" opacity="0.7"/>
+
+  <!-- the green -->
+  <path d="M0 400 Q400 370 800 400 L800 800 L0 800 Z" fill="#8aa873"/>
+  <path d="M0 470 Q400 440 800 470 L800 800 L0 800 Z" fill="#7a9b66" opacity="0.6"/>
+
+  <!-- pond -->
+  <ellipse cx="400" cy="390" rx="230" ry="66" fill="#8fb4b6"/>
+  <ellipse cx="400" cy="394" rx="210" ry="52" fill="#a6c6c6" opacity="0.7"/>
+  <!-- frozen edge -->
+  <ellipse cx="400" cy="390" rx="230" ry="66" fill="none" stroke="#e8f3f2" stroke-width="16"/>
+  <ellipse cx="400" cy="390" rx="230" ry="66" fill="none" stroke="#1d1d1f" stroke-width="2.5"/>
+  <ellipse cx="400" cy="390" rx="222" ry="58" fill="none" stroke="#1d1d1f" stroke-width="1.2" stroke-dasharray="40 9 12 14"/>
+  <g stroke="#1d1d1f" stroke-width="1.4" fill="none">
+    <path d="M330 370 L352 382 L345 398"/>
+    <path d="M455 402 L478 394 L492 408"/>
+    <path d="M250 388 L268 380"/>
+  </g>
+  <!-- fog over the pond -->
+  <rect x="150" y="350" width="500" height="36" fill="#eef0ec" opacity="0.55"/>
+
+  <!-- grass in front of the pond -->
+  <g stroke="#1d1d1f" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M120 520 Q126 490 132 470"/>
+    <path d="M140 522 Q138 500 150 482"/>
+    <path d="M660 500 Q668 470 662 448"/>
+    <path d="M676 504 Q684 480 698 466"/>
+    <path d="M90 640 Q96 612 88 592"/>
+    <path d="M710 650 Q716 622 708 604"/>
+    <path d="M190 690 Q196 662 188 644"/>
+    <path d="M620 700 Q626 674 618 656"/>
+    <path d="M250 480 Q254 460 246 446"/>
+    <path d="M560 470 Q564 452 556 438"/>
+  </g>
+
+  <!-- shadow beneath the fish -->
+  <ellipse cx="430" cy="628" rx="142" ry="20" fill="#5d7a4e" opacity="0.45"/>
+
+  <!-- the fish, lying in the grass -->
+  <!-- tail -->
+  <path d="M528 598 L586 564 L576 600 L588 636 L528 606 Z" fill="#8d9c97" stroke="#1d1d1f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M300 602 C336 556 460 548 528 590 C548 600 548 606 528 614 C462 648 338 644 300 602 Z" fill="#b9c6c2" stroke="#1d1d1f" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- darker back -->
+  <path d="M304 596 C340 562 458 556 524 592 C470 580 390 580 304 596 Z" fill="#6f817c"/>
+  <!-- belly highlight -->
+  <path d="M320 620 C380 642 462 640 520 616 C470 632 390 636 320 620 Z" fill="#e4ece9"/>
+  <!-- dorsal fin -->
+  <path d="M430 566 Q458 536 492 560 Z" fill="#9aaaa5" stroke="#1d1d1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pelvic fin -->
+  <path d="M440 626 Q454 648 472 630 Z" fill="#9aaaa5" stroke="#1d1d1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- gill -->
+  <path d="M362 576 Q380 602 362 626" fill="none" stroke="#1d1d1f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- scales -->
+  <g fill="none" stroke="#1d1d1f" stroke-width="1.4" opacity="0.7">
+    <path d="M400 582 q8 8 0 16"/>
+    <path d="M420 580 q8 8 0 16"/>
+    <path d="M440 580 q8 8 0 16"/>
+    <path d="M460 582 q8 8 0 16"/>
+    <path d="M480 584 q8 8 0 16"/>
+    <path d="M410 604 q8 8 0 16"/>
+    <path d="M430 604 q8 8 0 16"/>
+    <path d="M450 604 q8 8 0 16"/>
+    <path d="M470 606 q8 8 0 16"/>
+    <path d="M390 610 q8 8 0 16"/>
+  </g>
+  <!-- eye -->
+  <circle cx="338" cy="594" r="7" fill="#1d1d1f"/>
+  <circle cx="336" cy="592" r="2" fill="#f4efe3"/>
+  <!-- mouth -->
+  <path d="M302 606 Q312 612 322 606" fill="none" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- dew on the grass -->
+  <g fill="#e8f3f2" stroke="#1d1d1f" stroke-width="0.8">
+    <circle cx="262" cy="652" r="2.5"/>
+    <circle cx="594" cy="664" r="2.5"/>
+    <circle cx="300" cy="686" r="2"/>
+    <circle cx="552" cy="690" r="2"/>
+  </g>
+
+  <!-- low fog at the foreground -->
+  <rect x="0" y="690" width="800" height="50" fill="#eef0ec" opacity="0.45"/>
+
+  <!-- signature -->
+  <text x="752" y="772" font-size="22" fill="#1d1d1f">P.</text>
+</svg>
