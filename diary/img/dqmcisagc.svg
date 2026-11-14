@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f3eee2"/>
+  <!-- faint distant cottages in fog -->
+  <g fill="#c9c4b8" opacity="0.6" stroke="#4a4439" stroke-width="2">
+    <path d="M90 520 L90 470 L130 440 L170 470 L170 520 Z"/>
+    <path d="M620 500 L620 455 L660 425 L700 455 L700 500 Z"/>
+    <path d="M40 560 L40 520 L70 498 L100 520 L100 560 Z"/>
+  </g>
+  <!-- bell tower body -->
+  <rect x="300" y="180" width="200" height="440" fill="#b8b1a2" stroke="#2b2620" stroke-width="4"/>
+  <g stroke="#7d766a" stroke-width="2" fill="none">
+    <path d="M300 230 H500 M300 290 H500 M300 350 H500 M300 410 H500 M300 470 H500 M300 530 H500"/>
+    <path d="M340 180 V230 M380 230 V290 M420 180 V230 M360 290 V350 M440 230 V290 M380 350 V410 M420 290 V350 M360 410 V470 M440 350 V410 M380 470 V530"/>
+  </g>
+  <!-- roof -->
+  <polygon points="280,182 400,80 520,182" fill="#6d5a4b" stroke="#2b2620" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="400" y1="80" x2="400" y2="52" stroke="#2b2620" stroke-width="4"/>
+  <circle cx="400" cy="48" r="6" fill="#2b2620"/>
+  <!-- clock face -->
+  <circle cx="400" cy="270" r="72" fill="#f8f4e6" stroke="#2b2620" stroke-width="6"/>
+  <circle cx="400" cy="270" r="62" fill="none" stroke="#2b2620" stroke-width="1.5"/>
+  <g stroke="#2b2620" stroke-width="3">
+    <line x1="400" y1="214" x2="400" y2="224"/>
+    <line x1="456" y1="270" x2="446" y2="270"/>
+    <line x1="400" y1="326" x2="400" y2="316"/>
+    <line x1="344" y1="270" x2="354" y2="270"/>
+  </g>
+  <!-- hour hand -->
+  <line x1="400" y1="270" x2="352" y2="292" stroke="#1d1a16" stroke-width="7" stroke-linecap="round"/>
+  <!-- bent minute hand -->
+  <polyline points="400,270 400,226 418,214 432,222" fill="none" stroke="#1d1a16" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="270" r="6" fill="#1d1a16"/>
+  <!-- cracks in glass -->
+  <polyline points="440,215 428,228 436,240 422,254 430,262" fill="none" stroke="#5a5349" stroke-width="2"/>
+  <polyline points="356,300 366,292 362,280" fill="none" stroke="#5a5349" stroke-width="2"/>
+  <polyline points="418,326 412,314 424,306 420,296" fill="none" stroke="#5a5349" stroke-width="1.5"/>
+  <!-- restored plaque -->
+  <rect x="338" y="352" width="124" height="44" fill="#8a6d3b" stroke="#2b2620" stroke-width="3"/>
+  <rect x="344" y="358" width="112" height="32" fill="none" stroke="#e7d7a4" stroke-width="1"/>
+  <text x="400" y="372" font-size="11" fill="#f4e9c8" text-anchor="middle" font-family="serif">RESTORED</text>
+  <text x="400" y="387" font-size="13" fill="#f4e9c8" text-anchor="middle" font-family="serif">1908</text>
+  <!-- empty iron hook above door -->
+  <path d="M400 430 V458" stroke="#2b2620" stroke-width="5" fill="none"/>
+  <path d="M400 458 Q412 458 412 470 Q412 482 398 480" stroke="#2b2620" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- door -->
+  <path d="M368 620 V528 Q400 496 432 528 V620 Z" fill="#4a3b2e" stroke="#2b2620" stroke-width="4"/>
+  <line x1="400" y1="530" x2="400" y2="620" stroke="#2b2620" stroke-width="2"/>
+  <circle cx="390" cy="580" r="3" fill="#c9a24a"/>
+  <circle cx="410" cy="580" r="3" fill="#c9a24a"/>
+  <!-- cobbles -->
+  <g fill="#9d978a" stroke="#2b2620" stroke-width="2">
+    <ellipse cx="250" cy="650" rx="30" ry="12"/>
+    <ellipse cx="330" cy="672" rx="34" ry="13"/>
+    <ellipse cx="420" cy="660" rx="32" ry="12"/>
+    <ellipse cx="520" cy="680" rx="36" ry="13"/>
+    <ellipse cx="200" cy="712" rx="36" ry="13"/>
+    <ellipse cx="300" cy="735" rx="40" ry="14"/>
+    <ellipse cx="420" cy="722" rx="34" ry="12"/>
+    <ellipse cx="540" cy="740" rx="38" ry="13"/>
+    <ellipse cx="640" cy="705" rx="30" ry="11"/>
+    <ellipse cx="150" cy="620" rx="26" ry="10"/>
+    <ellipse cx="660" cy="640" rx="26" ry="10"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#e9e6de" opacity="0.75">
+    <rect x="0" y="560" width="800" height="50"/>
+    <rect x="0" y="640" width="800" height="36"/>
+    <rect x="0" y="700" width="800" height="60"/>
+  </g>
+  <g fill="#f3eee2" opacity="0.55">
+    <ellipse cx="120" cy="300" rx="180" ry="30"/>
+    <ellipse cx="700" cy="380" rx="200" ry="36"/>
+    <ellipse cx="180" cy="470" rx="160" ry="22"/>
+  </g>
+  <!-- signature P. -->
+  <g stroke="#2b2620" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M700 740 V768 M700 740 H712 Q722 740 722 748 Q722 756 712 756 H700"/>
+  </g>
+  <circle cx="730" cy="768" r="2.5" fill="#2b2620"/>
+</svg>
