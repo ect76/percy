@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdb"/>
+
+  <!-- distant cottage, washed -->
+  <rect x="40" y="430" width="170" height="170" fill="#d8cbb0" stroke="#2b2118" stroke-width="2.5"/>
+  <polygon points="30,430 125,360 220,430" fill="#b9a58a" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="112" y="520" width="34" height="80" fill="#8a6e52" stroke="#2b2118" stroke-width="2.5"/>
+  <rect x="62" y="470" width="30" height="26" fill="#f6efd9" stroke="#2b2118" stroke-width="2"/>
+  <rect x="165" y="470" width="30" height="26" fill="#f6efd9" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- cobbled lane -->
+  <polygon points="0,660 800,660 800,800 0,800" fill="#cfc4ad"/>
+  <g fill="#e6dcc6" stroke="#2b2118" stroke-width="1.8">
+    <ellipse cx="60" cy="690" rx="40" ry="14"/>
+    <ellipse cx="170" cy="725" rx="52" ry="16"/>
+    <ellipse cx="290" cy="690" rx="36" ry="12"/>
+    <ellipse cx="420" cy="740" rx="48" ry="15"/>
+    <ellipse cx="530" cy="700" rx="40" ry="13"/>
+    <ellipse cx="90" cy="770" rx="44" ry="13"/>
+    <ellipse cx="300" cy="780" rx="60" ry="14"/>
+    <ellipse cx="560" cy="775" rx="58" ry="14"/>
+    <ellipse cx="710" cy="740" rx="46" ry="14"/>
+  </g>
+
+  <!-- halo ring -->
+  <circle cx="400" cy="300" r="122" fill="none" stroke="#d9a521" stroke-width="12" opacity="0.55"/>
+  <circle cx="400" cy="300" r="122" fill="none" stroke="#2b2118" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- golden pedestal -->
+  <rect x="300" y="600" width="200" height="50" fill="#e0a92c" stroke="#2b2118" stroke-width="2.5"/>
+  <polygon points="318,560 482,560 470,602 330,602" fill="#f0c04e" stroke="#2b2118" stroke-width="2.5"/>
+  <path d="M300,625 Q400,612 500,625" fill="none" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- saffron-orange cloth body -->
+  <path d="M330,390 Q400,368 470,390 L524,600 Q400,642 276,600 Z" fill="#f08a24" stroke="#2b2118" stroke-width="2.5"/>
+  <path d="M360,392 L446,520 L470,512 L392,388 Z" fill="#d86e14" stroke="#2b2118" stroke-width="1.8"/>
+  <path d="M300,560 Q340,585 390,575" fill="none" stroke="#b85a0e" stroke-width="2"/>
+  <path d="M500,560 Q460,585 410,575" fill="none" stroke="#b85a0e" stroke-width="2"/>
+
+  <!-- golden lap and hands -->
+  <ellipse cx="400" cy="556" rx="112" ry="44" fill="#e9b948" stroke="#2b2118" stroke-width="2.5"/>
+  <path d="M320,560 Q400,584 480,560" fill="none" stroke="#2b2118" stroke-width="1.5"/>
+  <ellipse cx="338" cy="548" rx="18" ry="11" fill="#eec25a" stroke="#2b2118" stroke-width="2"/>
+  <ellipse cx="462" cy="548" rx="18" ry="11" fill="#eec25a" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- neck -->
+  <rect x="374" y="352" width="52" height="46" fill="#e5b13f" stroke="#2b2118" stroke-width="2.5"/>
+
+  <!-- head -->
+  <circle cx="400" cy="300" r="62" fill="#ebbb47" stroke="#2b2118" stroke-width="2.5"/>
+  <circle cx="400" cy="234" r="14" fill="#ebbb47" stroke="#2b2118" stroke-width="2.5"/>
+  <ellipse cx="337" cy="300" rx="8" ry="18" fill="#e0a83a" stroke="#2b2118" stroke-width="2"/>
+  <ellipse cx="463" cy="300" rx="8" ry="18" fill="#e0a83a" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- half-closed eyes, nose, mouth, urna -->
+  <path d="M360,304 Q372,314 384,304" fill="none" stroke="#2b2118" stroke-width="3" stroke-linecap="round"/>
+  <path d="M416,304 Q428,314 440,304" fill="none" stroke="#2b2118" stroke-width="3" stroke-linecap="round"/>
+  <path d="M358,302 L386,302" fill="none" stroke="#2b2118" stroke-width="1.2" opacity="0.7"/>
+  <path d="M414,302 L442,302" fill="none" stroke="#2b2118" stroke-width="1.2" opacity="0.7"/>
+  <path d="M400,312 Q395,324 404,326" fill="none" stroke="#2b2118" stroke-width="2" stroke-linecap="round"/>
+  <path d="M386,340 Q400,348 414,340" fill="none" stroke="#2b2118" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="400" cy="284" r="3" fill="#b8801a"/>
+
+  <!-- penguin for scale, on the cobbles -->
+  <ellipse cx="660" cy="640" rx="42" ry="62" fill="#2b2b33" stroke="#2b2118" stroke-width="2.5"/>
+  <ellipse cx="660" cy="652" rx="26" ry="42" fill="#f5f5f0"/>
+  <circle cx="660" cy="580" r="26" fill="#2b2b33" stroke="#2b2118" stroke-width="2.5"/>
+  <polygon points="684,578 704,586 684,592" fill="#e0822a" stroke="#2b2118" stroke-width="1.8"/>
+  <ellipse cx="648" cy="698" rx="11" ry="5" fill="#e0822a" stroke="#2b2118" stroke-width="1.5"/>
+  <ellipse cx="674" cy="698" rx="11" ry="5" fill="#e0822a" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="170" width="800" height="70" fill="#ffffff" opacity="0.45"/>
+  <rect x="0" y="330" width="800" height="40" fill="#ffffff" opacity="0.3"/>
+  <rect x="0" y="600" width="800" height="36" fill="#f7f3ea" opacity="0.5"/>
+
+  <!-- signature "P." -->
+  <g fill="none" stroke="#2b2118" stroke-width="2.4" stroke-linecap="round">
+    <path d="M752,740 L752,776"/>
+    <path d="M752,740 H766 Q778,740 778,751 Q778,762 766,762 H752"/>
+  </g>
+  <circle cx="788" cy="776" r="2.6" fill="#2b2118"/>
+</svg>
