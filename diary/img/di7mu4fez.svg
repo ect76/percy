@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="opening">
+      <path d="M170 800 V240 Q170 150 400 150 Q630 150 630 240 V800 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- scene seen through the doorway -->
+  <g clip-path="url(#opening)">
+    <!-- sky -->
+    <rect x="0" y="0" width="800" height="800" fill="#dde5e8"/>
+
+    <!-- distant tower, spire and clock -->
+    <polygon points="366,200 402,108 438,200" fill="#4f5a63" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="370" y="196" width="64" height="168" fill="#b8b0a2" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="382" y="262" width="12" height="24" fill="#6d675d"/>
+    <rect x="410" y="262" width="12" height="24" fill="#6d675d"/>
+    <circle cx="402" cy="232" r="18" fill="#fbf8ee" stroke="#2b2f33" stroke-width="2"/>
+    <line x1="402" y1="232" x2="402" y2="219" stroke="#2b2f33" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="402" y1="232" x2="412" y2="236" stroke="#2b2f33" stroke-width="2" stroke-linecap="round"/>
+    <rect x="366" y="350" width="72" height="20" fill="#9d978c"/>
+
+    <!-- far houses -->
+    <rect x="330" y="300" width="36" height="60" fill="#d8cdb8" stroke="#2b2f33" stroke-width="1.5"/>
+    <polygon points="326,300 348,278 370,300" fill="#7c7f86"/>
+    <rect x="436" y="306" width="34" height="56" fill="#d8cdb8" stroke="#2b2f33" stroke-width="1.5"/>
+    <polygon points="432,306 453,284 474,306" fill="#7c7f86"/>
+
+    <!-- left row of houses -->
+    <rect x="250" y="400" width="70" height="130" fill="#cbbb9f" stroke="#2b2f33" stroke-width="2"/>
+    <polygon points="244,400 285,362 326,400" fill="#6e7480" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="190" y="480" width="66" height="220" fill="#b9a88c" stroke="#2b2f33" stroke-width="2"/>
+    <polygon points="184,480 223,440 262,480" fill="#5a6270" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="200" y="520" width="12" height="18" fill="#7a6a52"/>
+    <rect x="228" y="560" width="12" height="18" fill="#7a6a52"/>
+
+    <!-- right row of houses -->
+    <rect x="490" y="420" width="64" height="120" fill="#cbbb9f" stroke="#2b2f33" stroke-width="2"/>
+    <polygon points="484,420 522,384 560,420" fill="#6e7480" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="546" y="500" width="84" height="200" fill="#b9a88c" stroke="#2b2f33" stroke-width="2"/>
+    <polygon points="540,500 588,458 636,500" fill="#5a6270" stroke="#2b2f33" stroke-width="2"/>
+    <rect x="562" y="545" width="12" height="18" fill="#7a6a52"/>
+    <rect x="592" y="590" width="12" height="18" fill="#7a6a52"/>
+
+    <!-- snowy cobbled lane -->
+    <polygon points="170,740 630,740 415,330 385,330" fill="#f7fbff" stroke="#2b2f33" stroke-width="2.5"/>
+    <g fill="#a9b1ba">
+      <ellipse cx="250" cy="700" rx="10" ry="5"/>
+      <ellipse cx="330" cy="690" rx="9" ry="4"/>
+      <ellipse cx="470" cy="695" rx="10" ry="5"/>
+      <ellipse cx="560" cy="705" rx="11" ry="5"/>
+      <ellipse cx="300" cy="620" rx="7" ry="3.5"/>
+      <ellipse cx="500" cy="622" rx="7" ry="3.5"/>
+      <ellipse cx="400" cy="600" rx="6" ry="3"/>
+      <ellipse cx="365" cy="520" rx="4" ry="2"/>
+      <ellipse cx="438" cy="515" rx="4" ry="2"/>
+      <ellipse cx="400" cy="450" rx="3" ry="1.5"/>
+    </g>
+
+    <!-- fog bands -->
+    <rect x="170" y="200" width="460" height="50" fill="#ffffff" opacity="0.45"/>
+    <rect x="170" y="300" width="460" height="60" fill="#ffffff" opacity="0.6"/>
+    <rect x="170" y="380" width="460" height="70" fill="#ffffff" opacity="0.4"/>
+    <rect x="170" y="470" width="460" height="90" fill="#ffffff" opacity="0.2"/>
+
+    <!-- falling snow -->
+    <g fill="#ffffff" opacity="0.9">
+      <circle cx="250" cy="260" r="2.5"/>
+      <circle cx="310" cy="190" r="2"/>
+      <circle cx="560" cy="250" r="2.5"/>
+      <circle cx="600" cy="330" r="2"/>
+      <circle cx="220" cy="350" r="2"/>
+      <circle cx="520" cy="180" r="2"/>
+      <circle cx="280" cy="520" r="2.5"/>
+      <circle cx="610" cy="620" r="2.5"/>
+      <circle cx="200" cy="640" r="2"/>
+    </g>
+
+    <!-- doorstep in the foreground -->
+    <rect x="170" y="740" width="460" height="60" fill="#8c8478" stroke="#2b2f33" stroke-width="2.5"/>
+    <rect x="170" y="736" width="460" height="10" fill="#fbfdff"/>
+  </g>
+
+  <!-- doorway frame and cottage wall -->
+  <path fill-rule="evenodd" fill="#c9b99c" stroke="#2b2f33" stroke-width="3"
+        d="M40 40 H760 V780 H40 Z M170 800 V240 Q170 150 400 150 Q630 150 630 240 V800 Z"/>
+  <path d="M170 240 Q170 150 400 150 Q630 150 630 240" fill="none" stroke="#2b2f33" stroke-width="3"/>
+  <g stroke="#8f8068" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M60 110 H150"/>
+    <path d="M650 180 H740"/>
+    <path d="M60 300 H140"/>
+    <path d="M660 420 H745"/>
+    <path d="M70 560 H150"/>
+  </g>
+
+  <!-- signature -->
+  <text x="736" y="784" font-size="22" fill="#2b2f33" text-anchor="end">P.</text>
+</svg>
