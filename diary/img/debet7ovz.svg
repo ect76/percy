@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and fog -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe6d2"/>
+  <ellipse cx="400" cy="760" rx="380" ry="26" fill="#ddd5c0" opacity="0.7"/>
+  <ellipse cx="200" cy="60" rx="260" ry="30" fill="#f7f2e6" opacity="0.8"/>
+  <ellipse cx="640" cy="80" rx="200" ry="22" fill="#f7f2e6" opacity="0.7"/>
+
+  <!-- desk line -->
+  <line x1="40" y1="722" x2="760" y2="722" stroke="#14100c" stroke-width="3"/>
+
+  <!-- cabinet body -->
+  <rect x="90" y="90" width="310" height="630" fill="#2e241d" stroke="#14100c" stroke-width="4"/>
+  <rect x="100" y="100" width="290" height="10" fill="#3f3228"/>
+
+  <!-- drawers row 0-5, columns 0-3 -->
+  <g stroke="#14100c" stroke-width="3" fill="#4d3d2f">
+    <rect x="110" y="120" width="62" height="90"/>
+    <rect x="178" y="120" width="62" height="90"/>
+    <rect x="246" y="120" width="62" height="90"/>
+    <rect x="314" y="120" width="62" height="90"/>
+
+    <rect x="110" y="218" width="62" height="90"/>
+    <rect x="178" y="218" width="62" height="90"/>
+    <rect x="246" y="218" width="62" height="90"/>
+    <rect x="314" y="218" width="62" height="90"/>
+
+    <rect x="110" y="316" width="62" height="90"/>
+    <rect x="246" y="316" width="62" height="90"/>
+    <rect x="314" y="316" width="62" height="90"/>
+
+    <rect x="110" y="414" width="62" height="90"/>
+    <rect x="178" y="414" width="62" height="90"/>
+    <rect x="246" y="414" width="62" height="90"/>
+    <rect x="314" y="414" width="62" height="90"/>
+
+    <rect x="110" y="512" width="62" height="90"/>
+    <rect x="178" y="512" width="62" height="90"/>
+    <rect x="246" y="512" width="62" height="90"/>
+    <rect x="314" y="512" width="62" height="90"/>
+
+    <rect x="110" y="610" width="62" height="90"/>
+    <rect x="178" y="610" width="62" height="90"/>
+    <rect x="246" y="610" width="62" height="90"/>
+    <rect x="314" y="610" width="62" height="90"/>
+  </g>
+
+  <!-- brass pulls -->
+  <g fill="#c2a24a" stroke="#14100c" stroke-width="2">
+    <rect x="131" y="142" width="20" height="6" rx="2"/>
+    <rect x="199" y="142" width="20" height="6" rx="2"/>
+    <rect x="267" y="142" width="20" height="6" rx="2"/>
+    <rect x="335" y="142" width="20" height="6" rx="2"/>
+    <rect x="131" y="240" width="20" height="6" rx="2"/>
+    <rect x="199" y="240" width="20" height="6" rx="2"/>
+    <rect x="267" y="240" width="20" height="6" rx="2"/>
+    <rect x="335" y="240" width="20" height="6" rx="2"/>
+    <rect x="131" y="338" width="20" height="6" rx="2"/>
+    <rect x="267" y="338" width="20" height="6" rx="2"/>
+    <rect x="335" y="338" width="20" height="6" rx="2"/>
+    <rect x="131" y="436" width="20" height="6" rx="2"/>
+    <rect x="199" y="436" width="20" height="6" rx="2"/>
+    <rect x="267" y="436" width="20" height="6" rx="2"/>
+    <rect x="335" y="436" width="20" height="6" rx="2"/>
+    <rect x="131" y="534" width="20" height="6" rx="2"/>
+    <rect x="199" y="534" width="20" height="6" rx="2"/>
+    <rect x="267" y="534" width="20" height="6" rx="2"/>
+    <rect x="335" y="534" width="20" height="6" rx="2"/>
+    <rect x="131" y="632" width="20" height="6" rx="2"/>
+    <rect x="199" y="632" width="20" height="6" rx="2"/>
+    <rect x="267" y="632" width="20" height="6" rx="2"/>
+    <rect x="335" y="632" width="20" height="6" rx="2"/>
+  </g>
+
+  <!-- open drawer: dark cavity behind, drawer pulled forward -->
+  <rect x="178" y="316" width="62" height="90" fill="#140f0b" stroke="#14100c" stroke-width="3"/>
+  <!— card peeking from cavity —>
+  <rect x="186" y="300" width="44" height="40" fill="#f4ecd8" stroke="#14100c" stroke-width="2" transform="rotate(-4 208 320)"/>
+  <rect x="172" y="346" width="70" height="92" fill="#5a4736" stroke="#14100c" stroke-width="3"/>
+  <rect x="193" y="360" width="20" height="6" rx="2" fill="#c2a24a" stroke="#14100c" stroke-width="2"/>
+  <line x1="172" y1="346" x2="178" y2="338" stroke="#14100c" stroke-width="2"/>
+
+  <!-- wood grain hints -->
+  <g stroke="#1d1612" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M100 300 Q110 296 120 300"/>
+    <path d="M385 480 Q392 476 396 486"/>
+    <path d="M100 620 Q108 616 116 624"/>
+  </g>
+
+  <!-- rubber-headed stamp, upright -->
+  <rect x="558" y="120" width="26" height="170" rx="10" fill="#8a6a46" stroke="#14100c" stroke-width="3"/>
+  <rect x="548" y="288" width="46" height="14" fill="#6b5034" stroke="#14100c" stroke-width="3"/>
+  <rect x="538" y="302" width="66" height="22" rx="4" fill="#262220" stroke="#14100c" stroke-width="3"/>
+  <rect x="544" y="324" width="54" height="6" fill="#7a2e2a" stroke="#14100c" stroke-width="2"/>
+
+  <!-- inkpad beside the stamp -->
+  <rect x="500" y="356" width="150" height="44" rx="6" fill="#c9b28a" stroke="#14100c" stroke-width="3"/>
+  <rect x="514" y="364" width="122" height="28" rx="4" fill="#9b2f2a" stroke="#14100c" stroke-width="2"/>
+  <ellipse cx="575" cy="378" rx="40" ry="6" fill="#6e1f1c" opacity="0.6"/>
+
+  <!-- dented red box -->
+  <path d="M478 520 L640 520 L650 530 L650 600 L490 600 L478 588 Z" fill="#b8322c" stroke="#14100c" stroke-width="4"/>
+  <path d="M478 520 L490 530 L490 600" fill="none" stroke="#14100c" stroke-width="3"/>
+  <path d="M478 520 L492 524 L488 508 Z" fill="#b8322c" stroke="#14100c" stroke-width="3"/>
+  <path d="M490 530 L640 530" stroke="#14100c" stroke-width="2" opacity="0.5"/>
+  <!-- dent -->
+  <path d="M492 532 Q500 546 494 560 Q488 572 496 580" fill="none" stroke="#6e1f1c" stroke-width="2"/>
+  <!-- flaking paint showing silver -->
+  <path d="M560 540 L585 536 L592 548 L578 556 L562 552 Z" fill="#b8bcc2" stroke="#14100c" stroke-width="1.5"/>
+  <path d="M610 572 L628 568 L632 580 L616 584 Z" fill="#b8bcc2" stroke="#14100c" stroke-width="1.5"/>
+  <path d="M514 582 L530 580 L532 590 L516 592 Z" fill="#b8bcc2" stroke="#14100c" stroke-width="1.5"/>
+
+  <!-- signature P. -->
+  <g fill="none" stroke="#14100c" stroke-width="3" stroke-linecap="round">
+    <path d="M700 728 V758 M700 728 H712 Q722 728 722 738 Q722 748 712 748 H700"/>
+  </g>
+  <circle cx="730" cy="758" r="2.5" fill="#14100c"/>
+</svg>
