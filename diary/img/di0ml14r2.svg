@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4eee0"/>
+  <g fill="none" stroke="#radical" stroke-width="0"></g>
+  <!-- fog bands -->
+  <g fill="#e6dfcd" opacity="0.7">
+    <rect x="0" y="60" width="800" height="26"/>
+    <rect x="0" y="730" width="800" height="30"/>
+  </g>
+  <!-- cupboard interior -->
+  <rect x="180" y="110" width="440" height="580" fill="#c9b99a" stroke="#2a2420" stroke-width="3"/>
+  <!-- back panel grain -->
+  <g stroke="#b3a383" stroke-width="2" fill="none">
+    <path d="M200 130 V670"/>
+    <path d="M250 120 V680"/>
+    <path d="M400 118 V684"/>
+    <path d="M560 120 V680"/>
+  </g>
+  <!-- shadow inside top -->
+  <rect x="180" y="110" width="440" height="30" fill="#8f7d5e" opacity="0.5"/>
+  <!-- shelves -->
+  <g stroke="#2a2420" stroke-width="3" fill="#a88e68">
+    <rect x="180" y="268" width="440" height="12"/>
+    <rect x="180" y="440" width="440" height="12"/>
+    <rect x="180" y="604" width="440" height="12"/>
+  </g>
+  <!-- shelf shadows -->
+  <g fill="#6f5d44" opacity="0.45">
+    <rect x="180" y="280" width="440" height="8"/>
+    <rect x="180" y="452" width="440" height="8"/>
+    <rect x="180" y="616" width="440" height="8"/>
+  </g>
+  <!-- open door -->
+  <polygon points="110,120 180,108 180,690 110,706" fill="#8a6a4a" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="126,150 166,144 166,664 126,672" fill="#9d7c58" stroke="#2a2420" stroke-width="2" stroke-linejoin="round"/>
+  <!-- frame edge -->
+  <rect x="170" y="100" width="460" height="600" fill="none" stroke="#2a2420" stroke-width="5" stroke-linejoin="round"/>
+  <!-- fish -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linejoin="round">
+    <path d="M262 405 L215 370 L225 405 L215 440 Z" fill="#5f8fa3"/>
+    <path d="M300 370 C315 335 345 335 355 372 Z" fill="#4a7a8f"/>
+    <path d="M260 405 C300 360 360 360 400 395 L402 405 L400 415 C360 450 300 450 260 405 Z" fill="#7fb3c4"/>
+    <path d="M330 380 Q320 405 330 430" fill="none"/>
+    <path d="M300 420 Q330 440 360 425" fill="none" stroke-width="2"/>
+  </g>
+  <circle cx="360" cy="393" r="7" fill="#2a2420"/>
+  <circle cx="362" cy="391" r="2" fill="#f4eee0"/>
+  <!-- seed tin -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linejoin="round">
+    <rect x="470" y="352" width="92" height="88" fill="#b8553d"/>
+    <rect x="464" y="338" width="104" height="16" fill="#8d8478"/>
+    <rect x="470" y="380" width="92" height="22" fill="#e0c27a"/>
+  </g>
+  <ellipse cx="516" cy="340" rx="50" ry="5" fill="#6b645b"/>
+  <!-- small P. signature -->
+  <g fill="none" stroke="#2a2420" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M690 740 V770"/>
+    <path d="M690 740 H700 Q710 740 710 748 Q710 756 700 756 H690"/>
+  </g>
+  <circle cx="718" cy="770" r="2.5" fill="#2a2420"/>
+</svg>
