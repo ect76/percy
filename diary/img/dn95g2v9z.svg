@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3eee2"/>
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#1d1b19" stroke-width="2"/>
+
+  <!-- distant trees dissolving into fog -->
+  <g fill="#8fa08a" opacity="0.35">
+    <ellipse cx="150" cy="300" rx="60" ry="55"/>
+    <ellipse cx="260" cy="280" rx="45" ry="45"/>
+    <ellipse cx="620" cy="290" rx="70" ry="60"/>
+    <ellipse cx="720" cy="330" rx="50" ry="40"/>
+  </g>
+  <rect x="150" y="300" width="14" height="130" fill="#8a7a66" opacity="0.3"/>
+  <rect x="612" y="300" width="14" height="120" fill="#8a7a66" opacity="0.3"/>
+
+  <!-- fog bank across middle -->
+  <rect x="20" y="340" width="760" height="70" fill="#e9e7df" opacity="0.8"/>
+  <ellipse cx="300" cy="360" rx="260" ry="34" fill="#f7f5ee" opacity="0.7"/>
+  <ellipse cx="640" cy="390" rx="220" ry="30" fill="#f7f5ee" opacity="0.6"/>
+
+  <!-- village green -->
+  <path d="M20 410 Q400 385 780 410 L780 780 L20 780 Z" fill="#a9c08c"/>
+  <path d="M20 410 Q400 385 780 410" fill="none" stroke="#1d1b19" stroke-width="2.5"/>
+  <g fill="#86a46f" opacity="0.6">
+    <ellipse cx="90" cy="470" rx="22" ry="5"/>
+    <ellipse cx="700" cy="460" rx="26" ry="5"/>
+    <ellipse cx="180" cy="700" rx="30" ry="6"/>
+    <ellipse cx="690" cy="720" rx="34" ry="6"/>
+  </g>
+
+  <!-- cobbled path in foreground -->
+  <g fill="#c8c2b4" stroke="#1d1b19" stroke-width="1.5">
+    <ellipse cx="200" cy="735" rx="26" ry="11"/>
+    <ellipse cx="240" cy="752" rx="22" ry="10"/>
+    <ellipse cx="170" cy="762" rx="20" ry="9"/>
+    <ellipse cx="275" cy="725" rx="18" ry="8"/>
+    <ellipse cx="310" cy="748" rx="24" ry="10"/>
+    <ellipse cx="350" cy="732" rx="20" ry="9"/>
+    <ellipse cx="385" cy="758" rx="22" ry="10"/>
+    <ellipse cx="420" cy="740" rx="20" ry="9"/>
+    <ellipse cx="455" cy="765" rx="24" ry="10"/>
+    <ellipse cx="500" cy="748" rx="22" ry="10"/>
+    <ellipse cx="545" cy="770" rx="20" ry="9"/>
+    <ellipse cx="590" cy="752" rx="24" ry="10"/>
+    <ellipse cx="630" cy="775" rx="20" ry="8"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="430" cy="540" rx="250" ry="112" fill="#4f8d95" stroke="#1d1b19" stroke-width="3"/>
+  <ellipse cx="410" cy="520" rx="170" ry="70" fill="#6aa7ad" opacity="0.8"/>
+  <ellipse cx="340" cy="505" rx="60" ry="14" fill="#a9d0d2" opacity="0.7"/>
+  <!-- reeds at pond edge -->
+  <g stroke="#1d1b19" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M195 560 Q190 520 200 490"/>
+    <path d="M210 565 Q215 530 205 500"/>
+    <path d="M660 580 Q668 545 658 512"/>
+    <path d="M672 585 Q676 555 682 530"/>
+  </g>
+  <g fill="#7c9c64" stroke="#1d1b19" stroke-width="1.5">
+    <ellipse cx="200" cy="492" rx="5" ry="14"/>
+    <ellipse cx="205" cy="498" rx="5" ry="14"/>
+    <ellipse cx="658" cy="508" rx="5" ry="14"/>
+    <ellipse cx="682" cy="527" rx="5" ry="14"/>
+  </g>
+
+  <!-- ripples where the fish dived -->
+  <g fill="none" stroke="#1d1b19" stroke-width="2">
+    <ellipse cx="520" cy="528" rx="22" ry="7"/>
+    <ellipse cx="520" cy="528" rx="48" ry="15" opacity="0.85"/>
+    <ellipse cx="520" cy="528" rx="80" ry="25" opacity="0.6"/>
+    <ellipse cx="520" cy="528" rx="115" ry="36" opacity="0.35"/>
+  </g>
+  <!-- splash and fish -->
+  <path d="M498 512 Q506 486 518 500 Q528 480 540 506 Q546 512 540 520 L498 520 Z" fill="#fbfaf6" stroke="#1d1b19" stroke-width="1.5"/>
+  <path d="M470 506 Q482 486 500 494 Q492 506 496 516 Q480 514 470 506 Z" fill="#e0823c" stroke="#1d1b19" stroke-width="1.5"/>
+  <circle cx="478" cy="500" r="1.8" fill="#1d1b19"/>
+  <path d="M470 506 L458 498 L460 510 Z" fill="#e0823c" stroke="#1d1b19" stroke-width="1.5"/>
+  <!-- small drop rings -->
+  <g fill="none" stroke="#1d1b19" stroke-width="1.2" opacity="0.7">
+    <circle cx="538" cy="478" r="4"/>
+    <circle cx="552" cy="470" r="3"/>
+    <circle cx="506" cy="470" r="3"/>
+  </g>
+
+  <!-- Welcome sign -->
+  <rect x="150" y="440" width="13" height="200" fill="#7a5c3c" stroke="#1d1b19" stroke-width="2.5"/>
+  <rect x="90" y="395" width="210" height="72" rx="4" fill="#c9a46a" stroke="#1d1b19" stroke-width="3"/>
+  <rect x="100" y="405" width="190" height="52" fill="none" stroke="#1d1b19" stroke-width="1.2"/>
+  <text x="195" y="428" text-anchor="middle" font-size="18" fill="#2a2118">Welcome to</text>
+  <text x="195" y="455" text-anchor="middle" font-size="22" font-weight="bold" fill="#2a2118">Mossbrook</text>
+  <path d="M120 470 L270 470" stroke="#1d1b19" stroke-width="1" opacity="0.6"/>
+
+  <!-- fog wisps over foreground -->
+  <g fill="#f7f5ee" opacity="0.55">
+    <ellipse cx="120" cy="640" rx="140" ry="22"/>
+    <ellipse cx="700" cy="620" rx="150" ry="24"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="772" text-anchor="end" font-size="20" fill="#1d1b19">P.</text>
+</svg>
