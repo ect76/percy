@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe4"/>
+  <!-- fog bands outside the doorway -->
+  <ellipse cx="90" cy="250" rx="160" ry="60" fill="#d9d6cf" opacity="0.6"/>
+  <ellipse cx="720" cy="300" rx="170" ry="70" fill="#d9d6cf" opacity="0.6"/>
+  <ellipse cx="400" cy="120" rx="300" ry="40" fill="#e4e1da" opacity="0.7"/>
+  <!-- back wall -->
+  <rect x="170" y="170" width="460" height="300" fill="#e9dcc4" stroke="#2a2420" stroke-width="4"/>
+  <!-- wall stone lines -->
+  <g stroke="#b9a versus" stroke-width="0"></g>
+  <g stroke="#c7b594" stroke-width="2" fill="none">
+    <line x1="170" y1="230" x2="630" y2="230"/>
+    <line x1="170" y1="290" x2="630" y2="290"/>
+    <line x1="170" y1="350" x2="630" y2="350"/>
+    <line x1="170" y1="410" x2="630" y2="410"/>
+  </g>
+  <!-- drip stains down back wall -->
+  <g fill="#8c7758" opacity="0.55">
+    <path d="M395 250 Q400 245 405 250 L405 330 Q400 345 395 330 Z"/>
+    <path d="M430 255 Q434 250 438 255 L438 300 Q434 312 430 300 Z"/>
+    <path d="M370 300 Q374 296 378 300 L378 380 Q374 392 370 380 Z"/>
+    <path d="M250 300 Q253 297 256 300 L256 360 Q253 368 250 360 Z"/>
+    <path d="M560 280 Q563 276 566 280 L566 330 Q563 338 560 330 Z"/>
+  </g>
+  <!-- oven -->
+  <rect x="200" y="270" width="140" height="140" fill="#7a6a5c" stroke="#2a2420" stroke-width="4"/>
+  <rect x="215" y="285" width="110" height="60" fill="#2a2420"/>
+  <rect x="215" y="355" width="110" height="40" fill="#5a4c42" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="270" cy="375" r="5" fill="#d8c9a8"/>
+  <!-- sink and tap -->
+  <rect x="375" y="260" width="110" height="20" fill="#b8c2c4" stroke="#2a2420" stroke-width="3"/>
+  <path d="M430 240 L430 262 Q430 268 436 268 L446 268" fill="none" stroke="#2a2420" stroke-width="5" stroke-linecap="round"/>
+  <path d="M430 280 Q424 288 430 296 Q436 288 430 280 Z" fill="#6f9aa8" stroke="#2a2420" stroke-width="2"/>
+  <!-- counter top and front -->
+  <rect x="150" y="430" width="500" height="40" fill="#c9a97a" stroke="#2a2420" stroke-width="4"/>
+  <rect x="150" y="470" width="500" height="90" fill="#a07c52" stroke="#2a2420" stroke-width="4"/>
+  <!-- five objects on the counter -->
+  <!-- 1: knife -->
+  <rect x="250" y="418" width="60" height="10" fill="#8a8f92" stroke="#2a2420" stroke-width="2"/>
+  <rect x="200" y="416" width="50" height="14" rx="3" fill="#5a4030" stroke="#2a2420" stroke-width="2"/>
+  <!-- 2: rolling pin -->
+  <rect x="320" y="414" width="100" height="18" rx="9" fill="#e2d2b0" stroke="#2a2420" stroke-width="2"/>
+  <!-- 3: mixing bowl -->
+  <path d="M475 402 L535 402 Q533 430 505 430 Q477 430 475 402 Z" fill="#d7d2c6" stroke="#2a2420" stroke-width="2"/>
+  <!-- 4: bread board -->
+  <rect x="560" y="410" width="58" height="20" rx="3" fill="#b98f5e" stroke="#2a2420" stroke-width="2"/>
+  <!-- 5: jug -->
+  <path d="M645 396 Q656 396 656 412 Q656 430 640 430 L632 430 Q626 430 626 414 Q626 396 645 396 Z" fill="#9fb3b0" stroke="#2a2420" stroke-width="2"/>
+  <path d="M626 404 Q616 404 618 414 Q620 420 630 418" fill="none" stroke="#2a2420" stroke-width="2"/>
+  <!-- doorway frame, foreground -->
+  <path d="M0 0 H800 V800 H0 Z M120 60 V740 H680 V60 Z" fill="#4a3d33" fill-rule="evenodd" opacity="0.9"/>
+  <path d="M120 60 H680 V110 H120 Z" fill="#3a2f27"/>
+  <rect x="120" y="60" width="560" height="680" fill="none" stroke="#2a2420" stroke-width="6"/>
+  <!-- floor cobbles -->
+  <g fill="#bdb6a8" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="260" cy="700" rx="40" ry="14"/>
+    <ellipse cx="360" cy="715" rx="46" ry="15"/>
+    <ellipse cx="470" cy="700" rx="40" ry="14"/>
+    <ellipse cx="560" cy="718" rx="42" ry="14"/>
+  </g>
+  <rect x="150" y="560" width="500" height="10" fill="#8f8474" stroke="#2a2420" stroke-width="2"/>
+  <!-- signature -->
+  <text x="54" y="758" font-family="serif" font-size="28" fill="#2a2420">P.</text>
+</svg>
