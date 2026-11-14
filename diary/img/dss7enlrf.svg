@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4f0e6"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="430" fill="#d6e0e8"/>
+  <!-- distant hills in fog -->
+  <path d="M0,400 Q120,360 240,395 T480,390 T800,380 L800,470 L0,470 Z" fill="#c3ced8" stroke="#2b2d33" stroke-width="2"/>
+  <!-- bare trees -->
+  <g fill="none" stroke="#2b2d33" stroke-width="3" stroke-linecap="round">
+    <path d="M310,600 L312,430"/>
+    <path d="M312,470 L285,420"/>
+    <path d="M312,450 L338,410"/>
+    <path d="M660,560 L662,400"/>
+    <path d="M662,440 L690,395"/>
+    <path d="M662,470 L636,430"/>
+  </g>
+  <!-- bell tower -->
+  <rect x="385" y="330" width="30" height="140" fill="#b9b3a6" stroke="#2b2d33" stroke-width="2.5"/>
+  <rect x="380" y="290" width="40" height="45" fill="#8f8a80" stroke="#2b2d33" stroke-width="2.5"/>
+  <rect x="388" y="300" width="10" height="25" fill="#3b3a40"/>
+  <rect x="402" y="300" width="10" height="25" fill="#3b3a40"/>
+  <polygon points="374,292 400,238 426,292" fill="#5a5f6b" stroke="#2b2d33" stroke-width="2.5"/>
+  <path d="M390,262 Q400,256 410,262" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <line x1="400" y1="238" x2="400" y2="216" stroke="#2b2d33" stroke-width="2.5"/>
+  <path d="M392,310 L400,306 L408,310" fill="none" stroke="#2b2d33" stroke-width="1.5"/>
+  <!-- lane (snow over cobbles) -->
+  <polygon points="0,800 800,800 430,470 370,470" fill="#eef3f7" stroke="#2b2d33" stroke-width="2.5"/>
+  <g fill="none" stroke="#9aa3ad" stroke-width="1.8">
+    <ellipse cx="395" cy="500" rx="10" ry="3"/>
+    <ellipse cx="300" cy="590" rx="22" ry="6"/>
+    <ellipse cx="520" cy="600" rx="24" ry="6"/>
+    <ellipse cx="200" cy="700" rx="34" ry="8"/>
+    <ellipse cx="610" cy="720" rx="38" ry="8"/>
+    <ellipse cx="400" cy="760" rx="50" ry="9"/>
+  </g>
+  <!-- left cottage -->
+  <rect x="0" y="430" width="250" height="230" fill="#d9c7a7" stroke="#2b2d33" stroke-width="2.5"/>
+  <polygon points="-10,435 125,360 260,435 250,445 125,372 0,445" fill="#ffffff" stroke="#2b2d33" stroke-width="2"/>
+  <polygon points="-10,435 125,360 260,435" fill="#6b5a4e" opacity="0.85" stroke="#2b2d33" stroke-width="2.5"/>
+  <polygon points="-10,435 125,360 260,435 250,445 125,372 0,445" fill="#ffffff"/>
+  <rect x="170" y="480" width="60" height="60" fill="#f6dc8a" stroke="#2b2d33" stroke-width="2.5"/>
+  <line x1="200" y1="480" x2="200" y2="540" stroke="#2b2d33" stroke-width="2"/>
+  <line x1="170" y1="510" x2="230" y2="510" stroke="#2b2d33" stroke-width="2"/>
+  <rect x="50" y="540" width="70" height="120" fill="#5b3d2e" stroke="#2b2d33" stroke-width="2.5"/>
+  <circle cx="108" cy="604" r="3" fill="#e8c46a"/>
+  <!-- doorstep -->
+  <rect x="40" y="660" width="90" height="12" fill="#9d9a94" stroke="#2b2d33" stroke-width="2"/>
+  <path d="M40,672 L130,672" stroke="#eef3f7" stroke-width="3"/>
+  <!-- right cottage -->
+  <rect x="560" y="470" width="240" height="200" fill="#c9d6cf" stroke="#2b2d33" stroke-width="2.5"/>
+  <polygon points="550,475 680,400 810,475" fill="#4f5d6b" stroke="#2b2d33" stroke-width="2.5"/>
+  <polygon points="550,475 680,400 810,475 798,482 680,412 562,482" fill="#ffffff"/>
+  <rect x="600" y="510" width="50" height="50" fill="#f6dc8a" stroke="#2b2d33" stroke-width="2.5"/>
+  <rect x="690" y="510" width="50" height="50" fill="#f6dc8a" stroke="#2b2d33" stroke-width="2.5"/>
+  <rect x="650" y="590" width="50" height="80" fill="#5b3d2e" stroke="#2b2d33" stroke-width="2.5"/>
+  <!-- fog bands -->
+  <rect x="0" y="420" width="800" height="70" fill="#e9edf0" opacity="0.6"/>
+  <rect x="0" y="470" width="800" height="26" fill="#f1f4f6" opacity="0.55"/>
+  <!-- falling snow -->
+  <g fill="#ffffff" stroke="#9aa3ad" stroke-width="1">
+    <circle cx="90" cy="250" r="3"/>
+    <circle cx="180" cy="200" r="2.5"/>
+    <circle cx="260" cy="300" r="3"/>
+    <circle cx="540" cy="230" r="2.5"/>
+    <circle cx="640" cy="300" r="3"/>
+    <circle cx="720" cy="190" r="2.5"/>
+    <circle cx="460" cy="160" r="2"/>
+    <circle cx="140" cy="340" r="2.5"/>
+  </g>
+  <!-- signature -->
+  <path d="M740,740 V770 M740,740 H752 Q762,740 762,750 Q762,760 752,760 H740" fill="none" stroke="#2b2d33" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="770" cy="770" r="2.5" fill="#2b2d33"/>
+</svg>
