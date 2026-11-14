@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#ece7da"/>
+  <!-- distant village roofs in fog -->
+  <g fill="#c9c6bb" stroke="#2a2a2a" stroke-width="2">
+    <path d="M60 330 L120 275 L180 330 Z"/>
+    <path d="M170 330 L230 260 L290 330 Z"/>
+    <path d="M540 330 L600 268 L660 330 Z"/>
+    <path d="M640 330 L700 285 L760 330 Z"/>
+  </g>
+  <!-- bell tower -->
+  <g stroke="#2a2a2a" stroke-width="2.5">
+    <rect x="372" y="170" width="56" height="170" fill="#b9b2a0"/>
+    <path d="M364 170 L400 120 L436 170 Z" fill="#8c8778"/>
+    <circle cx="400" cy="215" r="9" fill="#e9e4d6"/>
+  </g>
+  <!-- pond -->
+  <ellipse cx="400" cy="470" rx="290" ry="100" fill="#8fb3ad" stroke="#222" stroke-width="3"/>
+  <!-- wind-blown ripples -->
+  <g fill="none" stroke="#3d6b66" stroke-width="2.5" stroke-linecap="round">
+    <path d="M160 455 Q190 445 220 455 T280 455"/>
+    <path d="M300 430 Q330 420 360 430 T420 430"/>
+    <path d="M470 445 Q500 436 530 446 T590 446"/>
+    <path d="M230 495 Q262 486 294 495 T356 495"/>
+    <path d="M420 500 Q452 490 484 500 T546 500"/>
+    <path d="M170 480 Q196 472 222 480"/>
+  </g>
+  <!-- fog bands over pond and village -->
+  <g fill="#f5f3ec" opacity="0.6">
+    <rect x="0" y="300" width="800" height="36"/>
+    <rect x="0" y="392" width="800" height="28"/>
+    <rect x="0" y="545" width="800" height="22" opacity="0.5"/>
+  </g>
+  <!-- cottage wall -->
+  <rect x="90" y="540" width="620" height="260" fill="#d9c7a7" stroke="#2a2a2a" stroke-width="3"/>
+  <g stroke="#a8977a" stroke-width="1.5" fill="none">
+    <path d="M90 580 H710"/>
+    <path d="M90 620 H710"/>
+    <path d="M90 660 H710"/>
+  </g>
+  <!-- window -->
+  <rect x="160" y="585" width="70" height="60" fill="#b7cdd0" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M195 585 V645 M160 615 H230" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- door -->
+  <rect x="340" y="585" width="120" height="155" fill="#7a5a3e" stroke="#2a2a2a" stroke-width="3"/>
+  <circle cx="445" cy="665" r="4" fill="#e0c77a"/>
+  <!-- doorstep -->
+  <rect x="290" y="720" width="220" height="40" fill="#b8ae9c" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- fish skeleton on step -->
+  <g stroke="#2a2a2a" stroke-width="2.5" fill="#efe6d0" stroke-linecap="round">
+    <ellipse cx="318" cy="740" rx="18" ry="12"/>
+    <path d="M332 740 L482 740" fill="none" stroke-width="4"/>
+    <path d="M480 740 L512 722 L504 740 L512 758 Z"/>
+    <g fill="none" stroke-width="2">
+      <path d="M350 740 L340 726 M350 740 L340 754"/>
+      <path d="M372 740 L362 724 M372 740 L362 756"/>
+      <path d="M394 740 L384 726 M394 740 L384 754"/>
+      <path d="M416 740 L406 724 M416 740 L406 756"/>
+      <path d="M438 740 L428 726 M438 740 L428 754"/>
+      <path d="M458 740 L450 728 M458 740 L450 752"/>
+    </g>
+  </g>
+  <!-- cobbles -->
+  <g fill="#b9b2a0" stroke="#2a2a2a" stroke-width="2">
+    <ellipse cx="150" cy="775" rx="40" ry="12"/>
+    <ellipse cx="260" cy="785" rx="46" ry="11"/>
+    <ellipse cx="380" cy="777" rx="38" ry="10"/>
+    <ellipse cx="520" cy="786" rx="50" ry="11"/>
+    <ellipse cx="650" cy="775" rx="42" ry="12"/>
+  </g>
+  <!-- signature -->
+  <text x="760" y="785" font-size="22" fill="#2a2a2a">P.</text>
+</svg>
