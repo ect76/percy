@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe6d2"/>
+  <rect x="0" y="600" width="800" height="200" fill="#cbb89a"/>
+  <g fill="none" stroke="#8c7858" stroke-width="1.5" opacity="0.6">
+    <ellipse cx="90" cy="650" rx="30" ry="12"/>
+    <ellipse cx="170" cy="700" rx="36" ry="13"/>
+    <ellipse cx="300" cy="660" rx="28" ry="11"/>
+    <ellipse cx="420" cy="720" rx="34" ry="12"/>
+    <ellipse cx="560" cy="650" rx="30" ry="11"/>
+    <ellipse cx="650" cy="735" rx="38" ry="13"/>
+    <ellipse cx="230" cy="760" rx="32" ry="11"/>
+    <ellipse cx="520" cy="775" rx="30" ry="10"/>
+  </g>
+
+  <!-- front window with fog beyond -->
+  <rect x="60" y="120" width="300" height="260" fill="#d6dfe2"/>
+  <g fill="#e9eef0" opacity="0.9">
+    <ellipse cx="130" cy="220" rx="90" ry="22"/>
+    <ellipse cx="250" cy="290" rx="100" ry="26"/>
+    <ellipse cx="170" cy="340" rx="80" ry="18"/>
+  </g>
+  <!-- dust film on glass -->
+  <rect x="60" y="120" width="300" height="260" fill="#b9a88a" opacity="0.28"/>
+  <g fill="none" stroke="#a8977a" stroke-width="3" opacity="0.5" stroke-linecap="round">
+    <path d="M80 150 Q120 140 160 152"/>
+    <path d="M220 330 Q260 322 300 336"/>
+    <path d="M100 300 Q130 292 150 305"/>
+    <path d="M280 160 Q300 170 320 158"/>
+  </g>
+  <!-- window frame and mullions -->
+  <g fill="none" stroke="#2b2118" stroke-width="10">
+    <rect x="60" y="120" width="300" height="260"/>
+  </g>
+  <g stroke="#2b2118" stroke-width="6">
+    <line x1="210" y1="120" x2="210" y2="380"/>
+    <line x1="60" y1="250" x2="360" y2="250"/>
+  </g>
+
+  <!-- shelf with ghost outline where the can was -->
+  <rect x="60" y="440" width="300" height="10" fill="#7a5c40" stroke="#2b2118" stroke-width="2"/>
+  <line x1="75" y1="450" x2="75" y2="466" stroke="#2b2118" stroke-width="3"/>
+  <line x1="345" y1="450" x2="345" y2="466" stroke="#2b2118" stroke-width="3"/>
+  <rect x="120" y="392" width="50" height="48" fill="none" stroke="#9c8a6c" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="122" y="394" width="46" height="46" fill="#e0d3b8" opacity="0.5"/>
+  <g fill="#8c7858" opacity="0.5">
+    <rect x="200" y="412" width="60" height="28"/>
+    <rect x="270" y="400" width="30" height="40"/>
+  </g>
+
+  <!-- cork board by the door -->
+  <rect x="400" y="110" width="130" height="170" fill="#c9a06a" stroke="#2b2118" stroke-width="5"/>
+  <g fill="#8a6a44" opacity="0.5">
+    <circle cx="420" cy="130" r="1.5"/><circle cx="500" cy="200" r="1.5"/>
+    <circle cx="450" cy="260" r="1.5"/><circle cx="515" cy="150" r="1.5"/>
+  </g>
+  <!-- cream notice with curled corner and yellowed top edge -->
+  <path d="M415 135 L508 135 L512 150 L512 262 L415 262 Z" fill="#fbf5e3" stroke="#2b2118" stroke-width="1.5"/>
+  <path d="M415 135 L508 135 L509 142 L415 142 Z" fill="#e6cf86" opacity="0.8"/>
+  <path d="M508 135 L512 150 L500 146 Z" fill="#e3d7b8" stroke="#2b2118" stroke-width="1"/>
+  <g fill="#2b2118" font-family="serif" font-size="7">
+    <text x="422" y="158" font-weight="bold">COLLECTIONS:</text>
+    <text x="422" y="172">Mon, Wed, Fri, 10 a.m.</text>
+    <text x="422" y="186">Parcels must be signed for.</text>
+    <text x="422" y="200">Please ring the bell if</text>
+    <text x="422" y="214">the counter is unattended.</text>
+  </g>
+  <circle cx="418" cy="118" r="3" fill="#8c3b2b"/>
+  <circle cx="510" cy="118" r="3" fill="#8c3b2b"/>
+
+  <!-- door -->
+  <rect x="560" y="90" width="170" height="510" fill="#8a5a3c" stroke="#2b2118" stroke-width="5"/>
+  <rect x="585" y="130" width="120" height="180" fill="none" stroke="#2b2118" stroke-width="3"/>
+  <rect x="585" y="340" width="120" height="180" fill="none" stroke="#2b2118" stroke-width="3"/>
+  <circle cx="595" cy="400" r="6" fill="#c9a227" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- counter -->
+  <rect x="40" y="500" width="480" height="40" fill="#8b6a4a" stroke="#2b2118" stroke-width="4"/>
+  <rect x="40" y="540" width="480" height="160" fill="#6e5035" stroke="#2b2118" stroke-width="4"/>
+  <line x1="120" y1="560" x2="120" y2="680" stroke="#2b2118" stroke-width="2" opacity="0.6"/>
+  <line x1="260" y1="560" x2="260" y2="680" stroke="#2b2118" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="560" x2="400" y2="680" stroke="#2b2118" stroke-width="2" opacity="0.6"/>
+
+  <!-- green stamp booklet -->
+  <g transform="rotate(-3 175 492)">
+    <rect x="120" y="478" width="110" height="22" fill="#7fa37a" stroke="#2b2118" stroke-width="1.5"/>
+    <rect x="120" y="487" width="110" height="5" fill="#f1e7c8"/>
+    <rect x="182" y="478" width="8" height="22" fill="#f1e7c8" opacity="0.9"/>
+    <text x="126" y="484" font-family="serif" font-size="5" fill="#1f2d1d">STAMPS FOR EVERYDAY POST</text>
+  </g>
+
+  <!-- brass bell -->
+  <path d="M352 500 Q352 462 380 462 Q408 462 408 500 Z" fill="#c9a227" stroke="#2b2118" stroke-width="2"/>
+  <rect x="346" y="496" width="68" height="8" fill="#b08d1f" stroke="#2b2118" stroke-width="2"/>
+  <circle cx="380" cy="458" r="5" fill="#c9a227" stroke="#2b2118" stroke-width="2"/>
+  <path d="M362 478 Q366 470 372 470" fill="none" stroke="#fff3c4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- signature -->
+  <text x="760" y="786" font-family="serif" font-size="18" fill="#2b2118">P.</text>
+</svg>
