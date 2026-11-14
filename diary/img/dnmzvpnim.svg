@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#eee5d2"/>
+  <!-- fog bands -->
+  <rect x="0" y="0" width="800" height="120" fill="#d8d3c8" opacity="0.6"/>
+  <rect x="0" y="690" width="800" height="110" fill="#d8d3c8" opacity="0.6"/>
+  <!-- outer wall of building -->
+  <rect x="150" y="90" width="500" height="650" fill="#b9a68a" stroke="#2a2420" stroke-width="5"/>
+  <!-- brass plate above door -->
+  <rect x="330" y="112" width="140" height="42" rx="6" fill="#c9a24a" stroke="#2a2420" stroke-width="3"/>
+  <line x1="346" y1="127" x2="454" y2="127" stroke="#7a5a1e" stroke-width="2"/>
+  <line x1="346" y1="140" x2="440" y2="140" stroke="#7a5a1e" stroke-width="2"/>
+  <circle cx="342" cy="133" r="3" fill="#7a5a1e"/>
+  <circle cx="458" cy="133" r="3" fill="#7a5a1e"/>
+  <!-- door frame -->
+  <rect x="200" y="170" width="400" height="550" fill="#7a5238" stroke="#2a2420" stroke-width="6"/>
+  <!-- interior back wall -->
+  <rect x="216" y="186" width="368" height="520" fill="#e2d2b0" stroke="#2a2420" stroke-width="3"/>
+  <!-- oven arch -->
+  <path d="M500 520 L500 400 Q500 360 540 360 Q580 360 580 400 L580 520 Z" fill="#4a3026" stroke="#2a2420" stroke-width="4"/>
+  <path d="M514 512 L514 404 Q514 380 540 380 Q566 380 566 404 L566 512 Z" fill="#e8803a" opacity="0.8"/>
+  <path d="M530 500 L530 420 Q530 408 540 408 Q550 408 550 420 L550 500 Z" fill="#f2b45a" opacity="0.9"/>
+  <!-- oven shelf line -->
+  <line x1="496" y1="470" x2="584" y2="470" stroke="#2a2420" stroke-width="3"/>
+  <!-- counter top and front -->
+  <rect x="250" y="462" width="310" height="16" fill="#c4a27a" stroke="#2a2420" stroke-width="3"/>
+  <rect x="250" y="478" width="310" height="120" fill="#8b5e3c" stroke="#2a2420" stroke-width="4"/>
+  <line x1="290" y1="478" x2="290" y2="598" stroke="#5e3c24" stroke-width="3"/>
+  <line x1="390" y1="478" x2="390" y2="598" stroke="#5e3c24" stroke-width="3"/>
+  <line x1="490" y1="478" x2="490" y2="598" stroke="#5e3c24" stroke-width="3"/>
+  <!-- the five things on the counter -->
+  <!-- 1: brass till -->
+  <rect x="290" y="390" width="70" height="72" fill="#c9a24a" stroke="#2a2420" stroke-width="3"/>
+  <rect x="300" y="372" width="50" height="20" fill="#b08a36" stroke="#2a2420" stroke-width="3"/>
+  <rect x="302" y="410" width="46" height="8" fill="#5a4010"/>
+  <circle cx="325" cy="440" r="6" fill="#7a5a1e"/>
+  <!-- 2: scale -->
+  <line x1="410" y1="462" x2="410" y2="410" stroke="#2a2420" stroke-width="3"/>
+  <line x1="380" y1="416" x2="440" y2="416" stroke="#2a2420" stroke-width="3"/>
+  <path d="M370 462 L392 430 L402 462 Z" fill="#a8a296" stroke="#2a2420" stroke-width="2"/>
+  <path d="M418 462 L430 430 L452 462 Z" fill="#a8a296" stroke="#2a2420" stroke-width="2"/>
+  <!-- 3: bell -->
+  <path d="M470 462 Q470 428 484 428 Q498 428 498 462 Z" fill="#c9a24a" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="484" cy="436" r="4" fill="#7a5a1e"/>
+  <!-- 4: rolling pin -->
+  <rect x="520" y="446" width="50" height="16" rx="8" fill="#d8b47a" stroke="#2a2420" stroke-width="3"/>
+  <!-- 5: jar -->
+  <rect x="580" y="416" width="0" height="0" fill="none"/>
+  <rect x="268" y="430" width="0" height="0" fill="none"/>
+  <!-- wooden peel leaning on wall, left side -->
+  <line x1="236" y1="300" x2="268" y2="460" stroke="#6b4a2c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M220 300 L252 294 L258 330 L226 336 Z" fill="#c4a27a" stroke="#2a2420" stroke-width="3"/>
+  <!-- 5th thing: small flour jar behind counter edge -->
+  <path d="M590 462 L590 436 Q590 424 600 424 Q610 424 610 436 L610 462 Z" fill="#e9e1cf" stroke="#2a2420" stroke-width="3"/>
+  <!-- warm glow spill onto floor -->
+  <ellipse cx="540" cy="620" rx="110" ry="22" fill="#e8803a" opacity="0.18"/>
+  <!-- floor cobbles -->
+  <rect x="200" y="598" width="400" height="142" fill="#a89a80" stroke="#2a2420" stroke-width="4"/>
+  <g fill="none" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="260" cy="630" rx="36" ry="14"/>
+    <ellipse cx="350" cy="628" rx="38" ry="14"/>
+    <ellipse cx="450" cy="632" rx="36" ry="14"/>
+    <ellipse cx="540" cy="628" rx="36" ry="14"/>
+    <ellipse cx="300" cy="684" rx="40" ry="14"/>
+    <ellipse cx="410" cy="686" rx="40" ry="14"/>
+    <ellipse cx="520" cy="684" rx="38" ry="14"/>
+  </g>
+  <!-- door threshold -->
+  <rect x="190" y="716" width="420" height="12" fill="#5e3c24" stroke="#2a2420" stroke-width="3"/>
+  <!-- fog over lower edge -->
+  <rect x="0" y="740" width="800" height="60" fill="#eee5d2" opacity="0.7"/>
+  <!-- signature -->
+  <text x="40" y="770" font-size="26" fill="#2a2420">P.</text>
+</svg>
