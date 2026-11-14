@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <rect x="0" y="0" width="800" height="330" fill="#e3e7e8"/>
+
+  <!-- distant bell tower, just a shape in the fog -->
+  <rect x="388" y="300" width="24" height="112" fill="#7d8592" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M385 300 L400 238 L415 300 Z" fill="#6c7480" stroke="#2b2620" stroke-width="1.5"/>
+  <rect x="392" y="284" width="16" height="13" fill="#3e444e"/>
+
+  <!-- lane, converging toward the tower -->
+  <path d="M60 800 L740 800 L415 410 L385 410 Z" fill="#cdc3b1" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#8f8474" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="300" cy="700" rx="10" ry="5"/>
+    <ellipse cx="520" cy="740" rx="12" ry="6"/>
+    <ellipse cx="420" cy="620" rx="8" ry="4"/>
+    <ellipse cx="360" cy="520" rx="6" ry="3"/>
+    <ellipse cx="600" cy="680" rx="11" ry="5"/>
+    <ellipse cx="450" cy="470" rx="5" ry="3"/>
+    <ellipse cx="260" cy="610" rx="8" ry="4"/>
+    <ellipse cx="680" cy="760" rx="13" ry="6"/>
+    <ellipse cx="400" cy="560" rx="7" ry="3"/>
+  </g>
+
+  <!-- golden figure on Pond Lane -->
+  <!-- golden pedestal -->
+  <rect x="450" y="590" width="140" height="14" fill="#c8912f" stroke="#2b2620" stroke-width="2"/>
+  <rect x="462" y="562" width="116" height="30" fill="#d9a441" stroke="#2b2620" stroke-width="2"/>
+  <!-- soft halo behind the head -->
+  <ellipse cx="520" cy="455" rx="56" ry="62" fill="none" stroke="#f2d27a" stroke-width="6" opacity="0.85"/>
+  <!-- broad lap-sitting body in saffron cloth -->
+  <path d="M466 562 Q462 500 520 490 Q578 500 574 562 Z" fill="#e8862a" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="520" cy="552" rx="58" ry="16" fill="#c96a1c" stroke="#2b2620" stroke-width="2"/>
+  <path d="M500 500 Q496 530 504 560 M540 500 Q544 530 536 560" fill="none" stroke="#2b2620" stroke-width="1.5" opacity="0.7"/>
+  <!-- head with small bump -->
+  <circle cx="520" cy="452" r="26" fill="#e9bd5a" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="520" cy="424" r="6" fill="#e9bd5a" stroke="#2b2620" stroke-width="2"/>
+  <!-- half-closed calm eyes and gentle smile -->
+  <path d="M505 452 Q511 457 517 452 M523 452 Q529 457 535 452" fill="none" stroke="#2b2620" stroke-width="2" stroke-linecap="round"/>
+  <path d="M512 466 Q520 470 528 466" fill="none" stroke="#2b2620" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- fog veil over the far lane and tower -->
+  <rect x="0" y="330" width="800" height="90" fill="#f4efe3" opacity="0.55"/>
+  <rect x="0" y="560" width="800" height="40" fill="#f4efe3" opacity="0.35"/>
+
+  <!-- cottage at left, in the foreground -->
+  <path d="M10 432 L130 330 L250 432 Z" fill="#6b5446" stroke="#2b2620" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20" y="430" width="210" height="370" fill="#c08a68" stroke="#2b2620" stroke-width="2.5"/>
+  <rect x="40" y="478" width="46" height="52" fill="#f6e7a8" stroke="#2b2620" stroke-width="2"/>
+  <path d="M63 478 V530 M40 504 H86" stroke="#2b2620" stroke-width="1.5"/>
+  <rect x="112" y="520" width="92" height="180" fill="#5a3b2a" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="192" cy="612" r="3" fill="#d9a441"/>
+
+  <!-- wet doorstep -->
+  <rect x="98" y="700" width="116" height="24" fill="#9aa0a6" stroke="#2b2620" stroke-width="2.5"/>
+  <path d="M110 712 H190" stroke="#e6eaec" stroke-width="2" opacity="0.8"/>
+
+  <!-- signature: small P. in the corner -->
+  <g fill="none" stroke="#2b2620" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M762 758 V782 M762 758 H770 Q778 758 778 765 Q778 772 770 772 H762"/>
+  </g>
+  <circle cx="784" cy="782" r="2.2" fill="#2b2620"/>
+</svg>
