@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f3ecdc"/>
+  <!-- paper grain washes -->
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#c9bca3" stroke-width="2"/>
+
+  <!-- back wall -->
+  <rect x="60" y="60" width="680" height="480" fill="#e8dcc4" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- ceiling water stain and drip -->
+  <path d="M300 60 L520 60 L500 96 Q470 110 440 96 Q410 118 380 100 Q340 112 300 60 Z" fill="#c8b48f" opacity="0.7" stroke="#2b2118" stroke-width="2"/>
+  <path d="M410 110 Q412 120 410 128 Q404 136 410 142" fill="none" stroke="#2b2118" stroke-width="2"/>
+  <path d="M410 150 Q416 162 410 176 Q404 186 410 192 Q420 186 416 170 Q414 158 410 150 Z" fill="#7fa7b8" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- grimy front window (left) -->
+  <rect x="90" y="110" width="200" height="220" fill="#d9e0df" stroke="#2b2118" stroke-width="4"/>
+  <rect x="90" y="110" width="200" height="220" fill="#b9bdb4" opacity="0.55"/>
+  <line x1="190" y1="110" x2="190" y2="330" stroke="#2b2118" stroke-width="4"/>
+  <line x1="90" y1="220" x2="290" y2="220" stroke="#2b2118" stroke-width="4"/>
+  <!-- fog outside -->
+  <ellipse cx="120" cy="150" rx="60" ry="14" fill="#f3f1ea" opacity="0.8"/>
+  <ellipse cx="250" cy="280" rx="55" ry="12" fill="#f3f1ea" opacity="0.8"/>
+  <!-- grime smudges -->
+  <ellipse cx="150" cy="260" rx="40" ry="22" fill="#7d6f55" opacity="0.25"/>
+  <ellipse cx="260" cy="170" rx="30" ry="18" fill="#7d6f55" opacity="0.25"/>
+  <path d="M100 300 Q140 280 170 305 T240 300" fill="none" stroke="#6e6049" stroke-width="5" opacity="0.3"/>
+
+  <!-- empty shelves (right) -->
+  <rect x="340" y="130" width="380" height="10" fill="#8a6a45" stroke="#2b2118" stroke-width="3"/>
+  <rect x="340" y="250" width="380" height="10" fill="#8a6a45" stroke="#2b2118" stroke-width="3"/>
+  <rect x="340" y="370" width="380" height="10" fill="#8a6a45" stroke="#2b2118" stroke-width="3"/>
+  <rect x="352" y="140" width="8" height="120" fill="#6b4f30" stroke="#2b2118" stroke-width="2"/>
+  <rect x="700" y="140" width="8" height="120" fill="#6b4f30" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- wet shelving patch on lowest shelf -->
+  <ellipse cx="520" cy="372" rx="120" ry="8" fill="#5c7f8a" opacity="0.45"/>
+  <path d="M400 375 Q460 380 520 374 T640 376" fill="none" stroke="#2b2118" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- drip cup: no spout, no hole -->
+  <path d="M470 300 L560 300 L552 364 Q550 370 540 370 L490 370 Q480 370 478 364 Z" fill="#c9d6d8" stroke="#2b2118" stroke-width="3"/>
+  <ellipse cx="515" cy="300" rx="45" ry="7" fill="#dfe9ea" stroke="#2b2118" stroke-width="2"/>
+  <path d="M488 326 Q492 340 490 352" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7"/>
+  <!-- falling drop into cup -->
+  <path d="M515 226 Q521 238 515 248 Q509 258 515 264 Q521 258 519 248 Q517 238 515 226 Z" fill="#7fa7b8" stroke="#2b2118" stroke-width="1.5"/>
+
+  <!-- counter top -->
+  <rect x="60" y="530" width="680" height="26" fill="#9c7447" stroke="#2b2118" stroke-width="3"/>
+  <rect x="60" y="556" width="680" height="10" fill="#6b4f30" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- counter front panel -->
+  <rect x="60" y="566" width="680" height="170" fill="#b58a58" stroke="#2b2118" stroke-width="3"/>
+  <line x1="60" y1="600" x2="740" y2="600" stroke="#2b2118" stroke-width="1.5" opacity="0.5"/>
+  <path d="M120 620 L120 700 M680 620 L680 700" stroke="#8a6a45" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- brass plate -->
+  <rect x="300" y="610" width="200" height="72" rx="6" fill="#c9a24a" stroke="#2b2118" stroke-width="3"/>
+  <rect x="312" y="622" width="176" height="48" rx="3" fill="none" stroke="#7a5d22" stroke-width="2"/>
+  <line x1="326" y1="638" x2="474" y2="638" stroke="#7a5d22" stroke-width="2"/>
+  <line x1="340" y1="654" x2="460" y2="654" stroke="#7a5d22" stroke-width="2"/>
+  <circle cx="312" cy="622" r="3" fill="#7a5d22"/>
+  <circle cx="488" cy="622" r="3" fill="#7a5d22"/>
+  <circle cx="312" cy="670" r="3" fill="#7a5d22"/>
+  <circle cx="488" cy="670" r="3" fill="#7a5d22"/>
+
+  <!-- floor cobbles hint -->
+  <path d="M60 736 L740 736" stroke="#2b2118" stroke-width="2"/>
+  <path d="M60 760 L740 760" stroke="#2b2118" stroke-width="1" opacity="0.5"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="18" text-anchor="end" fill="#2b2118">P.</text>
+</svg>
