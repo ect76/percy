@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#ece6d6"/>
+
+  <!-- distant fog bands -->
+  <rect x="0" y="90" width="800" height="70" fill="#d7d9d4" opacity="0.6"/>
+  <rect x="0" y="130" width="800" height="40" fill="#e6e6df" opacity="0.7"/>
+
+  <!-- building facade -->
+  <rect x="110" y="250" width="580" height="360" fill="#d9c7a7" stroke="#3a2e24" stroke-width="4"/>
+  <!-- brickwork hints -->
+  <g stroke="#9c8464" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M110 280 H690 M110 310 H690 M110 340 H690 M110 370 H690 M110 400 H690"/>
+    <path d="M150 250 V280 M230 280 V310 M310 250 V280 M390 280 V310 M470 250 V280 M550 280 V310 M630 250 V280"/>
+  </g>
+
+  <!-- striped awning -->
+  <rect x="100" y="168" width="75" height="82" fill="#b5483a" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="175" y="168" width="75" height="82" fill="#f4ecd8" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="250" y="168" width="75" height="82" fill="#b5483a" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="325" y="168" width="75" height="82" fill="#f4ecd8" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="400" y="168" width="75" height="82" fill="#b5483a" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="475" y="168" width="75" height="82" fill="#f4ecd8" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="550" y="168" width="75" height="82" fill="#b5483a" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="625" y="168" width="75" height="82" fill="#f4ecd8" stroke="#3a2e24" stroke-width="3"/>
+  <!-- scalloped valance -->
+  <g stroke="#3a2e24" stroke-width="3">
+    <path d="M100 250 A37.5 26 0 0 0 175 250 Z" fill="#b5483a"/>
+    <path d="M175 250 A37.5 26 0 0 0 250 250 Z" fill="#f4ecd8"/>
+    <path d="M250 250 A37.5 26 0 0 0 325 250 Z" fill="#b5483a"/>
+    <path d="M325 250 A37.5 26 0 0 0 400 250 Z" fill="#f4ecd8"/>
+    <path d="M400 250 A37.5 26 0 0 0 475 250 Z" fill="#b5483a"/>
+    <path d="M475 250 A37.5 26 0 0 0 550 250 Z" fill="#f4ecd8"/>
+    <path d="M550 250 A37.5 26 0 0 0 625 250 Z" fill="#b5483a"/>
+    <path d="M625 250 A37.5 26 0 0 0 700 250 Z" fill="#f4ecd8"/>
+  </g>
+  <rect x="100" y="164" width="600" height="8" fill="#3a2e24"/>
+
+  <!-- shop window -->
+  <rect x="170" y="300" width="460" height="160" fill="#b9cfcb" stroke="#3a2e24" stroke-width="4"/>
+  <g stroke="#3a2e24" stroke-width="3" fill="none">
+    <path d="M170 360 H630"/>
+  </g>
+  <!-- loaves on shelves -->
+  <g stroke="#3a2e24" stroke-width="2.5">
+    <ellipse cx="220" cy="337" rx="34" ry="16" fill="#c98a3c"/>
+    <ellipse cx="300" cy="337" rx="30" ry="15" fill="#d99a4a"/>
+    <ellipse cx="380" cy="337" rx="34" ry="16" fill="#c98a3c"/>
+    <ellipse cx="470" cy="337" rx="30" ry="15" fill="#d99a4a"/>
+    <ellipse cx="555" cy="337" rx="34" ry="16" fill="#c98a3c"/>
+    <ellipse cx="240" cy="402" rx="36" ry="17" fill="#d99a4a"/>
+    <ellipse cx="335" cy="402" rx="30" ry="15" fill="#c98a3c"/>
+    <ellipse cx="430" cy="402" rx="36" ry="17" fill="#d99a4a"/>
+    <ellipse cx="530" cy="402" rx="30" ry="15" fill="#c98a3c"/>
+  </g>
+  <!-- window reflections -->
+  <path d="M190 310 L220 310 L190 340 Z M600 420 L620 420 L600 440 Z" fill="#f4f8f6" opacity="0.7"/>
+
+  <!-- counter body -->
+  <rect x="190" y="480" width="420" height="130" fill="#7a5233" stroke="#3a2e24" stroke-width="4"/>
+  <rect x="180" y="466" width="440" height="18" fill="#5a3b25" stroke="#3a2e24" stroke-width="3"/>
+  <g stroke="#3a2e24" stroke-width="2" opacity="0.5">
+    <path d="M190 520 H610 M190 560 H610"/>
+  </g>
+
+  <!-- brass plate on counter front -->
+  <rect x="340" y="505" width="120" height="50" fill="#d4a64a" stroke="#6b4e16" stroke-width="3"/>
+  <rect x="348" y="512" width="104" height="36" fill="none" stroke="#8a6420" stroke-width="1.5"/>
+  <g stroke="#6b4e16" stroke-width="3" stroke-linecap="round">
+    <path d="M362 524 H438"/>
+    <path d="M362 536 H420"/>
+    <path d="M362 546 H430"/>
+  </g>
+  <circle cx="348" cy="509" r="2.5" fill="#6b4e16"/>
+  <circle cx="452" cy="509" r="2.5" fill="#6b4e16"/>
+  <circle cx="348" cy="551" r="2.5" fill="#6b4e16"/>
+  <circle cx="452" cy="551" r="2.5" fill="#6b4e16"/>
+
+  <!-- brass till on counter -->
+  <rect x="250" y="418" width="78" height="48" fill="#c9a040" stroke="#3a2e24" stroke-width="3"/>
+  <rect x="256" y="424" width="66" height="10" fill="#3a2e24"/>
+  <g fill="#f4ecd8" stroke="#3a2e24" stroke-width="1.5">
+    <rect x="262" y="440" width="10" height="7"/>
+    <rect x="276" y="440" width="10" height="7"/>
+    <rect x="290" y="440" width="10" height="7"/>
+    <rect x="304" y="440" width="10" height="7"/>
+    <rect x="262" y="450" width="10" height="7"/>
+    <rect x="276" y="450" width="10" height="7"/>
+    <rect x="290" y="450" width="10" height="7"/>
+    <rect x="304" y="450" width="10" height="7"/>
+  </g>
+  <rect x="254" y="458" width="70" height="8" fill="#8a6420" stroke="#3a2e24" stroke-width="1.5"/>
+
+  <!-- loaves on counter top -->
+  <ellipse cx="520" cy="458" rx="36" ry="13" fill="#c98a3c" stroke="#3a2e24" stroke-width="2.5"/>
+  <ellipse cx="572" cy="456" rx="26" ry="11" fill="#d99a4a" stroke="#3a2e24" stroke-width="2.5"/>
+
+  <!-- wooden peel leaning at right -->
+  <g stroke="#3a2e24" stroke-width="2.5">
+    <path d="M664 470 L708 250" stroke="#8a5a30" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M640 478 L676 462 L690 488 L656 506 Z" fill="#c8a06a"/>
+  </g>
+
+  <!-- cobbled street -->
+  <rect x="0" y="610" width="800" height="190" fill="#8f897b"/>
+  <g fill="#a39c8c" stroke="#3a2e24" stroke-width="2" opacity="0.9">
+    <ellipse cx="90" cy="650" rx="44" ry="18"/>
+    <ellipse cx="200" cy="640" rx="40" ry="16"/>
+    <ellipse cx="320" cy="660" rx="46" ry="18"/>
+    <ellipse cx="450" cy="645" rx="40" ry="16"/>
+    <ellipse cx="560" cy="662" rx="44" ry="18"/>
+    <ellipse cx="690" cy="648" rx="42" ry="16"/>
+    <ellipse cx="140" cy="712" rx="50" ry="20"/>
+    <ellipse cx="290" cy="730" rx="46" ry="19"/>
+    <ellipse cx="430" cy="716" rx="48" ry="19"/>
+    <ellipse cx="590" cy="738" rx="50" ry="20"/>
+    <ellipse cx="700" cy="718" rx="44" ry="18"/>
+    <ellipse cx="60" cy="764" rx="46" ry="18"/>
+    <ellipse cx="380" cy="780" rx="52" ry="18"/>
+  </g>
+
+  <!-- foreground fog -->
+  <rect x="0" y="600" width="800" height="50" fill="#f2f2ee" opacity="0.55"/>
+  <rect x="0" y="720" width="800" height="40" fill="#f2f2ee" opacity="0.35"/>
+
+  <!-- ground line / awning shadow -->
+  <path d="M110 610 H690" stroke="#3a2e24" stroke-width="3"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="26" fill="#3a2e24">P.</text>
+</svg>
