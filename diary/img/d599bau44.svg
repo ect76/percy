@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#d9e2e6"/>
+  <rect x="0" y="0" width="800" height="330" fill="#c4d2d9"/>
+  <!-- distant rooftops in fog -->
+  <g fill="#aebdc5" stroke="#2b2b2b" stroke-width="2">
+    <path d="M40 330 L40 280 L90 250 L140 280 L140 330 Z"/>
+    <path d="M640 330 L640 270 L700 230 L760 270 L760 330 Z"/>
+    <path d="M140 330 L140 300 L180 300 L180 330 Z"/>
+  </g>
+  <!-- museum body -->
+  <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round">
+    <!-- tower spire rod and gull -->
+    <line x1="400" y1="110" x2="400" y2="172" stroke-width="4"/>
+    <rect x="360" y="172" width="80" height="40" fill="#e9e1cf"/>
+    <path d="M352 212 Q400 150 448 212 Z" fill="#7d9aa6"/>
+    <rect x="370" y="212" width="60" height="90" fill="#f2ecdd"/>
+    <rect x="388" y="236" width="24" height="40" fill="#5b7480"/>
+    <!-- pediment -->
+    <path d="M250 382 L400 296 L550 382 Z" fill="#f2ecdd"/>
+    <path d="M280 370 L400 308 L520 370" fill="none" stroke-width="2"/>
+    <rect x="236" y="378" width="328" height="14" fill="#e3dac6"/>
+    <!-- main facade -->
+    <rect x="236" y="392" width="328" height="190" fill="#f7f2e6"/>
+    <!-- windows -->
+    <g fill="#5b7480">
+      <rect x="262" y="420" width="16" height="50"/>
+      <rect x="522" y="420" width="16" height="50"/>
+      <rect x="392" y="420" width="16" height="30"/>
+    </g>
+    <!-- columns -->
+    <g fill="#fbf8ef">
+      <rect x="284" y="392" width="22" height="180"/>
+      <rect x="334" y="392" width="22" height="180"/>
+      <rect x="444" y="392" width="22" height="180"/>
+      <rect x="494" y="392" width="22" height="180"/>
+    </g>
+    <!-- door -->
+    <path d="M366 582 L366 510 Q400 480 434 510 L434 582 Z" fill="#4e3b2e"/>
+    <!-- steps -->
+    <rect x="216" y="572" width="368" height="12" fill="#e3dac6"/>
+    <rect x="200" y="584" width="400" height="14" fill="#cfc4ab"/>
+    <rect x="186" y="598" width="428" height="16" fill="#b9ad93"/>
+  </g>
+  <!-- gull weathervane, beak pointing toward the viewer's south -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M372 100 Q400 82 430 96 L440 104 L430 108 Q404 114 378 110 Z" fill="#8f5f3b"/>
+    <path d="M396 100 L378 74 L392 98 Z" fill="#f4f1ea"/>
+    <path d="M404 100 L414 70 L416 98 Z" fill="#f4f1ea"/>
+    <path d="M430 96 L446 92 L434 102 Z" fill="#c9862f"/>
+    <circle cx="428" cy="92" r="6" fill="#f4f1ea"/>
+    <circle cx="430" cy="90" r="1.5" fill="#2b2b2b"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="330" width="800" height="50" fill="#e8eef1" opacity="0.7"/>
+  <rect x="0" y="470" width="800" height="40" fill="#e8eef1" opacity="0.55"/>
+  <!-- cobbled street -->
+  <rect x="0" y="614" width="800" height="186" fill="#a7a58f"/>
+  <g fill="#c9c6b2" stroke="#2b2b2b" stroke-width="1.5">
+    <ellipse cx="90" cy="650" rx="30" ry="12"/>
+    <ellipse cx="170" cy="660" rx="28" ry="11"/>
+    <ellipse cx="250" cy="648" rx="30" ry="12"/>
+    <ellipse cx="335" cy="664" rx="28" ry="11"/>
+    <ellipse cx="420" cy="650" rx="30" ry="12"/>
+    <ellipse cx="505" cy="662" rx="28" ry="11"/>
+    <ellipse cx="590" cy="648" rx="30" ry="12"/>
+    <ellipse cx="690" cy="660" rx="30" ry="12"/>
+    <ellipse cx="60" cy="710" rx="32" ry="13"/>
+    <ellipse cx="170" cy="730" rx="34" ry="14"/>
+    <ellipse cx="290" cy="712" rx="32" ry="13"/>
+    <ellipse cx="410" cy="736" rx="34" ry="14"/>
+    <ellipse cx="530" cy="714" rx="32" ry="13"/>
+    <ellipse cx="650" cy="732" rx="34" ry="14"/>
+    <ellipse cx="740" cy="700" rx="30" ry="12"/>
+    <ellipse cx="110" cy="770" rx="36" ry="14"/>
+    <ellipse cx="330" cy="782" rx="38" ry="14"/>
+    <ellipse cx="560" cy="772" rx="36" ry="14"/>
+  </g>
+  <!-- fog over street -->
+  <rect x="0" y="600" width="800" height="30" fill="#e8eef1" opacity="0.5"/>
+  <!-- signature -->
+  <text x="40" y="770" font-size="22" fill="#2b2b2b">P.</text>
+</svg>
