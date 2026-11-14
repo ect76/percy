@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#3a3530" stroke-width="2"/>
+
+  <!-- distant village in fog -->
+  <g fill="#8c8a86" opacity="0.35">
+    <rect x="60" y="360" width="70" height="120"/>
+    <polygon points="55,360 95,326 135,360"/>
+    <rect x="150" y="380" width="55" height="100"/>
+    <polygon points="145,380 177,352 210,380"/>
+    <rect x="585" y="350" width="80" height="130"/>
+    <polygon points="580,350 625,312 670,350"/>
+    <rect x="690" y="385" width="60" height="95"/>
+    <polygon points="685,385 720,355 752,385"/>
+    <rect x="300" y="300" width="45" height="80"/>
+    <rect x="470" y="310" width="50" height="75"/>
+  </g>
+
+  <!-- fog bands -->
+  <g fill="#fbfaf6" opacity="0.7">
+    <rect x="30" y="300" width="740" height="30"/>
+    <rect x="30" y="420" width="740" height="18"/>
+    <ellipse cx="200" cy="560" rx="200" ry="14"/>
+    <ellipse cx="640" cy="590" rx="190" ry="12"/>
+  </g>
+
+  <!-- cobbled lane -->
+  <polygon points="30,640 770,640 770,770 30,770" fill="#b7b1a4"/>
+  <g fill="none" stroke="#5e5a53" stroke-width="1.5" opacity="0.8">
+    <path d="M30 660 H770"/>
+    <path d="M30 690 H770"/>
+    <path d="M30 725 H770"/>
+    <path d="M90 640 L60 660 L90 690 L60 725 L90 770"/>
+    <path d="M210 640 L190 660 L215 690 L190 725 L215 770"/>
+    <path d="M330 640 L310 660 L335 690 L310 725 L335 770"/>
+    <path d="M470 640 L450 660 L475 690 L450 725 L475 770"/>
+    <path d="M600 640 L585 660 L610 690 L585 725 L610 770"/>
+    <path d="M720 640 L705 660 L730 690 L705 725 L730 770"/>
+  </g>
+
+  <!-- halo ring -->
+  <circle cx="400" cy="262" r="118" fill="none" stroke="#d4a017" stroke-width="10" opacity="0.85"/>
+  <circle cx="400" cy="262" r="118" fill="none" stroke="#3a3530" stroke-width="1.5"/>
+
+  <!-- pedestal -->
+  <polygon points="250,520 550,520 575,600 225,600" fill="#d4a017" stroke="#3a3530" stroke-width="2.5"/>
+  <rect x="200" y="600" width="400" height="30" fill="#c08f12" stroke="#3a3530" stroke-width="2.5"/>
+  <g fill="none" stroke="#3a3530" stroke-width="1.5">
+    <path d="M280 530 Q300 560 320 530"/>
+    <path d="M360 530 Q380 560 400 530"/>
+    <path d="M440 530 Q460 560 480 530"/>
+    <path d="M520 530 Q540 560 560 530" fill="none"/>
+    <path d="M230 614 H570"/>
+  </g>
+
+  <!-- saffron body and lap -->
+  <path d="M300 330 Q400 300 500 330 Q530 400 520 470 Q400 500 280 470 Q270 400 300 330 Z" fill="#e07b1f" stroke="#3a3530" stroke-width="2.5"/>
+  <ellipse cx="400" cy="475" rx="125" ry="42" fill="#c4621a" stroke="#3a3530" stroke-width="2.5"/>
+  <g fill="none" stroke="#3a3530" stroke-width="1.5" opacity="0.8">
+    <path d="M330 360 Q345 420 330 470"/>
+    <path d="M400 340 Q410 400 400 460"/>
+    <path d="M470 360 Q455 420 470 470"/>
+    <path d="M300 440 Q340 455 380 440"/>
+    <path d="M420 440 Q460 455 500 440"/>
+  </g>
+
+  <!-- arms and hands (golden skin) -->
+  <ellipse cx="335" cy="420" rx="26" ry="18" fill="#e8b84a" stroke="#3a3530" stroke-width="2"/>
+  <ellipse cx="465" cy="420" rx="26" ry="18" fill="#e8b84a" stroke="#3a3530" stroke-width="2"/>
+
+  <!-- neck and head -->
+  <rect x="380" y="300" width="40" height="26" fill="#e8b84a" stroke="#3a3530" stroke-width="2"/>
+  <circle cx="400" cy="250" r="6" fill="#e8b84a"/>
+  <circle cx="400" cy="232" r="14" fill="#e8b84a" stroke="#3a3530" stroke-width="2"/>
+  <circle cx="400" cy="265" r="54" fill="#e8b84a" stroke="#3a3530" stroke-width="2.5"/>
+  <path d="M346 262 q-8 10 0 22" fill="none" stroke="#3a3530" stroke-width="2"/>
+  <path d="M454 262 q8 10 0 22" fill="none" stroke="#3a3530" stroke-width="2"/>
+
+  <!-- half-closed eyes, nose, gentle smile -->
+  <path d="M370 266 Q381 274 392 266" fill="none" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M408 266 Q419 274 430 266" fill="none" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M400 276 Q397 288 402 290" fill="none" stroke="#3a3530" stroke-width="1.8"/>
+  <path d="M385 300 Q400 309 415 300" fill="none" stroke="#3a3530" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- rain -->
+  <g stroke="#4a5a6a" stroke-width="1.2" opacity="0.55" stroke-linecap="round">
+    <path d="M90 90 l-8 22"/><path d="M160 60 l-8 22"/><path d="M230 120 l-8 22"/>
+    <path d="M300 70 l-8 22"/><path d="M380 110 l-8 22"/><path d="M450 60 l-8 22"/>
+    <path d="M520 100 l-8 22"/><path d="M600 70 l-8 22"/><path d="M670 130 l-8 22"/>
+    <path d="M720 200 l-8 22"/><path d="M60 220 l-8 22"/><path d="M140 250 l-8 22"/>
+    <path d="M610 240 l-8 22"/><path d="M700 280 l-8 22"/><path d="M90 410 l-8 22"/>
+    <path d="M740 460 l-8 22"/><path d="M160 520 l-8 22"/><path d="M660 540 l-8 22"/>
+    <path d="M110 580 l-8 22"/><path d="M260 470 l-8 22"/><path d="M540 480 l-8 22"/>
+    <path d="M330 150 l-8 22"/><path d="M250 190 l-8 22"/><path d="M560 170 l-8 22"/>
+    <path d="M480 210 l-8 22"/><path d="M190 300 l-8 22"/><path d="M430 320 l-8 22"/>
+  </g>
+
+  <!-- artist's mark: P. -->
+  <g fill="none" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round">
+    <path d="M740 752 V782"/>
+    <path d="M740 752 H752 Q762 752 762 762 Q762 772 752 772 H740"/>
+  </g>
+  <circle cx="770" cy="782" r="2.5" fill="#3a3530"/>
+</svg>
