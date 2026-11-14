@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f4efe3"/>
+  <!-- distant fog -->
+  <rect x="0" y="0" width="800" height="420" fill="#e4e0d6"/>
+  <!-- left houses -->
+  <g stroke="#2b2622" stroke-width="3" stroke-linejoin="round">
+    <path d="M0 250 L0 470 L110 470 L110 300 L60 250 Z" fill="#cfc6b4"/>
+    <path d="M30 330 L30 350 L70 350 L70 330 Z" fill="#f4efe3" stroke-width="2"/>
+    <path d="M160 360 L160 470 L230 470 L230 360 Z" fill="#d8cfbd" opacity="0.8"/>
+  </g>
+  <!-- right houses -->
+  <g stroke="#2b2622" stroke-width="3" stroke-linejoin="round">
+    <path d="M800 240 L800 470 L690 470 L690 290 L740 240 Z" fill="#cfc6b4"/>
+    <path d="M730 330 L730 350 L770 350 L770 330 Z" fill="#f4efe3" stroke-width="2"/>
+    <path d="M640 360 L640 470 L570 470 L570 360 Z" fill="#d8cfbd" opacity="0.8"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="330" width="800" height="50" fill="#f4efe3" opacity="0.55"/>
+  <rect x="0" y="400" width="800" height="40" fill="#f4efe3" opacity="0.45"/>
+  <!-- lane -->
+  <polygon points="150,800 650,800 470,460 330,460" fill="#c9bfae" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  <!-- cobble lines converging -->
+  <g stroke="#8c8273" stroke-width="2" fill="none">
+    <line x1="260" y1="800" x2="370" y2="470"/>
+    <line x1="400" y1="800" x2="400" y2="470"/>
+    <line x1="540" y1="800" x2="430" y2="470"/>
+    <line x1="190" y1="700" x2="350" y2="520"/>
+    <line x1="610" y1="700" x2="450" y2="520"/>
+  </g>
+  <g fill="none" stroke="#8c8273" stroke-width="2">
+    <ellipse cx="300" cy="640" rx="22" ry="8"/>
+    <ellipse cx="505" cy="600" rx="18" ry="7"/>
+    <ellipse cx="250" cy="750" rx="30" ry="10"/>
+    <ellipse cx="560" cy="740" rx="28" ry="10"/>
+    <ellipse cx="400" cy="500" rx="10" ry="4"/>
+  </g>
+  <!-- halo -->
+  <circle cx="400" cy="240" r="150" fill="#f1d67a" opacity="0.35"/>
+  <circle cx="400" cy="240" r="150" fill="none" stroke="#d4a72c" stroke-width="12" opacity="0.7"/>
+  <circle cx="400" cy="240" r="150" fill="none" stroke="#2b2622" stroke-width="2" opacity="0.6"/>
+  <!-- neck -->
+  <rect x="368" y="300" width="64" height="40" fill="#d9a92e" stroke="#2b2622" stroke-width="3"/>
+  <!-- body (saffron cloth) -->
+  <path d="M290 330 Q400 300 510 330 L560 500 Q580 580 520 600 L280 600 Q220 580 240 500 Z" fill="#e8962e" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  <!-- cloth folds over shoulders -->
+  <path d="M300 330 Q340 380 330 470 L400 520 L470 470 Q460 380 500 330 Z" fill="#c96f1e" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M360 400 Q352 450 366 490 M440 400 Q448 450 434 490" fill="none" stroke="#2b2622" stroke-width="2" opacity="0.7"/>
+  <!-- hands in lap -->
+  <ellipse cx="400" cy="500" rx="52" ry="24" fill="#d9a92e" stroke="#2b2622" stroke-width="3"/>
+  <path d="M360 500 Q400 512 440 500" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <!-- head -->
+  <circle cx="400" cy="240" r="78" fill="#d9a92e" stroke="#2b2622" stroke-width="3"/>
+  <!-- ushnisha bump -->
+  <circle cx="400" cy="158" r="14" fill="#e0b13a" stroke="#2b2622" stroke-width="3"/>
+  <!-- ears -->
+  <path d="M322 225 Q306 240 322 262" fill="none" stroke="#2b2622" stroke-width="3"/>
+  <path d="M478 225 Q494 240 478 262" fill="none" stroke="#2b2622" stroke-width="3"/>
+  <!-- half-closed eyes -->
+  <path d="M358 240 Q372 252 386 240" fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+  <path d="M414 240 Q428 252 442 240" fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+  <path d="M358 240 Q372 246 386 240 M414 240 Q428 246 442 240" fill="none" stroke="#2b2622" stroke-width="1.5" opacity="0.6"/>
+  <!-- nose and mouth -->
+  <path d="M400 248 Q396 262 404 264" fill="none" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M386 280 Q400 288 414 280" fill="none" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- pedestal -->
+  <path d="M220 600 L580 600 Q600 640 560 660 L240 660 Q200 640 220 600 Z" fill="#d4a72c" stroke="#2b2622" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M250 620 Q400 640 550 620" fill="none" stroke="#2b2622" stroke-width="2" opacity="0.6"/>
+  <rect x="180" y="660" width="440" height="30" fill="#b8891f" stroke="#2b2622" stroke-width="3"/>
+  <!-- foreground fog -->
+  <rect x="0" y="700" width="800" height="100" fill="#f4efe3" opacity="0.3"/>
+  <!-- signature P. (drawn with paths) -->
+  <g stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M720 740 V770"/>
+    <path d="M720 740 H732 Q742 740 742 749 Q742 758 732 758 H720"/>
+  </g>
+  <circle cx="750" cy="769" r="2.5" fill="#2b2622"/>
+</svg>
