@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9ece9" stop-opacity="0.2"/>
+      <stop offset="0.6" stop-color="#e9ece9" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#e9ece9" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d969a"/>
+      <stop offset="1" stop-color="#5f6a70"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4eee0"/>
+
+  <!-- distant sky and hills in fog -->
+  <rect x="0" y="0" width="800" height="420" fill="#cfd6d6"/>
+  <path d="M0 330 Q120 290 240 320 T480 318 T800 300 V420 H0 Z" fill="#b5c0bf"/>
+
+  <!-- bell tower at end of lane -->
+  <path d="M400 118 L380 192 H420 Z" fill="#6f7a7e" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="381" y="190" width="38" height="200" fill="#8b8f8c" stroke="#2b2622" stroke-width="2.5"/>
+  <rect x="386" y="150" width="28" height="40" fill="#a7aaa5" stroke="#2b2622" stroke-width="2"/>
+  <path d="M392 176 Q400 166 408 176" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <circle cx="400" cy="250" r="14" fill="#a9b0b2" stroke="#2b2622" stroke-width="2"/>
+  <path d="M400 250 V240 M400 250 L408 254" stroke="#1d1a17" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="392" y="300" width="16" height="22" fill="#5d6568" stroke="#2b2622" stroke-width="1.5"/>
+
+  <!-- far cottages in fog -->
+  <rect x="300" y="300" width="60" height="90" fill="#b9b6ab" stroke="#2b2622" stroke-width="1.5"/>
+  <rect x="440" y="306" width="54" height="84" fill="#c4c0b3" stroke="#2b2622" stroke-width="1.5"/>
+
+  <!-- cobbled lane -->
+  <path d="M120 800 L372 392 H428 L680 800 Z" fill="url(#lane)" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#3e4649" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="400" cy="420" rx="10" ry="4"/>
+    <ellipse cx="380" cy="450" rx="14" ry="5"/>
+    <ellipse cx="420" cy="452" rx="14" ry="5"/>
+    <ellipse cx="360" cy="500" rx="20" ry="7"/>
+    <ellipse cx="440" cy="505" rx="20" ry="7"/>
+    <ellipse cx="400" cy="520" rx="22" ry="8"/>
+    <ellipse cx="300" cy="600" rx="30" ry="10"/>
+    <ellipse cx="500" cy="610" rx="30" ry="10"/>
+    <ellipse cx="400" cy="660" rx="40" ry="13"/>
+    <ellipse cx="220" cy="760" rx="46" ry="14"/>
+    <ellipse cx="590" cy="770" rx="46" ry="14"/>
+  </g>
+  <!-- wet sheen -->
+  <path d="M390 430 L410 430 L440 640 L360 640 Z" fill="#c9d3d4" opacity="0.35"/>
+
+  <!-- left cottage wall framing the doorway -->
+  <path d="M0 110 L210 230 V620 L0 800 Z" fill="#d8c9ab" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M0 110 L210 230" stroke="#2b2622" stroke-width="5"/>
+  <path d="M60 210 L150 260 V360 L60 310 Z" fill="#6e7f88" stroke="#2b2622" stroke-width="2.5"/>
+  <path d="M60 210 L150 260 M60 260 L150 310" stroke="#2b2622" stroke-width="1.5"/>
+  <path d="M0 620 H210" stroke="#8d7b5f" stroke-width="2" opacity="0.6"/>
+
+  <!-- right cottage wall -->
+  <path d="M800 110 L590 230 V620 L800 800 Z" fill="#c9b898" stroke="#2b2622" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M800 110 L590 230" stroke="#2b2622" stroke-width="5"/>
+  <path d="M690 250 L640 275 V370 L690 345 Z" fill="#6e7f88" stroke="#2b2622" stroke-width="2.5"/>
+  <path d="M590 620 L800 800" stroke="#8d7b5f" stroke-width="2" opacity="0.6"/>
+
+  <!-- doorway step and door frame -->
+  <path d="M0 650 H210 L240 700 H0 Z" fill="#7d7468" stroke="#2b2622" stroke-width="2"/>
+  <path d="M0 200 H30" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- fog over the distance -->
+  <rect x="0" y="260" width="800" height="300" fill="url(#fog)"/>
+  <rect x="150" y="320" width="500" height="26" fill="#eef1ef" opacity="0.55"/>
+  <rect x="200" y="380" width="400" height="18" fill="#eef1ef" opacity="0.45"/>
+
+  <!-- rain -->
+  <g stroke="#48545a" stroke-width="1.2" opacity="0.55" stroke-linecap="round">
+    <line x1="260" y1="40" x2="236" y2="100"/>
+    <line x1="330" y1="70" x2="306" y2="130"/>
+    <line x1="470" y1="30" x2="446" y2="90"/>
+    <line x1="560" y1="120" x2="536" y2="180"/>
+    <line x1="300" y1="200" x2="280" y2="250"/>
+    <line x1="520" y1="260" x2="500" y2="310"/>
+    <line x1="340" y1="520" x2="320" y2="580"/>
+    <line x1="470" y1="600" x2="450" y2="660"/>
+    <line x1="620" y1="520" x2="596" y2="580"/>
+    <line x1="150" y1="470" x2="124" y2="540"/>
+    <line x1="260" y1="700" x2="236" y2="770"/>
+    <line x1="700" y1="700" x2="676" y2="770"/>
+    <line x1="60" y1="360" x2="40" y2="420"/>
+    <line x1="720" y1="420" x2="700" y2="480"/>
+    <line x1="380" y1="360" x2="366" y2="400"/>
+    <line x1="430" y1="150" x2="416" y2="190"/>
+    <line x1="200" y1="450" x2="180" y2="510"/>
+    <line x1="600" y1="430" x2="580" y2="490"/>
+  </g>
+
+  <!-- signature "P." in corner -->
+  <g fill="none" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round">
+    <path d="M752 752 V778"/>
+    <path d="M752 752 H762 Q770 752 770 760 Q770 768 762 768 H752"/>
+  </g>
+  <circle cx="778" cy="776" r="2.5" fill="#2b2622"/>
+</svg>
