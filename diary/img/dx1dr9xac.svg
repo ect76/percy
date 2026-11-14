@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+  <!-- distant village roofs and bell tower in fog -->
+  <g fill="#c9c6bb" stroke="#2b2b28" stroke-width="2">
+    <polygon points="60,250 110,200 160,250 160,330 60,330"/>
+    <rect x="300" y="190" width="40" height="140"/>
+    <polygon points="296,190 320,140 344,190"/>
+    <rect x="620" y="230" width="120" height="100"/>
+    <polygon points="610,230 680,170 750,230"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#f3eee2" opacity="0.75">
+    <rect x="0" y="300" width="800" height="36"/>
+    <rect x="0" y="420" width="800" height="28"/>
+  </g>
+  <g fill="#e4e0d4" opacity="0.6">
+    <rect x="0" y="360" width="800" height="50"/>
+  </g>
+  <!-- grass of the green -->
+  <path d="M0,470 Q400,440 800,470 L800,560 L0,560 Z" fill="#a9b98a" stroke="#2b2b28" stroke-width="2"/>
+  <!-- cobbles -->
+  <g fill="#d6cfbe" stroke="#2b2b28" stroke-width="2">
+    <rect x="0" y="650" width="800" height="150" fill="#d6cfbe"/>
+    <rect x="40" y="665" width="70" height="28" rx="10"/>
+    <rect x="130" y="665" width="60" height="28" rx="10"/>
+    <rect x="210" y="665" width="80" height="28" rx="10"/>
+    <rect x="320" y="665" width="60" height="28" rx="10"/>
+    <rect x="410" y="665" width="75" height="28" rx="10"/>
+    <rect x="520" y="665" width="70" height="28" rx="10"/>
+    <rect x="620" y="665" width="80" height="28" rx="10"/>
+    <rect x="730" y="665" width="60" height="28" rx="10"/>
+    <rect x="70" y="710" width="90" height="28" rx="10"/>
+    <rect x="190" y="710" width="70" height="28" rx="10"/>
+    <rect x="300" y="710" width="85" height="28" rx="10"/>
+    <rect x="430" y="710" width="60" height="28" rx="10"/>
+    <rect x="530" y="710" width="90" height="28" rx="10"/>
+    <rect x="660" y="710" width="75" height="28" rx="10"/>
+  </g>
+  <!-- pond -->
+  <ellipse cx="480" cy="570" rx="240" ry="85" fill="#7d9aa6" stroke="#2b2b28" stroke-width="3"/>
+  <ellipse cx="480" cy="570" rx="222" ry="72" fill="#8fabb5" opacity="0.7"/>
+  <!-- ripples from the dive -->
+  <g fill="none" stroke="#2b2b28" stroke-width="2.5">
+    <ellipse cx="450" cy="565" rx="35" ry="11"/>
+    <ellipse cx="450" cy="565" rx="75" ry="24" opacity="0.9"/>
+    <ellipse cx="450" cy="565" rx="120" ry="38" opacity="0.7"/>
+    <ellipse cx="450" cy="565" rx="170" ry="54" opacity="0.5"/>
+  </g>
+  <!-- splash -->
+  <g stroke="#2b2b28" stroke-width="2" fill="none">
+    <path d="M430,560 L420,540"/>
+    <path d="M450,556 L450,532"/>
+    <path d="M470,560 L482,540"/>
+  </g>
+  <circle cx="450" cy="552" r="4" fill="#f3eee2" stroke="#2b2b28" stroke-width="1.5"/>
+  <!-- sign post -->
+  <rect x="216" y="400" width="12" height="170" fill="#7a5a3a" stroke="#2b2b28" stroke-width="2"/>
+  <!-- sign board -->
+  <polygon points="200,336 262,310 324,336 324,344 200,344" fill="#4f6b4a" stroke="#2b2b28" stroke-width="2"/>
+  <rect x="120" y="342" width="284" height="110" rx="14" fill="#2f5a3c" stroke="#2b2b28" stroke-width="2"/>
+  <rect x="134" y="356" width="256" height="82" rx="8" fill="#f7f2e4" stroke="#2b2b28" stroke-width="1.5"/>
+  <text x="262" y="385" text-anchor="middle" font-size="22" fill="#2f5a3c">Welcome to</text>
+  <text x="262" y="420" text-anchor="middle" font-size="26" font-weight="bold" fill="#2f5a3c">Mossbrook</text>
+  <!-- mossy base -->
+  <g fill="#6f8f4e" stroke="#2b2b28" stroke-width="1.5">
+    <ellipse cx="206" cy="566" rx="34" ry="10"/>
+    <ellipse cx="236" cy="574" rx="22" ry="7"/>
+    <ellipse cx="184" cy="578" rx="16" ry="6"/>
+  </g>
+  <!-- reflection hint -->
+  <g fill="none" stroke="#2b2b28" stroke-width="1.5" opacity="0.5">
+    <path d="M300,600 Q320,606 340,600"/>
+    <path d="M560,620 Q580,626 600,620"/>
+  </g>
+  <!-- rain -->
+  <g stroke="#2b2b28" stroke-width="1" opacity="0.45">
+    <line x1="60" y1="60" x2="48" y2="84"/>
+    <line x1="150" y1="40" x2="138" y2="64"/>
+    <line x1="260" y1="90" x2="248" y2="114"/>
+    <line x1="380" y1="50" x2="368" y2="74"/>
+    <line x1="520" y1="80" x2="508" y2="104"/>
+    <line x1="650" y1="45" x2="638" y2="69"/>
+    <line x1="740" y1="110" x2="728" y2="134"/>
+    <line x1="90" y1="150" x2="78" y2="174"/>
+    <line x1="430" y1="180" x2="418" y2="204"/>
+    <line x1="700" y1="250" x2="688" y2="274"/>
+    <line x1="560" y1="300" x2="548" y2="324"/>
+    <line x1="330" y1="260" x2="318" y2="284"/>
+  </g>
+  <!-- signature -->
+  <text x="772" y="782" text-anchor="end" font-size="20" fill="#2b2b28">P.</text>
+</svg>
