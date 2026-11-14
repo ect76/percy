@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eaf6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#cfe9f5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fog" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e9ecee"/>
+      <stop offset="100%" stop-color="#c9cfd3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fog background -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#fog)"/>
+  <ellipse cx="120" cy="90" rx="200" ry="40" fill="#f4f6f7" opacity="0.6"/>
+  <ellipse cx="680" cy="210" rx="180" ry="36" fill="#f4f6f7" opacity="0.5"/>
+  <ellipse cx="200" cy="700" rx="260" ry="30" fill="#f4f6f7" opacity="0.5"/>
+
+  <!-- cupboard frame -->
+  <rect x="170" y="130" width="460" height="530" fill="#8a6a4a" stroke="#2a1f15" stroke-width="6"/>
+  <rect x="195" y="155" width="410" height="480" fill="#5b4632" stroke="#2a1f15" stroke-width="3"/>
+  <!-- open door edge -->
+  <path d="M170 130 L130 150 L130 680 L170 660 Z" fill="#7a5c3e" stroke="#2a1f15" stroke-width="4"/>
+
+  <!-- shelves -->
+  <rect x="195" y="380" width="410" height="12" fill="#3a2b1d" stroke="#2a1f15" stroke-width="2"/>
+  <rect x="195" y="520" width="410" height="12" fill="#3a2b1d" stroke="#2a1f15" stroke-width="2"/>
+
+  <!-- two fish on top shelf -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <polygon points="352,350 395,322 395,378" fill="#b9c7cc"/>
+    <ellipse cx="290" cy="350" rx="72" ry="28" fill="#c9d8dd"/>
+    <path d="M250 330 Q290 312 330 330" fill="none" stroke="#6f8a93" stroke-width="2"/>
+    <path d="M250 370 Q290 386 330 370" fill="none" stroke="#6f8a93" stroke-width="2"/>
+    <circle cx="246" cy="344" r="5" fill="#1d1a17"/>
+
+    <polygon points="492,350 535,322 535,378" fill="#b9c7cc"/>
+    <ellipse cx="430" cy="350" rx="72" ry="28" fill="#dbe8ec"/>
+    <path d="M390 330 Q430 312 470 330" fill="none" stroke="#6f8a93" stroke-width="2"/>
+    <path d="M390 370 Q430 386 470 370" fill="none" stroke="#6f8a93" stroke-width="2"/>
+    <circle cx="386" cy="344" r="5" fill="#1d1a17"/>
+  </g>
+
+  <!-- clock oil tin (round, dented, rust-red lid) -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <rect x="252" y="440" width="76" height="80" rx="8" fill="#a8b3b6"/>
+    <path d="M262 470 L270 492 L262 508" fill="none" stroke="#7d878a" stroke-width="2"/>
+    <ellipse cx="290" cy="440" rx="38" ry="8" fill="#9a4a36"/>
+    <rect x="252" y="438" width="76" height="6" fill="#8a3e2c"/>
+    <!-- folded rag -->
+    <path d="M340 508 L372 498 L380 514 L346 520 Z" fill="#d8cfb8"/>
+  </g>
+
+  <!-- Earl Grey tin (squat, hinged lid, dull green) -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <rect x="400" y="430" width="116" height="90" rx="10" fill="#56704f"/>
+    <path d="M404 452 L440 448" stroke="#b9c4c0" stroke-width="2" fill="none"/>
+    <path d="M430 480 L470 474" stroke="#b9c4c0" stroke-width="2" fill="none"/>
+    <path d="M480 500 L506 494" stroke="#b9c4c0" stroke-width="2" fill="none"/>
+    <rect x="398" y="420" width="120" height="14" rx="5" fill="#44593f"/>
+    <rect x="442" y="414" width="16" height="8" fill="#2d3b2a"/>
+  </g>
+
+  <!-- silver light from the pond -->
+  <circle cx="560" cy="600" r="150" fill="url(#glow)"/>
+
+  <!-- hands -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round" fill="#e2bda3">
+    <path d="M480 760 L480 600 Q482 572 500 574 Q512 576 512 596 L514 640 L532 646 Q546 652 540 664 L528 760 Z"/>
+    <path d="M540 760 L548 650 Q552 628 570 630 Q586 634 582 654 L576 700 L598 706 Q610 712 602 726 L590 760 Z"/>
+  </g>
+  <g stroke="#7d9aa6" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M500 600 L505 620"/>
+    <path d="M585 640 L590 660"/>
+    <path d="M560 580 L558 596"/>
+  </g>
+
+  <!-- cobbled floor -->
+  <g fill="none" stroke="#5e6468" stroke-width="2" opacity="0.6">
+    <ellipse cx="200" cy="735" rx="22" ry="10"/>
+    <ellipse cx="240" cy="740" rx="22" ry="10"/>
+    <ellipse cx="280" cy="735" rx="22" ry="10"/>
+    <ellipse cx="320" cy="742" rx="22" ry="10"/>
+    <ellipse cx="360" cy="735" rx="22" ry="10"/>
+    <ellipse cx="400" cy="742" rx="22" ry="10"/>
+    <ellipse cx="440" cy="735" rx="22" ry="10"/>
+    <ellipse cx="480" cy="742" rx="22" ry="10"/>
+    <ellipse cx="520" cy="735" rx="22" ry="10"/>
+    <ellipse cx="560" cy="742" rx="22" ry="10"/>
+    <ellipse cx="600" cy="735" rx="22" ry="10"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="22" fill="#2a2420" text-anchor="end">P.</text>
+</svg>
