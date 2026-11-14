@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e9c77a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e9c77a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151b26"/>
+      <stop offset="1" stop-color="#2a3340"/>
+    </linearGradient>
+  </defs>
+
+  <!-- night sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#night)"/>
+
+  <!-- distant roofs in fog -->
+  <path d="M0 330 L70 290 L70 250 L110 250 L110 300 L160 310 L160 350 L0 380 Z" fill="#232b37" opacity="0.7"/>
+  <path d="M640 300 L700 260 L760 300 L800 290 L800 380 L640 380 Z" fill="#232b37" opacity="0.7"/>
+
+  <!-- bell tower -->
+  <rect x="250" y="120" width="300" height="560" fill="#3b414c" stroke="#0b0d11" stroke-width="5"/>
+  <!-- belfry louvres -->
+  <rect x="290" y="150" width="220" height="70" fill="#1b1f27" stroke="#0b0d11" stroke-width="4"/>
+  <g stroke="#6b717c" stroke-width="5">
+    <line x1="300" y1="162" x2="500" y2="162"/>
+    <line x1="300" y1="180" x2="500" y2="180"/>
+    <line x1="300" y1="198" x2="500" y2="198"/>
+  </g>
+  <!-- stonework courses -->
+  <g stroke="#2a2f38" stroke-width="2" fill="none">
+    <path d="M250 260 H550"/>
+    <path d="M250 300 H550"/>
+    <path d="M250 340 H550"/>
+    <path d="M250 400 H550"/>
+    <path d="M250 450 H550"/>
+    <path d="M250 500 H550"/>
+    <path d="M300 260 V300 M380 300 V340 M320 340 V400 M460 340 V400 M300 400 V450 M420 400 V450 M340 450 V500 M480 450 V500"/>
+  </g>
+
+  <!-- iron hook above the door -->
+  <path d="M400 296 H432 Q452 296 452 318 Q452 340 430 340 Q418 340 418 330" fill="none" stroke="#0b0d11" stroke-width="13" stroke-linecap="round"/>
+  <path d="M400 296 H432 Q452 296 452 318 Q452 340 430 340 Q418 340 418 330" fill="none" stroke="#9aa0aa" stroke-width="6" stroke-linecap="round"/>
+  <!-- wall plate for hook -->
+  <rect x="386" y="286" width="16" height="22" fill="#555c67" stroke="#0b0d11" stroke-width="3"/>
+  <circle cx="394" cy="297" r="2.5" fill="#0b0d11"/>
+  <circle cx="394" cy="304" r="2.5" fill="#0b0d11"/>
+
+  <!-- arched door -->
+  <path d="M340 560 V430 Q340 360 400 360 Q460 360 460 430 V560 Z" fill="#120f0d" stroke="#0b0d11" stroke-width="5"/>
+  <path d="M400 372 V560" stroke="#2a2420" stroke-width="3"/>
+  <!-- door arch stone surround -->
+  <path d="M328 566 V426 Q328 348 400 348 Q472 348 472 426 V566" fill="none" stroke="#5a616c" stroke-width="8"/>
+
+  <!-- lantern glow from the lane -->
+  <circle cx="160" cy="400" r="170" fill="url(#lamp)"/>
+  <rect x="150" y="360" width="20" height="40" fill="#f2d48a" stroke="#0b0d11" stroke-width="3"/>
+  <line x1="160" y1="340" x2="160" y2="360" stroke="#0b0d11" stroke-width="4"/>
+
+  <!-- cobbled lane converging to the door -->
+  <path d="M0 800 L240 640 L560 640 L800 800 Z" fill="#262b33" stroke="#0b0d11" stroke-width="4"/>
+  <g fill="#3a404a" stroke="#0b0d11" stroke-width="2">
+    <ellipse cx="120" cy="740" rx="36" ry="14"/>
+    <ellipse cx="230" cy="760" rx="34" ry="13"/>
+    <ellipse cx="350" cy="720" rx="28" ry="11"/>
+    <ellipse cx="470" cy="735" rx="32" ry="12"/>
+    <ellipse cx="600" cy="765" rx="38" ry="14"/>
+    <ellipse cx="690" cy="725" rx="30" ry="12"/>
+    <ellipse cx="300" cy="680" rx="20" ry="7"/>
+    <ellipse cx="410" cy="672" rx="22" ry="7"/>
+    <ellipse cx="520" cy="684" rx="18" ry="6"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="420" width="800" height="70" fill="#8d97a3" opacity="0.18"/>
+  <rect x="0" y="520" width="800" height="90" fill="#9aa3ae" opacity="0.22"/>
+  <rect x="0" y="620" width="800" height="70" fill="#aab2bc" opacity="0.2"/>
+  <ellipse cx="120" cy="300" rx="220" ry="26" fill="#b8c0ca" opacity="0.12"/>
+  <ellipse cx="660" cy="560" rx="260" ry="34" fill="#b8c0ca" opacity="0.14"/>
+
+  <!-- signature: small "P." drawn as paths -->
+  <g fill="none" stroke="#d8dde4" stroke-width="3" stroke-linecap="round">
+    <path d="M30 760 V722 H42 Q52 722 52 732 Q52 742 42 742 H30"/>
+  </g>
+  <circle cx="60" cy="758" r="3" fill="#d8dde4"/>
+</svg>
