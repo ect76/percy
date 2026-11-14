@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe3"/>
+  <!-- outer fog beyond the doorway -->
+  <rect x="0" y="0" width="800" height="800" fill="#e4e8e6"/>
+  <ellipse cx="120" cy="150" rx="150" ry="30" fill="#f4f7f5" opacity="0.8"/>
+  <ellipse cx="700" cy="110" rx="170" ry="26" fill="#f4f7f5" opacity="0.8"/>
+  <ellipse cx="400" cy="60" rx="220" ry="18" fill="#f4f7f5" opacity="0.7"/>
+  <!-- wall frame around the doorway -->
+  <path fill="#cbb89a" stroke="#2a2420" stroke-width="5" fill-rule="evenodd"
+        d="M120 60 H680 V760 H120 Z M180 110 V720 H620 V110 Z"/>
+  <!-- interior back wall -->
+  <rect x="180" y="110" width="440" height="610" fill="#eadfc8"/>
+  <!-- back wall ink hatching -->
+  <g stroke="#7a6a55" stroke-width="1.5" opacity="0.5">
+    <line x1="200" y1="140" x2="230" y2="170"/>
+    <line x1="200" y1="190" x2="250" y2="240"/>
+    <line x1="580" y1="140" x2="550" y2="170"/>
+    <line x1="590" y1="200" x2="555" y2="235"/>
+  </g>
+  <!-- floor of cobbles, receding -->
+  <polygon points="180,570 620,570 620,720 180,720" fill="#bfae94" stroke="#2a2420" stroke-width="3"/>
+  <g fill="none" stroke="#2a2420" stroke-width="2" opacity="0.7">
+    <ellipse cx="240" cy="610" rx="30" ry="12"/>
+    <ellipse cx="330" cy="625" rx="34" ry="13"/>
+    <ellipse cx="450" cy="610" rx="30" ry="12"/>
+    <ellipse cx="540" cy="630" rx="36" ry="14"/>
+    <ellipse cx="280" cy="680" rx="42" ry="16"/>
+    <ellipse cx="420" cy="695" rx="46" ry="17"/>
+    <ellipse cx="560" cy="675" rx="38" ry="15"/>
+  </g>
+  <!-- the cupboard, doors open -->
+  <rect x="280" y="220" width="240" height="330" fill="#6b5036" stroke="#2a2420" stroke-width="5"/>
+  <rect x="294" y="234" width="212" height="302" fill="#4a3624"/>
+  <!-- shelf planks -->
+  <g fill="#a88a64" stroke="#2a2420" stroke-width="3">
+    <rect x="290" y="300" width="220" height="10"/>
+    <rect x="290" y="410" width="220" height="10"/>
+    <rect x="290" y="500" width="220" height="10"/>
+  </g>
+  <!-- the one tin, sitting on the middle shelf -->
+  <rect x="340" y="368" width="72" height="42" rx="8" fill="#9fb4c4" stroke="#2a2420" stroke-width="3"/>
+  <rect x="340" y="378" width="72" height="8" fill="#6f8799"/>
+  <ellipse cx="372" cy="391" rx="22" ry="9" fill="#c8553d" stroke="#2a2420" stroke-width="2"/>
+  <polygon points="392,391 408,380 408,402" fill="#c8553d" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="362" cy="390" r="2" fill="#2a2420"/>
+  <!-- cupboard door edge lines -->
+  <line x1="280" y1="220" x2="280" y2="550" stroke="#2a2420" stroke-width="4"/>
+  <line x1="520" y1="220" x2="520" y2="550" stroke="#2a2420" stroke-width="4"/>
+  <!-- door sill and threshold -->
+  <rect x="180" y="712" width="440" height="10" fill="#6b5036" stroke="#2a2420" stroke-width="3"/>
+  <!-- signature -->
+  <text x="752" y="780" font-size="20" fill="#2a2420">P.</text>
+</svg>
