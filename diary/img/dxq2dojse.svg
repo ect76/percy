@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3ebd9"/>
+  <!-- distant fog bands -->
+  <rect x="0" y="150" width="800" height="70" fill="#ffffff" opacity="0.45"/>
+  <rect x="0" y="200" width="800" height="40" fill="#ffffff" opacity="0.35"/>
+  <!-- ground -->
+  <rect x="0" y="640" width="800" height="160" fill="#cfc5ad"/>
+  <path d="M0 640 L800 640" stroke="#2a2420" stroke-width="3" fill="none"/>
+  <g fill="#bdb294" stroke="#2a2420" stroke-width="1.5">
+    <ellipse cx="90" cy="668" rx="34" ry="12"/>
+    <ellipse cx="190" cy="665" rx="30" ry="11"/>
+    <ellipse cx="290" cy="672" rx="36" ry="12"/>
+    <ellipse cx="520" cy="668" rx="34" ry="12"/>
+    <ellipse cx="620" cy="664" rx="30" ry="11"/>
+    <ellipse cx="715" cy="672" rx="36" ry="12"/>
+    <ellipse cx="140" cy="712" rx="40" ry="13"/>
+    <ellipse cx="260" cy="720" rx="38" ry="13"/>
+    <ellipse cx="380" cy="708" rx="36" ry="12"/>
+    <ellipse cx="500" cy="722" rx="40" ry="13"/>
+    <ellipse cx="640" cy="712" rx="38" ry="13"/>
+    <ellipse cx="750" cy="725" rx="36" ry="12"/>
+    <ellipse cx="70" cy="762" rx="42" ry="14"/>
+    <ellipse cx="200" cy="770" rx="40" ry="14"/>
+    <ellipse cx="330" cy="758" rx="42" ry="14"/>
+    <ellipse cx="460" cy="772" rx="40" ry="14"/>
+    <ellipse cx="590" cy="760" rx="42" ry="14"/>
+    <ellipse cx="720" cy="776" rx="40" ry="14"/>
+  </g>
+  <!-- stone shadow -->
+  <ellipse cx="410" cy="640" rx="110" ry="14" fill="#8e8670" opacity="0.6"/>
+  <!-- the stone -->
+  <path d="M330,640 L334,420 L345,332 L360,284 L392,262 L430,270 L455,300 L462,380 L470,470 L466,560 L472,640 Z" fill="#8f938c" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <!-- shaded side -->
+  <path d="M430,270 L455,300 L462,380 L470,470 L466,560 L472,640 L420,640 L424,560 L430,470 L436,380 L428,320 Z" fill="#6b6f69" opacity="0.7"/>
+  <!-- rough surface marks -->
+  <path d="M350,340 Q356,336 362,342 M372,410 Q380,404 388,412 M442,470 Q450,466 456,474 M348,530 Q354,526 360,532" stroke="#4d504b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- lichen patches -->
+  <g stroke="#2a2420" stroke-width="1" opacity="0.9">
+    <ellipse cx="352" cy="372" rx="10" ry="7" fill="#b7b76c"/>
+    <ellipse cx="362" cy="380" rx="6" ry="4" fill="#a9ac8a"/>
+    <ellipse cx="438" cy="330" rx="12" ry="8" fill="#c9c27c"/>
+    <ellipse cx="447" cy="342" rx="6" ry="5" fill="#a3a884"/>
+    <ellipse cx="412" cy="296" rx="9" ry="6" fill="#b5b56e"/>
+    <ellipse cx="452" cy="438" rx="11" ry="7" fill="#b9b872"/>
+    <ellipse cx="344" cy="500" rx="8" ry="6" fill="#c3be80"/>
+    <ellipse cx="456" cy="536" rx="9" ry="6" fill="#a7aa86"/>
+  </g>
+  <!-- crack with mortar -->
+  <path d="M385,300 L392,350 L388,390 L398,440 L394,500 L402,560 L398,640" fill="none" stroke="#e2d9c2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M385,300 L392,350 L388,390 L398,440 L394,500 L402,560 L398,640" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- brass bolt -->
+  <circle cx="444" cy="610" r="10" fill="#b58d3f" stroke="#2a2420" stroke-width="2"/>
+  <path d="M438,610 L450,610" stroke="#6e5222" stroke-width="2"/>
+  <!-- faded scratched 7 -->
+  <path d="M474,592 L494,592 L482,626" fill="none" stroke="#6b6a62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <path d="M478,600 L490,600" fill="none" stroke="#6b6a62" stroke-width="1" opacity="0.5"/>
+  <!-- signature P. -->
+  <g fill="none" stroke="#2a2420" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M740,740 V770 M740,740 H752 Q762,740 762,749 Q762,758 752,758 H740"/>
+  </g>
+  <circle cx="770" cy="770" r="2.5" fill="#2a2420"/>
+</svg>
