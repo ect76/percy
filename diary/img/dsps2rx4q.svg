@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6d98a" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#f6d98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ebd9"/>
+
+  <!-- wall -->
+  <rect x="30" y="40" width="740" height="640" fill="#d8c7a4"/>
+
+  <!-- window onto lane (left) -->
+  <rect x="70" y="110" width="130" height="170" fill="#9fa8a6"/>
+  <path d="M70 230 L200 200 L200 280 L70 280 Z" fill="#7d8786"/>
+  <g stroke="#55605f" stroke-width="1.5" fill="none">
+    <line x1="90" y1="130" x2="84" y2="158"/>
+    <line x1="120" y1="122" x2="114" y2="152"/>
+    <line x1="150" y1="140" x2="144" y2="170"/>
+    <line x1="176" y1="128" x2="170" y2="160"/>
+    <line x1="104" y1="190" x2="98" y2="222"/>
+    <line x1="158" y1="200" x2="152" y2="232"/>
+  </g>
+  <rect x="70" y="110" width="130" height="170" fill="none" stroke="#3b3a36" stroke-width="5"/>
+  <line x1="135" y1="110" x2="135" y2="280" stroke="#3b3a36" stroke-width="4"/>
+
+  <!-- cupboard frame -->
+  <rect x="250" y="150" width="290" height="470" fill="#8a6443"/>
+  <rect x="250" y="150" width="290" height="470" fill="none" stroke="#2f2620" stroke-width="5"/>
+  <!-- inner cupboard recess -->
+  <rect x="275" y="175" width="240" height="420" fill="#5e4330"/>
+
+  <!-- shelves -->
+  <g fill="#b08257" stroke="#2f2620" stroke-width="3">
+    <rect x="275" y="290" width="240" height="14"/>
+    <rect x="275" y="410" width="240" height="14"/>
+    <rect x="275" y="530" width="240" height="14"/>
+  </g>
+
+  <!-- bare shelf dust marks (nothing left) -->
+  <g stroke="#3d2c20" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M300 280 Q310 276 322 280"/>
+    <path d="M430 400 Q445 396 460 400"/>
+    <path d="M360 520 Q372 516 384 520"/>
+  </g>
+
+  <!-- empty seed tin on lowest shelf: open, lid tipped back -->
+  <g stroke="#2f2620" stroke-width="3">
+    <path d="M330 470 L330 530 Q330 540 340 540 L390 540 Q400 540 400 530 L400 470 Z" fill="#a9b3b0"/>
+    <path d="M326 470 L404 470 L398 452 L332 452 Z" fill="#c6cfcc"/>
+    <path d="M332 452 L398 452 L404 440 L326 440 Z" fill="#7f8a88"/>
+  </g>
+  <ellipse cx="365" cy="470" rx="34" ry="6" fill="#3c3a36"/>
+  <text x="352" y="512" font-size="14" fill="#55605f" stroke="none">SEED</text>
+
+  <!-- small empty jar on middle shelf -->
+  <path d="M430 330 L430 290 L470 290 L470 330 Q470 350 450 350 Q430 350 430 330 Z" fill="#c9d3cf" stroke="#2f2620" stroke-width="3"/>
+  <rect x="432" y="278" width="36" height="12" fill="#8a6443" stroke="#2f2620" stroke-width="2"/>
+
+  <!-- table and lamp -->
+  <rect x="540" y="560" width="210" height="16" fill="#7a5638" stroke="#2f2620" stroke-width="3"/>
+  <rect x="560" y="576" width="12" height="90" fill="#6a4a30"/>
+  <rect x="700" y="576" width="12" height="90" fill="#6a4a30"/>
+
+  <circle cx="630" cy="420" r="150" fill="url(#glow)"/>
+  <path d="M600 500 L660 500 L650 470 L610 470 Z" fill="#c9a24a" stroke="#2f2620" stroke-width="3"/>
+  <rect x="624" y="455" width="12" height="20" fill="#5a4330"/>
+  <path d="M590 440 L670 440 L650 372 L610 372 Z" fill="#f2dc9a" stroke="#2f2620" stroke-width="3" opacity="0.95"/>
+  <line x1="630" y1="372" x2="630" y2="346" stroke="#2f2620" stroke-width="3"/>
+  <path d="M615 346 L645 346" stroke="#2f2620" stroke-width="3"/>
+
+  <!-- rain-dimmed lamp light falling on shelves -->
+  <path d="M600 372 L670 372 L700 560 L560 560 Z" fill="#f6dc96" opacity="0.18"/>
+
+  <!-- rain streaks across window and wall -->
+  <g stroke="#6f7b7a" stroke-width="1" opacity="0.5">
+    <line x1="560" y1="110" x2="552" y2="140"/>
+    <line x1="590" y1="150" x2="582" y2="182"/>
+    <line x1="620" y1="120" x2="612" y2="150"/>
+    <line x1="700" y1="180" x2="692" y2="210"/>
+    <line x1="735" y1="130" x2="727" y2="160"/>
+  </g>
+
+  <!-- signature -->
+  <text x="700" y="750" font-size="22" fill="#3b3a36">P.</text>
+</svg>
