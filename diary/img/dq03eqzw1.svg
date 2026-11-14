@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Fog outside -->
+  <rect x="0" y="0" width="800" height="800" fill="#d3dadb"/>
+  <rect x="0" y="0" width="800" height="260" fill="#e3e8e8"/>
+  <path d="M0 150 Q100 130 200 150 T400 150 T600 150 T800 150 L800 170 Q700 185 600 170 T400 170 T200 170 T0 170 Z" fill="#eef2f2" opacity="0.9"/>
+  <path d="M0 300 Q120 285 240 300 T480 300 T800 300 L800 318 Q680 330 560 318 T320 318 T80 318 T0 318 Z" fill="#e6ecec" opacity="0.8"/>
+
+  <!-- Cobbles at the bottom outside -->
+  <rect x="0" y="760" width="800" height="40" fill="#9a9590"/>
+  <g fill="#b7b2aa" stroke="#4a4540" stroke-width="2">
+    <ellipse cx="40" cy="778" rx="34" ry="12"/>
+    <ellipse cx="130" cy="790" rx="40" ry="10"/>
+    <ellipse cx="230" cy="776" rx="30" ry="11"/>
+    <ellipse cx="330" cy="792" rx="38" ry="9"/>
+    <ellipse cx="440" cy="778" rx="34" ry="12"/>
+    <ellipse cx="540" cy="790" rx="40" ry="10"/>
+    <ellipse cx="650" cy="776" rx="30" ry="11"/>
+    <ellipse cx="750" cy="792" rx="38" ry="9"/>
+  </g>
+
+  <!-- Stone doorway jambs and lintel -->
+  <path d="M90 30 H710 V80 H650 V760 H150 V80 H90 Z" fill="#8c837a" stroke="#2a2420" stroke-width="5"/>
+  <path d="M110 40 H690" stroke="#6b635b" stroke-width="3"/>
+
+  <!-- Interior back wall -->
+  <rect x="150" y="80" width="500" height="360" fill="#efdcae" stroke="#2a2420" stroke-width="4"/>
+  <rect x="150" y="80" width="500" height="20" fill="#e2c88f"/>
+
+  <!-- Ceiling pipe and drip -->
+  <rect x="322" y="80" width="14" height="92" fill="#8a9396" stroke="#2a2420" stroke-width="3"/>
+  <path d="M329 172 Q320 190 329 198 Q338 190 329 172 Z" fill="#7fb6c9" stroke="#2a2420" stroke-width="2.5"/>
+  <circle cx="329" cy="232" r="3.5" fill="#7fb6c9" stroke="#2a2420" stroke-width="1.5"/>
+
+  <!-- Shelf with loaves on left back wall -->
+  <rect x="180" y="200" width="150" height="10" fill="#7a5233" stroke="#2a2420" stroke-width="3"/>
+  <ellipse cx="215" cy="192" rx="24" ry="14" fill="#d9a35a" stroke="#2a2420" stroke-width="3"/>
+  <ellipse cx="270" cy="190" rx="28" ry="15" fill="#c98d46" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- Calendar on back wall -->
+  <rect x="478" y="130" width="130" height="150" fill="#ecdca0" stroke="#2a2420" stroke-width="4"/>
+  <rect x="478" y="130" width="130" height="26" fill="#c9a86a" stroke="#2a2420" stroke-width="3"/>
+  <g stroke="#8a7a58" stroke-width="1.5">
+    <path d="M498 170 H588"/><path d="M498 192 H588"/><path d="M498 214 H588"/>
+    <path d="M498 236 H588"/><path d="M498 258 H588"/>
+    <path d="M520 160 V270"/><path d="M542 160 V270"/><path d="M564 160 V270"/><path d="M586 160 V270"/>
+  </g>
+  <!-- Ringed date, twice over -->
+  <ellipse cx="553" cy="214" rx="20" ry="14" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <ellipse cx="553" cy="214" rx="27" ry="19" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+
+  <!-- Counter top and front -->
+  <rect x="150" y="430" width="500" height="16" fill="#c9a06a" stroke="#2a2420" stroke-width="3"/>
+  <rect x="150" y="446" width="500" height="120" fill="#8a5a36" stroke="#2a2420" stroke-width="4"/>
+  <g stroke="#5e3b22" stroke-width="2">
+    <path d="M200 446 V566"/><path d="M280 446 V566"/><path d="M360 446 V566"/>
+    <path d="M440 446 V566"/><path d="M520 446 V566"/><path d="M600 446 V566"/>
+  </g>
+
+  <!-- Till -->
+  <path d="M500 352 H610 L618 430 H492 Z" fill="#8f9fa8" stroke="#2a2420" stroke-width="4"/>
+  <rect x="512" y="362" width="84" height="34" fill="#b9e3b0" stroke="#2a2420" stroke-width="3"/>
+  <g fill="#5d6b72" stroke="#2a2420" stroke-width="1.5">
+    <rect x="512" y="406" width="14" height="10"/><rect x="532" y="406" width="14" height="10"/>
+    <rect x="552" y="406" width="14" height="10"/><rect x="572" y="406" width="14" height="10"/>
+    <rect x="592" y="406" width="10" height="10"/>
+  </g>
+
+  <!-- Paper tube (brown wrapped, lying on counter) -->
+  <rect x="190" y="375" width="100" height="40" fill="#b98a52" stroke="#2a2420" stroke-width="4"/>
+  <ellipse cx="190" cy="395" rx="8" ry="20" fill="#d2a46c" stroke="#2a2420" stroke-width="4"/>
+  <ellipse cx="290" cy="395" rx="8" ry="20" fill="#a77544" stroke="#2a2420" stroke-width="4"/>
+  <rect x="215" y="382" width="50" height="26" fill="#f4ecd6" stroke="#2a2420" stroke-width="2"/>
+  <path d="M221 390 H258 M221 397 H252 M221 404 H256" stroke="#5a4a38" stroke-width="2"/>
+
+  <!-- Star-shaped cutter -->
+  <polygon points="380,380 388,402 412,402 393,416 400,440 380,426 360,440 367,416 348,402 372,402" fill="#c7ced2" stroke="#2a2420" stroke-width="3.5" stroke-linejoin="round" transform="translate(0,-6)"/>
+  <g fill="#c9a06a" stroke="#6b4a2a" stroke-width="1">
+    <circle cx="372" cy="418" r="2.5"/><circle cx="386" cy="424" r="2"/><circle cx="398" cy="414" r="2.5"/><circle cx="362" cy="428" r="2"/>
+  </g>
+
+  <!-- Bowl under the drip -->
+  <path d="M296 430 H362 Q360 460 329 462 Q298 460 296 430 Z" fill="#e9e3d6" stroke="#2a2420" stroke-width="4"/>
+  <ellipse cx="329" cy="430" rx="33" ry="5" fill="#cbd9dd" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- Doorstep -->
+  <rect x="150" y="740" width="500" height="20" fill="#9c958d" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- Signature -->
+  <text x="752" y="784" font-size="22" fill="#2a2420" font-family="serif">P.</text>
+</svg>
