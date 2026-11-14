@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+
+  <!-- distant sky and fog bands -->
+  <rect x="0" y="0" width="800" height="300" fill="#dfe3e2"/>
+  <rect x="0" y="120" width="800" height="90" fill="#f3ecdc" opacity="0.55"/>
+  <rect x="0" y="260" width="800" height="70" fill="#f3ecdc" opacity="0.45"/>
+
+  <!-- bell tower in the murk -->
+  <g>
+    <rect x="130" y="190" width="120" height="330" fill="#9a928a" stroke="#2a2723" stroke-width="3"/>
+    <polygon points="120,190 190,96 260,190" fill="#6d665f" stroke="#2a2723" stroke-width="3"/>
+    <rect x="165" y="230" width="50" height="60" fill="#5b554f" stroke="#2a2723" stroke-width="2"/>
+    <circle cx="190" cy="330" r="32" fill="#e9e3d6" stroke="#2a2723" stroke-width="3"/>
+    <path d="M190 330 V308 M190 330 L206 340" stroke="#2a2723" stroke-width="3" fill="none"/>
+    <rect x="150" y="420" width="80" height="100" fill="#5b554f" stroke="#2a2723" stroke-width="2"/>
+    <path d="M168 520 V470 Q190 448 212 470 V520 Z" fill="#3a352f"/>
+    <rect x="120" y="500" width="140" height="30" fill="#c9c1b3" opacity="0.5"/>
+    <rect x="110" y="250" width="160" height="160" fill="#f3ecdc" opacity="0.4"/>
+  </g>
+
+  <!-- bakery road (far, receding) -->
+  <polygon points="0,560 800,560 800,600 0,640" fill="#b9b0a2" opacity="0.7"/>
+
+  <!-- cottage front -->
+  <g>
+    <!-- roof -->
+    <polygon points="360,360 470,250 610,250 720,360" fill="#6b5a4e" stroke="#2a2723" stroke-width="3"/>
+    <!-- walls -->
+    <rect x="360" y="360" width="360" height="290" fill="#e8d7b8" stroke="#2a2723" stroke-width="3"/>
+    <!-- windows -->
+    <rect x="400" y="400" width="90" height="80" fill="#8fa3a6" stroke="#2a2723" stroke-width="3"/>
+    <line x1="445" y1="400" x2="445" y2="480" stroke="#2a2723" stroke-width="3"/>
+    <line x1="400" y1="440" x2="490" y2="440" stroke="#2a2723" stroke-width="3"/>
+    <rect x="610" y="400" width="80" height="80" fill="#8fa3a6" stroke="#2a2723" stroke-width="3"/>
+    <line x1="650" y1="400" x2="650" y2="480" stroke="#2a2723" stroke-width="3"/>
+    <line x1="610" y1="440" x2="690" y2="440" stroke="#2a2723" stroke-width="3"/>
+    <!-- door -->
+    <rect x="515" y="480" width="75" height="170" fill="#5a3b2a" stroke="#2a2723" stroke-width="3"/>
+    <circle cx="575" cy="570" r="4" fill="#c9a227"/>
+    <!-- brass letterbox -->
+    <rect x="530" y="505" width="45" height="16" rx="2" fill="#c9a227" stroke="#2a2723" stroke-width="2"/>
+    <rect x="537" y="510" width="31" height="4" fill="#4a3a1e"/>
+    <!-- fog over cottage base -->
+    <rect x="340" y="600" width="400" height="60" fill="#f3ecdc" opacity="0.35"/>
+  </g>
+
+  <!-- crooked sign on post -->
+  <g transform="rotate(-8 400 300)">
+    <rect x="394" y="260" width="8" height="120" fill="#4a3a2e"/>
+    <rect x="340" y="280" width="72" height="44" fill="#b07a4a" stroke="#2a2723" stroke-width="3"/>
+    <rect x="350" y="290" width="52" height="6" fill="#e8d7b8"/>
+    <rect x="350" y="304" width="36" height="6" fill="#e8d7b8"/>
+  </g>
+  <path d="M352 300 L394 288" stroke="#2a2723" stroke-width="2"/>
+
+  <!-- fog veil across midground -->
+  <rect x="0" y="420" width="800" height="50" fill="#f3ecdc" opacity="0.5"/>
+
+  <!-- cobbled foreground road -->
+  <polygon points="0,640 800,640 800,800 0,800" fill="#8b8378" stroke="#2a2723" stroke-width="3"/>
+  <g fill="none" stroke="#2a2723" stroke-width="2" opacity="0.8">
+    <ellipse cx="60" cy="680" rx="40" ry="14"/>
+    <ellipse cx="170" cy="700" rx="46" ry="15"/>
+    <ellipse cx="300" cy="676" rx="38" ry="13"/>
+    <ellipse cx="420" cy="712" rx="50" ry="16"/>
+    <ellipse cx="560" cy="680" rx="40" ry="13"/>
+    <ellipse cx="690" cy="706" rx="48" ry="15"/>
+    <ellipse cx="110" cy="760" rx="52" ry="17"/>
+    <ellipse cx="300" cy="768" rx="60" ry="18"/>
+    <ellipse cx="500" cy="758" rx="56" ry="17"/>
+    <ellipse cx="710" cy="770" rx="58" ry="18"/>
+  </g>
+
+  <!-- small round oil tin and rag at bell tower base -->
+  <g>
+    <ellipse cx="236" cy="612" rx="26" ry="6" fill="#4a4540"/>
+    <rect x="212" y="584" width="48" height="28" fill="#c8c2b8" stroke="#2a2723" stroke-width="2"/>
+    <path d="M212 584 Q236 576 260 584" fill="#9c3b2a" stroke="#2a2723" stroke-width="2"/>
+    <ellipse cx="236" cy="584" rx="24" ry="6" fill="#9c3b2a" stroke="#2a2723" stroke-width="2"/>
+    <path d="M226 596 H250 M226 602 H246" stroke="#2a2723" stroke-width="1.5"/>
+    <path d="M276 612 Q292 606 300 614 Q296 622 282 620 Z" fill="#d9d1c2" stroke="#2a2723" stroke-width="2"/>
+  </g>
+
+  <!-- signature: P. -->
+  <g fill="none" stroke="#2a2723" stroke-width="3" stroke-linecap="round">
+    <path d="M40 760 V730 H52 Q62 730 62 740 Q62 750 52 750 H40"/>
+  </g>
+  <circle cx="70" cy="758" r="3" fill="#2a2723"/>
+</svg>
