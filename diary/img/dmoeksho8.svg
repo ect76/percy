@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe1"/>
+  <!-- distant fog bands -->
+  <rect x="0" y="180" width="800" height="90" fill="#e4e0d2" opacity="0.8"/>
+  <rect x="0" y="300" width="800" height="50" fill="#f8f5ec" opacity="0.7"/>
+  <!-- cobbled village ground -->
+  <rect x="0" y="650" width="800" height="150" fill="#d9d2bf"/>
+  <g fill="#c4bba4" stroke="#3a3530" stroke-width="2">
+    <ellipse cx="60" cy="680" rx="34" ry="12"/>
+    <ellipse cx="150" cy="700" rx="36" ry="13"/>
+    <ellipse cx="260" cy="735" rx="40" ry="14"/>
+    <ellipse cx="380" cy="700" rx="34" ry="12"/>
+    <ellipse cx="480" cy="750" rx="42" ry="14"/>
+    <ellipse cx="600" cy="715" rx="36" ry="12"/>
+    <ellipse cx="720" cy="760" rx="44" ry="14"/>
+    <ellipse cx="110" cy="770" rx="40" ry="13"/>
+    <ellipse cx="330" cy="775" rx="36" ry="12"/>
+    <ellipse cx="560" cy="785" rx="40" ry="11"/>
+  </g>
+  <!-- rails -->
+  <rect x="150" y="646" width="520" height="8" fill="#4a4540"/>
+  <rect x="150" y="658" width="520" height="5" fill="#4a4540"/>
+
+  <!-- signpost: Welcome to Mossville (background, left) -->
+  <rect x="84" y="430" width="12" height="216" fill="#6b5a45" stroke="#2e2820" stroke-width="2"/>
+  <path d="M30 420 L95 388 L160 420 Z" fill="#8a7a62" stroke="#2e2820" stroke-width="2"/>
+  <line x1="60" y1="420" x2="60" y2="440" stroke="#8c8270" stroke-width="2"/>
+  <line x1="130" y1="420" x2="130" y2="440" stroke="#8c8270" stroke-width="2"/>
+  <rect x="30" y="420" width="130" height="60" rx="10" fill="#f6f0dc" stroke="#2e6b3a" stroke-width="6"/>
+  <text x="95" y="456" font-family="serif" font-size="11" text-anchor="middle" fill="#2a2a2a">Welcome to Mossville</text>
+  <!-- chains -->
+  <path d="M50 480 q-4 8 0 16 q4 8 0 16" fill="none" stroke="#b08d4a" stroke-width="3"/>
+  <path d="M118 480 q-4 8 0 16 q4 8 0 16" fill="none" stroke="#b08d4a" stroke-width="3"/>
+  <!-- moss at base -->
+  <ellipse cx="88" cy="650" rx="20" ry="7" fill="#5d8a4a" stroke="#2e2820" stroke-width="1.5"/>
+  <ellipse cx="102" cy="646" rx="10" ry="5" fill="#7ba35f" stroke="#2e2820" stroke-width="1.5"/>
+
+  <!-- ENGINE: Bramble -->
+  <!-- cowcatcher -->
+  <path d="M222 598 L170 644 L222 644 Z" fill="#3a3530" stroke="#1e1b18" stroke-width="2.5"/>
+  <line x1="195" y1="620" x2="200" y2="644" stroke="#1e1b18" stroke-width="2"/>
+  <line x1="208" y1="608" x2="212" y2="644" stroke="#1e1b18" stroke-width="2"/>
+  <!-- chassis -->
+  <rect x="218" y="600" width="340" height="22" fill="#3a3530" stroke="#1e1b18" stroke-width="2.5"/>
+  <!-- funnel -->
+  <path d="M254 432 L268 374 L302 374 L292 432 Z" fill="#c63a2e" stroke="#1e1b18" stroke-width="2.5"/>
+  <ellipse cx="285" cy="374" rx="19" ry="6" fill="#2a2622" stroke="#1e1b18" stroke-width="2"/>
+  <!-- boiler -->
+  <rect x="240" y="426" width="172" height="176" rx="86" fill="#d6402f" stroke="#1e1b18" stroke-width="2.5"/>
+  <!-- dome -->
+  <path d="M312 428 Q312 404 330 404 Q348 404 348 428 Z" fill="#c63a2e" stroke="#1e1b18" stroke-width="2.5"/>
+  <!-- yellow boiler bands -->
+  <rect x="244" y="478" width="164" height="12" fill="#f2c230" stroke="#1e1b18" stroke-width="2"/>
+  <rect x="244" y="562" width="164" height="10" fill="#f2c230" stroke="#1e1b18" stroke-width="2"/>
+  <!-- smokebox front -->
+  <ellipse cx="246" cy="514" rx="10" ry="36" fill="#a82e24" stroke="#1e1b18" stroke-width="2"/>
+  <!-- connecting section -->
+  <rect x="400" y="500" width="22" height="60" fill="#b5352a" stroke="#1e1b18" stroke-width="2.5"/>
+  <!-- cab -->
+  <path d="M404 400 L420 344 L566 344 L574 400 Z" fill="#c63a2e" stroke="#1e1b18" stroke-width="2.5"/>
+  <rect x="404" y="400" width="170" height="200" fill="#d6402f" stroke="#1e1b18" stroke-width="2.5"/>
+  <rect x="404" y="390" width="170" height="10" fill="#f2c230" stroke="#1e1b18" stroke-width="2"/>
+  <!-- cab window -->
+  <rect x="428" y="420" width="70" height="56" fill="#f4efe1" stroke="#1e1b18" stroke-width="2.5"/>
+  <line x1="463" y1="420" x2="463" y2="476" stroke="#1e1b18" stroke-width="2"/>
+  <!-- cab door -->
+  <rect x="520" y="440" width="36" height="160" fill="#b5352a" stroke="#1e1b18" stroke-width="2.5"/>
+  <circle cx="548" cy="520" r="3" fill="#f2c230"/>
+  <!-- cab base trim -->
+  <rect x="404" y="580" width="170" height="14" fill="#f2c230" stroke="#1e1b18" stroke-width="2"/>
+  <!-- wheels -->
+  <g stroke="#1e1b18" stroke-width="2.5">
+    <circle cx="298" cy="602" r="36" fill="#1e1b18"/>
+    <circle cx="298" cy="602" r="14" fill="#8a8478"/>
+    <circle cx="390" cy="606" r="28" fill="#1e1b18"/>
+    <circle cx="390" cy="606" r="10" fill="#8a8478"/>
+    <circle cx="492" cy="606" r="28" fill="#1e1b18"/>
+    <circle cx="492" cy="606" r="10" fill="#8a8478"/>
+    <circle cx="545" cy="606" r="28" fill="#1e1b18"/>
+    <circle cx="545" cy="606" r="10" fill="#8a8478"/>
+  </g>
+  <!-- connecting rod -->
+  <line x1="330" y1="602" x2="400" y2="606" stroke="#2a2622" stroke-width="5"/>
+
+  <!-- penguin for scale -->
+  <g stroke="#1e1b18" stroke-width="2">
+    <ellipse cx="700" cy="580" rx="28" ry="60" fill="#2a2622"/>
+    <ellipse cx="700" cy="586" rx="16" ry="44" fill="#f4efe1" stroke="none"/>
+    <circle cx="700" cy="512" r="22" fill="#2a2622"/>
+    <path d="M721 512 L736 516 L721 521 Z" fill="#f2a53a"/>
+    <path d="M684 640 L676 652 L692 652 Z" fill="#f2a53a" stroke="none"/>
+    <path d="M716 640 L708 652 L724 652 Z" fill="#f2a53a" stroke="none"/>
+  </g>
+
+  <!-- foreground fog -->
+  <rect x="0" y="610" width="800" height="26" fill="#f8f5ec" opacity="0.45"/>
+  <rect x="0" y="740" width="800" height="30" fill="#f8f5ec" opacity="0.35"/>
+
+  <!-- signature -->
+  <text x="752" y="784" font-family="serif" font-size="18" fill="#2a2622">P.</text>
+</svg>
