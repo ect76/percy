@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe3"/>
+  <!-- fog bands -->
+  <rect x="0" y="640" width="800" height="160" fill="#e3dccd"/>
+  <rect x="0" y="600" width="800" height="50" fill="#ebe5d6" opacity="0.8"/>
+  <rect x="0" y="60" width="800" height="40" fill="#ebe5d6" opacity="0.7"/>
+  <!-- cobbles -->
+  <g fill="none" stroke="#6b5d4c" stroke-width="2">
+    <ellipse cx="120" cy="720" rx="34" ry="14"/>
+    <ellipse cx="240" cy="745" rx="40" ry="15"/>
+    <ellipse cx="380" cy="722" rx="30" ry="12"/>
+    <ellipse cx="540" cy="748" rx="38" ry="14"/>
+    <ellipse cx="680" cy="724" rx="32" ry="13"/>
+  </g>
+  <!-- cupboard frame -->
+  <rect x="180" y="120" width="440" height="540" fill="#b08a5e" stroke="#3a2e24" stroke-width="6"/>
+  <rect x="210" y="150" width="380" height="480" fill="#5a4636" stroke="#3a2e24" stroke-width="4"/>
+  <!-- shelves -->
+  <g fill="#8a6a4a" stroke="#3a2e24" stroke-width="3">
+    <rect x="210" y="290" width="380" height="12"/>
+    <rect x="210" y="430" width="380" height="12"/>
+    <rect x="210" y="570" width="380" height="12"/>
+  </g>
+  <!-- seed tin on top shelf -->
+  <g stroke="#2a2420" stroke-width="4" stroke-linejoin="round">
+    <rect x="300" y="212" width="90" height="78" rx="6" fill="#8c9aa6"/>
+    <ellipse cx="345" cy="212" rx="45" ry="8" fill="#a9b5be"/>
+    <rect x="312" y="236" width="66" height="36" rx="3" fill="#e8dcc0" stroke-width="2"/>
+  </g>
+  <!-- sprout icon on tin label -->
+  <g fill="none" stroke="#4f7a3a" stroke-width="3" stroke-linecap="round">
+    <path d="M345 268 L345 248"/>
+    <path d="M345 252 Q332 240 326 244 Q332 256 345 252"/>
+    <path d="M345 250 Q358 238 364 242 Q358 254 345 250"/>
+  </g>
+  <!-- scribbled sprout ideas sheet beside tin -->
+  <g transform="rotate(-4 455 250)">
+    <rect x="410" y="200" width="100" height="88" fill="#fffdf5" stroke="#3a2e24" stroke-width="2.5"/>
+  </g>
+  <g fill="none" stroke="#3a6a8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M425 270 L425 232"/>
+    <path d="M425 240 Q418 226 412 230 Q418 242 425 240"/>
+    <path d="M425 236 Q434 224 440 228 Q434 240 425 236"/>
+    <path d="M458 272 Q470 258 466 238"/>
+    <path d="M466 244 Q476 236 482 240 Q476 252 466 244"/>
+    <path d="M420 218 L490 214" stroke="#9a9184" stroke-width="1.5"/>
+    <path d="M420 278 L492 274" stroke="#9a9184" stroke-width="1.5"/>
+  </g>
+  <!-- pencil resting on shelf -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linecap="round">
+    <line x1="400" y1="290" x2="490" y2="286" stroke="#d9a441" stroke-width="6"/>
+  </g>
+  <!-- sardine tins on bottom shelf -->
+  <g stroke="#1f2a33" stroke-width="3" stroke-linejoin="round">
+    <rect x="260" y="510" width="60" height="60" rx="4" fill="#3d6b8c"/>
+    <rect x="335" y="510" width="60" height="60" rx="4" fill="#3d6b8c"/>
+    <rect x="410" y="510" width="60" height="60" rx="4" fill="#3d6b8c"/>
+  </g>
+  <!-- signature -->
+  <text x="752" y="772" font-size="22" fill="#3a2e24">P.</text>
+</svg>
