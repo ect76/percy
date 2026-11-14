@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="opening">
+      <rect x="110" y="110" width="580" height="600"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- scene inside the window -->
+  <g clip-path="url(#opening)">
+    <!-- morning sky -->
+    <rect x="110" y="110" width="580" height="600" fill="#d9e6ea"/>
+    <rect x="110" y="110" width="580" height="200" fill="#cfe0e6"/>
+    <!-- low sun glow -->
+    <circle cx="430" cy="200" r="90" fill="#fbeab8" opacity="0.8"/>
+    <circle cx="430" cy="200" r="50" fill="#fff4cf"/>
+
+    <!-- distant roofs in fog -->
+    <polygon points="110,330 180,300 230,320 260,305 300,330 340,315 380,330 420,310 470,328 520,305 580,326 640,302 690,320 690,380 110,380" fill="#aebfc6" stroke="#2b2622" stroke-width="1.5"/>
+
+    <!-- bell tower at end of Pond Lane -->
+    <rect x="372" y="222" width="56" height="150" fill="#8c9aa0" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="380" y="186" width="40" height="40" fill="#6f7f87" stroke="#2b2622" stroke-width="2.5"/>
+    <polygon points="374,188 400,118 426,188" fill="#5d6d75" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="388" y="196" width="24" height="20" fill="#2e3a40"/>
+    <circle cx="400" cy="250" r="15" fill="#f4efe4" stroke="#2b2622" stroke-width="2"/>
+    <line x1="400" y1="250" x2="400" y2="240" stroke="#2b2622" stroke-width="2"/>
+    <line x1="400" y1="250" x2="409" y2="253" stroke="#2b2622" stroke-width="2"/>
+    <rect x="384" y="300" width="32" height="72" fill="#2e3a40" opacity="0.6"/>
+
+    <!-- left cottage facade -->
+    <polygon points="110,110 300,240 300,462 110,710" fill="#d8c7a8" stroke="#2b2622" stroke-width="2.5"/>
+    <rect x="150" y="260" width="34" height="46" fill="#7a8c93" stroke="#2b2622" stroke-width="2"/>
+    <rect x="210" y="300" width="30" height="44" fill="#7a8c93" stroke="#2b2622" stroke-width="2"/>
+    <rect x="150" y="380" width="34" height="46" fill="#7a8c93" stroke="#2b2622" stroke-width="2"/>
+
+    <!-- right building with bakery awning -->
+    <polygon points="690,110 500,240 500,462 690,710" fill="#ebdcc0" stroke="#2b2622" stroke-width="2.5"/>
+    <polygon points="500,330 538,344 538,374 500,360" fill="#b5523b"/>
+    <polygon points="538,344 576,358 576,388 538,374" fill="#f4efe4"/>
+    <polygon points="576,358 614,372 614,402 576,388" fill="#b5523b"/>
+    <polygon points="614,372 652,386 652,416 614,402" fill="#f4efe4"/>
+    <polygon points="652,386 690,400 690,430 652,416" fill="#b5523b"/>
+    <path d="M500 330 L690 400 L690 430 L500 360 Z" fill="none" stroke="#2b2622" stroke-width="2"/>
+    <rect x="600" y="250" width="36" height="40" fill="#7a8c93" stroke="#2b2622" stroke-width="2"/>
+
+    <!-- cobbled lane -->
+    <polygon points="110,710 690,710 430,370 370,370" fill="#b9aa94" stroke="#2b2622" stroke-width="2.5"/>
+    <g fill="none" stroke="#7d6e5a" stroke-width="1.5">
+      <ellipse cx="250" cy="650" rx="18" ry="6"/>
+      <ellipse cx="420" cy="640" rx="16" ry="5"/>
+      <ellipse cx="560" cy="660" rx="20" ry="7"/>
+      <ellipse cx="320" cy="580" rx="12" ry="4"/>
+      <ellipse cx="470" cy="560" rx="11" ry="4"/>
+      <ellipse cx="200" cy="520" rx="10" ry="3"/>
+      <ellipse cx="600" cy="520" rx="9" ry="3"/>
+      <ellipse cx="390" cy="470" rx="8" ry="3"/>
+      <ellipse cx="415" cy="430" rx="6" ry="2"/>
+      <ellipse cx="385" cy="405" rx="5" ry="2"/>
+      <ellipse cx="300" cy="700" rx="24" ry="5"/>
+      <ellipse cx="650" cy="690" rx="22" ry="6"/>
+      <ellipse cx="500" cy="500" rx="10" ry="3"/>
+      <ellipse cx="290" cy="450" rx="7" ry="2.5"/>
+    </g>
+
+    <!-- fog bands drifting over the far lane -->
+    <rect x="110" y="330" width="580" height="60" fill="#f4efe4" opacity="0.55"/>
+    <ellipse cx="400" cy="380" rx="180" ry="26" fill="#f4efe4" opacity="0.6"/>
+    <ellipse cx="250" cy="430" rx="160" ry="20" fill="#f4efe4" opacity="0.35"/>
+    <ellipse cx="600" cy="470" rx="150" ry="18" fill="#f4efe4" opacity="0.3"/>
+  </g>
+
+  <!-- window frame -->
+  <rect x="60" y="60" width="680" height="680" fill="none" stroke="#2b2622" stroke-width="3"/>
+  <rect x="100" y="100" width="600" height="620" fill="none" stroke="#7a5a3c" stroke-width="20"/>
+  <rect x="393" y="110" width="14" height="600" fill="#7a5a3c" stroke="#2b2622" stroke-width="2"/>
+  <rect x="110" y="400" width="580" height="12" fill="#7a5a3c" stroke="#2b2622" stroke-width="2"/>
+  <rect x="110" y="110" width="580" height="600" fill="none" stroke="#2b2622" stroke-width="2.5"/>
+
+  <!-- sill -->
+  <rect x="50" y="710" width="700" height="30" fill="#5a4030" stroke="#2b2622" stroke-width="2.5"/>
+
+  <!-- signature -->
+  <text x="752" y="784" font-family="serif" font-size="24" fill="#2b2622" text-anchor="end">P.</text>
+</svg>
