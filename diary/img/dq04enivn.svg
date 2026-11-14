@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f7dc8e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f7dc8e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fogBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f1e8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f4f1e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f4f1e8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper and night -->
+  <rect x="0" y="0" width="800" height="800" fill="#e9e3d2"/>
+  <rect x="0" y="0" width="800" height="330" fill="#3b4a4f" opacity="0.55"/>
+
+  <!-- lamplight glow -->
+  <circle cx="120" cy="170" r="260" fill="url(#lampGlow)"/>
+
+  <!-- distant cottages in fog -->
+  <g fill="#8c9a94" stroke="#2a2420" stroke-width="2" opacity="0.7">
+    <path d="M430 330 L470 300 L510 330 L510 390 L430 390 Z"/>
+    <path d="M530 340 L565 316 L600 340 L600 392 L530 392 Z"/>
+    <path d="M640 330 L672 306 L704 330 L704 386 L640 386 Z"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="120" fill="url(#fogBand)"/>
+  <rect x="0" y="420" width="800" height="110" fill="url(#fogBand)"/>
+
+  <!-- cobbled foreground -->
+  <rect x="0" y="600" width="800" height="200" fill="#8f8677"/>
+  <g fill="#a79e8c" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="60" cy="640" rx="28" ry="12"/>
+    <ellipse cx="130" cy="668" rx="30" ry="13"/>
+    <ellipse cx="40" cy="718" rx="32" ry="14"/>
+    <ellipse cx="150" cy="752" rx="34" ry="14"/>
+    <ellipse cx="260" cy="700" rx="30" ry="13"/>
+    <ellipse cx="330" cy="648" rx="26" ry="11"/>
+    <ellipse cx="380" cy="740" rx="34" ry="14"/>
+    <ellipse cx="470" cy="700" rx="28" ry="12"/>
+    <ellipse cx="520" cy="770" rx="34" ry="14"/>
+    <ellipse cx="640" cy="740" rx="30" ry="13"/>
+    <ellipse cx="720" cy="680" rx="30" ry="12"/>
+    <ellipse cx="750" cy="760" rx="34" ry="14"/>
+    <ellipse cx="300" cy="785" rx="30" ry="10"/>
+  </g>
+
+  <!-- village green -->
+  <ellipse cx="300" cy="600" rx="300" ry="70" fill="#7f9a59" stroke="#2a2420" stroke-width="3"/>
+  <g stroke="#5f7a40" stroke-width="2" fill="none">
+    <path d="M120 600 q10 -6 20 0"/>
+    <path d="M380 620 q10 -6 20 0"/>
+    <path d="M250 630 q10 -6 20 0"/>
+  </g>
+
+  <!-- Sign on the green: tall post, cap, board, chains -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- post -->
+    <rect x="212" y="300" width="16" height="320" fill="#8a6a48"/>
+    <!-- pointed roof cap -->
+    <path d="M196 300 L220 258 L244 300 Z" fill="#4e3b2a"/>
+    <!-- chains -->
+    <path d="M150 372 L150 396 M290 372 L290 396" stroke="#b5893a" stroke-width="4" stroke-dasharray="4 3"/>
+    <!-- board with green rim -->
+    <rect x="110" y="310" width="220" height="82" rx="16" fill="#3d6b3a"/>
+    <rect x="120" y="320" width="200" height="62" rx="11" fill="#f3ead2"/>
+  </g>
+  <text x="220" y="358" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#2a2420">Welcome to Mossville</text>
+  <!-- moss at post base -->
+  <g fill="#5f8a3c" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="200" cy="622" rx="22" ry="9"/>
+    <ellipse cx="236" cy="626" rx="18" ry="8"/>
+    <ellipse cx="220" cy="616" rx="12" ry="6"/>
+  </g>
+
+  <!-- Pond -->
+  <ellipse cx="580" cy="650" rx="175" ry="62" fill="#4f6f76" stroke="#2a2420" stroke-width="3"/>
+  <ellipse cx="580" cy="650" rx="150" ry="48" fill="#5f8389" opacity="0.8"/>
+  <g stroke="#dfe8e4" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M500 640 q20 -6 40 0"/>
+    <path d="M620 668 q24 -7 48 0"/>
+    <path d="M470 668 q14 -4 28 0"/>
+  </g>
+  <!-- reeds -->
+  <g stroke="#3f5e33" stroke-width="3" fill="none">
+    <path d="M430 620 q-4 -30 2 -50"/>
+    <path d="M440 620 q2 -26 -4 -44"/>
+    <path d="M720 610 q4 -28 -2 -48"/>
+  </g>
+
+  <!-- Welcome board by the pond -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="574" y="510" width="12" height="90" fill="#8a6a48"/>
+    <path d="M556 512 L580 478 L604 512 Z" fill="#4e3b2a"/>
+    <rect x="500" y="520" width="160" height="62" rx="12" fill="#3d6b3a"/>
+    <rect x="508" y="527" width="144" height="48" rx="8" fill="#f3ead2"/>
+  </g>
+  <text x="580" y="556" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#2a2420">Welcome to Mossville</text>
+  <g fill="#5f8a3c" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="572" cy="606" rx="16" ry="7"/>
+    <ellipse cx="594" cy="609" rx="12" ry="6"/>
+  </g>
+
+  <!-- lamp post at left edge -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linecap="round">
+    <line x1="60" y1="590" x2="60" y2="380"/>
+    <path d="M44 380 Q60 360 76 380" fill="none"/>
+  </g>
+  <rect x="50" y="372" width="20" height="18" fill="#f7dc8e" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- foreground fog veil -->
+  <rect x="0" y="690" width="800" height="110" fill="url(#fogBand)" opacity="0.8"/>
+
+  <!-- signature -->
+  <text x="772" y="784" text-anchor="end" font-family="sans-serif" font-size="18" fill="#2a2420">P.</text>
+</svg>
