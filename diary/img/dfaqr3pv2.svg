@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3ecdc"/>
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="330" fill="#d9e0e4"/>
+  <!-- distant hills in fog -->
+  <path d="M0 360 Q120 310 230 355 T470 350 T800 330 L800 420 L0 420 Z" fill="#c4cdd2" stroke="#2b2620" stroke-width="1.5"/>
+  <!-- bell tower at end of lane -->
+  <polygon points="370,200 430,200 400,128" fill="#7d7566" stroke="#2b2620" stroke-width="2"/>
+  <rect x="378" y="200" width="44" height="52" fill="#9d9383" stroke="#2b2620" stroke-width="2"/>
+  <path d="M388 252 V226 Q388 214 396 214 Q404 214 404 226 V252 Z" fill="#3b3730"/>
+  <rect x="372" y="252" width="56" height="178" fill="#a99f8c" stroke="#2b2620" stroke-width="2"/>
+  <circle cx="400" cy="292" r="15" fill="#f8f4ea" stroke="#2b2620" stroke-width="2"/>
+  <path d="M400 292 V282 M400 292 L408 298" stroke="#2b2620" stroke-width="2" fill="none"/>
+  <rect x="390" y="350" width="20" height="80" fill="#3b3730"/>
+  <!-- lane -->
+  <polygon points="430,800 800,800 480,430 395,430" fill="#b9ad98" stroke="#2b2620" stroke-width="2"/>
+  <!-- cobbles on lane -->
+  <g fill="none" stroke="#7a6f5e" stroke-width="1.5">
+    <ellipse cx="500" cy="760" rx="16" ry="8"/>
+    <ellipse cx="600" cy="735" rx="12" ry="6"/>
+    <ellipse cx="690" cy="780" rx="18" ry="9"/>
+    <ellipse cx="560" cy="650" rx="10" ry="5"/>
+    <ellipse cx="650" cy="600" rx="9" ry="5"/>
+    <ellipse cx="530" cy="520" rx="7" ry="4"/>
+    <ellipse cx="610" cy="500" rx="6" ry="3"/>
+    <ellipse cx="455" cy="480" rx="5" ry="3"/>
+    <ellipse cx="740" cy="700" rx="14" ry="7"/>
+    <ellipse cx="470" cy="600" rx="11" ry="6"/>
+  </g>
+  <!-- low wall on right of lane -->
+  <polygon points="800,540 480,430 480,448 800,566" fill="#cfc5b1" stroke="#2b2620" stroke-width="2"/>
+  <!-- cottage roof -->
+  <polygon points="50,340 250,226 440,340" fill="#6e5a48" stroke="#2b2620" stroke-width="2.5"/>
+  <!-- cottage walls -->
+  <rect x="80" y="330" width="340" height="380" fill="#efe6d2" stroke="#2b2620" stroke-width="2.5"/>
+  <!-- timber frame -->
+  <g fill="#5a3f2a" stroke="#2b2620" stroke-width="1.5">
+    <rect x="80" y="330" width="14" height="380"/>
+    <rect x="160" y="330" width="12" height="380"/>
+    <rect x="240" y="330" width="12" height="380"/>
+    <rect x="320" y="330" width="12" height="380"/>
+    <rect x="406" y="330" width="14" height="380"/>
+    <rect x="80" y="330" width="340" height="14"/>
+    <rect x="80" y="420" width="340" height="12"/>
+    <rect x="80" y="520" width="340" height="12"/>
+    <rect x="80" y="630" width="340" height="12"/>
+    <rect x="80" y="696" width="340" height="14"/>
+  </g>
+  <g stroke="#5a3f2a" stroke-width="7" fill="none">
+    <line x1="94" y1="344" x2="160" y2="420"/>
+    <line x1="172" y1="432" x2="240" y2="520"/>
+    <line x1="332" y1="344" x2="406" y2="420"/>
+    <line x1="252" y1="532" x2="320" y2="630"/>
+  </g>
+  <!-- sign -->
+  <rect x="128" y="352" width="210" height="46" fill="#8a6a46" stroke="#2b2620" stroke-width="2"/>
+  <rect x="136" y="360" width="194" height="30" fill="#e9dcc0" stroke="#2b2620" stroke-width="1"/>
+  <text x="233" y="381" text-anchor="middle" font-size="20" fill="#2b2620">Percy's cottage</text>
+  <!-- windows -->
+  <rect x="110" y="440" width="62" height="62" fill="#a9c2c8" stroke="#2b2620" stroke-width="2.5"/>
+  <line x1="141" y1="440" x2="141" y2="502" stroke="#2b2620" stroke-width="2"/>
+  <line x1="110" y1="471" x2="172" y2="471" stroke="#2b2620" stroke-width="2"/>
+  <rect x="330" y="440" width="62" height="62" fill="#a9c2c8" stroke="#2b2620" stroke-width="2.5"/>
+  <line x1="361" y1="440" x2="361" y2="502" stroke="#2b2620" stroke-width="2"/>
+  <line x1="330" y1="471" x2="392" y2="471" stroke="#2b2620" stroke-width="2"/>
+  <!-- door -->
+  <rect x="222" y="572" width="62" height="124" fill="#6b4a2e" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="272" cy="636" r="3.5" fill="#d8b75a"/>
+  <!-- doorstep -->
+  <rect x="206" y="696" width="94" height="18" fill="#c8bca6" stroke="#2b2620" stroke-width="2"/>
+  <!-- foreground cobbles -->
+  <rect x="0" y="714" width="800" height="86" fill="#bcb09b"/>
+  <g fill="none" stroke="#7a6f5e" stroke-width="1.5">
+    <ellipse cx="40" cy="748" rx="22" ry="10"/>
+    <ellipse cx="120" cy="782" rx="26" ry="10"/>
+    <ellipse cx="180" cy="740" rx="18" ry="8"/>
+    <ellipse cx="330" cy="772" rx="24" ry="10"/>
+    <ellipse cx="390" cy="740" rx="16" ry="8"/>
+    <ellipse cx="60" cy="700" rx="10" ry="5"/>
+    <ellipse cx="360" cy="708" rx="9" ry="4"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#f4f1ea" opacity="0.7">
+    <rect x="0" y="400" width="800" height="36"/>
+    <rect x="0" y="470" width="800" height="28" opacity="0.6"/>
+    <rect x="0" y="600" width="800" height="40" opacity="0.5"/>
+    <rect x="0" y="690" width="800" height="26" opacity="0.4"/>
+  </g>
+  <!-- signature -->
+  <text x="768" y="782" text-anchor="end" font-size="16" fill="#2b2620">P.</text>
+</svg>
