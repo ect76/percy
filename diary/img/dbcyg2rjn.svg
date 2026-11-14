@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="430" fill="#c9d3d6"/>
+
+  <!-- distant hills in fog -->
+  <path d="M0 330 Q120 290 240 320 T480 318 T800 300 L800 380 L0 380 Z" fill="#aebcc0" stroke="#1f1b18" stroke-width="1.5"/>
+
+  <!-- bell tower at the end of the lane -->
+  <rect x="365" y="270" width="70" height="210" fill="#8a7f72" stroke="#1f1b18" stroke-width="2.5"/>
+  <rect x="372" y="225" width="56" height="48" fill="#6d6358" stroke="#1f1b18" stroke-width="2"/>
+  <path d="M358 230 L400 168 L442 230 Z" fill="#4b4a52" stroke="#1f1b18" stroke-width="2.5"/>
+  <rect x="381" y="236" width="10" height="26" fill="#2a2724"/>
+  <rect x="409" y="236" width="10" height="26" fill="#2a2724"/>
+  <circle cx="400" cy="306" r="15" fill="#f3ecdc" stroke="#1f1b18" stroke-width="2"/>
+  <path d="M400 306 L400 296 M400 306 L408 310" stroke="#1f1b18" stroke-width="1.5" fill="none"/>
+  <path d="M396 470 L396 452 Q400 446 404 452 L404 470 Z" fill="#b08a4a" stroke="#1f1b18" stroke-width="1"/>
+
+  <!-- fog bands over the tower base -->
+  <ellipse cx="400" cy="400" rx="320" ry="26" fill="#f3ecdc" opacity="0.55"/>
+  <ellipse cx="420" cy="455" rx="260" ry="22" fill="#f3ecdc" opacity="0.5"/>
+
+  <!-- cobbled lane converging to the tower -->
+  <path d="M0 800 L800 800 L432 480 L368 480 Z" fill="#7d7467" stroke="#1f1b18" stroke-width="2.5"/>
+  <g fill="none" stroke="#4e463e" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="120" cy="740" rx="26" ry="10"/>
+    <ellipse cx="260" cy="770" rx="30" ry="11"/>
+    <ellipse cx="520" cy="760" rx="28" ry="10"/>
+    <ellipse cx="660" cy="725" rx="22" ry="9"/>
+    <ellipse cx="340" cy="650" rx="18" ry="7"/>
+    <ellipse cx="470" cy="620" rx="16" ry="6"/>
+    <ellipse cx="400" cy="560" rx="12" ry="5"/>
+    <ellipse cx="60" cy="620" rx="20" ry="8"/>
+    <ellipse cx="740" cy="630" rx="18" ry="8"/>
+    <ellipse cx="300" cy="700" rx="14" ry="6"/>
+    <ellipse cx="560" cy="690" rx="15" ry="6"/>
+  </g>
+  <!-- wet sheen on the lane -->
+  <path d="M250 800 L330 520 L345 520 L300 800 Z" fill="#f3ecdc" opacity="0.12"/>
+
+  <!-- bakery front on the left -->
+  <rect x="0" y="150" width="190" height="500" fill="#b98c6a" stroke="#1f1b18" stroke-width="2.5"/>
+  <rect x="30" y="300" width="150" height="40" fill="#e8d5b0" stroke="#1f1b18" stroke-width="2"/>
+  <text x="105" y="328" font-size="18" text-anchor="middle" fill="#1f1b18">Crumb's Bakery</text>
+  <path d="M60 620 L60 400 Q60 370 100 370 Q140 370 140 400 L140 620 Z" fill="#3b2d26" stroke="#1f1b18" stroke-width="2.5"/>
+  <path d="M70 620 L70 405 Q70 382 100 382 Q130 382 130 405 L130 620 Z" fill="#f2b45c"/>
+  <path d="M100 382 L100 620" stroke="#3b2d26" stroke-width="2"/>
+  <rect x="150" y="380" width="26" height="40" fill="#f5d88a" stroke="#1f1b18" stroke-width="2"/>
+
+  <!-- doorway step -->
+  <rect x="50" y="620" width="110" height="14" fill="#6d6358" stroke="#1f1b18" stroke-width="2"/>
+
+  <!-- Pond Lane cottage on the right -->
+  <rect x="560" y="260" width="240" height="390" fill="#9fb3a0" stroke="#1f1b18" stroke-width="2.5"/>
+  <path d="M548 262 L680 168 L812 262 Z" fill="#6b5a4e" stroke="#1f1b18" stroke-width="2.5"/>
+  <rect x="612" y="326" width="70" height="90" fill="#f5d88a" stroke="#1f1b18" stroke-width="2.5"/>
+  <path d="M647 326 L647 416 M612 371 L682 371" stroke="#1f1b18" stroke-width="2"/>
+  <rect x="612" y="326" width="70" height="90" fill="none" stroke="#1f1b18" stroke-width="2.5"/>
+  <rect x="705" y="470" width="40" height="70" fill="#5a4636" stroke="#1f1b18" stroke-width="2"/>
+
+  <!-- fog veil in the foreground middle -->
+  <ellipse cx="400" cy="560" rx="420" ry="40" fill="#f3ecdc" opacity="0.35"/>
+
+  <!-- rain -->
+  <g stroke="#4f5e6b" stroke-width="1.4" stroke-linecap="round" opacity="0.6">
+    <line x1="210" y1="60" x2="190" y2="100"/>
+    <line x1="260" y1="30" x2="240" y2="70"/>
+    <line x1="320" y1="90" x2="300" y2="130"/>
+    <line x1="350" y1="20" x2="330" y2="60"/>
+    <line x1="470" y1="50" x2="450" y2="90"/>
+    <line x1="520" y1="110" x2="500" y2="150"/>
+    <line x1="600" y1="30" x2="580" y2="70"/>
+    <line x1="650" y1="90" x2="630" y2="130"/>
+    <line x1="720" y1="40" x2="700" y2="80"/>
+    <line x1="770" y1="140" x2="750" y2="180"/>
+    <line x1="40" y1="40" x2="20" y2="80"/>
+    <line x1="120" y1="130" x2="100" y2="170"/>
+    <line x1="150" y1="200" x2="130" y2="240"/>
+    <line x1="280" y1="200" x2="260" y2="240"/>
+    <line x1="430" y1="200" x2="410" y2="240"/>
+    <line x1="500" y1="330" x2="480" y2="370"/>
+    <line x1="300" y1="420" x2="280" y2="460"/>
+    <line x1="60" y1="260" x2="40" y2="300"/>
+    <line x1="720" y1="300" x2="700" y2="340"/>
+    <line x1="250" y1="520" x2="228" y2="560"/>
+    <line x1="560" y1="540" x2="538" y2="580"/>
+    <line x1="640" y1="600" x2="618" y2="640"/>
+    <line x1="420" y1="660" x2="398" y2="700"/>
+    <line x1="170" y1="700" x2="148" y2="740"/>
+    <line x1="700" y1="740" x2="678" y2="780"/>
+    <line x1="520" y1="760" x2="498" y2="795"/>
+  </g>
+
+  <!-- signature -->
+  <text x="762" y="782" font-size="22" text-anchor="end" fill="#1f1b18">P.</text>
+</svg>
