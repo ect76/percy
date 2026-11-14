@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ebd7"/>
+  <!-- wall in fog -->
+  <rect x="0" y="0" width="800" height="560" fill="#e4dccb"/>
+  <!-- distant cottages in fog -->
+  <g fill="#cfc7b4" stroke="#2b2118" stroke-width="2" stroke-opacity="0.35" fill-opacity="0.8">
+    <path d="M60 330 L110 290 L160 330 L160 420 L60 420 Z"/>
+    <path d="M620 300 L670 260 L720 300 L720 400 L620 400 Z"/>
+    <path d="M300 270 L340 240 L380 270 L380 360 L300 360 Z"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="250" width="800" height="70" fill="#f3ebd7" opacity="0.55"/>
+  <rect x="0" y="380" width="800" height="50" fill="#f3ebd7" opacity="0.4"/>
+  <rect x="0" y="130" width="800" height="50" fill="#f3ebd7" opacity="0.5"/>
+
+  <!-- floor cobbles -->
+  <rect x="0" y="740" width="800" height="60" fill="#bfb6a0"/>
+  <g fill="#d8cfbb" stroke="#2b2118" stroke-width="3">
+    <ellipse cx="60" cy="770" rx="48" ry="16"/>
+    <ellipse cx="170" cy="790" rx="52" ry="14"/>
+    <ellipse cx="290" cy="765" rx="46" ry="15"/>
+    <ellipse cx="420" cy="792" rx="50" ry="13"/>
+    <ellipse cx="530" cy="768" rx="44" ry="14"/>
+    <ellipse cx="740" cy="775" rx="50" ry="15"/>
+  </g>
+
+  <!-- table legs -->
+  <g stroke="#2b2118" stroke-width="6" stroke-linejoin="round">
+    <rect x="150" y="560" width="22" height="180" fill="#7d4f2a"/>
+    <rect x="628" y="560" width="22" height="180" fill="#7d4f2a"/>
+  </g>
+  <!-- table front and top -->
+  <g stroke="#2b2118" stroke-width="6" stroke-linejoin="round">
+    <rect x="120" y="540" width="560" height="24" fill="#7d4f2a"/>
+    <rect x="120" y="500" width="560" height="40" fill="#a86f3e"/>
+  </g>
+  <g stroke="#2b2118" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M150 520 L300 520"/>
+    <path d="M420 516 L640 516"/>
+  </g>
+
+  <!-- steam -->
+  <g fill="none" stroke="#8d969b" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <path d="M310 360 Q295 330 312 305 Q328 282 310 255"/>
+    <path d="M370 352 Q356 322 374 296 Q390 270 372 240"/>
+    <path d="M430 362 Q416 332 432 308 Q446 286 430 262"/>
+  </g>
+
+  <!-- loaf -->
+  <g stroke="#2b2118" stroke-width="6" stroke-linejoin="round">
+    <path d="M250 500 Q248 380 370 372 Q492 380 490 500 Z" fill="#c98a3c"/>
+  </g>
+  <path d="M290 430 Q322 404 352 424 M372 412 Q402 396 432 418 M322 472 Q354 452 392 466" fill="none" stroke="#2b2118" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 420 Q330 400 350 410" fill="none" stroke="#ecc27a" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="335" cy="448" rx="30" ry="14" fill="#e8b865" opacity="0.6"/>
+
+  <!-- crumbs -->
+  <g fill="#c98a3c" stroke="#2b2118" stroke-width="2">
+    <circle cx="520" cy="526" r="4"/>
+    <circle cx="540" cy="520" r="3"/>
+    <circle cx="532" cy="534" r="3"/>
+    <circle cx="170" cy="522" r="3"/>
+  </g>
+
+  <!-- bread peel leaning against table -->
+  <g stroke="#2b2118" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M590 690 L672 505" fill="none" stroke="#b08050" stroke-width="16"/>
+    <path d="M590 690 L672 505" fill="none" stroke="#8a5e34" stroke-width="2" stroke-dasharray="1 0" opacity="0"/>
+    <path d="M540 700 Q542 648 598 640 Q652 648 644 702 Q634 752 586 746 Q544 742 540 700 Z" fill="#d9b07a"/>
+  </g>
+  <path d="M556 690 Q590 676 626 690" fill="none" stroke="#2b2118" stroke-width="2" opacity="0.5"/>
+  <path d="M610 530 L620 520" stroke="#2b2118" stroke-width="2" opacity="0.4" fill="none"/>
+
+  <!-- signature -->
+  <text x="758" y="782" font-family="serif" font-size="22" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
