@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#e9e2d0"/>
+  <!-- wall -->
+  <rect x="40" y="40" width="720" height="560" fill="#cbbf9f"/>
+  <!-- floor -->
+  <polygon points="40,600 760,600 760,760 40,760" fill="#8a7659"/>
+  <g stroke="#3a2e22" stroke-width="2" fill="none" opacity="0.5">
+    <line x1="40" y1="650" x2="760" y2="650"/>
+    <line x1="40" y1="700" x2="760" y2="700"/>
+    <line x1="40" y1="740" x2="760" y2="740"/>
+  </g>
+  <!-- window light on floor -->
+  <polygon points="560,300 700,300 740,600 520,600" fill="#f4f1e6" opacity="0.35"/>
+  <!-- window -->
+  <rect x="560" y="110" width="150" height="180" fill="#aeb8b8" stroke="#2a2118" stroke-width="4"/>
+  <line x1="635" y1="110" x2="635" y2="290" stroke="#2a2118" stroke-width="4"/>
+  <line x1="560" y1="200" x2="710" y2="200" stroke="#2a2118" stroke-width="4"/>
+  <!-- fog and lane glimpse through window -->
+  <rect x="566" y="230" width="138" height="54" fill="#d6dcdb"/>
+  <path d="M566 260 Q600 246 635 258 T704 254" stroke="#8c9a9a" stroke-width="3" fill="none"/>
+  <!-- cupboard frame -->
+  <rect x="170" y="180" width="350" height="420" fill="#5b4632" stroke="#2a2118" stroke-width="5"/>
+  <rect x="190" y="200" width="310" height="380" fill="#7d6548"/>
+  <!-- shelves -->
+  <g fill="#4a3a2a" stroke="#2a2118" stroke-width="3">
+    <rect x="190" y="290" width="310" height="12"/>
+    <rect x="190" y="440" width="310" height="12"/>
+    <rect x="190" y="580" width="310" height="12"/>
+  </g>
+  <!-- sardine tins on middle shelf -->
+  <g stroke="#2a2118" stroke-width="2.5">
+    <rect x="222" y="392" width="54" height="48" fill="#b9c2c0"/>
+    <rect x="224" y="410" width="50" height="14" fill="#8c3b2e"/>
+    <rect x="292" y="392" width="54" height="48" fill="#b9c2c0"/>
+    <rect x="294" y="410" width="50" height="14" fill="#8c3b2e"/>
+  </g>
+  <!-- seed tin on bottom shelf -->
+  <g stroke="#2a2118" stroke-width="2.5">
+    <rect x="380" y="524" width="82" height="56" fill="#6f7f6a"/>
+    <ellipse cx="421" cy="524" rx="41" ry="7" fill="#9aa890"/>
+    <ellipse cx="421" cy="524" rx="20" ry="3" fill="#2a2118"/>
+    <rect x="380" y="548" width="82" height="8" fill="#56654f"/>
+  </g>
+  <!-- empty corner beside cupboard -->
+  <rect x="560" y="330" width="170" height="270" fill="#bfb293" opacity="0.6"/>
+  <polygon points="560,600 730,600 720,612 560,612" fill="#5e4e3a" opacity="0.5"/>
+  <!-- ink contour for empty corner edge -->
+  <line x1="560" y1="330" x2="560" y2="600" stroke="#2a2118" stroke-width="2" opacity="0.6"/>
+  <!-- shadow inside cupboard -->
+  <rect x="190" y="200" width="310" height="14" fill="#2a2118" opacity="0.35"/>
+  <!-- signature -->
+  <text x="752" y="782" font-size="22" fill="#2a2118" text-anchor="end">P.</text>
+</svg>
