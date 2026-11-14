@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="800" height="565" fill="#e6dcc6"/>
+  <rect x="0" y="565" width="800" height="235" fill="#d4c2a0"/>
+  <g stroke="#8a7456" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="0" y1="620" x2="800" y2="620"/>
+    <line x1="0" y1="680" x2="800" y2="680"/>
+    <line x1="0" y1="740" x2="800" y2="740"/>
+    <line x1="0" y1="565" x2="800" y2="565" stroke-width="4"/>
+  </g>
+  <!-- cupboard -->
+  <rect x="250" y="180" width="260" height="385" fill="#b98a5e" stroke="#2b2118" stroke-width="6"/>
+  <rect x="270" y="200" width="220" height="345" fill="#5e4129" stroke="#2b2118" stroke-width="4"/>
+  <rect x="270" y="290" width="220" height="10" fill="#8c6444" stroke="#2b2118" stroke-width="3"/>
+  <rect x="270" y="390" width="220" height="10" fill="#8c6444" stroke="#2b2118" stroke-width="3"/>
+  <!-- the few sardine tins on the middle shelf -->
+  <g stroke="#2b2118" stroke-width="3">
+    <rect x="300" y="340" width="52" height="50" rx="4" fill="#c3ccd0"/>
+    <rect x="304" y="346" width="44" height="6" fill="#8fa0a8"/>
+    <rect x="368" y="340" width="52" height="50" rx="4" fill="#c3ccd0"/>
+    <rect x="372" y="346" width="44" height="6" fill="#8fa0a8"/>
+  </g>
+  <!-- cupboard knob -->
+  <circle cx="478" cy="375" r="5" fill="#2b2118"/>
+  <!-- bread peel leaning at left -->
+  <g transform="rotate(12 180 420)" stroke="#2b2118" stroke-width="4">
+    <rect x="173" y="420" width="14" height="230" rx="6" fill="#9a6b3c"/>
+    <path d="M140 420 L140 262 Q180 215 220 262 L220 420 Z" fill="#d7b07a"/>
+    <line x1="150" y1="300" x2="150" y2="410" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- tin of tea at right -->
+  <g stroke="#2b2118" stroke-width="4">
+    <rect x="590" y="478" width="112" height="122" rx="8" fill="#a8462f"/>
+    <rect x="590" y="520" width="112" height="36" fill="#efe3c4"/>
+    <ellipse cx="646" cy="478" rx="56" ry="11" fill="#7d2f1e"/>
+    <path d="M646 528 Q632 540 646 552 Q660 540 646 528 Z" fill="#5d7d3e" stroke-width="2"/>
+  </g>
+  <!-- pocket watch on the floor -->
+  <g stroke="#2b2118" stroke-width="4">
+    <rect x="436" y="572" width="20" height="14" rx="3" fill="#c9a94e"/>
+    <circle cx="446" cy="650" r="54" fill="#d8b85a"/>
+    <circle cx="446" cy="650" r="42" fill="#f7f1df"/>
+    <line x1="446" y1="650" x2="446" y2="622" stroke-width="4"/>
+    <line x1="446" y1="650" x2="468" y2="662" stroke-width="3"/>
+  </g>
+  <g stroke="#2b2118" stroke-width="3">
+    <line x1="446" y1="614" x2="446" y2="620"/>
+    <line x1="482" y1="650" x2="476" y2="650"/>
+    <line x1="446" y1="686" x2="446" y2="680"/>
+    <line x1="410" y1="650" x2="416" y2="650"/>
+    <line x1="471" y1="625" x2="467" y2="629"/>
+    <line x1="421" y1="625" x2="425" y2="629"/>
+    <line x1="471" y1="675" x2="467" y2="671"/>
+    <line x1="421" y1="675" x2="425" y2="671"/>
+  </g>
+  <!-- ticking sound marks -->
+  <g stroke="#2b2118" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M522 630 Q532 650 522 670"/>
+    <path d="M540 615 Q556 650 540 685"/>
+  </g>
+  <!-- fog wisps -->
+  <g fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.7">
+    <path d="M0 120 Q120 100 200 130 T420 120"/>
+    <path d="M40 470 Q160 450 240 480"/>
+    <path d="M520 300 Q640 280 800 310"/>
+    <path d="M0 740 Q200 720 360 750 T800 735"/>
+  </g>
+  <!-- pen ink signature -->
+  <text x="752" y="772" font-size="26" fill="#2b2118" text-anchor="end">P.</text>
+</svg>
