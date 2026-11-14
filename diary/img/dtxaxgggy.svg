@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+
+  <!-- distant fog-shrouded silhouettes -->
+  <path d="M90 420 L90 300 L110 280 L130 300 L130 420 Z" fill="#cfcac0" opacity="0.7"/>
+  <path d="M150 430 L150 340 L165 330 L180 340 L180 430 Z" fill="#c6c1b7" opacity="0.6"/>
+  <ellipse cx="260" cy="260" rx="160" ry="30" fill="#e6e4de" opacity="0.8"/>
+  <ellipse cx="520" cy="180" rx="200" ry="26" fill="#e6e4de" opacity="0.8"/>
+
+  <!-- ground / cobbles in front -->
+  <rect x="0" y="600" width="800" height="200" fill="#a9a293"/>
+  <g fill="none" stroke="#2a2420" stroke-width="1.5" opacity="0.6">
+    <path d="M0 660 Q200 650 420 670 T800 660"/>
+    <path d="M0 720 Q260 706 500 730 T800 720"/>
+    <path d="M0 775 Q300 760 560 785 T800 778"/>
+    <ellipse cx="100" cy="640" rx="18" ry="7"/>
+    <ellipse cx="180" cy="690" rx="20" ry="8"/>
+    <ellipse cx="300" cy="650" rx="16" ry="6"/>
+    <ellipse cx="620" cy="700" rx="22" ry="8"/>
+    <ellipse cx="700" cy="750" rx="18" ry="7"/>
+    <ellipse cx="90" cy="750" rx="20" ry="8"/>
+    <ellipse cx="400" cy="745" rx="20" ry="8"/>
+  </g>
+
+  <!-- lane receding into fog -->
+  <polygon points="40,800 440,800 320,560 250,470 210,470 270,560" fill="#bdb6a6" stroke="#2a2420" stroke-width="3"/>
+  <g fill="none" stroke="#2a2420" stroke-width="1.2" opacity="0.5">
+    <ellipse cx="240" cy="740" rx="22" ry="7"/>
+    <ellipse cx="330" cy="700" rx="16" ry="6"/>
+    <ellipse cx="150" cy="770" rx="20" ry="7"/>
+    <ellipse cx="290" cy="620" rx="12" ry="5"/>
+    <ellipse cx="235" cy="580" rx="9" ry="4"/>
+    <ellipse cx="260" cy="510" rx="6" ry="3"/>
+  </g>
+
+  <!-- cottage wall -->
+  <rect x="420" y="340" width="300" height="262" fill="#e9d9bf" stroke="#2a2420" stroke-width="3"/>
+  <g stroke="#2a2420" stroke-width="1" opacity="0.35" fill="none">
+    <path d="M420 380 H720 M420 420 H720 M420 460 H720 M420 500 H720 M420 540 H720 M420 580 H720"/>
+  </g>
+
+  <!-- roof and chimney -->
+  <rect x="640" y="236" width="30" height="72" fill="#8a6a55" stroke="#2a2420" stroke-width="3"/>
+  <polygon points="400,344 570,222 740,344" fill="#7d5a46" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#2a2420" stroke-width="1" opacity="0.4">
+    <path d="M440 320 L570 232 M470 300 L570 232 M520 300 L610 244 M500 330 L600 260"/>
+  </g>
+
+  <!-- windows -->
+  <g>
+    <rect x="446" y="382" width="60" height="56" fill="#cfe0e6" stroke="#2a2420" stroke-width="3"/>
+    <path d="M476 382 V438 M446 410 H506" stroke="#2a2420" stroke-width="2"/>
+    <rect x="606" y="382" width="60" height="56" fill="#cfe0e6" stroke="#2a2420" stroke-width="3"/>
+    <path d="M636 382 V438 M606 410 H666" stroke="#2a2420" stroke-width="2"/>
+  </g>
+
+  <!-- door -->
+  <path d="M514 600 V500 Q514 466 548 466 Q582 466 582 500 V600 Z" fill="#5a3b25" stroke="#2a2420" stroke-width="3"/>
+  <circle cx="574" cy="548" r="3.5" fill="#c9a227" stroke="#2a2420" stroke-width="1.5"/>
+
+  <!-- brass letterbox -->
+  <rect x="530" y="505" width="36" height="14" rx="2" fill="#c9a227" stroke="#2a2420" stroke-width="2"/>
+  <path d="M536 511 H560" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- stone beside door -->
+  <ellipse cx="470" cy="594" rx="26" ry="12" fill="#8f8a80" stroke="#2a2420" stroke-width="2.5"/>
+
+  <!-- crooked sign on bracket -->
+  <path d="M420 396 H372" stroke="#2a2420" stroke-width="4" fill="none"/>
+  <path d="M372 396 Q360 402 362 414" stroke="#2a2420" stroke-width="2" fill="none"/>
+  <g transform="rotate(-9 396 420)">
+    <path d="M382 400 L396 400 M408 400 L412 400" stroke="#2a2420" stroke-width="1.5"/>
+    <line x1="372" y1="396" x2="352" y2="436" stroke="#2a2420" stroke-width="2"/>
+    <line x1="400" y1="396" x2="412" y2="436" stroke="#2a2420" stroke-width="2"/>
+    <rect x="340" y="436" width="84" height="56" rx="3" fill="#6b4a2b" stroke="#2a2420" stroke-width="3"/>
+    <rect x="350" y="446" width="64" height="36" fill="#d8c08f" stroke="#2a2420" stroke-width="1.5"/>
+  </g>
+
+  <!-- fog veils -->
+  <g fill="#eeeeea">
+    <rect x="0" y="420" width="800" height="70" opacity="0.55"/>
+    <rect x="0" y="500" width="800" height="36" opacity="0.4"/>
+    <ellipse cx="300" cy="480" rx="200" ry="34" opacity="0.6"/>
+    <ellipse cx="180" cy="560" rx="150" ry="28" opacity="0.5"/>
+    <ellipse cx="640" cy="560" rx="200" ry="30" opacity="0.35"/>
+    <ellipse cx="120" cy="650" rx="140" ry="30" opacity="0.35"/>
+  </g>
+
+  <!-- P. signature in corner -->
+  <g fill="none" stroke="#2a2420" stroke-width="3" stroke-linecap="round">
+    <path d="M730 766 V728 H746 Q758 728 758 740 Q758 752 746 752 H730"/>
+  </g>
+  <circle cx="768" cy="764" r="3" fill="#2a2420"/>
+</svg>
