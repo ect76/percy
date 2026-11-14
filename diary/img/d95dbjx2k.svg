@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe7d6"/>
+  <!-- wall wash -->
+  <rect x="0" y="0" width="800" height="560" fill="#e3d8c1"/>
+
+  <!-- window light beam falling across shelves -->
+  <polygon points="90,300 300,300 660,660 440,660" fill="#fff8dc" opacity="0.75"/>
+  <polygon points="90,300 300,300 380,380 170,380" fill="#fff8dc" opacity="0.35"/>
+
+  <!-- window -->
+  <rect x="90" y="90" width="210" height="210" fill="#cfe0e4" stroke="#2b2118" stroke-width="6"/>
+  <line x1="195" y1="90" x2="195" y2="300" stroke="#2b2118" stroke-width="6"/>
+  <line x1="90" y1="195" x2="300" y2="195" stroke="#2b2118" stroke-width="6"/>
+  <rect x="78" y="78" width="234" height="234" fill="none" stroke="#2b2118" stroke-width="4"/>
+  <!-- lane glimpse through glass -->
+  <path d="M90,250 Q150,230 200,250 T300,240 V300 H90 Z" fill="#a9b9a6" opacity="0.8"/>
+
+  <!-- cupboard body -->
+  <rect x="180" y="200" width="440" height="500" fill="#8a5a3b" stroke="#2b2118" stroke-width="6"/>
+  <!-- interior back -->
+  <rect x="210" y="230" width="380" height="440" fill="#5c3b26" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- shelves -->
+  <rect x="210" y="360" width="380" height="14" fill="#c9a078" stroke="#2b2118" stroke-width="3"/>
+  <rect x="210" y="500" width="380" height="14" fill="#c9a078" stroke="#2b2118" stroke-width="3"/>
+  <rect x="210" y="630" width="380" height="14" fill="#c9a078" stroke="#2b2118" stroke-width="3"/>
+
+  <!-- empty spot where the last tin stood -->
+  <ellipse cx="400" cy="626" rx="40" ry="10" fill="#3a2516" opacity="0.45"/>
+  <ellipse cx="400" cy="626" rx="40" ry="10" fill="none" stroke="#2b2118" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- dust specks on shelves -->
+  <circle cx="260" cy="354" r="2" fill="#f4eee0"/>
+  <circle cx="330" cy="352" r="1.5" fill="#f4eee0"/>
+  <circle cx="470" cy="356" r="2" fill="#f4eee0"/>
+  <circle cx="290" cy="494" r="2" fill="#f4eee0"/>
+  <circle cx="520" cy="496" r="1.5" fill="#f4eee0"/>
+  <circle cx="250" cy="624" r="2" fill="#f4eee0"/>
+  <circle cx="560" cy="622" r="2" fill="#f4eee0"/>
+
+  <!-- door frame lines and hinges -->
+  <line x1="200" y1="210" x2="200" y2="690" stroke="#2b2118" stroke-width="4"/>
+  <line x1="600" y1="210" x2="600" y2="690" stroke="#2b2118" stroke-width="4"/>
+  <rect x="192" y="300" width="16" height="30" fill="#4a4a48" stroke="#2b2118" stroke-width="2"/>
+  <rect x="592" y="300" width="16" height="30" fill="#4a4a48" stroke="#2b2118" stroke-width="2"/>
+  <circle cx="588" cy="420" r="5" fill="#4a4a48" stroke="#2b2118" stroke-width="2"/>
+
+  <!-- cupboard plinth -->
+  <rect x="170" y="700" width="460" height="18" fill="#6e4628" stroke="#2b2118" stroke-width="5"/>
+
+  <!-- cobbled floor -->
+  <rect x="0" y="718" width="800" height="82" fill="#cbbfa6"/>
+  <g fill="none" stroke="#7d7060" stroke-width="2.5">
+    <ellipse cx="60" cy="740" rx="26" ry="11"/>
+    <ellipse cx="130" cy="762" rx="30" ry="12"/>
+    <ellipse cx="220" cy="738" rx="24" ry="10"/>
+    <ellipse cx="300" cy="770" rx="28" ry="11"/>
+    <ellipse cx="390" cy="744" rx="26" ry="11"/>
+    <ellipse cx="480" cy="772" rx="30" ry="12"/>
+    <ellipse cx="570" cy="742" rx="24" ry="10"/>
+    <ellipse cx="650" cy="768" rx="28" ry="11"/>
+    <ellipse cx="740" cy="740" rx="26" ry="11"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="600" width="800" height="60" fill="#f4eee0" opacity="0.35"/>
+  <rect x="0" y="0" width="800" height="90" fill="#f4eee0" opacity="0.25"/>
+  <rect x="0" y="690" width="800" height="40" fill="#f4eee0" opacity="0.3"/>
+
+  <!-- signature P. -->
+  <path d="M732,722 V764 M732,722 H748 Q760,722 760,733 Q760,744 748,744 H732" fill="none" stroke="#2b2118" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="772" cy="764" r="3.5" fill="#2b2118"/>
+</svg>
