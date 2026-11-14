@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+  <!-- distant houses in fog -->
+  <g fill="#c9c2b3" stroke="#1d1a17" stroke-width="2" opacity="0.7">
+    <rect x="30" y="470" width="130" height="140"/>
+    <polygon points="30,470 95,420 160,470"/>
+    <rect x="600" y="490" width="160" height="120"/>
+    <polygon points="600,490 680,440 760,490"/>
+    <rect x="140" y="520" width="90" height="90"/>
+  </g>
+  <!-- tower -->
+  <rect x="300" y="200" width="200" height="450" fill="#8a7f70" stroke="#1d1a17" stroke-width="4"/>
+  <g stroke="#5e5549" stroke-width="2" fill="none">
+    <path d="M300 250 H500 M300 300 H500 M300 350 H500 M300 400 H500 M300 450 H500 M300 500 H500 M300 550 H500 M300 600 H500"/>
+    <path d="M340 200 V250 M380 250 V300 M420 200 V250 M460 250 V300 M340 300 V350 M380 350 V400 M420 300 V350 M460 350 V400"/>
+  </g>
+  <!-- roof -->
+  <polygon points="290,205 400,90 510,205" fill="#5b4a44" stroke="#1d1a17" stroke-width="4"/>
+  <line x1="400" y1="90" x2="400" y2="60" stroke="#1d1a17" stroke-width="4"/>
+  <!-- clock face -->
+  <circle cx="400" cy="300" r="92" fill="#3b3029" stroke="#1d1a17" stroke-width="4"/>
+  <circle cx="400" cy="300" r="80" fill="#f7f3e8" stroke="#1d1a17" stroke-width="3"/>
+  <g stroke="#1d1a17" stroke-width="3" stroke-linecap="round">
+    <line x1="400" y1="228" x2="400" y2="240"/>
+    <line x1="472" y1="300" x2="460" y2="300"/>
+    <line x1="400" y1="372" x2="400" y2="360"/>
+    <line x1="328" y1="300" x2="340" y2="300"/>
+    <line x1="449" y1="249" x2="441" y2="257"/>
+    <line x1="351" y1="249" x2="359" y2="257"/>
+    <line x1="449" y1="351" x2="441" y2="343"/>
+    <line x1="351" y1="351" x2="359" y2="343"/>
+  </g>
+  <!-- hour hand -->
+  <line x1="400" y1="300" x2="362" y2="282" stroke="#1d1a17" stroke-width="7" stroke-linecap="round"/>
+  <!-- bent minute hand -->
+  <polyline points="400,300 400,236 414,226" fill="none" stroke="#1d1a17" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="300" r="6" fill="#1d1a17"/>
+  <!-- cracks in glass -->
+  <g stroke="#5a5048" stroke-width="1.5" fill="none">
+    <path d="M400 300 L342 262 L326 236"/>
+    <path d="M342 262 L330 282 L316 290"/>
+    <path d="M400 300 L452 330 L470 356 L478 372"/>
+    <path d="M452 330 L440 344"/>
+    <path d="M400 300 L380 340 L372 372"/>
+  </g>
+  <!-- belfry opening and bell -->
+  <path d="M340 410 Q340 385 370 385 L430 385 Q460 385 460 410 V470 H340 Z" fill="#2b2521" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M376 440 Q376 412 400 412 Q424 412 424 440 L432 452 H368 Z" fill="#b08d4f" stroke="#1d1a17" stroke-width="2"/>
+  <!-- bell rope with fresh section -->
+  <line x1="400" y1="452" x2="400" y2="520" stroke="#1d1a17" stroke-width="2"/>
+  <line x1="400" y1="520" x2="400" y2="600" stroke="#e8dcc0" stroke-width="5"/>
+  <line x1="400" y1="520" x2="400" y2="600" stroke="#1d1a17" stroke-width="1"/>
+  <!-- door at base -->
+  <path d="M370 650 V600 Q370 585 400 585 Q430 585 430 600 V650 Z" fill="#3b3029" stroke="#1d1a17" stroke-width="3"/>
+  <!-- cobbles -->
+  <g stroke="#1d1a17" stroke-width="1.5">
+    <ellipse cx="90" cy="700" rx="36" ry="12" fill="#8c8478"/>
+    <ellipse cx="170" cy="716" rx="40" ry="13" fill="#7a7266"/>
+    <ellipse cx="250" cy="695" rx="34" ry="11" fill="#948b7d"/>
+    <ellipse cx="330" cy="728" rx="42" ry="14" fill="#7a7266"/>
+    <ellipse cx="420" cy="705" rx="38" ry="12" fill="#948b7d"/>
+    <ellipse cx="505" cy="724" rx="40" ry="13" fill="#8c8478"/>
+    <ellipse cx="590" cy="698" rx="36" ry="12" fill="#7a7266"/>
+    <ellipse cx="675" cy="718" rx="42" ry="13" fill="#948b7d"/>
+    <ellipse cx="740" cy="700" rx="34" ry="11" fill="#8c8478"/>
+    <ellipse cx="130" cy="762" rx="50" ry="14" fill="#7a7266"/>
+    <ellipse cx="290" cy="770" rx="56" ry="15" fill="#8c8478"/>
+    <ellipse cx="460" cy="765" rx="54" ry="14" fill="#7a7266"/>
+    <ellipse cx="640" cy="772" rx="56" ry="15" fill="#948b7d"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#f3ecdc" opacity="0.6">
+    <ellipse cx="400" cy="420" rx="420" ry="34"/>
+    <ellipse cx="150" cy="560" rx="260" ry="30"/>
+    <ellipse cx="660" cy="600" rx="260" ry="28"/>
+    <ellipse cx="400" cy="650" rx="380" ry="26"/>
+  </g>
+  <!-- signature -->
+  <text x="752" y="784" font-size="26" fill="#2b2521" text-anchor="end">P.</text>
+</svg>
