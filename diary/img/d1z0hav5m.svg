@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6df" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e9e6df" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fbe9a6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fbe9a6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdb"/>
+
+  <!-- distant sky wash -->
+  <rect x="0" y="0" width="800" height="360" fill="#d9d6cf" opacity="0.5"/>
+
+  <!-- far houses, faded -->
+  <g opacity="0.45" stroke="#3a342c" stroke-width="2" fill="#b9b2a4">
+    <polygon points="40,300 90,250 140,300 140,520 40,520"/>
+    <polygon points="150,320 200,280 250,320 250,500 150,500"/>
+    <polygon points="560,310 610,270 660,310 660,500 560,500"/>
+    <polygon points="670,290 720,250 770,290 770,520 670,520"/>
+  </g>
+
+  <!-- near houses -->
+  <g stroke="#2b2620" stroke-width="2.5" fill="#8f877a">
+    <polygon points="0,260 60,200 120,260 120,600 0,600"/>
+    <polygon points="680,240 740,180 800,240 800,610 680,610"/>
+  </g>
+  <g fill="#5b5349" stroke="#2b2620" stroke-width="1.5">
+    <rect x="30" y="360" width="30" height="40"/>
+    <rect x="80" y="360" width="22" height="40"/>
+    <rect x="710" y="350" width="30" height="40"/>
+    <rect x="752" y="350" width="22" height="40"/>
+  </g>
+
+  <!-- lane in perspective, cobbled -->
+  <polygon points="250,800 550,800 440,440 360,440" fill="#a39a8a" stroke="#2b2620" stroke-width="2.5"/>
+  <g fill="none" stroke="#5e5649" stroke-width="1.5">
+    <ellipse cx="400" cy="470" rx="22" ry="7"/>
+    <ellipse cx="370" cy="478" rx="18" ry="6"/>
+    <ellipse cx="432" cy="478" rx="18" ry="6"/>
+    <ellipse cx="350" cy="520" rx="28" ry="9"/>
+    <ellipse cx="400" cy="526" rx="26" ry="9"/>
+    <ellipse cx="452" cy="520" rx="28" ry="9"/>
+    <ellipse cx="310" cy="600" rx="40" ry="13"/>
+    <ellipse cx="400" cy="610" rx="38" ry="13"/>
+    <ellipse cx="490" cy="600" rx="40" ry="13"/>
+    <ellipse cx="270" cy="720" rx="54" ry="18"/>
+    <ellipse cx="400" cy="735" rx="52" ry="18"/>
+    <ellipse cx="530" cy="720" rx="54" ry="18"/>
+  </g>
+
+  <!-- fog band over the lane -->
+  <rect x="0" y="380" width="800" height="150" fill="url(#fog)"/>
+
+  <!-- halo glow -->
+  <circle cx="400" cy="265" r="150" fill="url(#glow)"/>
+
+  <!-- pedestal -->
+  <path d="M340 470 L460 470 L480 525 L320 525 Z" fill="#d6a52c" stroke="#2b2620" stroke-width="2.5"/>
+  <rect x="300" y="520" width="200" height="22" fill="#e2b640" stroke="#2b2620" stroke-width="2.5"/>
+
+  <!-- lap / crossed legs -->
+  <ellipse cx="400" cy="440" rx="112" ry="40" fill="#e0b449" stroke="#2b2620" stroke-width="2.5"/>
+
+  <!-- body -->
+  <path d="M292 452 Q276 350 330 312 L470 312 Q524 350 508 452 Q400 470 292 452 Z" fill="#e6bd55" stroke="#2b2620" stroke-width="2.5"/>
+
+  <!-- saffron cloth draped over shoulder and lap -->
+  <path d="M300 336 Q345 316 382 348 L372 462 Q330 474 296 452 Q310 390 300 336 Z" fill="#e8772e" stroke="#2b2620" stroke-width="2.5"/>
+  <path d="M382 348 Q430 330 468 344 Q490 390 508 452 Q460 466 418 456 Z" fill="#e8772e" stroke="#2b2620" stroke-width="2.5"/>
+  <path d="M330 390 Q350 420 372 430 M440 400 Q460 425 484 432" fill="none" stroke="#a7491a" stroke-width="2"/>
+
+  <!-- right hand resting on lap -->
+  <ellipse cx="452" cy="420" rx="22" ry="14" fill="#e6bd55" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- neck -->
+  <rect x="380" y="290" width="40" height="28" fill="#e0b449" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- halo ring -->
+  <ellipse cx="400" cy="265" rx="92" ry="102" fill="none" stroke="#f0c75a" stroke-width="8" opacity="0.75"/>
+  <ellipse cx="400" cy="265" rx="92" ry="102" fill="none" stroke="#2b2620" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- head -->
+  <circle cx="400" cy="265" r="52" fill="#e9c15e" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="400" cy="210" r="12" fill="#e0b449" stroke="#2b2620" stroke-width="2"/>
+
+  <!-- half-closed eyes, serene -->
+  <path d="M372 268 Q384 278 396 268" fill="none" stroke="#2b2620" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M404 268 Q416 278 428 268" fill="none" stroke="#2b2620" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- nose and calm mouth -->
+  <path d="M400 276 L398 290" fill="none" stroke="#2b2620" stroke-width="1.8"/>
+  <path d="M388 300 Q400 306 412 300" fill="none" stroke="#2b2620" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- ink contour accents on folds -->
+  <path d="M320 318 Q300 380 306 440" fill="none" stroke="#2b2620" stroke-width="1.5" opacity="0.6"/>
+  <path d="M482 318 Q500 380 494 440" fill="none" stroke="#2b2620" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- fog veil across the middle distance -->
+  <rect x="0" y="170" width="800" height="120" fill="#ebe8e1" opacity="0.35"/>
+  <rect x="0" y="600" width="800" height="90" fill="#ebe8e1" opacity="0.3"/>
+
+  <!-- foreground doorway and step, viewer's doorstep -->
+  <rect x="0" y="360" width="150" height="440" fill="#463c33" stroke="#1f1a16" stroke-width="3"/>
+  <rect x="14" y="380" width="122" height="420" fill="#5b4d41" stroke="#1f1a16" stroke-width="2"/>
+  <rect x="0" y="740" width="250" height="60" fill="#6f6556" stroke="#1f1a16" stroke-width="3"/>
+  <path d="M60 740 L70 800 M130 740 L126 800 M190 740 L196 800" stroke="#1f1a16" stroke-width="1.5" fill="none"/>
+
+  <!-- signature "P." in the bottom-right corner -->
+  <g fill="none" stroke="#2b2620" stroke-width="3" stroke-linecap="round">
+    <path d="M744 762 L744 786 M744 762 L754 762 Q762 762 762 770 Q762 778 754 778 L744 778"/>
+  </g>
+  <circle cx="770" cy="786" r="2.5" fill="#2b2620"/>
+</svg>
