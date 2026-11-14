@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Cottage front in the fog, seen from the doorway</title>
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe6d2"/>
+  <!-- scene inside the doorway opening -->
+  <defs>
+    <clipPath id="opening">
+      <rect x="120" y="90" width="560" height="710"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#opening)">
+    <!-- sky and fog -->
+    <rect x="120" y="90" width="560" height="710" fill="#d8dcd5"/>
+    <rect x="120" y="200" width="560" height="120" fill="#e9ebe5" opacity="0.7"/>
+    <!-- distant far cottage, faded by fog -->
+    <rect x="330" y="300" width="140" height="170" fill="#b9bfb8" opacity="0.8"/>
+    <path d="M320,305 L400,250 L480,305 Z" fill="#9aa39c" opacity="0.8"/>
+    <rect x="375" y="350" width="22" height="30" fill="#8c9590" opacity="0.8"/>
+    <rect x="425" y="350" width="22" height="30" fill="#8c9590" opacity="0.8"/>
+    <!-- left facade: our cottage front, with the crooked sign -->
+    <path d="M120,140 L300,360 L300,470 L120,800 Z" fill="#c9bba2"/>
+    <path d="M120,140 L300,360 L300,372 L120,152 Z" fill="#5b4a3c"/>
+    <path d="M120,140 L300,360 L300,470 L120,800" fill="none" stroke="#2b2622" stroke-width="3"/>
+    <!-- stone courses -->
+    <g fill="none" stroke="#7d6e5c" stroke-width="1.5">
+      <path d="M120,220 L300,420"/>
+      <path d="M120,300 L300,500"/>
+      <path d="M120,380 L300,580"/>
+      <path d="M120,460 L300,660"/>
+      <path d="M120,540 L300,740"/>
+    </g>
+    <!-- window on left facade -->
+    <path d="M190,330 L250,400 L250,450 L190,380 Z" fill="#6f7b78"/>
+    <path d="M190,330 L250,400" stroke="#2b2622" stroke-width="2"/>
+    <!-- crooked sign hanging on the wall -->
+    <line x1="150" y1="250" x2="200" y2="240" stroke="#2b2622" stroke-width="3"/>
+    <line x1="200" y1="240" x2="200" y2="262" stroke="#2b2622" stroke-width="2"/>
+    <g transform="translate(170,300) rotate(-7)">
+      <rect x="-70" y="-42" width="140" height="84" rx="4" fill="#c9962f" stroke="#2b2622" stroke-width="3"/>
+      <rect x="-60" y="-32" width="120" height="64" fill="none" stroke="#2b2622" stroke-width="1.5"/>
+      <path d="M-50,-8 q12,-10 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#3d6b7a" stroke-width="3"/>
+      <path d="M-50,8 q12,-10 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#3d6b7a" stroke-width="3"/>
+      <path d="M-14,-20 q14,-8 26,0 q-12,8 -26,0 Z" fill="#2b2622"/>
+      <path d="M12,-20 l8,-6 l0,12 Z" fill="#2b2622"/>
+    </g>
+    <!-- right facade across the lane -->
+    <path d="M680,140 L500,360 L500,470 L680,800 Z" fill="#b5a88f"/>
+    <path d="M680,140 L500,360 L500,372 L680,152 Z" fill="#4a3d32"/>
+    <path d="M680,140 L500,360 L500,470 L680,800" fill="none" stroke="#2b2622" stroke-width="3"/>
+    <path d="M590,400 L530,440 L530,480 L590,440 Z" fill="#6f7b78"/>
+    <!-- cobbled lane -->
+    <path d="M120,800 L300,470 L500,470 L680,800 Z" fill="#a7a195"/>
+    <g fill="none" stroke="#5e584e" stroke-width="2">
+      <ellipse cx="330" cy="500" rx="18" ry="7"/>
+      <ellipse cx="420" cy="505" rx="20" ry="7"/>
+      <ellipse cx="300" cy="560" rx="26" ry="10"/>
+      <ellipse cx="400" cy="570" rx="28" ry="10"/>
+      <ellipse cx="500" cy="560" rx="22" ry="9"/>
+      <ellipse cx="250" cy="650" rx="36" ry="13"/>
+      <ellipse cx="380" cy="665" rx="40" ry="14"/>
+      <ellipse cx="540" cy="650" rx="34" ry="13"/>
+      <ellipse cx="200" cy="760" rx="50" ry="18"/>
+      <ellipse cx="420" cy="770" rx="56" ry="18"/>
+      <ellipse cx="610" cy="750" rx="46" ry="16"/>
+    </g>
+    <!-- fog bands drifting over the lane -->
+    <rect x="120" y="440" width="560" height="50" fill="#e9ebe5" opacity="0.6"/>
+    <rect x="120" y="520" width="560" height="70" fill="#e9ebe5" opacity="0.4"/>
+    <rect x="120" y="640" width="560" height="60" fill="#e9ebe5" opacity="0.3"/>
+  </g>
+  <!-- doorway frame in ink -->
+  <path d="M0,0 H120 V800 H0 Z" fill="#4a3b2e"/>
+  <path d="M680,0 H800 V800 H680 Z" fill="#4a3b2e"/>
+  <path d="M0,0 H800 V90 H0 Z" fill="#4a3b2e"/>
+  <path d="M120,90 H680 V800 M120,90 V800" fill="none" stroke="#2b2622" stroke-width="4"/>
+  <line x1="120" y1="800" x2="680" y2="800" stroke="#2b2622" stroke-width="4"/>
+  <!-- lintel stone ridge -->
+  <path d="M0,90 H800" stroke="#2b2622" stroke-width="3"/>
+  <!-- ink contour edges -->
+  <path d="M120,140 L300,360 L300,470 L120,800" fill="none" stroke="#2b2622" stroke-width="3" opacity="0"/>
+  <!-- signature P. in corner, on the dark jamb -->
+  <g fill="none" stroke="#efe6d2" stroke-width="3" stroke-linecap="round">
+    <path d="M730,735 V763 M730,735 H742 A8,8 0 0 1 742,751 H730"/>
+  </g>
+  <circle cx="752" cy="762" r="2.5" fill="#efe6d2"/>
+</svg>
