@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+
+  <!-- distant fog bands -->
+  <rect x="0" y="330" width="800" height="150" fill="#e4e0d6" opacity="0.8"/>
+  <ellipse cx="150" cy="360" rx="180" ry="26" fill="#f7f4ec" opacity="0.85"/>
+  <ellipse cx="640" cy="400" rx="200" ry="30" fill="#f7f4ec" opacity="0.85"/>
+
+  <!-- lane of cobbles receding toward the figure -->
+  <polygon points="0,800 800,800 540,470 260,470" fill="#bdb5a3" stroke="#2b2622" stroke-width="3"/>
+  <g fill="#9d957f" stroke="#2b2622" stroke-width="1.5">
+    <ellipse cx="380" cy="500" rx="18" ry="7"/>
+    <ellipse cx="430" cy="520" rx="22" ry="8"/>
+    <ellipse cx="300" cy="545" rx="26" ry="9"/>
+    <ellipse cx="500" cy="560" rx="28" ry="10"/>
+    <ellipse cx="210" cy="620" rx="34" ry="12"/>
+    <ellipse cx="600" cy="640" rx="36" ry="12"/>
+    <ellipse cx="400" cy="700" rx="44" ry="14"/>
+    <ellipse cx="260" cy="740" rx="40" ry="13"/>
+    <ellipse cx="560" cy="760" rx="42" ry="14"/>
+    <ellipse cx="330" cy="600" rx="24" ry="9"/>
+    <ellipse cx="470" cy="620" rx="26" ry="9"/>
+  </g>
+
+  <!-- halo ring -->
+  <ellipse cx="400" cy="262" rx="100" ry="112" fill="none" stroke="#d4a332" stroke-width="10" opacity="0.7"/>
+  <ellipse cx="400" cy="262" rx="100" ry="112" fill="none" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- lap-sitting body in saffron cloth -->
+  <path d="M320 330 Q400 300 480 330 L540 440 Q400 500 260 440 Z" fill="#e8842a" stroke="#2b2622" stroke-width="3"/>
+  <path d="M352 345 Q400 360 448 345" fill="none" stroke="#b5571a" stroke-width="3"/>
+  <path d="M300 420 Q400 455 500 420" fill="none" stroke="#b5571a" stroke-width="2.5"/>
+  <ellipse cx="400" cy="440" rx="112" ry="40" fill="#f0973c" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- golden hands resting in lap -->
+  <ellipse cx="350" cy="420" rx="22" ry="14" fill="#d9a92e" stroke="#2b2622" stroke-width="2.5"/>
+  <ellipse cx="450" cy="420" rx="22" ry="14" fill="#d9a92e" stroke="#2b2622" stroke-width="2.5"/>
+
+  <!-- neck and round head -->
+  <rect x="382" y="300" width="36" height="24" fill="#d9a92e" stroke="#2b2622" stroke-width="2.5"/>
+  <circle cx="400" cy="262" r="52" fill="#d9a92e" stroke="#2b2622" stroke-width="3"/>
+  <!-- small bump on top -->
+  <circle cx="400" cy="208" r="12" fill="#d9a92e" stroke="#2b2622" stroke-width="2.5"/>
+
+  <!-- half-closed eyes, calm -->
+  <path d="M372 262 Q384 272 396 262" fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+  <path d="M404 262 Q416 272 428 262" fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+  <path d="M372 258 Q384 262 396 258" fill="none" stroke="#2b2622" stroke-width="1.5" opacity="0.6"/>
+  <path d="M404 258 Q416 262 428 258" fill="none" stroke="#2b2622" stroke-width="1.5" opacity="0.6"/>
+  <!-- small nose and gentle mouth -->
+  <path d="M400 270 L397 284 L403 284" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <path d="M388 296 Q400 302 412 296" fill="none" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- golden lotus pedestal -->
+  <path d="M250 500 Q400 470 550 500 L580 530 Q400 555 220 530 Z" fill="#d9a92e" stroke="#2b2622" stroke-width="3"/>
+  <path d="M290 520 Q400 500 510 520" fill="none" stroke="#2b2622" stroke-width="2" opacity="0.6"/>
+  <path d="M215 530 Q400 560 585 530 L590 548 Q400 578 210 548 Z" fill="#c4922a" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- penguin for scale, at the foot of the lane -->
+  <g stroke="#2b2622" stroke-width="2.5">
+    <ellipse cx="150" cy="650" rx="30" ry="46" fill="#2b2622"/>
+    <ellipse cx="150" cy="658" rx="16" ry="30" fill="#f6f3ea" stroke="none"/>
+    <ellipse cx="136" cy="622" rx="5" ry="6" fill="#f6f3ea" stroke="none"/>
+    <ellipse cx="164" cy="622" rx="5" ry="6" fill="#f6f3ea" stroke="none"/>
+    <path d="M144 630 L156 630 L150 640 Z" fill="#e0902e"/>
+    <path d="M136 694 L128 702 L142 700 Z" fill="#e0902e"/>
+    <path d="M164 694 L172 702 L158 700 Z" fill="#e0902e"/>
+  </g>
+
+  <!-- cottage window frame, seen from inside -->
+  <rect x="10" y="10" width="780" height="780" fill="none" stroke="#5a4632" stroke-width="28"/>
+  <rect x="0" y="740" width="800" height="60" fill="#6e5840" stroke="#2b2622" stroke-width="3"/>
+  <rect x="24" y="24" width="752" height="752" fill="none" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- artist's mark "P." drawn as strokes -->
+  <g fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(44,760)">
+    <path d="M0 18 V0 H8 A6 6 0 0 1 8 12 H0"/>
+    <circle cx="16" cy="18" r="1.8" fill="#2b2622"/>
+  </g>
+</svg>
