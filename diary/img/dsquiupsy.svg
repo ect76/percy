@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+  <!-- back wall of cottage -->
+  <rect x="0" y="0" width="800" height="556" fill="#d6c7a8"/>
+  <!-- stone block lines -->
+  <g fill="none" stroke="#9c8c70" stroke-width="2" opacity="0.7">
+    <path d="M0 90 H800 M0 180 H800 M0 270 H800 M0 360 H800 M0 450 H800"/>
+    <path d="M120 0 V90 M300 90 V180 M60 180 V270 M240 270 V360 M440 90 V180 M600 180 V270 M160 360 V450 M520 360 V450 M680 0 V90"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#f7f3ea" opacity="0.55">
+    <ellipse cx="400" cy="250" rx="520" ry="60"/>
+    <ellipse cx="180" cy="420" rx="300" ry="45"/>
+    <ellipse cx="640" cy="470" rx="320" ry="40"/>
+  </g>
+
+  <!-- table front and legs -->
+  <rect x="90" y="640" width="22" height="140" fill="#5a3b24" stroke="#2b2118" stroke-width="3"/>
+  <rect x="688" y="640" width="22" height="140" fill="#5a3b24" stroke="#2b2118" stroke-width="3"/>
+  <rect x="60" y="580" width="700" height="60" fill="#6e4a2e" stroke="#2b2118" stroke-width="3"/>
+  <!-- table top -->
+  <rect x="60" y="556" width="700" height="24" fill="#8b5e3c" stroke="#2b2118" stroke-width="3"/>
+  <path d="M120 592 H160 M300 596 H360" stroke="#4a301b" stroke-width="2" fill="none"/>
+
+  <!-- loaf -->
+  <path d="M450 556 C448 480 506 446 580 446 C656 446 714 478 712 556 Z" fill="#c98a4b" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M490 520 C520 486 560 474 600 472" fill="none" stroke="#f0d9a8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <g stroke="#8a5628" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M530 470 L548 500"/>
+    <path d="M570 462 L590 494"/>
+    <path d="M612 466 L630 496"/>
+    <path d="M652 480 L668 506"/>
+  </g>
+  <g fill="#f7f1e4" opacity="0.6">
+    <circle cx="520" cy="510" r="2.5"/>
+    <circle cx="600" cy="520" r="2"/>
+    <circle cx="680" cy="530" r="2.5"/>
+    <circle cx="545" cy="536" r="2"/>
+  </g>
+
+  <!-- bread peel, leaning: blade on table, handle against the wall -->
+  <g transform="translate(380 376) rotate(25)">
+    <!-- handle -->
+    <path d="M-9 0 L-9 -270 Q-9 -282 0 -282 Q9 -282 9 -270 L9 0 Z" fill="#9a6b3f" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+    <!-- hairline split near collar -->
+    <path d="M-4 -44 L3 -68" stroke="#2b2118" stroke-width="1.5" fill="none"/>
+    <!-- brass pin -->
+    <circle cx="0" cy="-30" r="3.5" fill="#c9a24a" stroke="#2b2118" stroke-width="1.5"/>
+    <!-- brass collar -->
+    <rect x="-14" y="-18" width="28" height="20" rx="3" fill="#c9a24a" stroke="#2b2118" stroke-width="3"/>
+    <!-- blade -->
+    <path d="M-30 2 Q-60 40 -58 110 L-58 150 Q-58 192 0 194 Q58 192 58 150 L58 110 Q60 40 30 2 Z" fill="#e9d3a6" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+    <!-- worn pale edge -->
+    <path d="M-58 150 Q-58 192 0 194 Q58 192 58 150" fill="none" stroke="#fbf3df" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    <path d="M-40 60 Q-46 100 -46 130" fill="none" stroke="#f6ead0" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <!-- old scorch marks along the edge -->
+    <g stroke="#5e3a1e" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M-30 168 L-24 176"/>
+      <path d="M-8 180 L-2 186"/>
+      <path d="M14 180 L20 186"/>
+      <path d="M38 166 L44 172"/>
+      <path d="M50 130 L54 138"/>
+    </g>
+  </g>
+
+  <!-- signature -->
+  <text x="758" y="782" font-size="22" text-anchor="end" fill="#2b2118">P.</text>
+</svg>
