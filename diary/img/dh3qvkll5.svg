@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+
+  <!-- back wall -->
+  <rect x="110" y="90" width="580" height="390" fill="#e6d8bc" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- empty shelves on left wall -->
+  <g stroke="#2a2420" stroke-width="3" fill="#8b6040">
+    <rect x="150" y="210" width="260" height="12"/>
+    <rect x="150" y="310" width="260" height="12"/>
+    <rect x="150" y="410" width="260" height="12"/>
+  </g>
+  <g stroke="#2a2420" stroke-width="2" fill="none">
+    <line x1="170" y1="222" x2="170" y2="410"/>
+    <line x1="390" y1="222" x2="390" y2="410"/>
+  </g>
+  <!-- shelf dust shadows -->
+  <g fill="#d6c6a4">
+    <rect x="152" y="222" width="256" height="6"/>
+    <rect x="152" y="322" width="256" height="6"/>
+    <rect x="152" y="422" width="256" height="6"/>
+  </g>
+
+  <!-- yellowed calendar -->
+  <rect x="480" y="130" width="150" height="190" fill="#f1e2b0" stroke="#2a2420" stroke-width="3"/>
+  <rect x="480" y="130" width="150" height="30" fill="#d9c27e" stroke="#2a2420" stroke-width="2"/>
+  <g fill="#c9b07a" opacity="0.6">
+    <rect x="480" y="160" width="150" height="4"/>
+    <rect x="480" y="300" width="150" height="20"/>
+  </g>
+  <g fill="#6b5d48">
+    <circle cx="500" cy="185" r="2"/><circle cx="520" cy="185" r="2"/><circle cx="540" cy="185" r="2"/><circle cx="560" cy="185" r="2"/><circle cx="580" cy="185" r="2"/><circle cx="600" cy="185" r="2"/><circle cx="620" cy="185" r="2"/>
+    <circle cx="500" cy="205" r="2"/><circle cx="520" cy="205" r="2"/><circle cx="540" cy="205" r="2"/><circle cx="560" cy="205" r="2"/><circle cx="580" cy="205" r="2"/><circle cx="600" cy="205" r="2"/><circle cx="620" cy="205" r="2"/>
+    <circle cx="500" cy="225" r="2"/><circle cx="520" cy="225" r="2"/><circle cx="540" cy="225" r="2"/><circle cx="560" cy="225" r="2"/><circle cx="580" cy="225" r="2"/><circle cx="600" cy="225" r="2"/><circle cx="620" cy="225" r="2"/>
+    <circle cx="500" cy="245" r="2"/><circle cx="520" cy="245" r="2"/><circle cx="540" cy="245" r="2"/><circle cx="560" cy="245" r="2"/><circle cx="600" cy="245" r="2"/><circle cx="620" cy="245" r="2"/>
+    <circle cx="500" cy="265" r="2"/><circle cx="520" cy="265" r="2"/><circle cx="540" cy="265" r="2"/><circle cx="560" cy="265" r="2"/><circle cx="580" cy="265" r="2"/><circle cx="600" cy="265" r="2"/><circle cx="620" cy="265" r="2"/>
+  </g>
+  <!-- ringed date, twice over -->
+  <g fill="none" stroke="#b3261e" stroke-width="2.5">
+    <circle cx="580" cy="245" r="9"/>
+    <circle cx="580" cy="245" r="12"/>
+  </g>
+
+  <!-- counter top -->
+  <rect x="100" y="470" width="600" height="30" fill="#9a6b43" stroke="#2a2420" stroke-width="3"/>
+  <!-- counter front -->
+  <rect x="100" y="500" width="600" height="160" fill="#7a4f2e" stroke="#2a2420" stroke-width="3"/>
+  <g stroke="#2a2420" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="100" y1="540" x2="700" y2="540"/>
+    <line x1="100" y1="600" x2="700" y2="600"/>
+  </g>
+
+  <!-- empty bread tray -->
+  <ellipse cx="360" cy="468" rx="70" ry="8" fill="#b89a6c" stroke="#2a2420" stroke-width="2"/>
+
+  <!-- one loaf's crumbs -->
+  <g fill="#c9a46a" stroke="#2a2420" stroke-width="1">
+    <circle cx="308" cy="462" r="3"/>
+    <circle cx="322" cy="458" r="2.5"/>
+    <circle cx="335" cy="466" r="4"/>
+    <circle cx="349" cy="460" r="2"/>
+    <circle cx="362" cy="464" r="3.5"/>
+    <circle cx="378" cy="457" r="2"/>
+    <circle cx="390" cy="468" r="3"/>
+    <circle cx="403" cy="461" r="2.5"/>
+    <circle cx="416" cy="466" r="2"/>
+    <circle cx="331" cy="477" r="2"/>
+    <circle cx="356" cy="479" r="2.5"/>
+    <circle cx="384" cy="478" r="2"/>
+  </g>
+
+  <!-- star cutter -->
+  <polygon points="560,394 568.8,417.9 594.2,418.9 574.3,434.6 581.2,459.1 560,445 538.8,459.1 545.7,434.6 525.8,418.9 551.2,417.9" fill="#b9bcc2" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="596" y="424" width="44" height="10" rx="4" fill="#8e9298" stroke="#2a2420" stroke-width="2"/>
+  <!-- dried dough crumbs on inner edge -->
+  <g fill="#e2c894" stroke="#2a2420" stroke-width="0.8">
+    <circle cx="553" cy="425" r="2"/>
+    <circle cx="560" cy="432" r="2.5"/>
+    <circle cx="567" cy="425" r="2"/>
+    <circle cx="545" cy="433" r="1.5"/>
+  </g>
+
+  <!-- cobbled floor -->
+  <g fill="#bfb6a6" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="170" cy="725" rx="50" ry="18"/>
+    <ellipse cx="300" cy="750" rx="60" ry="20"/>
+    <ellipse cx="450" cy="725" rx="48" ry="16"/>
+    <ellipse cx="600" cy="752" rx="58" ry="19"/>
+    <ellipse cx="720" cy="722" rx="40" ry="15"/>
+  </g>
+
+  <!-- fog bands -->
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="400" cy="60" rx="420" ry="46"/>
+    <ellipse cx="60" cy="400" rx="90" ry="180"/>
+    <ellipse cx="760" cy="420" rx="70" ry="160"/>
+    <ellipse cx="400" cy="790" rx="460" ry="50"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="784" font-family="serif" font-size="22" fill="#2a2420">P.</text>
+</svg>
