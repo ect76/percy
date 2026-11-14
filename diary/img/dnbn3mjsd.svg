@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and wall -->
+  <rect width="800" height="800" fill="#efe9dc"/>
+  <rect x="40" y="40" width="720" height="720" fill="#dcd4c2" stroke="#2a2a2a" stroke-width="3"/>
+
+  <!-- window glass: pale grey light -->
+  <rect x="220" y="110" width="360" height="290" fill="#c9cfcd" stroke="#2a2a2a" stroke-width="4"/>
+  <!-- fog bands outside -->
+  <rect x="220" y="130" width="360" height="40" fill="#eef1ef" opacity="0.7"/>
+  <rect x="220" y="200" width="360" height="30" fill="#e6eae8" opacity="0.6"/>
+  <rect x="220" y="260" width="360" height="40" fill="#eef1ef" opacity="0.5"/>
+  <!-- cobbles seen through fog -->
+  <g fill="none" stroke="#8d9391" stroke-width="2" opacity="0.7">
+    <ellipse cx="260" cy="350" rx="14" ry="7"/>
+    <ellipse cx="300" cy="352" rx="14" ry="7"/>
+    <ellipse cx="340" cy="350" rx="14" ry="7"/>
+    <ellipse cx="380" cy="352" rx="14" ry="7"/>
+    <ellipse cx="420" cy="350" rx="14" ry="7"/>
+    <ellipse cx="460" cy="352" rx="14" ry="7"/>
+    <ellipse cx="500" cy="350" rx="14" ry="7"/>
+    <ellipse cx="540" cy="352" rx="14" ry="7"/>
+    <ellipse cx="280" cy="378" rx="14" ry="7"/>
+    <ellipse cx="320" cy="380" rx="14" ry="7"/>
+    <ellipse cx="360" cy="378" rx="14" ry="7"/>
+    <ellipse cx="400" cy="380" rx="14" ry="7"/>
+    <ellipse cx="440" cy="378" rx="14" ry="7"/>
+    <ellipse cx="480" cy="380" rx="14" ry="7"/>
+    <ellipse cx="520" cy="378" rx="14" ry="7"/>
+  </g>
+  <!-- grime smudges on glass -->
+  <g fill="#8c8f88" opacity="0.25">
+    <ellipse cx="250" cy="150" rx="40" ry="18"/>
+    <ellipse cx="540" cy="220" rx="50" ry="22"/>
+    <ellipse cx="300" cy="300" rx="30" ry="14"/>
+    <ellipse cx="520" cy="130" rx="26" ry="12"/>
+  </g>
+  <!-- window mullions -->
+  <line x1="400" y1="110" x2="400" y2="400" stroke="#2a2a2a" stroke-width="6"/>
+  <line x1="220" y1="255" x2="580" y2="255" stroke="#2a2a2a" stroke-width="6"/>
+
+  <!-- ceiling pipe and drip -->
+  <rect x="352" y="40" width="10" height="110" fill="#8a8f8c" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="346" y="140" width="22" height="10" fill="#8a8f8c" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M357 152 q7 14 0 22 q-7 -8 0 -22 z" fill="#7fa3b5" stroke="#2a2a2a" stroke-width="1.5"/>
+  <path d="M357 200 q5 10 0 16 q-5 -6 0 -16 z" fill="#7fa3b5" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- empty shelves -->
+  <rect x="120" y="440" width="560" height="14" fill="#9a7船"/>
+  <rect x="120" y="440" width="560" height="14" fill="#9a7a56" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="120" y="520" width="560" height="14" fill="#9a7a56" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- wet sheen on lower shelf -->
+  <rect x="150" y="520" width="500" height="4" fill="#d8e4e6" opacity="0.8"/>
+  <rect x="120" y="440" width="10" height="94" fill="#7a5a3c" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="670" y="440" width="10" height="94" fill="#7a5a3c" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- drip cup: no spout, no hole -->
+  <path d="M370 470 L430 470 L424 520 L376 520 Z" fill="#c8bfa9" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="400" cy="470" rx="30" ry="5" fill="#b2a88f" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- drips falling into cup -->
+  <path d="M400 480 q4 8 0 12 q-4 -4 0 -12 z" fill="#7fa3b5"/>
+  <path d="M398 440 q3 6 0 9 q-3 -3 0 -9 z" fill="#7fa3b5"/>
+  <!-- wet ring marks on shelf -->
+  <ellipse cx="400" cy="524" rx="36" ry="4" fill="#9fb8bf" opacity="0.6"/>
+
+  <!-- counter -->
+  <rect x="100" y="560" width="600" height="120" fill="#7a5a3c" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="90" y="552" width="620" height="24" fill="#a07c56" stroke="#2a2a2a" stroke-width="3"/>
+  <line x1="200" y1="600" x2="200" y2="680" stroke="#5c4330" stroke-width="3"/>
+  <line x1="400" y1="600" x2="400" y2="680" stroke="#5c4330" stroke-width="3"/>
+  <line x1="600" y1="600" x2="600" y2="680" stroke="#5c4330" stroke-width="3"/>
+
+  <!-- the five things on the counter -->
+  <!-- 1: loaf -->
+  <ellipse cx="180" cy="538" rx="42" ry="18" fill="#c99a5b" stroke="#2a2a2a" stroke-width="3"/>
+  <!-- 2: bell -->
+  <path d="M290 536 q0 -30 22 -30 q22 0 22 30 Z" fill="#b5a46a" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="284" y="536" width="48" height="6" fill="#b5a46a" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 3: scale -->
+  <line x1="450" y1="510" x2="450" y2="552" stroke="#2a2a2a" stroke-width="3"/>
+  <line x1="420" y1="516" x2="480" y2="516" stroke="#2a2a2a" stroke-width="3"/>
+  <path d="M410 530 q10 14 20 0 Z" fill="#d6cfbf" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M470 530 q10 14 20 0 Z" fill="#d6cfbf" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 4: jar -->
+  <rect x="540" y="500" width="40" height="52" rx="6" fill="#a9c2b4" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="544" y="490" width="32" height="12" fill="#6e5a46" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 5: tray of rolls -->
+  <rect x="620" y="544" width="60" height="10" fill="#8f8f88" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="634" cy="538" r="7" fill="#d9a86c" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="654" cy="538" r="7" fill="#d9a86c" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="668" cy="536" r="6" fill="#d9a86c" stroke="#2a2a2a" stroke-width="2"/>
+
+  <!-- floor -->
+  <rect x="40" y="680" width="720" height="80" fill="#c4bba6" stroke="#2a2a2a" stroke-width="3"/>
+  <g fill="none" stroke="#8f8673" stroke-width="2">
+    <ellipse cx="120" cy="712" rx="22" ry="10"/>
+    <ellipse cx="200" cy="730" rx="22" ry="10"/>
+    <ellipse cx="290" cy="712" rx="22" ry="10"/>
+    <ellipse cx="380" cy="736" rx="22" ry="10"/>
+    <ellipse cx="470" cy="712" rx="22" ry="10"/>
+    <ellipse cx="560" cy="732" rx="22" ry="10"/>
+    <ellipse cx="650" cy="712" rx="22" ry="10"/>
+  </g>
+
+  <!-- signature -->
+  <text x="716" y="772" font-family="serif" font-size="22" fill="#2a2a2a">P.</text>
+</svg>
