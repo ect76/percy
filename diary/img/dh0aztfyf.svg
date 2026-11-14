@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- distant fog banks -->
+  <rect x="0" y="120" width="800" height="90" fill="#dcd9cf" opacity="0.6"/>
+  <rect x="0" y="180" width="800" height="50" fill="#e9e6dc" opacity="0.7"/>
+  <rect x="0" y="560" width="800" height="60" fill="#e6e2d6" opacity="0.6"/>
+
+  <!-- cobbled lane -->
+  <rect x="0" y="640" width="800" height="160" fill="#8f8a80"/>
+  <g fill="#7b766c" stroke="#2a2521" stroke-width="2">
+    <ellipse cx="80" cy="665" rx="30" ry="12"/>
+    <ellipse cx="170" cy="668" rx="28" ry="11"/>
+    <ellipse cx="260" cy="662" rx="30" ry="12"/>
+    <ellipse cx="560" cy="664" rx="30" ry="12"/>
+    <ellipse cx="660" cy="668" rx="28" ry="11"/>
+    <ellipse cx="740" cy="662" rx="32" ry="12"/>
+    <ellipse cx="40" cy="710" rx="36" ry="14"/>
+    <ellipse cx="140" cy="720" rx="34" ry="13"/>
+    <ellipse cx="240" cy="712" rx="36" ry="14"/>
+    <ellipse cx="350" cy="724" rx="34" ry="13"/>
+    <ellipse cx="470" cy="716" rx="36" ry="14"/>
+    <ellipse cx="580" cy="722" rx="34" ry="13"/>
+    <ellipse cx="690" cy="712" rx="36" ry="14"/>
+    <ellipse cx="90" cy="766" rx="44" ry="16"/>
+    <ellipse cx="230" cy="772" rx="42" ry="16"/>
+    <ellipse cx="380" cy="766" rx="44" ry="16"/>
+    <ellipse cx="530" cy="772" rx="42" ry="16"/>
+    <ellipse cx="680" cy="766" rx="44" ry="16"/>
+  </g>
+
+  <!-- workshop wall -->
+  <rect x="180" y="300" width="440" height="342" fill="#c9b8a0" stroke="#2a2521" stroke-width="4"/>
+
+  <!-- roof -->
+  <polygon points="165,305 400,200 635,305" fill="#6e5a4a" stroke="#2a2521" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- weathervane pole and kite -->
+  <line x1="400" y1="200" x2="400" y2="150" stroke="#2a2521" stroke-width="3"/>
+  <polygon points="400,112 418,140 400,180 382,140" fill="#c0503a" stroke="#2a2521" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="400" y1="112" x2="400" y2="180" stroke="#2a2521" stroke-width="2"/>
+  <line x1="382" y1="140" x2="418" y2="140" stroke="#2a2521" stroke-width="2"/>
+  <line x1="400" y1="180" x2="400" y2="196" stroke="#2a2521" stroke-width="3"/>
+
+  <!-- sign board -->
+  <rect x="250" y="236" width="300" height="44" fill="#3d5a4a" stroke="#2a2521" stroke-width="4"/>
+  <!-- the S -->
+  <path d="M 392 252 C 378 244 362 250 366 262 C 370 272 396 268 398 280 C 402 292 386 300 372 292" fill="none" stroke="#efe6cc" stroke-width="7" stroke-linecap="round"/>
+  <!-- repainted patch over the S -->
+  <rect x="356" y="247" width="48" height="36" fill="#4f7060" opacity="0.85"/>
+  <path d="M 392 252 C 378 244 362 250 366 262 C 370 272 396 268 398 280 C 402 292 386 300 372 292" fill="none" stroke="#efe6cc" stroke-width="7" stroke-linecap="round"/>
+  <!-- ghost of the old letter -->
+  <path d="M 384 254 C 372 248 364 256 370 264" fill="none" stroke="#c9b8a0" stroke-width="2" opacity="0.5"/>
+
+  <!-- wide doors: left one ajar, showing dark interior and table edge -->
+  <polygon points="262,440 332,452 332,626 262,640" fill="#2b2622" stroke="#2a2521" stroke-width="4"/>
+  <rect x="272" y="548" width="50" height="12" fill="#e8d6a8"/>
+  <line x1="272" y1="560" x2="272" y2="636" stroke="#e8d6a8" stroke-width="3"/>
+  <!-- right door, closed -->
+  <rect x="332" y="440" width="188" height="200" fill="#7a4f36" stroke="#2a2521" stroke-width="4"/>
+  <rect x="348" y="458" width="72" height="72" fill="none" stroke="#2a2521" stroke-width="3"/>
+  <rect x="432" y="458" width="72" height="72" fill="none" stroke="#2a2521" stroke-width="3"/>
+  <rect x="348" y="548" width="72" height="80" fill="none" stroke="#2a2521" stroke-width="3"/>
+  <rect x="432" y="548" width="72" height="80" fill="none" stroke="#2a2521" stroke-width="3"/>
+  <circle cx="512" cy="550" r="4" fill="#2a2521"/>
+
+  <!-- cracked front window with yellow tape -->
+  <rect x="200" y="330" width="110" height="90" fill="#bcd3d6" stroke="#2a2521" stroke-width="4"/>
+  <g stroke="#2a2521" stroke-width="1.5" fill="none">
+    <polyline points="200,360 240,352 262,372 310,366"/>
+    <polyline points="240,352 232,330"/>
+    <polyline points="262,372 282,420"/>
+    <polyline points="240,352 252,392 228,420"/>
+  </g>
+  <g fill="#e8c84a" stroke="#2a2521" stroke-width="1.5" opacity="0.9">
+    <rect x="196" y="342" width="130" height="12" transform="rotate(-24 260 348)"/>
+    <rect x="236" y="330" width="12" height="90" transform="rotate(20 242 375)"/>
+  </g>
+
+  <!-- fog drifting over the foot of the building -->
+  <rect x="150" y="600" width="520" height="60" fill="#e9e6dc" opacity="0.55"/>
+
+  <!-- signature -->
+  <text x="752" y="778" font-size="24" fill="#2a2521" text-anchor="end">P.</text>
+</svg>
