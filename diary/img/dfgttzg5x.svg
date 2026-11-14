@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="cobbles" width="28" height="22" patternUnits="userSpaceOnUse">
+      <rect width="28" height="22" fill="#b9b1a2"/>
+      <ellipse cx="7" cy="6" rx="8" ry="5" fill="#a39a8a" stroke="#4a4540" stroke-width="1.2"/>
+      <ellipse cx="22" cy="5" rx="6" ry="4" fill="#c4bcad" stroke="#4a4540" stroke-width="1.2"/>
+      <ellipse cx="14" cy="17" rx="8" ry="4.5" fill="#aaa191" stroke="#4a4540" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <!-- paper and sky -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+  <rect x="0" y="0" width="800" height="360" fill="#dde3e6"/>
+
+  <!-- distant bell tower at the end of the lane -->
+  <polygon points="370,130 430,130 400,58" fill="#54585e" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="372" y="128" width="56" height="46" fill="#6e7277" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="385" y="140" width="12" height="26" fill="#dde3e6" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="403" y="140" width="12" height="26" fill="#dde3e6" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="375" y="174" width="50" height="170" fill="#8c8f94" stroke="#2b2b2b" stroke-width="3"/>
+  <circle cx="400" cy="210" r="14" fill="#f2ead8" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="400" y1="210" x2="400" y2="200" stroke="#2b2b2b" stroke-width="2"/>
+  <line x1="400" y1="210" x2="408" y2="214" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="380" y="300" width="40" height="44" fill="#6b6f75" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- distant house on the right, softened -->
+  <polygon points="600,380 710,300 800,370 800,380" fill="#8f9598" stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="620" y="380" width="180" height="250" fill="#c9c2b5" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="650" y="420" width="36" height="46" fill="#9fb4b8" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="716" y="420" width="36" height="46" fill="#9fb4b8" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- fog bank over the distance -->
+  <rect x="0" y="300" width="800" height="110" fill="#eef1f2" opacity="0.7"/>
+  <rect x="0" y="380" width="800" height="90" fill="#f4f6f6" opacity="0.45"/>
+
+  <!-- lane and ground -->
+  <polygon points="250,800 370,330 430,330 700,800" fill="url(#cobbles)" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="0" y="700" width="800" height="100" fill="url(#cobbles)" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="250" y1="800" x2="370" y2="330" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="430" y1="330" x2="700" y2="800" stroke="#2b2b2b" stroke-width="3"/>
+
+  <!-- cottage front on the left -->
+  <rect x="0" y="380" width="300" height="330" fill="#d9b77e" stroke="#2b2b2b" stroke-width="3"/>
+  <polygon points="-10,384 150,290 310,384" fill="#5d6670" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="48" y="458" width="104" height="84" fill="#a9c3c8" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="100" y1="458" x2="100" y2="542" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="48" y1="500" x2="152" y2="500" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="40" y="450" width="120" height="8" fill="#7a5a3a" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="176" y="516" width="78" height="184" fill="#6b4a30" stroke="#2b2b2b" stroke-width="3"/>
+  <circle cx="240" cy="612" r="4" fill="#e3c06a" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="166" y="700" width="98" height="18" fill="#9b9489" stroke="#2b2b2b" stroke-width="2.5"/>
+
+  <!-- lantern post by the lane -->
+  <line x1="470" y1="800" x2="462" y2="520" stroke="#2b2b2b" stroke-width="5"/>
+  <rect x="452" y="492" width="20" height="26" fill="#f0d88a" stroke="#2b2b2b" stroke-width="2.5"/>
+  <polygon points="448,492 476,492 462,474" fill="#3d4247" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- low fog wisps across the foreground -->
+  <rect x="0" y="650" width="800" height="50" fill="#f4f6f6" opacity="0.35"/>
+  <rect x="0" y="750" width="800" height="50" fill="#f4f6f6" opacity="0.3"/>
+
+  <!-- signature: small P. in the bottom-right corner -->
+  <path d="M748 738 V768 M748 738 H757 A8 8 0 0 1 757 754 H748" fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="766" cy="768" r="2.5" fill="#2b2b2b"/>
+</svg>
