@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="opening">
+      <path d="M150 800 V90 Q400 20 650 90 V800 Z"/>
+    </clipPath>
+    <pattern id="cob" width="44" height="30" patternUnits="userSpaceOnUse">
+      <rect width="44" height="30" fill="#b3a592"/>
+      <ellipse cx="11" cy="8" rx="8" ry="5" fill="#9a8c7a" stroke="#4a4138" stroke-width="1"/>
+      <ellipse cx="33" cy="6" rx="7" ry="4.5" fill="#a89a88" stroke="#4a4138" stroke-width="1"/>
+      <ellipse cx="22" cy="22" rx="9" ry="5" fill="#968875" stroke="#4a4138" stroke-width="1"/>
+      <ellipse cx="2" cy="24" rx="6" ry="4" fill="#a39382" stroke="#4a4138" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+
+  <!-- cottage wall frame with doorway opening -->
+  <path d="M0 0 H800 V800 H0 Z M150 800 V90 Q400 20 650 90 V800 Z" fill="#c6b59a" fill-rule="evenodd" stroke="#2b2520" stroke-width="3"/>
+  <g stroke="#8d7c68" stroke-width="1.5" fill="none">
+    <path d="M0 60 H150 M0 130 H150 M0 200 H150 M0 270 H150 M0 340 H150 M0 410 H150 M0 480 H150 M0 550 H150 M0 620 H150 M0 690 H150 M0 760 H150"/>
+    <path d="M650 60 H800 M650 130 H800 M650 200 H800 M650 270 H800 M650 340 H800 M650 410 H800 M650 480 H800 M650 550 H800 M650 620 H800 M650 690 H800 M650 760 H800"/>
+  </g>
+
+  <!-- view through doorway -->
+  <g clip-path="url(#opening)">
+    <!-- sky -->
+    <rect x="150" y="0" width="500" height="460" fill="#cfe5ec"/>
+    <!-- soft spring sun glow -->
+    <circle cx="560" cy="150" r="90" fill="#fff4cc" opacity="0.6"/>
+
+    <!-- distant houses -->
+    <rect x="330" y="250" width="48" height="170" fill="#b8a58a" stroke="#2b2520" stroke-width="1.5"/>
+    <rect x="422" y="240" width="48" height="180" fill="#c7b08f" stroke="#2b2520" stroke-width="1.5"/>
+    <rect x="336" y="290" width="8" height="12" fill="#5b6d75"/>
+    <rect x="430" y="280" width="8" height="12" fill="#5b6d75"/>
+
+    <!-- bell tower at the end of the lane -->
+    <rect x="378" y="150" width="44" height="270" fill="#b9a88c" stroke="#2b2520" stroke-width="2.5"/>
+    <rect x="380" y="110" width="40" height="42" fill="#8f7d66" stroke="#2b2520" stroke-width="2.5"/>
+    <polygon points="376,112 400,48 424,112" fill="#6e6456" stroke="#2b2520" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M388 140 V122 Q400 108 412 122 V140 Z" fill="#3b342d"/>
+    <circle cx="400" cy="178" r="11" fill="#f6f1e3" stroke="#2b2520" stroke-width="1.5"/>
+    <path d="M400 178 V171 M400 178 L406 182" stroke="#2b2520" stroke-width="1.5"/>
+    <rect x="392" y="230" width="16" height="30" fill="#4c5a5e" stroke="#2b2520" stroke-width="1.5"/>
+    <rect x="378" y="400" width="44" height="22" fill="#a39382" stroke="#2b2520" stroke-width="1.5"/>
+
+    <!-- green verges and far greenery -->
+    <rect x="150" y="400" width="500" height="400" fill="#8fa177"/>
+
+    <!-- lane of cobbles -->
+    <polygon points="150,800 650,800 470,420 330,420" fill="url(#cob)" stroke="#2b2520" stroke-width="2"/>
+
+    <!-- sunlit patch on lane -->
+    <polygon points="420,800 560,800 440,560 410,560" fill="#fff6d0" opacity="0.45"/>
+
+    <!-- blossom bushes at tower base -->
+    <circle cx="350" cy="415" r="22" fill="#7fa36a" stroke="#2b2520" stroke-width="1.5"/>
+    <circle cx="450" cy="412" r="20" fill="#7fa36a" stroke="#2b2520" stroke-width="1.5"/>
+    <circle cx="346" cy="408" r="4" fill="#f5e1ea"/>
+    <circle cx="356" cy="420" r="3" fill="#f5e1ea"/>
+    <circle cx="452" cy="406" r="4" fill="#f5e1ea"/>
+
+    <!-- near left house -->
+    <polygon points="150,130 260,190 260,470 150,640" fill="#e3c9a0" stroke="#2b2520" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="150,118 260,178 260,190 150,130" fill="#6d5a4a" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="172,236 204,250 204,302 172,290" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="216,262 240,272 240,318 216,308" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="150,640 260,470 262,474 152,644" fill="#7d6e5c"/>
+
+    <!-- near left second house -->
+    <polygon points="260,190 330,230 330,400 260,470" fill="#d9b48a" stroke="#2b2520" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="282,286 306,298 306,336 282,324" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+
+    <!-- near right house -->
+    <polygon points="650,130 540,190 540,470 650,640" fill="#d8c9b0" stroke="#2b2520" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="650,118 540,178 540,190 650,130" fill="#7a5f4b" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="628,236 596,250 596,302 628,290" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="584,262 560,272 560,318 584,308" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+    <polygon points="650,640 540,470 538,474 648,644" fill="#7d6e5c"/>
+
+    <!-- near right second house -->
+    <polygon points="540,190 470,230 470,400 540,470" fill="#c99f7a" stroke="#2b2520" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="518,286 494,298 494,336 518,324" fill="#5b6d75" stroke="#2b2520" stroke-width="1.5"/>
+
+    <!-- door shadow on left -->
+    <rect x="150" y="560" width="30" height="240" fill="#2b2520" opacity="0.12"/>
+  </g>
+
+  <!-- doorstep and pot of flowers -->
+  <rect x="150" y="770" width="500" height="30" fill="#a9a194" stroke="#2b2520" stroke-width="2"/>
+  <polygon points="182,690 222,690 216,732 188,732" fill="#b5653f" stroke="#2b2520" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="190" cy="676" r="12" fill="#f2d24b" stroke="#2b2520" stroke-width="1.5"/>
+  <circle cx="212" cy="670" r="11" fill="#f0a8c0" stroke="#2b2520" stroke-width="1.5"/>
+  <circle cx="202" cy="652" r="10" fill="#f2d24b" stroke="#2b2520" stroke-width="1.5"/>
+  <path d="M202 690 Q198 670 192 662" stroke="#5f8a4e" stroke-width="2.5" fill="none"/>
+  <path d="M202 690 Q208 672 214 668" stroke="#5f8a4e" stroke-width="2.5" fill="none"/>
+
+  <!-- signature -->
+  <text x="752" y="784" font-size="20" fill="#2b2520" text-anchor="end">P.</text>
+</svg>
