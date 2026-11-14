@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#ffc35a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffc35a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fogBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eeeae0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#eeeae0" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#eeeae0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- ===== Bell tower ===== -->
+  <polygon points="288,70 400,8 512,70" fill="#6e6a64" stroke="#222" stroke-width="3"/>
+  <rect x="300" y="70" width="200" height="350" fill="#b9b2a4" stroke="#222" stroke-width="3"/>
+  <!-- stone courses -->
+  <g stroke="#8c867a" stroke-width="1.5" fill="none">
+    <path d="M300 110 H500 M300 150 H500 M300 330 H500 M300 370 H500 M300 400 H500"/>
+    <path d="M340 70 V110 M380 110 V150 M420 70 V110 M460 110 V150 M340 330 V370 M380 370 V400 M420 330 V370 M460 370 V400"/>
+  </g>
+  <!-- clock face -->
+  <circle cx="400" cy="200" r="92" fill="#f7f3e8" stroke="#222" stroke-width="6"/>
+  <circle cx="400" cy="200" r="80" fill="none" stroke="#222" stroke-width="1.5"/>
+  <g stroke="#222" stroke-width="3">
+    <line x1="400" y1="118" x2="400" y2="130"/>
+    <line x1="482" y1="200" x2="470" y2="200"/>
+    <line x1="400" y1="282" x2="400" y2="270"/>
+    <line x1="318" y1="200" x2="330" y2="200"/>
+    <line x1="458" y1="142" x2="450" y2="150"/>
+    <line x1="458" y1="258" x2="450" y2="250"/>
+    <line x1="342" y1="258" x2="350" y2="250"/>
+    <line x1="342" y1="142" x2="350" y2="150"/>
+  </g>
+  <!-- cracks in the face -->
+  <path d="M378 128 L392 160 L372 178 L388 214 L368 236" fill="none" stroke="#3a3530" stroke-width="2"/>
+  <path d="M392 160 L424 168" fill="none" stroke="#3a3530" stroke-width="1.5"/>
+  <!-- hands -->
+  <line x1="400" y1="200" x2="352" y2="186" stroke="#222" stroke-width="7" stroke-linecap="round"/>
+  <polyline points="400,200 411,146 430,132" fill="none" stroke="#222" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="200" r="6" fill="#9b3d2a" stroke="#222" stroke-width="2"/>
+  <!-- bell opening -->
+  <path d="M370 330 Q400 300 430 330 V360 H370 Z" fill="#4d4a45" stroke="#222" stroke-width="3"/>
+
+  <!-- ===== Inset: clock oil on a ledge ===== -->
+  <rect x="30" y="90" width="200" height="150" fill="#d8d1c2" stroke="#222" stroke-width="3"/>
+  <rect x="30" y="205" width="200" height="12" fill="#7a5a3c" stroke="#222" stroke-width="2"/>
+  <!-- tin -->
+  <rect x="60" y="150" width="92" height="56" rx="4" fill="#c9c4b8" stroke="#222" stroke-width="2.5"/>
+  <path d="M96 150 Q110 160 130 150" fill="none" stroke="#6e6a64" stroke-width="2"/>
+  <rect x="58" y="138" width="96" height="14" rx="3" fill="#9b3d2a" stroke="#222" stroke-width="2.5"/>
+  <rect x="62" y="162" width="88" height="34" fill="#e6e0d2"/>
+  <text x="66" y="183" font-family="sans-serif" font-size="8" fill="#222" textLength="80" lengthAdjust="spacingAndGlyphs">CLOCK OIL - LIGHT GRADE</text>
+  <!-- folded rag -->
+  <path d="M166 196 L184 178 L206 186 L200 204 L178 206 Z" fill="#efe7d4" stroke="#222" stroke-width="2"/>
+  <path d="M184 178 L190 192 L200 204" fill="none" stroke="#8c867a" stroke-width="1.5"/>
+
+  <!-- ===== Cottage (left) ===== -->
+  <polygon points="0,380 240,380 240,800 0,800" fill="#c9bfa9" stroke="#222" stroke-width="3"/>
+  <g stroke="#8c867a" stroke-width="1.5" fill="none">
+    <path d="M0 430 H240 M0 490 H240 M0 550 H240 M0 610 H240 M0 670 H240 M0 730 H240"/>
+  </g>
+  <!-- door -->
+  <rect x="70" y="500" width="110" height="300" fill="#4a3424" stroke="#222" stroke-width="4"/>
+  <rect x="62" y="492" width="126" height="10" fill="#8a6a4c" stroke="#222" stroke-width="2"/>
+  <!-- lamp on wall -->
+  <circle cx="232" cy="470" r="170" fill="url(#lampGlow)"/>
+  <line x1="232" y1="440" x2="232" y2="456" stroke="#222" stroke-width="3"/>
+  <path d="M220 456 H244 L240 486 H224 Z" fill="#ffd27a" stroke="#222" stroke-width="2.5"/>
+
+  <!-- ===== Lane ===== -->
+  <polygon points="180,800 620,800 472,470 330,470" fill="#a79c86" stroke="#222" stroke-width="3"/>
+  <g stroke="#6e6453" stroke-width="1.5" fill="none">
+    <path d="M220 760 Q260 752 300 760 M440 745 Q480 752 520 745 M300 700 Q340 694 372 700 M420 690 Q452 684 484 690"/>
+    <path d="M280 640 Q310 634 340 640 M460 620 Q486 614 512 620 M350 560 Q370 556 390 560 M410 540 Q430 536 448 540"/>
+  </g>
+  <!-- right-hand wall of lane -->
+  <polygon points="620,800 800,800 800,360 472,470" fill="#d3c8b2" stroke="#222" stroke-width="3"/>
+  <g stroke="#8c867a" stroke-width="1.5" fill="none">
+    <path d="M800 420 L560 500 M800 480 L600 560 M800 540 L640 610"/>
+  </g>
+  <!-- distant gate -->
+  <rect x="384" y="430" width="30" height="40" fill="#5b4a3a" stroke="#222" stroke-width="2"/>
+
+  <!-- ===== Fog ===== -->
+  <rect x="0" y="420" width="800" height="110" fill="url(#fogBand)"/>
+  <rect x="0" y="520" width="800" height="90" fill="url(#fogBand)" opacity="0.8"/>
+  <rect x="0" y="330" width="800" height="90" fill="url(#fogBand)" opacity="0.6"/>
+
+  <!-- signature -->
+  <text x="772" y="780" font-family="serif" font-size="20" fill="#222" text-anchor="end">P.</text>
+</svg>
