@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee0"/>
+  <!-- fog bands -->
+  <rect x="0" y="60" width="800" height="90" fill="#dfe5e3" opacity="0.7"/>
+  <rect x="0" y="190" width="800" height="60" fill="#e9ebe4" opacity="0.8"/>
+  <rect x="0" y="520" width="800" height="50" fill="#e6e6dc" opacity="0.7"/>
+  <ellipse cx="400" cy="120" rx="420" ry="34" fill="#eef1ee" opacity="0.8"/>
+
+  <!-- Welcome to Mossville post (behind) -->
+  <rect x="330" y="200" width="40" height="440" fill="#8c6b4b" stroke="#2a2420" stroke-width="3"/>
+  <line x1="340" y1="230" x2="340" y2="620" stroke="#5e4630" stroke-width="2"/>
+  <line x1="360" y1="260" x2="360" y2="600" stroke="#5e4630" stroke-width="2"/>
+  <!-- roof cap -->
+  <polygon points="262,128 400,128 330,84" fill="#7d5e40" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <!-- board -->
+  <rect x="262" y="128" width="276" height="130" rx="20" fill="#f2e7cb" stroke="#2a2420" stroke-width="3"/>
+  <rect x="270" y="136" width="260" height="114" rx="14" fill="none" stroke="#4f7a4a" stroke-width="9"/>
+  <text x="400" y="200" font-family="serif" font-size="30" text-anchor="middle" fill="#2a2420">Welcome to Mossville</text>
+  <!-- moss at base -->
+  <ellipse cx="332" cy="632" rx="16" ry="8" fill="#6d9a5a" stroke="#2a2420" stroke-width="1.5"/>
+  <ellipse cx="368" cy="628" rx="14" ry="7" fill="#7fa868" stroke="#2a2420" stroke-width="1.5"/>
+  <ellipse cx="350" cy="640" rx="10" ry="5" fill="#5f8a4e" stroke="#2a2420" stroke-width="1.5"/>
+
+  <!-- glass cylinder with water and neck -->
+  <rect x="110" y="290" width="40" height="90" fill="#e4eef0" stroke="#2a2420" stroke-width="3"/>
+  <rect x="122" y="250" width="16" height="42" fill="#e4eef0" stroke="#2a2420" stroke-width="3"/>
+  <rect x="113" y="352" width="34" height="16" fill="#8fb8c8"/>
+  <rect x="110" y="290" width="40" height="90" fill="none" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- white enamel funnel and short wooden post -->
+  <rect x="118" y="440" width="24" height="180" fill="#8c6b4b" stroke="#2a2420" stroke-width="3"/>
+  <rect x="112" y="430" width="36" height="14" fill="#8c6b4b" stroke="#2a2420" stroke-width="2"/>
+  <path d="M68 360 L192 360 L150 440 L110 440 Z" fill="#fbfaf5" stroke="#2a2420" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="130" cy="360" rx="62" ry="8" fill="#ffffff" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- scale for cylinder -->
+  <rect x="176" y="282" width="92" height="30" fill="#fbfaf5" stroke="#2a2420" stroke-width="2"/>
+  <text x="222" y="302" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2420">0 10 20 30 mm</text>
+
+  <!-- painted board with red-column tube -->
+  <rect x="480" y="300" width="200" height="260" rx="6" fill="#fbfaf5" stroke="#2a2420" stroke-width="3"/>
+  <rect x="488" y="308" width="184" height="244" rx="4" fill="none" stroke="#b9ae90" stroke-width="2"/>
+  <rect x="570" y="330" width="20" height="190" fill="#eef4f2" stroke="#2a2420" stroke-width="3"/>
+  <rect x="576" y="420" width="8" height="100" fill="#b3262b"/>
+  <!-- tick marks -->
+  <line x1="596" y1="340" x2="606" y2="340" stroke="#2a2420" stroke-width="2"/>
+  <line x1="596" y1="390" x2="606" y2="390" stroke="#2a2420" stroke-width="2"/>
+  <line x1="596" y1="440" x2="606" y2="440" stroke="#2a2420" stroke-width="2"/>
+  <line x1="596" y1="490" x2="606" y2="490" stroke="#2a2420" stroke-width="2"/>
+  <text x="580" y="550" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2420">-20 0 20 40 60 80 100 F</text>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="650" width="800" height="150" fill="#d9d3c3"/>
+  <g fill="#c9c2b0" stroke="#2a2420" stroke-width="2">
+    <ellipse cx="60" cy="690" rx="40" ry="16"/>
+    <ellipse cx="160" cy="720" rx="46" ry="18"/>
+    <ellipse cx="270" cy="700" rx="42" ry="16"/>
+    <ellipse cx="380" cy="740" rx="52" ry="20"/>
+    <ellipse cx="500" cy="700" rx="44" ry="16"/>
+    <ellipse cx="610" cy="735" rx="48" ry="18"/>
+    <ellipse cx="730" cy="695" rx="42" ry="16"/>
+    <ellipse cx="100" cy="772" rx="50" ry="16"/>
+    <ellipse cx="300" cy="778" rx="56" ry="16"/>
+    <ellipse cx="520" cy="775" rx="54" ry="16"/>
+    <ellipse cx="720" cy="772" rx="50" ry="16"/>
+  </g>
+
+  <!-- signature -->
+  <text x="762" y="785" font-family="serif" font-size="18" text-anchor="end" fill="#2a2420">P.</text>
+</svg>
