@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe8d6"/>
+
+  <!-- distant fog banks -->
+  <g fill="#d9d6cc" opacity="0.7">
+    <ellipse cx="150" cy="330" rx="200" ry="40"/>
+    <ellipse cx="680" cy="300" rx="190" ry="36"/>
+    <ellipse cx="400" cy="250" rx="260" ry="30"/>
+  </g>
+
+  <!-- cobbled village edge -->
+  <g fill="#c9bfa8" stroke="#2b2b2b" stroke-width="2">
+    <rect x="0" y="420" width="800" height="26" fill="#cfc5ae"/>
+    <ellipse cx="60" cy="440" rx="28" ry="10"/>
+    <ellipse cx="120" cy="446" rx="26" ry="9"/>
+    <ellipse cx="710" cy="438" rx="30" ry="10"/>
+    <ellipse cx="760" cy="450" rx="26" ry="9"/>
+  </g>
+
+  <!-- green -->
+  <rect x="0" y="446" width="800" height="354" fill="#a3b68a"/>
+  <path d="M0 470 Q200 455 400 470 T800 466" fill="none" stroke="#7d9466" stroke-width="3"/>
+
+  <!-- pond -->
+  <ellipse cx="430" cy="640" rx="250" ry="90" fill="#7fa6aa" stroke="#2b2b2b" stroke-width="3"/>
+  <path d="M250 630 Q330 610 400 628" fill="none" stroke="#5f8a90" stroke-width="3"/>
+  <path d="M480 672 Q560 660 620 676" fill="none" stroke="#5f8a90" stroke-width="3"/>
+
+  <!-- ripples from leaking spout -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="2.5">
+    <ellipse cx="500" cy="606" rx="14" ry="5" opacity="0.9"/>
+    <ellipse cx="500" cy="606" rx="30" ry="10" opacity="0.7"/>
+    <ellipse cx="500" cy="606" rx="48" ry="16" opacity="0.5"/>
+    <ellipse cx="500" cy="606" rx="68" ry="23" opacity="0.3"/>
+  </g>
+
+  <!-- welcome sign post -->
+  <rect x="303" y="262" width="14" height="262" fill="#7a5a3c" stroke="#2b2b2b" stroke-width="3"/>
+
+  <!-- moss at base -->
+  <g fill="#5d8a4a" stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="292" cy="520" rx="18" ry="9"/>
+    <ellipse cx="330" cy="526" rx="16" ry="8"/>
+    <ellipse cx="312" cy="512" rx="10" ry="6"/>
+  </g>
+
+  <!-- chains -->
+  <g fill="none" stroke="#b58c3a" stroke-width="4" stroke-dasharray="7 4">
+    <line x1="220" y1="270" x2="220" y2="330"/>
+    <line x1="400" y1="270" x2="400" y2="330"/>
+  </g>
+  <g fill="none" stroke="#2b2b2b" stroke-width="2">
+    <circle cx="220" cy="336" r="6" fill="#c9a24a"/>
+    <circle cx="400" cy="336" r="6" fill="#c9a24a"/>
+  </g>
+
+  <!-- roof cap -->
+  <polygon points="168,160 310,96 452,160" fill="#8a6a4a" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- board with green rim -->
+  <rect x="170" y="160" width="280" height="118" rx="16" fill="#f6efdc" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="180" y="170" width="260" height="98" rx="10" fill="none" stroke="#3f6b3a" stroke-width="14"/>
+  <rect x="180" y="170" width="260" height="98" rx="10" fill="none" stroke="#2b2b2b" stroke-width="1"/>
+  <text x="310" y="228" text-anchor="middle" font-family="serif" font-size="30" fill="#2b2b2b">Welcome to Mossville</text>
+
+  <!-- galvanised can with spout -->
+  <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round">
+    <path d="M560 470 L500 528 L506 534 L572 490 Z" fill="#c4cbcc"/>
+    <path d="M572 436 Q612 396 652 436" fill="none"/>
+    <rect x="570" y="436" width="92" height="120" rx="8" fill="#c9d0d1"/>
+    <path d="M582 450 L596 462" stroke="#8c9698" stroke-width="2"/>
+    <path d="M630 500 L648 520" stroke="#8c9698" stroke-width="2"/>
+  </g>
+  <!-- dent -->
+  <path d="M640 470 Q652 490 642 512" fill="none" stroke="#8c9698" stroke-width="2"/>
+  <!-- soil lip -->
+  <ellipse cx="616" cy="436" rx="44" ry="6" fill="#6b4f35" stroke="#2b2b2b" stroke-width="1.5"/>
+  <!-- drip -->
+  <path d="M503 540 Q498 552 503 558 Q508 552 503 540 Z" fill="#7fa6aa" stroke="#2b2b2b" stroke-width="1.5"/>
+
+  <!-- signature -->
+  <text x="752" y="782" text-anchor="end" font-family="serif" font-size="24" fill="#2b2b2b">P.</text>
+</svg>
