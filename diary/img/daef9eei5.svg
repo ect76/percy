@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- wall -->
+  <rect x="40" y="60" width="720" height="620" fill="#e6dac3"/>
+
+  <!-- floor -->
+  <path d="M40 680 L760 680 L760 680 L40 680 Z" fill="#c9b79a"/>
+  <rect x="40" y="680" width="720" height="70" fill="#bfae90"/>
+  <g fill="none" stroke="#7d6c55" stroke-width="2" opacity="0.6">
+    <ellipse cx="120" cy="715" rx="30" ry="12"/>
+    <ellipse cx="230" cy="735" rx="34" ry="13"/>
+    <ellipse cx="380" cy="718" rx="28" ry="11"/>
+    <ellipse cx="520" cy="740" rx="36" ry="13"/>
+    <ellipse cx="660" cy="716" rx="30" ry="12"/>
+  </g>
+
+  <!-- doorway frame (viewer stands in doorway) -->
+  <rect x="40" y="60" width="130" height="620" fill="#8f7a62"/>
+  <rect x="62" y="82" width="88" height="598" fill="#d9ccb2" stroke="#1d1a17" stroke-width="3"/>
+  <path d="M62 82 L40 60 M150 82 L170 60 M62 680 L40 680 M150 680 L170 680" stroke="#1d1a17" stroke-width="3" fill="none"/>
+
+  <!-- cupboard carcass -->
+  <rect x="250" y="170" width="300" height="470" fill="#b98b5e" stroke="#1d1a17" stroke-width="3" stroke-linejoin="round"/>
+  <!-- cupboard back, darker -->
+  <rect x="268" y="188" width="264" height="434" fill="#6e4a2e"/>
+
+  <!-- empty shelves (behind) -->
+  <g fill="#c9a06f" stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <rect x="268" y="290" width="264" height="14"/>
+    <rect x="268" y="410" width="264" height="14"/>
+    <rect x="268" y="530" width="264" height="14"/>
+  </g>
+  <g fill="#8a5f3c">
+    <rect x="268" y="304" width="264" height="6"/>
+    <rect x="268" y="424" width="264" height="6"/>
+    <rect x="268" y="544" width="264" height="6"/>
+  </g>
+
+  <!-- seed tin on middle shelf -->
+  <g stroke="#1d1a17" stroke-width="3" stroke-linejoin="round">
+    <!-- shadow on shelf -->
+    <ellipse cx="378" cy="426" rx="58" ry="6" fill="#4d3420" opacity="0.5" stroke="none"/>
+    <!-- tin body -->
+    <rect x="332" y="330" width="92" height="94" fill="#7f9fb0"/>
+    <!-- label band -->
+    <rect x="332" y="362" width="92" height="34" fill="#e0b84a"/>
+    <!-- lid -->
+    <ellipse cx="378" cy="330" rx="46" ry="10" fill="#a9c0cb"/>
+    <rect x="332" y="318" width="92" height="12" fill="#97b1bf"/>
+    <ellipse cx="378" cy="318" rx="46" ry="10" fill="#c3d5dd"/>
+  </g>
+  <!-- seed label marks -->
+  <g fill="none" stroke="#1d1a17" stroke-width="2.5" stroke-linecap="round">
+    <path d="M352 376 Q378 366 404 376"/>
+    <path d="M352 386 L404 386"/>
+  </g>
+  <!-- highlight on tin -->
+  <path d="M344 344 L344 404" stroke="#e8f1f4" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- window on right wall -->
+  <rect x="600" y="200" width="140" height="180" fill="#d3dade" stroke="#1d1a17" stroke-width="3"/>
+  <g fill="none" stroke="#1d1a17" stroke-width="3">
+    <path d="M670 200 L670 380 M600 290 L740 290"/>
+  </g>
+  <!-- lane glimpse through glass -->
+  <path d="M606 350 Q670 320 734 350 L734 374 L606 374 Z" fill="#aab3b0" opacity="0.8"/>
+  <!-- fog wash -->
+  <g fill="#f4f6f5" opacity="0.7">
+    <ellipse cx="640" cy="240" rx="40" ry="10"/>
+    <ellipse cx="710" cy="265" rx="30" ry="8"/>
+    <ellipse cx="625" cy="310" rx="26" ry="7"/>
+  </g>
+
+  <!-- window sill -->
+  <rect x="584" y="380" width="172" height="16" fill="#a58a6a" stroke="#1d1a17" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="584" y="396" width="172" height="6" fill="#7d6448"/>
+
+  <!-- one coin on the sill -->
+  <ellipse cx="640" cy="371" rx="14" ry="5" fill="#8c6a1c" opacity="0.5"/>
+  <circle cx="640" cy="364" r="13" fill="#d9a930" stroke="#1d1a17" stroke-width="2.5"/>
+  <circle cx="640" cy="364" r="8" fill="none" stroke="#9a7420" stroke-width="1.5"/>
+  <path d="M634 360 Q637 357 641 357" stroke="#fff3c4" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- ink contour accents -->
+  <g fill="none" stroke="#1d1a17" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M250 170 L250 640"/>
+    <path d="M550 170 L550 640"/>
+    <path d="M268 188 L268 622"/>
+    <path d="M532 188 L532 622"/>
+  </g>
+
+  <!-- signature "P." drawn as paths, bottom right -->
+  <g fill="none" stroke="#1d1a17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M716 742 L716 770 M716 742 L728 742 Q736 742 736 750 Q736 758 728 758 L716 758"/>
+    <circle cx="746" cy="768" r="2" fill="#1d1a17"/>
+  </g>
+</svg>
