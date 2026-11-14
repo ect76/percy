@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fogFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eeeae2" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#eeeae2" stop-opacity="0.85"/>
+    </linearGradient>
+    <pattern id="cob" width="64" height="32" patternUnits="userSpaceOnUse">
+      <rect width="64" height="32" fill="#8e8579"/>
+      <ellipse cx="16" cy="9" rx="14" ry="7" fill="#a39a8e" stroke="#2b2622" stroke-width="1.5"/>
+      <ellipse cx="48" cy="25" rx="14" ry="7" fill="#9a9084" stroke="#2b2622" stroke-width="1.5"/>
+      <ellipse cx="56" cy="3" rx="8" ry="4" fill="#a39a8e" stroke="#2b2622" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe6"/>
+
+  <!-- distant buildings in fog -->
+  <rect x="40" y="250" width="130" height="390" fill="#bfc3c2" stroke="#2b2622" stroke-width="2" opacity="0.6"/>
+  <rect x="630" y="230" width="140" height="410" fill="#bfc3c2" stroke="#2b2622" stroke-width="2" opacity="0.6"/>
+
+  <!-- bakery facade -->
+  <rect x="190" y="200" width="420" height="440" fill="#d2bd9f" stroke="#2b2622" stroke-width="4"/>
+  <line x1="190" y1="200" x2="610" y2="200" stroke="#2b2622" stroke-width="4"/>
+
+  <!-- sign board -->
+  <rect x="290" y="225" width="220" height="50" rx="4" fill="#7a4e30" stroke="#2b2622" stroke-width="3"/>
+  <rect x="310" y="240" width="180" height="20" fill="#5a3a24"/>
+
+  <!-- striped awning -->
+  <path d="M190,285 L610,285 L610,310 Q590,330 570,310 Q550,330 530,310 Q510,330 490,310 Q470,330 450,310 Q430,330 410,310 Q390,330 370,310 Q350,330 330,310 Q310,330 290,310 Q270,330 250,310 Q230,330 210,310 Q200,315 190,310 Z" fill="#b5523b" stroke="#2b2622" stroke-width="3"/>
+  <g fill="#e9dcc5" opacity="0.85">
+    <rect x="240" y="285" width="20" height="25"/>
+    <rect x="280" y="285" width="20" height="25"/>
+    <rect x="320" y="285" width="20" height="25"/>
+    <rect x="360" y="285" width="20" height="25"/>
+    <rect x="440" y="285" width="20" height="25"/>
+    <rect x="480" y="285" width="20" height="25"/>
+    <rect x="520" y="285" width="20" height="25"/>
+    <rect x="560" y="285" width="20" height="25"/>
+  </g>
+
+  <!-- left shop window: lit, bare counter -->
+  <circle cx="295" cy="405" r="110" fill="url(#glow)"/>
+  <rect x="235" y="340" width="120" height="130" fill="#ffd978" stroke="#2b2622" stroke-width="3"/>
+  <line x1="295" y1="340" x2="295" y2="470" stroke="#2b2622" stroke-width="3"/>
+  <rect x="235" y="428" width="120" height="12" fill="#8a5a33" stroke="#2b2622" stroke-width="2"/>
+  <rect x="235" y="440" width="120" height="30" fill="#6b4a32" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- right shop window: lit, bare counter -->
+  <circle cx="505" cy="405" r="110" fill="url(#glow)"/>
+  <rect x="445" y="340" width="120" height="130" fill="#ffd978" stroke="#2b2622" stroke-width="3"/>
+  <line x1="505" y1="340" x2="505" y2="470" stroke="#2b2622" stroke-width="3"/>
+  <rect x="445" y="428" width="120" height="12" fill="#8a5a33" stroke="#2b2622" stroke-width="2"/>
+  <rect x="445" y="440" width="120" height="30" fill="#6b4a32" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- door -->
+  <path d="M385,640 L385,380 Q385,335 422,335 Q459,335 459,380 L459,640 Z" fill="#6b4a32" stroke="#2b2622" stroke-width="4"/>
+  <!-- door glass with interior glow -->
+  <path d="M402,400 L402,462 L442,462 L442,400 Q442,382 422,382 Q402,382 402,400 Z" fill="#ffd978" stroke="#2b2622" stroke-width="3"/>
+  <!-- bare counter seen through the door -->
+  <rect x="402" y="446" width="40" height="8" fill="#8a5a33" stroke="#2b2622" stroke-width="1.5"/>
+  <rect x="402" y="454" width="40" height="8" fill="#6b4a32"/>
+  <!-- door handle and panels -->
+  <circle cx="447" cy="530" r="5" fill="#d9b25a" stroke="#2b2622" stroke-width="2"/>
+  <rect x="400" y="490" width="45" height="60" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <rect x="400" y="570" width="45" height="50" fill="none" stroke="#2b2622" stroke-width="2"/>
+
+  <!-- step -->
+  <rect x="360" y="640" width="120" height="14" fill="#a39a8e" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- cobbles -->
+  <rect x="0" y="654" width="800" height="146" fill="url(#cob)"/>
+  <line x1="0" y1="654" x2="800" y2="654" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="180" width="800" height="90" fill="#eeeae2" opacity="0.55"/>
+  <rect x="0" y="300" width="800" height="60" fill="#eeeae2" opacity="0.35"/>
+  <rect x="0" y="460" width="800" height="70" fill="#eeeae2" opacity="0.4"/>
+  <ellipse cx="120" cy="560" rx="200" ry="40" fill="#eeeae2" opacity="0.5"/>
+  <ellipse cx="700" cy="520" rx="220" ry="45" fill="#eeeae2" opacity="0.5"/>
+  <rect x="0" y="560" width="800" height="240" fill="url(#fogFade)"/>
+  <rect x="0" y="0" width="800" height="200" fill="#eeeae2" opacity="0.5"/>
+
+  <!-- signature -->
+  <text x="752" y="780" font-size="22" fill="#2b2622" text-anchor="end">P.</text>
+</svg>
