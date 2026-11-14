@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+
+  <!-- distant fog and houses -->
+  <rect x="90" y="170" width="620" height="330" fill="#e4e7e3"/>
+  <ellipse cx="260" cy="330" rx="220" ry="60" fill="#f4f6f2" opacity="0.7"/>
+  <ellipse cx="560" cy="300" rx="200" ry="50" fill="#f4f6f2" opacity="0.6"/>
+  <rect x="120" y="300" width="90" height="170" fill="#c9ced0" opacity="0.8"/>
+  <rect x="580" y="280" width="110" height="190" fill="#c3c9cc" opacity="0.8"/>
+
+  <!-- bell tower at the end of the lane -->
+  <polygon points="383,250 400,196 417,250" fill="#7d878d" stroke="#2b2622" stroke-width="2"/>
+  <rect x="384" y="250" width="32" height="222" fill="#9aa3a8" stroke="#2b2622" stroke-width="2"/>
+  <rect x="378" y="466" width="44" height="10" fill="#7d878d" stroke="#2b2622" stroke-width="2"/>
+  <circle cx="400" cy="290" r="14" fill="#f7f2e6" stroke="#2b2622" stroke-width="2"/>
+  <line x1="400" y1="290" x2="406" y2="280" stroke="#2b2622" stroke-width="2"/>
+  <line x1="400" y1="290" x2="400" y2="281" stroke="#2b2622" stroke-width="2"/>
+  <path d="M393 282 L399 288" stroke="#2b2622" stroke-width="1.5" fill="none"/>
+  <rect x="394" y="326" width="12" height="18" fill="#4d565c"/>
+
+  <!-- lane of wet cobbles -->
+  <polygon points="90,800 710,800 410,480 390,480" fill="#b7b2a6" stroke="#2b2622" stroke-width="2"/>
+  <path d="M250 560 Q400 548 520 560" stroke="#8a8478" stroke-width="2" fill="none"/>
+  <path d="M190 640 Q400 622 610 640" stroke="#8a8478" stroke-width="2" fill="none"/>
+  <path d="M120 730 Q400 705 680 730" stroke="#8a8478" stroke-width="2" fill="none"/>
+  <ellipse cx="330" cy="595" rx="26" ry="8" fill="#8fa3ad" opacity="0.6"/>
+  <ellipse cx="470" cy="690" rx="40" ry="10" fill="#8fa3ad" opacity="0.6"/>
+  <ellipse cx="280" cy="750" rx="55" ry="12" fill="#8fa3ad" opacity="0.6"/>
+  <ellipse cx="420" cy="530" rx="14" ry="4" fill="#8fa3ad" opacity="0.6"/>
+
+  <!-- golden seated figure beside the lane -->
+  <ellipse cx="600" cy="418" rx="58" ry="62" fill="none" stroke="#d9b65a" stroke-width="4" opacity="0.8"/>
+  <rect x="536" y="572" width="128" height="22" fill="#d9ad4a" stroke="#2b2622" stroke-width="2"/>
+  <polygon points="550,572 650,572 640,548 560,548" fill="#e3bf62" stroke="#2b2622" stroke-width="2"/>
+  <path d="M530 500 Q540 450 600 448 Q660 450 670 500 Q682 548 640 560 Q600 572 560 560 Q520 548 530 500 Z" fill="#e8962e" stroke="#2b2622" stroke-width="2"/>
+  <path d="M560 470 Q600 486 640 470" stroke="#b96d1c" stroke-width="2" fill="none"/>
+  <circle cx="600" cy="418" r="30" fill="#e2b763" stroke="#2b2622" stroke-width="2"/>
+  <circle cx="600" cy="388" r="7" fill="#e2b763" stroke="#2b2622" stroke-width="2"/>
+  <path d="M586 418 Q591 423 596 418" stroke="#2b2622" stroke-width="2" fill="none"/>
+  <path d="M604 418 Q609 423 614 418" stroke="#2b2622" stroke-width="2" fill="none"/>
+  <path d="M596 432 Q600 435 604 432" stroke="#2b2622" stroke-width="1.5" fill="none"/>
+
+  <!-- stone jambs of the doorway (we stand inside) -->
+  <polygon points="0,0 90,0 90,800 0,800" fill="#8c7b68" stroke="#2b2622" stroke-width="3"/>
+  <polygon points="710,0 800,0 800,800 710,800" fill="#8c7b68" stroke="#2b2622" stroke-width="3"/>
+  <path d="M0 200 L40 200 M0 300 L60 300 M0 480 L50 480 M0 640 L40 640" stroke="#6e6052" stroke-width="2" fill="none"/>
+  <path d="M740 220 L800 220 M750 380 L800 380 M745 560 L800 560" stroke="#6e6052" stroke-width="2" fill="none"/>
+
+  <!-- shelf with drip cup -->
+  <rect x="10" y="420" width="78" height="8" fill="#6b5a48" stroke="#2b2622" stroke-width="2"/>
+  <path d="M28 376 L58 376 L58 414 Q58 420 52 420 L34 420 Q28 420 28 414 Z" fill="#d8cbb2" stroke="#2b2622" stroke-width="2"/>
+  <path d="M58 384 Q68 386 66 398 Q64 406 58 406" fill="none" stroke="#2b2622" stroke-width="2"/>
+  <path d="M43 352 L43 370" stroke="#5a6670" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="43" cy="374" r="2.5" fill="#5a6670"/>
+
+  <!-- eaves and lintel -->
+  <rect x="90" y="60" width="620" height="50" fill="#5b6a72" stroke="#2b2622" stroke-width="2"/>
+  <rect x="0" y="40" width="800" height="26" fill="#44515a" stroke="#2b2622" stroke-width="2"/>
+  <rect x="90" y="110" width="620" height="60" fill="#7a5d44" stroke="#2b2622" stroke-width="2"/>
+  <path d="M90 130 H710 M90 150 H710" stroke="#5a4330" stroke-width="1.5"/>
+
+  <!-- dripping eaves -->
+  <g stroke="#4f6b7a" stroke-width="2" stroke-linecap="round" fill="#4f6b7a">
+    <line x1="150" y1="170" x2="150" y2="200"/>
+    <circle cx="150" cy="205" r="4"/>
+    <line x1="232" y1="170" x2="232" y2="188"/>
+    <circle cx="232" cy="192" r="3.5"/>
+    <line x1="300" y1="170" x2="300" y2="215"/>
+    <circle cx="300" cy="220" r="4.5"/>
+    <line x1="420" y1="170" x2="420" y2="192"/>
+    <circle cx="420" cy="196" r="3.5"/>
+    <line x1="520" y1="170" x2="520" y2="210"/>
+    <circle cx="520" cy="215" r="4"/>
+    <line x1="612" y1="170" x2="612" y2="196"/>
+    <circle cx="612" cy="200" r="3.5"/>
+  </g>
+
+  <!-- rain -->
+  <g stroke="#4f5b63" stroke-width="1.6" stroke-linecap="round" opacity="0.65">
+    <line x1="120" y1="230" x2="108" y2="262"/>
+    <line x1="190" y1="260" x2="178" y2="292"/>
+    <line x1="260" y1="230" x2="248" y2="262"/>
+    <line x1="330" y1="300" x2="318" y2="332"/>
+    <line x1="360" y1="380" x2="350" y2="408"/>
+    <line x1="470" y1="240" x2="458" y2="272"/>
+    <line x1="500" y1="330" x2="488" y2="362"/>
+    <line x1="560" y1="250" x2="548" y2="282"/>
+    <line x1="650" y1="300" x2="638" y2="332"/>
+    <line x1="690" y1="230" x2="678" y2="262"/>
+    <line x1="140" y1="360" x2="126" y2="396"/>
+    <line x1="230" y1="420" x2="216" y2="456"/>
+    <line x1="300" y1="500" x2="284" y2="540"/>
+    <line x1="420" y1="450" x2="404" y2="490"/>
+    <line x1="520" y1="520" x2="504" y2="560"/>
+    <line x1="170" y1="600" x2="150" y2="650"/>
+    <line x1="280" y1="660" x2="262" y2="706"/>
+    <line x1="400" y1="620" x2="382" y2="666"/>
+    <line x1="560" y1="660" x2="540" y2="710"/>
+    <line x1="640" y1="620" x2="622" y2="664"/>
+    <line x1="220" y1="760" x2="198" y2="790"/>
+    <line x1="470" y1="770" x2="450" y2="796"/>
+    <line x1="700" y1="740" x2="682" y2="770"/>
+    <line x1="110" y1="520" x2="96" y2="552"/>
+    <line x1="600" y1="180" x2="590" y2="206"/>
+  </g>
+
+  <!-- signature -->
+  <text x="758" y="782" font-size="18" fill="#2b2622" text-anchor="end">P.</text>
+</svg>
