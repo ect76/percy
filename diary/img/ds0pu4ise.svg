@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4ecd8"/>
+  <!-- wall -->
+  <rect x="40" y="40" width="720" height="460" fill="#e8dcc0" stroke="#2b2118" stroke-width="3"/>
+  <!-- fog wash -->
+  <ellipse cx="150" cy="80" rx="140" ry="28" fill="#ffffff" opacity="0.35"/>
+  <ellipse cx="640" cy="130" rx="120" ry="22" fill="#ffffff" opacity="0.3"/>
+  <!-- calendar -->
+  <rect x="100" y="90" width="160" height="190" fill="#e6d18a" stroke="#2b2118" stroke-width="3"/>
+  <rect x="100" y="90" width="160" height="26" fill="#c9a86a" stroke="#2b2118" stroke-width="2"/>
+  <g fill="#f6efd0" stroke="#7a6a4e" stroke-width="1">
+    <rect x="115" y="130" width="14" height="14"/><rect x="136" y="130" width="14" height="14"/><rect x="157" y="130" width="14" height="14"/><rect x="178" y="130" width="14" height="14"/><rect x="199" y="130" width="14" height="14"/><rect x="220" y="130" width="14" height="14"/><rect x="241" y="130" width="14" height="14"/>
+    <rect x="115" y="154" width="14" height="14"/><rect x="136" y="154" width="14" height="14"/><rect x="157" y="154" width="14" height="14"/><rect x="178" y="154" width="14" height="14"/><rect x="199" y="154" width="14" height="14"/><rect x="220" y="154" width="14" height="14"/><rect x="241" y="154" width="14" height="14"/>
+    <rect x="115" y="178" width="14" height="14"/><rect x="136" y="178" width="14" height="14"/><rect x="157" y="178" width="14" height="14"/><rect x="178" y="178" width="14" height="14"/><rect x="199" y="178" width="14" height="14"/><rect x="220" y="178" width="14" height="14"/><rect x="241" y="178" width="14" height="14"/>
+    <rect x="115" y="202" width="14" height="14"/><rect x="136" y="202" width="14" height="14"/><rect x="157" y="202" width="14" height="14"/><rect x="178" y="202" width="14" height="14"/><rect x="199" y="202" width="14" height="14"/><rect x="220" y="202" width="14" height="14"/><rect x="241" y="202" width="14" height="14"/>
+    <rect x="115" y="226" width="14" height="14"/><rect x="136" y="226" width="14" height="14"/><rect x="157" y="226" width="14" height="14"/><rect x="178" y="226" width="14" height="14"/><rect x="199" y="226" width="14" height="14"/><rect x="220" y="226" width="14" height="14"/><rect x="241" y="226" width="14" height="14"/>
+  </g>
+  <!-- ringed date, ringed twice -->
+  <circle cx="199" cy="185" r="15" fill="none" stroke="#b8322a" stroke-width="2.5"/>
+  <circle cx="199" cy="185" r="19" fill="none" stroke="#b8322a" stroke-width="2"/>
+  <!-- drip pipe (behind shelf) -->
+  <rect x="600" y="40" width="12" height="290" fill="#7d8790" stroke="#2b2118" stroke-width="2"/>
+  <rect x="596" y="326" width="20" height="10" fill="#7d8790" stroke="#2b2118" stroke-width="2"/>
+  <path d="M606 344 C600 356 600 368 606 368 C612 368 612 356 606 344Z" fill="#7fb8d6" stroke="#2b2118" stroke-width="2"/>
+  <!-- shelf -->
+  <rect x="420" y="250" width="320" height="12" fill="#8b6a48" stroke="#2b2118" stroke-width="2"/>
+  <path d="M440 262 L450 262 L440 280 Z" fill="#6b5036"/>
+  <path d="M720 262 L710 262 L720 280 Z" fill="#6b5036"/>
+  <!-- star cookie cutter -->
+  <polygon points="520,177 530,203 558,203 536,219 544,246 520,230 496,246 504,219 482,203 510,203" fill="#b0b8c0" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="520,190 526,206 543,206 529,216 535,233 520,223 505,233 511,216 497,206 514,206" fill="#f4ecd8" stroke="#2b2118" stroke-width="1.5"/>
+  <g fill="#d9b26f">
+    <circle cx="514" cy="200" r="2.5"/><circle cx="527" cy="200" r="2"/><circle cx="508" cy="214" r="2"/><circle cx="533" cy="226" r="2.5"/><circle cx="517" cy="231" r="2"/>
+  </g>
+  <!-- bare counter -->
+  <rect x="60" y="380" width="680" height="20" fill="#b58a5a" stroke="#2b2118" stroke-width="3"/>
+  <rect x="60" y="400" width="680" height="100" fill="#8b6a48" stroke="#2b2118" stroke-width="3"/>
+  <rect x="90" y="420" width="90" height="60" fill="none" stroke="#2b2118" stroke-width="2"/>
+  <rect x="620" y="420" width="90" height="60" fill="none" stroke="#2b2118" stroke-width="2"/>
+  <!-- cottage table -->
+  <rect x="40" y="560" width="720" height="28" fill="#a67c52" stroke="#2b2118" stroke-width="3"/>
+  <rect x="60" y="588" width="16" height="152" fill="#8b6a48" stroke="#2b2118" stroke-width="2"/>
+  <rect x="724" y="588" width="16" height="152" fill="#8b6a48" stroke="#2b2118" stroke-width="2"/>
+  <!-- brass bubble vial, level -->
+  <rect x="120" y="522" width="260" height="36" rx="18" fill="#d4af37" stroke="#2b2118" stroke-width="3"/>
+  <rect x="140" y="530" width="220" height="20" rx="10" fill="#dfeff5" stroke="#2b2118" stroke-width="2"/>
+  <circle cx="250" cy="540" r="6" fill="#2b2118"/>
+  <!-- cardboard map tube -->
+  <rect x="420" y="530" width="280" height="30" rx="4" fill="#c8a478" stroke="#2b2118" stroke-width="3"/>
+  <rect x="408" y="533" width="14" height="24" rx="3" fill="#c59a5e" stroke="#2b2118" stroke-width="2"/>
+  <rect x="480" y="537" width="200" height="22" fill="#fbf7ea" stroke="#2b2118" stroke-width="1.5"/>
+  <text x="486" y="552" font-size="10" fill="#2b2118" font-family="serif">Maps — handle with care. Return to counter.</text>
+  <!-- date stamp and ink pad -->
+  <rect x="300" y="660" width="120" height="50" fill="#b8322a" stroke="#2b2118" stroke-width="3"/>
+  <rect x="200" y="640" width="40" height="30" rx="8" fill="#3a2e26" stroke="#2b2118" stroke-width="2"/>
+  <rect x="180" y="670" width="80" height="20" fill="#5a4a3e" stroke="#2b2118" stroke-width="2"/>
+  <!-- due date slip -->
+  <rect x="480" y="640" width="150" height="90" fill="#fffdf5" stroke="#2b2118" stroke-width="2"/>
+  <g stroke="#7a6a4e" stroke-width="1.5">
+    <line x1="495" y1="665" x2="615" y2="665"/>
+    <line x1="495" y1="685" x2="615" y2="685"/>
+    <line x1="495" y1="705" x2="615" y2="705"/>
+  </g>
+  <rect x="540" y="652" width="50" height="20" fill="none" stroke="#b8322a" stroke-width="2"/>
+  <!-- signature -->
+  <text x="752" y="786" font-size="16" text-anchor="end" fill="#2b2118" font-family="serif">P.</text>
+</svg>
