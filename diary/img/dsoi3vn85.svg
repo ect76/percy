@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5670"/>
+      <stop offset="0.6" stop-color="#8d8fa0"/>
+      <stop offset="1" stop-color="#c9b89a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4b5c"/>
+      <stop offset="1" stop-color="#27343f"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6d98a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f6d98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#eee5d0"/>
+
+  <!-- dusk sky -->
+  <rect x="0" y="0" width="800" height="430" fill="url(#dusk)"/>
+
+  <!-- bell tower -->
+  <g stroke="#1e1b18" stroke-width="3" stroke-linejoin="round">
+    <rect x="560" y="200" width="70" height="230" fill="#5d5a5a"/>
+    <path d="M555 200 L595 110 L635 200 Z" fill="#3e3c40"/>
+    <rect x="576" y="236" width="38" height="32" fill="#2b2a2e"/>
+    <circle cx="595" cy="262" r="0" />
+    <line x1="595" y1="110" x2="595" y2="92" />
+    <circle cx="595" cy="88" r="5" fill="#c9a24a"/>
+  </g>
+
+  <!-- cottages on left -->
+  <g stroke="#1e1b18" stroke-width="3" stroke-linejoin="round">
+    <rect x="60" y="300" width="110" height="130" fill="#b58d7a"/>
+    <path d="M50 300 L115 245 L180 300 Z" fill="#5b4a48"/>
+    <rect x="95" y="350" width="28" height="80" fill="#3a3033"/>
+    <rect x="140" y="336" width="20" height="22" fill="#e9c77a"/>
+
+    <rect x="200" y="330" width="90" height="100" fill="#9aa39a"/>
+    <path d="M190 330 L245 285 L300 330 Z" fill="#4e5552"/>
+    <rect x="225" y="370" width="22" height="60" fill="#3a3033"/>
+
+    <rect x="650" y="320" width="110" height="110" fill="#c3a58c"/>
+    <path d="M640 320 L705 270 L770 320 Z" fill="#5b4a48"/>
+    <rect x="684" y="366" width="26" height="64" fill="#3a3033"/>
+  </g>
+
+  <!-- distant hedge line and green -->
+  <path d="M0 420 Q200 405 400 420 T800 420 L800 470 L0 470 Z" fill="#5f6b52"/>
+  <path d="M0 470 L800 470 L800 700 L0 700 Z" fill="#7d8a5e"/>
+
+  <!-- stone wall behind pond with spout -->
+  <g stroke="#1e1b18" stroke-width="3" stroke-linejoin="round">
+    <rect x="250" y="440" width="310" height="58" fill="#8a8078"/>
+    <rect x="240" y="432" width="330" height="10" fill="#b3aaa0"/>
+    <line x1="300" y1="450" x2="310" y2="470"/>
+    <line x1="450" y1="458" x2="440" y2="480"/>
+    <line x1="520" y1="448" x2="528" y2="470"/>
+    <!-- spout -->
+    <path d="M396 470 L420 470 L424 490 L400 490 Z" fill="#4d4a48"/>
+    <rect x="390" y="462" width="40" height="12" fill="#6b655f"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="400" cy="600" rx="270" ry="112" fill="#1e1b18"/>
+  <ellipse cx="400" cy="600" rx="262" ry="104" fill="url(#water)"/>
+
+  <!-- reflected lamp glow on water -->
+  <ellipse cx="520" cy="560" rx="60" ry="14" fill="#f6d98a" opacity="0.25"/>
+  <ellipse cx="300" cy="640" rx="70" ry="10" fill="#8d9bb0" opacity="0.25"/>
+
+  <!-- leaking spout drip -->
+  <g stroke="#cfd8e0" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="410" y1="492" x2="410" y2="520"/>
+    <line x1="407" y1="494" x2="406" y2="515" stroke-width="1.2"/>
+  </g>
+
+  <!-- ripples from the drip -->
+  <g fill="none" stroke="#d7e0e8" stroke-width="2">
+    <ellipse cx="410" cy="530" rx="10" ry="3.5"/>
+    <ellipse cx="410" cy="532" rx="24" ry="7" opacity="0.8"/>
+    <ellipse cx="410" cy="535" rx="40" ry="11" opacity="0.6"/>
+    <ellipse cx="410" cy="539" rx="58" ry="16" opacity="0.4"/>
+  </g>
+
+  <!-- faint ripples elsewhere -->
+  <g fill="none" stroke="#7f91a3" stroke-width="1.5">
+    <ellipse cx="520" cy="640" rx="18" ry="5"/>
+    <ellipse cx="520" cy="640" rx="34" ry="9" opacity="0.6"/>
+    <ellipse cx="290" cy="580" rx="12" ry="3"/>
+  </g>
+
+  <!-- iron mooring ring on stone post at pond edge -->
+  <g stroke="#1e1b18" stroke-width="3" stroke-linejoin="round">
+    <rect x="128" y="620" width="22" height="48" fill="#6e6962"/>
+    <rect x="124" y="612" width="30" height="10" fill="#8f8880"/>
+    <circle cx="150" cy="634" r="16" fill="none" stroke="#2a2723" stroke-width="5"/>
+    <circle cx="150" cy="634" r="16" fill="none" stroke="#7a7872" stroke-width="2"/>
+  </g>
+
+  <!-- cobbles in foreground -->
+  <g fill="#8b8276" stroke="#2a2723" stroke-width="2">
+    <ellipse cx="90" cy="740" rx="36" ry="14"/>
+    <ellipse cx="170" cy="762" rx="40" ry="15"/>
+    <ellipse cx="260" cy="735" rx="34" ry="13"/>
+    <ellipse cx="350" cy="770" rx="42" ry="14"/>
+    <ellipse cx="450" cy="742" rx="36" ry="13"/>
+    <ellipse cx="540" cy="772" rx="40" ry="15"/>
+    <ellipse cx="640" cy="738" rx="36" ry="14"/>
+    <ellipse cx="720" cy="765" rx="44" ry="16"/>
+  </g>
+  <g fill="#a39a8c" stroke="#2a2723" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="120" cy="700" rx="28" ry="10"/>
+    <ellipse cx="300" cy="700" rx="30" ry="10"/>
+    <ellipse cx="500" cy="705" rx="28" ry="10"/>
+    <ellipse cx="690" cy="700" rx="30" ry="10"/>
+  </g>
+
+  <!-- lamp glow -->
+  <circle cx="610" cy="520" r="90" fill="url(#lamp)"/>
+
+  <!-- fog bands -->
+  <g fill="#f4efe4">
+    <ellipse cx="200" cy="420" rx="260" ry="30" opacity="0.55"/>
+    <ellipse cx="620" cy="450" rx="240" ry="28" opacity="0.5"/>
+    <ellipse cx="400" cy="560" rx="380" ry="26" opacity="0.35"/>
+    <ellipse cx="260" cy="690" rx="320" ry="30" opacity="0.4"/>
+    <ellipse cx="600" cy="730" rx="300" ry="24" opacity="0.35"/>
+  </g>
+
+  <!-- signature P. drawn as paths -->
+  <g fill="none" stroke="#1e1b18" stroke-width="4" stroke-linecap="round">
+    <path d="M40 60 L40 96 M40 60 L58 60 Q72 60 72 73 Q72 86 58 86 L40 86"/>
+    <circle cx="82" cy="94" r="2.5" fill="#1e1b18"/>
+  </g>
+</svg>
