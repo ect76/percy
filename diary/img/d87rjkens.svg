@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4eddc"/>
+
+  <!-- window fog view -->
+  <rect x="440" y="130" width="280" height="300" fill="#d3dbdf" stroke="#222" stroke-width="4"/>
+  <ellipse cx="500" cy="350" rx="26" ry="9" fill="#b3bcc2" opacity="0.6"/>
+  <ellipse cx="600" cy="372" rx="30" ry="9" fill="#b3bcc2" opacity="0.6"/>
+  <ellipse cx="540" cy="395" rx="24" ry="8" fill="#b3bcc2" opacity="0.5"/>
+  <rect x="440" y="190" width="280" height="40" fill="#ffffff" opacity="0.45"/>
+  <rect x="440" y="300" width="280" height="50" fill="#ffffff" opacity="0.4"/>
+  <rect x="575" y="130" width="10" height="300" fill="#5a4636" stroke="#222" stroke-width="3"/>
+  <rect x="440" y="270" width="280" height="10" fill="#5a4636" stroke="#222" stroke-width="3"/>
+
+  <!-- window sill and coin -->
+  <rect x="420" y="430" width="320" height="20" fill="#9a7750" stroke="#222" stroke-width="4"/>
+  <circle cx="520" cy="410" r="20" fill="#e0b84a" stroke="#222" stroke-width="4"/>
+  <circle cx="520" cy="410" r="11" fill="none" stroke="#8a6a1e" stroke-width="2"/>
+
+  <!-- cupboard -->
+  <rect x="70" y="110" width="340" height="560" fill="#7a5a3c" stroke="#222" stroke-width="4"/>
+  <rect x="90" y="130" width="300" height="520" fill="#3d3128" stroke="#222" stroke-width="3"/>
+  <rect x="90" y="300" width="300" height="12" fill="#9a7750" stroke="#222" stroke-width="3"/>
+  <rect x="90" y="445" width="300" height="14" fill="#9a7750" stroke="#222" stroke-width="3"/>
+
+  <!-- loaf -->
+  <path d="M120 445 C118 395 160 365 205 365 C250 365 285 395 282 445 Z" fill="#d9943f" stroke="#222" stroke-width="4"/>
+  <path d="M160 400 Q200 385 240 402" fill="none" stroke="#7a4a1e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M175 422 Q205 410 235 424" fill="none" stroke="#7a4a1e" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- empty tin -->
+  <rect x="305" y="375" width="70" height="70" fill="#b8c2c8" stroke="#222" stroke-width="4"/>
+  <ellipse cx="340" cy="375" rx="35" ry="8" fill="#2e2a26" stroke="#222" stroke-width="3"/>
+  <rect x="305" y="410" width="70" height="12" fill="#a4483a" opacity="0.8"/>
+  <path d="M312 430 L322 440 M330 396 L336 404" stroke="#7d8790" stroke-width="3" fill="none"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="670" width="800" height="130" fill="#b9b3a8" stroke="#222" stroke-width="3"/>
+  <g fill="none" stroke="#8c867b" stroke-width="2">
+    <ellipse cx="60" cy="700" rx="30" ry="12"/>
+    <ellipse cx="150" cy="718" rx="34" ry="13"/>
+    <ellipse cx="260" cy="700" rx="30" ry="12"/>
+    <ellipse cx="370" cy="724" rx="36" ry="13"/>
+    <ellipse cx="480" cy="700" rx="30" ry="12"/>
+    <ellipse cx="590" cy="720" rx="34" ry="13"/>
+    <ellipse cx="700" cy="700" rx="30" ry="12"/>
+    <ellipse cx="110" cy="760" rx="34" ry="13"/>
+    <ellipse cx="300" cy="772" rx="36" ry="13"/>
+    <ellipse cx="520" cy="765" rx="34" ry="13"/>
+    <ellipse cx="730" cy="770" rx="34" ry="13"/>
+  </g>
+  <rect x="0" y="670" width="800" height="130" fill="#ffffff" opacity="0.35"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-size="28" fill="#333">P.</text>
+</svg>
