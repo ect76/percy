@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d3ae"/>
+      <stop offset="0.6" stop-color="#f2c98f"/>
+      <stop offset="1" stop-color="#e8a877"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d9aa3"/>
+      <stop offset="1" stop-color="#4f6b74"/>
+    </linearGradient>
+    <pattern id="cobbles" width="34" height="22" patternUnits="userSpaceOnUse">
+      <rect width="34" height="22" fill="#b3a593"/>
+      <ellipse cx="9" cy="6" rx="8" ry="4.5" fill="#c4b6a3" stroke="#4a4038" stroke-width="1.2"/>
+      <ellipse cx="26" cy="16" rx="8" ry="4.5" fill="#a89a88" stroke="#4a4038" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="800" fill="url(#sky)"/>
+
+  <!-- low sun -->
+  <circle cx="620" cy="330" r="62" fill="#fbe7b5" opacity="0.9"/>
+  <circle cx="620" cy="330" r="62" fill="none" stroke="#7a5a3a" stroke-width="2"/>
+
+  <!-- distant rooftops -->
+  <g fill="#9a8f98" stroke="#4a4038" stroke-width="2">
+    <polygon points="90,440 90,380 130,345 170,380 170,440"/>
+    <polygon points="170,440 170,395 205,365 240,395 240,440"/>
+    <polygon points="560,440 560,390 600,355 640,390 640,440"/>
+    <polygon points="640,440 640,405 675,380 710,405 710,440"/>
+  </g>
+
+  <!-- trees -->
+  <g stroke="#2e3a2c" stroke-width="2">
+    <ellipse cx="150" cy="420" rx="60" ry="85" fill="#4f6a45"/>
+    <ellipse cx="700" cy="430" rx="55" ry="80" fill="#4f6a45"/>
+    <rect x="145" y="480" width="10" height="40" fill="#4a3a2c"/>
+    <rect x="695" y="485" width="10" height="40" fill="#4a3a2c"/>
+  </g>
+
+  <!-- bell tower -->
+  <g stroke="#3a332c" stroke-width="3">
+    <rect x="370" y="200" width="90" height="250" fill="#b9aa96"/>
+    <rect x="375" y="160" width="80" height="45" fill="#9d9283"/>
+    <polygon points="362,162 415,92 468,162" fill="#5d4a46"/>
+    <line x1="375" y1="172" x2="455" y2="172" stroke-width="2"/>
+    <line x1="375" y1="186" x2="455" y2="186" stroke-width="2"/>
+    <line x1="375" y1="195" x2="455" y2="195" stroke-width="2"/>
+    <circle cx="415" cy="255" r="24" fill="#f6eedb"/>
+    <line x1="415" y1="255" x2="415" y2="239" stroke-width="3"/>
+    <line x1="415" y1="255" x2="427" y2="260" stroke-width="2.5"/>
+    <rect x="400" y="300" width="30" height="46" fill="#6b5a4c"/>
+    <path d="M400 346 Q415 330 430 346" fill="#6b5a4c"/>
+  </g>
+
+  <!-- village green -->
+  <rect x="0" y="430" width="800" height="120" fill="#9bb474"/>
+  <path d="M0 470 Q200 455 400 470 T800 468" fill="none" stroke="#7d9a5c" stroke-width="2"/>
+
+  <!-- pond reflection of tower -->
+  <g opacity="0.35">
+    <rect x="375" y="500" width="80" height="120" fill="#b9aa96"/>
+    <rect x="375" y="500" width="80" height="6" fill="#5d4a46"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="400" cy="560" rx="250" ry="78" fill="url(#water)" stroke="#2f3f46" stroke-width="3"/>
+  <g stroke="#e8f0ec" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="330" y1="545" x2="356" y2="545"/>
+    <line x1="455" y1="570" x2="485" y2="570"/>
+    <line x1="260" y1="578" x2="280" y2="578"/>
+    <line x1="520" y1="540" x2="538" y2="540"/>
+    <line x1="390" y1="590" x2="420" y2="590"/>
+  </g>
+
+  <!-- fog bands -->
+  <rect x="0" y="425" width="800" height="45" fill="#f5ead6" opacity="0.55"/>
+  <rect x="0" y="500" width="800" height="28" fill="#f5ead6" opacity="0.45"/>
+  <rect x="0" y="615" width="800" height="40" fill="#f5ead6" opacity="0.6"/>
+
+  <!-- cobbled foreground -->
+  <rect x="0" y="640" width="800" height="160" fill="url(#cobbles)"/>
+  <rect x="0" y="636" width="800" height="6" fill="#4a4038"/>
+
+  <!-- ink edge on pond front -->
+  <path d="M160 585 Q400 650 640 585" fill="none" stroke="#3a332c" stroke-width="2"/>
+
+  <!-- signature -->
+  <text x="758" y="782" font-size="22" fill="#3a332c" text-anchor="end">P.</text>
+</svg>
