@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ead6"/>
+
+  <!-- outside fog -->
+  <rect x="0" y="0" width="800" height="720" fill="#d9dfdc"/>
+  <rect x="0" y="120" width="800" height="70" fill="#f4f6f3" opacity="0.6"/>
+  <rect x="0" y="300" width="800" height="90" fill="#f4f6f3" opacity="0.5"/>
+  <rect x="0" y="520" width="800" height="60" fill="#f4f6f3" opacity="0.45"/>
+
+  <!-- cobbles -->
+  <rect x="0" y="720" width="800" height="80" fill="#9aa19c"/>
+  <g fill="#7d8581" stroke="#2b2521" stroke-width="2">
+    <ellipse cx="60" cy="745" rx="34" ry="12"/>
+    <ellipse cx="150" cy="770" rx="40" ry="13"/>
+    <ellipse cx="260" cy="748" rx="36" ry="11"/>
+    <ellipse cx="350" cy="782" rx="42" ry="12"/>
+    <ellipse cx="470" cy="752" rx="38" ry="12"/>
+    <ellipse cx="575" cy="778" rx="40" ry="13"/>
+    <ellipse cx="680" cy="748" rx="36" ry="11"/>
+    <ellipse cx="750" cy="775" rx="34" ry="12"/>
+  </g>
+
+  <!-- red post box outside, left -->
+  <g stroke="#2b2521" stroke-width="3" stroke-linejoin="round">
+    <rect x="22" y="520" width="58" height="150" fill="#b8262a"/>
+    <path d="M22 520 Q51 498 80 520 Z" fill="#a01f23"/>
+    <rect x="34" y="550" width="34" height="8" fill="#2b2521"/>
+    <rect x="36" y="580" width="30" height="14" fill="#8c1c20"/>
+    <rect x="46" y="670" width="10" height="20" fill="#5a1417"/>
+  </g>
+
+  <!-- lamp post outside, right -->
+  <g stroke="#2b2521" stroke-width="3" stroke-linejoin="round">
+    <rect x="744" y="200" width="8" height="500" fill="#3a3430"/>
+    <circle cx="748" cy="182" r="42" fill="#f2d98a" opacity="0.35" stroke="none"/>
+    <path d="M728 176 L748 150 L768 176 Z" fill="#3a3430"/>
+    <rect x="732" y="176" width="32" height="14" fill="#f7e29a"/>
+  </g>
+
+  <!-- building wall -->
+  <rect x="100" y="110" width="600" height="610" fill="#a99b84" stroke="#2b2521" stroke-width="3"/>
+
+  <!-- interior back wall -->
+  <rect x="130" y="130" width="540" height="470" fill="#e8dcc0" stroke="#2b2521" stroke-width="3"/>
+
+  <!-- floor -->
+  <rect x="130" y="600" width="540" height="120" fill="#b08a5e" stroke="#2b2521" stroke-width="3"/>
+  <g stroke="#7f5f3c" stroke-width="2" fill="none">
+    <path d="M130 630 L670 630"/>
+    <path d="M130 660 L670 660"/>
+    <path d="M130 690 L670 690"/>
+    <path d="M300 600 L290 720"/>
+    <path d="M480 600 L490 720"/>
+  </g>
+
+  <!-- front window (dusty) -->
+  <g stroke="#2b2521" stroke-width="3">
+    <rect x="170" y="180" width="160" height="200" fill="#cdd7d4"/>
+    <g fill="#eee9da" stroke="none" opacity="0.8">
+      <circle cx="195" cy="210" r="6"/>
+      <circle cx="240" cy="236" r="9"/>
+      <circle cx="290" cy="208" r="5"/>
+      <circle cx="312" cy="300" r="8"/>
+      <circle cx="204" cy="330" r="7"/>
+      <circle cx="262" cy="352" r="10"/>
+      <circle cx="300" cy="260" r="6"/>
+      <circle cx="222" cy="290" r="5"/>
+    </g>
+    <path d="M180 300 Q230 280 280 310 T322 292" fill="none" stroke="#b9c4c0" stroke-width="6" opacity="0.7"/>
+    <path d="M250 180 L250 380 M170 280 L330 280" fill="none" stroke-width="6"/>
+    <rect x="164" y="174" width="172" height="212" fill="none"/>
+  </g>
+
+  <!-- cork board with notice, right of door -->
+  <g stroke="#2b2521" stroke-width="3">
+    <rect x="555" y="235" width="100" height="130" fill="#c49a6c"/>
+    <rect x="580" y="262" width="62" height="84" fill="#eee2b8"/>
+    <path d="M580 262 L642 262 L642 304 L632 346 L580 346 Z" fill="#f3e9c6" stroke="none"/>
+    <path d="M642 304 L632 316 L642 316 Z" fill="#d8c48a"/>
+    <rect x="580" y="262" width="62" height="10" fill="#e6d28a" stroke="none"/>
+    <circle cx="562" cy="244" r="3" fill="#8a2a2a"/>
+    <circle cx="648" cy="244" r="3" fill="#8a2a2a"/>
+    <circle cx="562" cy="358" r="3" fill="#8a2a2a"/>
+    <circle cx="648" cy="358" r="3" fill="#8a2a2a"/>
+  </g>
+  <g font-family="serif" fill="#2b2521">
+    <text x="585" y="276" font-size="6" font-weight="bold">COLLECTIONS:</text>
+    <text x="585" y="287" font-size="5">Mon, Wed, Fri, 10 a.m.</text>
+    <text x="585" y="297" font-size="5">Parcels must be</text>
+    <text x="585" y="306" font-size="5">signed for.</text>
+    <text x="585" y="320" font-size="5">Please ring the bell</text>
+    <text x="585" y="329" font-size="5">if the counter is</text>
+    <text x="585" y="338" font-size="5">unattended.</text>
+  </g>
+
+  <!-- shelf and parcels behind counter -->
+  <g stroke="#2b2521" stroke-width="3">
+    <rect x="200" y="360" width="380" height="8" fill="#6e4a2e"/>
+    <rect x="225" y="318" width="48" height="42" fill="#c9a06a"/>
+    <rect x="290" y="330" width="60" height="30" fill="#b58a55"/>
+    <rect x="470" y="314" width="40" height="46" fill="#c9a06a"/>
+  </g>
+
+  <!-- counter -->
+  <g stroke="#2b2521" stroke-width="3">
+    <rect x="215" y="430" width="350" height="22" fill="#8a5f3a"/>
+    <rect x="215" y="452" width="350" height="160" fill="#6e4a2e"/>
+    <g stroke="#55392a" stroke-width="2" fill="none">
+      <path d="M260 452 L260 612"/>
+      <path d="M340 452 L340 612"/>
+      <path d="M420 452 L420 612"/>
+      <path d="M500 452 L500 612"/>
+    </g>
+  </g>
+
+  <!-- brass counter bell -->
+  <g stroke="#2b2521" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M408 430 Q408 402 430 402 Q452 402 452 430 Z" fill="#c9a23a"/>
+    <rect x="404" y="428" width="52" height="5" fill="#a07c26"/>
+    <circle cx="430" cy="396" r="4" fill="#d9b750"/>
+    <path d="M420 412 Q424 408 428 412" fill="none" stroke="#f5e09a" stroke-width="2"/>
+  </g>
+
+  <!-- door frame posts and lintel -->
+  <g stroke="#2b2521" stroke-width="3">
+    <rect x="90" y="90" width="40" height="640" fill="#5a3f2a"/>
+    <rect x="670" y="90" width="40" height="640" fill="#5a3f2a"/>
+    <rect x="90" y="80" width="620" height="28" fill="#5a3f2a"/>
+  </g>
+
+  <!-- signature -->
+  <text x="780" y="786" font-family="serif" font-size="18" fill="#2b2521" text-anchor="end">P.</text>
+</svg>
