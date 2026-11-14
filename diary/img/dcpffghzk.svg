@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Wall -->
+  <rect x="0" y="0" width="800" height="800" fill="#ebe5d6"/>
+
+  <!-- Window with fog and cobbles -->
+  <rect x="60" y="70" width="230" height="200" fill="#cfd8d8" stroke="#2a2a2a" stroke-width="4"/>
+  <g fill="#f4f7f6" opacity="0.7">
+    <ellipse cx="110" cy="120" rx="60" ry="14"/>
+    <ellipse cx="200" cy="150" rx="70" ry="16"/>
+    <ellipse cx="140" cy="200" rx="80" ry="18"/>
+    <ellipse cx="240" cy="110" rx="40" ry="10"/>
+  </g>
+  <g fill="#9aa5a5" stroke="#4a5555" stroke-width="1.5">
+    <ellipse cx="100" cy="250" rx="18" ry="7"/>
+    <ellipse cx="140" cy="258" rx="18" ry="7"/>
+    <ellipse cx="180" cy="250" rx="18" ry="7"/>
+    <ellipse cx="220" cy="258" rx="18" ry="7"/>
+    <ellipse cx="260" cy="250" rx="14" ry="6"/>
+  </g>
+  <line x1="175" y1="70" x2="175" y2="270" stroke="#2a2a2a" stroke-width="4"/>
+
+  <!-- Shelf with loaves -->
+  <rect x="40" y="318" width="720" height="12" fill="#7a5130" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="90" cy="302" rx="34" ry="17" fill="#d9a35a" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="150" cy="302" rx="30" ry="15" fill="#c98f47" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="300" cy="302" rx="36" ry="17" fill="#e0ae66" stroke="#2a2a2a" stroke-width="3"/>
+
+  <!-- Wall-mounted sink with tap and drip -->
+  <path d="M620,250 L760,250 L760,300 Q760,322 738,322 L642,322 Q620,322 620,300 Z" fill="#dfe6e8" stroke="#2a2a2a" stroke-width="4"/>
+  <ellipse cx="690" cy="262" rx="50" ry="8" fill="#b9c6ca" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M690,160 L690,226" stroke="#7d8a8e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M672,160 L708,160" stroke="#7d8a8e" stroke-width="8" stroke-linecap="round"/>
+  <rect x="682" y="222" width="16" height="10" fill="#7d8a8e" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- Drip -->
+  <path d="M690,272 C684,282 682,288 682,294 A8,8 0 0 0 698,294 C698,288 696,282 690,272 Z" fill="#7fb8d6" stroke="#2a2a2a" stroke-width="2.5"/>
+
+  <!-- Counter -->
+  <rect x="60" y="430" width="680" height="40" fill="#8a5a3b" stroke="#2a2a2a" stroke-width="4"/>
+  <rect x="60" y="470" width="680" height="200" fill="#6b4429" stroke="#2a2a2a" stroke-width="4"/>
+  <g stroke="#3d2716" stroke-width="3" fill="none">
+    <line x1="60" y1="520" x2="740" y2="520"/>
+    <line x1="60" y1="590" x2="740" y2="590"/>
+    <line x1="200" y1="470" x2="200" y2="520"/>
+    <line x1="400" y1="470" x2="400" y2="520"/>
+    <line x1="600" y1="470" x2="600" y2="520"/>
+  </g>
+
+  <!-- Brass typewriter-like box -->
+  <rect x="170" y="326" width="130" height="14" fill="#a9841f" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="150" y="340" width="170" height="90" rx="12" fill="#c9a227" stroke="#2a2a2a" stroke-width="4"/>
+  <g fill="#6e5414" stroke="#2a2a2a" stroke-width="1.5">
+    <rect x="166" y="356" width="14" height="10" rx="2"/>
+    <rect x="186" y="356" width="14" height="10" rx="2"/>
+    <rect x="206" y="356" width="14" height="10" rx="2"/>
+    <rect x="226" y="356" width="14" height="10" rx="2"/>
+    <rect x="246" y="356" width="14" height="10" rx="2"/>
+    <rect x="266" y="356" width="14" height="10" rx="2"/>
+    <rect x="286" y="356" width="14" height="10" rx="2"/>
+  </g>
+  <rect x="176" y="378" width="120" height="36" rx="4" fill="#f4ecd8" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="190" y1="392" x2="280" y2="392" stroke="#8a7a55" stroke-width="2"/>
+  <line x1="190" y1="402" x2="262" y2="402" stroke="#8a7a55" stroke-width="2"/>
+
+  <!-- Cardboard tube in brown paper -->
+  <ellipse cx="370" cy="412" rx="9" ry="20" fill="#9a6d42" stroke="#2a2a2a" stroke-width="3"/>
+  <rect x="370" y="392" width="150" height="40" fill="#b88a58" stroke="#2a2a2a" stroke-width="4"/>
+  <rect x="372" y="394" width="146" height="36" fill="#c9a16e"/>
+  <rect x="402" y="396" width="92" height="32" rx="2" fill="#f1e6cc" stroke="#2a2a2a" stroke-width="1.5"/>
+  <text x="448" y="408" font-size="8" text-anchor="middle" fill="#3a2a18">CRUMB'S BAKERY</text>
+  <text x="448" y="420" font-size="7" text-anchor="middle" fill="#3a2a18">MIND THE STEP</text>
+
+  <!-- Silver star loop with wooden grip -->
+  <path d="M620,370 L630.6,395.4 L658,397.6 L637.1,415.6 L643.5,442.4 L620,428 L596.5,442.4 L602.9,415.6 L582,397.6 L609.4,395.4 Z"
+        fill="none" stroke="#9aa3ab" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M620,370 L630.6,395.4 L658,397.6 L637.1,415.6 L643.5,442.4 L620,428 L596.5,442.4 L602.9,415.6 L582,397.6 L609.4,395.4 Z"
+        fill="none" stroke="#dfe4e8" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M612,358 L628,352 L628,376 L612,378 Z" fill="#8b5e34" stroke="#2a2a2a" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="619" cy="362" r="2" fill="#2a2a2a"/>
+
+  <!-- Fog wisps over the lower room -->
+  <g fill="#ffffff" opacity="0.35">
+    <ellipse cx="400" cy="640" rx="380" ry="26"/>
+    <ellipse cx="200" cy="740" rx="300" ry="20"/>
+  </g>
+
+  <!-- Signature -->
+  <text x="760" y="776" font-size="24" text-anchor="end" fill="#2a2a2a">P.</text>
+</svg>
