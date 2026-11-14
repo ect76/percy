@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper and wall -->
+  <rect x="0" y="0" width="800" height="800" fill="#ece7dc"/>
+  <rect x="40" y="40" width="720" height="720" fill="#dcd6c8"/>
+
+  <!-- window onto the lane -->
+  <rect x="540" y="90" width="180" height="210" fill="#b9c2c4" stroke="#2a2420" stroke-width="5"/>
+  <line x1="630" y1="90" x2="630" y2="300" stroke="#2a2420" stroke-width="4"/>
+  <line x1="540" y1="195" x2="720" y2="195" stroke="#2a2420" stroke-width="4"/>
+  <rect x="520" y="80" width="220" height="12" fill="#2a2420"/>
+
+  <!-- grey afternoon light falling from the window -->
+  <polygon points="540,300 720,300 540,640 300,640 300,520" fill="#f4f6f5" opacity="0.35"/>
+
+  <!-- cupboard carcass -->
+  <rect x="150" y="140" width="360" height="500" fill="#8a6e55" stroke="#2a2420" stroke-width="5"/>
+  <rect x="180" y="170" width="300" height="450" fill="#4f4134"/>
+
+  <!-- interior compartments, lit grey where the light reaches -->
+  <rect x="180" y="170" width="300" height="160" fill="#6c5a4a"/>
+  <rect x="180" y="342" width="300" height="138" fill="#5e4d3f"/>
+  <rect x="180" y="492" width="300" height="128" fill="#574738"/>
+  <polygon points="300,520 480,492 480,620 300,620" fill="#f4f6f5" opacity="0.18"/>
+
+  <!-- shelf boards -->
+  <rect x="180" y="330" width="300" height="12" fill="#a88b6c" stroke="#2a2420" stroke-width="3"/>
+  <rect x="180" y="480" width="300" height="12" fill="#a88b6c" stroke="#2a2420" stroke-width="3"/>
+
+  <!-- top shelf: bare, with a dust mark -->
+  <ellipse cx="300" cy="312" rx="40" ry="5" fill="#cfc6b4" opacity="0.6"/>
+
+  <!-- empty tin, lid bent open -->
+  <rect x="330" y="410" width="80" height="70" fill="#aeb4b8" stroke="#2a2420" stroke-width="3"/>
+  <ellipse cx="370" cy="410" rx="40" ry="8" fill="#8f969b" stroke="#2a2420" stroke-width="3"/>
+  <path d="M410,410 L430,392 L438,398 L416,418 Z" fill="#c9ced1" stroke="#2a2420" stroke-width="2.5"/>
+  <line x1="338" y1="440" x2="402" y2="440" stroke="#6d7479" stroke-width="2"/>
+
+  <!-- one fish's bones on a saucer -->
+  <ellipse cx="300" cy="570" rx="92" ry="30" fill="#ebe6da" stroke="#2a2420" stroke-width="3"/>
+  <g stroke="#2a2420" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- spine -->
+    <path d="M236,570 L362,570"/>
+    <!-- head -->
+    <path d="M236,570 Q222,560 214,566"/>
+    <path d="M236,570 Q222,580 214,574"/>
+    <!-- tail -->
+    <path d="M362,570 L384,556 M362,570 L384,584 M372,570 L388,570"/>
+    <!-- ribs -->
+    <path d="M262,570 Q268,552 280,548"/>
+    <path d="M262,570 Q268,588 280,592"/>
+    <path d="M280,570 Q286,550 298,546"/>
+    <path d="M280,570 Q286,590 298,594"/>
+    <path d="M298,570 Q304,552 316,548"/>
+    <path d="M298,570 Q304,588 316,592"/>
+    <path d="M316,570 Q322,556 334,553"/>
+    <path d="M316,570 Q322,584 334,587"/>
+  </g>
+
+  <!-- simple ink hatching in the cupboard shadow -->
+  <g stroke="#2a2420" stroke-width="1.5" opacity="0.5">
+    <line x1="186" y1="180" x2="206" y2="160"/>
+    <line x1="186" y1="200" x2="226" y2="160"/>
+    <line x1="186" y1="220" x2="246" y2="160"/>
+    <line x1="186" y1="240" x2="266" y2="160"/>
+    <line x1="186" y1="260" x2="286" y2="160"/>
+  </g>
+
+  <!-- signature "P." in the corner -->
+  <path d="M728,728 V764 M728,728 H740 Q750,728 750,738 Q750,748 740,748 H728" fill="none" stroke="#2a2420" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="758" cy="762" r="3" fill="#2a2420"/>
+</svg>
