@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4ecd8"/>
+  <!-- back wall -->
+  <rect x="0" y="0" width="800" height="520" fill="#e3d3b0"/>
+  <!-- window with fog outside -->
+  <rect x="90" y="120" width="170" height="180" fill="#c9d5da" stroke="#2a211a" stroke-width="3"/>
+  <rect x="100" y="130" width="150" height="160" fill="#dfe6e8"/>
+  <path d="M175 130 V290 M100 210 H250" stroke="#2a211a" stroke-width="4" fill="none"/>
+  <!-- fog bands -->
+  <rect x="0" y="300" width="800" height="60" fill="#d8dee0" opacity="0.6"/>
+  <rect x="0" y="390" width="800" height="50" fill="#e4e9ea" opacity="0.55"/>
+  <rect x="0" y="250" width="800" height="40" fill="#e9eeef" opacity="0.45"/>
+  <!-- cobbled ground -->
+  <rect x="0" y="690" width="800" height="110" fill="#a39a8b"/>
+  <g fill="#8a8173" stroke="#2a211a" stroke-width="2">
+    <ellipse cx="60" cy="720" rx="40" ry="14"/>
+    <ellipse cx="180" cy="718" rx="46" ry="14"/>
+    <ellipse cx="310" cy="722" rx="42" ry="13"/>
+    <ellipse cx="440" cy="718" rx="46" ry="14"/>
+    <ellipse cx="580" cy="722" rx="44" ry="13"/>
+    <ellipse cx="710" cy="718" rx="48" ry="14"/>
+    <ellipse cx="110" cy="770" rx="48" ry="14"/>
+    <ellipse cx="260" cy="772" rx="46" ry="13"/>
+    <ellipse cx="400" cy="770" rx="50" ry="14"/>
+    <ellipse cx="550" cy="772" rx="46" ry="13"/>
+    <ellipse cx="690" cy="770" rx="50" ry="14"/>
+  </g>
+  <!-- table legs and front -->
+  <rect x="70" y="620" width="26" height="130" fill="#5a3a20" stroke="#2a211a" stroke-width="3"/>
+  <rect x="704" y="620" width="26" height="130" fill="#5a3a20" stroke="#2a211a" stroke-width="3"/>
+  <rect x="40" y="560" width="720" height="62" fill="#6b4424" stroke="#2a211a" stroke-width="3"/>
+  <!-- table top -->
+  <polygon points="60,520 740,520 760,560 40,560" fill="#8a5a33" stroke="#2a211a" stroke-width="3"/>
+  <path d="M120 535 H300 M400 548 H620" stroke="#6b4424" stroke-width="2" fill="none"/>
+  <!-- shadow under loaf -->
+  <ellipse cx="405" cy="507" rx="118" ry="14" fill="#4a3320" opacity="0.3"/>
+  <!-- steam -->
+  <g stroke="#9aa4a8" stroke-width="3" fill="none" opacity="0.8" stroke-linecap="round">
+    <path d="M340 380 Q326 355 342 332 Q356 308 340 286"/>
+    <path d="M405 375 Q391 350 407 326 Q421 302 405 278"/>
+    <path d="M470 380 Q456 355 472 332 Q486 308 470 286"/>
+  </g>
+  <!-- loaf -->
+  <path d="M296 505 Q292 400 395 393 Q505 388 514 505 Z" fill="#d9963f" stroke="#2a211a" stroke-width="3"/>
+  <path d="M330 440 Q345 415 380 412" stroke="#f0c27a" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <g stroke="#7a4a1c" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M350 480 Q370 430 410 428"/>
+    <path d="M395 490 Q415 445 455 440"/>
+    <path d="M440 500 Q458 465 490 462"/>
+  </g>
+  <!-- bread peel -->
+  <polygon points="520,470 640,500 628,548 508,520" fill="#e9d2a4" stroke="#2a211a" stroke-width="3"/>
+  <line x1="630" y1="522" x2="762" y2="468" stroke="#6e4a2a" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="762" cy="468" r="10" fill="#8a5a33" stroke="#2a211a" stroke-width="2"/>
+  <!-- signature P. -->
+  <path d="M752 735 V775 M752 735 H766 Q774 735 774 743 Q774 751 766 751 H752" stroke="#2a211a" stroke-width="3" fill="none"/>
+  <circle cx="782" cy="775" r="3" fill="#2a211a"/>
+</svg>
