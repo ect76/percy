@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe6cf"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#2b2620" stroke-width="3"/>
+  <rect x="38" y="38" width="724" height="724" fill="none" stroke="#2b2620" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- fog bands -->
+  <g fill="#f8f3e6" opacity="0.7">
+    <ellipse cx="120" cy="120" rx="170" ry="40"/>
+    <ellipse cx="690" cy="700" rx="180" ry="45"/>
+    <ellipse cx="700" cy="330" rx="90" ry="30"/>
+    <ellipse cx="90" cy="600" rx="80" ry="28"/>
+  </g>
+
+  <!-- Top Field footpath (dashed) -->
+  <path d="M90 170 C250 110, 420 210, 600 150 S700 130, 720 170" fill="none" stroke="#2b2620" stroke-width="2" stroke-dasharray="10 7"/>
+  <text x="520" y="132" font-family="serif" font-size="14" fill="#2b2620">Top Field footpath</text>
+
+  <!-- Church Lane -->
+  <path d="M380 790 C370 650, 330 560, 340 440 C345 380, 335 330, 330 290" fill="none" stroke="#2b2620" stroke-width="34" stroke-linecap="round"/>
+  <path d="M380 790 C370 650, 330 560, 340 440 C345 380, 335 330, 330 290" fill="none" stroke="#d8c9a3" stroke-width="28" stroke-linecap="round"/>
+  <text x="392" y="690" font-family="serif" font-size="14" fill="#2b2620">Church Lane</text>
+
+  <!-- Pond Lane -->
+  <path d="M560 530 C560 570, 540 590, 520 610" fill="none" stroke="#d8c9a3" stroke-width="18" stroke-linecap="round"/>
+  <path d="M560 530 C560 570, 540 590, 520 610" fill="none" stroke="#2b2620" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Mill Pond -->
+  <ellipse cx="560" cy="470" rx="90" ry="60" fill="#8fb3b0" stroke="#2b2620" stroke-width="3"/>
+  <path d="M520 460 q15 -8 30 0 M575 485 q14 -7 28 0" fill="none" stroke="#5f8a88" stroke-width="2"/>
+  <text x="505" y="478" font-family="serif" font-size="14" fill="#2b2620">Mill Pond</text>
+
+  <!-- Village green -->
+  <ellipse cx="520" cy="660" rx="95" ry="50" fill="#a9c08a" stroke="#2b2620" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="470" y="665" font-family="serif" font-size="14" fill="#2b2620">Village green</text>
+
+  <!-- Bell tower -->
+  <rect x="310" y="200" width="40" height="90" fill="#c9b79a" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="302,200 330,160 358,200" fill="#8a5a44" stroke="#2b2620" stroke-width="3"/>
+  <circle cx="330" cy="235" r="7" fill="#e9c46a" stroke="#2b2620" stroke-width="2"/>
+  <text x="368" y="176" font-family="serif" font-size="14" fill="#2b2620">Bell tower</text>
+
+  <!-- Weather Museum -->
+  <rect x="110" y="380" width="110" height="90" fill="#b9c7d6" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="100,380 165,326 230,380" fill="#5d6f82" stroke="#2b2620" stroke-width="3"/>
+  <line x1="165" y1="326" x2="165" y2="302" stroke="#2b2620" stroke-width="2"/>
+  <path d="M165 302 l12 4 l-12 4" fill="#2b2620"/>
+  <rect x="145" y="430" width="36" height="40" fill="#8a9bb0" stroke="#2b2620" stroke-width="2"/>
+  <text x="96" y="496" font-family="serif" font-size="14" fill="#2b2620">Weather Museum</text>
+
+  <!-- Crumb's Bakery -->
+  <rect x="440" y="300" width="100" height="70" fill="#e9b77a" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="432,300 490,255 548,300" fill="#a8563a" stroke="#2b2620" stroke-width="3"/>
+  <rect x="512" y="262" width="12" height="26" fill="#7a4a36" stroke="#2b2620" stroke-width="2"/>
+  <rect x="470" y="330" width="40" height="40" fill="#fbf1d8" stroke="#2b2620" stroke-width="2"/>
+  <text x="440" y="392" font-family="serif" font-size="14" fill="#2b2620">Crumb's Bakery</text>
+
+  <!-- Dot's Tearoom -->
+  <rect x="250" y="560" width="90" height="65" fill="#d9a3a0" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="242,560 295,520 348,560" fill="#7d4b47" stroke="#2b2620" stroke-width="3"/>
+  <text x="252" y="644" font-family="serif" font-size="14" fill="#2b2620">Dot's Tearoom</text>
+
+  <!-- Kite maker's workshop -->
+  <rect x="560" y="250" width="80" height="60" fill="#a7c18b" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="552,250 600,212 648,250" fill="#5f7d4e" stroke="#2b2620" stroke-width="3"/>
+  <path d="M628 212 L650 180 L664 212 Z" fill="#e26d4f" stroke="#2b2620" stroke-width="2"/>
+  <text x="556" y="330" font-family="serif" font-size="14" fill="#2b2620">Kite workshop</text>
+
+  <!-- Pond Lane cottage -->
+  <rect x="640" y="430" width="60" height="50" fill="#e4d3b0" stroke="#2b2620" stroke-width="3"/>
+  <polygon points="634,430 670,402 706,430" fill="#8a5a44" stroke="#2b2620" stroke-width="3"/>
+
+  <!-- cobbles -->
+  <g fill="#c4b393" stroke="#2b2620" stroke-width="1">
+    <circle cx="300" cy="740" r="6"/><circle cx="318" cy="752" r="5"/><circle cx="292" cy="766" r="6"/>
+    <circle cx="360" cy="720" r="5"/><circle cx="410" cy="748" r="6"/><circle cx="345" cy="600" r="5"/>
+    <circle cx="372" cy="520" r="5"/><circle cx="330" cy="470" r="5"/><circle cx="420" cy="410" r="5"/>
+  </g>
+
+  <!-- the stone, circled -->
+  <path d="M385 515 q10 -14 26 -6 q14 6 8 22 q-6 14 -22 8 q-14 -6 -12 -24 z" fill="#8c8a84" stroke="#2b2620" stroke-width="2.5"/>
+  <circle cx="400" cy="520" r="40" fill="none" stroke="#2b2620" stroke-width="1.8" stroke-dasharray="14 6 3 6"/>
+  <circle cx="402" cy="518" r="48" fill="none" stroke="#2b2620" stroke-width="1" stroke-dasharray="4 8" opacity="0.7"/>
+  <text x="430" y="572" font-family="serif" font-size="14" fill="#2b2620">the stone</text>
+
+  <!-- compass rose -->
+  <g transform="translate(680 90)" stroke="#2b2620" fill="none" stroke-width="1.5">
+    <circle r="30"/>
+    <polygon points="0,-36 6,0 0,36 -6,0" fill="#2b2620"/>
+    <polygon points="-36,0 0,6 36,0 0,-6" fill="none"/>
+    <text x="-4" y="-40" font-family="serif" font-size="12" fill="#2b2620" stroke="none">N</text>
+  </g>
+
+  <!-- legend card -->
+  <rect x="50" y="690" width="210" height="72" fill="#fbf6e6" stroke="#2b2620" stroke-width="1.5"/>
+  <text x="62" y="712" font-family="serif" font-size="11" fill="#2b2620">WEATHER MUSEUM, MOSSBROOK</text>
+  <text x="62" y="730" font-family="serif" font-size="10" fill="#2b2620">Please keep to the marked floor.</text>
+  <text x="62" y="746" font-family="serif" font-size="10" fill="#2b2620">Open Tuesday to Saturday, 10 until 4.</text>
+
+  <!-- signature -->
+  <text x="728" y="752" font-family="serif" font-size="18" fill="#2b2620">P.</text>
+</svg>
