@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="rain" width="36" height="44" patternUnits="userSpaceOnUse">
+      <line x1="6" y1="4" x2="0" y2="16" stroke="#3f505c" stroke-width="1.4" opacity="0.55"/>
+      <line x1="24" y1="22" x2="18" y2="34" stroke="#3f505c" stroke-width="1.4" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect width="800" height="800" fill="#f3efe6"/>
+
+  <!-- wall around window -->
+  <rect x="0" y="0" width="800" height="800" fill="#e6dccb" opacity="0.5"/>
+
+  <!-- window frame -->
+  <rect x="120" y="90" width="560" height="520" fill="#6b5a4a" stroke="#222" stroke-width="2.5"/>
+
+  <!-- glass: fog base -->
+  <rect x="145" y="115" width="510" height="470" fill="#cfd8db" stroke="#222" stroke-width="2"/>
+
+  <!-- distant cottages, faded -->
+  <rect x="165" y="270" width="70" height="60" fill="#aeb8bc" opacity="0.8" stroke="#222" stroke-width="1"/>
+  <polygon points="160,270 200,240 240,270" fill="#9aa6ab" opacity="0.8" stroke="#222" stroke-width="1"/>
+  <rect x="560" y="280" width="75" height="55" fill="#aeb8bc" opacity="0.8" stroke="#222" stroke-width="1"/>
+  <polygon points="555,280 597,248 640,280" fill="#9aa6ab" opacity="0.8" stroke="#222" stroke-width="1"/>
+
+  <!-- bell tower -->
+  <rect x="368" y="170" width="64" height="165" fill="#8f979b" stroke="#222" stroke-width="2.5"/>
+  <polygon points="362,170 400,108 438,170" fill="#7c8589" stroke="#222" stroke-width="2.5"/>
+  <line x1="400" y1="108" x2="400" y2="84" stroke="#222" stroke-width="2"/>
+  <!-- belfry opening -->
+  <rect x="384" y="150" width="32" height="14" fill="#5d6669" stroke="#222" stroke-width="1.5"/>
+  <!-- clock face, grey and cracked -->
+  <circle cx="400" cy="230" r="26" fill="#c3c9cc" stroke="#222" stroke-width="2.5"/>
+  <circle cx="400" cy="230" r="20" fill="none" stroke="#6d777b" stroke-width="1"/>
+  <!-- crack -->
+  <polyline points="412,214 418,220 415,228 421,236" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- hour hand -->
+  <line x1="400" y1="230" x2="392" y2="236" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- crooked minute hand -->
+  <polyline points="400,230 411,212 406,206" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="230" r="2.5" fill="#222"/>
+
+  <!-- fog bands -->
+  <rect x="145" y="300" width="510" height="40" fill="#e4eaec" opacity="0.7"/>
+  <rect x="145" y="360" width="510" height="30" fill="#e4eaec" opacity="0.55"/>
+
+  <!-- lane in perspective -->
+  <polygon points="145,585 655,585 470,340 330,340" fill="#8a8072" stroke="#222" stroke-width="2"/>
+  <!-- lane edges -->
+  <line x1="145" y1="585" x2="330" y2="340" stroke="#4d453c" stroke-width="2"/>
+  <line x1="655" y1="585" x2="470" y2="340" stroke="#4d453c" stroke-width="2"/>
+
+  <!-- cobbles -->
+  <g fill="#9d9384" stroke="#3b342c" stroke-width="1.2">
+    <ellipse cx="260" cy="560" rx="22" ry="8"/>
+    <ellipse cx="350" cy="558" rx="20" ry="7"/>
+    <ellipse cx="450" cy="560" rx="22" ry="8"/>
+    <ellipse cx="545" cy="556" rx="20" ry="7"/>
+    <ellipse cx="310" cy="500" rx="16" ry="6"/>
+    <ellipse cx="405" cy="498" rx="16" ry="6"/>
+    <ellipse cx="490" cy="500" rx="16" ry="6"/>
+    <ellipse cx="362" cy="440" rx="11" ry="4"/>
+    <ellipse cx="428" cy="442" rx="11" ry="4"/>
+    <ellipse cx="380" cy="385" rx="7" ry="3"/>
+    <ellipse cx="415" cy="386" rx="7" ry="3"/>
+  </g>
+
+  <!-- puddles reflecting the tower -->
+  <ellipse cx="400" cy="524" rx="58" ry="9" fill="#b7c6cc" stroke="#222" stroke-width="1"/>
+  <line x1="384" y1="524" x2="416" y2="524" stroke="#7d8d94" stroke-width="2"/>
+  <ellipse cx="240" cy="572" rx="40" ry="6" fill="#b7c6cc" stroke="#222" stroke-width="1"/>
+
+  <!-- rain over everything in the glass -->
+  <rect x="145" y="115" width="510" height="470" fill="url(#rain)"/>
+
+  <!-- window mullions -->
+  <rect x="393" y="115" width="14" height="470" fill="#6b5a4a" stroke="#222" stroke-width="1.5"/>
+  <rect x="145" y="335" width="510" height="12" fill="#6b5a4a" stroke="#222" stroke-width="1.5"/>
+
+  <!-- sill -->
+  <rect x="120" y="585" width="560" height="30" fill="#5a4a3c" stroke="#222" stroke-width="2.5"/>
+  <rect x="120" y="585" width="560" height="6" fill="#7a6a58"/>
+
+  <!-- drip cup on wet sill: no spout, no handle -->
+  <rect x="588" y="512" width="40" height="70" rx="4" fill="#c8794a" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="608" cy="512" rx="20" ry="5" fill="#e0a07a" stroke="#222" stroke-width="2"/>
+  <ellipse cx="608" cy="512" rx="13" ry="3" fill="#5b3a2a" opacity="0.5"/>
+  <!-- wet shelf drips -->
+  <g fill="#8fa6ae" stroke="#222" stroke-width="0.8">
+    <ellipse cx="575" cy="600" rx="2.5" ry="4"/>
+    <ellipse cx="596" cy="612" rx="2.5" ry="4"/>
+    <ellipse cx="640" cy="604" rx="2.5" ry="4"/>
+    <ellipse cx="620" cy="630" rx="2.5" ry="4"/>
+  </g>
+
+  <!-- signature: a small P. -->
+  <g fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M722 772 V738 H738 Q750 738 750 750 Q750 762 738 762 H722"/>
+  </g>
+  <circle cx="758" cy="772" r="2.5" fill="#222"/>
+</svg>
