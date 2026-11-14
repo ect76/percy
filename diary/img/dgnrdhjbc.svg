@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#ebe6da"/>
+  <!-- floor -->
+  <rect x="0" y="600" width="800" height="200" fill="#b5a38a" stroke="#1d1b19" stroke-width="3"/>
+  <g fill="none" stroke="#8f7f69" stroke-width="2">
+    <ellipse cx="120" cy="660" rx="40" ry="14"/>
+    <ellipse cx="260" cy="720" rx="46" ry="15"/>
+    <ellipse cx="470" cy="690" rx="38" ry="12"/>
+    <ellipse cx="640" cy="740" rx="50" ry="16"/>
+    <ellipse cx="90" cy="750" rx="34" ry="12"/>
+  </g>
+  <!-- window onto lane -->
+  <rect x="70" y="90" width="200" height="200" fill="#cfd8da" stroke="#1d1b19" stroke-width="3"/>
+  <path d="M70 250 Q140 215 270 240 L270 290 L70 290 Z" fill="#9c9b92"/>
+  <rect x="70" y="150" width="200" height="50" fill="#e4e9ea"/>
+  <rect x="70" y="90" width="200" height="200" fill="none" stroke="#1d1b19" stroke-width="3"/>
+  <line x1="170" y1="90" x2="170" y2="290" stroke="#1d1b19" stroke-width="6"/>
+  <line x1="70" y1="190" x2="270" y2="190" stroke="#1d1b19" stroke-width="6"/>
+  <!-- desk -->
+  <g stroke="#1d1b19" stroke-width="3" stroke-linejoin="round">
+    <rect x="300" y="400" width="270" height="22" fill="#8a6a4a"/>
+    <rect x="312" y="422" width="16" height="180" fill="#7a5c3f"/>
+    <rect x="542" y="422" width="16" height="180" fill="#7a5c3f"/>
+    <rect x="312" y="500" width="246" height="12" fill="#7a5c3f"/>
+  </g>
+  <!-- paper on desk -->
+  <g stroke="#1d1b19" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M330 360 L450 352 L458 404 L338 412 Z" fill="#fbfaf4"/>
+    <line x1="346" y1="372" x2="438" y2="366" stroke="#6f7a86" stroke-width="1.5"/>
+    <line x1="347" y1="384" x2="442" y2="378" stroke="#6f7a86" stroke-width="1.5"/>
+    <line x1="348" y1="396" x2="446" y2="390" stroke="#6f7a86" stroke-width="1.5"/>
+  </g>
+  <!-- pencils -->
+  <g stroke="#1d1b19" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M472 398 L540 372 L545 380 L477 406 Z" fill="#d1a52e"/>
+    <path d="M472 398 L462 402 L477 406 Z" fill="#e8d3a0"/>
+    <path d="M478 410 L548 386 L552 393 L483 418 Z" fill="#b5443a"/>
+  </g>
+  <!-- pen -->
+  <path d="M352 412 L420 404" stroke="#1d1b19" stroke-width="4" stroke-linecap="round"/>
+  <path d="M420 404 L426 402" stroke="#1d1b19" stroke-width="2"/>
+  <!-- old computer -->
+  <g stroke="#1d1b19" stroke-width="3" stroke-linejoin="round">
+    <rect x="420" y="290" width="120" height="96" rx="6" fill="#5b5b5b"/>
+    <rect x="432" y="302" width="96" height="70" fill="#9fb3a8"/>
+    <rect x="466" y="386" width="28" height="14" fill="#5b5b5b"/>
+    <rect x="430" y="398" width="110" height="10" rx="3" fill="#8c8c8c"/>
+  </g>
+  <!-- cupboard -->
+  <g stroke="#1d1b19" stroke-width="3" stroke-linejoin="round">
+    <rect x="600" y="250" width="160" height="350" fill="#a57f5a"/>
+    <rect x="612" y="262" width="62" height="326" fill="#94704e"/>
+    <rect x="686" y="262" width="62" height="326" fill="#94704e"/>
+    <line x1="612" y1="340" x2="674" y2="340"/>
+    <line x1="612" y1="430" x2="674" y2="430"/>
+    <line x1="612" y1="520" x2="674" y2="520"/>
+    <line x1="686" y1="340" x2="748" y2="340"/>
+    <line x1="686" y1="430" x2="748" y2="430"/>
+    <line x1="686" y1="520" x2="748" y2="520"/>
+    <circle cx="670" cy="400" r="4" fill="#1d1b19"/>
+    <circle cx="690" cy="400" r="4" fill="#1d1b19"/>
+  </g>
+  <!-- sardine tins on lowest shelf -->
+  <g stroke="#1d1b19" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="622" y="482" width="30" height="38" rx="5" fill="#c7d3dc"/>
+    <rect x="622" y="496" width="30" height="6" fill="#b5443a"/>
+    <rect x="660" y="482" width="30" height="38" rx="5" fill="#c7d3dc"/>
+    <rect x="660" y="496" width="30" height="6" fill="#b5443a"/>
+    <rect x="698" y="482" width="30" height="38" rx="5" fill="#c7d3dc"/>
+    <rect x="698" y="496" width="30" height="6" fill="#b5443a"/>
+  </g>
+  <!-- signature -->
+  <text x="34" y="772" font-size="26" fill="#1d1b19">P.</text>
+</svg>
