@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f3ecdc"/>
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#c9bfa6" stroke-width="2"/>
+
+  <!-- fog bands at top -->
+  <ellipse cx="400" cy="120" rx="420" ry="46" fill="#e4e0d6" opacity="0.9"/>
+  <ellipse cx="260" cy="200" rx="300" ry="34" fill="#ebe7dd" opacity="0.95"/>
+  <ellipse cx="620" cy="250" rx="260" ry="30" fill="#e4e0d6" opacity="0.9"/>
+  <ellipse cx="380" cy="330" rx="360" ry="28" fill="#ebe7dd" opacity="0.8"/>
+
+  <!-- distant cottages in fog -->
+  <g fill="#d6d2c8" stroke="#8a8578" stroke-width="2" stroke-linejoin="round">
+    <path d="M60 420 L60 380 L95 352 L130 380 L130 420 Z"/>
+    <path d="M140 420 L140 392 L168 368 L196 392 L196 420 Z"/>
+    <path d="M640 418 L640 384 L672 356 L704 384 L704 418 Z"/>
+    <path d="M714 418 L714 396 L740 376 L766 396 L766 418 Z"/>
+  </g>
+  <rect x="0" y="418" width="800" height="10" fill="#e4e0d6"/>
+
+  <!-- village green ground -->
+  <path d="M0 428 Q200 412 400 426 Q600 440 800 420 L800 800 L0 800 Z" fill="#a9bb86" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- cobbled path across the green -->
+  <g fill="#c8bca2" stroke="#4a4438" stroke-width="2">
+    <ellipse cx="90" cy="700" rx="22" ry="11"/>
+    <ellipse cx="128" cy="712" rx="20" ry="10"/>
+    <ellipse cx="72" cy="744" rx="24" ry="11"/>
+    <ellipse cx="118" cy="758" rx="22" ry="10"/>
+    <ellipse cx="164" cy="736" rx="20" ry="10"/>
+    <ellipse cx="208" cy="768" rx="24" ry="11"/>
+    <ellipse cx="260" cy="790" rx="26" ry="10"/>
+    <ellipse cx="34" cy="780" rx="22" ry="10"/>
+  </g>
+
+  <!-- frozen pond -->
+  <ellipse cx="450" cy="640" rx="230" ry="88" fill="#2b2b2b" opacity="0.15" transform="translate(6 8)"/>
+  <ellipse cx="450" cy="640" rx="230" ry="88" fill="#bfdbe3" stroke="#2b2b2b" stroke-width="3"/>
+  <ellipse cx="450" cy="640" rx="196" ry="70" fill="none" stroke="#e9f5f8" stroke-width="6" opacity="0.8"/>
+  <g fill="none" stroke="#4f7581" stroke-width="2" stroke-linecap="round">
+    <path d="M330 610 L380 630 L410 606"/>
+    <path d="M410 606 L440 590"/>
+    <path d="M380 630 L372 662"/>
+    <path d="M520 655 L560 672 L598 660"/>
+    <path d="M560 672 L574 700"/>
+    <path d="M280 668 L300 684"/>
+    <path d="M470 690 L494 706 L520 700"/>
+  </g>
+  <!-- reeds frozen at the edge -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M232 606 Q226 580 232 556"/>
+    <path d="M242 610 Q244 586 252 566"/>
+    <path d="M660 642 Q668 616 662 596"/>
+    <path d="M668 646 Q676 624 680 606"/>
+  </g>
+
+  <!-- Welcome sign: posts and board -->
+  <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <line x1="160" y1="450" x2="160" y2="610" stroke-width="10"/>
+    <line x1="240" y1="450" x2="240" y2="610" stroke-width="10"/>
+    <rect x="100" y="330" width="200" height="130" rx="6" fill="#e6d3a0"/>
+    <rect x="114" y="344" width="172" height="102" rx="3" fill="none" stroke-width="2"/>
+  </g>
+  <g fill="#2b2b2b" font-family="serif" text-anchor="middle">
+    <text x="200" y="374" font-size="20">Welcome to</text>
+    <text x="200" y="410" font-size="27" font-weight="bold">MOSSBROOK</text>
+    <line x1="140" y1="422" x2="260" y2="422" stroke="#2b2b2b" stroke-width="1.5"/>
+    <text x="200" y="444" font-size="13">village green · pond · journal · drawings</text>
+  </g>
+
+  <!-- village green finger-post sign on the right -->
+  <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <line x1="676" y1="410" x2="676" y2="640" stroke-width="9"/>
+    <path d="M610 452 L700 452 L724 466 L700 480 L610 480 Z" fill="#d9c58f"/>
+    <path d="M640 500 L740 500 L740 528 L640 528 L620 514 Z" fill="#d9c58f"/>
+  </g>
+  <g fill="#2b2b2b" font-family="serif" text-anchor="middle" font-size="13">
+    <text x="672" y="471">Village Green</text>
+    <text x="692" y="519">The Pond</text>
+  </g>
+
+  <!-- stone under the signs, low and plain -->
+  <g stroke="#2b2b2b" stroke-width="2.5" fill="#b7b0a0">
+    <path d="M318 650 Q330 636 352 638 Q370 640 372 654 Q366 664 344 664 Q322 664 318 650 Z"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="22" fill="#2b2b2b" text-anchor="end">P.</text>
+</svg>
