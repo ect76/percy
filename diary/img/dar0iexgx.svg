@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe5e6"/>
+      <stop offset="1" stop-color="#b9c4c6"/>
+    </linearGradient>
+    <pattern id="chk" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#e8e0cc"/>
+      <rect width="8" height="8" fill="#9aa8a8" opacity="0.7"/>
+      <rect x="8" y="8" width="8" height="8" fill="#9aa8a8" opacity="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- paper and fog -->
+  <rect width="800" height="800" fill="#ecE9e1"/>
+  <ellipse cx="400" cy="700" rx="420" ry="90" fill="#dcdcd6" opacity="0.5"/>
+  <ellipse cx="300" cy="620" rx="300" ry="40" fill="#dcdcd6" opacity="0.4"/>
+
+  <!-- window -->
+  <rect x="110" y="50" width="580" height="430" fill="#7a5a3c" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="130" y="70" width="540" height="390" fill="url(#fog)" stroke="#2a2420" stroke-width="2"/>
+  <rect x="396" y="70" width="12" height="390" fill="#7a5a3c" stroke="#2a2420" stroke-width="1.5"/>
+  <rect x="130" y="256" width="540" height="10" fill="#7a5a3c" stroke="#2a2420" stroke-width="1.5"/>
+
+  <!-- rain streaks -->
+  <g stroke="#6f7d86" stroke-width="1.4" opacity="0.6" stroke-linecap="round">
+    <line x1="160" y1="100" x2="146" y2="132"/>
+    <line x1="220" y1="90" x2="206" y2="122"/>
+    <line x1="290" y1="120" x2="276" y2="152"/>
+    <line x1="340" y1="88" x2="326" y2="120"/>
+    <line x1="460" y1="100" x2="446" y2="132"/>
+    <line x1="520" y1="130" x2="506" y2="162"/>
+    <line x1="600" y1="96" x2="586" y2="128"/>
+    <line x1="170" y1="190" x2="156" y2="222"/>
+    <line x1="260" y1="200" x2="246" y2="232"/>
+    <line x1="470" y1="180" x2="456" y2="212"/>
+    <line x1="560" y1="200" x2="546" y2="232"/>
+    <line x1="640" y1="170" x2="626" y2="202"/>
+    <line x1="150" y1="300" x2="136" y2="332"/>
+    <line x1="330" y1="310" x2="316" y2="342"/>
+    <line x1="430" y1="320" x2="416" y2="352"/>
+    <line x1="600" y1="330" x2="586" y2="362"/>
+    <line x1="660" y1="290" x2="646" y2="322"/>
+  </g>
+
+  <!-- sill -->
+  <rect x="60" y="480" width="690" height="20" fill="#9a7a58" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="60" y="500" width="690" height="20" fill="#6e5238" stroke="#2a2420" stroke-width="2"/>
+  <!-- wet sheen on sill -->
+  <ellipse cx="300" cy="486" rx="200" ry="3" fill="#dfe8ea" opacity="0.7"/>
+  <ellipse cx="580" cy="488" rx="120" ry="2.5" fill="#dfe8ea" opacity="0.7"/>
+
+  <!-- scale: base, post, dial, dish -->
+  <rect x="150" y="466" width="100" height="16" fill="#1d1d1f" stroke="#2a2420" stroke-width="2"/>
+  <rect x="194" y="266" width="12" height="200" fill="#1d1d1f" stroke="#2a2420" stroke-width="1.5"/>
+  <circle cx="200" cy="200" r="46" fill="#1d1d1f" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="200" cy="200" r="38" fill="#f1ead6" stroke="#2a2420" stroke-width="1.5"/>
+  <g stroke="#2a2420" stroke-width="1.5">
+    <line x1="200" y1="164" x2="200" y2="172"/>
+    <line x1="236" y1="200" x2="228" y2="200"/>
+    <line x1="164" y1="200" x2="172" y2="200"/>
+    <line x1="222" y1="178" x2="216" y2="184"/>
+    <line x1="178" y1="178" x2="184" y2="184"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="8" fill="#2a2420" text-anchor="middle">
+    <text x="200" y="180">4</text>
+    <text x="222" y="204">8</text>
+    <text x="178" y="204">0</text>
+  </g>
+  <line x1="200" y1="200" x2="220" y2="176" stroke="#8a2d1e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="4" fill="#2a2420"/>
+  <rect x="160" y="252" width="80" height="14" fill="#1d1d1f" stroke="#2a2420" stroke-width="1"/>
+  <text x="200" y="262" font-family="Georgia, serif" font-size="9" fill="#e8e0cc" text-anchor="middle" textLength="66">MAX 2 LB</text>
+
+  <!-- brass dish -->
+  <ellipse cx="200" cy="416" rx="88" ry="20" fill="#7d5c22" stroke="#2a2420" stroke-width="2"/>
+  <ellipse cx="200" cy="410" rx="88" ry="20" fill="#b8903e" stroke="#2a2420" stroke-width="2"/>
+  <ellipse cx="200" cy="410" rx="70" ry="14" fill="#c9a152" stroke="#7d5c22" stroke-width="1"/>
+
+  <!-- speckled seeds -->
+  <g>
+    <circle cx="150" cy="408" r="2.5" fill="#5a3a22"/>
+    <circle cx="164" cy="413" r="2.5" fill="#e8d9b0"/>
+    <circle cx="178" cy="404" r="2.5" fill="#5a3a22"/>
+    <circle cx="190" cy="416" r="2.5" fill="#e8d9b0"/>
+    <circle cx="205" cy="406" r="2.5" fill="#5a3a22"/>
+    <circle cx="218" cy="414" r="2.5" fill="#e8d9b0"/>
+    <circle cx="232" cy="405" r="2.5" fill="#5a3a22"/>
+    <circle cx="248" cy="411" r="2.5" fill="#e8d9b0"/>
+    <circle cx="160" cy="418" r="2.5" fill="#e8d9b0"/>
+    <circle cx="185" cy="421" r="2.5" fill="#5a3a22"/>
+    <circle cx="212" cy="421" r="2.5" fill="#5a3a22"/>
+    <circle cx="240" cy="419" r="2.5" fill="#e8d9b0"/>
+    <circle cx="175" cy="398" r="2.5" fill="#e8d9b0"/>
+    <circle cx="196" cy="400" r="2.5" fill="#5a3a22"/>
+    <circle cx="224" cy="398" r="2.5" fill="#e8d9b0"/>
+    <circle cx="256" cy="418" r="2.5" fill="#5a3a22"/>
+    <circle cx="144" cy="414" r="2.5" fill="#5a3a22"/>
+    <circle cx="226" cy="412" r="2.5" fill="#5a3a22"/>
+    <circle cx="168" cy="426" r="2" fill="#e8d9b0"/>
+    <circle cx="200" cy="426" r="2" fill="#e8d9b0"/>
+  </g>
+
+  <!-- dented tin with rust-red lid -->
+  <path d="M320 414 L320 474 Q370 486 420 474 L420 414 Z" fill="#b9b3a6" stroke="#2a2420" stroke-width="2"/>
+  <path d="M352 418 Q356 430 350 446" fill="none" stroke="#7d776b" stroke-width="2"/>
+  <ellipse cx="370" cy="414" rx="50" ry="11" fill="#8f3a22" stroke="#2a2420" stroke-width="2"/>
+  <ellipse cx="370" cy="412" rx="36" ry="6" fill="#a84c30" opacity="0.8"/>
+  <text x="330" y="452" font-family="Arial, sans-serif" font-size="7.5" fill="#2a2420" textLength="80">CLOCK OIL - LIGHT GRADE</text>
+
+  <!-- folded rag beside tin -->
+  <path d="M428 468 L450 458 L470 466 L468 480 L432 480 Z" fill="#d9d2bf" stroke="#2a2420" stroke-width="1.5"/>
+  <path d="M436 470 L462 468" stroke="#9c9480" stroke-width="1.2" fill="none"/>
+
+  <!-- thick blue book with red ribbon -->
+  <rect x="500" y="362" width="104" height="118" fill="#2d3f6b" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="500" y="362" width="8" height="118" fill="#1e2a4a"/>
+  <rect x="596" y="362" width="8" height="8" fill="#9a9a96"/>
+  <rect x="596" y="472" width="8" height="8" fill="#9a9a96"/>
+  <rect x="500" y="362" width="8" height="8" fill="#9a9a96"/>
+  <rect x="500" y="472" width="8" height="8" fill="#9a9a96"/>
+  <rect x="516" y="366" width="76" height="2" fill="#4a5f8f"/>
+  <text x="520" y="384" font-family="Arial, sans-serif" font-size="8" fill="#f1ead6" textLength="72">PRICES - SEASON 2</text>
+  <g font-family="Arial, sans-serif" font-size="7" fill="#e8e0cc">
+    <text x="520" y="402">Carrot 1.20</text>
+    <text x="520" y="416">Beans, runner 1.50</text>
+    <text x="520" y="430">Onion sets 2.00</text>
+    <text x="520" y="444">Marigold 0.90</text>
+  </g>
+  <path d="M528 480 Q524 496 530 510 Q534 518 526 526" fill="none" stroke="#a3202a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M528 480 Q524 496 530 510 Q534 518 526 526" fill="none" stroke="#2a2420" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- enamel drip cup on wet shelf (no spout, no hole) -->
+  <path d="M628 418 L630 472 Q656 484 682 472 L684 418 Z" fill="#ece6d6" stroke="#2a2420" stroke-width="2.5"/>
+  <ellipse cx="656" cy="418" rx="28" ry="7" fill="#c9d6d8" stroke="#2a2420" stroke-width="2"/>
+  <ellipse cx="656" cy="418" rx="22" ry="4.5" fill="#8fa3a8"/>
+  <path d="M636 440 L636 462" stroke="#9fb3b8" stroke-width="3" opacity="0.6"/>
+  <path d="M630 442 Q656 448 682 442" fill="none" stroke="#3a5f7a" stroke-width="3"/>
+  <ellipse cx="656" cy="486" rx="34" ry="4" fill="#dfe8ea" opacity="0.8"/>
+
+  <!-- checked cloth hanging over the sill edge -->
+  <path d="M690 480 L752 480 L752 640 Q742 648 730 640 L722 632 L712 646 Q700 652 694 640 Z" fill="url(#chk)" stroke="#2a2420" stroke-width="2"/>
+  <path d="M690 480 L752 480 L752 640 Q742 648 730 640 L722 632 L712 646 Q700 652 694 640 Z" fill="#5f7373" opacity="0.15"/>
+  <path d="M694 600 Q700 614 698 628 Q697 640 694 646" fill="none" stroke="#6f8c8e" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="722" cy="636" rx="3" ry="4" fill="#6f8c8e" opacity="0.7"/>
+
+  <!-- signature -->
+  <text x="772" y="784" font-family="Georgia, serif" font-size="14" fill="#2a2420" text-anchor="end">P.</text>
+</svg>
