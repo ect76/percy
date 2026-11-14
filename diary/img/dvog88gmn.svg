@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#eee8da"/>
+
+  <!-- distant cottages and bell tower, half lost in fog -->
+  <g fill="#d6d1c4" stroke="#6b655c" stroke-width="2" opacity="0.8">
+    <path d="M90 420 L90 370 L130 340 L170 370 L170 420 Z"/>
+    <path d="M190 415 L190 380 L225 355 L260 380 L260 415 Z"/>
+    <path d="M300 425 L300 390 L335 368 L370 390 L370 425 Z"/>
+    <rect x="585" y="250" width="40" height="170"/>
+    <path d="M580 250 L605 205 L630 250 Z"/>
+    <rect x="598" y="280" width="14" height="18" fill="#8c867b"/>
+  </g>
+
+  <!-- village green -->
+  <path d="M0 430 Q200 415 400 432 T800 425 L800 540 Q600 520 400 532 T0 540 Z" fill="#b8c4a2" stroke="#4a463f" stroke-width="2"/>
+
+  <!-- fog bands over the distance -->
+  <rect x="0" y="300" width="800" height="60" fill="#f7f4ec" opacity="0.7"/>
+  <rect x="0" y="370" width="800" height="45" fill="#f7f4ec" opacity="0.55"/>
+  <rect x="0" y="455" width="800" height="40" fill="#f7f4ec" opacity="0.45"/>
+
+  <!-- welcome sign on grass, right of pond -->
+  <g stroke="#2b2824" stroke-width="2">
+    <rect x="676" y="462" width="9" height="62" fill="#6e5a46"/>
+    <rect x="560" y="398" width="200" height="72" fill="#e6d9b8"/>
+    <rect x="566" y="404" width="188" height="60" fill="none" stroke-width="1.5"/>
+  </g>
+  <text x="660" y="441" font-family="serif" font-size="20" fill="#2b2824" text-anchor="middle">Welcome to Mossbrook</text>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="600" width="800" height="200" fill="#c9c1ad"/>
+  <g fill="#b3aa95" stroke="#4a4540" stroke-width="1.5">
+    <ellipse cx="60" cy="640" rx="22" ry="10"/>
+    <ellipse cx="130" cy="668" rx="24" ry="11"/>
+    <ellipse cx="40" cy="712" rx="26" ry="12"/>
+    <ellipse cx="150" cy="752" rx="28" ry="12"/>
+    <ellipse cx="260" cy="700" rx="22" ry="10"/>
+    <ellipse cx="300" cy="760" rx="26" ry="11"/>
+    <ellipse cx="410" cy="720" rx="24" ry="11"/>
+    <ellipse cx="520" cy="770" rx="26" ry="12"/>
+    <ellipse cx="600" cy="690" rx="24" ry="11"/>
+    <ellipse cx="700" cy="725" rx="26" ry="12"/>
+    <ellipse cx="740" cy="650" rx="22" ry="10"/>
+    <ellipse cx="620" cy="640" rx="20" ry="9"/>
+    <ellipse cx="480" cy="650" rx="20" ry="9"/>
+    <ellipse cx="200" cy="640" rx="18" ry="8"/>
+  </g>
+
+  <!-- pond kerb and water -->
+  <ellipse cx="420" cy="580" rx="216" ry="86" fill="#5b5148"/>
+  <ellipse cx="420" cy="580" rx="206" ry="78" fill="#6f8f92"/>
+  <ellipse cx="420" cy="572" rx="170" ry="58" fill="#7fa3a4" opacity="0.7"/>
+  <ellipse cx="450" cy="600" rx="120" ry="30" fill="#5d7d80" opacity="0.5"/>
+
+  <!-- ripples where the figure went under -->
+  <g fill="none" stroke="#eef4f0" stroke-width="3">
+    <ellipse cx="360" cy="594" rx="18" ry="6" opacity="1"/>
+    <ellipse cx="360" cy="594" rx="38" ry="13" opacity="0.9"/>
+    <ellipse cx="360" cy="594" rx="62" ry="21" opacity="0.7"/>
+    <ellipse cx="360" cy="594" rx="90" ry="31" opacity="0.5"/>
+    <ellipse cx="360" cy="594" rx="122" ry="42" opacity="0.3"/>
+  </g>
+  <path d="M338 586 L344 594 M376 598 L382 604" stroke="#eef4f0" stroke-width="2.5" fill="none"/>
+
+  <!-- iron mooring ring on stone post at the pond edge -->
+  <rect x="222" y="540" width="20" height="44" fill="#6b645a" stroke="#2b2824" stroke-width="2"/>
+  <rect x="218" y="530" width="28" height="12" fill="#8c8478" stroke="#2b2824" stroke-width="2"/>
+  <circle cx="232" cy="556" r="15" fill="none" stroke="#2f2c29" stroke-width="5"/>
+  <circle cx="232" cy="556" r="15" fill="none" stroke="#8d8a84" stroke-width="1.5"/>
+
+  <!-- fog rolling over the foreground -->
+  <rect x="0" y="615" width="800" height="30" fill="#f7f4ec" opacity="0.35"/>
+  <rect x="0" y="700" width="800" height="50" fill="#f7f4ec" opacity="0.25"/>
+
+  <!-- signature -->
+  <text x="752" y="782" font-family="serif" font-size="24" fill="#2b2824" text-anchor="end">P.</text>
+</svg>
