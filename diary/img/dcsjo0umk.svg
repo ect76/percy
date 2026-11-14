@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#efe6d2"/>
+  <rect x="0" y="0" width="800" height="800" fill="#c9b99c" opacity="0.25"/>
+  <!-- wall -->
+  <rect x="20" y="20" width="760" height="760" fill="#d8c7a4" stroke="#1d1712" stroke-width="3"/>
+  <!-- window onto lane -->
+  <rect x="50" y="110" width="130" height="170" fill="#b9c8cc" stroke="#1d1712" stroke-width="5"/>
+  <path d="M50 230 L180 210 L180 280 L50 280 Z" fill="#8c8377"/>
+  <path d="M50 280 L180 280 L180 280" stroke="#5e5850" stroke-width="2"/>
+  <ellipse cx="90" cy="180" rx="60" ry="22" fill="#eef3f2" opacity="0.7"/>
+  <ellipse cx="150" cy="150" rx="50" ry="18" fill="#eef3f2" opacity="0.6"/>
+  <ellipse cx="110" cy="250" rx="70" ry="14" fill="#eef3f2" opacity="0.5"/>
+  <line x1="115" y1="110" x2="115" y2="280" stroke="#1d1712" stroke-width="3"/>
+  <!-- cupboard frame and interior -->
+  <rect x="230" y="180" width="340" height="420" fill="#4a3424"/>
+  <polygon points="200,150 230,180 230,600 200,630" fill="#8a6544" stroke="#1d1712" stroke-width="5"/>
+  <polygon points="600,150 570,180 570,600 600,630" fill="#7a5638" stroke="#1d1712" stroke-width="5"/>
+  <rect x="200" y="150" width="400" height="480" fill="none" stroke="#1d1712" stroke-width="6"/>
+  <!-- shelves -->
+  <rect x="230" y="300" width="340" height="12" fill="#9c7550" stroke="#1d1712" stroke-width="3"/>
+  <rect x="230" y="440" width="340" height="12" fill="#9c7550" stroke="#1d1712" stroke-width="3"/>
+  <!-- sardine tins on top shelf -->
+  <g stroke="#1d1712" stroke-width="3">
+    <rect x="262" y="256" width="56" height="44" rx="6" fill="#6d8ea3"/>
+    <rect x="262" y="256" width="56" height="8" fill="#c9d3d8"/>
+    <rect x="272" y="274" width="36" height="16" fill="#e8dcc0"/>
+    <rect x="332" y="256" width="56" height="44" rx="6" fill="#6d8ea3"/>
+    <rect x="332" y="256" width="56" height="8" fill="#c9d3d8"/>
+    <rect x="342" y="274" width="36" height="16" fill="#e8dcc0"/>
+    <rect x="402" y="256" width="56" height="44" rx="6" fill="#6d8ea3"/>
+    <rect x="402" y="256" width="56" height="8" fill="#c9d3d8"/>
+    <rect x="412" y="274" width="36" height="16" fill="#e8dcc0"/>
+  </g>
+  <!-- single tin on middle shelf -->
+  <rect x="262" y="396" width="56" height="44" rx="6" fill="#6d8ea3" stroke="#1d1712" stroke-width="3"/>
+  <rect x="262" y="396" width="56" height="8" fill="#c9d3d8" stroke="#1d1712" stroke-width="3"/>
+  <rect x="272" y="414" width="36" height="16" fill="#e8dcc0"/>
+  <!-- bare lower shelf: faint marks only -->
+  <line x1="300" y1="470" x2="420" y2="470" stroke="#3a2a1c" stroke-width="2" opacity="0.5"/>
+  <!-- table -->
+  <rect x="120" y="610" width="560" height="22" fill="#6b4c30" stroke="#1d1712" stroke-width="4"/>
+  <rect x="140" y="632" width="18" height="120" fill="#5a3f27" stroke="#1d1712" stroke-width="3"/>
+  <rect x="642" y="632" width="18" height="120" fill="#5a3f27" stroke="#1d1712" stroke-width="3"/>
+  <!-- plate with fish bones -->
+  <ellipse cx="400" cy="600" rx="120" ry="26" fill="#f4eee2" stroke="#1d1712" stroke-width="3"/>
+  <g stroke="#1d1712" stroke-width="3" fill="none">
+    <path d="M330 600 Q400 592 470 600"/>
+    <path d="M345 600 L340 588 M362 600 L358 586 M380 600 L376 586 M398 600 L394 586 M416 600 L412 586 M434 600 L430 588"/>
+    <path d="M345 600 L340 612 M362 600 L358 614 M380 600 L376 614 M398 600 L394 614 M416 600 L412 614 M434 600 L430 612"/>
+    <path d="M470 600 L488 592 M470 600 L488 608"/>
+  </g>
+  <ellipse cx="338" cy="600" rx="10" ry="8" fill="#1d1712"/>
+  <!-- signature P. -->
+  <g stroke="#1d1712" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M735 740 V764 M735 740 H746 Q754 740 754 748 Q754 756 746 756 H735"/>
+    <path d="M762 762 V764"/>
+  </g>
+</svg>
