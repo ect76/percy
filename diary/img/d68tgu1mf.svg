@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4f0e6"/>
+
+  <!-- fog bands -->
+  <ellipse cx="400" cy="120" rx="420" ry="90" fill="#d8d8d2" opacity="0.55"/>
+  <ellipse cx="180" cy="250" rx="260" ry="60" fill="#e2e2dc" opacity="0.7"/>
+  <ellipse cx="640" cy="260" rx="240" ry="55" fill="#e2e2dc" opacity="0.7"/>
+
+  <!-- distant cottage in fog -->
+  <g opacity="0.45" stroke="#2a2a2a" stroke-width="2" fill="#bfc2bb">
+    <rect x="560" y="170" width="70" height="50"/>
+    <path d="M552 172 L595 138 L638 172 Z"/>
+    <rect x="585" y="195" width="14" height="25" fill="#8e9288"/>
+  </g>
+
+  <!-- village green -->
+  <ellipse cx="400" cy="520" rx="340" ry="205" fill="#9bb582" stroke="#2a2a2a" stroke-width="2.5"/>
+
+  <!-- cobbled edge along the bottom -->
+  <g fill="#c4bcaa" stroke="#2a2a2a" stroke-width="1.5">
+    <ellipse cx="200" cy="700" rx="22" ry="12"/>
+    <ellipse cx="250" cy="716" rx="20" ry="11"/>
+    <ellipse cx="300" cy="704" rx="22" ry="12"/>
+    <ellipse cx="355" cy="722" rx="20" ry="11"/>
+    <ellipse cx="410" cy="708" rx="22" ry="12"/>
+    <ellipse cx="465" cy="720" rx="20" ry="11"/>
+    <ellipse cx="520" cy="704" rx="22" ry="12"/>
+    <ellipse cx="575" cy="716" rx="20" ry="11"/>
+    <ellipse cx="620" cy="700" rx="22" ry="12"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="420" cy="500" rx="170" ry="95" fill="#6f9fb0" stroke="#2a2a2a" stroke-width="3"/>
+
+  <!-- grass edge with tufts -->
+  <ellipse cx="420" cy="500" rx="186" ry="108" fill="none" stroke="#4d6b3a" stroke-width="9" stroke-dasharray="5 9" stroke-linecap="round"/>
+  <ellipse cx="420" cy="500" rx="182" ry="104" fill="none" stroke="#2a2a2a" stroke-width="1.5" stroke-dasharray="2 14"/>
+
+  <!-- fish hiding under the grass edge -->
+  <g fill="#c96a3a" stroke="#2a2a2a" stroke-width="1.5" opacity="0.8">
+    <path d="M236 470 q12 -8 26 0 q-12 8 -26 0 z"/>
+    <path d="M262 470 l10 -6 v12 z"/>
+    <path d="M588 528 q12 -8 26 0 q-12 8 -26 0 z"/>
+    <path d="M614 528 l10 -6 v12 z"/>
+    <path d="M408 592 q10 -7 22 0 q-10 7 -22 0 z"/>
+    <path d="M430 592 l9 -5 v10 z"/>
+  </g>
+
+  <!-- ripples -->
+  <g fill="none" stroke="#e9f3f5" stroke-width="2.5">
+    <ellipse cx="380" cy="505" rx="36" ry="14"/>
+    <ellipse cx="380" cy="505" rx="78" ry="30" opacity="0.85"/>
+    <ellipse cx="380" cy="505" rx="122" ry="48" opacity="0.6"/>
+  </g>
+  <ellipse cx="455" cy="470" rx="14" ry="5" fill="none" stroke="#e9f3f5" stroke-width="2"/>
+
+  <!-- Welcome to Mossbrook sign -->
+  <rect x="146" y="418" width="11" height="136" fill="#7a5a3a" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="98" y="328" width="204" height="94" rx="4" fill="#c9a46b" stroke="#2a2a2a" stroke-width="2.5"/>
+  <rect x="106" y="336" width="188" height="78" rx="2" fill="none" stroke="#7a5a3a" stroke-width="1.5"/>
+  <g stroke="#3a2a1a" stroke-width="6" stroke-linecap="round">
+    <line x1="122" y1="356" x2="190" y2="356"/>
+    <line x1="200" y1="356" x2="280" y2="356"/>
+    <line x1="122" y1="378" x2="160" y2="378"/>
+    <line x1="170" y1="378" x2="278" y2="378"/>
+    <line x1="122" y1="400" x2="238" y2="400"/>
+  </g>
+
+  <!-- reeds beside the sign -->
+  <g fill="none" stroke="#4d6b3a" stroke-width="3" stroke-linecap="round">
+    <path d="M318 470 q-4 -20 2 -36"/>
+    <path d="M326 472 q2 -22 10 -34"/>
+    <path d="M332 470 q4 -14 14 -22"/>
+  </g>
+
+  <!-- signature -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M716 752 V712 H730 Q738 712 738 721 Q738 730 730 730 H716"/>
+  </g>
+  <circle cx="750" cy="752" r="2.5" fill="#2a2a2a"/>
+</svg>
