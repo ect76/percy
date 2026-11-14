@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+
+  <!-- distant fogged cottages -->
+  <g fill="#d9dcd8" stroke="#8a8f8c" stroke-width="1.5">
+    <path d="M60 330 L60 290 L100 262 L140 290 L140 330 Z"/>
+    <path d="M610 320 L610 280 L650 250 L690 280 L690 320 Z"/>
+    <path d="M700 330 L700 300 L730 278 L760 300 L760 330 Z"/>
+  </g>
+
+  <!-- rain-soaked green -->
+  <path d="M0 400 Q400 370 800 400 L800 800 L0 800 Z" fill="#a9c294" stroke="#2a2420" stroke-width="2.5"/>
+
+  <!-- cobbled edge of green -->
+  <g fill="#d8d2c2" stroke="#2a2420" stroke-width="1.5">
+    <ellipse cx="60" cy="470" rx="16" ry="8"/>
+    <ellipse cx="95" cy="492" rx="14" ry="7"/>
+    <ellipse cx="40" cy="520" rx="18" ry="9"/>
+    <ellipse cx="740" cy="480" rx="16" ry="8"/>
+    <ellipse cx="710" cy="508" rx="14" ry="7"/>
+    <ellipse cx="755" cy="540" rx="18" ry="9"/>
+    <ellipse cx="50" cy="700" rx="22" ry="11"/>
+    <ellipse cx="120" cy="745" rx="20" ry="10"/>
+    <ellipse cx="690" cy="720" rx="22" ry="11"/>
+    <ellipse cx="640" cy="770" rx="18" ry="9"/>
+  </g>
+
+  <!-- pond -->
+  <ellipse cx="430" cy="560" rx="200" ry="70" fill="#7fa3a8" stroke="#2a2420" stroke-width="2.5"/>
+  <!-- ripples from spout -->
+  <g fill="none" stroke="#2a2420" stroke-width="1.5" opacity="0.8">
+    <ellipse cx="520" cy="552" rx="14" ry="5"/>
+    <ellipse cx="520" cy="552" rx="34" ry="11"/>
+    <ellipse cx="520" cy="552" rx="58" ry="19"/>
+    <ellipse cx="520" cy="552" rx="86" ry="28"/>
+  </g>
+
+  <!-- leaking spout on wall -->
+  <rect x="600" y="330" width="150" height="110" fill="#cfc6b2" stroke="#2a2420" stroke-width="2.5"/>
+  <path d="M600 330 L750 330" stroke="#2a2420" stroke-width="3"/>
+  <path d="M585 412 L615 412 L615 428 L595 428 Z" fill="#8c8677" stroke="#2a2420" stroke-width="2"/>
+  <path d="M600 428 Q600 460 602 486" fill="none" stroke="#5f8fa0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M590 438 Q591 452 590 466" fill="none" stroke="#5f8fa0" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <!-- drip mark -->
+  <ellipse cx="602" cy="500" rx="6" ry="3" fill="#5f8fa0"/>
+
+  <!-- Welcome sign -->
+  <rect x="172" y="340" width="14" height="290" fill="#7a5a3c" stroke="#2a2420" stroke-width="2.5"/>
+  <path d="M110 252 L210 252 L160 214 Z" fill="#6b4f35" stroke="#2a2420" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="110" y="252" width="100" height="0" fill="none"/>
+  <rect x="100" y="250" width="200" height="92" rx="12" fill="#3f6b48" stroke="#2a2420" stroke-width="2.5"/>
+  <rect x="112" y="262" width="176" height="68" rx="8" fill="#f6efd9" stroke="#2a2420" stroke-width="1.5"/>
+  <!-- brass chains -->
+  <g stroke="#b8923a" stroke-width="3" stroke-dasharray="5 3" fill="none">
+    <line x1="128" y1="342" x2="128" y2="372"/>
+    <line x1="272" y1="342" x2="272" y2="372"/>
+  </g>
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#2a2420">Welcome to</text>
+  <text x="200" y="318" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#2a2420">Mossbrook</text>
+  <!-- mossy patches at base -->
+  <g fill="#5d8a4e" opacity="0.85">
+    <ellipse cx="160" cy="622" rx="26" ry="9"/>
+    <ellipse cx="192" cy="630" rx="20" ry="7"/>
+    <ellipse cx="178" cy="612" rx="12" ry="5"/>
+  </g>
+
+  <!-- iron mooring ring at pond edge -->
+  <rect x="318" y="628" width="22" height="48" fill="#8c8677" stroke="#2a2420" stroke-width="2"/>
+  <circle cx="329" cy="612" r="15" fill="none" stroke="#3b3a3a" stroke-width="5"/>
+  <rect x="322" y="622" width="14" height="6" fill="#3b3a3a"/>
+
+  <!-- fog bands -->
+  <rect x="0" y="180" width="800" height="90" fill="#f4efe3" opacity="0.7"/>
+  <rect x="0" y="300" width="800" height="60" fill="#f4efe3" opacity="0.5"/>
+  <rect x="0" y="390" width="800" height="25" fill="#f4efe3" opacity="0.45"/>
+
+  <!-- rain -->
+  <g stroke="#56707a" stroke-width="1" opacity="0.45" stroke-linecap="round">
+    <line x1="40" y1="60" x2="30" y2="84"/>
+    <line x1="120" y1="40" x2="110" y2="64"/>
+    <line x1="210" y1="90" x2="200" y2="114"/>
+    <line x1="300" y1="30" x2="290" y2="54"/>
+    <line x1="380" y1="110" x2="370" y2="134"/>
+    <line x1="470" y1="50" x2="460" y2="74"/>
+    <line x1="560" y1="20" x2="550" y2="44"/>
+    <line x1="650" y1="90" x2="640" y2="114"/>
+    <line x1="740" y1="40" x2="730" y2="64"/>
+    <line x1="80" y1="170" x2="70" y2="194"/>
+    <line x1="260" y1="200" x2="250" y2="224"/>
+    <line x1="520" y1="180" x2="510" y2="204"/>
+    <line x1="700" y1="200" x2="690" y2="224"/>
+    <line x1="40" y1="740" x2="30" y2="764"/>
+    <line x1="260" y1="720" x2="250" y2="744"/>
+    <line x1="480" y1="760" x2="470" y2="784"/>
+    <line x1="740" y1="700" x2="730" y2="724"/>
+    <line x1="580" y1="680" x2="570" y2="704"/>
+    <line x1="150" y1="500" x2="140" y2="524"/>
+    <line x1="350" y1="450" x2="340" y2="474"/>
+    <line x1="680" y1="470" x2="670" y2="494"/>
+  </g>
+
+  <!-- signature -->
+  <text x="752" y="782" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#2a2420">P.</text>
+</svg>
