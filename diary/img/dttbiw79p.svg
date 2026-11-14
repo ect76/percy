@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6df" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e9e6df" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper ground -->
+  <rect width="800" height="800" fill="#efe9dc"/>
+
+  <!-- distant village silhouette in fog -->
+  <path d="M0 380 L60 350 L70 300 L110 300 L120 350 L200 330 L210 280 L260 280 L270 330 L360 340 L370 300 L420 300 L430 340 L520 330 L540 270 L600 270 L610 330 L700 340 L740 310 L800 320 L800 420 L0 420 Z" fill="#c9c4b8" opacity="0.6"/>
+  <rect x="0" y="360" width="800" height="70" fill="url(#fog)"/>
+
+  <!-- cobbled ground -->
+  <rect x="0" y="420" width="800" height="120" fill="#d8d2c4"/>
+  <g fill="#bdb6a6" stroke="#8d8577" stroke-width="2">
+    <ellipse cx="60" cy="450" rx="34" ry="14"/>
+    <ellipse cx="150" cy="462" rx="30" ry="12"/>
+    <ellipse cx="250" cy="446" rx="36" ry="13"/>
+    <ellipse cx="350" cy="458" rx="32" ry="12"/>
+    <ellipse cx="455" cy="448" rx="34" ry="13"/>
+    <ellipse cx="560" cy="460" rx="30" ry="12"/>
+    <ellipse cx="660" cy="450" rx="36" ry="13"/>
+    <ellipse cx="750" cy="462" rx="30" ry="12"/>
+    <ellipse cx="100" cy="500" rx="40" ry="15"/>
+    <ellipse cx="220" cy="520" rx="36" ry="14"/>
+    <ellipse cx="620" cy="515" rx="38" ry="14"/>
+  </g>
+  <rect x="0" y="390" width="800" height="90" fill="url(#fog)" opacity="0.8"/>
+
+  <!-- library table -->
+  <rect x="0" y="600" width="800" height="200" fill="#8a6a4a"/>
+  <rect x="0" y="600" width="800" height="10" fill="#6f5238"/>
+  <g stroke="#6f5238" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M0 640 Q200 630 400 645 T800 640"/>
+    <path d="M0 700 Q250 690 450 705 T800 700"/>
+    <path d="M0 760 Q300 750 500 765 T800 760"/>
+  </g>
+
+  <!-- date slip / book pocket on table -->
+  <g transform="rotate(-4 220 640)">
+    <rect x="130" y="595" width="190" height="95" fill="#f8f5ea" stroke="#3d3a36" stroke-width="3"/>
+    <g stroke="#3d3a36" stroke-width="2" fill="none">
+      <rect x="150" y="612" width="60" height="26"/>
+      <rect x="220" y="612" width="60" height="26"/>
+      <rect x="150" y="648" width="130" height="26"/>
+    </g>
+    <g fill="#2f4a7a" opacity="0.85">
+      <rect x="162" y="618" width="36" height="12"/>
+      <rect x="232" y="618" width="34" height="12"/>
+      <rect x="166" y="654" width="90" height="12"/>
+    </g>
+  </g>
+
+  <!-- red tin box -->
+  <g>
+    <rect x="110" y="330" width="320" height="200" rx="8" fill="#b53a2c" stroke="#3d2a22" stroke-width="4"/>
+    <rect x="100" y="302" width="340" height="36" rx="6" fill="#9c2f24" stroke="#3d2a22" stroke-width="4"/>
+    <!-- flaking paint showing tin -->
+    <g fill="#a7a295" stroke="#6e685c" stroke-width="1.5">
+      <path d="M130 360 L150 352 L162 366 L148 380 L134 376 Z"/>
+      <path d="M260 420 L282 412 L296 428 L284 444 L262 438 Z"/>
+      <path d="M368 352 L386 348 L392 364 L378 372 Z"/>
+      <path d="M190 470 L208 462 L218 478 L204 488 Z"/>
+      <path d="M340 480 L358 474 L366 490 L350 498 Z"/>
+      <path d="M400 400 L414 396 L418 410 L406 416 Z"/>
+    </g>
+    <g fill="#8b3224" opacity="0.8">
+      <path d="M220 340 L236 338 L238 350 L222 352 Z"/>
+      <path d="M150 440 L166 436 L168 448 L152 452 Z"/>
+    </g>
+    <!-- label plate -->
+    <rect x="200" y="395" width="120" height="50" rx="3" fill="#f1ead8" stroke="#3d2a22" stroke-width="2"/>
+    <g stroke="#3d2a22" stroke-width="2" opacity="0.7">
+      <line x1="215" y1="412" x2="305" y2="412"/>
+      <line x1="215" y1="428" x2="290" y2="428"/>
+    </g>
+    <!-- hinge and lid edge -->
+    <line x1="110" y1="330" x2="430" y2="330" stroke="#3d2a22" stroke-width="3"/>
+  </g>
+
+  <!-- wooden-handled stamp, lying beside pad -->
+  <g>
+    <!-- handle -->
+    <rect x="490" y="382" width="160" height="30" rx="14" fill="#9b6a3c" stroke="#3d2a22" stroke-width="3"/>
+    <rect x="520" y="386" width="8" height="22" fill="#7a5029" opacity="0.6"/>
+    <rect x="560" y="386" width="6" height="22" fill="#7a5029" opacity="0.6"/>
+    <!-- collar -->
+    <rect x="464" y="376" width="30" height="42" rx="4" fill="#5a4e44" stroke="#3d2a22" stroke-width="3"/>
+    <!-- grey-brown rubber head -->
+    <rect x="410" y="368" width="58" height="58" rx="6" fill="#7c6e62" stroke="#3d2a22" stroke-width="3"/>
+    <g fill="#5b5048" opacity="0.7">
+      <circle cx="425" cy="385" r="2.5"/>
+      <circle cx="446" cy="398" r="2.5"/>
+      <circle cx="428" cy="412" r="2.5"/>
+      <circle cx="452" cy="378" r="2"/>
+      <circle cx="418" cy="402" r="2"/>
+    </g>
+    <rect x="418" y="376" width="42" height="42" fill="none" stroke="#5b5048" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- ink pad, lid missing -->
+  <g>
+    <rect x="530" y="478" width="200" height="60" rx="4" fill="#3a3a40" stroke="#1f1f24" stroke-width="3"/>
+    <rect x="544" y="470" width="172" height="20" rx="3" fill="#4d4d55" stroke="#1f1f24" stroke-width="2"/>
+    <ellipse cx="630" cy="470" rx="86" ry="8" fill="#2f4a7a"/>
+    <ellipse cx="630" cy="470" rx="70" ry="5" fill="#3d5b92" opacity="0.8"/>
+    <ellipse cx="612" cy="468" rx="18" ry="3" fill="#1d2f52" opacity="0.7"/>
+    <ellipse cx="655" cy="472" rx="12" ry="2.5" fill="#1d2f52" opacity="0.6"/>
+  </g>
+
+  <!-- ink pad spill mark on table -->
+  <ellipse cx="640" cy="560" rx="28" ry="6" fill="#2f4a7a" opacity="0.35"/>
+
+  <!-- small signature "P." -->
+  <g fill="none" stroke="#3d3a36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M738 752 V774 M738 752 H748 A6 6 0 0 1 748 764 H738"/>
+  </g>
+  <circle cx="754" cy="773" r="2.5" fill="#3d3a36"/>
+</svg>
