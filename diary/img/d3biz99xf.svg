@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="teapotClip">
+      <circle cx="600" cy="492" r="58"/>
+    </clipPath>
+  </defs>
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe4"/>
+  <!-- wall of the café -->
+  <rect x="60" y="60" width="680" height="480" fill="#e6dccb" stroke="#2a2a2a" stroke-width="4"/>
+  <!-- wall plaster marks -->
+  <path d="M90 120 Q120 110 150 125" fill="none" stroke="#c9bca4" stroke-width="3"/>
+  <path d="M600 380 Q640 370 670 390" fill="none" stroke="#c9bca4" stroke-width="3"/>
+  <!-- nail -->
+  <circle cx="400" cy="168" r="6" fill="#555" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- clock, hung slightly crooked -->
+  <g transform="rotate(-8 400 330)">
+    <!-- hanging line -->
+    <line x1="400" y1="172" x2="400" y2="180" stroke="#2a2a2a" stroke-width="3"/>
+    <!-- wooden case -->
+    <circle cx="400" cy="330" r="152" fill="#8a5a33" stroke="#2a2a2a" stroke-width="5"/>
+    <circle cx="400" cy="330" r="140" fill="none" stroke="#5c3a1e" stroke-width="4"/>
+    <!-- white face -->
+    <circle cx="400" cy="330" r="118" fill="#fbfaf5" stroke="#2a2a2a" stroke-width="4"/>
+    <!-- ticks -->
+    <g stroke="#2a2a2a" stroke-width="4" stroke-linecap="round">
+      <line x1="400" y1="222" x2="400" y2="236"/>
+      <line x1="508" y1="330" x2="494" y2="330"/>
+      <line x1="400" y1="438" x2="400" y2="424"/>
+      <line x1="292" y1="330" x2="306" y2="330"/>
+    </g>
+    <g stroke="#2a2a2a" stroke-width="2" stroke-linecap="round">
+      <line x1="456" y1="236" x2="450" y2="246"/>
+      <line x1="492" y1="272" x2="482" y2="278"/>
+      <line x1="492" y1="388" x2="482" y2="382"/>
+      <line x1="456" y1="424" x2="450" y2="414"/>
+      <line x1="344" y1="424" x2="350" y2="414"/>
+      <line x1="308" y1="388" x2="318" y2="382"/>
+      <line x1="308" y1="272" x2="318" y2="278"/>
+      <line x1="344" y1="236" x2="350" y2="246"/>
+    </g>
+    <!-- hands -->
+    <line x1="400" y1="330" x2="430" y2="382" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round"/>
+    <line x1="400" y1="330" x2="410" y2="236" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="400" cy="330" r="8" fill="#1a1a1a"/>
+  </g>
+  <!-- counter -->
+  <rect x="60" y="540" width="680" height="200" fill="#7a4b26" stroke="#2a2a2a" stroke-width="4"/>
+  <rect x="60" y="540" width="680" height="16" fill="#9c6434" stroke="#2a2a2a" stroke-width="4"/>
+  <g stroke="#5c3a1e" stroke-width="3" fill="none">
+    <path d="M120 600 L120 730"/>
+    <path d="M260 610 L260 740"/>
+    <path d="M400 600 L400 730"/>
+    <path d="M540 610 L540 740"/>
+    <path d="M680 600 L680 730"/>
+  </g>
+  <!-- teapot on the counter -->
+  <ellipse cx="600" cy="552" rx="70" ry="8" fill="#5c3a1e" opacity="0.5"/>
+  <circle cx="600" cy="492" r="58" fill="#fbfaf5" stroke="#2a2a2a" stroke-width="4"/>
+  <g clip-path="url(#teapotClip)">
+    <rect x="530" y="470" width="140" height="28" fill="#2d5fa8"/>
+  </g>
+  <line x1="530" y1="470" x2="670" y2="470" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="530" y1="498" x2="670" y2="498" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- spout with chip -->
+  <path d="M542 500 Q512 470 500 448 L508 444 Q526 466 552 486 Z" fill="#fbfaf5" stroke="#2a2a2a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M500 448 L503 456 L508 452 L506 446 Z" fill="#e6dccb"/>
+  <!-- handle -->
+  <path d="M652 480 Q684 490 660 524" fill="none" stroke="#2a2a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M652 480 Q684 490 660 524" fill="none" stroke="#fbfaf5" stroke-width="2" stroke-linecap="round"/>
+  <!-- lid, slightly crooked -->
+  <g transform="rotate(-5 600 440)">
+    <ellipse cx="600" cy="440" rx="34" ry="8" fill="#fbfaf5" stroke="#2a2a2a" stroke-width="3"/>
+    <circle cx="600" cy="428" r="7" fill="#2d5fa8" stroke="#2a2a2a" stroke-width="2"/>
+  </g>
+  <!-- fog bands -->
+  <rect x="0" y="600" width="800" height="60" fill="#f4efe4" opacity="0.55"/>
+  <rect x="0" y="40" width="800" height="26" fill="#f4efe4" opacity="0.6"/>
+  <rect x="0" y="720" width="800" height="80" fill="#f4efe4" opacity="0.35"/>
+  <!-- signature -->
+  <text x="752" y="780" font-size="26" fill="#2a2a2a" text-anchor="end">P.</text>
+</svg>
