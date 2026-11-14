@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f4efe3"/>
+  <!-- faint paper grain -->
+  <g fill="#e6dfcd" opacity="0.6">
+    <circle cx="90" cy="120" r="3"/><circle cx="640" cy="90" r="2"/><circle cx="150" cy="520" r="2"/>
+    <circle cx="700" cy="420" r="3"/><circle cx="520" cy="60" r="2"/><circle cx="60" cy="300" r="2"/>
+  </g>
+  <!-- cabinet shadow on floor -->
+  <ellipse cx="400" cy="700" rx="230" ry="20" fill="#8a7f6c" opacity="0.35"/>
+  <!-- cabinet cornice -->
+  <rect x="186" y="96" width="428" height="30" fill="#4a3426" stroke="#1f1712" stroke-width="4"/>
+  <!-- cabinet body -->
+  <rect x="200" y="126" width="400" height="560" fill="#3b2a20" stroke="#1f1712" stroke-width="5"/>
+  <!-- drawer bank inner panel -->
+  <rect x="218" y="140" width="364" height="530" fill="#2f2219" stroke="#1f1712" stroke-width="3"/>
+  <!-- drawers: 4 columns x 6 rows -->
+  <g fill="#4d3a2c" stroke="#1f1712" stroke-width="3">
+    <rect x="228" y="148" width="80" height="74"/>
+    <rect x="318" y="148" width="80" height="74"/>
+    <rect x="408" y="148" width="80" height="74"/>
+    <rect x="498" y="148" width="80" height="74"/>
+
+    <rect x="228" y="312" width="80" height="74"/>
+    <rect x="318" y="312" width="80" height="74"/>
+    <rect x="498" y="312" width="80" height="74"/>
+
+    <rect x="228" y="394" width="80" height="74"/>
+    <rect x="318" y="394" width="80" height="74"/>
+    <rect x="408" y="394" width="80" height="74"/>
+    <rect x="498" y="394" width="80" height="74"/>
+
+    <rect x="228" y="476" width="80" height="74"/>
+    <rect x="318" y="476" width="80" height="74"/>
+    <rect x="408" y="476" width="80" height="74"/>
+    <rect x="498" y="476" width="80" height="74"/>
+
+    <rect x="228" y="558" width="80" height="74"/>
+    <rect x="318" y="558" width="80" height="74"/>
+    <rect x="408" y="558" width="80" height="74"/>
+    <rect x="498" y="558" width="80" height="74"/>
+  </g>
+  <!-- empty slot where the open drawer came from -->
+  <rect x="408" y="230" width="80" height="74" fill="#140e0a" stroke="#1f1712" stroke-width="3"/>
+  <!-- brass pulls on closed drawers -->
+  <g fill="#c9a24a" stroke="#6b5222" stroke-width="2">
+    <circle cx="268" cy="170" r="5"/><circle cx="358" cy="170" r="5"/><circle cx="448" cy="170" r="5"/><circle cx="538" cy="170" r="5"/>
+    <circle cx="268" cy="334" r="5"/><circle cx="358" cy="334" r="5"/><circle cx="538" cy="334" r="5"/>
+    <circle cx="268" cy="416" r="5"/><circle cx="358" cy="416" r="5"/><circle cx="448" cy="416" r="5"/><circle cx="538" cy="416" r="5"/>
+    <circle cx="268" cy="498" r="5"/><circle cx="358" cy="498" r="5"/><circle cx="448" cy="498" r="5"/><circle cx="538" cy="498" r="5"/>
+    <circle cx="268" cy="580" r="5"/><circle cx="358" cy="580" r="5"/><circle cx="448" cy="580" r="5"/><circle cx="538" cy="580" r="5"/>
+  </g>
+  <!-- open drawer, hanging out and dropped at the front -->
+  <polygon points="408,230 488,230 508,252 428,252" fill="#1a130e" stroke="#1f1712" stroke-width="3"/>
+  <rect x="418" y="252" width="80" height="74" fill="#5a4330" stroke="#1f1712" stroke-width="4"/>
+  <rect x="418" y="252" width="80" height="10" fill="#3b2a20"/>
+  <polygon points="488,252 508,274 508,348 488,326" fill="#3b2a20" stroke="#1f1712" stroke-width="3"/>
+  <circle cx="458" cy="286" r="6" fill="#d8b25c" stroke="#6b5222" stroke-width="2"/>
+  <!-- cobbles -->
+  <g fill="#b8ad98" stroke="#6e6453" stroke-width="2">
+    <ellipse cx="170" cy="735" rx="30" ry="10"/>
+    <ellipse cx="260" cy="750" rx="36" ry="11"/>
+    <ellipse cx="360" cy="738" rx="30" ry="10"/>
+    <ellipse cx="470" cy="752" rx="34" ry="11"/>
+    <ellipse cx="580" cy="736" rx="30" ry="10"/>
+    <ellipse cx="650" cy="760" rx="26" ry="9"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#e9e4d8" opacity="0.85">
+    <rect x="0" y="600" width="800" height="36"/>
+    <rect x="0" y="650" width="800" height="28" opacity="0.7"/>
+  </g>
+  <g fill="#f4efe3" opacity="0.8">
+    <ellipse cx="120" cy="640" rx="140" ry="16"/>
+    <ellipse cx="690" cy="620" rx="150" ry="18"/>
+  </g>
+  <!-- ink signature -->
+  <text x="752" y="780" font-size="20" fill="#2a2420">P.</text>
+</svg>
