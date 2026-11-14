@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect x="0" y="0" width="800" height="800" fill="#f3eee2"/>
+  <!-- wall -->
+  <rect x="40" y="40" width="720" height="480" fill="#e4dccb" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- grimy window with pale grey light -->
+  <rect x="120" y="80" width="560" height="230" fill="#cfd4d6" stroke="#1d1d1d" stroke-width="3"/>
+  <line x1="120" y1="195" x2="680" y2="195" stroke="#1d1d1d" stroke-width="3"/>
+  <line x1="400" y1="80" x2="400" y2="310" stroke="#1d1d1d" stroke-width="3"/>
+  <ellipse cx="200" cy="150" rx="70" ry="30" fill="#aeb5b8" opacity="0.5"/>
+  <ellipse cx="600" cy="250" rx="90" ry="40" fill="#aeb5b8" opacity="0.5"/>
+  <ellipse cx="520" cy="130" rx="50" ry="20" fill="#9ba3a7" opacity="0.4"/>
+  <path d="M140 260 Q200 230 260 270" stroke="#9ba3a7" stroke-width="6" fill="none" opacity="0.5"/>
+  <!-- sink basin -->
+  <path d="M340 380 L460 380 Q455 420 400 420 Q345 420 340 380 Z" fill="#f7f5ef" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- faucet and drip -->
+  <path d="M400 250 L400 318 Q400 330 412 330" fill="none" stroke="#1d1d1d" stroke-width="8"/>
+  <path d="M400 250 L400 318 Q400 330 412 330" fill="none" stroke="#7d8a92" stroke-width="4"/>
+  <path d="M400 340 Q392 352 400 362 Q408 352 400 340 Z" fill="#4f6f86" stroke="#1d1d1d" stroke-width="2"/>
+  <ellipse cx="400" cy="384" rx="5" ry="7" fill="#4f6f86" stroke="#1d1d1d" stroke-width="2"/>
+  <ellipse cx="400" cy="410" rx="22" ry="5" fill="none" stroke="#4f6f86" stroke-width="2"/>
+  <!-- counter -->
+  <rect x="60" y="520" width="680" height="200" fill="#6d6253" stroke="#1d1d1d" stroke-width="3"/>
+  <rect x="60" y="506" width="680" height="16" fill="#a39477" stroke="#1d1d1d" stroke-width="3"/>
+  <!-- object 1: heavy brass-coloured box with keys -->
+  <rect x="110" y="470" width="190" height="36" fill="#b8a04a" stroke="#1d1d1d" stroke-width="3"/>
+  <polygon points="110,470 140,430 290,430 300,470" fill="#c7b25c" stroke="#1d1d1d" stroke-width="3"/>
+  <g fill="#1d1d1d">
+    <rect x="150" y="440" width="10" height="7"/><rect x="166" y="440" width="10" height="7"/><rect x="182" y="440" width="10" height="7"/><rect x="198" y="440" width="10" height="7"/><rect x="214" y="440" width="10" height="7"/><rect x="230" y="440" width="10" height="7"/><rect x="246" y="440" width="10" height="7"/><rect x="262" y="440" width="10" height="7"/>
+    <rect x="156" y="452" width="10" height="7"/><rect x="172" y="452" width="10" height="7"/><rect x="188" y="452" width="10" height="7"/><rect x="204" y="452" width="10" height="7"/><rect x="220" y="452" width="10" height="7"/><rect x="236" y="452" width="10" height="7"/><rect x="252" y="452" width="10" height="7"/><rect x="268" y="452" width="10" height="7"/>
+  </g>
+  <rect x="116" y="504" width="180" height="16" fill="#8a7a48" stroke="#1d1d1d" stroke-width="3"/>
+  <line x1="120" y1="512" x2="200" y2="512" stroke="#1d1d1d" stroke-width="2"/>
+  <!-- object 2: flat paddle with long handle, leaning -->
+  <g transform="rotate(-12 330 520)">
+    <rect x="325" y="330" width="10" height="190" fill="#5a4632" stroke="#1d1d1d" stroke-width="2"/>
+    <rect x="305" y="200" width="50" height="135" rx="22" fill="#ebe7dd" stroke="#1d1d1d" stroke-width="3"/>
+    <ellipse cx="318" cy="318" rx="8" ry="4" fill="#3a2e24"/>
+    <ellipse cx="337" cy="326" rx="7" ry="3" fill="#3a2e24"/>
+    <ellipse cx="327" cy="306" rx="5" ry="3" fill="#3a2e24"/>
+  </g>
+  <!-- object 3: wide white bowl with blue rim, cracked -->
+  <path d="M470 500 Q480 545 535 548 Q590 545 600 500 Z" fill="#f7f5ef" stroke="#1d1d1d" stroke-width="3"/>
+  <ellipse cx="535" cy="500" rx="65" ry="13" fill="#2b5ea8" stroke="#1d1d1d" stroke-width="3"/>
+  <ellipse cx="535" cy="502" rx="54" ry="8" fill="#e6dfcc"/>
+  <polyline points="500,506 510,528 502,542" fill="none" stroke="#1d1d1d" stroke-width="2.5"/>
+  <!-- object 4: galvanised cylinder with dents and dried drips -->
+  <rect x="640" y="380" width="80" height="140" fill="#b9c0c4" stroke="#1d1d1d" stroke-width="3"/>
+  <ellipse cx="680" cy="380" rx="40" ry="11" fill="#dfe4e6" stroke="#1d1d1d" stroke-width="3"/>
+  <path d="M650 384 L660 392 L672 383" fill="none" stroke="#1d1d1d" stroke-width="2"/>
+  <path d="M700 374 L708 388" fill="none" stroke="#1d1d1d" stroke-width="2"/>
+  <g fill="#1d1d1d">
+    <path d="M655 392 q3 0 3 8 v12 q0 3 -3 3 q-3 0 -3 -3 v-12 q0 -8 3 -8 z"/>
+    <path d="M690 392 q2.5 0 2.5 6 v20 q0 3 -2.5 3 q-2.5 0 -2.5 -3 v-20 q0 -6 2.5 -6 z"/>
+    <path d="M706 398 q2 0 2 5 v9 q0 2 -2 2 q-2 0 -2 -2 v-9 q0 -5 2 -5 z"/>
+  </g>
+  <!-- title mark -->
+  <text x="752" y="782" font-family="serif" font-size="22" fill="#1d1d1d" text-anchor="end">P.</text>
+</svg>
