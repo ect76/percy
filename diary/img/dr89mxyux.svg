@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#f4efe3"/>
+  <!-- cottage wall -->
+  <rect x="50" y="50" width="700" height="600" fill="#e4d9c3" stroke="#2b2622" stroke-width="3"/>
+  <!-- faint plaster marks -->
+  <path d="M60 120 q20 -10 40 0 M600 90 q25 8 50 0 M70 560 q30 -6 55 4" fill="none" stroke="#c7b9a0" stroke-width="2"/>
+
+  <!-- shelves: three bare planks -->
+  <g stroke="#2b2622" stroke-width="3" fill="#8b6b4a">
+    <rect x="90" y="220" width="290" height="14"/>
+    <rect x="90" y="340" width="290" height="14"/>
+    <rect x="90" y="460" width="290" height="14"/>
+  </g>
+  <g fill="#5e4632">
+    <rect x="98" y="234" width="10" height="40"/>
+    <rect x="368" y="234" width="10" height="40"/>
+    <rect x="98" y="354" width="10" height="40"/>
+    <rect x="368" y="354" width="10" height="40"/>
+    <rect x="98" y="474" width="10" height="40"/>
+    <rect x="368" y="474" width="10" height="40"/>
+  </g>
+  <!-- darkened marks where nothing sits -->
+  <g fill="#b9a78a" opacity="0.7">
+    <rect x="110" y="202" width="80" height="16"/>
+    <rect x="250" y="202" width="60" height="16"/>
+    <rect x="200" y="322" width="90" height="16"/>
+    <rect x="110" y="442" width="120" height="16"/>
+  </g>
+
+  <!-- sprout tin on middle shelf -->
+  <g stroke="#2b2622" stroke-width="3">
+    <rect x="130" y="270" width="78" height="70" fill="#c4653c"/>
+    <ellipse cx="169" cy="270" rx="39" ry="8" fill="#a8502c"/>
+    <rect x="142" y="292" width="54" height="30" fill="#f1e6cc"/>
+  </g>
+  <path d="M150 307 q8 -10 16 0 q8 -10 16 0 q8 -10 16 0" fill="none" stroke="#5a7d46" stroke-width="3"/>
+
+  <!-- window onto lane -->
+  <rect x="430" y="150" width="240" height="260" fill="#dfe5e3" stroke="#2b2622" stroke-width="3"/>
+  <!-- faded cottages in fog -->
+  <g fill="#9aa3a2" opacity="0.55">
+    <rect x="445" y="230" width="50" height="60"/>
+    <polygon points="440,230 470,205 500,230"/>
+    <rect x="520" y="222" width="60" height="68"/>
+    <polygon points="515,222 550,195 585,222"/>
+  </g>
+  <!-- fog bands -->
+  <g fill="#f6f8f7" opacity="0.6">
+    <rect x="432" y="250" width="236" height="30"/>
+    <rect x="432" y="330" width="236" height="40"/>
+  </g>
+  <!-- lane of cobbles -->
+  <path d="M432 350 L668 350 L668 408 L432 408 Z" fill="#b8b0a2"/>
+  <g fill="#8f877b" stroke="#2b2622" stroke-width="1">
+    <circle cx="450" cy="362" r="7"/><circle cx="478" cy="360" r="7"/><circle cx="508" cy="364" r="7"/>
+    <circle cx="540" cy="361" r="7"/><circle cx="572" cy="365" r="7"/><circle cx="604" cy="361" r="7"/>
+    <circle cx="636" cy="364" r="7"/><circle cx="462" cy="386" r="7"/><circle cx="494" cy="388" r="7"/>
+    <circle cx="526" cy="385" r="7"/><circle cx="558" cy="389" r="7"/><circle cx="590" cy="386" r="7"/>
+    <circle cx="622" cy="388" r="7"/>
+  </g>
+  <!-- window frame -->
+  <path d="M550 150 V410 M430 280 H670" stroke="#2b2622" stroke-width="5"/>
+
+  <!-- windowsill -->
+  <rect x="410" y="410" width="280" height="22" fill="#8a7a64" stroke="#2b2622" stroke-width="3"/>
+
+  <!-- seed tin on sill -->
+  <g stroke="#2b2622" stroke-width="3">
+    <rect x="466" y="330" width="62" height="80" fill="#6f8f5e"/>
+    <ellipse cx="497" cy="330" rx="31" ry="8" fill="#56734a"/>
+    <rect x="478" y="354" width="38" height="28" fill="#f1e6cc"/>
+  </g>
+
+  <!-- morning fog over the lower room -->
+  <rect x="50" y="520" width="700" height="130" fill="#f4f6f5" opacity="0.45"/>
+  <rect x="50" y="600" width="700" height="50" fill="#f4f6f5" opacity="0.35"/>
+
+  <!-- signature -->
+  <text x="718" y="772" font-family="serif" font-size="24" fill="#2b2622">P.</text>
+</svg>
