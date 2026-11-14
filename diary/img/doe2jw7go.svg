@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- paper -->
+  <rect x="0" y="0" width="800" height="800" fill="#efe7d4"/>
+
+  <!-- distant fog-dimmed houses -->
+  <g fill="#b9b2a4" stroke="#2a2320" stroke-width="2" opacity="0.55">
+    <path d="M40,520 L40,430 L90,390 L140,430 L140,520 Z"/>
+    <path d="M620,500 L620,410 L670,370 L720,410 L720,500 Z"/>
+    <path d="M700,540 L700,465 L740,435 L780,465 L780,540 Z"/>
+  </g>
+
+  <!-- fog bands -->
+  <g fill="#f8f4ea" opacity="0.6">
+    <ellipse cx="180" cy="300" rx="260" ry="36"/>
+    <ellipse cx="640" cy="260" rx="240" ry="30"/>
+    <ellipse cx="400" cy="560" rx="420" ry="40"/>
+    <ellipse cx="120" cy="470" rx="200" ry="28"/>
+  </g>
+
+  <!-- lane: cobbled ground -->
+  <path d="M0,690 L800,690 L800,800 L0,800 Z" fill="#c9bfa8" stroke="#2a2320" stroke-width="2.5"/>
+  <g fill="none" stroke="#2a2320" stroke-width="1.8" opacity="0.8">
+    <ellipse cx="60" cy="720" rx="34" ry="13"/>
+    <ellipse cx="150" cy="745" rx="40" ry="14"/>
+    <ellipse cx="260" cy="722" rx="36" ry="12"/>
+    <ellipse cx="350" cy="760" rx="42" ry="14"/>
+    <ellipse cx="470" cy="728" rx="38" ry="13"/>
+    <ellipse cx="560" cy="770" rx="40" ry="14"/>
+    <ellipse cx="680" cy="735" rx="40" ry="13"/>
+    <ellipse cx="760" cy="775" rx="34" ry="12"/>
+    <ellipse cx="210" cy="782" rx="30" ry="10"/>
+    <ellipse cx="620" cy="700" rx="26" ry="9"/>
+  </g>
+
+  <!-- halo -->
+  <circle cx="400" cy="300" r="120" fill="#f6e2a0" opacity="0.55"/>
+  <circle cx="400" cy="300" r="120" fill="none" stroke="#c99a2b" stroke-width="12"/>
+  <circle cx="400" cy="300" r="120" fill="none" stroke="#2a2320" stroke-width="2"/>
+  <circle cx="400" cy="300" r="106" fill="none" stroke="#2a2320" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- pedestal -->
+  <polygon points="300,600 500,600 545,700 255,700" fill="#d9a520" stroke="#2a2320" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M300,625 H500 M285,655 H515" stroke="#2a2320" stroke-width="1.8" fill="none" opacity="0.6"/>
+
+  <!-- broad lap-sitting body -->
+  <ellipse cx="400" cy="520" rx="128" ry="98" fill="#e9b93f" stroke="#2a2320" stroke-width="3"/>
+
+  <!-- saffron cloth draped over shoulders and lap -->
+  <path d="M290,455 Q400,415 510,455 L530,600 Q400,640 270,600 Z" fill="#e8772a" stroke="#2a2320" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M330,470 Q345,540 320,600 M470,470 Q455,540 480,600 M400,450 Q398,530 400,615" fill="none" stroke="#2a2320" stroke-width="2" opacity="0.55"/>
+
+  <!-- hands resting in lap -->
+  <ellipse cx="350" cy="545" rx="30" ry="18" fill="#e9b93f" stroke="#2a2320" stroke-width="2.5"/>
+  <ellipse cx="450" cy="545" rx="30" ry="18" fill="#e9b93f" stroke="#2a2320" stroke-width="2.5"/>
+
+  <!-- neck shadow -->
+  <path d="M352,362 Q400,384 448,362 L452,400 Q400,420 348,400 Z" fill="#c99a2b" opacity="0.6"/>
+
+  <!-- round head with small crown bump -->
+  <circle cx="400" cy="300" r="68" fill="#eac04f" stroke="#2a2320" stroke-width="3"/>
+  <circle cx="400" cy="232" r="12" fill="#eac04f" stroke="#2a2320" stroke-width="2.5"/>
+
+  <!-- half-closed eyes -->
+  <path d="M358,302 Q372,312 386,302" fill="none" stroke="#2a2320" stroke-width="3" stroke-linecap="round"/>
+  <path d="M414,302 Q428,312 442,302" fill="none" stroke="#2a2320" stroke-width="3" stroke-linecap="round"/>
+  <path d="M358,298 Q372,296 386,298 M414,298 Q428,296 442,298" fill="none" stroke="#2a2320" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- nose and serene smile -->
+  <path d="M396,318 Q400,330 404,318" fill="none" stroke="#2a2320" stroke-width="2" stroke-linecap="round"/>
+  <path d="M378,341 Q400,354 422,341" fill="none" stroke="#2a2320" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- small penguin for scale (one third of the figure) -->
+  <ellipse cx="130" cy="635" rx="35" ry="62" fill="#262626" stroke="#2a2320" stroke-width="2.5"/>
+  <ellipse cx="132" cy="648" rx="23" ry="46" fill="#f6f4ee"/>
+  <polygon points="108,590 152,590 130,600" fill="#e0a030" stroke="#2a2320" stroke-width="1.5"/>
+  <ellipse cx="116" cy="696" rx="12" ry="5" fill="#e0a030"/>
+  <ellipse cx="146" cy="696" rx="12" ry="5" fill="#e0a030"/>
+
+  <!-- signature mark: P. -->
+  <path d="M735,735 V765 M735,735 H748 Q758,735 758,745 Q758,755 748,755 H735" fill="none" stroke="#2a2320" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="767" cy="765" r="3" fill="#2a2320"/>
+</svg>
